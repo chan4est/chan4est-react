@@ -2,7 +2,7 @@ export default function Blog() {
   return (
     <div className="flex min-h-screen flex-col items-center p-l-10 p-r-10">
       <h1 className="flex items-center justify-center">
-        Chandler's Personal Blog
+        Chandler&apos;s Personal Blog
       </h1>
       <h2>Egypt 🇪🇬</h2>
       <br></br>
@@ -15,19 +15,19 @@ export default function Blog() {
         of the countries my dad visited during his youth and always praised so
         much while my sister and I were growing up. There was a magnet of the
         pyramids on our fridge which after looking at it almost every day during
-        my childhood, subtly pushed me to go and see them for myself. Now, I’m
-        finally here!
+        my childhood, subtly pushed me to go and see them for myself. Now,
+        I&apos;m finally here!
         <br></br>
         <br></br>
         Egypt was the first country where I hired a private guide! I wanted to
-        treat myself to absorbing as much history as I possibly could and I’m
-        happy I did so with Egyptologist @guide. He made site-seeing engaging,
-        intriguing, and effortless. I learned more than I would’ve ever done
-        solo or with a group. It was the deluxe Egypt experience! I did make
-        sure to have an extra day at the pyramids just to roam around by myself
-        though. It was funny having all the hustlers trying to sell me a camel
-        ride only to see them turn around disappointed once I showed them my
-        photo. All part of the fun 😉
+        treat myself to absorbing as much history as I possibly could and
+        I&apos;m happy I did so with Egyptologist @guide. He made site-seeing
+        engaging, intriguing, and effortless. I learned more than I
+        would&apos;ve ever done solo or with a group. It was the deluxe Egypt
+        experience! I did make sure to have an extra day at the pyramids just to
+        roam around by myself though. It was funny having all the hustlers
+        trying to sell me a camel ride only to see them turn around disappointed
+        once I showed them my photo. All part of the fun 😉
         <br></br>
         <br></br>
         While I was a tourist in the morning, I was a local by night. My friend

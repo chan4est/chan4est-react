@@ -113,10 +113,10 @@ export default function Home() {
             </div>
           </div>
           <p className="pt-5">
-            I'm a full-stack software engineer who's built a variety of software
-            ranging from high throughput/low latency APIs, highly scaleable data
-            pipelines, fully automated testing frameworks, to beautiful
-            user-driven websites, and easy-to-use mobile applications.
+            I&apos;m a full-stack software engineer who&apos;s built a variety
+            of software ranging from high throughput/low latency APIs, highly
+            scaleable data pipelines, fully automated testing frameworks, to
+            beautiful user-driven websites, and easy-to-use mobile applications.
           </p>
           <p className="pt-5">
             What makes me most fullfilled as an engineer is seeing an idea go
@@ -124,7 +124,7 @@ export default function Home() {
             application!
           </p>
           <p className="pt-5">
-            When I’m not working, I’m usually attending a{" "}
+            When I&apos;m not working, I&apos;m usually attending a{" "}
             <a
               href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
               className="underline"
@@ -145,7 +145,7 @@ export default function Home() {
             !
           </p>
           <p className="pt-5">
-            Please drop me a line if you're interested in working together!
+            Please drop me a line if you&apos;re interested in working together!
           </p>
 
           <div
