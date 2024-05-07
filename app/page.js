@@ -3,30 +3,136 @@ import chanPhoto from "../public/me.webp";
 import techStack from "../public/tech-stack.png";
 import Link from "next/link";
 import { techStackData } from "./lib/techStackData.js";
+import { techStackDataSorted } from "./lib/techStackDataSorted.js";
 import { blurbs } from "./lib/blurbs.js";
 
 function StackIcon({ stackImg, stackImgAlt, stackText, stackLink }) {
   return (
-    <div className="flex pt-5 hover:scale-110">
-      <a href={stackLink}>
-        <div className="flex justify-center items-center">
-          <Image
-            src={`/tech-stack-logos/${stackImg}.webp`}
-            height={50}
-            width={50}
-            alt={stackImgAlt}
-            className="z-10"
-          ></Image>
-          <div className="">
-            <span
-              className={`relative -left-2 pl-3 pr-6 pt-1 pb-1 text-l font-bold `}
-            >
-              {stackText}
-            </span>
+    <a
+      href={stackLink}
+      className="flex flex-col pt-5 justify-center items-center text-center hover:scale-125"
+    >
+      <div className="w-10 h-10">
+        <Image
+          src={`/tech-stack-logos/${stackImg}.webp`}
+          alt={stackImgAlt}
+          width={100}
+          height={100}
+          className=""
+        />
+      </div>
+      <span className={"hidden sm:block sm:text-xs"}>{stackText}</span>
+    </a>
+  );
+}
+
+function AboutSection({}) {
+  return (
+    <section id="intro" className="flex flex-col">
+      <div
+        id="picAndInfo"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
+        <a href="/blog/2023/tokyo" className="hover:scale-105">
+          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
+            <Image
+              src={chanPhoto}
+              alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
+              className="rounded-xl"
+            ></Image>
           </div>
+        </a>
+        <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
+          <ul className="">
+            <li>
+              <b>Name:</b> Chandler Forrest
+            </li>
+            <li>
+              <b>Location:</b> California (GMT -07:00)
+            </li>
+            <li>
+              <b>Years of Experience:</b> 5 Years
+            </li>
+            <li>
+              <b>Credentials:</b> B.S. Computer Science
+            </li>
+            <li>
+              <b>School:</b> UC Santa Barbara
+            </li>
+            <li>
+              <b>Favorite Languages:</b> Python, JavaScript, Java
+            </li>
+          </ul>
         </div>
-      </a>
-    </div>
+      </div>
+      <p className="pt-5">
+        I&apos;m a full-stack software engineer who&apos;s built a variety of
+        software ranging from high throughput/low latency APIs, highly scaleable
+        data pipelines, fully automated testing frameworks, to beautiful
+        user-driven websites, and easy-to-use mobile applications.
+      </p>
+      <p className="pt-5">
+        What makes me most fullfilled as an engineer is seeing an idea go from a
+        proof of concept to a fully featured production-ready application!
+      </p>
+      <p className="pt-5">
+        When I&apos;m not working, I&apos;m usually attending a{" "}
+        <a
+          href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
+          className="underline"
+        >
+          concert/music festival
+        </a>
+        ,{" "}
+        <a href="https://howlongtobeat.com/user/chan4est" className="underline">
+          playing video games
+        </a>
+        , or{" "}
+        <a href="/blog/" className="underline">
+          traveling abroad
+        </a>
+        !
+      </p>
+      <p className="pt-5">
+        Please drop me a line if you&apos;re interested in working together!
+      </p>
+
+      <div
+        id="contact"
+        className="flex flex-row items-center justify-center gap-5 pt-5"
+      >
+        <a
+          href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
+          className="hover:scale-125"
+        >
+          <Image
+            src={`/link-logos/gmail.webp`}
+            height={35}
+            width={35}
+            alt="GMail Logo"
+          ></Image>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chan4est/"
+          className="hover:scale-125"
+        >
+          <Image
+            src={`/link-logos/linkedin.webp`}
+            height={35}
+            width={35}
+            alt="LinkedIn Logo"
+          ></Image>
+        </a>
+        <a href="https://github.com/chan4est/" className="hover:scale-125">
+          <Image
+            src={`/link-logos/github.webp`}
+            height={35}
+            width={35}
+            alt="GitHub Logo"
+          ></Image>
+        </a>
+      </div>
+    </section>
   );
 }
 
@@ -34,6 +140,71 @@ export default function Home() {
   let techStackList = [];
   techStackData.forEach((item) => {
     techStackList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let languageList = [];
+  techStackDataSorted.languages.forEach((item) => {
+    languageList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let frameworkList = [];
+  techStackDataSorted.frameworks.forEach((item) => {
+    frameworkList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let databaseList = [];
+  techStackDataSorted.databases.forEach((item) => {
+    databaseList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let infrastructureList = [];
+  techStackDataSorted.infrastructure.forEach((item) => {
+    infrastructureList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let toolsList = [];
+  techStackDataSorted.tools.forEach((item) => {
+    toolsList.push(
       <StackIcon
         key={item.img}
         stackImg={item.img}
@@ -75,117 +246,9 @@ export default function Home() {
             </li>
           </ul>
         </nav> */}
-        <section id="intro" className="flex flex-col">
-          <div
-            id="picAndInfo"
-            className="flex flex-col md:flex-row items-center justify-center"
-          >
-            <a href="/blog/2023/tokyo" className="hover:scale-105">
-              <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
-                <Image
-                  src={chanPhoto}
-                  alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
-                  className="rounded-xl"
-                ></Image>
-              </div>
-            </a>
-            <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
-              <ul className="">
-                <li>
-                  <b>Name:</b> Chandler Forrest
-                </li>
-                <li>
-                  <b>Location:</b> California (GMT -07:00)
-                </li>
-                <li>
-                  <b>Years of Experience:</b> 5 Years
-                </li>
-                <li>
-                  <b>Credentials:</b> B.S. Computer Science
-                </li>
-                <li>
-                  <b>School:</b> UC Santa Barbara
-                </li>
-                <li>
-                  <b>Favorite Languages:</b> Python, JavaScript, Java
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p className="pt-5">
-            I&apos;m a full-stack software engineer who&apos;s built a variety
-            of software ranging from high throughput/low latency APIs, highly
-            scaleable data pipelines, fully automated testing frameworks, to
-            beautiful user-driven websites, and easy-to-use mobile applications.
-          </p>
-          <p className="pt-5">
-            What makes me most fullfilled as an engineer is seeing an idea go
-            from a proof of concept to a fully featured production-ready
-            application!
-          </p>
-          <p className="pt-5">
-            When I&apos;m not working, I&apos;m usually attending a{" "}
-            <a
-              href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
-              className="underline"
-            >
-              concert/music festival
-            </a>
-            ,{" "}
-            <a
-              href="https://howlongtobeat.com/user/chan4est"
-              className="underline"
-            >
-              playing video games
-            </a>
-            , or{" "}
-            <a href="/blog/" className="underline">
-              traveling abroad
-            </a>
-            !
-          </p>
-          <p className="pt-5">
-            Please drop me a line if you&apos;re interested in working together!
-          </p>
-
-          <div
-            id="contact"
-            className="flex flex-row items-center justify-center gap-5 pt-5"
-          >
-            <a
-              href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
-              className="hover:scale-110"
-            >
-              <Image
-                src={`/link-logos/gmail.webp`}
-                height={35}
-                width={35}
-                alt="GMail Logo"
-              ></Image>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/chan4est/"
-              className="hover:scale-110"
-            >
-              <Image
-                src={`/link-logos/linkedin.webp`}
-                height={35}
-                width={35}
-                alt="LinkedIn Logo"
-              ></Image>
-            </a>
-            <a href="https://github.com/chan4est/" className="hover:scale-110">
-              <Image
-                src={`/link-logos/github.webp`}
-                height={35}
-                width={35}
-                alt="GitHub Logo"
-              ></Image>
-            </a>
-          </div>
-        </section>
-        {/* <section id="tech-stack">
-          <div className="flex justify-center pt-5" id="techstack">
+        <AboutSection />
+        <section id="tech-stack">
+          <div className="flex pt-5" id="techstack-header">
             <h3>Tech Stack</h3>
             <Image
               src={techStack}
@@ -194,10 +257,34 @@ export default function Home() {
               alt="Tech Stack Vector Logo"
             ></Image>
           </div>
-          <p className="pl-12 pr-12">{blurbs.stack}</p>
-          <div className="grid grid-cols-6 grid-rows-4">{techStackList}</div>
+          <p className="">{blurbs.stack}</p>
+          <div className="flex justify-center content-center flex-col">
+            {/* <div className="grid grid-cols-6 grid-rows-4 gap-x-5">
+              {techStackList}
+            </div> */}
+            <h5 className="pt-5">Languages</h5>
+            <div className="grid grid-cols-6 grid-rows-1 gap-x-5">
+              {languageList}
+            </div>
+            <h5 className="pt-5">Frameworks</h5>
+            <div className="grid grid-cols-6 grid-rows-1 gap-x-5">
+              {frameworkList}
+            </div>
+            <h5 className="pt-5">Databases</h5>
+            <div className="grid grid-cols-4 grid-rows-1 gap-x-5">
+              {databaseList}
+            </div>
+            <h5 className="pt-5">Infrastructure</h5>
+            <div className="grid grid-cols-6 grid-rows-1 gap-x-5">
+              {infrastructureList}
+            </div>
+            <h5 className="pt-5">Tools</h5>
+            <div className="grid grid-cols-6 grid-rows-2  gap-x-5">
+              {toolsList}
+            </div>
+          </div>
         </section>
-        <section id="projects">
+        {/* <section id="projects">
           <div className="flex justify-center pt-5" id="projects">
             <h3>Projects</h3>
             <Image
