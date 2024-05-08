@@ -12,7 +12,7 @@ function StackIcon({ stackImg, stackImgAlt, stackText, stackLink }) {
       href={stackLink}
       className="flex flex-col pt-5 justify-center items-center text-center hover:scale-125"
     >
-      <div className="w-10 h-10">
+      <div className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14">
         <Image
           src={`/tech-stack-logos/${stackImg}.webp`}
           alt={stackImgAlt}
@@ -21,7 +21,9 @@ function StackIcon({ stackImg, stackImgAlt, stackText, stackLink }) {
           className=""
         />
       </div>
-      <span className={"hidden sm:block sm:text-xs"}>{stackText}</span>
+      <span className={"hidden min-[500px]:block min-[500px]:text-xs"}>
+        {stackText}
+      </span>
     </a>
   );
 }

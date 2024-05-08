@@ -4,8 +4,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "chan4est | Chandler Forrest's Personal Website",
-  description: "My portfolio, blog, and everything else in between!",
-  keywords: ["Chandler Forrest", "chan4est", "software engineer", "creator"],
+  description: "Chandler Forrest's portfolio and blog.",
+  keywords: ["Chandler Forrest", "chan4est", "software engineer", "developer"],
   creator: "Chandler Forrest",
   metadataBase: new URL("https://www.chan4est.com/"),
   alternates: {
@@ -16,7 +16,7 @@ export const metadata = {
   },
   openGraph: {
     title: "chan4est | Chandler Forrest's Personal Website",
-    description: "My portfolio, blog, and everything else in between!",
+    description: "Chandler Forrest's portfolio and blog.",
     url: "https://www.chan4est.com/",
     siteName: "chan4est",
     image: {
