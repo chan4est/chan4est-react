@@ -31,12 +31,6 @@ export const techStackDataSorted = {
       color: "#00000",
     },
     { name: "C++", link: "https://isocpp.org/", img: "cpp", color: "#00000" },
-    // {
-    //   name: "C",
-    //   link: "https://www.open-std.org/jtc1/sc22/wg14/",
-    //   img: "c",
-    //   color: "#00000",
-    // },
   ],
   frameworks: [
     {
@@ -93,7 +87,7 @@ export const techStackDataSorted = {
     },
     {
       name: "MongoDB",
-      link: "https://cassandra.apache.org/_/index.html",
+      link: "https://www.mongodb.com/",
       img: "mongodb",
       color: "#00000",
     },
@@ -151,17 +145,63 @@ export const techStackDataSorted = {
       img: "unix",
       color: "#00000",
     },
-    // {
-    //   name: "VSCode",
-    //   link: "https://git-scm.com/",
-    //   img: "vscode",
-    //   color: "#00000",
-    // },
-    // {
-    //   name: "IntelliJ",
-    //   link: "https://git-scm.com/",
-    //   img: "intellij",
-    //   color: "#00000",
-    // },
+  ],
+  programs: [
+    {
+      name: "VSCode",
+      link: "https://code.visualstudio.com/",
+      img: "vscode",
+      color: "#00000",
+    },
+    {
+      name: "IntelliJ",
+      link: "https://www.jetbrains.com/idea/",
+      img: "intellij",
+      color: "#00000",
+    },
+    {
+      name: "Postman",
+      link: "https://www.postman.com/",
+      img: "postman",
+      color: "#00000",
+    },
+    {
+      name: "PhotoShop",
+      link: "https://www.adobe.com/products/photoshop.html",
+      img: "photoshop",
+      color: "#00000",
+    },
+    {
+      name: "Resolve",
+      link: "https://www.blackmagicdesign.com/products/davinciresolve",
+      img: "resolve",
+      color: "#00000",
+    },
+  ],
+  surface: [
+    {
+      name: "C",
+      link: "https://www.open-std.org/jtc1/sc22/wg14/",
+      img: "c",
+      color: "#00000",
+    },
+    {
+      name: "Perl",
+      link: "https://www.open-std.org/jtc1/sc22/wg14/",
+      img: "c",
+      color: "#00000",
+    },
+    {
+      name: "Go",
+      link: "https://www.open-std.org/jtc1/sc22/wg14/",
+      img: "c",
+      color: "#00000",
+    },
+    {
+      name: "Redis",
+      link: "https://www.open-std.org/jtc1/sc22/wg14/",
+      img: "c",
+      color: "#00000",
+    },
   ],
 };

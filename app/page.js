@@ -1,30 +1,26 @@
 import Image from "next/image";
 import chanPhoto from "../public/me.webp";
-import techStack from "../public/tech-stack.png";
 import Link from "next/link";
-import { techStackData } from "./lib/techStackData.js";
 import { techStackDataSorted } from "./lib/techStackDataSorted.js";
-import { blurbs } from "./lib/blurbs.js";
 
 function StackIcon({ stackImg, stackImgAlt, stackText, stackLink }) {
   return (
-    <a
+    <Link
       href={stackLink}
       className="flex flex-col pt-5 justify-center items-center text-center hover:scale-125"
     >
       <div className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14">
         <Image
-          src={`/tech-stack-logos/${stackImg}.webp`}
+          src={`/tech-icons/${stackImg}.webp`}
           alt={stackImgAlt}
           width={100}
           height={100}
           className=""
+          quality={100}
         />
       </div>
-      <span className={"hidden min-[500px]:block min-[500px]:text-xs"}>
-        {stackText}
-      </span>
-    </a>
+      <span className={"text-xs min-[550px]:text-base"}>{stackText}</span>
+    </Link>
   );
 }
 
@@ -35,7 +31,7 @@ function AboutSection({}) {
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
       >
-        <a href="/blog/2023/tokyo" className="hover:scale-105">
+        <Link href="/blog/2023/tokyo" className="hover:scale-105">
           <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
             <Image
               src={chanPhoto}
@@ -43,7 +39,7 @@ function AboutSection({}) {
               className="rounded-xl"
             ></Image>
           </div>
-        </a>
+        </Link>
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
           <ul className="">
             <li>
@@ -79,20 +75,23 @@ function AboutSection({}) {
       </p>
       <p className="pt-5">
         When I&apos;m not working, I&apos;m usually attending a{" "}
-        <a
+        <Link
           href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
           className="underline"
         >
           concert/music festival
-        </a>
+        </Link>
         ,{" "}
-        <a href="https://howlongtobeat.com/user/chan4est" className="underline">
+        <Link
+          href="https://howlongtobeat.com/user/chan4est"
+          className="underline"
+        >
           playing video games
-        </a>
+        </Link>
         , or{" "}
-        <a href="/blog/" className="underline">
+        <Link href="/blog/" className="underline">
           traveling abroad
-        </a>
+        </Link>
         !
       </p>
       <p className="pt-5">
@@ -103,55 +102,42 @@ function AboutSection({}) {
         id="contact"
         className="flex flex-row items-center justify-center gap-5 pt-5"
       >
-        <a
+        <Link
           href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
           className="hover:scale-125"
         >
           <Image
-            src={`/link-logos/gmail.webp`}
+            src={`/tech-icons/gmail.webp`}
             height={35}
             width={35}
             alt="GMail Logo"
           ></Image>
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.linkedin.com/in/chan4est/"
           className="hover:scale-125"
         >
           <Image
-            src={`/link-logos/linkedin.webp`}
+            src={`/tech-icons/linkedin.webp`}
             height={35}
             width={35}
             alt="LinkedIn Logo"
           ></Image>
-        </a>
-        <a href="https://github.com/chan4est/" className="hover:scale-125">
+        </Link>
+        <Link href="https://github.com/chan4est/" className="hover:scale-125">
           <Image
-            src={`/link-logos/github.webp`}
+            src={`/tech-icons/github.webp`}
             height={35}
             width={35}
             alt="GitHub Logo"
           ></Image>
-        </a>
+        </Link>
       </div>
     </section>
   );
 }
 
 export default function Home() {
-  let techStackList = [];
-  techStackData.forEach((item) => {
-    techStackList.push(
-      <StackIcon
-        key={item.img}
-        stackImg={item.img}
-        stackImgAlt={`${item.name} Logo`}
-        stackText={item.name}
-        stackLink={item.link}
-      />
-    );
-  });
-
   let languageList = [];
   techStackDataSorted.languages.forEach((item) => {
     languageList.push(
@@ -217,19 +203,45 @@ export default function Home() {
     );
   });
 
+  let programsList = [];
+  techStackDataSorted.programs.forEach((item) => {
+    programsList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
+  let surfaceList = [];
+  techStackDataSorted.surface.forEach((item) => {
+    surfaceList.push(
+      <StackIcon
+        key={item.img}
+        stackImg={item.img}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+      />
+    );
+  });
+
   return (
     <main className="flex min-h-screen flex-col items-center p-10 bg-primary-100 leading-relaxed justify-center">
       <div className="max-w-screen-md">
         {/* <nav>
           <ul className="flex items-left text-2xl pb-10 m-2 space-x-10">
             <li>
-              <a href="#">HOME</a>
+              <Link href="#">HOME</Link>
             </li>
             <li>
-              <a href="#techstack">TECH STACK</a>
+              <Link href="#techstack">TECH STACK</Link>
             </li>
             <li>
-              <a href="#projects">PROJECTS</a>
+              <Link href="#projects">PROJECTS</Link>
             </li>
             <li>
               <Link
@@ -241,29 +253,36 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <a href="/blog">BLOG</a>
+              <Link href="/blog">BLOG</Link>
             </li>
             <li>
-              <a href="/">CONTACT</a>
+              <Link href="/">CONTACT</Link>
             </li>
           </ul>
         </nav> */}
         <AboutSection />
         <section id="tech-stack">
-          <div className="flex pt-5" id="techstack-header">
-            <h3>Tech Stack</h3>
-            <Image
-              src={techStack}
-              height={50}
-              width={50}
-              alt="Tech Stack Vector Logo"
-            ></Image>
+          <div
+            className="flex flex-row justify-center items-center pt-5"
+            id="techstack-header"
+          >
+            <h3 className="pr-3">Tech Stack</h3>
+            <div className="w-7 h-7">
+              <Image
+                src={"/header-icons/tech-stack.webp"}
+                alt="Tech Stack Vector Logo"
+                width={50}
+                height={50}
+              ></Image>
+            </div>
           </div>
-          <p className="">{blurbs.stack}</p>
+          <p className="">
+            These are the technologies I&apos;ve used during my professional
+            career. I would feel confident working with them or things adjacent
+            to them daily. Other items that I have experience with but not at a
+            super in depth level are listed at the very bottom.
+          </p>
           <div className="flex justify-center content-center flex-col">
-            {/* <div className="grid grid-cols-6 grid-rows-4 gap-x-5">
-              {techStackList}
-            </div> */}
             <h5 className="pt-5">Languages</h5>
             <div className="grid grid-cols-6 grid-rows-1 gap-x-5">
               {languageList}
@@ -280,9 +299,17 @@ export default function Home() {
             <div className="grid grid-cols-6 grid-rows-1 gap-x-5">
               {infrastructureList}
             </div>
+            <h5 className="pt-5">Programs</h5>
+            <div className="grid grid-cols-5 grid-rows-1 gap-x-5">
+              {programsList}
+            </div>
             <h5 className="pt-5">Tools</h5>
-            <div className="grid grid-cols-6 grid-rows-2  gap-x-5">
+            <div className="grid grid-cols-6 grid-rows-1  gap-x-5">
               {toolsList}
+            </div>
+            <h5 className="pt-5">Surface Level Tech</h5>
+            <div className="grid grid-cols-6 grid-rows-2  gap-x-5">
+              {surfaceList}
             </div>
           </div>
         </section>

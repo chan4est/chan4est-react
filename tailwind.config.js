@@ -81,6 +81,7 @@ module.exports = {
       },
     },
     fontSize: {
+      xs: "0.685rem",
       sm: "0.750rem",
       base: "1rem",
       xl: "1.333rem",
@@ -102,16 +103,6 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
-    extend: {
-      animation: {
-        "axis-tilt": "tilt 1s",
-      },
-      keyframes: {
-        tilt: {
-          "100%": { transform: "rotate(-2deg)" },
-        },
       },
     },
   },
