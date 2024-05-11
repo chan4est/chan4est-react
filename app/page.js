@@ -197,9 +197,8 @@ function TechStackSection({}) {
         </div>
       </div>
       <p className="">
-        These are the technologies I&apos;ve used during my professional career.
-        I would feel confident working with them or things adjacent to them
-        daily.
+        These are the technologies I&apos;ve used during my professional career
+        and would feel confident working with daily.
       </p>
       <div className="flex justify-center content-center flex-col pb-10">
         <h5 className="pt-5">Languages</h5>

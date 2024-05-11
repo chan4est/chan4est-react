@@ -14,7 +14,7 @@ export const projectsList = [
     displayLink: "chan4est.com",
     link: "https://chan4est.com/",
     img: "cf-twitter-image.webp",
-    description: "Chandler Forrest's portfolio and blog.",
+    description: "The same site that you're looking at right now.",
     title: "chan4est | Chandler Forrest's Personal Website",
   },
   {
@@ -60,7 +60,7 @@ export const projectsList = [
     displayLink: "gogaucho.app",
     img: "gogaucho-twitter-image.webp",
     description:
-      "See your schedule, reserve study rooms, view dining menus, and more!",
+      "See your schedule, reserve study rooms, view dining menus and more!",
     title: "GoGaucho | UCSB's Premier Campus App",
   },
   {
@@ -89,7 +89,8 @@ export const projectsList = [
     link: "https://web.archive.org/web/20170124115732/http://crystalsfreshfromkazakus.com/",
     displayLink: "crystalsfreshfromkazakus.com (Archive)",
     img: "crystals-twitter-image.webp",
-    description: "Meme website for the online trading card game Hearthstone.",
+    description:
+      "Meme website for Blizzard's online digital collectible card game Hearthstone.",
     title: "Crystals!! Fresh from Kazakus!",
   },
 ];
