@@ -7,13 +7,13 @@ import { projectsList } from "./lib/projects.js";
 
 function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
   let classNameText = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
-  let tinyText = "text-xs min-[550px]:text-base";
+  let tinyText = "text-xs min-[550px]:text-base min-h-[41px]";
   if (scale == 0.5) {
     classNameText = "w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7";
-    tinyText = "text-xs min-[550px]:text-xs";
+    tinyText = "text-xs min-[550px]:text-xs min-h-[41px]";
   }
   return (
-    <Link
+    <a
       href={stackLink}
       className="flex flex-col justify-center items-center text-center hover:scale-110"
     >
@@ -28,13 +28,13 @@ function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
         />
       </div>
       <span className={tinyText}>{stackText}</span>
-    </Link>
+    </a>
   );
 }
 
 function AboutSection({}) {
   return (
-    <section id="intro" className="flex flex-col">
+    <section id="intro" className="flex flex-col max-w-screen-md  pb-10">
       <div
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
@@ -45,6 +45,7 @@ function AboutSection({}) {
               src={chanPhoto}
               alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
               className="rounded-xl"
+              quality={100}
             ></Image>
           </div>
         </Link>
@@ -83,19 +84,16 @@ function AboutSection({}) {
       </p>
       <p className="pt-5">
         When I&apos;m not working, I&apos;m usually attending a{" "}
-        <Link
+        <a
           href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
           className="underline"
         >
           concert/music festival
-        </Link>
+        </a>
         ,{" "}
-        <Link
-          href="https://howlongtobeat.com/user/chan4est"
-          className="underline"
-        >
+        <a href="https://howlongtobeat.com/user/chan4est" className="underline">
           playing video games
-        </Link>
+        </a>
         , or{" "}
         <Link href="/blog/" className="underline">
           traveling abroad
@@ -110,7 +108,7 @@ function AboutSection({}) {
         id="contact"
         className="flex flex-row items-center justify-center gap-5 pt-5"
       >
-        <Link
+        <a
           href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
           className="hover:scale-125"
         >
@@ -119,9 +117,10 @@ function AboutSection({}) {
             height={35}
             width={35}
             alt="GMail Logo"
+            quality={100}
           ></Image>
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://www.linkedin.com/in/chan4est/"
           className="hover:scale-125"
         >
@@ -130,26 +129,29 @@ function AboutSection({}) {
             height={35}
             width={35}
             alt="LinkedIn Logo"
+            quality={100}
           ></Image>
-        </Link>
-        <Link href="https://github.com/chan4est/" className="hover:scale-125">
+        </a>
+        <a href="https://github.com/chan4est/" className="hover:scale-125">
           <Image
             src={`/tech-icons/github.webp`}
             height={35}
             width={35}
             alt="GitHub Logo"
+            quality={100}
           ></Image>
-        </Link>
+        </a>
       </div>
     </section>
   );
 }
 
 function generateStackIconList(techIconsArr, scale = 1) {
-  let techRowElements = [];
+  // Add components to hash table to maintain the order descripted in the JSON
+  let techHash = new Object();
   techIconsData.forEach((item) => {
     if (techIconsArr.includes(item.img)) {
-      techRowElements.push(
+      techHash[item.img] = (
         <StackIcon
           key={item.img}
           stackImg={item.img}
@@ -160,6 +162,11 @@ function generateStackIconList(techIconsArr, scale = 1) {
         />
       );
     }
+  });
+  // Building the actual list. In order of the JSON.
+  let techRowElements = [];
+  techIconsArr.forEach((item) => {
+    techRowElements.push(techHash[item]);
   });
   return techRowElements;
 }
@@ -173,7 +180,7 @@ function TechStackSection({}) {
   const programsList = generateStackIconList(techStack.programs);
 
   return (
-    <section id="tech-stack">
+    <section id="tech-stack" className="max-w-screen-md">
       <div
         className="flex flex-row justify-center items-center pt-5"
         id="techstack-header"
@@ -185,6 +192,7 @@ function TechStackSection({}) {
             alt="Tech Stack Vector Logo"
             width={50}
             height={50}
+            quality={100}
           ></Image>
         </div>
       </div>
@@ -203,7 +211,7 @@ function TechStackSection({}) {
           {frameworkList}
         </div>
         <h5 className="pt-5">Databases</h5>
-        <div className="grid grid-cols-4 grid-rows-1 gap-x-5 pt-3">
+        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {databaseList}
         </div>
         <h5 className="pt-5">Infrastructure</h5>
@@ -211,7 +219,7 @@ function TechStackSection({}) {
           {infrastructureList}
         </div>
         <h5 className="pt-5">Programs</h5>
-        <div className="grid grid-cols-5 grid-rows-1 gap-x-5 pt-3">
+        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {programsList}
         </div>
         <h5 className="pt-5">Tools</h5>
@@ -225,11 +233,10 @@ function TechStackSection({}) {
 
 function Project({ projectInfo }) {
   let languageList = generateStackIconList(projectInfo.languages, 0.5);
-  const techStackLength = projectInfo.languages.length;
   return (
     <div>
-      <h5 className="pt-3">{projectInfo.name}</h5>
-      <div className=" bg-[#f2f3f5] rounded-xl drop-shadow-md">
+      <h5 className="pt-2 pb-2">{projectInfo.name}</h5>
+      <div className=" bg-[#f2f3f5] rounded-xl drop-shadow-md hover:scale-105">
         <a href={projectInfo.link}>
           <div>
             <Image
@@ -238,36 +245,66 @@ function Project({ projectInfo }) {
               width={600}
               height={315}
               className="rounded-t-xl"
+              quality={100}
             ></Image>
           </div>
           <div className="p-2">
             <p className="text-xs text-text-500">
               {projectInfo.displayLink.toUpperCase()}
             </p>
-            <p className="text-sm font-bold">{projectInfo.title}</p>
-            <p className="text-xs text-text-500">{projectInfo.description}</p>
+            <p className="text-sm font-bold line-clamp-1">
+              {projectInfo.title}
+            </p>
+            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[41px] 2xl:min-h-0 2xl:line-clamp-1">
+              {projectInfo.description}
+            </p>
           </div>
         </a>
       </div>
       <h5 className="pt-3">Tech Used</h5>
-      <div
-        className={`grid grid-cols-${techStackLength} grid-rows-1 gap-x-5 pt-3`}
-      >
+      <div className={`grid grid-cols-7 grid-rows-1 gap-x-5 pt-1`}>
         {languageList}
       </div>
     </div>
   );
 }
 
-export default function Home() {
+function ProjectsSection({}) {
   let projects = [];
   projectsList.forEach((item) => {
     projects.push(<Project projectInfo={item} key={item.name} />);
   });
   return (
+    <section id="projects" className="max-w-screen-2xl  pb-10">
+      <div
+        className="flex flex-row justify-center items-center pt-5"
+        id="projects-header"
+      >
+        <h3 className="pr-3">Projects</h3>
+        <div className="w-7 h-7">
+          <Image
+            src={"/header-icons/projects.webp"}
+            alt="Tech Stack Vector Logo"
+            width={50}
+            height={50}
+            quality={100}
+          ></Image>
+        </div>
+      </div>
+
+      <div className="flex justify-center content-center flex-col pb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10">
+          {projects}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function Home() {
+  return (
     <main className="flex min-h-screen flex-col items-center p-10 bg-primary-100 leading-relaxed justify-center">
-      <div className="max-w-screen-md">
-        {/* <nav>
+      {/* <nav>
           <ul className="flex items-left text-2xl pb-10 m-2 space-x-10">
             <li>
               <Link href="#">HOME</Link>
@@ -295,31 +332,9 @@ export default function Home() {
             </li>
           </ul>
         </nav> */}
-        <AboutSection />
-        <TechStackSection />
-        <section id="projects">
-          <div
-            className="flex flex-row justify-center items-center pt-5"
-            id="techstack-header"
-          >
-            <h3 className="pr-3">Projects</h3>
-            <div className="w-7 h-7">
-              <Image
-                src={"/header-icons/projects.webp"}
-                alt="Tech Stack Vector Logo"
-                width={50}
-                height={50}
-              ></Image>
-            </div>
-          </div>
-
-          <div className="flex justify-center content-center flex-col pb-10">
-            <div className="grid grid-cols-1 grid-rows-7 sm:grid-cols-2 sm:grid-rows-4 gap-x-10 gap-y-5">
-              {projects}
-            </div>
-          </div>
-        </section>
-      </div>
+      <AboutSection />
+      <TechStackSection />
+      <ProjectsSection />
     </main>
   );
 }
