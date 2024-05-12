@@ -1,9 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import chanPhoto from "../public/me.webp";
 import Link from "next/link";
 import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
+import { useState } from "react";
+import { useClickAway } from "@uidotdev/usehooks";
 
 function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
   let classNameText = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
@@ -34,7 +38,7 @@ function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
 
 function AboutSection({}) {
   return (
-    <section id="intro" className="flex flex-col max-w-screen-md  pb-10">
+    <section id="intro" className="flex flex-col max-w-screen-md pb-10">
       <div
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
@@ -185,7 +189,9 @@ function TechStackSection({}) {
         className="flex flex-row justify-center items-center pt-5"
         id="techstack-header"
       >
-        <h3 className="pr-3">Tech Stack</h3>
+        <Link href="/#tech-stack">
+          <h3 className="pr-3">Tech Stack</h3>
+        </Link>
         <div className="w-7 h-7">
           <Image
             src={"/header-icons/tech-stack.webp"}
@@ -201,27 +207,27 @@ function TechStackSection({}) {
         and would feel confident working with daily.
       </p>
       <div className="flex justify-center content-center flex-col pb-10">
-        <h5 className="pt-5">Languages</h5>
+        <h5 className="">Languages</h5>
         <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {languageList}
         </div>
-        <h5 className="pt-5">Frameworks</h5>
+        <h5 className="">Frameworks</h5>
         <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {frameworkList}
         </div>
-        <h5 className="pt-5">Databases</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
+        <h5 className="">Databases</h5>
+        <div className="grid grid-cols-4 grid-rows-1 gap-x-5 pt-3">
           {databaseList}
         </div>
-        <h5 className="pt-5">Infrastructure</h5>
+        <h5 className="">Infrastructure</h5>
         <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {infrastructureList}
         </div>
-        <h5 className="pt-5">Programs</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
+        <h5 className="">Programs</h5>
+        <div className="grid grid-cols-5 grid-rows-1 gap-x-5 pt-3">
           {programsList}
         </div>
-        <h5 className="pt-5">Tools</h5>
+        <h5 className="">Tools</h5>
         <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
           {toolsList}
         </div>
@@ -279,7 +285,9 @@ function ProjectsSection({}) {
         className="flex flex-row justify-center items-center pt-5"
         id="projects-header"
       >
-        <h3 className="pr-3">Projects</h3>
+        <Link href="/#projects">
+          <h3 className="pr-3">Projects</h3>
+        </Link>
         <div className="w-7 h-7">
           <Image
             src={"/header-icons/projects.webp"}
@@ -301,36 +309,69 @@ function ProjectsSection({}) {
 }
 
 export default function Home() {
+  const [isMenuOpen, setisMenuOpen] = useState(false);
+  // https://usehooks.com/useclickaway
+  const menuRef = useClickAway(() => {
+    setisMenuOpen(false);
+  });
+
+  const handleOpenModal = () => {
+    if (isMenuOpen === false) {
+      setisMenuOpen(true);
+    } else {
+      setisMenuOpen(false);
+    }
+  };
   return (
-    <main className="flex min-h-screen flex-col items-center p-10 bg-primary-100 leading-relaxed justify-center">
-      {/* <nav>
-          <ul className="flex items-left text-2xl pb-10 m-2 space-x-10">
-            <li>
-              <Link href="#">HOME</Link>
-            </li>
-            <li>
-              <Link href="#techstack">TECH STACK</Link>
-            </li>
-            <li>
-              <Link href="#projects">PROJECTS</Link>
-            </li>
-            <li>
-              <Link
-                href={"Chandler Forrest Resume.pdf"}
-                locale={false}
-                target="_blank"
-              >
-                RESUME{" "}
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog">BLOG</Link>
-            </li>
-            <li>
-              <Link href="/">CONTACT</Link>
-            </li>
-          </ul>
-        </nav> */}
+    <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center ">
+      <nav
+        id="navbar"
+        className="flex justify-center content-center flex-col pb-10"
+      >
+        <button onClick={handleOpenModal}>
+          <div className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3">
+            <Image
+              src={"/header-icons/menu-2.webp"}
+              alt="Menu Vector Logo"
+              width={50}
+              height={50}
+              quality={100}
+              className="p-2 rounded-lg hover:bg-[#dce1df] hover:scale-105"
+            ></Image>
+          </div>
+        </button>
+        {isMenuOpen && (
+          <div
+            // ref={menuRef}
+            className="absolute top-[60px] right-3 grid grid-cols-1 border-[#dce1df] bg-background text-center drop-shadow-md rounded-xl"
+            onClick={handleOpenModal}
+          >
+            <Link href="#" className="hover:bg-[#dce1df] p-1 rounded-t-xl">
+              HOME
+            </Link>
+            <Link href="#tech-stack" className="hover:bg-[#dce1df] p-1">
+              TECH STACK
+            </Link>
+            <Link href="#projects" className="hover:bg-[#dce1df] p-1">
+              PROJECTS
+            </Link>
+            <Link
+              href={"Chandler Forrest Resume.pdf"}
+              locale={false}
+              target="_blank"
+              className="hover:bg-[#dce1df] p-1"
+            >
+              RESUME
+            </Link>
+            <Link href="/" className="hover:bg-[#dce1df] p-1">
+              BLOG
+            </Link>
+            <Link href="/" className="hover:bg-[#dce1df] p-1 rounded-b-xl">
+              CONTACT
+            </Link>
+          </div>
+        )}
+      </nav>
       <AboutSection />
       <TechStackSection />
       <ProjectsSection />

@@ -2,12 +2,12 @@
 export const projectsList = [
   {
     languages: [
-      "react",
-      "tailwind",
-      "nextjs",
       "javascript",
-      "html",
+      "react",
+      "nextjs",
       "css",
+      "tailwind",
+      "html",
       "vercel",
     ],
     name: "chan4est",
@@ -19,9 +19,9 @@ export const projectsList = [
   },
   {
     languages: [
+      "javascript",
       "react",
       "nextjs",
-      "javascript",
       "html",
       "css",
       "python",
@@ -37,9 +37,9 @@ export const projectsList = [
   },
   {
     languages: [
+      "javascript",
       "nodejs",
       "express",
-      "javascript",
       "python",
       "flask",
       "aws",
@@ -54,7 +54,7 @@ export const projectsList = [
     title: "UniPay | A UniFied Student Finance Platform",
   },
   {
-    languages: ["nodejs", "express", "javascript", "heroku"],
+    languages: ["javascript", "nodejs", "express", "heroku"],
     name: "GoGaucho",
     link: "https://gogaucho.app/#/",
     displayLink: "gogaucho.app",
