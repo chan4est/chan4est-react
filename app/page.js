@@ -6,8 +6,7 @@ import Link from "next/link";
 import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
-import { useState } from "react";
-import { useClickAway } from "@uidotdev/usehooks";
+import { useState, useRef, useEffect } from "react";
 
 function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
   let classNameText = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
@@ -120,7 +119,7 @@ function AboutSection({}) {
             src={`/tech-icons/gmail.webp`}
             height={35}
             width={35}
-            alt="GMail Logo"
+            alt="Gmail Logo"
             quality={100}
           ></Image>
         </a>
@@ -308,73 +307,213 @@ function ProjectsSection({}) {
   );
 }
 
-export default function Home() {
+function NavBarLink({ href, imgSrc, pText }) {
+  return (
+    <Link
+      href={href}
+      className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
+    >
+      <Image
+        src={imgSrc}
+        height={25}
+        width={25}
+        alt={`${pText} Vector Logo`}
+        quality={100}
+      ></Image>
+      <p>{pText}</p>
+    </Link>
+  );
+}
+
+function NavBarAnchor({ href, imgSrc, pText }) {
+  return (
+    <a
+      href={href}
+      className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
+    >
+      <Image
+        src={imgSrc}
+        height={25}
+        width={25}
+        alt={`${pText} Vector Logo`}
+        quality={100}
+      ></Image>
+      <p>{pText}</p>
+    </a>
+  );
+}
+
+function NavBar({}) {
+  // https://www.youtube.com/watch?v=HfZ7pdhS43s
   const [isMenuOpen, setisMenuOpen] = useState(false);
-  // https://usehooks.com/useclickaway
-  const menuRef = useClickAway(() => {
-    setisMenuOpen(false);
+
+  const menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setisMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
   });
 
-  const handleOpenModal = () => {
-    if (isMenuOpen === false) {
-      setisMenuOpen(true);
-    } else {
-      setisMenuOpen(false);
-    }
-  };
   return (
-    <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center ">
-      <nav
-        id="navbar"
-        className="flex justify-center content-center flex-col pb-10"
-      >
-        <button onClick={handleOpenModal}>
-          <div className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3">
-            <Image
-              src={"/header-icons/menu-2.webp"}
-              alt="Menu Vector Logo"
-              width={50}
-              height={50}
-              quality={100}
-              className="p-2 rounded-lg hover:bg-[#dce1df] hover:scale-105"
-            ></Image>
-          </div>
-        </button>
-        {isMenuOpen && (
-          <div
-            // ref={menuRef}
-            className="absolute top-[60px] right-3 grid grid-cols-1 border-[#dce1df] bg-background text-center drop-shadow-md rounded-xl"
-            onClick={handleOpenModal}
+    <nav
+      id="navbar"
+      className="flex justify-center content-center flex-col pb-10"
+      ref={menuRef}
+      onClick={() => setisMenuOpen(!isMenuOpen)}
+    >
+      <button>
+        <div className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3">
+          <Image
+            src={"/header-icons/menu.webp"}
+            alt="Menu Vector Logo"
+            width={50}
+            height={50}
+            quality={100}
+            className="p-2 rounded-lg hover:bg-[#dce1df] hover:scale-105"
+          ></Image>
+        </div>
+      </button>
+      {isMenuOpen && (
+        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-primary text-white text-center drop-shadow-md">
+          <NavBarLink
+            href={"/"}
+            imgSrc={"/header-icons/home-w.webp"}
+            pText={"HOME"}
+          />
+          <NavBarLink
+            href={"#tech-stack"}
+            imgSrc={"/header-icons/tech-stack-w.webp"}
+            pText={"TECH STACK"}
+          />
+          <NavBarLink
+            href={"#projects"}
+            imgSrc={"/header-icons/projects-w.webp"}
+            pText={"PROJECTS"}
+          />
+          <NavBarLink
+            href={"/Chandler-Forrest-Resume.pdf"}
+            imgSrc={"/header-icons/resume-w.webp"}
+            pText={"RESUME"}
+          />
+          <NavBarLink
+            href={"/blog"}
+            imgSrc={"/header-icons/blog-w.webp"}
+            pText={"BLOG"}
+          />
+          <NavBarAnchor
+            href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
+            imgSrc={"/tech-icons/gmail.webp"}
+            pText={"EMAIL"}
+          />
+          <NavBarAnchor
+            href={"https://www.linkedin.com/in/chan4est/"}
+            imgSrc={"/tech-icons/linkedin.webp"}
+            pText={"LINKEDIN"}
+          />
+          <NavBarAnchor
+            href={"https://github.com/chan4est/"}
+            imgSrc={"/tech-icons/github.webp"}
+            pText={"GITHUB"}
+          />
+        </div>
+      )}
+    </nav>
+  );
+}
+
+function Footer({}) {
+  let currentDate = new Date();
+  let currentYear = currentDate.getFullYear();
+  return (
+    <footer className="text-sm flex flex-col justify-center align-center text-center bg-primary min-w-full pt-2 pb-2 text-white">
+      <div>
+        <Link href="#" className="p-1 hover:underline">
+          HOME
+        </Link>
+        {" | "}
+        <Link href="#tech-stack" className="p-1 hover:underline">
+          TECH STACK
+        </Link>
+        {" | "}
+        <Link href="#projects" className="p-1 hover:underline">
+          PROJECTS
+        </Link>
+        {" | "}
+        <Link
+          href={"Chandler Forrest Resume.pdf"}
+          locale={false}
+          target="_blank"
+          className="p-1 hover:underline"
+        >
+          RESUME
+        </Link>
+        {" | "}
+        <Link href="/" className="p-1 hover:underline">
+          BLOG
+        </Link>
+      </div>
+      <div className="flex flex-row gap-2 justify-center align-center text-center pt-2">
+        <span>{currentYear} © Chandler Forrest</span>
+        <span
+          id="contact"
+          className="flex flex-row items-center justify-center gap-2 max-w-fit"
+        >
+          <a
+            href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
+            className="hover:scale-125"
           >
-            <Link href="#" className="hover:bg-[#dce1df] p-1 rounded-t-xl">
-              HOME
-            </Link>
-            <Link href="#tech-stack" className="hover:bg-[#dce1df] p-1">
-              TECH STACK
-            </Link>
-            <Link href="#projects" className="hover:bg-[#dce1df] p-1">
-              PROJECTS
-            </Link>
-            <Link
-              href={"Chandler Forrest Resume.pdf"}
-              locale={false}
-              target="_blank"
-              className="hover:bg-[#dce1df] p-1"
-            >
-              RESUME
-            </Link>
-            <Link href="/" className="hover:bg-[#dce1df] p-1">
-              BLOG
-            </Link>
-            <Link href="/" className="hover:bg-[#dce1df] p-1 rounded-b-xl">
-              CONTACT
-            </Link>
-          </div>
-        )}
-      </nav>
-      <AboutSection />
-      <TechStackSection />
-      <ProjectsSection />
-    </main>
+            <Image
+              src={`/tech-icons/gmail.webp`}
+              height={15}
+              width={15}
+              alt="Gmail Logo"
+              quality={100}
+            ></Image>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chan4est/"
+            className="hover:scale-125"
+          >
+            <Image
+              src={`/tech-icons/linkedin.webp`}
+              height={15}
+              width={15}
+              alt="LinkedIn Logo"
+              quality={100}
+            ></Image>
+          </a>
+          <a href="https://github.com/chan4est/" className="hover:scale-125">
+            <Image
+              src={`/tech-icons/github.webp`}
+              height={15}
+              width={15}
+              alt="GitHub Logo"
+              quality={100}
+            ></Image>
+          </a>
+        </span>
+      </div>
+    </footer>
+  );
+}
+
+export default function Home() {
+  return (
+    <>
+      <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center ">
+        <NavBar />
+        <AboutSection />
+        <TechStackSection />
+        <ProjectsSection />
+      </main>
+      <Footer />
+    </>
   );
 }
