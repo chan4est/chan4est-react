@@ -8,29 +8,42 @@ import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
 import { useState, useRef, useEffect } from "react";
 
-function StackIcon({ stackImg, stackImgAlt, stackText, stackLink, scale }) {
-  let classNameText = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
-  let tinyText = "text-xs min-[550px]:text-base min-h-[41px]";
+function StackIcon({
+  stackImg,
+  stackImgAlt,
+  stackText,
+  stackLink,
+  scale,
+  hasDarkMode,
+}) {
+  let imageClass = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
+  let spanClass = "text-xs min-[550px]:text-base min-h-[41px]";
   if (scale == 0.5) {
-    classNameText = "w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7";
-    tinyText = "text-xs min-[550px]:text-xs min-h-[41px]";
+    imageClass = "w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7";
+    spanClass = "text-xs min-[550px]:text-xs min-h-[41px]";
   }
   return (
     <a
       href={stackLink}
       className="flex flex-col justify-center items-center text-center hover:scale-110"
     >
-      <div className={classNameText}>
+      {/* https://stackoverflow.com/questions/71313889/how-can-i-present-a-different-next-image-based-on-the-users-preferred-color-sch */}
+      <picture className={imageClass}>
+        {hasDarkMode && (
+          <source
+            srcSet={`/tech-icons/${stackImg}-w.webp`}
+            media="(prefers-color-scheme: dark)"
+          />
+        )}
         <Image
           src={`/tech-icons/${stackImg}.webp`}
           alt={stackImgAlt}
           width={100}
           height={100}
-          className=""
           quality={100}
         />
-      </div>
-      <span className={tinyText}>{stackText}</span>
+      </picture>
+      <span className={spanClass}>{stackText}</span>
     </a>
   );
 }
@@ -49,7 +62,7 @@ function AboutSection({}) {
               alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
               className="rounded-xl"
               quality={100}
-            ></Image>
+            />
           </div>
         </Link>
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
@@ -75,7 +88,7 @@ function AboutSection({}) {
           </ul>
         </div>
       </div>
-      <p className="pt-5">
+      <p className="pt-5 ">
         I&apos;m a full-stack software engineer who&apos;s built a variety of
         software ranging from high throughput/low latency APIs, highly scaleable
         data pipelines, fully automated testing frameworks, to beautiful
@@ -121,7 +134,7 @@ function AboutSection({}) {
             width={35}
             alt="Gmail Logo"
             quality={100}
-          ></Image>
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/chan4est/"
@@ -133,16 +146,22 @@ function AboutSection({}) {
             width={35}
             alt="LinkedIn Logo"
             quality={100}
-          ></Image>
+          />
         </a>
         <a href="https://github.com/chan4est/" className="hover:scale-125">
-          <Image
-            src={`/tech-icons/github.webp`}
-            height={35}
-            width={35}
-            alt="GitHub Logo"
-            quality={100}
-          ></Image>
+          <picture>
+            <source
+              srcSet={`/tech-icons/github-w.webp`}
+              media="(prefers-color-scheme: dark)"
+            />
+            <Image
+              src={`/tech-icons/github.webp`}
+              height={35}
+              width={35}
+              alt="GitHub Logo"
+              quality={100}
+            />
+          </picture>
         </a>
       </div>
     </section>
@@ -153,18 +172,17 @@ function generateStackIconList(techIconsArr, scale = 1) {
   // Add components to hash table to maintain the order descripted in the JSON
   let techHash = new Object();
   techIconsData.forEach((item) => {
-    if (techIconsArr.includes(item.img)) {
-      techHash[item.img] = (
-        <StackIcon
-          key={item.img}
-          stackImg={item.img}
-          stackImgAlt={`${item.name} Logo`}
-          stackText={item.name}
-          stackLink={item.link}
-          scale={scale}
-        />
-      );
-    }
+    techHash[item.img] = (
+      <StackIcon
+        key={item.img}
+        stackImg={`${item.img}`}
+        stackImgAlt={`${item.name} Logo`}
+        stackText={item.name}
+        stackLink={item.link}
+        scale={scale}
+        hasDarkMode={item.darkMode}
+      />
+    );
   });
   // Building the actual list. In order of the JSON.
   let techRowElements = [];
@@ -192,16 +210,22 @@ function TechStackSection({}) {
           <h3 className="pr-3">Tech Stack</h3>
         </Link>
         <div className="w-7 h-7">
-          <Image
-            src={"/header-icons/tech-stack.webp"}
-            alt="Tech Stack Vector Logo"
-            width={50}
-            height={50}
-            quality={100}
-          ></Image>
+          <picture>
+            <source
+              srcSet={`/header-icons/tech-stack-w.webp`}
+              media="(prefers-color-scheme: dark)"
+            />
+            <Image
+              src={"/header-icons/tech-stack.webp"}
+              alt="Tech Stack Vector Logo"
+              width={50}
+              height={50}
+              quality={100}
+            />
+          </picture>
         </div>
       </div>
-      <p className="">
+      <p className="pb-2 pt-2">
         These are the technologies I&apos;ve used during my professional career
         and would feel confident working with daily.
       </p>
@@ -240,7 +264,7 @@ function Project({ projectInfo }) {
   return (
     <div>
       <h5 className="pt-2 pb-2">{projectInfo.name}</h5>
-      <div className=" bg-[#f2f3f5] rounded-xl drop-shadow-md hover:scale-105">
+      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105">
         <a href={projectInfo.link}>
           <div>
             <Image
@@ -250,7 +274,7 @@ function Project({ projectInfo }) {
               height={315}
               className="rounded-t-xl"
               quality={100}
-            ></Image>
+            />
           </div>
           <div className="p-2">
             <p className="text-xs text-text-500">
@@ -279,7 +303,7 @@ function ProjectsSection({}) {
     projects.push(<Project projectInfo={item} key={item.name} />);
   });
   return (
-    <section id="projects" className="max-w-screen-2xl  pb-10">
+    <section id="projects" className="max-w-screen-2xl pb-10">
       <div
         className="flex flex-row justify-center items-center pt-5"
         id="projects-header"
@@ -288,13 +312,19 @@ function ProjectsSection({}) {
           <h3 className="pr-3">Projects</h3>
         </Link>
         <div className="w-7 h-7">
-          <Image
-            src={"/header-icons/projects.webp"}
-            alt="Tech Stack Vector Logo"
-            width={50}
-            height={50}
-            quality={100}
-          ></Image>
+          <picture>
+            <source
+              srcSet={"/header-icons/projects-w.webp"}
+              media="(prefers-color-scheme: dark)"
+            />
+            <Image
+              src={"/header-icons/projects.webp"}
+              alt="Tech Stack Vector Logo"
+              width={50}
+              height={50}
+              quality={100}
+            />
+          </picture>
         </div>
       </div>
 
@@ -313,31 +343,45 @@ function NavBarLink({ href, imgSrc, pText }) {
       href={href}
       className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
     >
-      <Image
-        src={imgSrc}
-        height={25}
-        width={25}
-        alt={`${pText} Vector Logo`}
-        quality={100}
-      ></Image>
+      <picture>
+        <source
+          srcSet={`${imgSrc}-w.webp`}
+          media="(prefers-color-scheme: dark)"
+        />
+        <Image
+          src={`${imgSrc}.webp`}
+          height={25}
+          width={25}
+          alt={`${pText} Vector Logo`}
+          quality={100}
+        />
+      </picture>
       <p>{pText}</p>
     </Link>
   );
 }
 
-function NavBarAnchor({ href, imgSrc, pText }) {
+function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
   return (
     <a
       href={href}
       className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
     >
-      <Image
-        src={imgSrc}
-        height={25}
-        width={25}
-        alt={`${pText} Vector Logo`}
-        quality={100}
-      ></Image>
+      <picture>
+        {hasDarkMode && (
+          <source
+            srcSet={`${imgSrc}-w.webp`}
+            media="(prefers-color-scheme: dark)"
+          />
+        )}
+        <Image
+          src={`${imgSrc}.webp`}
+          height={25}
+          width={25}
+          alt={`${pText} Vector Logo`}
+          quality={100}
+        />
+      </picture>
       <p>{pText}</p>
     </a>
   );
@@ -369,58 +413,64 @@ function NavBar({}) {
       onClick={() => setisMenuOpen(!isMenuOpen)}
     >
       <button>
-        <div className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3">
-          <Image
-            src={"/header-icons/menu.webp"}
-            alt="Menu Vector Logo"
-            width={50}
-            height={50}
-            quality={100}
-            className="p-2 rounded-lg hover:bg-[#dce1df] hover:scale-105"
-          ></Image>
+        <div
+          className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3"
+          title="Menu"
+        >
+          <picture>
+            <source
+              srcSet={"/header-icons/menu-w.webp"}
+              media="(prefers-color-scheme: dark)"
+            />
+            <Image
+              src={"/header-icons/menu.webp"}
+              alt="Menu Vector Logo"
+              width={50}
+              height={50}
+              quality={100}
+              className="p-2 rounded-lg hover:bg-accent hover:scale-105"
+            />
+          </picture>
         </div>
       </button>
       {isMenuOpen && (
-        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-primary text-white text-center drop-shadow-md">
-          <NavBarLink
-            href={"/"}
-            imgSrc={"/header-icons/home-w.webp"}
-            pText={"HOME"}
-          />
+        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md">
+          <NavBarLink href={"/"} imgSrc={"/header-icons/home"} pText={"HOME"} />
           <NavBarLink
             href={"#tech-stack"}
-            imgSrc={"/header-icons/tech-stack-w.webp"}
+            imgSrc={"/header-icons/tech-stack"}
             pText={"TECH STACK"}
           />
           <NavBarLink
             href={"#projects"}
-            imgSrc={"/header-icons/projects-w.webp"}
+            imgSrc={"/header-icons/projects"}
             pText={"PROJECTS"}
           />
           <NavBarLink
             href={"/Chandler-Forrest-Resume.pdf"}
-            imgSrc={"/header-icons/resume-w.webp"}
+            imgSrc={"/header-icons/resume"}
             pText={"RESUME"}
           />
           <NavBarLink
             href={"/blog"}
-            imgSrc={"/header-icons/blog-w.webp"}
+            imgSrc={"/header-icons/blog"}
             pText={"BLOG"}
           />
           <NavBarAnchor
             href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
-            imgSrc={"/tech-icons/gmail.webp"}
+            imgSrc={"/tech-icons/gmail"}
             pText={"EMAIL"}
           />
           <NavBarAnchor
             href={"https://www.linkedin.com/in/chan4est/"}
-            imgSrc={"/tech-icons/linkedin.webp"}
+            imgSrc={"/tech-icons/linkedin"}
             pText={"LINKEDIN"}
           />
           <NavBarAnchor
             href={"https://github.com/chan4est/"}
-            imgSrc={"/tech-icons/github.webp"}
+            imgSrc={"/tech-icons/github"}
             pText={"GITHUB"}
+            hasDarkMode={true}
           />
         </div>
       )}
@@ -432,7 +482,7 @@ function Footer({}) {
   let currentDate = new Date();
   let currentYear = currentDate.getFullYear();
   return (
-    <footer className="text-sm flex flex-col justify-center align-center text-center bg-primary min-w-full pt-2 pb-2 text-white">
+    <footer className="text-sm flex flex-col justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t-2">
       <div>
         <Link href="#" className="p-1 hover:underline">
           HOME
@@ -475,7 +525,7 @@ function Footer({}) {
               width={15}
               alt="Gmail Logo"
               quality={100}
-            ></Image>
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/chan4est/"
@@ -487,16 +537,22 @@ function Footer({}) {
               width={15}
               alt="LinkedIn Logo"
               quality={100}
-            ></Image>
+            />
           </a>
           <a href="https://github.com/chan4est/" className="hover:scale-125">
-            <Image
-              src={`/tech-icons/github.webp`}
-              height={15}
-              width={15}
-              alt="GitHub Logo"
-              quality={100}
-            ></Image>
+            <picture>
+              <source
+                srcSet={"/tech-icons/github-w.webp"}
+                media="(prefers-color-scheme: dark)"
+              />
+              <Image
+                src={"/tech-icons/github.webp"}
+                height={15}
+                width={15}
+                alt="GitHub Logo"
+                quality={100}
+              />
+            </picture>
           </a>
         </span>
       </div>
@@ -504,10 +560,26 @@ function Footer({}) {
   );
 }
 
+function AnimatedBackground({}) {
+  const colors = [
+    "ba4d58",
+    "d79758",
+    "f9c254",
+    "aac059",
+    "6a895c",
+    "2c6963",
+    "7bf8c1",
+    "5a84f2",
+    "50688e",
+    "b089a1",
+    "ffffff",
+  ];
+}
+
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center ">
+      <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center">
         <NavBar />
         <AboutSection />
         <TechStackSection />

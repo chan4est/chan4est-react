@@ -32,7 +32,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" translate="no" className="bg-background">
+    <html
+      lang="en"
+      translate="no"
+      className="bg-background text-text bg-gradient-to-br from-primary to-secondary"
+    >
       <body id="root">{children}</body>
       <GoogleAnalytics gaId="G-JZT3MDL1HN" />
     </html>
