@@ -150,10 +150,10 @@ function AboutSection({}) {
         </a>
         <a href="https://github.com/chan4est/" className="hover:scale-125">
           <picture>
-            <source
+            {/* <source
               srcSet={`/tech-icons/github-w.webp`}
               media="(prefers-color-scheme: dark)"
-            />
+            /> */}
             <Image
               src={`/tech-icons/github.webp`}
               height={35}
@@ -180,7 +180,7 @@ function generateStackIconList(techIconsArr, scale = 1) {
         stackText={item.name}
         stackLink={item.link}
         scale={scale}
-        hasDarkMode={item.darkMode}
+        hasDarkMode={item.darkMode2}
       />
     );
   });
@@ -558,22 +558,6 @@ function Footer({}) {
       </div>
     </footer>
   );
-}
-
-function AnimatedBackground({}) {
-  const colors = [
-    "ba4d58",
-    "d79758",
-    "f9c254",
-    "aac059",
-    "6a895c",
-    "2c6963",
-    "7bf8c1",
-    "5a84f2",
-    "50688e",
-    "b089a1",
-    "ffffff",
-  ];
 }
 
 export default function Home() {

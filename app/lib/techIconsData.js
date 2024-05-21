@@ -139,6 +139,7 @@ export const techIconsData = [
     img: "aws",
     type: "infrastructure",
     darkMode: true,
+    darkMode2: true,
   },
   {
     name: "Vercel",
