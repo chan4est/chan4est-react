@@ -55,16 +55,16 @@ function AboutSection({}) {
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
       >
-        <Link href="/blog/2023/tokyo" className="hover:scale-105">
-          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
-            <Image
-              src={chanPhoto}
-              alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
-              className="rounded-xl"
-              quality={100}
-            />
-          </div>
-        </Link>
+        {/* <Link href="/blog" className="hover:scale-105"> */}
+        <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
+          <Image
+            src={chanPhoto}
+            alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
+            className="rounded-xl"
+            quality={100}
+          />
+        </div>
+        {/* </Link> */}
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
           <ul className="">
             <li>
@@ -127,6 +127,7 @@ function AboutSection({}) {
         <a
           href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
           className="hover:scale-125"
+          title="Email me"
         >
           <Image
             src={`/tech-icons/gmail.webp`}
@@ -139,6 +140,7 @@ function AboutSection({}) {
         <a
           href="https://www.linkedin.com/in/chan4est/"
           className="hover:scale-125"
+          title="Connect with me on LinkedIn"
         >
           <Image
             src={`/tech-icons/linkedin.webp`}
@@ -148,7 +150,11 @@ function AboutSection({}) {
             quality={100}
           />
         </a>
-        <a href="https://github.com/chan4est/" className="hover:scale-125">
+        <a
+          href="https://github.com/chan4est/"
+          className="hover:scale-125"
+          title="View my GitHub"
+        >
           <picture>
             {/* <source
               srcSet={`/tech-icons/github-w.webp`}
@@ -454,7 +460,7 @@ function NavBar({}) {
           <NavBarLink
             href={"/blog"}
             imgSrc={"/header-icons/blog"}
-            pText={"BLOG"}
+            pText={"BLOG (WIP)"}
           />
           <NavBarAnchor
             href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
@@ -478,98 +484,13 @@ function NavBar({}) {
   );
 }
 
-function Footer({}) {
-  let currentDate = new Date();
-  let currentYear = currentDate.getFullYear();
-  return (
-    <footer className="text-sm flex flex-col justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t-2">
-      <div>
-        <Link href="#" className="p-1 hover:underline">
-          HOME
-        </Link>
-        {" | "}
-        <Link href="#tech-stack" className="p-1 hover:underline">
-          TECH STACK
-        </Link>
-        {" | "}
-        <Link href="#projects" className="p-1 hover:underline">
-          PROJECTS
-        </Link>
-        {" | "}
-        <Link
-          href={"Chandler Forrest Resume.pdf"}
-          locale={false}
-          target="_blank"
-          className="p-1 hover:underline"
-        >
-          RESUME
-        </Link>
-        {" | "}
-        <Link href="/" className="p-1 hover:underline">
-          BLOG
-        </Link>
-      </div>
-      <div className="flex flex-row gap-2 justify-center align-center text-center pt-2">
-        <span>{currentYear} © Chandler Forrest</span>
-        <span
-          id="contact"
-          className="flex flex-row items-center justify-center gap-2 max-w-fit"
-        >
-          <a
-            href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
-            className="hover:scale-125"
-          >
-            <Image
-              src={`/tech-icons/gmail.webp`}
-              height={15}
-              width={15}
-              alt="Gmail Logo"
-              quality={100}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/chan4est/"
-            className="hover:scale-125"
-          >
-            <Image
-              src={`/tech-icons/linkedin.webp`}
-              height={15}
-              width={15}
-              alt="LinkedIn Logo"
-              quality={100}
-            />
-          </a>
-          <a href="https://github.com/chan4est/" className="hover:scale-125">
-            <picture>
-              <source
-                srcSet={"/tech-icons/github-w.webp"}
-                media="(prefers-color-scheme: dark)"
-              />
-              <Image
-                src={"/tech-icons/github.webp"}
-                height={15}
-                width={15}
-                alt="GitHub Logo"
-                quality={100}
-              />
-            </picture>
-          </a>
-        </span>
-      </div>
-    </footer>
-  );
-}
-
 export default function Home() {
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center">
-        <NavBar />
-        <AboutSection />
-        <TechStackSection />
-        <ProjectsSection />
-      </main>
-      <Footer />
-    </>
+    <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center">
+      <NavBar />
+      <AboutSection />
+      <TechStackSection />
+      <ProjectsSection />
+    </main>
   );
 }
