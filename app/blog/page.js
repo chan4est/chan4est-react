@@ -1,9 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { blogEntries } from "../lib/blogEntries";
-import { useState, useEffect } from "react";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -40,22 +37,13 @@ function BlogGrid({}) {
 }
 
 export default function Blog() {
-  const [currentImageId, setCurrentImageId] = useState(0);
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentImageId(
-        (currentImageId) => (currentImageId + 1) % blogEntries.length
-      );
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
+  const blogPreviewLength = blogEntries.length - 1;
+  const randomInt = getRandomInt(blogPreviewLength) + 1;
   return (
     <div className="flex min-h-screen flex-col text-center content-center justify-center items-center p-l-10 p-r-10 pt-1 pb-1">
       {/* <BlogGrid /> */}
-
       <h3>Work In Progress</h3>
-      <BlogPreview blogInfo={blogEntries[currentImageId]} />
+      <BlogPreview blogInfo={blogEntries[randomInt]} />
     </div>
   );
 }
