@@ -19,7 +19,6 @@ function BlogPreview({ blogInfo }) {
           className="max-h-[300px] object-cover"
         />
       </Link>
-      <p className="pt-1 text-sm">{blogInfo.title}</p>
     </>
   );
 }
@@ -43,7 +42,7 @@ export default function Blog() {
     <div className="flex min-h-screen flex-col text-center content-center justify-center items-center p-l-10 p-r-10 pt-1 pb-1">
       {/* <BlogGrid /> */}
       <h3>Work In Progress</h3>
-      <BlogPreview blogInfo={blogEntries[randomInt]} />
+      <BlogPreview blogInfo={blogEntries[5]} />
     </div>
   );
 }
