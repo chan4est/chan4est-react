@@ -25,7 +25,7 @@ function StackIcon({
   return (
     <a
       href={stackLink}
-      className="flex flex-col justify-center items-center text-center hover:scale-110 transition duration-100 ease-in-out"
+      className="flex flex-col justify-center items-center text-center hover:scale-110 transition duration-200 ease-in-out"
     >
       {/* https://stackoverflow.com/questions/71313889/how-can-i-present-a-different-next-image-based-on-the-users-preferred-color-sch */}
       <picture className={imageClass}>
@@ -57,7 +57,7 @@ function AboutSection({}) {
       >
         {/* <Link
           href="/blog"
-          className="hover:scale-105 transition duration-100 ease-in-out"
+          className="hover:scale-105 transition duration-200 ease-in-out"
         > */}
         <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
           <Image
@@ -129,7 +129,7 @@ function AboutSection({}) {
       >
         <a
           href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
-          className="hover:scale-125 transition duration-100 ease-in-out"
+          className="hover:scale-125 transition duration-200 ease-in-out"
           title="Email me"
         >
           <Image
@@ -142,7 +142,7 @@ function AboutSection({}) {
         </a>
         <a
           href="https://www.linkedin.com/in/chan4est/"
-          className="hover:scale-125 transition duration-100 ease-in-out"
+          className="hover:scale-125 transition duration-200 ease-in-out"
           title="Connect with me on LinkedIn"
         >
           <Image
@@ -155,7 +155,7 @@ function AboutSection({}) {
         </a>
         <a
           href="https://github.com/chan4est/"
-          className="hover:scale-125 transition duration-100 ease-in-out"
+          className="hover:scale-125 transition duration-200 ease-in-out"
           title="View my GitHub"
         >
           <picture>
@@ -273,7 +273,7 @@ function Project({ projectInfo }) {
   return (
     <div>
       <h5 className="pt-2 pb-2">{projectInfo.name}</h5>
-      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105 transition duration-100 ease-in-out">
+      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105 transition duration-200 ease-in-out">
         <a href={projectInfo.link}>
           <div>
             <Image

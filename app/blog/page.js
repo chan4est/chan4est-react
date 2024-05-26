@@ -1,6 +1,23 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { blogEntries } from "../lib/blogEntries";
+
+const Globe = dynamic(
+  () => import("../components/_Globe").then((mod) => mod.default),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full h-[500px] flex justify-center items-center">
+        <span>Loading the globe..</span>
+      </div>
+    ),
+  }
+);
+
+import { useState, useRef, useEffect } from "react";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -35,14 +52,25 @@ function BlogGrid({}) {
   );
 }
 
-export default function Blog() {
-  const blogPreviewLength = blogEntries.length - 1;
-  const randomInt = getRandomInt(blogPreviewLength) + 1;
+// export default function Blog() {
+// const blogPreviewLength = blogEntries.length - 1;
+// const randomInt = getRandomInt(blogPreviewLength) + 1;
+// return (
+//   <div className="flex min-h-screen flex-col text-center content-center justify-center items-center p-l-10 p-r-10 pt-1 pb-1">
+//     {/* <BlogGrid /> */}
+//     <h3>Work In Progress</h3>
+//     <BlogPreview blogInfo={blogEntries[5]} />
+//   </div>
+// );
+// }
+
+export default function MapChart() {
   return (
-    <div className="flex min-h-screen flex-col text-center content-center justify-center items-center p-l-10 p-r-10 pt-1 pb-1">
-      {/* <BlogGrid /> */}
-      <h3>Work In Progress</h3>
-      <BlogPreview blogInfo={blogEntries[5]} />
+    <div
+      className="flex min-h-screen flex-col text-center content-center justify-center items-center"
+      suppressHydrationWarning
+    >
+      <Globe />
     </div>
   );
 }

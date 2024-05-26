@@ -37,6 +37,9 @@ module.exports = {
         secondary: "var(--secondary)",
         accent: "var(--accent)",
       },
+      transitionDuration: {
+        250: "250ms",
+      },
     },
   },
   plugins: [],
