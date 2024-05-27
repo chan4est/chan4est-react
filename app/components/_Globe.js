@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import Globe from "react-globe.gl";
 import { blogEntries } from "../lib/blogEntries";
-import Image from "next/image";
 import { globeArcsData } from "../lib/globeArcsData";
 
 export default function _Globe() {
@@ -11,13 +10,14 @@ export default function _Globe() {
     lat: 25,
     lng: 90,
     altitude: 3,
+    axis: 45,
   });
 
   const globeEl = useRef(null);
 
   useEffect(() => {
     globeEl.current.controls().autoRotate = true;
-    globeEl.current.controls().autoRotateSpeed = 5;
+    globeEl.current.controls().autoRotateSpeed = 1.25;
     globeEl.current.pointOfView(globeCenter);
     // globeEl.current.controls().enableZoom = false;
   }, [globeCenter]);
@@ -36,21 +36,6 @@ export default function _Globe() {
     }
   });
 
-  function PinElement({ d }) {
-    console.log(d);
-    return (
-      <div
-        className={`width-[${d.size}px] pointer-events-auto cursor-pointer hover:scale-125`}
-        onClick={() => {
-          globeEl.current.pointOfView({ lat: d.lat, lng: d.lng }, 750);
-          globeEl.current.controls().autoRotate = false;
-        }}
-      >
-        <Image src="/blog/globe/circle.png" alt="circle"></Image>
-      </div>
-    );
-  }
-
   // Arc Dash Lengths
   const planeDashLength = 1.5;
   const trainDashLength = 0.25;
@@ -63,9 +48,6 @@ export default function _Globe() {
   // Arc Dash Gaps
   const startEndTripDashGap = 1;
   const middleTripDashGap = 0.5;
-
-  // Trip Colors
-  const worldWideColors = ["blue", "blue"];
 
   let arcsData = [];
   for (const continent in globeArcsData) {
@@ -117,14 +99,9 @@ export default function _Globe() {
       // backgroundImageUrl="/blog/globe/stars.jpeg"
       backgroundColor="rgba(0,0,0,0)"
       htmlElementsData={htmlPins}
-      // htmlElement={(d) => {
-      //   console.log(d);
-      //   return <PinElement d={d} />;
-      // }}
       htmlElement={(d) => {
         const el = document.createElement("div");
         el.innerHTML = `<img src='/blog/globe/circle.png'></img>`;
-        // el.innerHTML = markerSvg;
         el.style.color = d.color;
         el.style.width = `${d.size}px`;
 
@@ -152,8 +129,6 @@ export default function _Globe() {
       arcAltitude={"altitude"}
       arcDashGap={"dashGap"}
       arcDashAnimateTime={1000}
-      // atmosphereColor="white"
-      // atmosphereAltitude={0.05}
     />
   );
 }

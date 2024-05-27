@@ -9,7 +9,7 @@ const Globe = dynamic(
   () => import("../components/_Globe").then((mod) => mod.default),
   {
     ssr: false,
-    loading: () => <h5>Loading the world 🌎🌍🌏</h5>,
+    // loading: () => <h5>Loading the world 🌎🌍🌏</h5>,
   }
 );
 
