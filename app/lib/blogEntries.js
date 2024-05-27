@@ -7,16 +7,18 @@ export const blogEntries = [
     location: "Seljalandsfoss, Iceland",
     date: "November 14, 2023",
     preview: 11,
+    coordinates: [[64.774631, -18.753533]],
   },
-  {
-    title: "Rome, Italy 🇮🇹",
-    folder: "/blog/2023/italy",
-    numImages: 10,
-    text: "After being away for 8 weeks, Emmy and I were FINALLY reunited again in Rome of all places! We had been looking forward to this for such a long time!!! Emmy’s first time in Italy, and our first time abroad together 🥰\nIt was an extremely (rome)antic weekend that had us enjoying all the food, oohing and aahing at the iconic sites, and crying tears of joy while overlooking Rome at sunset. It was the perfect pilot for our future full of trips abroad as one!",
-    location: "Colosseo, Roma",
-    date: "November 8, 2023",
-    preview: 4,
-  },
+  // {
+  //   title: "Rome, Italy 🇮🇹",
+  //   folder: "/blog/2023/italy",
+  //   numImages: 10,
+  //   text: "After being away for 8 weeks, Emmy and I were FINALLY reunited again in Rome of all places! We had been looking forward to this for such a long time!!! Emmy’s first time in Italy, and our first time abroad together 🥰\nIt was an extremely (rome)antic weekend that had us enjoying all the food, oohing and aahing at the iconic sites, and crying tears of joy while overlooking Rome at sunset. It was the perfect pilot for our future full of trips abroad as one!",
+  //   location: "Colosseo, Roma",
+  //   date: "November 8, 2023",
+  //   preview: 4,
+  //   coordinates: [[41.8967, 12.4822]],
+  // },
   {
     title: "Dubrovnik, Croatia 🇭🇷",
     folder: "/blog/2023/croatia",
@@ -25,6 +27,7 @@ export const blogEntries = [
     location: "Dubrovnik, Croatia",
     date: "November 6, 2023",
     preview: 3,
+    coordinates: [[42.6507, 18.0944]],
   },
   {
     title: "Athens | Mykonos | Santorini, Greece 🇬🇷",
@@ -34,6 +37,11 @@ export const blogEntries = [
     location: "Ακρόπολη Αθηνών",
     date: "October 24, 2023",
     preview: 3,
+    coordinates: [
+      [37.9838, 23.7275],
+      [37.4415, 25.3667],
+      [36.4618, 25.3753],
+    ],
   },
   {
     title: "İstanbul, Turkey 🇹🇷",
@@ -43,6 +51,7 @@ export const blogEntries = [
     location: "Hagia Sophia",
     date: "October 18, 2023",
     preview: 12,
+    coordinates: [[41.0082, 28.9784]],
   },
   {
     title: "Cairo | Luxor, Egypt 🇪🇬",
@@ -52,6 +61,10 @@ export const blogEntries = [
     location: "Pyramids Of Giza, Egypt",
     date: "October 9, 2023",
     preview: 3,
+    coordinates: [
+      [30.0444, 31.2357],
+      [25.6872, 32.6396],
+    ],
   },
   {
     title: "Petra, Jordan 🇯🇴",
@@ -61,6 +74,7 @@ export const blogEntries = [
     location: "Al-Khazneh, Petra, Jordan",
     date: "October 3, 2023",
     preview: 3,
+    coordinates: [[30.3285, 35.4444]],
   },
   {
     title: "Tel Aviv, Israel 🇮🇱 + Jerusalem, Israel 🇮🇱 / Palestine 🇵🇸",
@@ -70,6 +84,11 @@ export const blogEntries = [
     location: "Old City Jerusalem",
     date: "September 25, 2023",
     preview: 5,
+    coordinates: [
+      [32.0853, 34.7818],
+      [31.7683, 35.2137],
+      [31.559, 35.4732],
+    ],
   },
   {
     title: "Agra | Delhi, India 🇮🇳",
@@ -79,6 +98,10 @@ export const blogEntries = [
     location: "ताज महल - Taj Mahal, Agra",
     date: "September 18, 2023",
     preview: 3,
+    coordinates: [
+      [27.1767, 78.0081],
+      [28.7041, 77.1025],
+    ],
   },
   {
     title: "Hong Kong 🇭🇰",
@@ -88,6 +111,7 @@ export const blogEntries = [
     location: "Hong Kong",
     date: "September 11, 2023",
     preview: 9,
+    coordinates: [[22.3193, 114.1694]],
   },
   {
     title: "Seoul, South Korea 🇰🇷",
@@ -97,6 +121,7 @@ export const blogEntries = [
     location: "N서울타워",
     date: "September 3, 2023",
     preview: 9,
+    coordinates: [[37.5519, 126.9918]],
   },
   {
     title: "Beijing | Xi’an | Zhangjiajie, China 🇨🇳",
@@ -106,6 +131,12 @@ export const blogEntries = [
     location: "金山岭长城",
     date: "August 27, 2023",
     preview: 2,
+    coordinates: [
+      [29.3153, 110.4348],
+      [34.2658, 108.9541],
+      [40.7025, 117.2337],
+      [39.9042, 116.4074],
+    ],
   },
   {
     title: "Taipei, Taiwan 🇹🇼",
@@ -115,6 +146,7 @@ export const blogEntries = [
     location: "九份",
     date: "August 21, 2023",
     preview: 2,
+    coordinates: [[25.033, 121.5654]],
   },
   {
     title: "Manila, Philippines 🇵🇭",
@@ -124,6 +156,7 @@ export const blogEntries = [
     location: "Manila, Philippines",
     date: "June 12, 2023",
     preview: 1,
+    coordinates: [[14.5995, 120.9842]],
   },
   {
     title: "Singapore 🇸🇬",
@@ -133,6 +166,7 @@ export const blogEntries = [
     location: "Supertree Grove, Gardens by the Bay",
     date: "June 5, 2023",
     preview: 1,
+    coordinates: [[1.3521, 103.8198]],
   },
   {
     title: "Chiang Mai | Bangkok | Phuket, Thailand 🇹🇭",
@@ -142,6 +176,11 @@ export const blogEntries = [
     location: "Elephant Rescue Park",
     date: "May 23, 2023",
     preview: 5,
+    coordinates: [
+      [18.7883, 98.9853],
+      [13.7563, 100.5018],
+      [7.8804, 98.9853],
+    ],
   },
   {
     title: "Siem Reap, Cambodia 🇰🇭 ",
@@ -151,6 +190,7 @@ export const blogEntries = [
     location: "Angkor Wat",
     date: "May 9, 2023",
     preview: 2,
+    coordinates: [[13.3633, 103.8564]],
   },
   {
     title: "Hanoi | Hoi An | Ho Chi Minh City, Vietnam 🇻🇳",
@@ -160,6 +200,12 @@ export const blogEntries = [
     location: "Hội An",
     date: "May 6, 2023",
     preview: 9,
+    coordinates: [
+      [21.0278, 105.8342],
+      [20.9101, 107.1839],
+      [15.8801, 108.338],
+      [10.8231, 106.6297],
+    ],
   },
   {
     title: "Tokyo, Japan 🇯🇵",
@@ -169,6 +215,7 @@ export const blogEntries = [
     location: "Tokyo, Japan",
     date: "April 24, 2023",
     preview: 3,
+    coordinates: [[35.6764, 139.65]],
   },
   {
     title: "Osaka, Japan 🇯🇵",
@@ -178,6 +225,17 @@ export const blogEntries = [
     location: "Shinsekai",
     date: "April 18, 2023",
     preview: 2,
+    coordinates: [[34.6937, 135.5023]],
+  },
+  {
+    title: "Nagoya, Japan 🇯🇵",
+    folder: "/blog/2023/nagoya",
+    numImages: 10,
+    text: "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
+    location: "Shinsekai",
+    date: "April 18, 2023",
+    preview: 2,
+    coordinates: [[35.1815, 136.9066]],
   },
   {
     title: "Kyoto, Japan 🇯🇵",
@@ -187,6 +245,7 @@ export const blogEntries = [
     location: "Kyoto, Japan",
     date: "April 12, 2023",
     preview: 3,
+    coordinates: [[35.0116, 135.7681]],
   },
   {
     title: "Bogota, Colombia 🇨🇴 ",
@@ -196,6 +255,7 @@ export const blogEntries = [
     location: "La Candelaria, Bogotá",
     date: "March 25, 2023",
     preview: 6,
+    coordinates: [[4.711, -74.0721]],
   },
   {
     title: "Cusco | Machu Picchu, Peru 🇵🇪 ",
@@ -205,6 +265,10 @@ export const blogEntries = [
     location: "Machu Picchu, Cusco, Perú",
     date: "March 23, 2023",
     preview: 2,
+    coordinates: [
+      [-13.532, -71.9675],
+      [-13.1632, -72.5453],
+    ],
   },
   {
     title: "Iguaçu Falls, Brazil 🇧🇷 + Iguazu Falls, Argentina 🇦🇷 ",
@@ -214,6 +278,7 @@ export const blogEntries = [
     location: "Parque Nacional do Iguaçu",
     date: "March 22, 2023",
     preview: 2,
+    coordinates: [[-25.6953, -54.4367]],
   },
   {
     title: "Rio de Janeiro | São Paulo | Caraguatatuba, Brazil 🇧🇷 ",
@@ -223,6 +288,11 @@ export const blogEntries = [
     location: "Ipanema Beach, Rio de Janeiro",
     date: "March 21, 2023",
     preview: 8,
+    coordinates: [
+      [-22.9068, -43.1729],
+      [-23.5558, -46.6396],
+      [-23.6201, -45.4121],
+    ],
   },
   {
     title: "Lisbon, Portugal 🇵🇹",
@@ -232,6 +302,7 @@ export const blogEntries = [
     location: "Torre de Belém",
     date: "November 21, 2022",
     preview: 7,
+    coordinates: [[38.7223, -9.1393]],
   },
   {
     title: "Madrid, Spain 🇪🇸",
@@ -241,6 +312,7 @@ export const blogEntries = [
     location: "Plaza Mayor, Madrid",
     date: "November 14, 2022",
     preview: 2,
+    coordinates: [[40.4168, -3.7038]],
   },
   {
     title: "Paris, France 🇫🇷",
@@ -250,6 +322,7 @@ export const blogEntries = [
     location: "Tour Eiffel",
     date: "November 2, 2022",
     preview: 3,
+    coordinates: [[48.8575, 2.3514]],
   },
   {
     title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
@@ -259,6 +332,11 @@ export const blogEntries = [
     location: "Italy",
     date: "October 27, 2022",
     preview: 6,
+    coordinates: [
+      [41.8967, 12.4822],
+      [43.77, 11.2577],
+      [45.4685, 9.1824],
+    ],
   },
   {
     title: "Budapest, Hungary 🇭🇺 ",
@@ -268,6 +346,7 @@ export const blogEntries = [
     location: "Budapest",
     date: "October 23, 2022",
     preview: 4,
+    coordinates: [[47.4979, 19.0402]],
   },
   {
     title: "Vienna, Austria 🇦🇹 ",
@@ -277,15 +356,17 @@ export const blogEntries = [
     location: "Schönbrunn Palace",
     date: "October 20, 2022",
     preview: 7,
+    coordinates: [[48.2081, 16.3713]],
   },
   {
-    title: "Prague, Czech Republic 🇨🇿 ",
+    title: "Prague, Czech Republic 🇨🇿",
     folder: "/blog/2022/czechia",
     numImages: 10,
     text: "Europe stop number five! This city felt like walking in a fantasy world. The beautiful train ride in, untouched gothic architecture, maze-like cobblestone streets, and awe-inspiring views were all like nothing I have ever seen before. Just amazing! \nI was and still am a bit sad that I wasn’t able to tour the famous Prague Castle that was looming in the distance, but it just gives me all the more reason to come back and visit again!",
     location: "Prague",
     date: "October 15, 2022",
     preview: 8,
+    coordinates: [[50.0875, 14.4378]],
   },
   {
     title: "Berlin, Germany 🇩🇪",
@@ -295,6 +376,7 @@ export const blogEntries = [
     location: "Brandenburg Gate, Berlin",
     date: "October 10, 2022",
     preview: 2,
+    coordinates: [[52.52, 13.405]],
   },
   {
     title: "Amsterdam, Netherlands 🇳🇱",
@@ -304,6 +386,7 @@ export const blogEntries = [
     location: "Amsterdam",
     date: "October 6, 2022",
     preview: 2,
+    coordinates: [[52.1326, 5.2913]],
   },
   {
     title: "Brussels, Belgium 🇧🇪",
@@ -313,6 +396,7 @@ export const blogEntries = [
     location: "Grande Place, Brussels",
     date: "October 3, 2022",
     preview: 8,
+    coordinates: [[50.8476, 4.3572]],
   },
   {
     title: "London, England 🇬🇧",
@@ -322,5 +406,13 @@ export const blogEntries = [
     location: "Big Ben, London",
     date: "September 30, 2022",
     preview: 2,
+    coordinates: [[51.5072, -0.1276]],
   },
+  {
+    title: "Los Angeles",
+    coordinates: [[33.9422, -118.4036]],
+  },
+  { title: "San Francisco", coordinates: [[37.6193, -122.3816]] },
+  { title: "Dallas Fort Worth", coordinates: [[32.899, -97.0336]] },
+  { title: "New York City", coordinates: [[40.6446, -73.7797]] },
 ];
