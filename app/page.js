@@ -98,7 +98,7 @@ function AboutSection({}) {
         user-driven websites, and easy-to-use mobile applications.
       </p>
       <p className="pt-5">
-        What makes me most fullfilled as an engineer is seeing an idea go from a
+        What makes me most fulfilled as an engineer is seeing an idea go from a
         proof of concept to a fully featured production-ready application!
       </p>
       <p className="pt-5">
