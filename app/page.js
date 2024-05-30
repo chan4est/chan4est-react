@@ -7,6 +7,7 @@ import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
 import { useState, useRef, useEffect } from "react";
+import ReactCurvedText from "react-curved-text";
 
 function StackIcon({
   stackImg,
@@ -491,6 +492,17 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center pl-10 pr-10 pb-10 bg-primary-100 leading-relaxed justify-center">
       <NavBar />
+      {/* <div className="text-text animate-[spin_12s_linear_infinite] absolute top-0 left-0 -z-10">
+        <ReactCurvedText
+          width={100}
+          height={100}
+          cx={50}
+          cy={50}
+          rx={50}
+          ry={50}
+          text="Welcome to my website. Welcome to my website. Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website."
+        />
+      </div> */}
       <AboutSection />
       <TechStackSection />
       <ProjectsSection />

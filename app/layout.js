@@ -36,9 +36,13 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       translate="no"
-      className="bg-background text-text bg-gradient-to-br from-primary to-secondary"
+      className="bg-background text-text bg-gradient-to-br from-secondary to-primary scroll-smooth"
     >
-      <body id="root">{children}</body>
+      <body id="root">
+        {children}
+        <Footer />
+      </body>
+
       <GoogleAnalytics gaId="G-JZT3MDL1HN" />
     </html>
   );
