@@ -1,4 +1,4 @@
-import { Footer } from "./components/footer";
+import { Footer } from "./components/Footer";
 import "./globals.css";
 // https://github.com/vercel/next.js/issues/58697#issuecomment-1894581797
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -42,7 +42,6 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
-
       <GoogleAnalytics gaId="G-JZT3MDL1HN" />
     </html>
   );

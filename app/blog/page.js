@@ -1,21 +1,23 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { blogEntries } from "../lib/blogEntries";
+import chanPhoto from "../../public/me.webp";
+import { getBlogEntries } from "../lib/getBlogEntries.js";
+import { NavBar } from "../components/Navbar";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function BlogPreview({ blogInfo }) {
+function BlogPreview({ blogEntry }) {
   return (
     <>
-      <Link href="/blog/" title={blogInfo.title}>
+      <Link href={`/blog/${blogEntry.route}`} title={blogEntry.title}>
         <Image
-          src={`${blogInfo.folder}/${blogInfo.preview}.webp`}
-          alt={`${blogInfo.location}`}
+          src={blogEntry.imgurLink}
+          alt={blogEntry.title}
           width={300}
           height={300}
           quality={100}
@@ -26,10 +28,10 @@ function BlogPreview({ blogInfo }) {
   );
 }
 
-function BlogGrid({}) {
+function BlogGrid({ blogEntries }) {
   let blogPreviews = [];
-  blogEntries.forEach((item) => {
-    blogPreviews.push(<BlogPreview blogInfo={item} key={item.title} />);
+  blogEntries.forEach((entry) => {
+    blogPreviews.push(<BlogPreview blogEntry={entry} key={entry.title} />);
   });
   return (
     <div className="flex flex-col justify-center content-center">
@@ -38,14 +40,57 @@ function BlogGrid({}) {
   );
 }
 
-export default function Blog() {
-  const blogPreviewLength = blogEntries.length - 1;
-  const randomInt = getRandomInt(blogPreviewLength) + 1;
+function BlogHeader({ blogEntries }) {
+  let flagLinks = [];
+  blogEntries.map((entry) => {
+    flagLinks.unshift(
+      <Link
+        href={`/blog/${entry.route}`}
+        title={entry.title}
+        className="hover:scale-125 transition duration-200 ease-in-out"
+        key={entry.title}
+      >
+        {`${entry.flag} `}
+        {entry.flag2 ? `${entry.flag2} ` : ""}
+      </Link>
+    );
+  });
   return (
-    <div className="flex min-h-screen flex-col text-center content-center justify-center items-center p-l-10 p-r-10 pt-1 pb-1">
-      {/* <BlogGrid /> */}
-      <h3>Work In Progress</h3>
-      <BlogPreview blogInfo={blogEntries[5]} />
+    <section className="flex flex-col sm:flex-row items-center pb-5 max-w-screen-md pl-5 pr-5">
+      <div className="flex-shrink-0">
+        <Image
+          src={chanPhoto}
+          alt={"Chandler at the Pokemon Cafe in Tokyo, Japan"}
+          width={200}
+          height={200}
+          quality={100}
+          className="rounded-full"
+        />
+      </div>
+      <div className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem]">
+        <ul>
+          <li>
+            <span>Chandler Forrest</span>
+            <span className="text-gray-300 pl-2 text-sm">he/him</span>
+          </li>
+          <li>28 | Developer | Traveler | Music Lover</li>
+          <li>
+            🇺🇸 🇬🇧 🇧🇪 🇳🇱 🇩🇪 🇨🇿 🇦🇹 🇭🇺 🇮🇹 🇻🇦 🇫🇷 🇪🇸 🇵🇹 🇧🇷 🇦🇷 🇵🇪 🇨🇴 🇯🇵 🇻🇳 🇰🇭 🇹🇭 🇸🇬 🇵🇭{" "}
+            {flagLinks}…
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export default async function Blog() {
+  const blogEntries = await getBlogEntries();
+  return (
+    <div className="flex min-h-screen flex-col text-center content-center items-center pb-1">
+      <NavBar />
+      <BlogHeader blogEntries={blogEntries} />
+      <BlogGrid blogEntries={blogEntries} />
     </div>
   );
 }
