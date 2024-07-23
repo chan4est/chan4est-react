@@ -36,6 +36,7 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",
+        blog_accent: "var(--blog-accent)",
       },
       transitionDuration: {
         250: "250ms",

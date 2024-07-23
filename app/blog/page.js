@@ -71,7 +71,7 @@ function BlogHeader({ blogEntries }) {
         <ul>
           <li>
             <span>Chandler Forrest</span>
-            <span className="text-gray-300 pl-2 text-sm">he/him</span>
+            <span className="text-blog_accent pl-2 text-sm">he/him</span>
           </li>
           <li>28 | Developer | Traveler | Music Lover</li>
           <li>
