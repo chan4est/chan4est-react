@@ -38,23 +38,32 @@ function BlogGrid({ blogEntries }) {
   );
 }
 
+function FlagLink({ flagEmoji, link, title }) {
+  return (
+    <Link
+      href={link}
+      title={title}
+      className="drop-shadow-md flex justify-center items-center hover:scale-125 transition duration-200 ease-in-out"
+      key={title}
+    >
+      {`${flagEmoji}`}
+    </Link>
+  );
+}
+
 function BlogHeader({ blogEntries }) {
   const flagLinks = blogEntries.map((entry) => (
-    <Link
-      href={`/blog/${entry.route}`}
+    <FlagLink
+      flagEmoji={entry.flag}
+      link={`/blog/${entry.route}`}
       title={entry.title}
-      className="drop-shadow-md"
-      key={entry.title}
-    >
-      {`${entry.flag} `}
-      {entry.flag2 ? `${entry.flag2} ` : ""}
-    </Link>
+      key={entry.flag}
+    />
   ));
   const flagLinksRev = flagLinks.reverse();
-  const [flagsFirstHalf, flagsSecondHalf] = splitArray(flagLinksRev);
 
   return (
-    <section className="flex flex-col sm:flex-row items-center max-w-screen-md pl-4 pr-4 pb-4 md:pb-8">
+    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 md:pb-8">
       <div id="age" className="flex-shrink-0">
         <Image
           src={chanPhoto}
@@ -77,9 +86,12 @@ function BlogHeader({ blogEntries }) {
             </span>
           </li>
           <li>28 | Developer | Traveler | Music Lover</li>
-          <li className="text-[0.875rem] md:text-base">{flagLinksRev}</li>
-          {/* <li className="text-[0.875rem] lg:text-base">{flagsFirstHalf}</li> */}
-          {/* <li className="text-[0.875rem] lg:text-base">{flagsSecondHalf}</li> */}
+          <li>
+            {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
+            <div className="grid grid-cols-18 grid-row gap-x-2">
+              {flagLinksRev}
+            </div>
+          </li>
         </ul>
       </div>
     </section>
