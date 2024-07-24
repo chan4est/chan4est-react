@@ -1,9 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import chanPhoto from "../../public/me.webp";
-import { getBlogEntries } from "../lib/getBlogEntries.js";
 import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
+
+function splitArray(arr) {
+  const mid = Math.floor(arr.length / 2);
+  const firstHalf = arr.slice(0, mid);
+  const secondHalf = arr.slice(mid);
+  return [firstHalf, secondHalf];
+}
 
 function BlogGridSquare({ blogEntry }) {
   return (
@@ -33,22 +39,22 @@ function BlogGrid({ blogEntries }) {
 }
 
 function BlogHeader({ blogEntries }) {
-  let flagLinks = [];
-  blogEntries.map((entry) => {
-    flagLinks.unshift(
-      <Link
-        href={`/blog/${entry.route}`}
-        title={entry.title}
-        className="hover:scale-125 transition duration-200 ease-in-out"
-        key={entry.title}
-      >
-        {`${entry.flag} `}
-        {entry.flag2 ? `${entry.flag2} ` : ""}
-      </Link>
-    );
-  });
+  const flagLinks = blogEntries.map((entry) => (
+    <Link
+      href={`/blog/${entry.route}`}
+      title={entry.title}
+      className="drop-shadow-md"
+      key={entry.title}
+    >
+      {`${entry.flag} `}
+      {entry.flag2 ? `${entry.flag2} ` : ""}
+    </Link>
+  ));
+  const flagLinksRev = flagLinks.reverse();
+  const [flagsFirstHalf, flagsSecondHalf] = splitArray(flagLinksRev);
+
   return (
-    <section className="flex flex-col sm:flex-row items-center pb-8 max-w-screen-md pl-5 pr-5">
+    <section className="flex flex-col sm:flex-row items-center pb-4 md:pb-8 max-w-screen-md pr-1 pl-1">
       <div className="flex-shrink-0">
         <Image
           src={chanPhoto}
@@ -59,24 +65,24 @@ function BlogHeader({ blogEntries }) {
           className="rounded-full"
         />
       </div>
-      <div className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem]">
+      <div className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem] text-[0.875rem] md:text-base">
         <ul>
           <li>
             <span>Chandler Forrest</span>
-            <span className="text-blog_accent pl-2 text-sm">he/him</span>
+            <span className="text-blog_accent pl-2 text-xs md:text-sm">
+              he/him
+            </span>
           </li>
           <li>28 | Developer | Traveler | Music Lover</li>
-          <li>
-            🇺🇸 🇬🇧 🇧🇪 🇳🇱 🇩🇪 🇨🇿 🇦🇹 🇭🇺 🇮🇹 🇻🇦 🇫🇷 🇪🇸 🇵🇹 🇧🇷 🇦🇷 🇵🇪 🇨🇴 🇯🇵 🇻🇳 🇰🇭 🇹🇭 🇸🇬 🇵🇭{" "}
-            {flagLinks}…
-          </li>
+          <li className="text-base">{flagsFirstHalf}</li>
+          <li className="text-base">{flagsSecondHalf}</li>
         </ul>
       </div>
     </section>
   );
 }
 
-export default async function Blog() {
+export default function Blog() {
   const blogEntries = blogEntriesSimple;
   return (
     <div className="bg-accent flex min-h-screen flex-col text-center content-center items-center pb-1">

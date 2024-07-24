@@ -86,7 +86,7 @@ export default function BlogPage({ params }) {
   ));
 
   return (
-    <div className="bg-accent flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center text-[12px] md:pt-8 pb-8 md:pl-7">
+    <div className="bg-accent flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center text-[0.7rem] md:pt-8 pb-8 md:pl-7">
       <div className="overflow-hidden max-w-[720px] md:max-w[400px] lg:max-w-[720px]">
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">{imgList}</div>
@@ -94,7 +94,7 @@ export default function BlogPage({ params }) {
         </div>
       </div>
 
-      <div className="text-left pl-3 pr-3 pb-3 pt-3 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7">
+      <div className="text-left pl-3 pr-3 pb-3 pt-1 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7">
         <ul>
           <li className="pb-3">{blogData.title}</li>
           {blogParagraphs}
