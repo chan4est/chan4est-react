@@ -75,7 +75,7 @@ export function NavBar({}) {
   return (
     <nav
       id="navbar"
-      className="flex justify-center content-center flex-col pb-10"
+      className="flex justify-center content-center flex-col pb-10 z-10"
       ref={menuRef}
       onClick={() => setisMenuOpen(!isMenuOpen)}
     >

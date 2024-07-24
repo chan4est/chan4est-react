@@ -54,8 +54,8 @@ function BlogHeader({ blogEntries }) {
   const [flagsFirstHalf, flagsSecondHalf] = splitArray(flagLinksRev);
 
   return (
-    <section className="flex flex-col sm:flex-row items-center pb-4 md:pb-8 max-w-screen-md pr-1 pl-1">
-      <div className="flex-shrink-0">
+    <section className="flex flex-col sm:flex-row items-center max-w-screen-md pl-4 pr-4 pb-4 md:pb-8">
+      <div id="age" className="flex-shrink-0">
         <Image
           src={chanPhoto}
           alt={"Chandler at the Pokemon Cafe in Tokyo, Japan"}
@@ -65,7 +65,10 @@ function BlogHeader({ blogEntries }) {
           className="rounded-full"
         />
       </div>
-      <div className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem] text-[0.875rem] md:text-base">
+      <div
+        id="blurb"
+        className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem] text-[0.875rem] md:text-base"
+      >
         <ul>
           <li>
             <span>Chandler Forrest</span>
@@ -74,8 +77,9 @@ function BlogHeader({ blogEntries }) {
             </span>
           </li>
           <li>28 | Developer | Traveler | Music Lover</li>
-          <li className="text-[0.875rem] md:text-base">{flagsFirstHalf}</li>
-          <li className="text-[0.875rem] md:text-base">{flagsSecondHalf}</li>
+          {/* <li className="text-[0.875rem] md:text-base">{flagLinksRev}</li> */}
+          <li className="text-[0.875rem] lg:text-base">{flagsFirstHalf}</li>
+          <li className="text-[0.875rem] lg:text-base">{flagsSecondHalf}</li>
         </ul>
       </div>
     </section>
