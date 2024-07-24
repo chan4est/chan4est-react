@@ -77,9 +77,9 @@ function BlogHeader({ blogEntries }) {
             </span>
           </li>
           <li>28 | Developer | Traveler | Music Lover</li>
-          {/* <li className="text-[0.875rem] md:text-base">{flagLinksRev}</li> */}
-          <li className="text-[0.875rem] lg:text-base">{flagsFirstHalf}</li>
-          <li className="text-[0.875rem] lg:text-base">{flagsSecondHalf}</li>
+          <li className="text-[0.875rem] md:text-base">{flagLinksRev}</li>
+          {/* <li className="text-[0.875rem] lg:text-base">{flagsFirstHalf}</li> */}
+          {/* <li className="text-[0.875rem] lg:text-base">{flagsSecondHalf}</li> */}
         </ul>
       </div>
     </section>
