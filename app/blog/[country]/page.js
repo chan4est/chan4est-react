@@ -7,13 +7,15 @@ import {
   NextButton,
   PrevButton,
   usePrevNextButtons,
-} from "@/app/lib/EmblaCarouselArrowButtons";
-import useWindowSize from "@/app/lib/useWindowSize";
-import { DotButton, useDotButton } from "@/app/lib/EmblaCarouselDotbutton";
+} from "@/app/components/EmblaCarouselArrowButtons";
+import {
+  DotButton,
+  useDotButton,
+} from "@/app/components/EmblaCarouselDotbutton";
 
 function BlogImage({ imgSrc, imgLocation }) {
   return (
-    <div className="embla__slide flex items-center justify-center flex-shrink-0 md:w-[600px] md:h-[600px] lg:w-[720px] lg:h-[720px]">
+    <div className="flex-[0_0_100%] min-w-0 flex items-center justify-center flex-shrink-0">
       <Image
         src={imgSrc}
         alt={`Photo of ${imgLocation}`}
@@ -25,16 +27,7 @@ function BlogImage({ imgSrc, imgLocation }) {
   );
 }
 
-export default function BlogPage({ params }) {
-  const { height, width } = useWindowSize();
-  // const dragable = width < 1080 ? true : false;
-
-  const blogEntries = blogEntriesSimple;
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    loop: false,
-    // watchDrag: dragable,
-  });
-
+function PhotoControls({ emblaApi }) {
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
 
@@ -45,7 +38,36 @@ export default function BlogPage({ params }) {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi);
 
-  const blogData = blogEntries.filter(
+  const scrollSnapsList = scrollSnaps.map((_, index) => (
+    <DotButton
+      key={index}
+      onClick={() => onDotButtonClick(index)}
+      className={"embla__dot after:bg-button_inactive".concat(
+        index === selectedIndex
+          ? "embla__dot__selected after:bg-button_active"
+          : ""
+      )}
+    />
+  ));
+
+  return (
+    <div className="flex flex-row justify-center xl:justify-between">
+      <div className="hidden xl:block xl:w-10"></div>
+      <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
+        {scrollSnapsList}
+      </div>
+      <div className="hidden xl:flex xl:justify-end">
+        <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+        <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+      </div>
+    </div>
+  );
+}
+
+export default function BlogPage({ params }) {
+  const [emblaRef, emblaApi] = useEmblaCarousel();
+
+  const blogData = blogEntriesSimple.filter(
     (blog) => blog.route === params.country
   )[0];
 
@@ -64,35 +86,15 @@ export default function BlogPage({ params }) {
   ));
 
   return (
-    <div className="flex flex-1 flex-col md:flex-row lg:flex-row content-center lg:justify-center items-center text-[12px]">
-      <div className="embla max-w-[720px] md:max-w[400px] lg:max-w-[720px]">
-        <div className="embla__viewport" ref={emblaRef}>
-          <div className="embla__container">{imgList}</div>
-          <div className="embla__dots">
-            {scrollSnaps.map((_, index) => (
-              <DotButton
-                key={index}
-                onClick={() => onDotButtonClick(index)}
-                className={"embla__dot".concat(
-                  index === selectedIndex ? " embla__dot--selected" : ""
-                )}
-              />
-            ))}
-          </div>
-          <div className="hidden xl:flex xl:justify-end">
-            <PrevButton
-              onClick={onPrevButtonClick}
-              disabled={prevBtnDisabled}
-            />
-            <NextButton
-              onClick={onNextButtonClick}
-              disabled={nextBtnDisabled}
-            />
-          </div>
+    <div className="bg-accent flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center text-[12px] md:pt-8 pb-8 md:pl-7">
+      <div className="overflow-hidden max-w-[720px] md:max-w[400px] lg:max-w-[720px]">
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex">{imgList}</div>
+          <PhotoControls emblaApi={emblaApi} />
         </div>
       </div>
 
-      <div className="text-left pl-3 pr-3 pb-3 max-w-[450px] md:max-w-[400px] md:pl-7 md:pr-7">
+      <div className="text-left pl-3 pr-3 pb-3 pt-3 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7">
         <ul>
           <li className="pb-3">{blogData.title}</li>
           {blogParagraphs}

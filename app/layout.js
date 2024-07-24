@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       translate="no"
-      className="bg-background text-text bg-gradient-to-br from-secondary to-primary scroll-smooth"
+      className="text-text bg-gradient-to-br from-secondary to-primary scroll-smooth"
     >
       <body id="root" className="min-h-screen flex flex-col justify-between">
         {children}

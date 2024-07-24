@@ -1,40 +1,32 @@
-// "use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import chanPhoto from "../../public/me.webp";
 import { getBlogEntries } from "../lib/getBlogEntries.js";
 import { NavBar } from "../components/Navbar";
+import { blogEntriesSimple } from "../lib/blogEntriesSimple";
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-function BlogPreview({ blogEntry }) {
+function BlogGridSquare({ blogEntry }) {
   return (
-    <>
-      <Link href={`/blog/${blogEntry.route}`} title={blogEntry.title}>
-        <Image
-          src={blogEntry.imgurLink}
-          alt={blogEntry.title}
-          width={300}
-          height={300}
-          quality={100}
-          className="max-h-[300px] object-cover"
-        />
-      </Link>
-    </>
+    <Link href={`/blog/${blogEntry.route}`} title={blogEntry.title}>
+      <Image
+        src={blogEntry.imgurLink}
+        alt={blogEntry.title}
+        width={300}
+        height={300}
+        quality={100}
+        className="max-h-[300px] object-cover"
+      />
+    </Link>
   );
 }
 
 function BlogGrid({ blogEntries }) {
-  let blogPreviews = [];
-  blogEntries.forEach((entry) => {
-    blogPreviews.push(<BlogPreview blogEntry={entry} key={entry.title} />);
-  });
+  const blogPreviews = blogEntries.map((entry) => (
+    <BlogGridSquare blogEntry={entry} key={entry.title} />
+  ));
+
   return (
-    <div className="flex flex-col justify-center content-center">
+    <div className="flex flex-col justify-center content-center pb-8">
       <div className="grid grid-cols-3 gap-1 pr-1 pl-1">{blogPreviews}</div>
     </div>
   );
@@ -56,7 +48,7 @@ function BlogHeader({ blogEntries }) {
     );
   });
   return (
-    <section className="flex flex-col sm:flex-row items-center pb-5 max-w-screen-md pl-5 pr-5">
+    <section className="flex flex-col sm:flex-row items-center pb-8 max-w-screen-md pl-5 pr-5">
       <div className="flex-shrink-0">
         <Image
           src={chanPhoto}
@@ -85,9 +77,9 @@ function BlogHeader({ blogEntries }) {
 }
 
 export default async function Blog() {
-  const blogEntries = await getBlogEntries();
+  const blogEntries = blogEntriesSimple;
   return (
-    <div className="flex min-h-screen flex-col text-center content-center items-center pb-1">
+    <div className="bg-accent flex min-h-screen flex-col text-center content-center items-center pb-1">
       <NavBar />
       <BlogHeader blogEntries={blogEntries} />
       <BlogGrid blogEntries={blogEntries} />

@@ -37,6 +37,8 @@ module.exports = {
         secondary: "var(--secondary)",
         accent: "var(--accent)",
         blog_accent: "var(--blog-accent)",
+        button_active: "var(--button-active)",
+        button_inactive: "var(--button-inactive)",
       },
       transitionDuration: {
         250: "250ms",
