@@ -3,13 +3,7 @@ import Link from "next/link";
 import chanPhoto from "../../public/me.webp";
 import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
-
-function splitArray(arr) {
-  const mid = Math.floor(arr.length / 2);
-  const firstHalf = arr.slice(0, mid);
-  const secondHalf = arr.slice(mid);
-  return [firstHalf, secondHalf];
-}
+import calculateAge from "../lib/calculateAge";
 
 function BlogGridSquare({ blogEntry }) {
   return (
@@ -62,8 +56,10 @@ function BlogHeader({ blogEntries }) {
   ));
   const flagLinksRev = flagLinks.reverse();
 
+  const age = calculateAge("06301996");
+
   return (
-    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 md:pb-8">
+    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10">
       <div id="age" className="flex-shrink-0">
         <Image
           src={chanPhoto}
@@ -76,7 +72,7 @@ function BlogHeader({ blogEntries }) {
       </div>
       <div
         id="blurb"
-        className="flex flex-column items-center sm:pl-10 pt-3 text-left max-w-[26rem] text-[0.875rem] md:text-base"
+        className="flex flex-column items-center pt-3 sm:pl-10  text-left max-w-[26rem] text-[0.875rem] md:text-base"
       >
         <ul>
           <li>
@@ -85,7 +81,7 @@ function BlogHeader({ blogEntries }) {
               he/him
             </span>
           </li>
-          <li>28 | Developer | Traveler | Music Lover</li>
+          <li>{age} | Developer | Traveler | Music Lover</li>
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">
@@ -101,7 +97,7 @@ function BlogHeader({ blogEntries }) {
 export default function Blog() {
   const blogEntries = blogEntriesSimple;
   return (
-    <div className="bg-accent flex min-h-screen flex-col text-center content-center items-center pb-1">
+    <div className="bg-accent flex min-h-screen flex-col text-center content-center items-center">
       <NavBar />
       <BlogHeader blogEntries={blogEntries} />
       <BlogGrid blogEntries={blogEntries} />

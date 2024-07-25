@@ -81,7 +81,7 @@ export function NavBar({}) {
     >
       <button>
         <div
-          className="w-9 h-9 sm:w-11 sm:h-11 absolute top-3 right-3"
+          className="w-9 h-9 lg:w-11 lg:h-11 absolute top-3 right-3"
           title="Menu"
         >
           <picture>
@@ -102,41 +102,41 @@ export function NavBar({}) {
       </button>
       {isMenuOpen && (
         <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md">
-          <NavBarLink href={"/"} imgSrc={"/header-icons/home"} pText={"HOME"} />
+          <NavBarLink href={"/"} imgSrc={"/header-icons/home"} pText={"Home"} />
           <NavBarLink
             href={"#tech-stack"}
             imgSrc={"/header-icons/tech-stack"}
-            pText={"TECH STACK"}
+            pText={"Tech Stack"}
           />
           <NavBarLink
             href={"#projects"}
             imgSrc={"/header-icons/projects"}
-            pText={"PROJECTS"}
+            pText={"Projects"}
           />
           <NavBarLink
             href={"/Chandler-Forrest-Resume.pdf"}
             imgSrc={"/header-icons/resume"}
-            pText={"RESUME"}
+            pText={"Resume"}
           />
           <NavBarLink
             href={"/blog"}
             imgSrc={"/header-icons/blog"}
-            pText={"BLOG (WIP)"}
+            pText={"Blog"}
           />
           <NavBarAnchor
             href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
             imgSrc={"/tech-icons/gmail"}
-            pText={"EMAIL"}
+            pText={"Email"}
           />
           <NavBarAnchor
             href={"https://www.linkedin.com/in/chan4est/"}
             imgSrc={"/tech-icons/linkedin"}
-            pText={"LINKEDIN"}
+            pText={"LinkedIn"}
           />
           <NavBarAnchor
             href={"https://github.com/chan4est/"}
             imgSrc={"/tech-icons/github"}
-            pText={"GITHUB"}
+            pText={"GitHub"}
             hasDarkMode={true}
           />
         </div>
