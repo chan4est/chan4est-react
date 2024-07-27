@@ -348,7 +348,7 @@ function ProjectsSection({}) {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 bg-primary-100 leading-relaxed justify-center">
+    <div className="bg-gradient-to-br from-secondary to-primary scroll-smooth flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 bg-primary-100 leading-relaxed justify-center">
       <NavBar />
       {/* <div className="text-text animate-[spin_12s_linear_infinite] absolute top-0 left-0 -z-10">
         <ReactCurvedText
@@ -364,6 +364,6 @@ export default function Home() {
       <AboutSection />
       <TechStackSection />
       <ProjectsSection />
-    </main>
+    </div>
   );
 }

@@ -5,12 +5,12 @@ import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
 import calculateAge from "../lib/calculateAge";
 
-function BlogGridSquare({ blogEntry }) {
+function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
   return (
-    <Link href={`/blog/${blogEntry.route}`} title={blogEntry.title}>
+    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
       <Image
-        src={blogEntry.imgurLink}
-        alt={blogEntry.title}
+        src={imgSrc}
+        alt={`Photo of ${imgLocationName}`}
         width={300}
         height={300}
         quality={100}
@@ -21,9 +21,18 @@ function BlogGridSquare({ blogEntry }) {
 }
 
 function BlogGrid({ blogEntries }) {
-  const blogPreviews = blogEntries.map((entry) => (
-    <BlogGridSquare blogEntry={entry} key={entry.title} />
-  ));
+  const blogPreviews = blogEntries.map((entry) => {
+    const firstImageData = entry.images[0];
+    return (
+      <BlogGridSquare
+        imgSrc={firstImageData.src}
+        imgLocationName={firstImageData.location.name}
+        entryTitle={entry.title}
+        entryRoute={entry.route}
+        key={entry.title}
+      />
+    );
+  });
 
   return (
     <div className="flex flex-col justify-center content-center pb-8">
@@ -97,7 +106,7 @@ function BlogHeader({ blogEntries }) {
 export default function Blog() {
   const blogEntries = blogEntriesSimple;
   return (
-    <div className="bg-accent flex min-h-screen flex-col text-center content-center items-center">
+    <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
       <NavBar />
       <BlogHeader blogEntries={blogEntries} />
       <BlogGrid blogEntries={blogEntries} />
