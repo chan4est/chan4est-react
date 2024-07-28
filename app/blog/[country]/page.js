@@ -13,33 +13,44 @@ import {
   useDotButton,
 } from "@/app/components/EmblaCarouselDotbutton";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
+import { useRouter } from "next/router";
+import Zoomable from "react-instagram-zoom";
 
 function NurtureCoordinates({
   imgLocationLat,
   imgLocationLong,
   imgLocationLink,
 }) {
-  const latComponents = imgLocationLat.deg.split("°");
-  const longComponents = imgLocationLong.deg.split("°");
+  const latComponents = imgLocationLat.split("°");
+  const latComponents2 = latComponents[1].split("'");
+  const latComponents3 = latComponents2[1].split('"');
+
+  const longComponents = imgLocationLong.split("°");
+  const longComponents2 = longComponents[1].split("'");
+  const longComponents3 = longComponents2[1].split('"');
+
   return (
     <Link
       href={imgLocationLink}
-      className="text-sm hover:text-button_inactive pb-1"
+      className="text-sm hover:text-button_inactive pl-3 pr-3"
     >
       <p>
         <span>{`Φ `}</span>
         <span className="pl-2">{`${latComponents[0]}°`}</span>
-        <span className="pl-2">{`${latComponents[1]}`}</span>
-        <sup className="pl-1">
-          <i>{`(${imgLocationLat.dir})`}</i>
+        <span className="pl-2">{`${latComponents2[0]}'`}</span>
+        <span className="pl-1">{`${latComponents3[0]}"`}</span>
+        <sup className="pl-2">
+          <i>{`(${latComponents3[1]})`}</i>
         </sup>
         <span className="pl-4 pr-4">{" | "}</span>
         <span>{`λ `}</span>
         <span className="pl-2">{`${longComponents[0]}°`}</span>
-        <span className="pl-2">{`${longComponents[1]}`}</span>
-        <sup className="pl-1">
-          <i>{` (${imgLocationLong.dir})`}</i>
+        <span className="pl-2">{`${longComponents2[0]}'`}</span>
+        <span className="pl-1">{`${longComponents3[0]}"`}</span>
+        <sup className="pl-2">
+          <i>{`(${longComponents3[1]})`}</i>
         </sup>
       </p>
     </Link>
@@ -54,21 +65,18 @@ function BlogImage({
   imgLocationLink,
 }) {
   return (
-    <div className="flex-[0_0_100%] flex-col min-w-0 flex items-center justify-center flex-shrink-0">
-      <div className="flex flex-row justify-center content-center">
-        <NurtureCoordinates
-          imgLocationLat={imgLocationLat}
-          imgLocationLong={imgLocationLong}
-          imgLocationLink={imgLocationLink}
-        />
+    <div className="flex flex-col flex-[0_0_100%] items-center justify-center">
+      <div className="pt-1 max-w-[720px] max-h-[720px]">
+        <Zoomable>
+          <Image
+            src={imgSrc}
+            alt={`Photo of ${imgLocationName}`}
+            width={5000}
+            height={5000}
+            quality={100}
+          />
+        </Zoomable>
       </div>
-      <Image
-        src={imgSrc}
-        alt={`Photo of ${imgLocationName}`}
-        width={720}
-        height={720}
-        quality={100}
-      />
     </div>
   );
 }
@@ -110,12 +118,94 @@ function PhotoControls({ emblaApi }) {
   );
 }
 
+// Shown only in smaller window widths (phones, tablets)
+function BlogBackButton({}) {
+  return (
+    <Link
+      href="/blog/"
+      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-3 left-1"
+    >
+      <button>
+        <svg className="h-5 w-5 lg:h-7 lg:w-7" viewBox="0 0 532 532">
+          <path
+            fill="currentColor"
+            d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+          />
+        </svg>
+      </button>
+    </Link>
+  );
+}
+
+// Shown only in larger window widths (desktops)
+function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
+  return (
+    <div className="hidden xl:block">
+      {prevBlogData ? (
+        <Link
+          href={`/blog/${prevBlogData.route}`}
+          className="fixed top-1/2 left-0 transform -translate-y-1/2 z-10 pl-5"
+          title={prevBlogData.title}
+        >
+          <button>
+            <svg className="h-7 w-7" viewBox="0 0 532 532">
+              <path
+                fill="currentColor"
+                d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+              />
+            </svg>
+          </button>
+        </Link>
+      ) : (
+        ""
+      )}
+      {nextBlogData ? (
+        <Link
+          href={`/blog/${nextBlogData.route}`}
+          className="fixed top-1/2 right-0 transform -translate-y-1/2 z-10 pr-5"
+          title={nextBlogData.title}
+        >
+          <button>
+            <svg
+              className="h-7 w-7"
+              viewBox="0 0 532 532"
+              transform="scale(-1 1)"
+            >
+              <path
+                fill="currentColor"
+                d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+              />
+            </svg>
+          </button>
+        </Link>
+      ) : (
+        ""
+      )}
+    </div>
+  );
+}
+
 export default function BlogPage({ params }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const searchParams = useSearchParams();
+  const imgIndex = searchParams.get("index");
+
+  // -1 to account for 0 based indexing
+  const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: imgIndex - 1 });
 
   const blogData = blogEntriesSimple.filter(
     (blog) => blog.route === params.country
   )[0];
+
+  const blogDataIndex = blogEntriesSimple.findIndex(
+    (blog) => blog.route === params.country
+  );
+
+  const prevBlogData =
+    blogDataIndex > 0 ? blogEntriesSimple[blogDataIndex - 1] : null;
+  const nextBlogData =
+    blogDataIndex < blogEntriesSimple.length - 1
+      ? blogEntriesSimple[blogDataIndex + 1]
+      : null;
 
   const blogParagraphs = blogData.text.split("\n").map((text) => (
     <li className="pb-2" key={text}>
@@ -135,31 +225,24 @@ export default function BlogPage({ params }) {
   ));
 
   return (
-    // <div className="bg-accent flex flex-1">
-
     <div className="bg-accent flex flex-1 flex-col">
-      <div className="flex flex-row justify-center items-center pb-3">
-        <div className="">
+      <BlogNextPrevButtons
+        prevBlogData={prevBlogData}
+        nextBlogData={nextBlogData}
+      />
+      <div className="flex flex-row justify-center items-center pb-4 xl:pb-0">
+        <div id="topnavbar">
           <NavBar />
-          <Link
-            href="/blog/"
-            className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 absolute top-3 left-2"
-          >
-            <button>
-              <svg className="h-5 w-5" viewBox="0 0 532 532">
-                <path
-                  fill="currentColor"
-                  d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
-                />
-              </svg>
-            </button>
-          </Link>
+          <BlogBackButton />
         </div>
-        <NavBar />
       </div>
       <div className="flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
         <div className="overflow-hidden max-w-[720px] md:max-w[400px] lg:max-w-[720px]">
-          <div>{blogData.location}</div>
+          {/* <NurtureCoordinates
+            imgLocationLat={imgLocationLat}
+            imgLocationLong={imgLocationLong}
+            imgLocationLink={imgLocationLink}
+          /> */}
           <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
             <div className="flex">{imgList}</div>
           </div>
@@ -168,7 +251,9 @@ export default function BlogPage({ params }) {
 
         <div className="text-left pl-3 pr-3 pb-3 pt-1 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
           <ul>
-            <li className="pb-3">{blogData.title}</li>
+            <li className="pb-3">
+              <strong>{blogData.title}</strong>
+            </li>
             {blogParagraphs}
             <li className="text-blog_accent">{blogData.date}</li>
           </ul>

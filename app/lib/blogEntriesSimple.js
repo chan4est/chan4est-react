@@ -3,103 +3,209 @@ export const blogEntriesSimple = [
     title: "Iceland 🇮🇸",
     text: "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
     date: "November 14, 2023",
+    previewIndex: 0,
     images: [
       {
-        src: "https://i.imgur.com/gc32r7Q.jpeg",
+        src: "https://i.imgur.com/Sh8L889.jpeg",
         location: {
-          name: "Skógafoss",
+          name: "Rainbow Street",
           coordinates: {
-            lat: {
-              deg: "63°31' 50.50\" ",
-              dir: "N",
-            },
-            long: {
-              deg: "19°30' 46.80\" ",
-              dir: "W",
-            },
-            link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
+            lat: "64°08'46.30\"N",
+            long: "21°55'58.10\"W",
+            link: "https://www.google.com/maps?q=loc:64.1462,-21.9328",
           },
         },
       },
       {
-        src: "https://i.imgur.com/gc32r7Q.jpeg",
+        src: "https://i.imgur.com/rWWtW2p.jpeg",
         location: {
-          name: "Skógafoss",
+          name: "Hallgrimskirkja",
           coordinates: {
-            lat: {
-              deg: "63°  31'50.50\"",
-              dir: "N",
-            },
-            long: {
-              deg: "19°  30'46.80\"",
-              dir: "W",
-            },
-            link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
+            lat: "64°08'33.00\"N",
+            long: "21°55'39.70\"W",
+            link: "https://www.google.com/maps?q=loc:64.1425,-21.9277",
           },
         },
       },
+      {
+        src: "https://i.imgur.com/qSSJdeU.jpeg",
+        location: {
+          name: "Homes in downtown Reykjavík",
+          coordinates: {
+            lat: "64°08'35.90\"N",
+            long: "21°55'41.90\"W",
+            link: "https://www.google.com/maps?q=loc:64.1433,-21.9283",
+          },
+        },
+      },
+      // {
+      //   src: "https://i.imgur.com/qZWbcAC.jpeg",
+      //   location: {
+      //     name: "Enjoying the Blue Lagoon",
+      //     coordinates: {
+      //       lat: "63°52'46.60\"N",
+      //       long: "22°26'53.90\"W",
+      //       link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/KAHK5IV.jpeg",
+      //   location: {
+      //     name: "Farm on the drive to Þingvellir National Park",
+      //     coordinates: {
+      //       lat: "64°12'05.00\"N",
+      //       long: "21°28'48.70\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.2014,-21.4802",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/ls8yOWf.jpeg",
+      //   location: {
+      //     name: "The boundary of the Northern American and Eurarsia tectonic plates",
+      //     coordinates: {
+      //       lat: "64°15'20.90\"N",
+      //       long: "21°07'41.90\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.2558,-21.1283",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/Zs1Cwvw.png",
+      //   location: {
+      //     name: "Þingvallakirkja (Þingvellir church)",
+      //     coordinates: {
+      //       lat: "64°15'26.30\"N",
+      //       long: "21°07'16.30\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.2573,-21.1212",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/QZu7VH4.jpg",
+      //   location: {
+      //     name: "Flag of Iceland within Þingvellir",
+      //     coordinates: {
+      //       lat: "64°15'36.00\"N",
+      //       long: "21°07'20.60\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.26,-21.1224",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/w54QWbm.jpg",
+      //   location: {
+      //     name: "Gullfoss",
+      //     coordinates: {
+      //       lat: "64°19'30.40\"N",
+      //       long: "20°07'27.10\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.3251,-20.1242",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/PPkWYXI.jpeg",
+      //   location: {
+      //     name: "Seljalandsfoss",
+      //     coordinates: {
+      //       lat: "63°36'55.50\"N",
+      //       long: "19°59'21.20\"W",
+      //       link: "https://www.google.com/maps?q=loc:63.615425,-19.9892222",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/gc32r7Q.jpeg",
+      //   location: {
+      //     name: "Skógafoss",
+      //     coordinates: {
+      //       lat: "63°31'50.50\"N",
+      //       long: "19°30'46.80\"W",
+      //       link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/1jDhKtn.jpg",
+      //   location: {
+      //     name: "Hálsanefshellir Cave",
+      //     coordinates: {
+      //       lat: "63°24'10.50\"N",
+      //       long: "19°02'30.80\"W",
+      //       link: "https://www.google.com/maps?q=loc:63.4029194,-19.0418917",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/IQo1CO2.jpeg",
+      //   location: {
+      //     name: "Reynisdrangar Basalt Cliffs",
+      //     coordinates: {
+      //       lat: "63°24'09.90\"N",
+      //       long: "19°02'31.00\"W",
+      //       link: "https://www.google.com/maps?q=loc:63.4027472,-19.0419472",
+      //     },
+      //   },
+      // },
+      // {
+      //   src: "https://i.imgur.com/XJQRlOx.jpg",
+      //   location: {
+      //     name: "Glipse of the Northern Lights",
+      //     coordinates: {
+      //       lat: "64°09'45.30\"N",
+      //       long: "22°00'49.60\"W",
+      //       link: "https://www.google.com/maps?q=loc:64.1625833,-22.0137778",
+      //     },
+      //   },
+      // },
     ],
     route: "iceland",
     flag: "🇮🇸",
   },
   {
+    title: "Croatia 🇭🇷",
+    text: "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
+    date: "November 6, 2023",
+    previewIndex: 0,
+    images: [
+      {
+        src: "https://i.imgur.com/Ijcx6ld.jpeg",
+        location: {
+          name: "Dubrovnik Old City Harbor",
+          coordinates: {
+            lat: "42°38'30.60\"N",
+            long: "18°06'44.90\"E",
+            link: "https://www.google.com/maps?q=loc:42.6418194,18.1124667",
+          },
+        },
+      },
+    ],
+    route: "croatia",
+    flag: "🇭🇷",
+  },
+  {
     title: "Taiwan 🇹🇼",
     text: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
     date: "August 21, 2023",
+    previewIndex: 0,
     images: [
       {
         src: "https://i.imgur.com/IWAlZsi.jpeg",
         location: {
           name: "象山峯",
           coordinates: {
-            lat: {
-              deg: "25°01' 38.90\" ",
-              dir: "N",
-            },
-            long: {
-              deg: "121°34' 34.70\" ",
-              dir: "E",
-            },
-            link: "https://www.google.com/maps?q=loc:25.0274806,121.5763111",
-          },
-        },
-      },
-      {
-        src: "https://i.imgur.com/IWAlZsi.jpeg",
-        location: {
-          name: "象山峯",
-          coordinates: {
-            lat: {
-              deg: "25°01' 38.90\" ",
-              dir: "N",
-            },
-            long: {
-              deg: "121°34' 34.70\" ",
-              dir: "E",
-            },
+            lat: "25°01'38.90\"N",
+            long: "121°34'34.70\"E",
             link: "https://www.google.com/maps?q=loc:25.0274806,121.5763111",
           },
         },
       },
     ],
-
     route: "taiwan",
     flag: "🇹🇼",
   },
-  // {
-  //   title: "Croatia 🇭🇷",
-  //   text: "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
-  //   location: "Dubrovnik, Croatia",
-  //   date: "November 6, 2023",
-  //   imgurLink: "https://i.imgur.com/Ijcx6ld.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/Ijcx6ld.jpeg",
-  //     "https://i.imgur.com/Ijcx6ld.jpeg",
-  //     "https://i.imgur.com/Ijcx6ld.jpeg",
-  //   ],
-  //   route: "croatia",
-  //   flag: "🇭🇷",
-  // },
+
   // {
   //   title: "Greece 🇬🇷",
   //   text: "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with @emmillenium beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
