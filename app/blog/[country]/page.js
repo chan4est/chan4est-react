@@ -15,7 +15,7 @@ import {
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
-import { useRouter } from "next/router";
+// https://github.com/AlexSapoznikov/react-instagram-zoom
 import Zoomable from "react-instagram-zoom";
 
 function NurtureCoordinates({
@@ -67,7 +67,7 @@ function BlogImage({
   return (
     <div className="flex flex-col flex-[0_0_100%] items-center justify-center">
       <div className="pt-1 max-w-[720px] max-h-[720px]">
-        <Zoomable>
+        <Zoomable zIndex={20}>
           <Image
             src={imgSrc}
             alt={`Photo of ${imgLocationName}`}
