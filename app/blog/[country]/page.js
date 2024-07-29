@@ -15,8 +15,6 @@ import {
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
-// https://github.com/AlexSapoznikov/react-instagram-zoom
-import Zoomable from "react-instagram-zoom";
 
 function NurtureCoordinates({
   imgLocationLat,
@@ -34,7 +32,7 @@ function NurtureCoordinates({
   return (
     <Link
       href={imgLocationLink}
-      className="text-sm hover:text-button_inactive pl-3 pr-3"
+      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1"
     >
       <p>
         <span>{`Φ `}</span>
@@ -66,16 +64,20 @@ function BlogImage({
 }) {
   return (
     <div className="flex flex-col flex-[0_0_100%] items-center justify-center">
-      <div className="pt-1 max-w-[720px] max-h-[720px]">
-        <Zoomable zIndex={20}>
-          <Image
-            src={imgSrc}
-            alt={`Photo of ${imgLocationName}`}
-            width={5000}
-            height={5000}
-            quality={100}
-          />
-        </Zoomable>
+      <NurtureCoordinates
+        imgLocationLat={imgLocationLat}
+        imgLocationLong={imgLocationLong}
+        imgLocationLink={imgLocationLink}
+      />
+      <div className="max-w-[720px] max-h-[720px]">
+        <Image
+          src={imgSrc}
+          alt={`Photo of ${imgLocationName}`}
+          width={5000}
+          height={5000}
+          quality={100}
+          title={imgLocationName}
+        />
       </div>
     </div>
   );
@@ -188,7 +190,6 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
 export default function BlogPage({ params }) {
   const searchParams = useSearchParams();
   const imgIndex = searchParams.get("index");
-
   // -1 to account for 0 based indexing
   const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: imgIndex - 1 });
 
@@ -199,7 +200,6 @@ export default function BlogPage({ params }) {
   const blogDataIndex = blogEntriesSimple.findIndex(
     (blog) => blog.route === params.country
   );
-
   const prevBlogData =
     blogDataIndex > 0 ? blogEntriesSimple[blogDataIndex - 1] : null;
   const nextBlogData =
@@ -216,7 +216,7 @@ export default function BlogPage({ params }) {
   const imgList = blogData.images.map((imgData, i) => (
     <BlogImage
       imgSrc={imgData.src}
-      imgLocationName={imgData.location.name}
+      imgLocationName={imgData.location.description}
       imgLocationLat={imgData.location.coordinates.lat}
       imgLocationLong={imgData.location.coordinates.long}
       imgLocationLink={imgData.location.coordinates.link}
@@ -237,12 +237,7 @@ export default function BlogPage({ params }) {
         </div>
       </div>
       <div className="flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
-        <div className="overflow-hidden max-w-[720px] md:max-w[400px] lg:max-w-[720px]">
-          {/* <NurtureCoordinates
-            imgLocationLat={imgLocationLat}
-            imgLocationLong={imgLocationLong}
-            imgLocationLink={imgLocationLink}
-          /> */}
+        <div className="overflow-hidden max-w-full lg:max-w-[720px] ">
           <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
             <div className="flex">{imgList}</div>
           </div>

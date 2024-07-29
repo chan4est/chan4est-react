@@ -6,9 +6,20 @@ export const blogEntriesSimple = [
     previewIndex: 0,
     images: [
       {
+        src: "https://i.imgur.com/gc32r7Q.jpeg",
+        location: {
+          description: "Skógafoss",
+          coordinates: {
+            lat: "63°31'50.50\"N",
+            long: "19°30'46.80\"W",
+            link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
+          },
+        },
+      },
+      {
         src: "https://i.imgur.com/Sh8L889.jpeg",
         location: {
-          name: "Rainbow Street",
+          description: "Rainbow Street",
           coordinates: {
             lat: "64°08'46.30\"N",
             long: "21°55'58.10\"W",
@@ -19,7 +30,7 @@ export const blogEntriesSimple = [
       {
         src: "https://i.imgur.com/rWWtW2p.jpeg",
         location: {
-          name: "Hallgrimskirkja",
+          description: "Hallgrimskirkja",
           coordinates: {
             lat: "64°08'33.00\"N",
             long: "21°55'39.70\"W",
@@ -30,7 +41,7 @@ export const blogEntriesSimple = [
       {
         src: "https://i.imgur.com/qSSJdeU.jpeg",
         location: {
-          name: "Homes in downtown Reykjavík",
+          description: "Homes in downtown Reykjavík",
           coordinates: {
             lat: "64°08'35.90\"N",
             long: "21°55'41.90\"W",
@@ -38,127 +49,106 @@ export const blogEntriesSimple = [
           },
         },
       },
-      // {
-      //   src: "https://i.imgur.com/qZWbcAC.jpeg",
-      //   location: {
-      //     name: "Enjoying the Blue Lagoon",
-      //     coordinates: {
-      //       lat: "63°52'46.60\"N",
-      //       long: "22°26'53.90\"W",
-      //       link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/KAHK5IV.jpeg",
-      //   location: {
-      //     name: "Farm on the drive to Þingvellir National Park",
-      //     coordinates: {
-      //       lat: "64°12'05.00\"N",
-      //       long: "21°28'48.70\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.2014,-21.4802",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/ls8yOWf.jpeg",
-      //   location: {
-      //     name: "The boundary of the Northern American and Eurarsia tectonic plates",
-      //     coordinates: {
-      //       lat: "64°15'20.90\"N",
-      //       long: "21°07'41.90\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.2558,-21.1283",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/Zs1Cwvw.png",
-      //   location: {
-      //     name: "Þingvallakirkja (Þingvellir church)",
-      //     coordinates: {
-      //       lat: "64°15'26.30\"N",
-      //       long: "21°07'16.30\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.2573,-21.1212",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/QZu7VH4.jpg",
-      //   location: {
-      //     name: "Flag of Iceland within Þingvellir",
-      //     coordinates: {
-      //       lat: "64°15'36.00\"N",
-      //       long: "21°07'20.60\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.26,-21.1224",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/w54QWbm.jpg",
-      //   location: {
-      //     name: "Gullfoss",
-      //     coordinates: {
-      //       lat: "64°19'30.40\"N",
-      //       long: "20°07'27.10\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.3251,-20.1242",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/PPkWYXI.jpeg",
-      //   location: {
-      //     name: "Seljalandsfoss",
-      //     coordinates: {
-      //       lat: "63°36'55.50\"N",
-      //       long: "19°59'21.20\"W",
-      //       link: "https://www.google.com/maps?q=loc:63.615425,-19.9892222",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/gc32r7Q.jpeg",
-      //   location: {
-      //     name: "Skógafoss",
-      //     coordinates: {
-      //       lat: "63°31'50.50\"N",
-      //       long: "19°30'46.80\"W",
-      //       link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/1jDhKtn.jpg",
-      //   location: {
-      //     name: "Hálsanefshellir Cave",
-      //     coordinates: {
-      //       lat: "63°24'10.50\"N",
-      //       long: "19°02'30.80\"W",
-      //       link: "https://www.google.com/maps?q=loc:63.4029194,-19.0418917",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/IQo1CO2.jpeg",
-      //   location: {
-      //     name: "Reynisdrangar Basalt Cliffs",
-      //     coordinates: {
-      //       lat: "63°24'09.90\"N",
-      //       long: "19°02'31.00\"W",
-      //       link: "https://www.google.com/maps?q=loc:63.4027472,-19.0419472",
-      //     },
-      //   },
-      // },
-      // {
-      //   src: "https://i.imgur.com/XJQRlOx.jpg",
-      //   location: {
-      //     name: "Glipse of the Northern Lights",
-      //     coordinates: {
-      //       lat: "64°09'45.30\"N",
-      //       long: "22°00'49.60\"W",
-      //       link: "https://www.google.com/maps?q=loc:64.1625833,-22.0137778",
-      //     },
-      //   },
-      // },
+      {
+        src: "https://i.imgur.com/qZWbcAC.jpeg",
+        location: {
+          description: "Enjoying the Blue Lagoon",
+          coordinates: {
+            lat: "63°52'46.60\"N",
+            long: "22°26'53.90\"W",
+            link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/KAHK5IV.jpeg",
+        location: {
+          description: "Farm on the drive to Þingvellir National Park",
+          coordinates: {
+            lat: "64°12'05.00\"N",
+            long: "21°28'48.70\"W",
+            link: "https://www.google.com/maps?q=loc:64.2014,-21.4802",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/ls8yOWf.jpeg",
+        location: {
+          description:
+            "The boundary of the Northern American and Eurarsia tectonic plates",
+          coordinates: {
+            lat: "64°15'20.90\"N",
+            long: "21°07'41.90\"W",
+            link: "https://www.google.com/maps?q=loc:64.2558,-21.1283",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/Zs1Cwvw.png",
+        location: {
+          description: "Þingvallakirkja (Þingvellir church)",
+          coordinates: {
+            lat: "64°15'26.30\"N",
+            long: "21°07'16.30\"W",
+            link: "https://www.google.com/maps?q=loc:64.2573,-21.1212",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/QZu7VH4.jpg",
+        location: {
+          description: "Flag of Iceland within Þingvellir",
+          coordinates: {
+            lat: "64°15'36.00\"N",
+            long: "21°07'20.60\"W",
+            link: "https://www.google.com/maps?q=loc:64.26,-21.1224",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/w54QWbm.jpg",
+        location: {
+          description: "Gullfoss",
+          coordinates: {
+            lat: "64°19'30.40\"N",
+            long: "20°07'27.10\"W",
+            link: "https://www.google.com/maps?q=loc:64.3251,-20.1242",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/PPkWYXI.jpeg",
+        location: {
+          description: "Seljalandsfoss",
+          coordinates: {
+            lat: "63°36'55.50\"N",
+            long: "19°59'21.20\"W",
+            link: "https://www.google.com/maps?q=loc:63.615425,-19.9892222",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/1jDhKtn.jpg",
+        location: {
+          description: "Hálsanefshellir Cave",
+          coordinates: {
+            lat: "63°24'10.50\"N",
+            long: "19°02'30.80\"W",
+            link: "https://www.google.com/maps?q=loc:63.4029194,-19.0418917",
+          },
+        },
+      },
+      {
+        src: "https://i.imgur.com/XJQRlOx.jpg",
+        location: {
+          description: "Glipse of the Northern Lights",
+          coordinates: {
+            lat: "64°09'45.30\"N",
+            long: "22°00'49.60\"W",
+            link: "https://www.google.com/maps?q=loc:64.1625833,-22.0137778",
+          },
+        },
+      },
     ],
     route: "iceland",
     flag: "🇮🇸",
@@ -172,7 +162,7 @@ export const blogEntriesSimple = [
       {
         src: "https://i.imgur.com/Ijcx6ld.jpeg",
         location: {
-          name: "Dubrovnik Old City Harbor",
+          description: "Dubrovnik Old City Harbor",
           coordinates: {
             lat: "42°38'30.60\"N",
             long: "18°06'44.90\"E",
@@ -193,7 +183,7 @@ export const blogEntriesSimple = [
       {
         src: "https://i.imgur.com/IWAlZsi.jpeg",
         location: {
-          name: "象山峯",
+          description: "象山峯",
           coordinates: {
             lat: "25°01'38.90\"N",
             long: "121°34'34.70\"E",

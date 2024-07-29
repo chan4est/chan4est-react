@@ -16,7 +16,6 @@
     "react-curved-text": "^3.0.1",
     "react-dom": "^18",
     "react-globe.gl": "^2.27.2",
-    "react-instagram-zoom": "^1.0.1",
     "sharp": "^0.33.3"
   },
   "devDependencies": {
