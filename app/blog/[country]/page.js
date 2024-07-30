@@ -13,7 +13,7 @@ import {
   useDotButton,
 } from "@/app/components/EmblaCarouselDotbutton";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, notFound } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
 
 const shimmer = (w, h) => `
@@ -80,6 +80,7 @@ function BlogImage({
   imgLocationLat,
   imgLocationLong,
   imgLocationLink,
+  imageNumber,
 }) {
   return (
     <div className="flex flex-col flex-[0_0_100%] items-center justify-center">
@@ -103,9 +104,9 @@ function BlogImage({
           placeholder={`data:image/svg+xml;base64,${toBase64(
             shimmer(750, 750)
           )}`}
-          priority={true}
+          priority={imageNumber == 0 ? true : false}
           loading={"eager"}
-          unoptimized={true}
+          // unoptimized={true}
         />
       </div>
     </div>
@@ -227,6 +228,10 @@ export default function BlogPage({ params }) {
     (blog) => blog.route === params.country
   )[0];
 
+  if (!blogData) {
+    return notFound();
+  }
+
   const blogDataIndex = blogEntriesSimple.findIndex(
     (blog) => blog.route === params.country
   );
@@ -250,6 +255,7 @@ export default function BlogPage({ params }) {
       imgLocationLat={imgData.location.coordinates.lat}
       imgLocationLong={imgData.location.coordinates.long}
       imgLocationLink={imgData.location.coordinates.link}
+      imageNumber={i}
       key={i}
     />
   ));
@@ -279,7 +285,7 @@ export default function BlogPage({ params }) {
             <li className="pb-3 pt-2">
               <span>
                 <strong>{blogData.title}</strong>
-                <span className="pl-2 drop-shadow-md">{blogData.flag}</span>
+                <span className="pl-1 drop-shadow-md">{blogData.flag}</span>
               </span>
             </li>
             {blogParagraphs}

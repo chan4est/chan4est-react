@@ -17,8 +17,7 @@ module.exports = {
       "5xl": "4.210rem",
     },
     fontFamily: {
-      heading: "Inter",
-      body: "Inter",
+      sane: ["var(--font-inter)"],
     },
     fontWeight: {
       normal: "400",

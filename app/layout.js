@@ -1,7 +1,15 @@
 import { Footer } from "./components/Footer";
+import { Inter } from "next/font/google";
 import "./globals.css";
 // https://github.com/vercel/next.js/issues/58697#issuecomment-1894581797
 import { GoogleAnalytics } from "@next/third-parties/google";
+
+const inter = Inter({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata = {
   title: "chan4est | Chandler Forrest's Personal Website",
@@ -35,7 +43,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       translate="no"
-      className="text-text bg-gradient-to-br from-primary to-secondary scroll-smooth"
+      className={`text-text bg-gradient-to-br from-primary to-secondary scroll-smooth ${inter.variable} font-sans`}
     >
       <body id="root" className="min-h-screen flex flex-col justify-between">
         {children}
