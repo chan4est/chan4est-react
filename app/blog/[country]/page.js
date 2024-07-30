@@ -75,7 +75,7 @@ function BlogImage({
           alt={`Photo of ${imgLocationName}`}
           width={5000}
           height={5000}
-          quality={100}
+          quality={25}
           title={imgLocationName}
         />
       </div>
@@ -250,7 +250,7 @@ export default function BlogPage({ params }) {
             <li className="pb-3 pt-2">
               <span>
                 <strong>{blogData.title}</strong>
-                <span className="pl-2">{blogData.flag}</span>
+                <span className="pl-2 drop-shadow-md">{blogData.flag}</span>
               </span>
             </li>
             {blogParagraphs}
