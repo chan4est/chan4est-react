@@ -4,8 +4,6 @@ import Link from "next/link";
 import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
-
-import ReactCurvedText from "react-curved-text";
 import { NavBar } from "./components/Navbar";
 
 function StackIcon({
@@ -40,7 +38,7 @@ function StackIcon({
           alt={stackImgAlt}
           width={100}
           height={100}
-          quality={100}
+          quality={50}
         />
       </picture>
       <span className={spanClass}>{stackText}</span>
@@ -105,16 +103,19 @@ function AboutSection({}) {
         When I&apos;m not working, I&apos;m usually attending a{" "}
         <a
           href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
-          className="underline"
+          className="underline hover:text-button_inactive"
         >
           concert/music festival
         </a>
         ,{" "}
-        <a href="https://howlongtobeat.com/user/chan4est" className="underline">
+        <a
+          href="https://howlongtobeat.com/user/chan4est"
+          className="underline hover:text-button_inactive"
+        >
           playing video games
         </a>
         , or{" "}
-        <Link href="/blog/" className="underline">
+        <Link href="/blog/" className="underline hover:text-button_inactive">
           traveling abroad
         </Link>
         !
@@ -137,7 +138,7 @@ function AboutSection({}) {
             height={35}
             width={35}
             alt="Gmail Logo"
-            quality={100}
+            quality={80}
           />
         </a>
         <a
@@ -150,7 +151,7 @@ function AboutSection({}) {
             height={35}
             width={35}
             alt="LinkedIn Logo"
-            quality={100}
+            quality={80}
           />
         </a>
         <a
@@ -159,16 +160,16 @@ function AboutSection({}) {
           title="View my GitHub"
         >
           <picture>
-            {/* <source
+            <source
               srcSet={`/tech-icons/github-w.webp`}
               media="(prefers-color-scheme: dark)"
-            /> */}
+            />
             <Image
               src={`/tech-icons/github.webp`}
               height={35}
               width={35}
               alt="GitHub Logo"
-              quality={100}
+              quality={80}
             />
           </picture>
         </a>
@@ -229,7 +230,7 @@ function TechStackSection({}) {
               alt="Tech Stack Vector Logo"
               width={50}
               height={50}
-              quality={100}
+              quality={50}
             />
           </picture>
         </div>
@@ -282,7 +283,7 @@ function Project({ projectInfo }) {
               width={600}
               height={315}
               className="rounded-t-xl"
-              quality={100}
+              quality={80}
             />
           </div>
           <div className="p-2">
@@ -331,7 +332,7 @@ function ProjectsSection({}) {
               alt="Tech Stack Vector Logo"
               width={50}
               height={50}
-              quality={100}
+              quality={80}
             />
           </picture>
         </div>
@@ -348,19 +349,8 @@ function ProjectsSection({}) {
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-secondary to-primary scroll-smooth flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 bg-primary-100 leading-relaxed justify-center">
+    <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 leading-relaxed justify-center">
       <NavBar />
-      {/* <div className="text-text animate-[spin_12s_linear_infinite] absolute top-0 left-0 -z-10">
-        <ReactCurvedText
-          width={100}
-          height={100}
-          cx={50}
-          cy={50}
-          rx={50}
-          ry={50}
-          text="Welcome to my website. Welcome to my website. Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website.Welcome to my website. Welcome to my website."
-        />
-      </div> */}
       <AboutSection />
       <TechStackSection />
       <ProjectsSection />

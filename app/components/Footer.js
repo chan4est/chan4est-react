@@ -6,7 +6,7 @@ export function Footer({}) {
   let currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t border-text">
+    <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t border-button_inactive">
       <div>
         <Link href="/" className="p-1 hover:underline">
           HOME
@@ -48,7 +48,7 @@ export function Footer({}) {
               height={15}
               width={15}
               alt="Gmail Logo"
-              quality={100}
+              quality={50}
             />
           </a>
           <a
@@ -60,7 +60,7 @@ export function Footer({}) {
               height={15}
               width={15}
               alt="LinkedIn Logo"
-              quality={100}
+              quality={50}
             />
           </a>
           <a href="https://github.com/chan4est/" className="hover:scale-125">
@@ -74,7 +74,7 @@ export function Footer({}) {
                 height={15}
                 width={15}
                 alt="GitHub Logo"
-                quality={100}
+                quality={50}
               />
             </picture>
           </a>

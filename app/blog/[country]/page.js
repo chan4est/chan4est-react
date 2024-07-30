@@ -108,6 +108,7 @@ function PhotoControls({ emblaApi }) {
 
   return (
     <div className="flex flex-row justify-center xl:justify-between">
+      {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       <div className="hidden xl:block xl:w-10"></div>
       <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
         {scrollSnapsList}
@@ -247,7 +248,10 @@ export default function BlogPage({ params }) {
         <div className="text-left pl-3 pr-3 pb-3 pt-1 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
           <ul>
             <li className="pb-3">
-              <strong>{blogData.title}</strong>
+              <span>
+                <strong>{blogData.title}</strong>
+                <span className="pl-2">{blogData.flag}</span>
+              </span>
             </li>
             {blogParagraphs}
             <li className="text-blog_accent">{blogData.date}</li>

@@ -32,7 +32,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" translate="no" className="text-text">
+    <html
+      lang="en"
+      translate="no"
+      className="text-text bg-gradient-to-br from-primary to-secondary scroll-smooth"
+    >
       <body id="root" className="min-h-screen flex flex-col justify-between">
         {children}
         <Footer />

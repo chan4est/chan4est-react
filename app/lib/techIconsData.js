@@ -253,6 +253,7 @@ export const techIconsData = [
     img: "github",
     type: "website",
     darkMode: true,
+    darkMode2: true,
   },
   {
     name: "Gmail",

@@ -1,13 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import chanPhoto from "../../public/me.webp";
+import chanPhotoIndia from "../../public/me-india.webp";
 import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
 import calculateAge from "../lib/calculateAge";
 
-function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
+function BlogGridSquare({
+  imgSrc,
+  imgLocationName,
+  entryTitle,
+  entryFlag,
+  entryRoute,
+}) {
   return (
-    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
+    <Link href={`/blog/${entryRoute}`} title={`${entryTitle} ${entryFlag}`}>
       <Image
         src={imgSrc}
         alt={`Photo of ${imgLocationName}`}
@@ -35,6 +41,7 @@ function BlogGrid({ blogEntries }) {
         entryRoute={entry.route}
         entryTitlePrev={entryTitlePrev}
         entryTitleNext={entryTitleNext}
+        entryFlag={entry.flag}
         key={entry.title}
       />
     );
@@ -77,8 +84,8 @@ function BlogHeader({ blogEntries }) {
     <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10">
       <div id="age" className="flex-shrink-0">
         <Image
-          src={chanPhoto}
-          alt={"Chandler at the Pokemon Cafe in Tokyo, Japan"}
+          src={chanPhotoIndia}
+          alt={"Chandler at the Taj Mahal"}
           width={200}
           height={200}
           quality={100}

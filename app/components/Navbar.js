@@ -20,7 +20,7 @@ function NavBarLink({ href, imgSrc, pText }) {
           height={25}
           width={25}
           alt={`${pText} Vector Logo`}
-          quality={100}
+          quality={50}
         />
       </picture>
       <p>{pText}</p>
@@ -46,7 +46,7 @@ function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
           height={25}
           width={25}
           alt={`${pText} Vector Logo`}
-          quality={100}
+          quality={50}
         />
       </picture>
       <p>{pText}</p>
@@ -75,13 +75,13 @@ export function NavBar({}) {
   return (
     <nav
       id="navbar"
-      className="flex justify-center content-center flex-col pb-10 z-10"
+      className="flex justify-center content-center flex-col pb-10"
       ref={menuRef}
       onClick={() => setisMenuOpen(!isMenuOpen)}
     >
       <button>
         <div
-          className="w-9 h-9 lg:w-11 lg:h-11 absolute top-3 right-3"
+          className="w-9 h-9 lg:w-11 lg:h-11 absolute top-3 right-3 z-50"
           title="Menu"
         >
           <picture>
@@ -94,14 +94,14 @@ export function NavBar({}) {
               alt="Menu Vector Logo"
               width={50}
               height={50}
-              quality={100}
+              quality={50}
               className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out"
             />
           </picture>
         </div>
       </button>
       {isMenuOpen && (
-        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md">
+        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50">
           <NavBarLink href={"/"} imgSrc={"/header-icons/home"} pText={"Home"} />
           <NavBarLink
             href={"#tech-stack"}
@@ -121,7 +121,7 @@ export function NavBar({}) {
           <NavBarLink
             href={"/blog"}
             imgSrc={"/header-icons/blog"}
-            pText={"Blog"}
+            pText={"Blog (WIP)"}
           />
           <NavBarAnchor
             href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
