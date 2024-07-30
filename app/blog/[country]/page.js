@@ -247,7 +247,7 @@ export default function BlogPage({ params }) {
 
         <div className="text-left pl-3 pr-3 pb-3 pt-1 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
           <ul>
-            <li className="pb-3">
+            <li className="pb-3 pt-2">
               <span>
                 <strong>{blogData.title}</strong>
                 <span className="pl-2">{blogData.flag}</span>
