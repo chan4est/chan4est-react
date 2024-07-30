@@ -16,6 +16,25 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
 
+const shimmer = (w, h) => `
+<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="g">
+      <stop stop-color="#333" offset="20%" />
+      <stop stop-color="#222" offset="50%" />
+      <stop stop-color="#333" offset="70%" />
+    </linearGradient>
+  </defs>
+  <rect width="${w}" height="${h}" fill="#333" />
+  <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
+  <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
+</svg>`;
+
+const toBase64 = (str) =>
+  typeof window === "undefined"
+    ? Buffer.from(str).toString("base64")
+    : window.btoa(str);
+
 function NurtureCoordinates({
   imgLocationLat,
   imgLocationLong,
@@ -77,6 +96,16 @@ function BlogImage({
           height={5000}
           quality={25}
           title={imgLocationName}
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
+          placeholder={`data:image/svg+xml;base64,${toBase64(
+            shimmer(750, 750)
+          )}`}
+          priority={true}
+          loading={"eager"}
+          unoptimized={true}
         />
       </div>
     </div>
