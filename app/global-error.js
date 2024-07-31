@@ -1,12 +1,14 @@
+"use client";
+
 import Error from "./components/Error";
 
 export const metadata = {
-  title: "404 Not Found",
+  title: "500 Server Error",
   description: "",
 };
 
-const errorText = "404 Page Not Found";
+const errorText = "500 Internal Server Error";
 
-export default function NotFound() {
+export default function GlobalError() {
   return <Error errorText={errorText} />;
 }

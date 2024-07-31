@@ -15,25 +15,8 @@ import {
 import Link from "next/link";
 import { useSearchParams, notFound } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
-
-const shimmer = (w, h) => `
-<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <linearGradient id="g">
-      <stop stop-color="#333" offset="20%" />
-      <stop stop-color="#222" offset="50%" />
-      <stop stop-color="#333" offset="70%" />
-    </linearGradient>
-  </defs>
-  <rect width="${w}" height="${h}" fill="#333" />
-  <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
-  <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
-</svg>`;
-
-const toBase64 = (str) =>
-  typeof window === "undefined"
-    ? Buffer.from(str).toString("base64")
-    : window.btoa(str);
+import { shimmer, toBase64 } from "@/app/lib/shimmer";
+import { useEffect } from "react";
 
 function NurtureCoordinates({
   imgLocationLat,
@@ -178,7 +161,7 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
         <Link
           href={`/blog/${prevBlogData.route}`}
           className="fixed top-1/2 left-0 transform -translate-y-1/2 z-10 pl-5"
-          title={prevBlogData.title}
+          title={prevBlogData.pageTitle}
         >
           <button>
             <svg className="h-7 w-7" viewBox="0 0 532 532">
@@ -196,7 +179,7 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
         <Link
           href={`/blog/${nextBlogData.route}`}
           className="fixed top-1/2 right-0 transform -translate-y-1/2 z-10 pr-5"
-          title={nextBlogData.title}
+          title={nextBlogData.pageTitle}
         >
           <button>
             <svg
@@ -228,6 +211,11 @@ export default function BlogPage({ params }) {
     (blog) => blog.route === params.country
   )[0];
 
+  useEffect(() => {
+    const newDocumentTitle = `chan4est | ${blogData.pageTitle}`;
+    document.title = newDocumentTitle;
+  });
+
   if (!blogData) {
     return notFound();
   }
@@ -242,7 +230,7 @@ export default function BlogPage({ params }) {
       ? blogEntriesSimple[blogDataIndex + 1]
       : null;
 
-  const blogParagraphs = blogData.text.split("\n").map((text) => (
+  const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
     <li className="pb-2" key={text}>
       {text}
     </li>
@@ -251,10 +239,10 @@ export default function BlogPage({ params }) {
   const imgList = blogData.images.map((imgData, i) => (
     <BlogImage
       imgSrc={imgData.src}
-      imgLocationName={imgData.location.description}
-      imgLocationLat={imgData.location.coordinates.lat}
-      imgLocationLong={imgData.location.coordinates.long}
-      imgLocationLink={imgData.location.coordinates.link}
+      imgLocationName={imgData.description}
+      imgLocationLat={imgData.coordinates.lat}
+      imgLocationLong={imgData.coordinates.long}
+      imgLocationLink={imgData.coordinates.link}
       imageNumber={i}
       key={i}
     />
@@ -284,12 +272,12 @@ export default function BlogPage({ params }) {
           <ul>
             <li className="pb-3 pt-2">
               <span>
-                <strong>{blogData.title}</strong>
-                <span className="pl-1 drop-shadow-md">{blogData.flag}</span>
+                <strong>{blogData.caption.title}</strong>
+                {/* <span className="pl-1 drop-shadow-md">{blogData.flags[0]}</span> */}
               </span>
             </li>
             {blogParagraphs}
-            <li className="text-blog_accent">{blogData.date}</li>
+            <li className="text-blog_accent">{blogData.caption.publishDate}</li>
           </ul>
         </div>
       </div>

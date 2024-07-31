@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "chan4est | Chandler Forrest's Personal Website",
+  title: "chan4est",
   description: "Chandler Forrest's portfolio and blog.",
   keywords: ["Chandler Forrest", "chan4est", "software engineer", "developer"],
   creator: "Chandler Forrest",

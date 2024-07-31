@@ -62,7 +62,9 @@ function AboutSection({}) {
             src={chanPhoto}
             alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
             className="rounded-xl"
-            quality={100}
+            quality={80}
+            priority={true}
+            loading={"eager"}
           />
         </div>
         {/* </Link> */}

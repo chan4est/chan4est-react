@@ -21,6 +21,8 @@ function NavBarLink({ href, imgSrc, pText }) {
           width={25}
           alt={`${pText} Vector Logo`}
           quality={50}
+          priority={true}
+          loading={"eager"}
         />
       </picture>
       <p>{pText}</p>

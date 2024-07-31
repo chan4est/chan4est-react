@@ -22,6 +22,8 @@
 
   html {
     font-size: 100%;
+    /* https://stackoverflow.com/questions/69545947/how-to-change-the-default-screen-background-color-of-all-the-pages-in-react-jsn */
+    @apply bg-background;
   } /* 16px */
 
   * {

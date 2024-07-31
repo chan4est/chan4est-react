@@ -5,15 +5,14 @@ import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
 import calculateAge from "../lib/calculateAge";
 
-function BlogGridSquare({
-  imgSrc,
-  imgLocationName,
-  entryTitle,
-  entryFlag,
-  entryRoute,
-}) {
+export const metadata = {
+  title: "chan4est | Blog",
+  description: "Chandler's Personal Blog",
+};
+
+function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
   return (
-    <Link href={`/blog/${entryRoute}`} title={`${entryTitle} ${entryFlag}`}>
+    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
       <Image
         src={imgSrc}
         alt={`Photo of ${imgLocationName}`}
@@ -21,6 +20,8 @@ function BlogGridSquare({
         height={300}
         quality={100}
         className="max-h-[300px] object-cover"
+        priority={true}
+        loading={"eager"}
       />
     </Link>
   );
@@ -29,20 +30,18 @@ function BlogGridSquare({
 function BlogGrid({ blogEntries }) {
   const blogPreviews = blogEntries.map((entry, index) => {
     const firstImageData = entry.images[entry.previewIndex];
-    const entryTitlePrev = index > 0 ? blogEntries[index - 1].title : null;
+    const entryTitlePrev = index > 0 ? blogEntries[index - 1].pageTitle : null;
     const entryTitleNext =
-      index < blogEntries.length - 1 ? blogEntries[index + 1].title : null;
+      index < blogEntries.length - 1 ? blogEntries[index + 1].pageTitle : null;
 
     return (
       <BlogGridSquare
         imgSrc={firstImageData.src}
-        imgLocationName={firstImageData.location.name}
-        entryTitle={entry.title}
+        entryTitle={entry.pageTitle}
         entryRoute={entry.route}
         entryTitlePrev={entryTitlePrev}
         entryTitleNext={entryTitleNext}
-        entryFlag={entry.flag}
-        key={entry.title}
+        key={entry.pageTitle}
       />
     );
   });
@@ -68,14 +67,16 @@ function FlagLink({ flagEmoji, link, title }) {
 }
 
 function BlogHeader({ blogEntries }) {
-  const flagLinks = blogEntries.map((entry) => (
-    <FlagLink
-      flagEmoji={entry.flag}
-      link={`/blog/${entry.route}`}
-      title={entry.title}
-      key={entry.flag}
-    />
-  ));
+  const flagLinks = blogEntries.map((entry, i) =>
+    entry.countryNames.map((cName, j) => (
+      <FlagLink
+        flagEmoji={entry.flags[j]}
+        link={`/blog/${entry.route}`}
+        title={cName}
+        key={cName}
+      />
+    ))
+  );
   const flagLinksRev = flagLinks.reverse();
 
   const age = calculateAge("06301996");
@@ -88,8 +89,10 @@ function BlogHeader({ blogEntries }) {
           alt={"Chandler at the Taj Mahal"}
           width={200}
           height={200}
-          quality={100}
+          quality={80}
           className="rounded-full"
+          priority={true}
+          loading={"eager"}
         />
       </div>
       <div
