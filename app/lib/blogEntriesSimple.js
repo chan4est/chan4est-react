@@ -925,15 +925,156 @@ export const blogEntriesSimple = [
       },
     ],
   },
-  // {
-  //   title: "India 🇮🇳",
-  //   content: "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
-  //   location: "ताज महल - Taj Mahal, Agra",
-  //   publishDate: "September 18, 2023",
-  //   imgurLink: "https://i.imgur.com/F4zlZA3.png",
-  //   route: "india",
-  //   flag: "🇮🇳",
-  // },
+  {
+    pageTitle: "India 🇮🇳",
+    countryNames: ["India"],
+    route: "india",
+    flags: ["🇮🇳"],
+    caption: {
+      title: "Delhi | Agra, India 🇮🇳",
+      content:
+        "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
+      publishDate: "September 18, 2023",
+    },
+    previewIndex: 0,
+    images: [
+      {
+        src: "https://i.imgur.com/irAnMih.png",
+        description: "ताज महल (Taj Mahal)",
+        coordinates: {
+          lat: "27°10'18.80\"N",
+          long: "78°02'31.90\"E",
+          link: "https://www.google.com/maps?q=loc:27.1719,78.0422",
+        },
+      },
+      {
+        src: "https://i.imgur.com/eplbq9H.jpeg",
+        description: "Peace from India",
+        coordinates: {
+          lat: "27°10'23.90\"N",
+          long: "78°02'31.60\"E",
+          link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
+        },
+      },
+      {
+        src: "https://i.imgur.com/0mF40M5.jpeg",
+        description: "Me and Sanchin 🇮🇳",
+        coordinates: {
+          lat: "27°10'23.90\"N",
+          long: "78°02'31.60\"E",
+          link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
+        },
+      },
+      {
+        src: "https://i.imgur.com/1EhIuOg.png",
+        description: "Taj Mahal from Mehmaankhana",
+        coordinates: {
+          lat: "27°10'30.40\"N",
+          long: "78°02'32.30\"E",
+          link: "https://www.google.com/maps?q=loc:27.1751,78.0423",
+        },
+      },
+      {
+        src: "https://i.imgur.com/0UxLhzb.png",
+        description: "Taj Mahal at sunrise",
+        coordinates: {
+          lat: "27°10'28.70\"N",
+          long: "78°02'31.40\"E",
+          link: "https://www.google.com/maps?q=loc:27.1746472,78.0420611",
+        },
+      },
+      {
+        src: "https://i.imgur.com/qfKbsc1.jpeg",
+        description: "Friends at Agra Fort",
+        coordinates: {
+          lat: "27°10'39.40\"N",
+          long: "78°01'25.00\"E",
+          link: "https://www.google.com/maps?q=loc:27.1776,78.0236",
+        },
+      },
+      {
+        src: "https://i.imgur.com/01HO7SJ.png",
+        description: "New Delhi Railway Station",
+        coordinates: {
+          lat: "28°38'33.40\"N",
+          long: "77°13'25.00\"E",
+          link: "https://www.google.com/maps?q=loc:28.6426,77.2236",
+        },
+      },
+      {
+        src: "https://i.imgur.com/aCn3sf6.jpeg",
+        description: "Gurudwara Shri Bangla Sahib",
+        coordinates: {
+          lat: "28°37'33.20\"N",
+          long: "77°12'33.10\"E",
+          link: "https://www.google.com/maps?q=loc:28.6259,77.2092",
+        },
+      },
+      {
+        src: "https://i.imgur.com/dADBziS.jpeg",
+        description: "Red Fort",
+        coordinates: {
+          lat: "28°39'21.60\"N",
+          long: "77°14'15.40\"E",
+          link: "https://www.google.com/maps?q=loc:28.656,77.2376",
+        },
+      },
+      {
+        src: "https://i.imgur.com/RIo0n1d.png",
+        description: "Chatta Chowk Bazar / Meena Bazaar",
+        coordinates: {
+          lat: "28°39'21.40\"N",
+          long: "77°14'19.00\"E",
+          link: "https://www.google.com/maps?q=loc:28.6559361,77.2386083",
+        },
+      },
+      {
+        src: "https://i.imgur.com/ocdxxs1.jpeg",
+        description: "Jama Masjid",
+        coordinates: {
+          lat: "28°39'04.00\"N",
+          long: "77°14'00.60\"E",
+          link: "https://www.google.com/maps?q=loc:28.6511,77.2335",
+        },
+      },
+      {
+        src: "https://i.imgur.com/Eb8XtFK.jpeg",
+        description: "Matia Mahal Rd.",
+        coordinates: {
+          lat: "28°38'59.20\"N",
+          long: "77°14'00.70\"E",
+          link: "https://www.google.com/maps?q=loc:28.6497889,77.2335194",
+        },
+      },
+      {
+        src: "https://i.imgur.com/RIXUjyV.jpeg",
+        description: "Qutub Minar",
+        coordinates: {
+          lat: "28°31'25.70\"N",
+          long: "77°11'06.00\"E",
+          link: "https://www.google.com/maps?q=loc:28.5238,77.185",
+        },
+      },
+      {
+        src: "https://i.imgur.com/R5ZFfT5.png",
+        description: "Qutub Minar Interior",
+        coordinates: {
+          lat: "28°31'29.90\"N",
+          long: "77°11'07.00\"E",
+          link: "https://www.google.com/maps?q=loc:28.524975,77.1852722",
+        },
+      },
+      {
+        src: "https://i.imgur.com/LAN34AT.jpeg",
+        description: "Envoys at Qutub Minar",
+        coordinates: {
+          lat: "28°31'28.60\"N",
+          long: "77°11'07.80\"E",
+          link: "https://www.google.com/maps?q=loc:28.5246,77.1855",
+        },
+      },
+    ],
+  },
   // {
   //   title: "Hong Kong 🇭🇰",
   //   content: "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends @edwlain, @ttyyvonneeee, @yueny43, and @kd512d7 for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",

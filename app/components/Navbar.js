@@ -49,6 +49,8 @@ function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
           width={25}
           alt={`${pText} Vector Logo`}
           quality={50}
+          priority={true}
+          loading={"eager"}
         />
       </picture>
       <p>{pText}</p>
@@ -98,6 +100,8 @@ export function NavBar({}) {
               height={50}
               quality={50}
               className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out"
+              priority={true}
+              loading={"eager"}
             />
           </picture>
         </div>

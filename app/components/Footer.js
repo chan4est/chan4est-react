@@ -6,7 +6,7 @@ export function Footer({}) {
   let currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t border-button_inactive">
+    <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 border-t border-button_inactive">
       <div>
         <Link href="/" className="p-1 hover:underline">
           HOME
@@ -33,7 +33,7 @@ export function Footer({}) {
           BLOG
         </Link>
       </div>
-      <div className="flex flex-row gap-2 justify-center align-center text-center pt-2">
+      <div className="flex flex-row gap-2 justify-center align-center text-center pt-2 pb-2">
         <span>{currentYear} © Chandler Forrest</span>
         <span
           id="contact"

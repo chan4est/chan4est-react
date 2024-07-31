@@ -66,7 +66,7 @@ function BlogImage({
   imageNumber,
 }) {
   return (
-    <div className="flex flex-col flex-[0_0_100%] items-center justify-center">
+    <div className="flex flex-col flex-[0_0_100%] text-center">
       <NurtureCoordinates
         imgLocationLat={imgLocationLat}
         imgLocationLong={imgLocationLong}
@@ -120,7 +120,7 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center xl:justify-between">
+    <div className="flex flex-row justify-center xl:justify-between h-[20px]">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       <div className="hidden xl:block xl:w-10"></div>
       <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
