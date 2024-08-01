@@ -17,7 +17,7 @@ module.exports = {
       "5xl": "4.210rem",
     },
     fontFamily: {
-      sane: ["var(--font-inter)"],
+      sans: ["var(--font-inter)"],
     },
     fontWeight: {
       normal: "400",

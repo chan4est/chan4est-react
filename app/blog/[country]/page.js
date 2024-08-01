@@ -78,7 +78,7 @@ function BlogImage({
           alt={`Photo of ${imgLocationName}`}
           width={5000}
           height={5000}
-          quality={25}
+          quality={75}
           title={imgLocationName}
           style={{
             width: "100%",
@@ -88,7 +88,7 @@ function BlogImage({
             shimmer(750, 750)
           )}`}
           priority={imageNumber == 0 ? true : false}
-          loading={"eager"}
+          loading={imageNumber == 0 ? "eager" : "lazy"}
           // unoptimized={true}
         />
       </div>

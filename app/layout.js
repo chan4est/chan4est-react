@@ -4,11 +4,10 @@ import "./globals.css";
 // https://github.com/vercel/next.js/issues/58697#issuecomment-1894581797
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-const inter = Inter({
-  weight: ["400", "700"],
+export const inter = Inter({
+  // weight: ["400", "700"], UNCOMMENTING THIS CAUSES CLS
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
 });
 
 export const metadata = {
@@ -43,9 +42,9 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       translate="no"
-      className={`text-text bg-gradient-to-br from-primary to-secondary scroll-smooth ${inter.variable} font-sans`}
+      className={`${inter.variable} subpixel-antialiased text-text bg-gradient-to-br from-primary to-secondary scroll-smooth`}
     >
-      <body id="root" className="min-h-screen flex flex-col justify-between">
+      <body id="root" className={`min-h-screen flex flex-col justify-between`}>
         {children}
         <Footer />
       </body>

@@ -6,6 +6,10 @@ import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
 import { NavBar } from "./components/Navbar";
 
+export const metadata = {
+  title: "chan4est | Home",
+};
+
 function StackIcon({
   stackImg,
   stackImgAlt,

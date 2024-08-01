@@ -19,7 +19,8 @@ function NavBarLink({ href, imgSrc, pText }) {
           src={`${imgSrc}.webp`}
           height={25}
           width={25}
-          alt={`${pText} Vector Logo`}
+          alt=""
+          // alt={`${pText} Vector Logo`}
           quality={50}
           priority={true}
           loading={"eager"}
@@ -47,7 +48,8 @@ function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
           src={`${imgSrc}.webp`}
           height={25}
           width={25}
-          alt={`${pText} Vector Logo`}
+          alt=""
+          // alt={`${pText} Vector Logo`}
           quality={50}
           priority={true}
           loading={"eager"}
@@ -95,7 +97,8 @@ export function NavBar({}) {
             />
             <Image
               src={"/header-icons/menu.webp"}
-              alt="Menu Vector Logo"
+              // alt="Menu Vector Logo"
+              alt=""
               width={50}
               height={50}
               quality={50}

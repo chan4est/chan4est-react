@@ -958,7 +958,7 @@ export const blogEntriesSimple = [
       },
       {
         src: "https://i.imgur.com/0mF40M5.jpeg",
-        description: "Me and Sanchin 🇮🇳",
+        description: "Me and Sanchin",
         coordinates: {
           lat: "27°10'23.90\"N",
           long: "78°02'31.60\"E",
@@ -1039,7 +1039,7 @@ export const blogEntriesSimple = [
       },
       {
         src: "https://i.imgur.com/Eb8XtFK.jpeg",
-        description: "Matia Mahal Rd.",
+        description: "Matia Mahal Rd. in Chandni Chowk",
         coordinates: {
           lat: "28°38'59.20\"N",
           long: "77°14'00.70\"E",
@@ -1075,14 +1075,152 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "Hong Kong 🇭🇰",
+    countryNames: ["Hong Kong"],
+    route: "hong-kong",
+    flags: ["🇭🇰"],
+    caption: {
+      title: "Hong Kong 🇭🇰",
+      content:
+        "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
+      publishDate: "September 11, 2023",
+    },
+    previewIndex: 0,
+    images: [
+      {
+        src: "https://i.imgur.com/LYw3UMT.png",
+        description: "Porter Robinson's Musician Cover Location",
+        coordinates: {
+          lat: "22°17'09.00\"N",
+          long: "114°09'35.40\"E",
+          link: "https://www.google.com/maps?q=loc:22.2858306,114.1598361",
+        },
+      },
+      {
+        src: "https://i.imgur.com/CNchv6r.jpeg",
+        description: "Big Buddah on Lantau Island",
+        coordinates: {
+          lat: "22°15'19.40\"N",
+          long: "113°54'23.80\"E",
+          link: "https://www.google.com/maps?q=loc:22.2554,113.9066",
+        },
+      },
+      {
+        src: "https://i.imgur.com/4tk8361.png",
+        description: "Big Buddah up close",
+        coordinates: {
+          lat: "22°15'15.10\"N",
+          long: "113°54'18.70\"E",
+          link: "https://www.google.com/maps?q=loc:22.2542,113.9052",
+        },
+      },
+      {
+        src: "https://i.imgur.com/JaP6Dvn.jpeg",
+        description: "Hong Kong from Victoria Peak",
+        coordinates: {
+          lat: "22°16'16.80\"N",
+          long: "114°09'01.10\"E",
+          link: "https://www.google.com/maps?q=loc:22.2713417,114.1503056",
+        },
+      },
+      {
+        src: "https://i.imgur.com/AJiZgWv.jpeg",
+        description: "Neon Sign near Temple Street Night Market",
+        coordinates: {
+          lat: "22°18'21.60\"N",
+          long: "114°10'11.60\"E",
+          link: "https://www.google.com/maps?q=loc:22.306,114.1699",
+        },
+      },
+      {
+        src: "https://i.imgur.com/HFFS0mE.jpeg",
+        description: "M+ with Edwin and Yvonne",
+        coordinates: {
+          lat: "22°18'04.00\"N",
+          long: "114°09'33.10\"E",
+          link: "https://www.google.com/maps?q=loc:22.3011,114.1592",
+        },
+      },
+      {
+        src: "https://i.imgur.com/dV3PGDo.jpeg",
+        description: "Victoria Harbor Profile",
+        coordinates: {
+          lat: "22°18'02.50\"N",
+          long: "114°09'33.10\"E",
+          link: "https://www.google.com/maps?q=loc:22.3007,114.1592",
+        },
+      },
+      {
+        src: "https://i.imgur.com/EXCjXsL.jpeg",
+        description: "Second Sky Painting by Yvonne",
+        coordinates: {
+          lat: "22°17'08.50\"N",
+          long: "114°09'36.00\"E",
+          link: "https://www.google.com/maps?q=loc:22.2857,114.16",
+        },
+      },
+      {
+        src: "https://i.imgur.com/rG1YMw6.png",
+        description: "Cinoz Studio Tour with Edwin, Yvonne, and Garth",
+        coordinates: {
+          lat: "22°22'27.40\"N",
+          long: "114°06'39.60\"E",
+          link: "https://www.google.com/maps?q=loc:22.3742778,114.1109861",
+        },
+      },
+      {
+        src: "https://i.imgur.com/l5hkzd9.jpeg",
+        description: "Quarry Bay's Monster Building",
+        coordinates: {
+          lat: "22°17'02.40\"N",
+          long: "114°12'45.00\"E",
+          link: "https://www.google.com/maps?q=loc:22.284,114.2125",
+        },
+      },
+      {
+        src: "https://i.imgur.com/P3Kxxgi.jpeg",
+        description: "Hong Kong Street in Causeway Bay",
+        coordinates: {
+          lat: "22°16'48.00\"N",
+          long: "114°11'04.90\"E",
+          link: "https://www.google.com/maps?q=loc:22.28,114.1847",
+        },
+      },
+      {
+        src: "https://i.imgur.com/cSJOix7.jpeg",
+        description: "Final laugh with Long",
+        coordinates: {
+          lat: "22°16'44.10\"N",
+          long: "114°10'56.80\"E",
+          link: "https://www.google.com/maps?q=loc:22.2789139,114.1824556",
+        },
+      },
+    ],
+  },
   // {
-  //   title: "Hong Kong 🇭🇰",
-  //   content: "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends @edwlain, @ttyyvonneeee, @yueny43, and @kd512d7 for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
-  //   location: "Hong Kong",
-  //   publishDate: "September 11, 2023",
-  //   imgurLink: "https://i.imgur.com/Bkw7oUa.jpeg",
-  //   route: "hong-kong",
-  //   flag: "🇭🇰",
+  //   pageTitle: "India 🇮🇳",
+  //   countryNames: ["India"],
+  //   route: "india",
+  //   flags: ["🇮🇳"],
+  //   caption: {
+  //     title: "Delhi | Agra, India 🇮🇳",
+  //     content:
+  //       "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
+  //     publishDate: "September 18, 2023",
+  //   },
+  //   previewIndex: 0,
+  //   images: [
+  //     {
+  //       src: "https://i.imgur.com/LAN34AT.jpeg",
+  //       description: "Envoys at Qutub Minar",
+  //       coordinates: {
+  //         lat: "28°31'28.60\"N",
+  //         long: "77°11'07.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.5246,77.1855",
+  //       },
+  //     },
+  //   ],
   // },
   // {
   //   title: "South Korea 🇰🇷",
