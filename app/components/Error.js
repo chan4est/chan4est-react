@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Error({ errorText }) {
   return (
     <div className="text-center pt-16">
-      <h2>(╯°□°)╯︵ ┻━┻</h2>
+      <h3>(╯°□°)╯︵ ┻━┻</h3>
       <div className="flex flex-col justify-center content-center text-center gap-y-8 pt-8 pl-8 pr-8">
         <h4>{errorText}</h4>
 

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useCallback, useEffect, useState } from "react";
 
 export const useDotButton = (emblaApi) => {
@@ -39,7 +41,7 @@ export const DotButton = (props) => {
   const { children, ...restProps } = props;
 
   return (
-    <button type="button" {...restProps}>
+    <button type="button" title="Go to image" {...restProps}>
       {children}
     </button>
   );

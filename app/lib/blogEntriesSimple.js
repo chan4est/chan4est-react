@@ -13,7 +13,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/gc32r7Q.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/gc32r7Q.jpeg",
+        src_720: "https://i.imgur.com/gc32r7Q.jpeg",
+        src_full: "https://i.imgur.com/gc32r7Q.jpeg",
         description: "Skógafoss",
         coordinates: {
           lat: "63°31'50.50\"N",
@@ -22,7 +23,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Sh8L889.jpeg",
+        src_720: "https://i.imgur.com/Sh8L889.jpeg",
+        src_full: "https://i.imgur.com/Sh8L889.jpeg",
         description: "Rainbow Street",
         coordinates: {
           lat: "64°08'46.30\"N",
@@ -31,7 +33,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/rWWtW2p.jpeg",
+        src_720: "https://i.imgur.com/rWWtW2p.jpeg",
+        src_full: "https://i.imgur.com/rWWtW2p.jpeg",
         description: "Hallgrimskirkja",
         coordinates: {
           lat: "64°08'33.00\"N",
@@ -40,7 +43,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/qSSJdeU.jpeg",
+        src_720: "https://i.imgur.com/qSSJdeU.jpeg",
+        src_full: "https://i.imgur.com/qSSJdeU.jpeg",
         description: "Homes in downtown Reykjavík",
         coordinates: {
           lat: "64°08'35.90\"N",
@@ -49,7 +53,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/qZWbcAC.jpeg",
+        src_720: "https://i.imgur.com/qZWbcAC.jpeg",
+        src_full: "https://i.imgur.com/qZWbcAC.jpeg",
         description: "Enjoying the Blue Lagoon",
         coordinates: {
           lat: "63°52'46.60\"N",
@@ -58,7 +63,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/KAHK5IV.jpeg",
+        src_720: "https://i.imgur.com/KAHK5IV.jpeg",
+        src_full: "https://i.imgur.com/KAHK5IV.jpeg",
         description: "Farm on the drive to Þingvellir National Park",
         coordinates: {
           lat: "64°12'05.00\"N",
@@ -67,7 +73,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/ls8yOWf.jpeg",
+        src_720: "https://i.imgur.com/ls8yOWf.jpeg",
+        src_full: "https://i.imgur.com/ls8yOWf.jpeg",
         description:
           "The boundary of the Northern American and Eurarsia tectonic plates",
         coordinates: {
@@ -77,7 +84,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Zs1Cwvw.png",
+        src_720: "https://i.imgur.com/Zs1Cwvw.png",
+        src_full: "https://i.imgur.com/Zs1Cwvw.png",
         description: "Þingvallakirkja (Þingvellir church)",
         coordinates: {
           lat: "64°15'26.30\"N",
@@ -86,7 +94,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/QZu7VH4.jpg",
+        src_720: "https://i.imgur.com/QZu7VH4.jpg",
+        src_full: "https://i.imgur.com/QZu7VH4.jpg",
         description: "Flag of Iceland within Þingvellir",
         coordinates: {
           lat: "64°15'36.00\"N",
@@ -95,7 +104,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/w54QWbm.jpg",
+        src_720: "https://i.imgur.com/w54QWbm.jpg",
+        src_full: "https://i.imgur.com/w54QWbm.jpg",
         description: "Gullfoss",
         coordinates: {
           lat: "64°19'30.40\"N",
@@ -104,7 +114,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/PPkWYXI.jpeg",
+        src_720: "https://i.imgur.com/PPkWYXI.jpeg",
+        src_full: "https://i.imgur.com/PPkWYXI.jpeg",
         description: "Seljalandsfoss",
         coordinates: {
           lat: "63°36'55.50\"N",
@@ -113,7 +124,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/1jDhKtn.jpg",
+        src_720: "https://i.imgur.com/1jDhKtn.jpg",
+        src_full: "https://i.imgur.com/1jDhKtn.jpg",
         description: "Hálsanefshellir Cave",
         coordinates: {
           lat: "63°24'10.50\"N",
@@ -122,7 +134,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/XJQRlOx.jpg",
+        src_720: "https://i.imgur.com/XJQRlOx.jpg",
+        src_full: "https://i.imgur.com/XJQRlOx.jpg",
         description: "Glipse of the Northern Lights",
         coordinates: {
           lat: "64°09'45.30\"N",
@@ -146,7 +159,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/Ijcx6ld.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/Ijcx6ld.jpeg",
+        src_720: "https://i.imgur.com/Ijcx6ld.jpeg",
+        src_full: "https://i.imgur.com/Ijcx6ld.jpeg",
         description: "Dubrovnik Old City Harbor",
         coordinates: {
           lat: "42°38'30.60\"N",
@@ -155,7 +169,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/XXNjFjX.jpeg",
+        src_720: "https://i.imgur.com/XXNjFjX.jpeg",
+        src_full: "https://i.imgur.com/XXNjFjX.jpeg",
         description: "Dubrovnik's City Walls",
         coordinates: {
           lat: "42°38'31.90\"N",
@@ -164,7 +179,8 @@ export const blogEntriesSimple = [
         },
       },
       // {
-      //   src: "https://i.imgur.com/Uem30E0.jpeg",
+      //   src_720: "https://i.imgur.com/Uem30E0.jpeg",
+      // src_full: "https://i.imgur.com/Uem30E0.jpeg",
       //
       //     description: "Dubrovnik from the City Walls",
       //     coordinates: {
@@ -175,7 +191,8 @@ export const blogEntriesSimple = [
       //   },
       // },
       {
-        src: "https://i.imgur.com/OyLQahp.jpeg",
+        src_720: "https://i.imgur.com/OyLQahp.jpeg",
+        src_full: "https://i.imgur.com/OyLQahp.jpeg",
         description: "Dubrovnik's City Streets",
         coordinates: {
           lat: "42°38'28.00\"N",
@@ -184,7 +201,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/2zoFLMG.jpeg",
+        src_720: "https://i.imgur.com/2zoFLMG.jpeg",
+        src_full: "https://i.imgur.com/2zoFLMG.jpeg",
         description: "Fort Lovrijenac",
         coordinates: {
           lat: "42°38'27.10\"N",
@@ -193,7 +211,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/kzpkaS8.jpeg",
+        src_720: "https://i.imgur.com/kzpkaS8.jpeg",
+        src_full: "https://i.imgur.com/kzpkaS8.jpeg",
         description: "Dubrovnik West Harbor",
         coordinates: {
           lat: "42°38'27.80\"N",
@@ -202,7 +221,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/N59SxOx.png",
+        src_720: "https://i.imgur.com/N59SxOx.png",
+        src_full: "https://i.imgur.com/N59SxOx.png",
         description:
           "New friends on top of Mount Srd\n(Lewis 🏴󠁧󠁢󠁳󠁣󠁴󠁿, Elodie 🇲🇺, René 🇺🇸, Karen 🇰🇷)",
         coordinates: {
@@ -212,7 +232,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/aCbLK3y.png",
+        src_720: "https://i.imgur.com/aCbLK3y.png",
+        src_full: "https://i.imgur.com/aCbLK3y.png",
         description: "Diving at Lokrum Island",
         coordinates: {
           lat: "42°37'19.90\"N",
@@ -222,7 +243,8 @@ export const blogEntriesSimple = [
       },
 
       {
-        src: "https://i.imgur.com/S62mrKr.jpeg",
+        src_720: "https://i.imgur.com/S62mrKr.jpeg",
+        src_full: "https://i.imgur.com/S62mrKr.jpeg",
         description: "Wild Peacock on Lokrum Island",
         coordinates: {
           lat: "42°37'42.20\"N",
@@ -231,7 +253,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/TYNIZ2h.jpeg",
+        src_720: "https://i.imgur.com/TYNIZ2h.jpeg",
+        src_full: "https://i.imgur.com/TYNIZ2h.jpeg",
         description: "All the friends I made in Dubrovnik",
         coordinates: {
           lat: "42°37'23.50\"N",
@@ -240,7 +263,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/iRUjufO.jpeg",
+        src_720: "https://i.imgur.com/iRUjufO.jpeg",
+        src_full: "https://i.imgur.com/iRUjufO.jpeg",
         description: "All the friends I made in Dubrovnik",
         coordinates: {
           lat: "42°37'23.50\"N",
@@ -249,7 +273,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/RvSK60a.png",
+        src_720: "https://i.imgur.com/RvSK60a.png",
+        src_full: "https://i.imgur.com/RvSK60a.png",
         description:
           "The Path of Paradise\n(Valentine 🇩🇪, Franzi 🇩🇪, Elodie 🇲🇺, René 🇺🇸, Adele 🇺🇸, Karen 🇰🇷)",
         coordinates: {
@@ -274,7 +299,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/P29yYVI.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/P29yYVI.jpeg",
+        src_720: "https://i.imgur.com/P29yYVI.jpeg",
+        src_full: "https://i.imgur.com/P29yYVI.jpeg",
         description: "Οία, Santorini",
         coordinates: {
           lat: "36°27'40.90\"N",
@@ -283,7 +309,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/t5lH8iP.jpeg",
+        src_720: "https://i.imgur.com/t5lH8iP.jpeg",
+        src_full: "https://i.imgur.com/t5lH8iP.jpeg",
         description: "The Parthenon",
         coordinates: {
           lat: "37°58'18.90\"N",
@@ -292,7 +319,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/94MOuDB.png",
+        src_720: "https://i.imgur.com/94MOuDB.png",
+        src_full: "https://i.imgur.com/94MOuDB.png",
         description: "The Parthenon",
         coordinates: {
           lat: "37°58'18.90\"N",
@@ -301,7 +329,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/yz4Dy0z.jpeg",
+        src_720: "https://i.imgur.com/yz4Dy0z.jpeg",
+        src_full: "https://i.imgur.com/yz4Dy0z.jpeg",
         description: "The Erechtheion",
         coordinates: {
           lat: "37°58'19.10\"N",
@@ -310,7 +339,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/aFJMKAq.jpeg",
+        src_720: "https://i.imgur.com/aFJMKAq.jpeg",
+        src_full: "https://i.imgur.com/aFJMKAq.jpeg",
         description: "Stoa of Attalos Exterior",
         coordinates: {
           lat: "37°58'29.10\"N",
@@ -319,7 +349,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/ReIymQ6.jpeg",
+        src_720: "https://i.imgur.com/ReIymQ6.jpeg",
+        src_full: "https://i.imgur.com/ReIymQ6.jpeg",
         description: "Stoa of Attalos Interior",
         coordinates: {
           lat: "37°59'22.00\"N",
@@ -328,7 +359,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/MPb8cYs.jpeg",
+        src_720: "https://i.imgur.com/MPb8cYs.jpeg",
+        src_full: "https://i.imgur.com/MPb8cYs.jpeg",
         description: "Artemision Bronze",
         coordinates: {
           lat: "37°59'22.00\"N",
@@ -337,7 +369,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/pKPpo8U.jpg",
+        src_720: "https://i.imgur.com/pKPpo8U.jpg",
+        src_full: "https://i.imgur.com/pKPpo8U.jpg",
         description: "Alefkandra (Little Venice)",
         coordinates: {
           lat: "37°26'40.10\"N",
@@ -346,7 +379,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/zVlcl0m.jpg",
+        src_720: "https://i.imgur.com/zVlcl0m.jpg",
+        src_full: "https://i.imgur.com/zVlcl0m.jpg",
         description: "Windmills of Mykonos",
         coordinates: {
           lat: "37°26'40.80\"N",
@@ -355,7 +389,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/6m56LZE.png",
+        src_720: "https://i.imgur.com/6m56LZE.png",
+        src_full: "https://i.imgur.com/6m56LZE.png",
         description: "Santorini Bells",
         coordinates: {
           lat: "36°27'40.80\"N",
@@ -364,7 +399,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/qcn7nEm.jpg",
+        src_720: "https://i.imgur.com/qcn7nEm.jpg",
+        src_full: "https://i.imgur.com/qcn7nEm.jpg",
         description: "Santorini Sunset",
         coordinates: {
           lat: "36°27'41.00\"N",
@@ -373,7 +409,8 @@ export const blogEntriesSimple = [
         },
       },
       // {
-      //   src: "https://i.imgur.com/8F29dUq.png",
+      //   src_720: "https://i.imgur.com/8F29dUq.png",
+      //   src_full: "https://i.imgur.com/8F29dUq.png",
       //
       //     description: "Full moon over Οία",
       //     coordinates: {
@@ -384,7 +421,8 @@ export const blogEntriesSimple = [
       //   },
       // },
       {
-        src: "https://i.imgur.com/6Ngl1kv.jpg",
+        src_720: "https://i.imgur.com/6Ngl1kv.jpg",
+        src_full: "https://i.imgur.com/6Ngl1kv.jpg",
         description: "Boat tour around Santorini",
         coordinates: {
           lat: "36°20'49.50\"N",
@@ -408,7 +446,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/V39K31T.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/V39K31T.jpeg",
+        src_720: "https://i.imgur.com/V39K31T.jpeg",
+        src_full: "https://i.imgur.com/V39K31T.jpeg",
         description: "Büyük Mecidiye Mosuqe and the Bosphorus Bridge",
         coordinates: {
           lat: "41°02'50.60\"N",
@@ -417,7 +456,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/hpCyQVk.jpeg",
+        src_720: "https://i.imgur.com/hpCyQVk.jpeg",
+        src_full: "https://i.imgur.com/hpCyQVk.jpeg",
         description: "Hagia Sofia",
         coordinates: {
           lat: "41°00'24.70\"N",
@@ -426,7 +466,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/afiBBnc.png",
+        src_720: "https://i.imgur.com/afiBBnc.png",
+        src_full: "https://i.imgur.com/afiBBnc.png",
         description: "Hagia Sofia",
         coordinates: {
           lat: "41°00'24.90\"N",
@@ -435,7 +476,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/AteReDj.jpeg",
+        src_720: "https://i.imgur.com/AteReDj.jpeg",
+        src_full: "https://i.imgur.com/AteReDj.jpeg",
         description: "Interior of Hagia Sofia",
         coordinates: {
           lat: "41°00'30.30\"N",
@@ -444,7 +486,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/G6ZIaVs.jpeg",
+        src_720: "https://i.imgur.com/G6ZIaVs.jpeg",
+        src_full: "https://i.imgur.com/G6ZIaVs.jpeg",
         description: "Blue Mosque at night",
         coordinates: {
           lat: "41°00'23.60\"N",
@@ -453,7 +496,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Pam3oBL.jpeg",
+        src_720: "https://i.imgur.com/Pam3oBL.jpeg",
+        src_full: "https://i.imgur.com/Pam3oBL.jpeg",
         description: "Grand Bazaar",
         coordinates: {
           lat: "41°00'37.10\"N",
@@ -462,7 +506,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/X2j7d4s.jpeg",
+        src_720: "https://i.imgur.com/X2j7d4s.jpeg",
+        src_full: "https://i.imgur.com/X2j7d4s.jpeg",
         description: "Topkapi Palace",
         coordinates: {
           lat: "41°00'39.20\"N",
@@ -471,7 +516,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/uoyk46k.jpeg",
+        src_720: "https://i.imgur.com/uoyk46k.jpeg",
+        src_full: "https://i.imgur.com/uoyk46k.jpeg",
         description: "Bosphorus from Topkapi Palace",
         coordinates: {
           lat: "41°00'50.20\"N",
@@ -480,7 +526,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/6Vmg5Mn.png",
+        src_720: "https://i.imgur.com/6Vmg5Mn.png",
+        src_full: "https://i.imgur.com/6Vmg5Mn.png",
         description: "Galata Bridge hustle and bustle",
         coordinates: {
           lat: "41°01'05.20\"N",
@@ -489,7 +536,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/74oCxgM.png",
+        src_720: "https://i.imgur.com/74oCxgM.png",
+        src_full: "https://i.imgur.com/74oCxgM.png",
         description: "Old Town İstanbul",
         coordinates: {
           lat: "41°00'50.20\"N",
@@ -498,7 +546,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/wM8k01G.png",
+        src_720: "https://i.imgur.com/wM8k01G.png",
+        src_full: "https://i.imgur.com/wM8k01G.png",
         description: "Old Town İstanbul",
         coordinates: {
           lat: "41°00'50.20\"N",
@@ -507,7 +556,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/lbCcB9D.jpeg",
+        src_720: "https://i.imgur.com/lbCcB9D.jpeg",
+        src_full: "https://i.imgur.com/lbCcB9D.jpeg",
         description: "Galata Tower",
         coordinates: {
           lat: "41°01'38.60\"N",
@@ -516,7 +566,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/zcT86yf.jpeg",
+        src_720: "https://i.imgur.com/zcT86yf.jpeg",
+        src_full: "https://i.imgur.com/zcT86yf.jpeg",
         description: "Tram on İstiklal Avenue",
         coordinates: {
           lat: "41°02'05.60\"N",
@@ -525,7 +576,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/YcjgOmv.jpeg",
+        src_720: "https://i.imgur.com/YcjgOmv.jpeg",
+        src_full: "https://i.imgur.com/YcjgOmv.jpeg",
         description: "Basilica Cistern",
         coordinates: {
           lat: "41°00'31.50\"N",
@@ -549,7 +601,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/C22H18M.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/C22H18M.jpeg",
+        src_720: "https://i.imgur.com/C22H18M.jpeg",
+        src_full: "https://i.imgur.com/C22H18M.jpeg",
         description: "Pyramids of Giza",
         coordinates: {
           lat: "29°58'04.80\"N",
@@ -558,7 +611,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/1qhoa7J.jpeg",
+        src_720: "https://i.imgur.com/1qhoa7J.jpeg",
+        src_full: "https://i.imgur.com/1qhoa7J.jpeg",
         description: "Smiling in front of the pyramids",
         coordinates: {
           lat: "29°58'18.50\"N",
@@ -567,7 +621,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/RAwmlOV.jpeg",
+        src_720: "https://i.imgur.com/RAwmlOV.jpeg",
+        src_full: "https://i.imgur.com/RAwmlOV.jpeg",
         description: "Chandler on a camel in Egypt",
         coordinates: {
           lat: "29°58'04.70\"N",
@@ -576,7 +631,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/uy3o6Ta.png",
+        src_720: "https://i.imgur.com/uy3o6Ta.png",
+        src_full: "https://i.imgur.com/uy3o6Ta.png",
         description: "Dad on a camel in Egypt",
         coordinates: {
           lat: "29°58'48.90\"N",
@@ -585,7 +641,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/YXVvuL2.jpeg",
+        src_720: "https://i.imgur.com/YXVvuL2.jpeg",
+        src_full: "https://i.imgur.com/YXVvuL2.jpeg",
         description: "Great Sphinx of Giza",
         coordinates: {
           lat: "29°58'30.20\"N",
@@ -594,7 +651,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/iOsQsjN.png",
+        src_720: "https://i.imgur.com/iOsQsjN.png",
+        src_full: "https://i.imgur.com/iOsQsjN.png",
         description: "Mosque of Muhammad Ali from Al-Azhar Park",
         coordinates: {
           lat: "30°02'18.80\"N",
@@ -603,7 +661,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/zSU3jUn.jpeg",
+        src_720: "https://i.imgur.com/zSU3jUn.jpeg",
+        src_full: "https://i.imgur.com/zSU3jUn.jpeg",
         description: "Mosque of Muhammad Ali",
         coordinates: {
           lat: "30°01'41.20\"N",
@@ -612,7 +671,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/U604zmL.jpeg",
+        src_720: "https://i.imgur.com/U604zmL.jpeg",
+        src_full: "https://i.imgur.com/U604zmL.jpeg",
         description: "Khan el-Khalili",
         coordinates: {
           lat: "30°02'49.60\"N",
@@ -621,7 +681,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/k1RwdBn.jpeg",
+        src_720: "https://i.imgur.com/k1RwdBn.jpeg",
+        src_full: "https://i.imgur.com/k1RwdBn.jpeg",
         description: "Khan el-Khalili at night",
         coordinates: {
           lat: "30°02'50.30\"N",
@@ -630,7 +691,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/iPTkDu2.jpeg",
+        src_720: "https://i.imgur.com/iPTkDu2.jpeg",
+        src_full: "https://i.imgur.com/iPTkDu2.jpeg",
         description: "Coffee shop with Abdula",
         coordinates: {
           lat: "30°02'59.60\"N",
@@ -639,7 +701,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/OykjDq8.jpeg",
+        src_720: "https://i.imgur.com/OykjDq8.jpeg",
+        src_full: "https://i.imgur.com/OykjDq8.jpeg",
         description: "Boating on the Nile",
         coordinates: {
           lat: "30°03'50.00\"N",
@@ -648,7 +711,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/3iCz70w.jpeg",
+        src_720: "https://i.imgur.com/3iCz70w.jpeg",
+        src_full: "https://i.imgur.com/3iCz70w.jpeg",
         description: "Valley of the Kings Hieroglyphs",
         coordinates: {
           lat: "25°44'33.70\"N",
@@ -657,7 +721,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/dDhrFpx.jpeg",
+        src_720: "https://i.imgur.com/dDhrFpx.jpeg",
+        src_full: "https://i.imgur.com/dDhrFpx.jpeg",
         description: "Mortuary Temple of Hatshepsut",
         coordinates: {
           lat: "25°44'15.40\"N",
@@ -666,7 +731,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/DEHia1N.jpeg",
+        src_720: "https://i.imgur.com/DEHia1N.jpeg",
+        src_full: "https://i.imgur.com/DEHia1N.jpeg",
         description: "Karnak Temple",
         coordinates: {
           lat: "25°43'06.60\"N",
@@ -675,7 +741,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/nzvVwGf.jpeg",
+        src_720: "https://i.imgur.com/nzvVwGf.jpeg",
+        src_full: "https://i.imgur.com/nzvVwGf.jpeg",
         description: "Luxor Temple",
         coordinates: {
           lat: "25°42'00.40\"N",
@@ -699,7 +766,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/s8UC95v.jpeg",
     postImages: [
       {
-        src: "https://i.imgur.com/s8UC95v.jpeg",
+        src_720: "https://i.imgur.com/s8UC95v.jpeg",
+        src_full: "https://i.imgur.com/s8UC95v.jpeg",
         description: "Al-Khazneh (The Treasury)",
         coordinates: {
           lat: "30°19'19.90\"N",
@@ -708,7 +776,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/eTyAY2u.jpeg",
+        src_720: "https://i.imgur.com/eTyAY2u.jpeg",
+        src_full: "https://i.imgur.com/eTyAY2u.jpeg",
         description: "Al-Sīq",
         coordinates: {
           lat: "30°19'38.30\"N",
@@ -717,7 +786,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/gQOpVgI.jpeg",
+        src_720: "https://i.imgur.com/gQOpVgI.jpeg",
+        src_full: "https://i.imgur.com/gQOpVgI.jpeg",
         description: "Al-Khazneh (The Treasury)",
         coordinates: {
           lat: "30°19'19.90\"N",
@@ -726,7 +796,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/0akQJZe.jpeg",
+        src_720: "https://i.imgur.com/0akQJZe.jpeg",
+        src_full: "https://i.imgur.com/0akQJZe.jpeg",
         description: "Al-Khazneh (The Treasury)",
         coordinates: {
           lat: "30°19'20.80\"N",
@@ -735,7 +806,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Xg5vtnX.jpeg",
+        src_720: "https://i.imgur.com/Xg5vtnX.jpeg",
+        src_full: "https://i.imgur.com/Xg5vtnX.jpeg",
         description: "Ed-Deir (The Monastery)",
         coordinates: {
           lat: "30°20'16.40\"N",
@@ -744,7 +816,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/ZpsX3BV.jpeg",
+        src_720: "https://i.imgur.com/ZpsX3BV.jpeg",
+        src_full: "https://i.imgur.com/ZpsX3BV.jpeg",
         description: "Ed-Deir (The Monastery)",
         coordinates: {
           lat: "30°20'16.60\"N",
@@ -753,7 +826,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/IuhMqBG.jpeg",
+        src_720: "https://i.imgur.com/IuhMqBG.jpeg",
+        src_full: "https://i.imgur.com/IuhMqBG.jpeg",
         description: "Camel",
         coordinates: {
           lat: "30°19'33.60\"N",
@@ -762,7 +836,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/hep7ZiP.jpeg",
+        src_720: "https://i.imgur.com/hep7ZiP.jpeg",
+        src_full: "https://i.imgur.com/hep7ZiP.jpeg",
         description: "First camel ride (James 🇬🇧 on the right)",
         coordinates: {
           lat: "30°19'33.60\"N",
@@ -771,7 +846,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/v7vEnpC.png",
+        src_720: "https://i.imgur.com/v7vEnpC.png",
+        src_full: "https://i.imgur.com/v7vEnpC.png",
         description: "Camel ride in Petra",
         coordinates: {
           lat: "30°19'44.80\"N",
@@ -780,7 +856,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/OEIPmtC.jpeg",
+        src_720: "https://i.imgur.com/OEIPmtC.jpeg",
+        src_full: "https://i.imgur.com/OEIPmtC.jpeg",
         description: "Camel in front of The Treasury with James 🇬🇧",
         coordinates: {
           lat: "30°19'44.80\"N",
@@ -789,7 +866,8 @@ export const blogEntriesSimple = [
         },
       },
       // {
-      //   src: "https://i.imgur.com/ITMNRMr.jpeg",
+      //   src_720: "https://i.imgur.com/ITMNRMr.jpeg",
+      // src_full: "https://i.imgur.com/ITMNRMr.jpeg",
       //
       //     description: "Al-Khazneh (The Treasury), Petra",
       //     coordinates: {
@@ -815,7 +893,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/rYQQtXN.png",
     postImages: [
       {
-        src: "https://i.imgur.com/rYQQtXN.png",
+        src_720: "https://i.imgur.com/rYQQtXN.png",
+        src_full: "https://i.imgur.com/rYQQtXN.png",
         description: "Dome of the Rock",
         coordinates: {
           lat: "31°46'35.20\"N",
@@ -824,7 +903,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/uL0fvtH.jpeg",
+        src_720: "https://i.imgur.com/uL0fvtH.jpeg",
+        src_full: "https://i.imgur.com/uL0fvtH.jpeg",
         description: "Jaffa",
         coordinates: {
           lat: "32°03'15.80\"N",
@@ -833,7 +913,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/9tNu5uu.jpeg",
+        src_720: "https://i.imgur.com/9tNu5uu.jpeg",
+        src_full: "https://i.imgur.com/9tNu5uu.jpeg",
         description: "Yarkon Park",
         coordinates: {
           lat: "32°05'54.20\"N",
@@ -843,7 +924,8 @@ export const blogEntriesSimple = [
       },
 
       {
-        src: "https://i.imgur.com/oaqklDh.jpeg",
+        src_720: "https://i.imgur.com/oaqklDh.jpeg",
+        src_full: "https://i.imgur.com/oaqklDh.jpeg",
         description: "Trilingual Street Sign",
         coordinates: {
           lat: "32°04'32.20\"N",
@@ -852,7 +934,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/FwZrsqi.jpeg",
+        src_720: "https://i.imgur.com/FwZrsqi.jpeg",
+        src_full: "https://i.imgur.com/FwZrsqi.jpeg",
         description: "Church of the Holy Sepulchre",
         coordinates: {
           lat: "31°46'42.20\"N",
@@ -861,7 +944,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/IghrSXw.png",
+        src_720: "https://i.imgur.com/IghrSXw.png",
+        src_full: "https://i.imgur.com/IghrSXw.png",
         description: "הכותל המערבי (The Wailing Wall)",
         coordinates: {
           lat: "31°46'35.70\"N",
@@ -870,7 +954,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/0ROfrkG.png",
+        src_720: "https://i.imgur.com/0ROfrkG.png",
+        src_full: "https://i.imgur.com/0ROfrkG.png",
         description: "Temple Mount",
         coordinates: {
           lat: "31°46'43.90\"N",
@@ -879,7 +964,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/u1DFZFR.png",
+        src_720: "https://i.imgur.com/u1DFZFR.png",
+        src_full: "https://i.imgur.com/u1DFZFR.png",
         description: "قبّة الصخرة (Dome of the Rock)",
         coordinates: {
           lat: "31°46'43.90\"N",
@@ -888,7 +974,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/ODK6Zfb.jpeg",
+        src_720: "https://i.imgur.com/ODK6Zfb.jpeg",
+        src_full: "https://i.imgur.com/ODK6Zfb.jpeg",
         description: "Old City of Jerusalem",
         coordinates: {
           lat: "31°46'32.90\"N",
@@ -897,7 +984,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/mSh5rbd.png",
+        src_720: "https://i.imgur.com/mSh5rbd.png",
+        src_full: "https://i.imgur.com/mSh5rbd.png",
         description: "Yad Vashem's Hall of Names",
         coordinates: {
           lat: "31°46'28.40\"N",
@@ -906,7 +994,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Ihv1PXy.jpeg",
+        src_720: "https://i.imgur.com/Ihv1PXy.jpeg",
+        src_full: "https://i.imgur.com/Ihv1PXy.jpeg",
         description: "Dead Sea - The Lowest Point on Earth",
         coordinates: {
           lat: "31°45'42.80\"N",
@@ -915,7 +1004,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/AS3MULE.png",
+        src_720: "https://i.imgur.com/AS3MULE.png",
+        src_full: "https://i.imgur.com/AS3MULE.png",
         description: "Floating in the Dead Sea",
         coordinates: {
           lat: "31°45'43.60\"N",
@@ -939,7 +1029,8 @@ export const blogEntriesSimple = [
     previewSrc: "https://i.imgur.com/irAnMih.png",
     postImages: [
       {
-        src: "https://i.imgur.com/irAnMih.png",
+        src_720: "https://i.imgur.com/irAnMih.png",
+        src_full: "https://i.imgur.com/irAnMih.png",
         description: "ताज महल (Taj Mahal)",
         coordinates: {
           lat: "27°10'18.80\"N",
@@ -948,7 +1039,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/eplbq9H.jpeg",
+        src_720: "https://i.imgur.com/eplbq9H.jpeg",
+        src_full: "https://i.imgur.com/eplbq9H.jpeg",
         description: "Peace from India",
         coordinates: {
           lat: "27°10'23.90\"N",
@@ -957,7 +1049,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/0mF40M5.jpeg",
+        src_720: "https://i.imgur.com/0mF40M5.jpeg",
+        src_full: "https://i.imgur.com/0mF40M5.jpeg",
         description: "Me and Sanchin",
         coordinates: {
           lat: "27°10'23.90\"N",
@@ -966,7 +1059,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/1EhIuOg.png",
+        src_720: "https://i.imgur.com/1EhIuOg.png",
+        src_full: "https://i.imgur.com/1EhIuOg.png",
         description: "Taj Mahal from Mehmaankhana",
         coordinates: {
           lat: "27°10'30.40\"N",
@@ -975,7 +1069,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/0UxLhzb.png",
+        src_720: "https://i.imgur.com/0UxLhzb.png",
+        src_full: "https://i.imgur.com/0UxLhzb.png",
         description: "Taj Mahal at sunrise",
         coordinates: {
           lat: "27°10'28.70\"N",
@@ -984,7 +1079,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/qfKbsc1.jpeg",
+        src_720: "https://i.imgur.com/qfKbsc1.jpeg",
+        src_full: "https://i.imgur.com/qfKbsc1.jpeg",
         description: "Friends at Agra Fort",
         coordinates: {
           lat: "27°10'39.40\"N",
@@ -993,7 +1089,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/01HO7SJ.png",
+        src_720: "https://i.imgur.com/01HO7SJ.png",
+        src_full: "https://i.imgur.com/01HO7SJ.png",
         description: "New Delhi Railway Station",
         coordinates: {
           lat: "28°38'33.40\"N",
@@ -1002,7 +1099,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/aCn3sf6.jpeg",
+        src_720: "https://i.imgur.com/aCn3sf6.jpeg",
+        src_full: "https://i.imgur.com/aCn3sf6.jpeg",
         description: "Gurudwara Shri Bangla Sahib",
         coordinates: {
           lat: "28°37'33.20\"N",
@@ -1011,7 +1109,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/dADBziS.jpeg",
+        src_720: "https://i.imgur.com/dADBziS.jpeg",
+        src_full: "https://i.imgur.com/dADBziS.jpeg",
         description: "Red Fort",
         coordinates: {
           lat: "28°39'21.60\"N",
@@ -1020,7 +1119,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/RIo0n1d.png",
+        src_720: "https://i.imgur.com/RIo0n1d.png",
+        src_full: "https://i.imgur.com/RIo0n1d.png",
         description: "Chatta Chowk Bazar / Meena Bazaar",
         coordinates: {
           lat: "28°39'21.40\"N",
@@ -1029,7 +1129,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/ocdxxs1.jpeg",
+        src_720: "https://i.imgur.com/ocdxxs1.jpeg",
+        src_full: "https://i.imgur.com/ocdxxs1.jpeg",
         description: "Jama Masjid",
         coordinates: {
           lat: "28°39'04.00\"N",
@@ -1038,7 +1139,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/Eb8XtFK.jpeg",
+        src_720: "https://i.imgur.com/Eb8XtFK.jpeg",
+        src_full: "https://i.imgur.com/Eb8XtFK.jpeg",
         description: "Matia Mahal Rd. in Chandni Chowk",
         coordinates: {
           lat: "28°38'59.20\"N",
@@ -1047,7 +1149,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/RIXUjyV.jpeg",
+        src_720: "https://i.imgur.com/RIXUjyV.jpeg",
+        src_full: "https://i.imgur.com/RIXUjyV.jpeg",
         description: "Qutub Minar",
         coordinates: {
           lat: "28°31'25.70\"N",
@@ -1056,7 +1159,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/R5ZFfT5.png",
+        src_720: "https://i.imgur.com/R5ZFfT5.png",
+        src_full: "https://i.imgur.com/R5ZFfT5.png",
         description: "Qutub Minar Interior",
         coordinates: {
           lat: "28°31'29.90\"N",
@@ -1065,7 +1169,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/LAN34AT.jpeg",
+        src_720: "https://i.imgur.com/LAN34AT.jpeg",
+        src_full: "https://i.imgur.com/LAN34AT.jpeg",
         description: "Envoys at Qutub Minar",
         coordinates: {
           lat: "28°31'28.60\"N",
@@ -1210,141 +1315,6 @@ export const blogEntriesSimple = [
       },
     ],
   },
-  {
-    pageTitle: "Hong Kong 🇭🇰 (NON-OPTIMIZED)",
-    countryNames: ["Hong Kong"],
-    route: "hong-kong-unoptimized",
-    flags: ["🇭🇰"],
-    caption: {
-      title: "Hong Kong 🇭🇰",
-      content:
-        "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
-      publishDate: "September 11, 2023",
-    },
-    previewSrc: "https://i.imgur.com/P4iPNzG.png",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/LYw3UMT.png",
-        src_full: "https://i.imgur.com/LYw3UMT.png",
-        description: "Porter Robinson's Musician Cover Location",
-        coordinates: {
-          lat: "22°17'09.00\"N",
-          long: "114°09'35.40\"E",
-          link: "https://www.google.com/maps?q=loc:22.2858306,114.1598361",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/CNchv6r.jpeg",
-        src_full: "https://i.imgur.com/CNchv6r.jpeg",
-        description: "Big Buddah on Lantau Island",
-        coordinates: {
-          lat: "22°15'19.40\"N",
-          long: "113°54'23.80\"E",
-          link: "https://www.google.com/maps?q=loc:22.2554,113.9066",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/4tk8361.png",
-        src_full: "https://i.imgur.com/4tk8361.png",
-        description: "Big Buddah up close",
-        coordinates: {
-          lat: "22°15'15.10\"N",
-          long: "113°54'18.70\"E",
-          link: "https://www.google.com/maps?q=loc:22.2542,113.9052",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/JaP6Dvn.jpeg",
-        src_full: "https://i.imgur.com/JaP6Dvn.jpeg",
-        description: "Hong Kong from Victoria Peak",
-        coordinates: {
-          lat: "22°16'16.80\"N",
-          long: "114°09'01.10\"E",
-          link: "https://www.google.com/maps?q=loc:22.2713417,114.1503056",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/AJiZgWv.jpeg",
-        src_full: "https://i.imgur.com/AJiZgWv.jpeg",
-        description: "Neon Sign near Temple Street Night Market",
-        coordinates: {
-          lat: "22°18'21.60\"N",
-          long: "114°10'11.60\"E",
-          link: "https://www.google.com/maps?q=loc:22.306,114.1699",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/HFFS0mE.jpeg",
-        src_full: "https://i.imgur.com/HFFS0mE.jpeg",
-        description: "M+ with Edwin and Yvonne",
-        coordinates: {
-          lat: "22°18'04.00\"N",
-          long: "114°09'33.10\"E",
-          link: "https://www.google.com/maps?q=loc:22.3011,114.1592",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/dV3PGDo.jpeg",
-        src_full: "https://i.imgur.com/dV3PGDo.jpeg",
-        description: "Victoria Harbor Profile",
-        coordinates: {
-          lat: "22°18'02.50\"N",
-          long: "114°09'33.10\"E",
-          link: "https://www.google.com/maps?q=loc:22.3007,114.1592",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/EXCjXsL.jpeg",
-        src_full: "https://i.imgur.com/EXCjXsL.jpeg",
-        description: "Second Sky Painting by Yvonne",
-        coordinates: {
-          lat: "22°17'08.50\"N",
-          long: "114°09'36.00\"E",
-          link: "https://www.google.com/maps?q=loc:22.2857,114.16",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/rG1YMw6.png",
-        src_full: "https://i.imgur.com/rG1YMw6.png",
-        description: "Cinoz Studio Tour with Edwin, Yvonne, and Garth",
-        coordinates: {
-          lat: "22°22'27.40\"N",
-          long: "114°06'39.60\"E",
-          link: "https://www.google.com/maps?q=loc:22.3742778,114.1109861",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/l5hkzd9.jpeg",
-        src_full: "https://i.imgur.com/l5hkzd9.jpeg",
-        description: "Quarry Bay's Monster Building",
-        coordinates: {
-          lat: "22°17'02.40\"N",
-          long: "114°12'45.00\"E",
-          link: "https://www.google.com/maps?q=loc:22.284,114.2125",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/P3Kxxgi.jpeg",
-        src_full: "https://i.imgur.com/P3Kxxgi.jpeg",
-        description: "Hong Kong Street in Causeway Bay",
-        coordinates: {
-          lat: "22°16'48.00\"N",
-          long: "114°11'04.90\"E",
-          link: "https://www.google.com/maps?q=loc:22.28,114.1847",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/cSJOix7.jpeg",
-        src_full: "https://i.imgur.com/cSJOix7.jpeg",
-        description: "Final laugh with Long",
-        coordinates: {
-          lat: "22°16'44.10\"N",
-          long: "114°10'56.80\"E",
-          link: "https://www.google.com/maps?q=loc:22.2789139,114.1824556",
-        },
-      },
-    ],
-  },
   // {
   //   pageTitle: "India 🇮🇳",
   //   countryNames: ["India"],
@@ -1359,7 +1329,8 @@ export const blogEntriesSimple = [
   //   previewSrc: "",
   //   postImages: [
   //     {
-  //       src: "https://i.imgur.com/LAN34AT.jpeg",
+  //       src_720: "https://i.imgur.com/LAN34AT.jpeg",
+  // src_full: "https://i.imgur.com/LAN34AT.jpeg",
   //       description: "Envoys at Qutub Minar",
   //       coordinates: {
   //         lat: "28°31'28.60\"N",
@@ -1611,7 +1582,8 @@ export const blogEntriesSimple = [
   //   previewSrc: "",
   //   postImages: [
   //     {
-  //       src: "https://i.imgur.com/C22H18M.jpeg",
+  //       src_720: "https://i.imgur.com/C22H18M.jpeg",
+  // src_full: "https://i.imgur.com/C22H18M.jpeg",
   //       description: "Pyramids of Giza",
   //       coordinates: {
   //         lat: "29°58'04.80\"N",
