@@ -29,14 +29,14 @@ function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
 
 function BlogGrid({ blogEntries }) {
   const blogPreviews = blogEntries.map((entry, index) => {
-    const firstImageData = entry.images[entry.previewIndex];
+    const firstImageData = entry.previewSrc;
     const entryTitlePrev = index > 0 ? blogEntries[index - 1].pageTitle : null;
     const entryTitleNext =
       index < blogEntries.length - 1 ? blogEntries[index + 1].pageTitle : null;
 
     return (
       <BlogGridSquare
-        imgSrc={firstImageData.src}
+        imgSrc={firstImageData}
         entryTitle={entry.pageTitle}
         entryRoute={entry.route}
         entryTitlePrev={entryTitlePrev}

@@ -10,8 +10,8 @@ export const blogEntriesSimple = [
         "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
       publishDate: "November 14, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/gc32r7Q.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/gc32r7Q.jpeg",
         description: "Skógafoss",
@@ -143,8 +143,8 @@ export const blogEntriesSimple = [
         "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
       publishDate: "November 6, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/Ijcx6ld.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/Ijcx6ld.jpeg",
         description: "Dubrovnik Old City Harbor",
@@ -271,8 +271,8 @@ export const blogEntriesSimple = [
         "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with my S.O. beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
       publishDate: "October 24, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/P29yYVI.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/P29yYVI.jpeg",
         description: "Οία, Santorini",
@@ -405,8 +405,8 @@ export const blogEntriesSimple = [
         "Where East meets West! İstanbul felt like such a fitting city to visit while I transitioned from Asia to Europe! It is literally the meeting point between the two continents after all! Not only is İstanbul the largest city in all of Europe, but it also used to be the capital of the Roman Empire, Constantinople! It felt so wonderful to be back in Europe after traveling to so many other unique places in the world. I had been looking forward to this stop for a while and I'm happy that İstanbul didn't disappoint!\nThe thing I'll cherish most about my time here is the beauty of the city itself. When I first exited the metro line from the airport, my jaw dropped because of said beauty. The entire city is filled to the brim with GIGANTIC symmetrical mosques which (when you come from the USA) are extremely fascinating and unique! Virtually everywhere you go, you’ll see breathtaking views because of them. Each lookout point features hills filled with countless numbers of houses, tall spired minarets, and gigantic red and white Turkish flags waving proudly in the air! I tended to lose track of time whenever I stopped to take it all in.\nI had some ambitious day trips planned while I was here in Turkey. However, once I realized the sheer size of the entire city, I knew that those trips would have to be sidelined for a future visit. I heard road trips around the entirety of the country are fantastic! Something to look forward to during a future visit!",
       publishDate: "October 18, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/V39K31T.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/V39K31T.jpeg",
         description: "Büyük Mecidiye Mosuqe and the Bosphorus Bridge",
@@ -546,8 +546,8 @@ export const blogEntriesSimple = [
         "The legendary and iconic Egypt! It was an absolute treat to finally experience the wonders of ancient Egypt and more! Egypt was another one of the countries my dad visited during his youth and always praised so much while my sister and I were growing up. There was a magnet of the pyramids on our fridge which after looking at it almost every day during my childhood, subtly pushed me to go and see them for myself. Now, I’m finally here!\nEgypt was the first country where I hired a private guide! I wanted to treat myself to absorbing as much history as I possibly could and I’m happy I did so with Egyptologist Ahmed. He made site-seeing engaging, intriguing, and effortless. I learned more than I would’ve ever done solo or with a group. It was the deluxe Egypt experience! I did make sure to have an extra day at the pyramids just to roam around by myself though. It was funny having all the hustlers trying to sell me a camel ride only to see them turn around disappointed once I showed them my photo. All part of the fun 😉\nWhile I was a tourist in the morning, I was a local by night. My new friend Abdula and I got acquainted through a mutual friend and I feel extremely lucky that our fates intertwined. He knew the best spots for hanging out, kicking back, and experiencing life like a modern Egyptian. I felt so much love and gratitude wherever we went due to his outgoing personality and extreme passion for making his guests feel at home. I urge everyone to come to Egypt so that they can experience the same.\nشكران Egypt!! You are easily one of the greats, and will continue to be for many centuries to come!",
       publishDate: "October 9, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/C22H18M.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/C22H18M.jpeg",
         description: "Pyramids of Giza",
@@ -696,8 +696,8 @@ export const blogEntriesSimple = [
         "A quick trip to Jordan to see another new wonder of the world, Petra! The entirety of Petra was astounding. When I veered around the corner from Al-Sīq (the canyon that leads you into Petra) and saw Al-Khazneh (The Treasury) for the first time, I was brought to the verge of tears. It’s not just a building carved into the side of a mountain; it's a gigantic, hand-crafted architectural and engineering masterpiece—a true work of art!\nThis was one of the few times I opted for a fully guided tour from start to finish. I was picked up directly from my hostel in Jerusalem, crossed the Palestinian border (visa process included), and enjoyed an air-conditioned bus ride to a fully facilitated desert camp right outside Petra. Usually, I prefer handling everything myself (transit, tickets, lodging), but this tour made more sense financially and logistically. Having a guide to explain the history, point out minute details, and teach us how to haggle for a camel ride was invaluable!\nI learned that Petra is a vast archaeological site where the Nabteans (an ancient Arab people) had their trading hub. It’s filled with large sandstone cliffs that were hand-carved top to bottom in the style of the Greeks and Romans. There was no room for mistakes when they made these colossal structures since any slip-up would’ve resulted in the entire project being ruined. Perfectionism at its finest!\nI feel like I could’ve spent at least another day or two exploring more of Petra. Having some more days for Amman would’ve been nice too but that will all need to be saved for another trip. Despite my short amount of time in Jordan, I am extremely happy I made the effort to go to Petra. It was spectacular and gave me the same feelings of awe, excitement, gratitude, and happiness that every other wonder of the world does. Everyone must go see it in their lifetime!",
       publishDate: "October 3, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/s8UC95v.jpeg",
+    postImages: [
       {
         src: "https://i.imgur.com/s8UC95v.jpeg",
         description: "Al-Khazneh (The Treasury)",
@@ -812,8 +812,8 @@ export const blogEntriesSimple = [
         "The first stop in the Middle East! Israel seemed like the perfect place to recoup after traveling for a month straight, and I guess I proved myself right! This stop was part reset, part history lesson. It marked the halfway point of my worldwide trip, so it was nice to be in a place that felt familiar yet unique.\nWhile Tel Aviv is known for its modernity and fun atmosphere, I was more interested in seeing Jerusalem - the meeting point of three major religions and cultures. When you explore the old town of Jerusalem, you see the essence of maintaining the status quo. There’s understanding and mutual respect between the Christians, Jews, and Muslims who are all living, working, and worshiping within a very small area. \nStanding in the places that are revered by so many people throughout the world made me feel empathetic and thankful that these places are open for devout pilgrims, casual believers, and curious onlookers to come and see with their own eyes. I know there’s a lot of contention in this part of the world right now, but in this particular space at this particular time, there is peace and I think that’s worth seeing and celebrating.",
       publishDate: "September 25, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/rYQQtXN.png",
+    postImages: [
       {
         src: "https://i.imgur.com/rYQQtXN.png",
         description: "Dome of the Rock",
@@ -936,8 +936,8 @@ export const blogEntriesSimple = [
         "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
       publishDate: "September 18, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/irAnMih.png",
+    postImages: [
       {
         src: "https://i.imgur.com/irAnMih.png",
         description: "ताज महल (Taj Mahal)",
@@ -1086,10 +1086,11 @@ export const blogEntriesSimple = [
         "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
       publishDate: "September 11, 2023",
     },
-    previewIndex: 0,
-    images: [
+    previewSrc: "https://i.imgur.com/P4iPNzG.png",
+    postImages: [
       {
-        src: "https://i.imgur.com/LYw3UMT.png",
+        src_720: "https://i.imgur.com/lVdYMz2.png",
+        src_full: "https://i.imgur.com/LYw3UMT.png",
         description: "Porter Robinson's Musician Cover Location",
         coordinates: {
           lat: "22°17'09.00\"N",
@@ -1098,7 +1099,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/CNchv6r.jpeg",
+        src_720: "https://i.imgur.com/gbv1aLg.png",
+        src_full: "https://i.imgur.com/CNchv6r.jpeg",
         description: "Big Buddah on Lantau Island",
         coordinates: {
           lat: "22°15'19.40\"N",
@@ -1107,7 +1109,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/4tk8361.png",
+        src_720: "https://i.imgur.com/KVqG9Nv.png",
+        src_full: "https://i.imgur.com/4tk8361.png",
         description: "Big Buddah up close",
         coordinates: {
           lat: "22°15'15.10\"N",
@@ -1116,7 +1119,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/JaP6Dvn.jpeg",
+        src_720: "https://i.imgur.com/bGxKqJ5.png",
+        src_full: "https://i.imgur.com/JaP6Dvn.jpeg",
         description: "Hong Kong from Victoria Peak",
         coordinates: {
           lat: "22°16'16.80\"N",
@@ -1125,7 +1129,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/AJiZgWv.jpeg",
+        src_720: "https://i.imgur.com/HES37J0.png",
+        src_full: "https://i.imgur.com/AJiZgWv.jpeg",
         description: "Neon Sign near Temple Street Night Market",
         coordinates: {
           lat: "22°18'21.60\"N",
@@ -1134,7 +1139,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/HFFS0mE.jpeg",
+        src_720: "https://i.imgur.com/9O01WR3.png",
+        src_full: "https://i.imgur.com/HFFS0mE.jpeg",
         description: "M+ with Edwin and Yvonne",
         coordinates: {
           lat: "22°18'04.00\"N",
@@ -1143,7 +1149,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/dV3PGDo.jpeg",
+        src_720: "https://i.imgur.com/KwkYzNE.png",
+        src_full: "https://i.imgur.com/dV3PGDo.jpeg",
         description: "Victoria Harbor Profile",
         coordinates: {
           lat: "22°18'02.50\"N",
@@ -1152,7 +1159,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/EXCjXsL.jpeg",
+        src_720: "https://i.imgur.com/psXns18.png",
+        src_full: "https://i.imgur.com/EXCjXsL.jpeg",
         description: "Second Sky Painting by Yvonne",
         coordinates: {
           lat: "22°17'08.50\"N",
@@ -1161,7 +1169,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/rG1YMw6.png",
+        src_720: "https://i.imgur.com/8TN8Oss.png",
+        src_full: "https://i.imgur.com/rG1YMw6.png",
         description: "Cinoz Studio Tour with Edwin, Yvonne, and Garth",
         coordinates: {
           lat: "22°22'27.40\"N",
@@ -1170,7 +1179,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/l5hkzd9.jpeg",
+        src_720: "https://i.imgur.com/8WEvc1i.png",
+        src_full: "https://i.imgur.com/l5hkzd9.jpeg",
         description: "Quarry Bay's Monster Building",
         coordinates: {
           lat: "22°17'02.40\"N",
@@ -1179,7 +1189,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/P3Kxxgi.jpeg",
+        src_720: "https://i.imgur.com/95BSj3b.png",
+        src_full: "https://i.imgur.com/P3Kxxgi.jpeg",
         description: "Hong Kong Street in Causeway Bay",
         coordinates: {
           lat: "22°16'48.00\"N",
@@ -1188,7 +1199,8 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src: "https://i.imgur.com/cSJOix7.jpeg",
+        src_720: "https://i.imgur.com/P0GD5MT.png",
+        src_full: "https://i.imgur.com/cSJOix7.jpeg",
         description: "Final laugh with Long",
         coordinates: {
           lat: "22°16'44.10\"N",
@@ -1209,8 +1221,8 @@ export const blogEntriesSimple = [
   //       "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
   //     publishDate: "September 18, 2023",
   //   },
-  //   previewIndex: 0,
-  //   images: [
+  //   previewSrc: "",
+  //   postImages: [
   //     {
   //       src: "https://i.imgur.com/LAN34AT.jpeg",
   //       description: "Envoys at Qutub Minar",
@@ -1461,8 +1473,8 @@ export const blogEntriesSimple = [
   //       "I still can’t believe I was in Italy! I’ve been wanting to visit ever since I was very young when my Dad taught me and my sister about the wonders of Ancient Rome, the impact of the Renaissance, and the importance of travel. Italy was always THE country I imagined going to when visiting Europe so it was surreal to finally be there. Hearing all the hype from other travelers I met this month made me even more excited to go and experience it all for myself!\nTo say that Italy lived up to my expectations is an understatement. The ancient architecture was so epic that I was filled with excitement whenever it was in eyesight. The art was so beautiful it brought me to tears multiple times. The food was…the food was the best I’ve ever had in my life! I am stunned by how much everything lived up to the hype, and was sad that I eventually had to leave.\nI eagerly want to head back already. I feel like I only scratched the surface and could easily spend several more weeks exploring. I want to experience everything Italy has to offer! Until that time comes, I will cherish the time I had here immensely. Grazie Italia!",
   //     publishDate: "October 27, 2022",
   //   },
-  //   previewIndex: 0,
-  //   images: [
+  //   previewSrc: "",
+  //   postImages: [
   //     {
   //       src: "https://i.imgur.com/C22H18M.jpeg",
   //       description: "Pyramids of Giza",

@@ -59,6 +59,7 @@ function NurtureCoordinates({
 
 function BlogImage({
   imgSrc,
+  imgFullResLink,
   imgLocationName,
   imgLocationLat,
   imgLocationLong,
@@ -73,24 +74,26 @@ function BlogImage({
         imgLocationLink={imgLocationLink}
       />
       <div className="max-w-[720px] max-h-[720px]">
-        <Image
-          src={imgSrc}
-          alt={`Photo of ${imgLocationName}`}
-          width={5000}
-          height={5000}
-          quality={75}
-          title={imgLocationName}
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-          placeholder={`data:image/svg+xml;base64,${toBase64(
-            shimmer(750, 750)
-          )}`}
-          priority={imageNumber == 0 ? true : false}
-          loading={imageNumber == 0 ? "eager" : "lazy"}
-          // unoptimized={true}
-        />
+        <Link href={imgFullResLink}>
+          <Image
+            src={imgSrc}
+            alt={`Photo of ${imgLocationName}`}
+            width={720}
+            height={720}
+            quality={100}
+            title={imgLocationName}
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+            placeholder={`data:image/svg+xml;base64,${toBase64(
+              shimmer(750, 750)
+            )}`}
+            priority={imageNumber == 0 ? true : false}
+            loading={imageNumber == 0 ? "eager" : "lazy"}
+            // unoptimized={true}
+          />
+        </Link>
       </div>
     </div>
   );
@@ -236,9 +239,10 @@ export default function BlogPage({ params }) {
     </li>
   ));
 
-  const imgList = blogData.images.map((imgData, i) => (
+  const imgList = blogData.postImages.map((imgData, i) => (
     <BlogImage
-      imgSrc={imgData.src}
+      imgSrc={imgData.src_720}
+      imgFullResLink={imgData.src_full}
       imgLocationName={imgData.description}
       imgLocationLat={imgData.coordinates.lat}
       imgLocationLong={imgData.coordinates.long}
