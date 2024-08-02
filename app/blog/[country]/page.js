@@ -33,6 +33,7 @@ function BlogBackButton({}) {
     <Link
       href="/blog/"
       className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-3 left-1"
+      title="Back"
     >
       <button>
         <svg className="h-5 w-5 lg:h-7 lg:w-7" viewBox="0 0 532 532">

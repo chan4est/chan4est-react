@@ -4,6 +4,7 @@ import chanPhotoIndia from "../../public/me-india.webp";
 import { NavBar } from "../components/Navbar";
 import { blogEntriesSimple } from "../lib/blogEntriesSimple";
 import calculateAge from "../lib/calculateAge";
+import { imgURL, r_300 } from "../lib/cloudflareImgNames";
 
 export const metadata = {
   title: "chan4est | Blog",
@@ -22,6 +23,7 @@ function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
         className="max-h-[300px] object-cover"
         priority={true}
         loading={"eager"}
+        unoptimized={true}
       />
     </Link>
   );
@@ -29,14 +31,14 @@ function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
 
 function BlogGrid({ blogEntries }) {
   const blogPreviews = blogEntries.map((entry, index) => {
-    const firstImageData = entry.previewSrc;
+    const firstImgSrc = imgURL(entry.postImages[entry.previewIdx].imgID, r_300);
+    console.log(firstImgSrc);
     const entryTitlePrev = index > 0 ? blogEntries[index - 1].pageTitle : null;
     const entryTitleNext =
       index < blogEntries.length - 1 ? blogEntries[index + 1].pageTitle : null;
-
     return (
       <BlogGridSquare
-        imgSrc={firstImageData}
+        imgSrc={firstImgSrc}
         entryTitle={entry.pageTitle}
         entryRoute={entry.route}
         entryTitlePrev={entryTitlePrev}

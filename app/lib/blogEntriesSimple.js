@@ -1,1185 +1,1080 @@
 export const blogEntriesSimple = [
-  {
-    pageTitle: "Iceland 🇮🇸",
-    countryNames: ["Iceland"],
-    route: "iceland",
-    flags: ["🇮🇸"],
-    caption: {
-      title: "Iceland 🇮🇸",
-      content:
-        "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
-      publishDate: "November 14, 2023",
-    },
-    previewSrc: "https://i.imgur.com/gc32r7Q.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/gc32r7Q.jpeg",
-        src_full: "https://i.imgur.com/gc32r7Q.jpeg",
-        description: "Skógafoss",
-        coordinates: {
-          lat: "63°31'50.50\"N",
-          long: "19°30'46.80\"W",
-          link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Sh8L889.jpeg",
-        src_full: "https://i.imgur.com/Sh8L889.jpeg",
-        description: "Rainbow Street",
-        coordinates: {
-          lat: "64°08'46.30\"N",
-          long: "21°55'58.10\"W",
-          link: "https://www.google.com/maps?q=loc:64.1462,-21.9328",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/rWWtW2p.jpeg",
-        src_full: "https://i.imgur.com/rWWtW2p.jpeg",
-        description: "Hallgrimskirkja",
-        coordinates: {
-          lat: "64°08'33.00\"N",
-          long: "21°55'39.70\"W",
-          link: "https://www.google.com/maps?q=loc:64.1425,-21.9277",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/qSSJdeU.jpeg",
-        src_full: "https://i.imgur.com/qSSJdeU.jpeg",
-        description: "Homes in downtown Reykjavík",
-        coordinates: {
-          lat: "64°08'35.90\"N",
-          long: "21°55'41.90\"W",
-          link: "https://www.google.com/maps?q=loc:64.1433,-21.9283",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/qZWbcAC.jpeg",
-        src_full: "https://i.imgur.com/qZWbcAC.jpeg",
-        description: "Enjoying the Blue Lagoon",
-        coordinates: {
-          lat: "63°52'46.60\"N",
-          long: "22°26'53.90\"W",
-          link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/KAHK5IV.jpeg",
-        src_full: "https://i.imgur.com/KAHK5IV.jpeg",
-        description: "Farm on the drive to Þingvellir National Park",
-        coordinates: {
-          lat: "64°12'05.00\"N",
-          long: "21°28'48.70\"W",
-          link: "https://www.google.com/maps?q=loc:64.2014,-21.4802",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/ls8yOWf.jpeg",
-        src_full: "https://i.imgur.com/ls8yOWf.jpeg",
-        description:
-          "The boundary of the Northern American and Eurarsia tectonic plates",
-        coordinates: {
-          lat: "64°15'20.90\"N",
-          long: "21°07'41.90\"W",
-          link: "https://www.google.com/maps?q=loc:64.2558,-21.1283",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Zs1Cwvw.png",
-        src_full: "https://i.imgur.com/Zs1Cwvw.png",
-        description: "Þingvallakirkja (Þingvellir church)",
-        coordinates: {
-          lat: "64°15'26.30\"N",
-          long: "21°07'16.30\"W",
-          link: "https://www.google.com/maps?q=loc:64.2573,-21.1212",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/QZu7VH4.jpg",
-        src_full: "https://i.imgur.com/QZu7VH4.jpg",
-        description: "Flag of Iceland within Þingvellir",
-        coordinates: {
-          lat: "64°15'36.00\"N",
-          long: "21°07'20.60\"W",
-          link: "https://www.google.com/maps?q=loc:64.26,-21.1224",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/w54QWbm.jpg",
-        src_full: "https://i.imgur.com/w54QWbm.jpg",
-        description: "Gullfoss",
-        coordinates: {
-          lat: "64°19'30.40\"N",
-          long: "20°07'27.10\"W",
-          link: "https://www.google.com/maps?q=loc:64.3251,-20.1242",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/PPkWYXI.jpeg",
-        src_full: "https://i.imgur.com/PPkWYXI.jpeg",
-        description: "Seljalandsfoss",
-        coordinates: {
-          lat: "63°36'55.50\"N",
-          long: "19°59'21.20\"W",
-          link: "https://www.google.com/maps?q=loc:63.615425,-19.9892222",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/1jDhKtn.jpg",
-        src_full: "https://i.imgur.com/1jDhKtn.jpg",
-        description: "Hálsanefshellir Cave",
-        coordinates: {
-          lat: "63°24'10.50\"N",
-          long: "19°02'30.80\"W",
-          link: "https://www.google.com/maps?q=loc:63.4029194,-19.0418917",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/XJQRlOx.jpg",
-        src_full: "https://i.imgur.com/XJQRlOx.jpg",
-        description: "Glipse of the Northern Lights",
-        coordinates: {
-          lat: "64°09'45.30\"N",
-          long: "22°00'49.60\"W",
-          link: "https://www.google.com/maps?q=loc:64.1625833,-22.0137778",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "Croatia 🇭🇷",
-    countryNames: ["Croatia"],
-    route: "croatia",
-    flags: ["🇭🇷"],
-    caption: {
-      title: "Dubrovnik, Croatia 🇭🇷",
-      content:
-        "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
-      publishDate: "November 6, 2023",
-    },
-    previewSrc: "https://i.imgur.com/Ijcx6ld.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/Ijcx6ld.jpeg",
-        src_full: "https://i.imgur.com/Ijcx6ld.jpeg",
-        description: "Dubrovnik Old City Harbor",
-        coordinates: {
-          lat: "42°38'30.60\"N",
-          long: "18°06'44.90\"E",
-          link: "https://www.google.com/maps?q=loc:42.6418194,18.1124667",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/XXNjFjX.jpeg",
-        src_full: "https://i.imgur.com/XXNjFjX.jpeg",
-        description: "Dubrovnik's City Walls",
-        coordinates: {
-          lat: "42°38'31.90\"N",
-          long: "18°06'27.50\"E",
-          link: "https://www.google.com/maps?q=loc:42.6421972,18.1076361",
-        },
-      },
-      // {
-      //   src_720: "https://i.imgur.com/Uem30E0.jpeg",
-      // src_full: "https://i.imgur.com/Uem30E0.jpeg",
-      //
-      //     description: "Dubrovnik from the City Walls",
-      //     coordinates: {
-      //       lat: "42°38'30.10\"N",
-      //       long: "18°06'25.80\"E",
-      //       link: "https://www.google.com/maps?q=loc:42.6416889,18.1071778",
-      //     },
-      //   },
-      // },
-      {
-        src_720: "https://i.imgur.com/OyLQahp.jpeg",
-        src_full: "https://i.imgur.com/OyLQahp.jpeg",
-        description: "Dubrovnik's City Streets",
-        coordinates: {
-          lat: "42°38'28.00\"N",
-          long: "18°06'36.50\"E",
-          link: "https://www.google.com/maps?q=loc:42.6411139,18.1101333",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/2zoFLMG.jpeg",
-        src_full: "https://i.imgur.com/2zoFLMG.jpeg",
-        description: "Fort Lovrijenac",
-        coordinates: {
-          lat: "42°38'27.10\"N",
-          long: "18°06'15.40\"E",
-          link: "https://www.google.com/maps?q=loc:42.6408583,18.1042889",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/kzpkaS8.jpeg",
-        src_full: "https://i.imgur.com/kzpkaS8.jpeg",
-        description: "Dubrovnik West Harbor",
-        coordinates: {
-          lat: "42°38'27.80\"N",
-          long: "18°06'15.30\"E",
-          link: "https://www.google.com/maps?q=loc:42.6410444,18.1042611",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/N59SxOx.png",
-        src_full: "https://i.imgur.com/N59SxOx.png",
-        description:
-          "New friends on top of Mount Srd\n(Lewis 🏴󠁧󠁢󠁳󠁣󠁴󠁿, Elodie 🇲🇺, René 🇺🇸, Karen 🇰🇷)",
-        coordinates: {
-          lat: "42°38'39.40\"N",
-          long: "18°07'17.70\"E",
-          link: "https://www.google.com/maps?q=loc:42.6442861,18.1215694",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/aCbLK3y.png",
-        src_full: "https://i.imgur.com/aCbLK3y.png",
-        description: "Diving at Lokrum Island",
-        coordinates: {
-          lat: "42°37'19.90\"N",
-          long: "18°07'08.80\"E",
-          link: "https://www.google.com/maps?q=loc:42.6222,18.1191",
-        },
-      },
+  // {
+  //   pageTitle: "Iceland 🇮🇸",
+  //   countryNames: ["Iceland"],
+  //   route: "iceland",
+  //   flags: ["🇮🇸"],
+  //   caption: {
+  //     title: "Iceland 🇮🇸",
+  //     content:
+  //       "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
+  //     publishDate: "November 14, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/gc32r7Q.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Skógafoss",
+  //       coordinates: {
+  //         lat: "63°31'50.50\"N",
+  //         long: "19°30'46.80\"W",
+  //         link: "https://www.google.com/maps?q=loc:63.5307,-19.5130056",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Rainbow Street",
+  //       coordinates: {
+  //         lat: "64°08'46.30\"N",
+  //         long: "21°55'58.10\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.1462,-21.9328",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Hallgrimskirkja",
+  //       coordinates: {
+  //         lat: "64°08'33.00\"N",
+  //         long: "21°55'39.70\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.1425,-21.9277",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Homes in downtown Reykjavík",
+  //       coordinates: {
+  //         lat: "64°08'35.90\"N",
+  //         long: "21°55'41.90\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.1433,-21.9283",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Enjoying the Blue Lagoon",
+  //       coordinates: {
+  //         lat: "63°52'46.60\"N",
+  //         long: "22°26'53.90\"W",
+  //         link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Farm on the drive to Þingvellir National Park",
+  //       coordinates: {
+  //         lat: "64°12'05.00\"N",
+  //         long: "21°28'48.70\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.2014,-21.4802",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description:
+  //         "The boundary of the Northern American and Eurarsia tectonic plates",
+  //       coordinates: {
+  //         lat: "64°15'20.90\"N",
+  //         long: "21°07'41.90\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.2558,-21.1283",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Þingvallakirkja (Þingvellir church)",
+  //       coordinates: {
+  //         lat: "64°15'26.30\"N",
+  //         long: "21°07'16.30\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.2573,-21.1212",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Flag of Iceland within Þingvellir",
+  //       coordinates: {
+  //         lat: "64°15'36.00\"N",
+  //         long: "21°07'20.60\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.26,-21.1224",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Gullfoss",
+  //       coordinates: {
+  //         lat: "64°19'30.40\"N",
+  //         long: "20°07'27.10\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.3251,-20.1242",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Seljalandsfoss",
+  //       coordinates: {
+  //         lat: "63°36'55.50\"N",
+  //         long: "19°59'21.20\"W",
+  //         link: "https://www.google.com/maps?q=loc:63.615425,-19.9892222",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Hálsanefshellir Cave",
+  //       coordinates: {
+  //         lat: "63°24'10.50\"N",
+  //         long: "19°02'30.80\"W",
+  //         link: "https://www.google.com/maps?q=loc:63.4029194,-19.0418917",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Glipse of the Northern Lights",
+  //       coordinates: {
+  //         lat: "64°09'45.30\"N",
+  //         long: "22°00'49.60\"W",
+  //         link: "https://www.google.com/maps?q=loc:64.1625833,-22.0137778",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Croatia 🇭🇷",
+  //   countryNames: ["Croatia"],
+  //   route: "croatia",
+  //   flags: ["🇭🇷"],
+  //   caption: {
+  //     title: "Dubrovnik, Croatia 🇭🇷",
+  //     content:
+  //       "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
+  //     publishDate: "November 6, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/Ijcx6ld.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Dubrovnik Old City Harbor",
+  //       coordinates: {
+  //         lat: "42°38'30.60\"N",
+  //         long: "18°06'44.90\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6418194,18.1124667",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Dubrovnik's City Walls",
+  //       coordinates: {
+  //         lat: "42°38'31.90\"N",
+  //         long: "18°06'27.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6421972,18.1076361",
+  //       },
+  //     },
+  //     // {
+  //     //   imgID: "",
+  //     //
+  //     //     description: "Dubrovnik from the City Walls",
+  //     //     coordinates: {
+  //     //       lat: "42°38'30.10\"N",
+  //     //       long: "18°06'25.80\"E",
+  //     //       link: "https://www.google.com/maps?q=loc:42.6416889,18.1071778",
+  //     //     },
+  //     //   },
+  //     // },
+  //     {
+  //       imgID: "",
+  //       description: "Dubrovnik's City Streets",
+  //       coordinates: {
+  //         lat: "42°38'28.00\"N",
+  //         long: "18°06'36.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6411139,18.1101333",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Fort Lovrijenac",
+  //       coordinates: {
+  //         lat: "42°38'27.10\"N",
+  //         long: "18°06'15.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6408583,18.1042889",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Dubrovnik West Harbor",
+  //       coordinates: {
+  //         lat: "42°38'27.80\"N",
+  //         long: "18°06'15.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6410444,18.1042611",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description:
+  //         "New friends on top of Mount Srd\n(Lewis 🏴󠁧󠁢󠁳󠁣󠁴󠁿, Elodie 🇲🇺, René 🇺🇸, Karen 🇰🇷)",
+  //       coordinates: {
+  //         lat: "42°38'39.40\"N",
+  //         long: "18°07'17.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6442861,18.1215694",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Diving at Lokrum Island",
+  //       coordinates: {
+  //         lat: "42°37'19.90\"N",
+  //         long: "18°07'08.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6222,18.1191",
+  //       },
+  //     },
 
-      {
-        src_720: "https://i.imgur.com/S62mrKr.jpeg",
-        src_full: "https://i.imgur.com/S62mrKr.jpeg",
-        description: "Wild Peacock on Lokrum Island",
-        coordinates: {
-          lat: "42°37'42.20\"N",
-          long: "18°07'10.90\"E",
-          link: "https://www.google.com/maps/place/42%C2%B037'42.2%22N+18%C2%B007'10.9%22E/@42.628307,18.1185778,18.5z/data=!4m10!1m5!3m4!2zNDLCsDM3JzQyLjIiTiAxOMKwMDcnMDUuOCJF!8m2!3d42.6283911!4d18.118278!3m3!8m2!3d42.628387!4d18.119705?entry=ttu",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/TYNIZ2h.jpeg",
-        src_full: "https://i.imgur.com/TYNIZ2h.jpeg",
-        description: "All the friends I made in Dubrovnik",
-        coordinates: {
-          lat: "42°37'23.50\"N",
-          long: "18°07'10.60\"E",
-          link: "https://www.google.com/maps?q=loc:42.6232,18.1196",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/iRUjufO.jpeg",
-        src_full: "https://i.imgur.com/iRUjufO.jpeg",
-        description: "All the friends I made in Dubrovnik",
-        coordinates: {
-          lat: "42°37'23.50\"N",
-          long: "18°07'10.60\"E",
-          link: "https://www.google.com/maps?q=loc:42.6232,18.1196",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/RvSK60a.png",
-        src_full: "https://i.imgur.com/RvSK60a.png",
-        description:
-          "The Path of Paradise\n(Valentine 🇩🇪, Franzi 🇩🇪, Elodie 🇲🇺, René 🇺🇸, Adele 🇺🇸, Karen 🇰🇷)",
-        coordinates: {
-          lat: "42°37'30.00\"N",
-          long: "18°07'12.10\"E",
-          link: "https://maps.app.goo.gl/YdFPVSAbD8TBb84r5",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "Greece 🇬🇷",
-    countryNames: ["Greece"],
-    route: "greece",
-    flags: ["🇬🇷"],
-    caption: {
-      title: "Athens | Mykonos | Santorini, Greece 🇬🇷",
-      content:
-        "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with my S.O. beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
-      publishDate: "October 24, 2023",
-    },
-    previewSrc: "https://i.imgur.com/P29yYVI.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/P29yYVI.jpeg",
-        src_full: "https://i.imgur.com/P29yYVI.jpeg",
-        description: "Οία, Santorini",
-        coordinates: {
-          lat: "36°27'40.90\"N",
-          long: "25°22'33.70\"E",
-          link: "https://www.google.com/maps?q=loc:36.4613583,25.3760361",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/t5lH8iP.jpeg",
-        src_full: "https://i.imgur.com/t5lH8iP.jpeg",
-        description: "The Parthenon",
-        coordinates: {
-          lat: "37°58'18.90\"N",
-          long: "23°43'38.00\"E",
-          link: "https://www.google.com/maps?q=loc:37.971925,23.7272333",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/94MOuDB.png",
-        src_full: "https://i.imgur.com/94MOuDB.png",
-        description: "The Parthenon",
-        coordinates: {
-          lat: "37°58'18.90\"N",
-          long: "23°43'38.00\"E",
-          link: "https://www.google.com/maps?q=loc:37.971925,23.7272333",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/yz4Dy0z.jpeg",
-        src_full: "https://i.imgur.com/yz4Dy0z.jpeg",
-        description: "The Erechtheion",
-        coordinates: {
-          lat: "37°58'19.10\"N",
-          long: "23°43'35.90\"E",
-          link: "https://www.google.com/maps?q=loc:37.9719611,23.7266472",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/aFJMKAq.jpeg",
-        src_full: "https://i.imgur.com/aFJMKAq.jpeg",
-        description: "Stoa of Attalos Exterior",
-        coordinates: {
-          lat: "37°58'29.10\"N",
-          long: "23°43'26.60\"E",
-          link: "https://www.google.com/maps?q=loc:37.9747556,23.7240472",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/ReIymQ6.jpeg",
-        src_full: "https://i.imgur.com/ReIymQ6.jpeg",
-        description: "Stoa of Attalos Interior",
-        coordinates: {
-          lat: "37°59'22.00\"N",
-          long: "23°43'57.80\"E",
-          link: "https://www.google.com/maps?q=loc:37.9755389,23.7240861",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/MPb8cYs.jpeg",
-        src_full: "https://i.imgur.com/MPb8cYs.jpeg",
-        description: "Artemision Bronze",
-        coordinates: {
-          lat: "37°59'22.00\"N",
-          long: "23°43'57.80\"E",
-          link: "https://www.google.com/maps?q=loc:37.9894333,23.7327222",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/pKPpo8U.jpg",
-        src_full: "https://i.imgur.com/pKPpo8U.jpg",
-        description: "Alefkandra (Little Venice)",
-        coordinates: {
-          lat: "37°26'40.10\"N",
-          long: "25°19'29.20\"E",
-          link: "https://www.google.com/maps?q=loc:37.4444778,25.3247806",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/zVlcl0m.jpg",
-        src_full: "https://i.imgur.com/zVlcl0m.jpg",
-        description: "Windmills of Mykonos",
-        coordinates: {
-          lat: "37°26'40.80\"N",
-          long: "25°19'33.40\"E",
-          link: "https://www.google.com/maps?q=loc:37.4446722,25.3259472",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/6m56LZE.png",
-        src_full: "https://i.imgur.com/6m56LZE.png",
-        description: "Santorini Bells",
-        coordinates: {
-          lat: "36°27'40.80\"N",
-          long: "25°22'33.80\"E",
-          link: "https://www.google.com/maps?q=loc:36.4613333,25.3760667",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/qcn7nEm.jpg",
-        src_full: "https://i.imgur.com/qcn7nEm.jpg",
-        description: "Santorini Sunset",
-        coordinates: {
-          lat: "36°27'41.00\"N",
-          long: "25°22'33.60\"E",
-          link: "https://www.google.com/maps?q=loc:36.4613778,25.3759944",
-        },
-      },
-      // {
-      //   src_720: "https://i.imgur.com/8F29dUq.png",
-      //   src_full: "https://i.imgur.com/8F29dUq.png",
-      //
-      //     description: "Full moon over Οία",
-      //     coordinates: {
-      //       lat: "36°27'37.00\"N",
-      //       long: "25°22'23.20\"E",
-      //       link: "https://www.google.com/maps?q=loc:36.4602667,25.3731194",
-      //     },
-      //   },
-      // },
-      {
-        src_720: "https://i.imgur.com/6Ngl1kv.jpg",
-        src_full: "https://i.imgur.com/6Ngl1kv.jpg",
-        description: "Boat tour around Santorini",
-        coordinates: {
-          lat: "36°20'49.50\"N",
-          long: "25°23'27.50\"E",
-          link: "https://www.google.com/maps?q=loc:36.3470806,25.3909778",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "Turkey 🇹🇷",
-    countryNames: ["Turkey"],
-    route: "turkey",
-    flags: ["🇹🇷"],
-    caption: {
-      title: "İstanbul, Turkey 🇹🇷",
-      content:
-        "Where East meets West! İstanbul felt like such a fitting city to visit while I transitioned from Asia to Europe! It is literally the meeting point between the two continents after all! Not only is İstanbul the largest city in all of Europe, but it also used to be the capital of the Roman Empire, Constantinople! It felt so wonderful to be back in Europe after traveling to so many other unique places in the world. I had been looking forward to this stop for a while and I'm happy that İstanbul didn't disappoint!\nThe thing I'll cherish most about my time here is the beauty of the city itself. When I first exited the metro line from the airport, my jaw dropped because of said beauty. The entire city is filled to the brim with GIGANTIC symmetrical mosques which (when you come from the USA) are extremely fascinating and unique! Virtually everywhere you go, you’ll see breathtaking views because of them. Each lookout point features hills filled with countless numbers of houses, tall spired minarets, and gigantic red and white Turkish flags waving proudly in the air! I tended to lose track of time whenever I stopped to take it all in.\nI had some ambitious day trips planned while I was here in Turkey. However, once I realized the sheer size of the entire city, I knew that those trips would have to be sidelined for a future visit. I heard road trips around the entirety of the country are fantastic! Something to look forward to during a future visit!",
-      publishDate: "October 18, 2023",
-    },
-    previewSrc: "https://i.imgur.com/V39K31T.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/V39K31T.jpeg",
-        src_full: "https://i.imgur.com/V39K31T.jpeg",
-        description: "Büyük Mecidiye Mosuqe and the Bosphorus Bridge",
-        coordinates: {
-          lat: "41°02'50.60\"N",
-          long: "29°01'32.50\"E",
-          link: "https://www.google.com/maps?q=loc:41.0474,29.0257",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/hpCyQVk.jpeg",
-        src_full: "https://i.imgur.com/hpCyQVk.jpeg",
-        description: "Hagia Sofia",
-        coordinates: {
-          lat: "41°00'24.70\"N",
-          long: "28°58'40.70\"E",
-          link: "https://www.google.com/maps?q=loc:41.0068694,28.9779611",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/afiBBnc.png",
-        src_full: "https://i.imgur.com/afiBBnc.png",
-        description: "Hagia Sofia",
-        coordinates: {
-          lat: "41°00'24.90\"N",
-          long: "28°58'41.50\"E",
-          link: "https://www.google.com/maps?q=loc:41.0069278,28.9781806",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/AteReDj.jpeg",
-        src_full: "https://i.imgur.com/AteReDj.jpeg",
-        description: "Interior of Hagia Sofia",
-        coordinates: {
-          lat: "41°00'30.30\"N",
-          long: "28°58'48.00\"E",
-          link: "https://www.google.com/maps?q=loc:41.0084278,28.9799972",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/G6ZIaVs.jpeg",
-        src_full: "https://i.imgur.com/G6ZIaVs.jpeg",
-        description: "Blue Mosque at night",
-        coordinates: {
-          lat: "41°00'23.60\"N",
-          long: "28°58'41.40\"E",
-          link: "https://www.google.com/maps?q=loc:41.0065472,28.9781778",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Pam3oBL.jpeg",
-        src_full: "https://i.imgur.com/Pam3oBL.jpeg",
-        description: "Grand Bazaar",
-        coordinates: {
-          lat: "41°00'37.10\"N",
-          long: "28°58'04.80\"E",
-          link: "https://www.google.com/maps?q=loc:41.0103,28.968",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/X2j7d4s.jpeg",
-        src_full: "https://i.imgur.com/X2j7d4s.jpeg",
-        description: "Topkapi Palace",
-        coordinates: {
-          lat: "41°00'39.20\"N",
-          long: "28°58'58.70\"E",
-          link: "https://www.google.com/maps?q=loc:41.0108806,28.9829611",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/uoyk46k.jpeg",
-        src_full: "https://i.imgur.com/uoyk46k.jpeg",
-        description: "Bosphorus from Topkapi Palace",
-        coordinates: {
-          lat: "41°00'50.20\"N",
-          long: "28°59'09.30\"E",
-          link: "https://www.google.com/maps?q=loc:41.0139389,28.985925",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/6Vmg5Mn.png",
-        src_full: "https://i.imgur.com/6Vmg5Mn.png",
-        description: "Galata Bridge hustle and bustle",
-        coordinates: {
-          lat: "41°01'05.20\"N",
-          long: "28°58'21.40\"E",
-          link: "https://www.google.com/maps?q=loc:41.0181,28.9726",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/74oCxgM.png",
-        src_full: "https://i.imgur.com/74oCxgM.png",
-        description: "Old Town İstanbul",
-        coordinates: {
-          lat: "41°00'50.20\"N",
-          long: "28°59'09.30\"E",
-          link: "https://www.google.com/maps?q=loc:41.0222,28.9705",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/wM8k01G.png",
-        src_full: "https://i.imgur.com/wM8k01G.png",
-        description: "Old Town İstanbul",
-        coordinates: {
-          lat: "41°00'50.20\"N",
-          long: "28°59'09.30\"E",
-          link: "https://www.google.com/maps?q=loc:41.0222,28.9705",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/lbCcB9D.jpeg",
-        src_full: "https://i.imgur.com/lbCcB9D.jpeg",
-        description: "Galata Tower",
-        coordinates: {
-          lat: "41°01'38.60\"N",
-          long: "28°58'19.60\"E",
-          link: "https://www.google.com/maps?q=loc:41.0274,28.9721",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/zcT86yf.jpeg",
-        src_full: "https://i.imgur.com/zcT86yf.jpeg",
-        description: "Tram on İstiklal Avenue",
-        coordinates: {
-          lat: "41°02'05.60\"N",
-          long: "28°58'49.80\"E",
-          link: "https://www.google.com/maps?q=loc:41.0349,28.9805",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/YcjgOmv.jpeg",
-        src_full: "https://i.imgur.com/YcjgOmv.jpeg",
-        description: "Basilica Cistern",
-        coordinates: {
-          lat: "41°00'31.50\"N",
-          long: "28°58'42.80\"E",
-          link: "https://www.google.com/maps?q=loc:41.0087389,28.9785472",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "Egypt 🇪🇬",
-    countryNames: ["Egypt"],
-    route: "egypt",
-    flags: ["🇪🇬"],
-    caption: {
-      title: "Cairo | Luxor, Egypt 🇪🇬",
-      content:
-        "The legendary and iconic Egypt! It was an absolute treat to finally experience the wonders of ancient Egypt and more! Egypt was another one of the countries my dad visited during his youth and always praised so much while my sister and I were growing up. There was a magnet of the pyramids on our fridge which after looking at it almost every day during my childhood, subtly pushed me to go and see them for myself. Now, I’m finally here!\nEgypt was the first country where I hired a private guide! I wanted to treat myself to absorbing as much history as I possibly could and I’m happy I did so with Egyptologist Ahmed. He made site-seeing engaging, intriguing, and effortless. I learned more than I would’ve ever done solo or with a group. It was the deluxe Egypt experience! I did make sure to have an extra day at the pyramids just to roam around by myself though. It was funny having all the hustlers trying to sell me a camel ride only to see them turn around disappointed once I showed them my photo. All part of the fun 😉\nWhile I was a tourist in the morning, I was a local by night. My new friend Abdula and I got acquainted through a mutual friend and I feel extremely lucky that our fates intertwined. He knew the best spots for hanging out, kicking back, and experiencing life like a modern Egyptian. I felt so much love and gratitude wherever we went due to his outgoing personality and extreme passion for making his guests feel at home. I urge everyone to come to Egypt so that they can experience the same.\nشكران Egypt!! You are easily one of the greats, and will continue to be for many centuries to come!",
-      publishDate: "October 9, 2023",
-    },
-    previewSrc: "https://i.imgur.com/C22H18M.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/C22H18M.jpeg",
-        src_full: "https://i.imgur.com/C22H18M.jpeg",
-        description: "Pyramids of Giza",
-        coordinates: {
-          lat: "29°58'04.80\"N",
-          long: "31°07'29.60\"E",
-          link: "https://www.google.com/maps?q=loc:29.968,31.1249",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/1qhoa7J.jpeg",
-        src_full: "https://i.imgur.com/1qhoa7J.jpeg",
-        description: "Smiling in front of the pyramids",
-        coordinates: {
-          lat: "29°58'18.50\"N",
-          long: "31°07'15.20\"E",
-          link: "https://www.google.com/maps?q=loc:29.9718,31.1209",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/RAwmlOV.jpeg",
-        src_full: "https://i.imgur.com/RAwmlOV.jpeg",
-        description: "Chandler on a camel in Egypt",
-        coordinates: {
-          lat: "29°58'04.70\"N",
-          long: "31°07'29.50\"E",
-          link: "https://www.google.com/maps?q=loc:29.9679639,31.1248694",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/uy3o6Ta.png",
-        src_full: "https://i.imgur.com/uy3o6Ta.png",
-        description: "Dad on a camel in Egypt",
-        coordinates: {
-          lat: "29°58'48.90\"N",
-          long: "31°08'07.20\"E",
-          link: "https://www.google.com/maps/place/29%C2%B058'48.9%22N+31%C2%B008'07.2%22E/@29.9802614,31.1339412,17z/data=!3m1!4b1!4m4!3m3!8m2!3d29.9802589!4d31.1353452?entry=ttu",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/YXVvuL2.jpeg",
-        src_full: "https://i.imgur.com/YXVvuL2.jpeg",
-        description: "Great Sphinx of Giza",
-        coordinates: {
-          lat: "29°58'30.20\"N",
-          long: "31°08'16.30\"E",
-          link: "https://www.google.com/maps?q=loc:29.9750639,31.1378694",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/iOsQsjN.png",
-        src_full: "https://i.imgur.com/iOsQsjN.png",
-        description: "Mosque of Muhammad Ali from Al-Azhar Park",
-        coordinates: {
-          lat: "30°02'18.80\"N",
-          long: "31°15'44.40\"E",
-          link: "https://www.google.com/maps?q=loc:30.0385528,31.2623417",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/zSU3jUn.jpeg",
-        src_full: "https://i.imgur.com/zSU3jUn.jpeg",
-        description: "Mosque of Muhammad Ali",
-        coordinates: {
-          lat: "30°01'41.20\"N",
-          long: "31°15'36.70\"E",
-          link: "https://www.google.com/maps?q=loc:30.0281,31.2602",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/U604zmL.jpeg",
-        src_full: "https://i.imgur.com/U604zmL.jpeg",
-        description: "Khan el-Khalili",
-        coordinates: {
-          lat: "30°02'49.60\"N",
-          long: "31°15'42.50\"E",
-          link: "https://www.google.com/maps?q=loc:30.0471,31.2618",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/k1RwdBn.jpeg",
-        src_full: "https://i.imgur.com/k1RwdBn.jpeg",
-        description: "Khan el-Khalili at night",
-        coordinates: {
-          lat: "30°02'50.30\"N",
-          long: "31°15'43.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.0473,31.2621",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/iPTkDu2.jpeg",
-        src_full: "https://i.imgur.com/iPTkDu2.jpeg",
-        description: "Coffee shop with Abdula",
-        coordinates: {
-          lat: "30°02'59.60\"N",
-          long: "31°15'40.70\"E",
-          link: "https://www.google.com/maps?q=loc:30.0499,31.2613",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/OykjDq8.jpeg",
-        src_full: "https://i.imgur.com/OykjDq8.jpeg",
-        description: "Boating on the Nile",
-        coordinates: {
-          lat: "30°03'50.00\"N",
-          long: "31°13'32.50\"E",
-          link: "https://www.google.com/maps?q=loc:30.0639,31.2257",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/3iCz70w.jpeg",
-        src_full: "https://i.imgur.com/3iCz70w.jpeg",
-        description: "Valley of the Kings Hieroglyphs",
-        coordinates: {
-          lat: "25°44'33.70\"N",
-          long: "32°36'11.20\"E",
-          link: "https://www.google.com/maps?q=loc:25.7427,32.6031",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/dDhrFpx.jpeg",
-        src_full: "https://i.imgur.com/dDhrFpx.jpeg",
-        description: "Mortuary Temple of Hatshepsut",
-        coordinates: {
-          lat: "25°44'15.40\"N",
-          long: "32°36'29.50\"E",
-          link: "https://www.google.com/maps?q=loc:25.7376,32.6082",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/DEHia1N.jpeg",
-        src_full: "https://i.imgur.com/DEHia1N.jpeg",
-        description: "Karnak Temple",
-        coordinates: {
-          lat: "25°43'06.60\"N",
-          long: "32°39'28.40\"E",
-          link: "https://www.google.com/maps?q=loc:25.7185,32.6579",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/nzvVwGf.jpeg",
-        src_full: "https://i.imgur.com/nzvVwGf.jpeg",
-        description: "Luxor Temple",
-        coordinates: {
-          lat: "25°42'00.40\"N",
-          long: "32°38'21.50\"E",
-          link: "https://www.google.com/maps?q=loc:25.7001,32.6393",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "Jordan 🇯🇴",
-    countryNames: ["Jordan"],
-    route: "jordan",
-    flags: ["🇯🇴"],
-    caption: {
-      title: "Jordan 🇯🇴",
-      content:
-        "A quick trip to Jordan to see another new wonder of the world, Petra! The entirety of Petra was astounding. When I veered around the corner from Al-Sīq (the canyon that leads you into Petra) and saw Al-Khazneh (The Treasury) for the first time, I was brought to the verge of tears. It’s not just a building carved into the side of a mountain; it's a gigantic, hand-crafted architectural and engineering masterpiece—a true work of art!\nThis was one of the few times I opted for a fully guided tour from start to finish. I was picked up directly from my hostel in Jerusalem, crossed the Palestinian border (visa process included), and enjoyed an air-conditioned bus ride to a fully facilitated desert camp right outside Petra. Usually, I prefer handling everything myself (transit, tickets, lodging), but this tour made more sense financially and logistically. Having a guide to explain the history, point out minute details, and teach us how to haggle for a camel ride was invaluable!\nI learned that Petra is a vast archaeological site where the Nabteans (an ancient Arab people) had their trading hub. It’s filled with large sandstone cliffs that were hand-carved top to bottom in the style of the Greeks and Romans. There was no room for mistakes when they made these colossal structures since any slip-up would’ve resulted in the entire project being ruined. Perfectionism at its finest!\nI feel like I could’ve spent at least another day or two exploring more of Petra. Having some more days for Amman would’ve been nice too but that will all need to be saved for another trip. Despite my short amount of time in Jordan, I am extremely happy I made the effort to go to Petra. It was spectacular and gave me the same feelings of awe, excitement, gratitude, and happiness that every other wonder of the world does. Everyone must go see it in their lifetime!",
-      publishDate: "October 3, 2023",
-    },
-    previewSrc: "https://i.imgur.com/s8UC95v.jpeg",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/s8UC95v.jpeg",
-        src_full: "https://i.imgur.com/s8UC95v.jpeg",
-        description: "Al-Khazneh (The Treasury)",
-        coordinates: {
-          lat: "30°19'19.90\"N",
-          long: "35°27'05.80\"E",
-          link: "https://www.google.com/maps?q=loc:30.3222,35.4516",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/eTyAY2u.jpeg",
-        src_full: "https://i.imgur.com/eTyAY2u.jpeg",
-        description: "Al-Sīq",
-        coordinates: {
-          lat: "30°19'38.30\"N",
-          long: "35°27'15.80\"E",
-          link: "https://www.google.com/maps?q=loc:30.3273,35.4544",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/gQOpVgI.jpeg",
-        src_full: "https://i.imgur.com/gQOpVgI.jpeg",
-        description: "Al-Khazneh (The Treasury)",
-        coordinates: {
-          lat: "30°19'19.90\"N",
-          long: "35°27'05.80\"E",
-          link: "https://www.google.com/maps?q=loc:30.3222,35.4516",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/0akQJZe.jpeg",
-        src_full: "https://i.imgur.com/0akQJZe.jpeg",
-        description: "Al-Khazneh (The Treasury)",
-        coordinates: {
-          lat: "30°19'20.80\"N",
-          long: "35°27'06.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.3224333,35.4518306",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Xg5vtnX.jpeg",
-        src_full: "https://i.imgur.com/Xg5vtnX.jpeg",
-        description: "Ed-Deir (The Monastery)",
-        coordinates: {
-          lat: "30°20'16.40\"N",
-          long: "35°25'49.40\"E",
-          link: "https://www.google.com/maps?q=loc:30.3379,35.4304",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/ZpsX3BV.jpeg",
-        src_full: "https://i.imgur.com/ZpsX3BV.jpeg",
-        description: "Ed-Deir (The Monastery)",
-        coordinates: {
-          lat: "30°20'16.60\"N",
-          long: "35°25'49.50\"E",
-          link: "https://www.google.com/maps?q=loc:30.3379306,35.4304194",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/IuhMqBG.jpeg",
-        src_full: "https://i.imgur.com/IuhMqBG.jpeg",
-        description: "Camel",
-        coordinates: {
-          lat: "30°19'33.60\"N",
-          long: "35°26'50.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.326,35.4474",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/hep7ZiP.jpeg",
-        src_full: "https://i.imgur.com/hep7ZiP.jpeg",
-        description: "First camel ride (James 🇬🇧 on the right)",
-        coordinates: {
-          lat: "30°19'33.60\"N",
-          long: "35°26'50.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.326,35.4474",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/v7vEnpC.png",
-        src_full: "https://i.imgur.com/v7vEnpC.png",
-        description: "Camel ride in Petra",
-        coordinates: {
-          lat: "30°19'44.80\"N",
-          long: "35°26'32.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.3291,35.4424",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/OEIPmtC.jpeg",
-        src_full: "https://i.imgur.com/OEIPmtC.jpeg",
-        description: "Camel in front of The Treasury with James 🇬🇧",
-        coordinates: {
-          lat: "30°19'44.80\"N",
-          long: "35°26'32.60\"E",
-          link: "https://www.google.com/maps?q=loc:30.3224861,35.4516333",
-        },
-      },
-      // {
-      //   src_720: "https://i.imgur.com/ITMNRMr.jpeg",
-      // src_full: "https://i.imgur.com/ITMNRMr.jpeg",
-      //
-      //     description: "Al-Khazneh (The Treasury), Petra",
-      //     coordinates: {
-      //       lat: "30°19'21.00\"N",
-      //       long: "35°27'05.90\"E",
-      //       link: "https://www.google.com/maps?q=loc:30.3224861,35.4516333",
-      //     },
-      //   },
-      // },
-    ],
-  },
-  {
-    pageTitle: "Israel 🇮🇱 / Palestine 🇵🇸",
-    countryNames: ["Israel", "Palestine"],
-    route: "israel-palestine",
-    flags: ["🇮🇱", "🇵🇸"],
-    caption: {
-      title: "Tel Aviv, Israel 🇮🇱  + Jerusalem, Israel 🇮🇱 / Palestine 🇵🇸",
-      content:
-        "The first stop in the Middle East! Israel seemed like the perfect place to recoup after traveling for a month straight, and I guess I proved myself right! This stop was part reset, part history lesson. It marked the halfway point of my worldwide trip, so it was nice to be in a place that felt familiar yet unique.\nWhile Tel Aviv is known for its modernity and fun atmosphere, I was more interested in seeing Jerusalem - the meeting point of three major religions and cultures. When you explore the old town of Jerusalem, you see the essence of maintaining the status quo. There’s understanding and mutual respect between the Christians, Jews, and Muslims who are all living, working, and worshiping within a very small area. \nStanding in the places that are revered by so many people throughout the world made me feel empathetic and thankful that these places are open for devout pilgrims, casual believers, and curious onlookers to come and see with their own eyes. I know there’s a lot of contention in this part of the world right now, but in this particular space at this particular time, there is peace and I think that’s worth seeing and celebrating.",
-      publishDate: "September 25, 2023",
-    },
-    previewSrc: "https://i.imgur.com/rYQQtXN.png",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/rYQQtXN.png",
-        src_full: "https://i.imgur.com/rYQQtXN.png",
-        description: "Dome of the Rock",
-        coordinates: {
-          lat: "31°46'35.20\"N",
-          long: "35°13'59.50\"E",
-          link: "https://www.google.com/maps?q=loc:31.7764444,35.2331917",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/uL0fvtH.jpeg",
-        src_full: "https://i.imgur.com/uL0fvtH.jpeg",
-        description: "Jaffa",
-        coordinates: {
-          lat: "32°03'15.80\"N",
-          long: "34°45'00.00\"E",
-          link: "https://www.google.com/maps?q=loc:32.0544,34.75",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/9tNu5uu.jpeg",
-        src_full: "https://i.imgur.com/9tNu5uu.jpeg",
-        description: "Yarkon Park",
-        coordinates: {
-          lat: "32°05'54.20\"N",
-          long: "34°48'33.80\"E",
-          link: "https://www.google.com/maps?q=loc:32.0984,34.8094",
-        },
-      },
+  //     {
+  //       imgID: "",
+  //       description: "Wild Peacock on Lokrum Island",
+  //       coordinates: {
+  //         lat: "42°37'42.20\"N",
+  //         long: "18°07'10.90\"E",
+  //         link: "https://www.google.com/maps/place/42%C2%B037'42.2%22N+18%C2%B007'10.9%22E/@42.628307,18.1185778,18.5z/data=!4m10!1m5!3m4!2zNDLCsDM3JzQyLjIiTiAxOMKwMDcnMDUuOCJF!8m2!3d42.6283911!4d18.118278!3m3!8m2!3d42.628387!4d18.119705?entry=ttu",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "All the friends I made in Dubrovnik",
+  //       coordinates: {
+  //         lat: "42°37'23.50\"N",
+  //         long: "18°07'10.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6232,18.1196",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "All the friends I made in Dubrovnik",
+  //       coordinates: {
+  //         lat: "42°37'23.50\"N",
+  //         long: "18°07'10.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:42.6232,18.1196",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description:
+  //         "The Path of Paradise\n(Valentine 🇩🇪, Franzi 🇩🇪, Elodie 🇲🇺, René 🇺🇸, Adele 🇺🇸, Karen 🇰🇷)",
+  //       coordinates: {
+  //         lat: "42°37'30.00\"N",
+  //         long: "18°07'12.10\"E",
+  //         link: "https://maps.app.goo.gl/YdFPVSAbD8TBb84r5",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Greece 🇬🇷",
+  //   countryNames: ["Greece"],
+  //   route: "greece",
+  //   flags: ["🇬🇷"],
+  //   caption: {
+  //     title: "Athens | Mykonos | Santorini, Greece 🇬🇷",
+  //     content:
+  //       "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with my S.O. beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
+  //     publishDate: "October 24, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/P29yYVI.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Οία, Santorini",
+  //       coordinates: {
+  //         lat: "36°27'40.90\"N",
+  //         long: "25°22'33.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:36.4613583,25.3760361",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "The Parthenon",
+  //       coordinates: {
+  //         lat: "37°58'18.90\"N",
+  //         long: "23°43'38.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.971925,23.7272333",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "The Parthenon",
+  //       coordinates: {
+  //         lat: "37°58'18.90\"N",
+  //         long: "23°43'38.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.971925,23.7272333",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "The Erechtheion",
+  //       coordinates: {
+  //         lat: "37°58'19.10\"N",
+  //         long: "23°43'35.90\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.9719611,23.7266472",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Stoa of Attalos Exterior",
+  //       coordinates: {
+  //         lat: "37°58'29.10\"N",
+  //         long: "23°43'26.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.9747556,23.7240472",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Stoa of Attalos Interior",
+  //       coordinates: {
+  //         lat: "37°59'22.00\"N",
+  //         long: "23°43'57.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.9755389,23.7240861",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Artemision Bronze",
+  //       coordinates: {
+  //         lat: "37°59'22.00\"N",
+  //         long: "23°43'57.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.9894333,23.7327222",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Alefkandra (Little Venice)",
+  //       coordinates: {
+  //         lat: "37°26'40.10\"N",
+  //         long: "25°19'29.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.4444778,25.3247806",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Windmills of Mykonos",
+  //       coordinates: {
+  //         lat: "37°26'40.80\"N",
+  //         long: "25°19'33.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:37.4446722,25.3259472",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Santorini Bells",
+  //       coordinates: {
+  //         lat: "36°27'40.80\"N",
+  //         long: "25°22'33.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:36.4613333,25.3760667",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Santorini Sunset",
+  //       coordinates: {
+  //         lat: "36°27'41.00\"N",
+  //         long: "25°22'33.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:36.4613778,25.3759944",
+  //       },
+  //     },
+  //     // {
+  //     //   imgID: "",
+  //     //
+  //     //     description: "Full moon over Οία",
+  //     //     coordinates: {
+  //     //       lat: "36°27'37.00\"N",
+  //     //       long: "25°22'23.20\"E",
+  //     //       link: "https://www.google.com/maps?q=loc:36.4602667,25.3731194",
+  //     //     },
+  //     //   },
+  //     // },
+  //     {
+  //       imgID: "",
+  //       description: "Boat tour around Santorini",
+  //       coordinates: {
+  //         lat: "36°20'49.50\"N",
+  //         long: "25°23'27.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:36.3470806,25.3909778",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Turkey 🇹🇷",
+  //   countryNames: ["Turkey"],
+  //   route: "turkey",
+  //   flags: ["🇹🇷"],
+  //   caption: {
+  //     title: "İstanbul, Turkey 🇹🇷",
+  //     content:
+  //       "Where East meets West! İstanbul felt like such a fitting city to visit while I transitioned from Asia to Europe! It is literally the meeting point between the two continents after all! Not only is İstanbul the largest city in all of Europe, but it also used to be the capital of the Roman Empire, Constantinople! It felt so wonderful to be back in Europe after traveling to so many other unique places in the world. I had been looking forward to this stop for a while and I'm happy that İstanbul didn't disappoint!\nThe thing I'll cherish most about my time here is the beauty of the city itself. When I first exited the metro line from the airport, my jaw dropped because of said beauty. The entire city is filled to the brim with GIGANTIC symmetrical mosques which (when you come from the USA) are extremely fascinating and unique! Virtually everywhere you go, you’ll see breathtaking views because of them. Each lookout point features hills filled with countless numbers of houses, tall spired minarets, and gigantic red and white Turkish flags waving proudly in the air! I tended to lose track of time whenever I stopped to take it all in.\nI had some ambitious day trips planned while I was here in Turkey. However, once I realized the sheer size of the entire city, I knew that those trips would have to be sidelined for a future visit. I heard road trips around the entirety of the country are fantastic! Something to look forward to during a future visit!",
+  //     publishDate: "October 18, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/V39K31T.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Büyük Mecidiye Mosuqe and the Bosphorus Bridge",
+  //       coordinates: {
+  //         lat: "41°02'50.60\"N",
+  //         long: "29°01'32.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0474,29.0257",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Hagia Sofia",
+  //       coordinates: {
+  //         lat: "41°00'24.70\"N",
+  //         long: "28°58'40.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0068694,28.9779611",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Hagia Sofia",
+  //       coordinates: {
+  //         lat: "41°00'24.90\"N",
+  //         long: "28°58'41.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0069278,28.9781806",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Interior of Hagia Sofia",
+  //       coordinates: {
+  //         lat: "41°00'30.30\"N",
+  //         long: "28°58'48.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0084278,28.9799972",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Blue Mosque at night",
+  //       coordinates: {
+  //         lat: "41°00'23.60\"N",
+  //         long: "28°58'41.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0065472,28.9781778",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Grand Bazaar",
+  //       coordinates: {
+  //         lat: "41°00'37.10\"N",
+  //         long: "28°58'04.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0103,28.968",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Topkapi Palace",
+  //       coordinates: {
+  //         lat: "41°00'39.20\"N",
+  //         long: "28°58'58.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0108806,28.9829611",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Bosphorus from Topkapi Palace",
+  //       coordinates: {
+  //         lat: "41°00'50.20\"N",
+  //         long: "28°59'09.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0139389,28.985925",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Galata Bridge hustle and bustle",
+  //       coordinates: {
+  //         lat: "41°01'05.20\"N",
+  //         long: "28°58'21.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0181,28.9726",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Old Town İstanbul",
+  //       coordinates: {
+  //         lat: "41°00'50.20\"N",
+  //         long: "28°59'09.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0222,28.9705",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Old Town İstanbul",
+  //       coordinates: {
+  //         lat: "41°00'50.20\"N",
+  //         long: "28°59'09.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0222,28.9705",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Galata Tower",
+  //       coordinates: {
+  //         lat: "41°01'38.60\"N",
+  //         long: "28°58'19.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0274,28.9721",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Tram on İstiklal Avenue",
+  //       coordinates: {
+  //         lat: "41°02'05.60\"N",
+  //         long: "28°58'49.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0349,28.9805",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Basilica Cistern",
+  //       coordinates: {
+  //         lat: "41°00'31.50\"N",
+  //         long: "28°58'42.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:41.0087389,28.9785472",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Egypt 🇪🇬",
+  //   countryNames: ["Egypt"],
+  //   route: "egypt",
+  //   flags: ["🇪🇬"],
+  //   caption: {
+  //     title: "Cairo | Luxor, Egypt 🇪🇬",
+  //     content:
+  //       "The legendary and iconic Egypt! It was an absolute treat to finally experience the wonders of ancient Egypt and more! Egypt was another one of the countries my dad visited during his youth and always praised so much while my sister and I were growing up. There was a magnet of the pyramids on our fridge which after looking at it almost every day during my childhood, subtly pushed me to go and see them for myself. Now, I’m finally here!\nEgypt was the first country where I hired a private guide! I wanted to treat myself to absorbing as much history as I possibly could and I’m happy I did so with Egyptologist Ahmed. He made site-seeing engaging, intriguing, and effortless. I learned more than I would’ve ever done solo or with a group. It was the deluxe Egypt experience! I did make sure to have an extra day at the pyramids just to roam around by myself though. It was funny having all the hustlers trying to sell me a camel ride only to see them turn around disappointed once I showed them my photo. All part of the fun 😉\nWhile I was a tourist in the morning, I was a local by night. My new friend Abdula and I got acquainted through a mutual friend and I feel extremely lucky that our fates intertwined. He knew the best spots for hanging out, kicking back, and experiencing life like a modern Egyptian. I felt so much love and gratitude wherever we went due to his outgoing personality and extreme passion for making his guests feel at home. I urge everyone to come to Egypt so that they can experience the same.\nشكران Egypt!! You are easily one of the greats, and will continue to be for many centuries to come!",
+  //     publishDate: "October 9, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/C22H18M.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Pyramids of Giza",
+  //       coordinates: {
+  //         lat: "29°58'04.80\"N",
+  //         long: "31°07'29.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:29.968,31.1249",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Smiling in front of the pyramids",
+  //       coordinates: {
+  //         lat: "29°58'18.50\"N",
+  //         long: "31°07'15.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:29.9718,31.1209",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Chandler on a camel in Egypt",
+  //       coordinates: {
+  //         lat: "29°58'04.70\"N",
+  //         long: "31°07'29.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:29.9679639,31.1248694",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Dad on a camel in Egypt",
+  //       coordinates: {
+  //         lat: "29°58'48.90\"N",
+  //         long: "31°08'07.20\"E",
+  //         link: "https://www.google.com/maps/place/29%C2%B058'48.9%22N+31%C2%B008'07.2%22E/@29.9802614,31.1339412,17z/data=!3m1!4b1!4m4!3m3!8m2!3d29.9802589!4d31.1353452?entry=ttu",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Great Sphinx of Giza",
+  //       coordinates: {
+  //         lat: "29°58'30.20\"N",
+  //         long: "31°08'16.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:29.9750639,31.1378694",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Mosque of Muhammad Ali from Al-Azhar Park",
+  //       coordinates: {
+  //         lat: "30°02'18.80\"N",
+  //         long: "31°15'44.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0385528,31.2623417",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Mosque of Muhammad Ali",
+  //       coordinates: {
+  //         lat: "30°01'41.20\"N",
+  //         long: "31°15'36.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0281,31.2602",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Khan el-Khalili",
+  //       coordinates: {
+  //         lat: "30°02'49.60\"N",
+  //         long: "31°15'42.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0471,31.2618",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Khan el-Khalili at night",
+  //       coordinates: {
+  //         lat: "30°02'50.30\"N",
+  //         long: "31°15'43.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0473,31.2621",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Coffee shop with Abdula",
+  //       coordinates: {
+  //         lat: "30°02'59.60\"N",
+  //         long: "31°15'40.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0499,31.2613",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Boating on the Nile",
+  //       coordinates: {
+  //         lat: "30°03'50.00\"N",
+  //         long: "31°13'32.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.0639,31.2257",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Valley of the Kings Hieroglyphs",
+  //       coordinates: {
+  //         lat: "25°44'33.70\"N",
+  //         long: "32°36'11.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:25.7427,32.6031",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Mortuary Temple of Hatshepsut",
+  //       coordinates: {
+  //         lat: "25°44'15.40\"N",
+  //         long: "32°36'29.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:25.7376,32.6082",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Karnak Temple",
+  //       coordinates: {
+  //         lat: "25°43'06.60\"N",
+  //         long: "32°39'28.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:25.7185,32.6579",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Luxor Temple",
+  //       coordinates: {
+  //         lat: "25°42'00.40\"N",
+  //         long: "32°38'21.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:25.7001,32.6393",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Jordan 🇯🇴",
+  //   countryNames: ["Jordan"],
+  //   route: "jordan",
+  //   flags: ["🇯🇴"],
+  //   caption: {
+  //     title: "Jordan 🇯🇴",
+  //     content:
+  //       "A quick trip to Jordan to see another new wonder of the world, Petra! The entirety of Petra was astounding. When I veered around the corner from Al-Sīq (the canyon that leads you into Petra) and saw Al-Khazneh (The Treasury) for the first time, I was brought to the verge of tears. It’s not just a building carved into the side of a mountain; it's a gigantic, hand-crafted architectural and engineering masterpiece—a true work of art!\nThis was one of the few times I opted for a fully guided tour from start to finish. I was picked up directly from my hostel in Jerusalem, crossed the Palestinian border (visa process included), and enjoyed an air-conditioned bus ride to a fully facilitated desert camp right outside Petra. Usually, I prefer handling everything myself (transit, tickets, lodging), but this tour made more sense financially and logistically. Having a guide to explain the history, point out minute details, and teach us how to haggle for a camel ride was invaluable!\nI learned that Petra is a vast archaeological site where the Nabteans (an ancient Arab people) had their trading hub. It’s filled with large sandstone cliffs that were hand-carved top to bottom in the style of the Greeks and Romans. There was no room for mistakes when they made these colossal structures since any slip-up would’ve resulted in the entire project being ruined. Perfectionism at its finest!\nI feel like I could’ve spent at least another day or two exploring more of Petra. Having some more days for Amman would’ve been nice too but that will all need to be saved for another trip. Despite my short amount of time in Jordan, I am extremely happy I made the effort to go to Petra. It was spectacular and gave me the same feelings of awe, excitement, gratitude, and happiness that every other wonder of the world does. Everyone must go see it in their lifetime!",
+  //     publishDate: "October 3, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/s8UC95v.jpeg",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Al-Khazneh (The Treasury)",
+  //       coordinates: {
+  //         lat: "30°19'19.90\"N",
+  //         long: "35°27'05.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3222,35.4516",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Al-Sīq",
+  //       coordinates: {
+  //         lat: "30°19'38.30\"N",
+  //         long: "35°27'15.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3273,35.4544",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Al-Khazneh (The Treasury)",
+  //       coordinates: {
+  //         lat: "30°19'19.90\"N",
+  //         long: "35°27'05.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3222,35.4516",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Al-Khazneh (The Treasury)",
+  //       coordinates: {
+  //         lat: "30°19'20.80\"N",
+  //         long: "35°27'06.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3224333,35.4518306",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Ed-Deir (The Monastery)",
+  //       coordinates: {
+  //         lat: "30°20'16.40\"N",
+  //         long: "35°25'49.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3379,35.4304",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Ed-Deir (The Monastery)",
+  //       coordinates: {
+  //         lat: "30°20'16.60\"N",
+  //         long: "35°25'49.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3379306,35.4304194",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Camel",
+  //       coordinates: {
+  //         lat: "30°19'33.60\"N",
+  //         long: "35°26'50.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.326,35.4474",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "First camel ride (James 🇬🇧 on the right)",
+  //       coordinates: {
+  //         lat: "30°19'33.60\"N",
+  //         long: "35°26'50.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.326,35.4474",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Camel ride in Petra",
+  //       coordinates: {
+  //         lat: "30°19'44.80\"N",
+  //         long: "35°26'32.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3291,35.4424",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Camel in front of The Treasury with James 🇬🇧",
+  //       coordinates: {
+  //         lat: "30°19'44.80\"N",
+  //         long: "35°26'32.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:30.3224861,35.4516333",
+  //       },
+  //     },
+  //     // {
+  //     //   imgID: "",
+  //     //
+  //     //     description: "Al-Khazneh (The Treasury), Petra",
+  //     //     coordinates: {
+  //     //       lat: "30°19'21.00\"N",
+  //     //       long: "35°27'05.90\"E",
+  //     //       link: "https://www.google.com/maps?q=loc:30.3224861,35.4516333",
+  //     //     },
+  //     //   },
+  //     // },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "Israel 🇮🇱 / Palestine 🇵🇸",
+  //   countryNames: ["Israel", "Palestine"],
+  //   route: "israel-palestine",
+  //   flags: ["🇮🇱", "🇵🇸"],
+  //   caption: {
+  //     title: "Tel Aviv, Israel 🇮🇱  + Jerusalem, Israel 🇮🇱 / Palestine 🇵🇸",
+  //     content:
+  //       "The first stop in the Middle East! Israel seemed like the perfect place to recoup after traveling for a month straight, and I guess I proved myself right! This stop was part reset, part history lesson. It marked the halfway point of my worldwide trip, so it was nice to be in a place that felt familiar yet unique.\nWhile Tel Aviv is known for its modernity and fun atmosphere, I was more interested in seeing Jerusalem - the meeting point of three major religions and cultures. When you explore the old town of Jerusalem, you see the essence of maintaining the status quo. There’s understanding and mutual respect between the Christians, Jews, and Muslims who are all living, working, and worshiping within a very small area. \nStanding in the places that are revered by so many people throughout the world made me feel empathetic and thankful that these places are open for devout pilgrims, casual believers, and curious onlookers to come and see with their own eyes. I know there’s a lot of contention in this part of the world right now, but in this particular space at this particular time, there is peace and I think that’s worth seeing and celebrating.",
+  //     publishDate: "September 25, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/rYQQtXN.png",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "Dome of the Rock",
+  //       coordinates: {
+  //         lat: "31°46'35.20\"N",
+  //         long: "35°13'59.50\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7764444,35.2331917",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Jaffa",
+  //       coordinates: {
+  //         lat: "32°03'15.80\"N",
+  //         long: "34°45'00.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:32.0544,34.75",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Yarkon Park",
+  //       coordinates: {
+  //         lat: "32°05'54.20\"N",
+  //         long: "34°48'33.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:32.0984,34.8094",
+  //       },
+  //     },
 
-      {
-        src_720: "https://i.imgur.com/oaqklDh.jpeg",
-        src_full: "https://i.imgur.com/oaqklDh.jpeg",
-        description: "Trilingual Street Sign",
-        coordinates: {
-          lat: "32°04'32.20\"N",
-          long: "34°47'04.20\"E",
-          link: "https://www.google.com/maps?q=loc:32.0756,34.7845",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/FwZrsqi.jpeg",
-        src_full: "https://i.imgur.com/FwZrsqi.jpeg",
-        description: "Church of the Holy Sepulchre",
-        coordinates: {
-          lat: "31°46'42.20\"N",
-          long: "35°13'47.30\"E",
-          link: "https://www.google.com/maps?q=loc:31.7784,35.2298",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/IghrSXw.png",
-        src_full: "https://i.imgur.com/IghrSXw.png",
-        description: "הכותל המערבי (The Wailing Wall)",
-        coordinates: {
-          lat: "31°46'35.70\"N",
-          long: "35°14'02.90\"E",
-          link: "https://www.google.com/maps?q=loc:31.7765917,35.2341389",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/0ROfrkG.png",
-        src_full: "https://i.imgur.com/0ROfrkG.png",
-        description: "Temple Mount",
-        coordinates: {
-          lat: "31°46'43.90\"N",
-          long: "35°14'04.00\"E",
-          link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/u1DFZFR.png",
-        src_full: "https://i.imgur.com/u1DFZFR.png",
-        description: "قبّة الصخرة (Dome of the Rock)",
-        coordinates: {
-          lat: "31°46'43.90\"N",
-          long: "35°14'04.00\"E",
-          link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/ODK6Zfb.jpeg",
-        src_full: "https://i.imgur.com/ODK6Zfb.jpeg",
-        description: "Old City of Jerusalem",
-        coordinates: {
-          lat: "31°46'32.90\"N",
-          long: "35°14'33.70\"E",
-          link: "https://www.google.com/maps?q=loc:31.7758,35.2427",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/mSh5rbd.png",
-        src_full: "https://i.imgur.com/mSh5rbd.png",
-        description: "Yad Vashem's Hall of Names",
-        coordinates: {
-          lat: "31°46'28.40\"N",
-          long: "35°10'29.60\"E",
-          link: "https://www.google.com/maps?q=loc:31.7745583,35.1748889",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Ihv1PXy.jpeg",
-        src_full: "https://i.imgur.com/Ihv1PXy.jpeg",
-        description: "Dead Sea - The Lowest Point on Earth",
-        coordinates: {
-          lat: "31°45'42.80\"N",
-          long: "35°30'20.20\"E",
-          link: "https://www.google.com/maps?q=loc:31.7619,35.5056",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/AS3MULE.png",
-        src_full: "https://i.imgur.com/AS3MULE.png",
-        description: "Floating in the Dead Sea",
-        coordinates: {
-          lat: "31°45'43.60\"N",
-          long: "35°30'21.20\"E",
-          link: "https://www.google.com/maps?q=loc:31.7621,35.5059",
-        },
-      },
-    ],
-  },
-  {
-    pageTitle: "India 🇮🇳",
-    countryNames: ["India"],
-    route: "india",
-    flags: ["🇮🇳"],
-    caption: {
-      title: "Delhi | Agra, India 🇮🇳",
-      content:
-        "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
-      publishDate: "September 18, 2023",
-    },
-    previewSrc: "https://i.imgur.com/irAnMih.png",
-    postImages: [
-      {
-        src_720: "https://i.imgur.com/irAnMih.png",
-        src_full: "https://i.imgur.com/irAnMih.png",
-        description: "ताज महल (Taj Mahal)",
-        coordinates: {
-          lat: "27°10'18.80\"N",
-          long: "78°02'31.90\"E",
-          link: "https://www.google.com/maps?q=loc:27.1719,78.0422",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/eplbq9H.jpeg",
-        src_full: "https://i.imgur.com/eplbq9H.jpeg",
-        description: "Peace from India",
-        coordinates: {
-          lat: "27°10'23.90\"N",
-          long: "78°02'31.60\"E",
-          link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/0mF40M5.jpeg",
-        src_full: "https://i.imgur.com/0mF40M5.jpeg",
-        description: "Me and Sanchin",
-        coordinates: {
-          lat: "27°10'23.90\"N",
-          long: "78°02'31.60\"E",
-          link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/1EhIuOg.png",
-        src_full: "https://i.imgur.com/1EhIuOg.png",
-        description: "Taj Mahal from Mehmaankhana",
-        coordinates: {
-          lat: "27°10'30.40\"N",
-          long: "78°02'32.30\"E",
-          link: "https://www.google.com/maps?q=loc:27.1751,78.0423",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/0UxLhzb.png",
-        src_full: "https://i.imgur.com/0UxLhzb.png",
-        description: "Taj Mahal at sunrise",
-        coordinates: {
-          lat: "27°10'28.70\"N",
-          long: "78°02'31.40\"E",
-          link: "https://www.google.com/maps?q=loc:27.1746472,78.0420611",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/qfKbsc1.jpeg",
-        src_full: "https://i.imgur.com/qfKbsc1.jpeg",
-        description: "Friends at Agra Fort",
-        coordinates: {
-          lat: "27°10'39.40\"N",
-          long: "78°01'25.00\"E",
-          link: "https://www.google.com/maps?q=loc:27.1776,78.0236",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/01HO7SJ.png",
-        src_full: "https://i.imgur.com/01HO7SJ.png",
-        description: "New Delhi Railway Station",
-        coordinates: {
-          lat: "28°38'33.40\"N",
-          long: "77°13'25.00\"E",
-          link: "https://www.google.com/maps?q=loc:28.6426,77.2236",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/aCn3sf6.jpeg",
-        src_full: "https://i.imgur.com/aCn3sf6.jpeg",
-        description: "Gurudwara Shri Bangla Sahib",
-        coordinates: {
-          lat: "28°37'33.20\"N",
-          long: "77°12'33.10\"E",
-          link: "https://www.google.com/maps?q=loc:28.6259,77.2092",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/dADBziS.jpeg",
-        src_full: "https://i.imgur.com/dADBziS.jpeg",
-        description: "Red Fort",
-        coordinates: {
-          lat: "28°39'21.60\"N",
-          long: "77°14'15.40\"E",
-          link: "https://www.google.com/maps?q=loc:28.656,77.2376",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/RIo0n1d.png",
-        src_full: "https://i.imgur.com/RIo0n1d.png",
-        description: "Chatta Chowk Bazar / Meena Bazaar",
-        coordinates: {
-          lat: "28°39'21.40\"N",
-          long: "77°14'19.00\"E",
-          link: "https://www.google.com/maps?q=loc:28.6559361,77.2386083",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/ocdxxs1.jpeg",
-        src_full: "https://i.imgur.com/ocdxxs1.jpeg",
-        description: "Jama Masjid",
-        coordinates: {
-          lat: "28°39'04.00\"N",
-          long: "77°14'00.60\"E",
-          link: "https://www.google.com/maps?q=loc:28.6511,77.2335",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/Eb8XtFK.jpeg",
-        src_full: "https://i.imgur.com/Eb8XtFK.jpeg",
-        description: "Matia Mahal Rd. in Chandni Chowk",
-        coordinates: {
-          lat: "28°38'59.20\"N",
-          long: "77°14'00.70\"E",
-          link: "https://www.google.com/maps?q=loc:28.6497889,77.2335194",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/RIXUjyV.jpeg",
-        src_full: "https://i.imgur.com/RIXUjyV.jpeg",
-        description: "Qutub Minar",
-        coordinates: {
-          lat: "28°31'25.70\"N",
-          long: "77°11'06.00\"E",
-          link: "https://www.google.com/maps?q=loc:28.5238,77.185",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/R5ZFfT5.png",
-        src_full: "https://i.imgur.com/R5ZFfT5.png",
-        description: "Qutub Minar Interior",
-        coordinates: {
-          lat: "28°31'29.90\"N",
-          long: "77°11'07.00\"E",
-          link: "https://www.google.com/maps?q=loc:28.524975,77.1852722",
-        },
-      },
-      {
-        src_720: "https://i.imgur.com/LAN34AT.jpeg",
-        src_full: "https://i.imgur.com/LAN34AT.jpeg",
-        description: "Envoys at Qutub Minar",
-        coordinates: {
-          lat: "28°31'28.60\"N",
-          long: "77°11'07.80\"E",
-          link: "https://www.google.com/maps?q=loc:28.5246,77.1855",
-        },
-      },
-    ],
-  },
+  //     {
+  //       imgID: "",
+  //       description: "Trilingual Street Sign",
+  //       coordinates: {
+  //         lat: "32°04'32.20\"N",
+  //         long: "34°47'04.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:32.0756,34.7845",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Church of the Holy Sepulchre",
+  //       coordinates: {
+  //         lat: "31°46'42.20\"N",
+  //         long: "35°13'47.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7784,35.2298",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "הכותל המערבי (The Wailing Wall)",
+  //       coordinates: {
+  //         lat: "31°46'35.70\"N",
+  //         long: "35°14'02.90\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7765917,35.2341389",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Temple Mount",
+  //       coordinates: {
+  //         lat: "31°46'43.90\"N",
+  //         long: "35°14'04.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "قبّة الصخرة (Dome of the Rock)",
+  //       coordinates: {
+  //         lat: "31°46'43.90\"N",
+  //         long: "35°14'04.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Old City of Jerusalem",
+  //       coordinates: {
+  //         lat: "31°46'32.90\"N",
+  //         long: "35°14'33.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7758,35.2427",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Yad Vashem's Hall of Names",
+  //       coordinates: {
+  //         lat: "31°46'28.40\"N",
+  //         long: "35°10'29.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7745583,35.1748889",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Dead Sea - The Lowest Point on Earth",
+  //       coordinates: {
+  //         lat: "31°45'42.80\"N",
+  //         long: "35°30'20.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7619,35.5056",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Floating in the Dead Sea",
+  //       coordinates: {
+  //         lat: "31°45'43.60\"N",
+  //         long: "35°30'21.20\"E",
+  //         link: "https://www.google.com/maps?q=loc:31.7621,35.5059",
+  //       },
+  //     },
+  //   ],
+  // },
+  // {
+  //   pageTitle: "India 🇮🇳",
+  //   countryNames: ["India"],
+  //   route: "india",
+  //   flags: ["🇮🇳"],
+  //   caption: {
+  //     title: "Delhi | Agra, India 🇮🇳",
+  //     content:
+  //       "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
+  //     publishDate: "September 18, 2023",
+  //   },
+  //   previewSrc: "https://i.imgur.com/irAnMih.png",
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "ताज महल (Taj Mahal)",
+  //       coordinates: {
+  //         lat: "27°10'18.80\"N",
+  //         long: "78°02'31.90\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1719,78.0422",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Peace from India",
+  //       coordinates: {
+  //         lat: "27°10'23.90\"N",
+  //         long: "78°02'31.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Me and Sanchin",
+  //       coordinates: {
+  //         lat: "27°10'23.90\"N",
+  //         long: "78°02'31.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1733,78.0421",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Taj Mahal from Mehmaankhana",
+  //       coordinates: {
+  //         lat: "27°10'30.40\"N",
+  //         long: "78°02'32.30\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1751,78.0423",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Taj Mahal at sunrise",
+  //       coordinates: {
+  //         lat: "27°10'28.70\"N",
+  //         long: "78°02'31.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1746472,78.0420611",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Friends at Agra Fort",
+  //       coordinates: {
+  //         lat: "27°10'39.40\"N",
+  //         long: "78°01'25.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:27.1776,78.0236",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "New Delhi Railway Station",
+  //       coordinates: {
+  //         lat: "28°38'33.40\"N",
+  //         long: "77°13'25.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.6426,77.2236",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Gurudwara Shri Bangla Sahib",
+  //       coordinates: {
+  //         lat: "28°37'33.20\"N",
+  //         long: "77°12'33.10\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.6259,77.2092",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Red Fort",
+  //       coordinates: {
+  //         lat: "28°39'21.60\"N",
+  //         long: "77°14'15.40\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.656,77.2376",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Chatta Chowk Bazar / Meena Bazaar",
+  //       coordinates: {
+  //         lat: "28°39'21.40\"N",
+  //         long: "77°14'19.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.6559361,77.2386083",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Jama Masjid",
+  //       coordinates: {
+  //         lat: "28°39'04.00\"N",
+  //         long: "77°14'00.60\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.6511,77.2335",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Matia Mahal Rd. in Chandni Chowk",
+  //       coordinates: {
+  //         lat: "28°38'59.20\"N",
+  //         long: "77°14'00.70\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.6497889,77.2335194",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Qutub Minar",
+  //       coordinates: {
+  //         lat: "28°31'25.70\"N",
+  //         long: "77°11'06.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.5238,77.185",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Qutub Minar Interior",
+  //       coordinates: {
+  //         lat: "28°31'29.90\"N",
+  //         long: "77°11'07.00\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.524975,77.1852722",
+  //       },
+  //     },
+  //     {
+  //       imgID: "",
+  //       description: "Envoys at Qutub Minar",
+  //       coordinates: {
+  //         lat: "28°31'28.60\"N",
+  //         long: "77°11'07.80\"E",
+  //         link: "https://www.google.com/maps?q=loc:28.5246,77.1855",
+  //       },
+  //     },
+  //   ],
+  // },
   {
     pageTitle: "Hong Kong 🇭🇰",
     countryNames: ["Hong Kong"],
@@ -1191,11 +1086,10 @@ export const blogEntriesSimple = [
         "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
       publishDate: "September 11, 2023",
     },
-    previewSrc: "https://i.imgur.com/P4iPNzG.png",
+    previewIdx: 0,
     postImages: [
       {
-        src_720: "https://i.imgur.com/lVdYMz2.png",
-        src_full: "https://i.imgur.com/LYw3UMT.png",
+        imgID: "9f48035b-89a6-4e2e-d979-872ca5a2c100",
         description: "Porter Robinson's Musician Cover Location",
         coordinates: {
           lat: "22°17'09.00\"N",
@@ -1204,8 +1098,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/gbv1aLg.png",
-        src_full: "https://i.imgur.com/CNchv6r.jpeg",
+        imgID: "992881a3-9545-451b-23b1-131dfe6d5300",
         description: "Big Buddah on Lantau Island",
         coordinates: {
           lat: "22°15'19.40\"N",
@@ -1214,8 +1107,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/KVqG9Nv.png",
-        src_full: "https://i.imgur.com/4tk8361.png",
+        imgID: "0a319416-b2d8-4f11-44df-fa7566a02300",
         description: "Big Buddah up close",
         coordinates: {
           lat: "22°15'15.10\"N",
@@ -1224,8 +1116,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/bGxKqJ5.png",
-        src_full: "https://i.imgur.com/JaP6Dvn.jpeg",
+        imgID: "01e96564-4588-4322-e7b9-9cd9a4ce6900",
         description: "Hong Kong from Victoria Peak",
         coordinates: {
           lat: "22°16'16.80\"N",
@@ -1234,8 +1125,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/HES37J0.png",
-        src_full: "https://i.imgur.com/AJiZgWv.jpeg",
+        imgID: "10e67d86-3e7b-4e94-74a2-8384924a6800",
         description: "Neon Sign near Temple Street Night Market",
         coordinates: {
           lat: "22°18'21.60\"N",
@@ -1244,8 +1134,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/9O01WR3.png",
-        src_full: "https://i.imgur.com/HFFS0mE.jpeg",
+        imgID: "c030fd2b-06c4-4ce8-b77c-fa6666661f00",
         description: "M+ with Edwin and Yvonne",
         coordinates: {
           lat: "22°18'04.00\"N",
@@ -1254,8 +1143,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/KwkYzNE.png",
-        src_full: "https://i.imgur.com/dV3PGDo.jpeg",
+        imgID: "70f0e5a8-1c67-4b35-e904-dc9f53e05a00",
         description: "Victoria Harbor Profile",
         coordinates: {
           lat: "22°18'02.50\"N",
@@ -1264,8 +1152,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/psXns18.png",
-        src_full: "https://i.imgur.com/EXCjXsL.jpeg",
+        imgID: "481c2479-521b-445d-cd07-f81eb3711b00",
         description: "Second Sky Painting by Yvonne",
         coordinates: {
           lat: "22°17'08.50\"N",
@@ -1274,8 +1161,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/8TN8Oss.png",
-        src_full: "https://i.imgur.com/rG1YMw6.png",
+        imgID: "dcbb61ef-f3c3-4d1e-b5af-1e7f083db900",
         description: "Cinoz Studio Tour with Edwin, Yvonne, and Garth",
         coordinates: {
           lat: "22°22'27.40\"N",
@@ -1284,8 +1170,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/8WEvc1i.png",
-        src_full: "https://i.imgur.com/l5hkzd9.jpeg",
+        imgID: "d3e62a4a-21cc-4ab4-86d7-bba6f19d2400",
         description: "Quarry Bay's Monster Building",
         coordinates: {
           lat: "22°17'02.40\"N",
@@ -1294,8 +1179,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/95BSj3b.png",
-        src_full: "https://i.imgur.com/P3Kxxgi.jpeg",
+        imgID: "188cb16a-9fe1-4c88-d1d5-629903462800",
         description: "Hong Kong Street in Causeway Bay",
         coordinates: {
           lat: "22°16'48.00\"N",
@@ -1304,8 +1188,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        src_720: "https://i.imgur.com/P0GD5MT.png",
-        src_full: "https://i.imgur.com/cSJOix7.jpeg",
+        imgID: "34714b0b-9602-4727-9014-e4a5fe3e2b00",
         description: "Final laugh with Long",
         coordinates: {
           lat: "22°16'44.10\"N",
@@ -1329,8 +1212,7 @@ export const blogEntriesSimple = [
   //   previewSrc: "",
   //   postImages: [
   //     {
-  //       src_720: "https://i.imgur.com/LAN34AT.jpeg",
-  // src_full: "https://i.imgur.com/LAN34AT.jpeg",
+  //       imgID: "",
   //       description: "Envoys at Qutub Minar",
   //       coordinates: {
   //         lat: "28°31'28.60\"N",
@@ -1582,8 +1464,7 @@ export const blogEntriesSimple = [
   //   previewSrc: "",
   //   postImages: [
   //     {
-  //       src_720: "https://i.imgur.com/C22H18M.jpeg",
-  // src_full: "https://i.imgur.com/C22H18M.jpeg",
+  //       imgID: "",
   //       description: "Pyramids of Giza",
   //       coordinates: {
   //         lat: "29°58'04.80\"N",
