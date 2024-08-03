@@ -228,14 +228,13 @@ export const blogEntriesSimple = [
           link: "https://www.google.com/maps?q=loc:42.6222,18.1191",
         },
       },
-
       {
         imgID: "944e8763-107f-422f-f358-85ba33b04e00",
         description: "Wild Peacock on Lokrum Island",
         coordinates: {
-          lat: "42°37'42.20\"N",
-          long: "18°07'10.90\"E",
-          link: "https://www.google.com/maps/place/42%C2%B037'42.2%22N+18%C2%B007'10.9%22E/@42.628307,18.1185778,18.5z/data=!4m10!1m5!3m4!2zNDLCsDM3JzQyLjIiTiAxOMKwMDcnMDUuOCJF!8m2!3d42.6283911!4d18.118278!3m3!8m2!3d42.628387!4d18.119705?entry=ttu",
+          lat: "42°37'30.00\"N",
+          long: "18°07'12.10\"E",
+          link: "https://www.google.com/maps?q=42.62500,18.12003",
         },
       },
       {
@@ -261,9 +260,9 @@ export const blogEntriesSimple = [
         description:
           "The Path of Paradise\n(Valentine 🇩🇪, Franzi 🇩🇪, Elodie 🇲🇺, René 🇺🇸, Adele 🇺🇸, Karen 🇰🇷)",
         coordinates: {
-          lat: "42°37'30.00\"N",
-          long: "18°07'12.10\"E",
-          link: "https://maps.app.goo.gl/YdFPVSAbD8TBb84r5",
+          lat: "42°37'42.80\"N",
+          long: "18°07'09.70\"E",
+          link: "https://www.google.com/maps?q=42.62856,18.11936",
         },
       },
     ],
@@ -546,7 +545,8 @@ export const blogEntriesSimple = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "e9aef9f2-e06d-4da2-c55b-dd3a8c857400",
+        // imgID: "e9aef9f2-e06d-4da2-c55b-dd3a8c857400",
+        imgID: "6c6a4ad9-df80-4cd2-b3ec-ba69156f1900",
         description: "Pyramids of Giza",
         coordinates: {
           lat: "29°58'04.80\"N",
@@ -578,7 +578,7 @@ export const blogEntriesSimple = [
         coordinates: {
           lat: "29°58'48.90\"N",
           long: "31°08'07.20\"E",
-          link: "https://www.google.com/maps/place/29%C2%B058'48.9%22N+31%C2%B008'07.2%22E/@29.9802614,31.1339412,17z/data=!3m1!4b1!4m4!3m3!8m2!3d29.9802589!4d31.1353452?entry=ttu",
+          link: "https://www.google.com/maps?q=29.98025,31.13533",
         },
       },
       {
@@ -926,7 +926,8 @@ export const blogEntriesSimple = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "b45c5c26-fc68-47e2-c5d6-2de39d57e100",
+        // imgID: "b45c5c26-fc68-47e2-c5d6-2de39d57e100",
+        imgID: "7114efa9-22aa-4978-43ed-86ffe05c3a00",
         description: "ताज महल (Taj Mahal)",
         coordinates: {
           lat: "27°10'18.80\"N",
@@ -1185,30 +1186,292 @@ export const blogEntriesSimple = [
       },
     ],
   },
-  // {
-  //   pageTitle: "India 🇮🇳",
-  //   countryNames: ["India"],
-  //   route: "india",
-  //   flags: ["🇮🇳"],
-  //   caption: {
-  //     title: "Delhi | Agra, India 🇮🇳",
-  //     content:
-  //       "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
-  //     publishDate: "September 18, 2023",
-  //   },
-  //   previewIdx: 0,
-  //   postImages: [
-  //     {
-  //       imgID: "",
-  //       description: "Envoys at Qutub Minar",
-  //       coordinates: {
-  //         lat: "28°31'28.60\"N",
-  //         long: "77°11'07.80\"E",
-  //         link: "https://www.google.com/maps?q=loc:28.5246,77.1855",
-  //       },
-  //     },
-  //   ],
-  // },
+  {
+    pageTitle: "China 🇨🇳",
+    countryNames: ["China"],
+    route: "china",
+    flags: ["🇨🇳"],
+    caption: {
+      title: "Beijing | Xi'an | Zhangjiajie, China 🇨🇳",
+      content:
+        "The best way to summarize China is that it’s BIG. The National Park in Zhangjiajie? Massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds within Xi’an? Busier than Disneyland on a holiday. The Great Wall? It was so large you could see it far into the horizon without any effort. Beijing? An absolutely gigantic city such that even with a highly optimized public transportation network, it still takes you an hour to get from one site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and say hello to them in their native language. And I’m gonna say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
+      publishDate: "August 27, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "025e3676-4344-4a6e-45d1-41a42056c500",
+        // imgID: "1d730809-c9e3-4a00-ec41-7dbd4305c400",
+        // imgID: "3d5df1d7-d965-484e-6e7f-58b9566bb500",
+        description: "Great Wall of China - Jinshanling Section",
+        coordinates: {
+          lat: "40°40'36.00\"N",
+          long: "117°14'35.00\"E",
+          link: "https://www.openstreetmap.org/#map=16/40.6767/117.2431",
+        },
+      },
+      // {
+      //   imgID: "3ed0c181-4194-4591-fd68-55d4bac4a400",
+      //   description: "Great Wall of China - Jinshanling Section",
+      //   coordinates: {
+      //     lat: "40°40'36.00\"N",
+      //     long: "117°14'35.00\"E",
+      //     link: "https://www.openstreetmap.org/#map=16/40.6767/117.2431",
+      //   },
+      // },
+      {
+        imgID: "ba4a1ff1-7003-4581-4c80-5008c7781600",
+        // imgID: "f8fd9928-3d98-4131-98a0-7ae9515a5200",
+        // imgID: "6895c1aa-d315-4f1c-01d9-77e2826f7f00",
+        description: "Great Wall of China - Higher Elevation",
+        coordinates: {
+          lat: "40°40'45.10\"N",
+          long: "117°15'20.20\"E",
+          link: "https://www.openstreetmap.org/#map=18/40.67918/117.25561",
+        },
+      },
+      {
+        imgID: "3d51b509-0426-4ec4-8ac4-bea1b3182f00",
+        // imgID: "41f3777d-b3d3-4905-c64c-d05f90fd2800",
+        // imgID: "1773d1dc-ced5-4650-c9d6-d885605f5c00",
+        description: "Great time at the Great Wall",
+        coordinates: {
+          lat: "29°20'30.30\"N",
+          long: "110°28'23.80\"E",
+          link: "https://www.openstreetmap.org/#map=16/40.6754/117.2364",
+        },
+      },
+      {
+        imgID: "d0f67023-3e34-465b-51e3-042e84324f00",
+        // imgID: "d37c091a-682f-4ea5-38f5-3a6f4cd71600",
+        // imgID: "5a87a820-5956-4775-e63b-a4a28687da00",
+        description: "Great Wall with Eliel 🇺🇸",
+        coordinates: {
+          lat: "40°40'36.20\"N",
+          long: "117°15'30.70\"E",
+          link: "https://www.openstreetmap.org/#map=16/40.6768/117.2585",
+        },
+      },
+      {
+        imgID: "2f43100e-babd-4b4f-b086-369cdbe85f00",
+        description: "Cute Great Wall Character",
+        coordinates: {
+          lat: "40°41'23.80\"N",
+          long: "117°14'19.40\"E",
+          link: "https://www.openstreetmap.org/#map=16/40.6768/117.2585",
+        },
+      },
+
+      {
+        imgID: "f05dd6e0-c1be-41af-1f58-e99524436c00",
+        description: "Tiananmen Square",
+        coordinates: {
+          lat: "39°54'21.80\"N",
+          long: "116°23'55.20\"E",
+          link: "https://www.google.com/maps?q=39.90606,116.39867",
+        },
+      },
+      {
+        imgID: "3ee5b698-8db8-4179-fa9d-ed1b243e7c00",
+        description: "Tiananmen Square Communist Statues",
+        coordinates: {
+          lat: "116°23'51.80\"N",
+          long: "39°54'13.00\"E",
+          link: "https://www.google.com/maps?q=39.90361,116.39772",
+        },
+      },
+      {
+        imgID: "48d80131-0a16-45fe-17bb-a2b11b8f3500",
+        description: "Meridian Gate",
+        coordinates: {
+          lat: "39°54'45.90\"N",
+          long: "116°23'50.40\"E",
+          link: "https://www.google.com/maps?q=39.91275,116.39733",
+        },
+      },
+      {
+        imgID: "360758d9-7685-4f40-c606-009b06adfb00",
+        description: "Hall of Supreme Harmony and the Meridian Gate",
+        coordinates: {
+          lat: "39°54'57.50\"N",
+          long: "116°23'49.70\"E",
+          link: "https://www.google.com/maps?q=39.91597,116.39714",
+        },
+      },
+      {
+        imgID: "e51b7a9d-596e-4f88-49c5-e2ebd03f6f00",
+        description: "Dragon decoration in the Forbidden Palace",
+        coordinates: {
+          lat: "39°55'12.30\"N",
+          long: "116°23'42.90\"E",
+          link: "https://www.google.com/maps?q=39.92008,116.39525",
+        },
+      },
+      {
+        imgID: "e7147642-4ada-4924-f207-0966430bde00",
+        description: "Forbidden Palace from above",
+        coordinates: {
+          lat: "39°55'28.40\"N",
+          long: "116°23'48.30\"E",
+          link: "https://www.google.com/maps?q=39.92456,116.39675",
+        },
+      },
+      {
+        imgID: "1374878e-99e3-4df4-c895-30a548828700",
+        description: "Temple of Heaven",
+        coordinates: {
+          lat: "39°52'59.50\"N",
+          long: "116°24'46.40\"E",
+          link: "https://www.google.com/maps?q=39.88319,116.41289",
+        },
+      },
+      {
+        imgID: "1683cdca-7509-4ac4-e2fa-ccefbc4c6000",
+        description: "Peking duck from Yao's Mom",
+        coordinates: {
+          lat: "39°55'26.40\"N",
+          long: "116°21'47.30\"E",
+          link: "https://www.google.com/maps?q=loc:39.924009,116.363136",
+        },
+      },
+      {
+        imgID: "3ea9a667-790d-4c48-b3b1-01b28eae2a00",
+        description: "Terracotta Warriors",
+        coordinates: {
+          lat: "34°23'01.20\"N",
+          long: "109°16'37.80\"E",
+          link: "https://www.google.com/maps?q=34.38367,109.27772",
+        },
+      },
+      {
+        imgID: "19a811b0-fd16-46c5-0f8b-56b3e62c4c00",
+        description: "Terracotta Warriors",
+        coordinates: {
+          lat: "34°23'01.20\"N",
+          long: "109°16'37.80\"E",
+          link: "https://www.google.com/maps?q=34.38367,109.27772",
+        },
+      },
+      {
+        imgID: "2f402860-9b48-4b12-1959-8e6c1cf8de00",
+        description: "Close of up the Terracotta Warriors",
+        coordinates: {
+          lat: "34°23'04.40\"N",
+          long: "109°16'49.90\"E",
+          link: "https://www.google.com/maps?q=34.38456,109.28053",
+        },
+      },
+      {
+        imgID: "03b44ffd-fa00-4d52-9516-2eb61d5cbd00",
+        description: "Me, Hector 🇪🇸, and Eric 🇺🇸 at the Terracotta Warriors",
+        coordinates: {
+          lat: "34°23'04.40\"N",
+          long: "109°16'49.90\"E",
+          link: "https://www.google.com/maps?q=34.38456,109.28053",
+        },
+      },
+      {
+        imgID: "fae3c9fd-88eb-408e-8815-80b6bea03300",
+        description: "Hazy dragon in Xi'an",
+        coordinates: {
+          lat: "34°15'49.40\"N",
+          long: "108°56'20.50\"E",
+          link: "https://www.google.com/maps?q=34.26372,108.93903",
+        },
+      },
+      {
+        imgID: "90108184-db62-4f6d-f354-b4d2ff705100",
+        description: "Communist shop in Xi'an",
+        coordinates: {
+          lat: "34°15'41.00\"N",
+          long: "108°56'40.20\"E",
+          link: "https://www.google.com/maps?q=34.26139,108.94450",
+        },
+      },
+      {
+        imgID: "0550af2b-6b12-49ed-26d1-7da950719200",
+        description:
+          "Riding bikes on top of Xi'an's City Wall with Eric 🇺🇸 and Hector 🇪🇸,",
+        coordinates: {
+          lat: "34°16'31.90\"N",
+          long: "108°55'34.90\"E",
+          link: "https://www.google.com/maps?q=34.27553,108.92636",
+        },
+      },
+      {
+        imgID: "3a2cdfee-48ee-441a-ce8b-a38b93294900",
+        description: "Xi'an Muslim Quarter",
+        coordinates: {
+          lat: "34°15'45.20\"N",
+          long: "108°56'20.50\"E",
+          link: "https://www.google.com/maps?q=34.26256,108.93903",
+        },
+      },
+      {
+        imgID: "62327b29-32db-4c34-ce8c-2dfb97aac200",
+        description: "Bell Tower of Xi'an",
+        coordinates: {
+          lat: "34°15'35.50\"N",
+          long: "108°56'50.60\"E",
+          link: "https://www.google.com/maps?q=34.25986,108.94739",
+        },
+      },
+      {
+        imgID: "477233ea-3d66-4c86-c021-14d855eb8500",
+        description: "Zhangjiajie Starting Point",
+        coordinates: {
+          lat: "29°18'57.40\"N",
+          long: "110°26'24.40\"E",
+          link: "https://www.google.com/maps?q=29.31594,110.44011",
+        },
+      },
+      {
+        imgID: "8b0c5a8b-1d2a-4182-8597-5f0dad296c00",
+        description: "Hike through Zhangjiajie",
+        coordinates: {
+          lat: "29°20'11.60\"N",
+          long: "110°27'15.20\"E",
+          link: "https://www.google.com/maps?q=29.336556,110.454222",
+        },
+      },
+      {
+        imgID: "cdd5b1c5-64d0-4db0-2ec0-37f7b8222300",
+        description: "Zhangjiajie Visitor's Center",
+        coordinates: {
+          lat: "29°20'30.30\"N",
+          long: "110°28'23.80\"E",
+          link: "https://www.google.com/maps?q=29.34175,110.473278",
+        },
+      },
+      {
+        imgID: "e1ab8fb2-f6fb-4590-d09d-6a4b5e66e200",
+        description: "Zhangjiajie's Pillars (Avatar Mountains)",
+        coordinates: {
+          lat: "29°20'31.90\"N",
+          long: "110°26'55.40\"E",
+          link: "https://www.google.com/maps?q=29.3422,110.4487",
+        },
+      },
+      {
+        imgID: "a29d7375-9402-4afb-c98f-de0322303700",
+        description: "Zhangjiajie Photograph",
+        coordinates: {
+          lat: "29°20'57.40\"N",
+          long: "110°27'27.80\"E",
+          link: "https://www.google.com/maps?q=29.34928,110.45772",
+        },
+      },
+      {
+        imgID: "8f2be367-3292-42d0-f1aa-e031f2c23300",
+        description: "CCP Display at Beijing airport",
+        coordinates: {
+          lat: "39°30'44.30\"N",
+          long: "116°24'38.90\"E",
+          link: "https://www.google.com/maps?q=loc:39.5123,116.4108",
+        },
+      },
+    ],
+  },
   // {
   //   title: "South Korea 🇰🇷",
   //   content: "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
