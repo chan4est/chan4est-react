@@ -85,7 +85,7 @@ export function NavBar({}) {
       ref={menuRef}
       onClick={() => setisMenuOpen(!isMenuOpen)}
     >
-      <button>
+      <button title="Menu">
         <div
           className="w-9 h-9 lg:w-11 lg:h-11 absolute top-3 right-3 z-50"
           title="Menu"

@@ -35,7 +35,7 @@ function BlogBackButton({}) {
       className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-3 left-1"
       title="Back"
     >
-      <button>
+      <button title="Back">
         <svg className="h-5 w-5 lg:h-7 lg:w-7" viewBox="0 0 532 532">
           <path
             fill="currentColor"
@@ -57,7 +57,7 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
           className="fixed top-1/2 left-0 transform -translate-y-1/2 z-10 pl-5"
           title={prevBlogData.pageTitle}
         >
-          <button>
+          <button title={prevBlogData.pageTitle}>
             <svg className="h-7 w-7" viewBox="0 0 532 532">
               <path
                 fill="currentColor"
@@ -75,7 +75,7 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
           className="fixed top-1/2 right-0 transform -translate-y-1/2 z-10 pr-5"
           title={nextBlogData.pageTitle}
         >
-          <button>
+          <button title={nextBlogData.pageTitle}>
             <svg
               className="h-7 w-7"
               viewBox="0 0 532 532"

@@ -13,7 +13,7 @@ import {
 } from "@/app/components/EmblaCarouselDotbutton";
 import Link from "next/link";
 import { shimmer, toBase64 } from "@/app/lib/shimmer";
-import { imgURL, r_720, r_3000 } from "../lib/cloudflareImgNames";
+import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
 
 function NurtureCoordinates({
   imgLocationLat,
@@ -87,7 +87,9 @@ function BlogImage({
               shimmer(720, 720)
             )}`}
             priority={imageNumber == 0 ? true : false}
-            loading={imageNumber == 0 ? "eager" : "lazy"}
+            loading={"eager"}
+            // loading={imageNumber == 0 ? "eager" : "lazy"}
+            // unoptimized={false}
             unoptimized={true}
           />
         </Link>
@@ -138,7 +140,7 @@ export default function BlogImages({ blogData, imgIndex }) {
 
   const imgList = blogData.postImages.map((imgData, i) => (
     <BlogImage
-      imgSrc={imgURL(imgData.imgID, r_720)}
+      imgSrc={imgURL(imgData.imgID, r_1500)}
       imgFullResLink={imgURL(imgData.imgID, r_3000)}
       imgLocationName={imgData.description}
       imgLocationLat={imgData.coordinates.lat}
