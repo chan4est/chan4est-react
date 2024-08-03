@@ -86,7 +86,7 @@ export const blogEntriesSimple = [
         },
       },
       {
-        imgID: "ae079c84-9b1c-4b7c-198a-d41b867a5900",
+        imgID: "fa7703f8-10ba-4204-bed8-6e3739f79a00",
         description: "Flag of Iceland within Þingvellir",
         coordinates: {
           lat: "64°15'36.00\"N",

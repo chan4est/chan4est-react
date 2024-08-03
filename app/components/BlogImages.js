@@ -87,8 +87,8 @@ function BlogImage({
               shimmer(720, 720)
             )}`}
             priority={imageNumber == 0 ? true : false}
-            loading={"eager"}
-            // loading={imageNumber == 0 ? "eager" : "lazy"}
+            // loading={"eager"}
+            loading={imageNumber == 0 ? "eager" : "lazy"}
             // unoptimized={false}
             unoptimized={true}
           />
@@ -152,7 +152,7 @@ export default function BlogImages({ blogData, imgIndex }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full lg:max-w-[720px] ">
+    <div className="overflow-hidden max-w-full lg:max-w-[720px]">
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>
       </div>
