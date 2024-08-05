@@ -72,10 +72,13 @@ def process_images(folder_path):
                     gMaps = get_google_maps_link(lat, long)
                     dms = decimal_to_dms(lat, long)
                     data.append({
-                        "img": image_path,
-                        "lat": dms[0],
-                        "long": dms[1],
-                        "link": gMaps
+                        "imgID": "",
+                        "description": image_path,
+                        "coordinates": {
+                            "lat": dms[0],
+                            "long": dms[1],
+                            "link": gMaps
+                        }
                     })                    
                 except:
                     print("No proper GPS data")

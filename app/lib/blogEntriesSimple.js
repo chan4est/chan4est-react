@@ -1472,23 +1472,170 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "South Korea 🇰🇷",
+    countryNames: ["South Korea"],
+    route: "south-korea",
+    flags: ["🇰🇷"],
+    caption: {
+      title: "Seoul, South Korea 🇰🇷",
+      content:
+        "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
+      publishDate: "September 3, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "37°34'58.09\"N",
+          link: "https://maps.google.com/?q=37.58280277777778,126.97702777777778",
+          long: "126°58'37.30\"E",
+        },
+        description: "Hyangwonjeong Pavilion",
+        imgID: "2020eb75-59d5-46d8-a333-53de5942e600",
+      },
+      {
+        coordinates: {
+          lat: "37°33'7.21\"N",
+          link: "https://maps.google.com/?q=37.55200277777777,126.987375",
+          long: "126°59'14.55\"E",
+        },
+        description: "Hearts from Seoul!",
+        imgID: "bf9f5f37-d117-4be8-30e8-1afbc461ae00",
+      },
+      {
+        coordinates: {
+          lat: "37°34'13.10\"N",
+          link: "https://www.google.com/maps?q=loc:37.5703,126.9924",
+          long: "126°59'32.60\"E",
+        },
+        description: "Walk to Gwangjang Market",
+        imgID: "42d9b45e-4c89-44f9-4b37-bbd898da2300",
+      },
+      {
+        coordinates: {
+          lat: "37°33'7.56\"N",
+          link: "https://maps.google.com/?q=37.552099999999996,126.98851666666667",
+          long: "126°59'18.66\"E",
+        },
+        description: "Seoul from Namsan Mountain Park",
+        imgID: "ca44d393-ee8e-4e70-9eb5-4740331daf00",
+      },
+      {
+        coordinates: {
+          lat: "37°31'19.61\"N",
+          link: "https://maps.google.com/?q=37.52211388888889,127.11861388888889",
+          long: "127°7'7.01\"E",
+        },
+        description: "Olypmic Park",
+        imgID: "a48fe61a-eb76-42f2-dd2d-e1bca097ff00",
+      },
+      {
+        coordinates: {
+          lat: "37°31'07.40\"N",
+          link: "https://www.google.com/maps?q=loc:37.5187222,127.1167222",
+          long: "127°07'00.20\"E",
+        },
+        description: "Olympic Park World Peace Gate",
+        imgID: "9d33aad6-f129-40e4-e9a5-2934c091a400",
+      },
+      {
+        coordinates: {
+          lat: "37°30'36.90\"N",
+          link: "https://www.google.com/maps?q=loc:37.5102472,127.0601806",
+          long: "127°03'36.70\"E",
+        },
+        description: "Starfield Library",
+        imgID: "30adacf8-8c37-4192-02de-f00944846200",
+      },
+      {
+        coordinates: {
+          lat: "37°32'28.37\"N",
+          link: "https://maps.google.com/?q=37.54121388888889,127.06556666666667",
+          long: "127°3'56.04\"E",
+        },
+        description: "Common Ground Shipping Container Shopping Mall",
+        imgID: "5ba37d18-a08b-4900-df79-c1f5bff80200",
+      },
+      {
+        coordinates: {
+          lat: "37°32'28.92\"N",
+          link: "https://maps.google.com/?q=37.54136666666666,127.06835833333334",
+          long: "127°4'6.09\"E",
+        },
+        description: "Kondae",
+        imgID: "f7b45726-f816-46f5-88b2-c17b10337300",
+      },
+      {
+        coordinates: {
+          lat: "37°33'48.65\"N",
+          link: "https://www.google.com/maps?q=loc:37.5635,126.9846",
+          long: "126°59'04.63\"E",
+        },
+        description: "Street food from Myeongdong Night Market",
+        imgID: "5c4af11f-ed0b-4862-96b9-bab34a8e7900",
+      },
+      {
+        coordinates: {
+          lat: "37°33'49.30\"N",
+          link: " https://www.google.com/maps?q=loc:37.5637,126.9799",
+          long: "126°58'47.60\"E",
+        },
+        description: "N Seoul Tower from Myeongdong",
+        imgID: "ea81ecf1-a1e7-4053-9faa-63b11bf2ed00",
+      },
+      {
+        coordinates: {
+          lat: "37°34'40.17\"N",
+          link: "https://maps.google.com/?q=37.577825000000004,126.97695277777778",
+          long: "126°58'37.03\"E",
+        },
+        description: "Front of Gyeongbokgung Palace",
+        imgID: "a95324f7-cffd-477c-916d-7af239f40100",
+      },
+      {
+        coordinates: {
+          lat: "37°34'33.75\"N",
+          link: "https://maps.google.com/?q=37.57604166666667,126.97683611111111",
+          long: "126°58'36.61\"E",
+        },
+        description: "Guards at Gyeongbokgung Palace",
+        imgID: "ad01c83b-c7ce-4ebc-214f-a73f9d96cb00",
+      },
+      {
+        coordinates: {
+          lat: "37°35'00.48\"N",
+          link: "https://maps.google.com/?q=37.583466666666666,126.98307777777778",
+          long: "126°58'59.08\"E",
+        },
+        description: "Bukchon Hanok Village",
+        imgID: "2b686b6c-e8bb-43f0-0e29-e577d7113600",
+      },
+    ],
+  },
   // {
-  //   title: "South Korea 🇰🇷",
-  //   content: "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
-  //   location: "경복궁",
-  //   publishDate: "September 3, 2023",
-  //   imgurLink: "https://i.imgur.com/ehcoV6m.jpeg",
+  //   pageTitle: "South Korea 🇰🇷",
+  //   countryNames: ["South Korea"],
   //   route: "south-korea",
-  //   flag: "🇰🇷",
-  // },
-  // {
-  //   title: "China 🇨🇳",
-  //   content: "The best way to summarize China is that it’s BIG. The National Park in Zhangjiajie? Massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds within Xi’an? Busier than Disneyland on a holiday. The Great Wall? It was so large you could see it far into the horizon without any effort. Beijing? An absolutely gigantic city such that even with a highly optimized public transportation network, it still takes you an hour to get from one site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and say hello to them in their native language. And I’m gonna say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
-  //   location: "金山岭长城",
-  //   publishDate: "August 27, 2023",
-  //   imgurLink: "https://i.imgur.com/4A6QjSS.jpeg",
-  //   route: "china",
-  //   flag: "🇨🇳",
+  //   flags: ["🇰🇷"],
+  //   caption: {
+  //     title: "Seoul, South Korea 🇰🇷",
+  //     content:
+  //       "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
+  //     publishDate: "September 3, 2023",
+  //   },
+  //   previewIdx: 0,
+  //   postImages: [
+  //     {
+  //       imgID: "",
+  //       description: "",
+  //       coordinates: {
+  //         lat: '0"N',
+  //         long: '0"E',
+  //         link: "",
+  //       },
+  //     },
+  //   ],
   // },
   // {
   //   title: "Taiwan 🇹🇼",
