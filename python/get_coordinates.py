@@ -59,7 +59,7 @@ GPSINFO_TAG = next(
 def process_images(folder_path):
     data = []
     for filename in os.listdir(folder_path):
-        if filename.lower().endswith(('jpg', 'jpeg', 'png')):
+        if filename.lower().endswith(('jpg', 'jpeg', 'png', 'webp')):
             image_path = os.path.join(folder_path, filename)
             print(image_path)
             with Image.open(image_path) as img:
@@ -68,7 +68,6 @@ def process_images(folder_path):
                     gpsinfo = info.get_ifd(GPSINFO_TAG)
                     lat = decimal_coords(gpsinfo[2], gpsinfo[1])
                     long = decimal_coords(gpsinfo[4], gpsinfo[3])
-                    # print('Alt : {0}'.format(gpsinfo[6]))
                     gMaps = get_google_maps_link(lat, long)
                     dms = decimal_to_dms(lat, long)
                     data.append({

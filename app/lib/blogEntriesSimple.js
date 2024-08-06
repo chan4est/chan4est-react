@@ -1514,7 +1514,7 @@ export const blogEntriesSimple = [
       },
       {
         coordinates: {
-          lat: "37°33'7.56\"N",
+          lat: "37°33'07.56\"N",
           link: "https://maps.google.com/?q=37.552099999999996,126.98851666666667",
           long: "126°59'18.66\"E",
         },
@@ -1525,7 +1525,7 @@ export const blogEntriesSimple = [
         coordinates: {
           lat: "37°31'19.61\"N",
           link: "https://maps.google.com/?q=37.52211388888889,127.11861388888889",
-          long: "127°7'7.01\"E",
+          long: "127°07'07.01\"E",
         },
         description: "Olypmic Park",
         imgID: "a48fe61a-eb76-42f2-dd2d-e1bca097ff00",
@@ -1552,7 +1552,7 @@ export const blogEntriesSimple = [
         coordinates: {
           lat: "37°32'28.37\"N",
           link: "https://maps.google.com/?q=37.54121388888889,127.06556666666667",
-          long: "127°3'56.04\"E",
+          long: "127°03'56.04\"E",
         },
         description: "Common Ground Shipping Container Shopping Mall",
         imgID: "5ba37d18-a08b-4900-df79-c1f5bff80200",
@@ -1613,16 +1613,185 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "Taiwan 🇹🇼",
+    countryNames: ["Taiwan"],
+    route: "taiwan",
+    flags: ["🇹🇼"],
+    caption: {
+      title: "Taipei, Taiwan 🇹🇼",
+      content:
+        "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
+      publishDate: "August 21, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "25°01'38.93\"N",
+          link: "https://maps.google.com/?q=25.027480555555556,121.57631111111111",
+          long: "121°34'34.72\"E",
+        },
+        description: "Taipei 101 from Elephant Peak",
+        imgID: "2caeb3d8-884b-464b-2188-df43badb0100",
+      },
+      {
+        coordinates: {
+          lat: "25°02'54.48\"N",
+          link: "https://maps.google.com/?q=25.04846666666667,121.5098111111111",
+          long: "121°30'35.32\"E",
+        },
+        description: "Streets of Taipei",
+        imgID: "29b4d8ff-823f-4d87-81d3-15cad82ec600",
+      },
+      {
+        coordinates: {
+          lat: "25°02'13.02\"N",
+          link: "https://maps.google.com/?q=25.03695,121.51727222222222",
+          long: "121°31'2.18\"E",
+        },
+        description: "Liberty Square Arch",
+        imgID: "2ea303fc-0138-419a-2847-9f99aa858300",
+      },
+      {
+        coordinates: {
+          lat: "25°02'60.88\"N",
+          link: "https://maps.google.com/?q=25.035244444444444,121.52076666666666",
+          long: "121°31'14.76\"E",
+        },
+        description: "Chiang Kai-shek Memorial Hall",
+        imgID: "d4d15ecc-67a6-418a-97e3-5d389b21cd00",
+      },
+      {
+        coordinates: {
+          lat: "25°02'12.56\"N",
+          link: "https://maps.google.com/?q=25.036822222222224,121.51886111111111",
+          long: "121°31'7.90\"E",
+        },
+        description: "Boba from Chun Shui Tang (the creators of boba)",
+        imgID: "159b0176-57dd-4097-f262-ea7b0561a100",
+      },
+      {
+        coordinates: {
+          lat: "25°02'0.33\"N",
+          link: "https://maps.google.com/?q=25.033425,121.52985277777778",
+          long: "121°31'47.47\"E",
+        },
+        description: "Yongkang Street",
+        imgID: "f266378d-bb2a-44bb-b902-e7495b428c00",
+      },
+      {
+        coordinates: {
+          lat: "25°03'03.22\"N",
+          link: "https://maps.google.com/?q=25.050894444444445,121.57778888888889",
+          long: "121°34'40.04\"E",
+        },
+        description: "Raohe Street Night Market",
+        imgID: "e1183ccc-6557-4993-a684-c778c7a58700",
+      },
+      {
+        coordinates: {
+          lat: "25°03'05.35\"N",
+          link: "https://maps.google.com/?q=25.05148611111111,121.5778111111111",
+          long: "121°34'40.12\"E",
+        },
+        description: "Songshan Ciyou Temple",
+        imgID: "61aeb775-17c5-4118-9374-0a3f0401bc00",
+      },
+      {
+        coordinates: {
+          lat: "25°06'30.45\"N",
+          link: "https://maps.google.com/?q=25.108458333333335,121.84350555555555",
+          long: "121°50'36.62\"E",
+        },
+        description: "A-Mei Teahouse in Jiufen",
+        imgID: "77c6c922-dfff-4200-509a-aea1fa5c9700",
+      },
+      {
+        coordinates: {
+          lat: "25°06'30.52\"N",
+          link: "https://maps.google.com/?q=25.10847777777778,121.84366666666666",
+          long: "121°50'37.20\"E",
+        },
+        description: "Jiufen Old Street",
+        imgID: "47b06569-d905-4418-baa1-3454d3bfba00",
+      },
+      {
+        coordinates: {
+          lat: "25°06'32.39\"N",
+          link: "https://maps.google.com/?q=25.108997222222225,121.84340555555555",
+          long: "121°50'36.26\"E",
+        },
+        description: "Overlooking the ocean at Jiufen",
+        imgID: "1b7aed54-e139-4059-78ff-d051fee9eb00",
+      },
+      {
+        coordinates: {
+          lat: "25°02'32.79\"N",
+          link: "https://maps.google.com/?q=25.04244166666667,121.50806388888888",
+          long: "121°30'29.03\"E",
+        },
+        description: "Me and Tony 🇹🇼🇨🇦",
+        imgID: "5400850d-3427-4320-2355-71f4269a0800",
+      },
+      {
+        coordinates: {
+          lat: "25°06'02.59\"N",
+          link: "https://maps.google.com/?q=25.100719444444447,121.54942222222222",
+          long: "121°32'57.92\"E",
+        },
+        description: "National Palace Museum",
+        imgID: "9d3a1735-654a-492e-0284-4d104de8c500",
+      },
+      {
+        coordinates: {
+          lat: "25°03'20.43\"N",
+          link: "https://maps.google.com/?q=25.055675,121.5101",
+          long: "121°30'36.36\"E",
+        },
+        description: "Me with my friends Vanessa and Daren",
+        imgID: "965034d0-3779-46a6-3c0a-831b22c64900",
+      },
+      {
+        coordinates: {
+          lat: "25°02'21.03\"N",
+          link: "https://maps.google.com/?q=25.039175,121.49598055555556",
+          long: "121°29'45.53\"E",
+        },
+        description: "Bike ride with Vanessa and Daren",
+        imgID: "d5eef4ba-06aa-4c02-eafe-2f5da8a23300",
+      },
+      {
+        coordinates: {
+          lat: "25°03'22.43\"N",
+          link: "https://maps.google.com/?q=25.056230555555555,121.51528888888889",
+          long: "121°30'55.04\"E",
+        },
+        description: "Unique boba holder!",
+        imgID: "80e152f7-3276-447f-20a4-1a41e9979300",
+      },
+    ],
+  },
+  // [
+  //   {
+  //     imgID: "",
+  //     description: "",
+  //     coordinates: {
+  //       lat: '0"N',
+  //       long: '0"E',
+  //       link: "",
+  //     },
+  //   },
+  // ],
   // {
-  //   pageTitle: "South Korea 🇰🇷",
-  //   countryNames: ["South Korea"],
-  //   route: "south-korea",
-  //   flags: ["🇰🇷"],
+  //   pageTitle: "",
+  //   countryNames: [""],
+  //   route: "",
+  //   flags: [""],
   //   caption: {
-  //     title: "Seoul, South Korea 🇰🇷",
+  //     title: "",
   //     content:
-  //       "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
-  //     publishDate: "September 3, 2023",
+  //       "",
   //   },
   //   previewIdx: 0,
   //   postImages: [
@@ -1636,20 +1805,6 @@ export const blogEntriesSimple = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Taiwan 🇹🇼",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "taiwan",
-  //   flag: "🇹🇼",
   // },
   // {
   //   title: "Philippines 🇵🇭",
