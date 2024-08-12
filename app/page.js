@@ -78,7 +78,7 @@ function AboutSection({}) {
               <b>Name:</b> Chandler Forrest
             </li>
             <li>
-              <b>Location:</b> California (GMT -07:00)
+              <b>Location:</b> Seattle (GMT -07:00)
             </li>
             <li>
               <b>Years of Experience:</b> 5 Years
