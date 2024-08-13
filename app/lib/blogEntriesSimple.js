@@ -1335,7 +1335,7 @@ export const blogEntriesSimple = [
     caption: {
       title: "Beijing | Xi'an | Zhangjiajie, China 🇨🇳",
       content:
-        "The best way to summarize China is that it’s BIG. The National Park in Zhangjiajie? Massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds within Xi’an? Busier than Disneyland on a holiday. The Great Wall? It was so large you could see it far into the horizon without any effort. Beijing? An absolutely gigantic city such that even with a highly optimized public transportation network, it still takes you an hour to get from one site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and say hello to them in their native language. And I’m gonna say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
+        "I never imagined myself visiting China in my lifetime. It wasn't until I met Yao, my old college roommate, study buddy, teammate, and one of my best friends that I felt a desire to go see it for myself. I feel like I always had this made-up scenario where one day he would be visiting his home in Beijing, I would visit China, and he would be able to give me a personal tour. Realizing how absurd that scenario was after visiting him in London last year, I had a hunch that wasn’t going to happen. I needed to make moves on my own.\nAfter months of preparation, I was finally able to visit China! China was the only country where I had no option to obtain an e-visa or a visa on arrival. I had to meticulously plan out my entire trip, print out all the receipts, ticket stubs, and reservations, go into the consulate in San Fransisco with paperwork in hand for a visa interview, wait several hours for my name to be called, explain my reason for visiting China, give them my passport, and then pick it up weeks later. It was a confusing, stressful, and at times arduous process but it was all worth it in the end!\nThe best way to summarize China is that it’s BIG. The National Park in Zhangjiajie had massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds inside the main dig site for the Terracotta Warriors in Xi’an were busier than Disneyland on a holiday. The Great Wall was so large you could see it far into the horizon without effort. Beijing was a gigantic mega city such that even with a highly optimized public transportation network, it still takes you an hour to get from one tourist site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and simply say ‘hello’ to them in their native language. Finally, I’m going to say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
       publishDate: "August 27, 2023",
     },
     previewIdx: 0,
@@ -1467,12 +1467,23 @@ export const blogEntriesSimple = [
         },
       },
       {
-        imgID: "1683cdca-7509-4ac4-e2fa-ccefbc4c6000",
-        description: "Peking duck from Yao's Mom",
+        imgID: "f25aa84c-fd49-40a7-2567-129dadf43400",
+        description:
+          "Yao's Mom treating me to peking duck while I was sick in Beijing.",
         coordinates: {
           lat: "39°55'26.40\"N",
           long: "116°21'47.30\"E",
           link: "https://www.google.com/maps?q=loc:39.924009,116.363136",
+        },
+      },
+      {
+        imgID: "f521eea6-94b1-4087-dd93-a1a8ac198300",
+        description:
+          "Yao's Mom visiting us in college 5 years ago.\n(Yao, Dan, Chet, Me, Mrs. Hu)",
+        coordinates: {
+          lat: "34°24'49.20\"N",
+          long: "119°51'56.70\"W",
+          link: "https://www.google.com/maps?q=loc:34.4136583,-119.8657528",
         },
       },
       {
