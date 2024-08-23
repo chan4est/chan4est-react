@@ -13,13 +13,14 @@ export const metadata = {
 function StackIcon({
   stackImg,
   stackImgAlt,
-  stackText,
+  stackName,
+  stackShortName,
   stackLink,
   scale,
   hasDarkMode,
 }) {
   let imageClass = "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14";
-  let spanClass = "text-xs min-[550px]:text-base min-h-[41px]";
+  let spanClass = "text-xs sm:text-base";
   if (scale == 0.5) {
     imageClass = "w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7";
     spanClass = "text-xs min-[550px]:text-xs min-h-[41px]";
@@ -45,7 +46,8 @@ function StackIcon({
           quality={50}
         />
       </picture>
-      <span className={spanClass}>{stackText}</span>
+      <span className={`hidden sm:block ${spanClass}`}>{stackName}</span>
+      <span className={`block sm:hidden ${spanClass}`}>{stackShortName}</span>
     </a>
   );
 }
@@ -90,7 +92,7 @@ function AboutSection({}) {
               <b>School:</b> UC Santa Barbara
             </li>
             <li>
-              <b>Favorite Languages:</b> Python, JavaScript, Java
+              <b>Favorite Languages:</b> Python & JavaScript
             </li>
           </ul>
         </div>
@@ -193,7 +195,8 @@ function generateStackIconList(techIconsArr, scale = 1) {
         key={item.img}
         stackImg={`${item.img}`}
         stackImgAlt={`${item.name} Logo`}
-        stackText={item.name}
+        stackName={item.name}
+        stackShortName={item.shortName ? item.shortName : item.name}
         stackLink={item.link}
         scale={scale}
         hasDarkMode={item.darkMode2}
@@ -210,11 +213,10 @@ function generateStackIconList(techIconsArr, scale = 1) {
 
 function TechStackSection({}) {
   const languageList = generateStackIconList(techStack.languages);
-  const frameworkList = generateStackIconList(techStack.frameworks);
+  const webList = generateStackIconList(techStack.web);
   const databaseList = generateStackIconList(techStack.databases);
   const infrastructureList = generateStackIconList(techStack.infrastructure);
   const toolsList = generateStackIconList(techStack.tools);
-  const programsList = generateStackIconList(techStack.programs);
 
   return (
     <section id="tech-stack" className="max-w-screen-md">
@@ -242,34 +244,35 @@ function TechStackSection({}) {
         </div>
       </div>
       <p className="pb-2 pt-2">
-        These are the technologies I&apos;ve used during my professional career
-        and would feel confident working with daily.
+        {
+          "These are the technologies I've used during my professional carreer and in personal projects. I'd feel confident working with any of them daily."
+        }
       </p>
       <div className="flex justify-center content-center flex-col pb-10">
-        <h5 className="">Languages</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
+        <h5 className="">Programming Languages</h5>
+        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3 pb-3">
           {languageList}
         </div>
-        <h5 className="">Frameworks</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
-          {frameworkList}
+        <h5 className="">Web Development</h5>
+        <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
+          {webList}
         </div>
         <h5 className="">Databases</h5>
-        <div className="grid grid-cols-4 grid-rows-1 gap-x-5 pt-3">
+        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
           {databaseList}
         </div>
         <h5 className="">Infrastructure</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
+        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
           {infrastructureList}
         </div>
-        <h5 className="">Programs</h5>
-        <div className="grid grid-cols-5 grid-rows-1 gap-x-5 pt-3">
-          {programsList}
-        </div>
-        <h5 className="">Tools</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3">
+        <h5 className="">Tools + Programs</h5>
+        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3 pb-3">
           {toolsList}
         </div>
+        {/* <h5 className="">Tools</h5>
+        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3">
+          {toolsList}
+        </div> */}
       </div>
     </section>
   );

@@ -2,12 +2,12 @@
 export const projectsList = [
   {
     languages: [
-      "javascript",
+      "typescript",
       "react",
       "nextjs",
-      "css",
-      "tailwind",
       "html",
+      "tailwind",
+      "python",
       "vercel",
     ],
     name: "chan4est",
