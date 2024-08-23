@@ -5,6 +5,7 @@ import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
 import { NavBar } from "./components/Navbar";
+import { Links } from "./lib/Links";
 
 export const metadata = {
   title: "chan4est | Home",
@@ -60,7 +61,7 @@ function AboutSection({}) {
         className="flex flex-col md:flex-row items-center justify-center"
       >
         {/* <Link
-          href="/blog"
+          href={Links.BLOG}
           className="hover:scale-105 transition duration-200 ease-in-out"
         > */}
         <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
@@ -110,20 +111,20 @@ function AboutSection({}) {
       <p className="pt-5">
         When I&apos;m not working, I&apos;m usually attending a{" "}
         <a
-          href="https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing"
+          href={Links.CONCERT_SHEET}
           className="underline hover:text-button_inactive"
         >
           concert/music festival
         </a>
         ,{" "}
-        <a
-          href="https://howlongtobeat.com/user/chan4est"
-          className="underline hover:text-button_inactive"
-        >
+        <a href={Links.GAMES} className="underline hover:text-button_inactive">
           playing video games
         </a>
         , or{" "}
-        <Link href="/blog/" className="underline hover:text-button_inactive">
+        <Link
+          href={Links.BLOG}
+          className="underline hover:text-button_inactive"
+        >
           traveling abroad
         </Link>
         !
@@ -137,7 +138,7 @@ function AboutSection({}) {
         className="flex flex-row items-center justify-center gap-5 pt-5"
       >
         <a
-          href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
+          href={Links.EMAIL}
           className="hover:scale-125 transition duration-200 ease-in-out"
           title="Email me"
         >
@@ -150,7 +151,7 @@ function AboutSection({}) {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/chan4est/"
+          href={Links.LINKEDIN}
           className="hover:scale-125 transition duration-200 ease-in-out"
           title="Connect with me on LinkedIn"
         >
@@ -163,7 +164,7 @@ function AboutSection({}) {
           />
         </a>
         <a
-          href="https://github.com/chan4est/"
+          href={Links.GITHUB}
           className="hover:scale-125 transition duration-200 ease-in-out"
           title="View my GitHub"
         >
@@ -224,7 +225,7 @@ function TechStackSection({}) {
         className="flex flex-row justify-center items-center pt-5"
         id="techstack-header"
       >
-        <Link href="/#tech-stack">
+        <Link href={Links.TECH_STACK}>
           <h3 className="pr-3">Tech Stack</h3>
         </Link>
         <div className="w-7 h-7">
@@ -327,7 +328,7 @@ function ProjectsSection({}) {
         className="flex flex-row justify-center items-center pt-5"
         id="projects-header"
       >
-        <Link href="/#projects">
+        <Link href={Links.PROJECTS}>
           <h3 className="pr-3">Projects</h3>
         </Link>
         <div className="w-7 h-7">

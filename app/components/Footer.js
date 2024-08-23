@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Links } from "../lib/Links";
 
 export function Footer({}) {
   let currentDate = new Date();
@@ -8,20 +9,20 @@ export function Footer({}) {
   return (
     <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t border-button_inactive">
       <div>
-        <Link href="/" className="p-1 hover:underline">
+        <Link href={Links.HOME} className="p-1 hover:underline">
           HOME
         </Link>
         {" | "}
-        <Link href="/#tech-stack" className="p-1 hover:underline">
+        <Link href={Links.TECH_STACK} className="p-1 hover:underline">
           TECH STACK
         </Link>
         {" | "}
-        <Link href="/#projects" className="p-1 hover:underline">
+        <Link href={Links.PROJECTS} className="p-1 hover:underline">
           PROJECTS
         </Link>
         {" | "}
         <Link
-          href={"Chandler Forrest Resume.pdf"}
+          href={Links.RESUME}
           locale={false}
           target="_blank"
           className="p-1 hover:underline"
@@ -29,7 +30,7 @@ export function Footer({}) {
           RESUME
         </Link>
         {" | "}
-        <Link href="/blog" className="p-1 hover:underline">
+        <Link href={Links.BLOG} className="p-1 hover:underline">
           BLOG
         </Link>
       </div>
@@ -39,10 +40,7 @@ export function Footer({}) {
           id="contact"
           className="flex flex-row items-center justify-center gap-2 max-w-fit"
         >
-          <a
-            href="mailto:chan4est@gmail.com?subject=I Found Your Website!"
-            className="hover:scale-125"
-          >
+          <a href={Links.EMAIL} className="hover:scale-125">
             <Image
               src={`/tech-icons/gmail.webp`}
               height={15}
@@ -51,10 +49,7 @@ export function Footer({}) {
               quality={50}
             />
           </a>
-          <a
-            href="https://www.linkedin.com/in/chan4est/"
-            className="hover:scale-125"
-          >
+          <a href={Links.LINKEDIN} className="hover:scale-125">
             <Image
               src={`/tech-icons/linkedin.webp`}
               height={15}
@@ -63,7 +58,7 @@ export function Footer({}) {
               quality={50}
             />
           </a>
-          <a href="https://github.com/chan4est/" className="hover:scale-125">
+          <a href={Links.GITHUB} className="hover:scale-125">
             <picture>
               <source
                 srcSet={"/tech-icons/github-w.webp"}

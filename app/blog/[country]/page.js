@@ -3,6 +3,7 @@ import { blogEntriesSimple } from "@/app/lib/blogEntriesSimple";
 import { notFound } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
 import BlogImages from "@/app/components/BlogImages";
+import { Links } from "@/app/lib/Links";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
@@ -31,7 +32,7 @@ export async function generateStaticParams() {
 function BlogBackButton({}) {
   return (
     <Link
-      href="/blog/"
+      href={Links.BLOG}
       className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-3 left-1"
       title="Back"
     >

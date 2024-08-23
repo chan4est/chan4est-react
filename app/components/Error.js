@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Links } from "../lib/Links";
 
 export default function Error({ errorText }) {
   return (
@@ -23,7 +24,7 @@ export default function Error({ errorText }) {
         </p>
         <p>
           Go back to the{" "}
-          <Link className="underline hover:text-blog_accent" href="/">
+          <Link className="underline hover:text-blog_accent" href={Links.HOME}>
             Main Page
           </Link>
         </p>

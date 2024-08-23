@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { Links } from "../lib/Links";
 import { useState, useRef, useEffect } from "react";
 
 function NavBarLink({ href, imgSrc, pText }) {
@@ -111,39 +112,43 @@ export function NavBar({}) {
       </button>
       {isMenuOpen && (
         <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50">
-          <NavBarLink href={"/"} imgSrc={"/header-icons/home"} pText={"Home"} />
           <NavBarLink
-            href={"#tech-stack"}
+            href={Links.HOME}
+            imgSrc={"/header-icons/home"}
+            pText={"Home"}
+          />
+          <NavBarLink
+            href={Links.TECH_STACK}
             imgSrc={"/header-icons/tech-stack"}
             pText={"Tech Stack"}
           />
           <NavBarLink
-            href={"#projects"}
+            href={Links.PROJECTS}
             imgSrc={"/header-icons/projects"}
             pText={"Projects"}
           />
           <NavBarLink
-            href={"/Chandler-Forrest-Resume.pdf"}
+            href={Links.RESUME}
             imgSrc={"/header-icons/resume"}
             pText={"Resume"}
           />
           <NavBarLink
-            href={"/blog"}
+            href={Links.BLOG}
             imgSrc={"/header-icons/blog"}
             pText={"Blog (WIP)"}
           />
           <NavBarAnchor
-            href={"mailto:chan4est@gmail.com?subject=I Found Your Website!"}
+            href={Links.EMAIL}
             imgSrc={"/tech-icons/gmail"}
             pText={"Email"}
           />
           <NavBarAnchor
-            href={"https://www.linkedin.com/in/chan4est/"}
+            href={Links.LINKEDIN}
             imgSrc={"/tech-icons/linkedin"}
             pText={"LinkedIn"}
           />
           <NavBarAnchor
-            href={"https://github.com/chan4est/"}
+            href={Links.GITHUB}
             imgSrc={"/tech-icons/github"}
             pText={"GitHub"}
             hasDarkMode={true}
