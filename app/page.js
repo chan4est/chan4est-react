@@ -92,7 +92,7 @@ function AboutSection({}) {
               <b>School:</b> UC Santa Barbara
             </li>
             <li>
-              <b>Favorite Languages:</b> Python & JavaScript
+              <b>Favorite Languages:</b> Python & TypeScript
             </li>
           </ul>
         </div>
@@ -262,11 +262,11 @@ function TechStackSection({}) {
           {databaseList}
         </div>
         <h5 className="">Infrastructure</h5>
-        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
           {infrastructureList}
         </div>
         <h5 className="">Tools + Programs</h5>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
           {toolsList}
         </div>
         {/* <h5 className="">Tools</h5>

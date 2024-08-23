@@ -205,6 +205,13 @@ export const techIconsData = [
     darkMode: false,
   },
   {
+    name: "Cloudflare",
+    link: "https://www.cloudflare.com/",
+    img: "cloudflare",
+    type: "infrastructure",
+    darkMode: false,
+  },
+  {
     name: "Heroku",
     link: "https://www.heroku.com/",
     img: "heroku",
