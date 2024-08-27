@@ -1624,7 +1624,6 @@ export const blogEntriesSimple = [
       },
     ],
   },
-
   {
     pageTitle: "Taiwan 🇹🇼",
     countryNames: ["Taiwan"],
@@ -1633,7 +1632,7 @@ export const blogEntriesSimple = [
     caption: {
       title: "Taipei, Taiwan 🇹🇼",
       content:
-        "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
+        "Taiwan marks my first stop on my trip around the world! After missing out on visiting during my previous trips to Asia, it felt right to start here. I’d heard endless hype about the food, the people, and the scenery—and it all exceeded my expectations.\nI spent my first day exploring the city the way I always do: trying the national dish (beef noodle soup), then hitting the highlights. Along the way, I got boba from one of the originators, Chun Shui Tang. It was divine so I had to get another one to go. After visiting a few more places I took a sunset hike to the top of Elephant Peak to get an amazing view of Taipei 101. The grueling +90°F heat and the summertime humidity made it Type II fun, but it was 100% worth it! Evenings were reserved for the famous night markets, starting with Raohe St. Night Market. My time in Taiwan repeated this pattern. Food, highlights, more food, and possibly meeting a new friend along the way. It was great but on my last day, I still had a laundry list of things I wanted to do. Luckily there were people to help!\nOn my last night in Taiwan, my friends Darren and Venssa (who I met in Austria last year) rolled up to my hostel on their motorbikes with a spare helmet in hand, ready to hit the town! First, we went to a small Taoist temple where you can pray for good relationships. We then explored Dihua Street, where I learned about the unusual items locals buy, like solidified bird saliva for bird’s nest soup, a delicacy in Asia. We proceeded to the Container Market located next to the Tamsui River to finish off some of the Taiwanese street foods I had yet to try like ló͘-bah-pn̄g (minced pork rice) and ji pai (Taiwanese fried chicken). A 10-minute bike ride then got us to Ningxia Night Market where we had oyster omelets, stinky tofu (not for me), and Taiwanese shaved ice. It was a wonderful experience getting to catch up with my friends and check everything off my list. I’ll always be extremely thankful they were able to take me around like a local. I’ll make sure to return the favor whenever they come and visit me :) \nMy time here wasn’t long, so I’m very eager and excited to visit here again in the future. I feel happy that I was finally able to check Taiwan off my checklist! 謝謝台灣!",
       publishDate: "August 21, 2023",
     },
     previewIdx: 0,
@@ -1784,17 +1783,464 @@ export const blogEntriesSimple = [
       },
     ],
   },
-  // [
-  //   {
-  //     imgID: "",
-  //     description: "",
-  //     coordinates: {
-  //       lat: '0"N',
-  //       long: '0"E',
-  //       link: "",
-  //     },
+  {
+    pageTitle: "Philippines 🇵🇭",
+    countryNames: ["Philippines"],
+    route: "philippines",
+    flags: ["🇵🇭"],
+    caption: {
+      title: "Manila, Philippines",
+      content:
+        "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had literally never had Filipino food (not even Jollibee). The first thing I did was go out with @rafren to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from @emmillenium’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both @rafren and @andrew.s.tan show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in the photo is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing @toroymoi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. Felt so cool just seeing them literally…everywhere! Go out and see them while you can! \nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
+      publishDate: "June 12, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "14°34'19.36\"N",
+          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
+          long: "121°1'5.38\"E",
+        },
+        description: "Hanging off a Jeepney",
+        imgID: "ee4de88c-c159-4196-5ffd-7fde75335700",
+      },
+      {
+        coordinates: {
+          lat: "14°34'19.36\"N",
+          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
+          long: "121°1'5.38\"E",
+        },
+        description: "Sitting in a Jeepney",
+        imgID: "7b774f99-fa2c-4d49-9d5c-2fb01dc03800",
+      },
+      {
+        coordinates: {
+          lat: "14°33'07.90\"N",
+          link: "https://www.google.com/maps?q=loc:14.5521953,121.0203342",
+          long: "121°01'13.20\"E",
+        },
+        description: "Trying all the Philippino food",
+        imgID: "b775d5ec-6b17-4bad-acea-71ac92641300",
+      },
+      {
+        coordinates: {
+          lat: "14°34'55.60\"N ",
+          link: "https://www.google.com/maps?q=loc:14.5821091,120.9780841",
+          long: "120°58'41.10\"E",
+        },
+        description: "Rizal Park",
+        imgID: "279a27db-ca21-4848-ff33-ac9869e7cd00",
+      },
+      {
+        coordinates: {
+          lat: "14°34'10.90\"N ",
+          link: "https://www.google.com/maps?q=loc:14.5696972,121.0246889",
+          long: "121°01'28.90\"E",
+        },
+        description: "Jollibee",
+        imgID: "a2bb7c8a-aa89-459d-fd02-a6b41642f500",
+      },
+      {
+        coordinates: {
+          lat: "14°36'09.10\"N ",
+          link: "https://www.google.com/maps?q=loc:14.6025377,120.97435",
+          long: "120°58'27.70\"E",
+        },
+        description: "Street lamp in Binando",
+        imgID: "6b69b33d-aba3-46ff-91a6-187701d0e000",
+      },
+      {
+        coordinates: {
+          lat: "14°36'10.60\"N",
+          link: "https://www.google.com/maps?q=loc:14.6029334,120.9742911",
+          long: "120°58'27.50\"E",
+        },
+        description: "Rubbing the Buddha's belly",
+        imgID: "8745708e-0d8c-46b9-a874-5b678f5da900",
+      },
+      {
+        coordinates: {
+          lat: "14°36'02.40\"N",
+          link: "https://www.google.com/maps?q=loc:14.6006759,120.9746272",
+          long: "120°58'28.70\"E",
+        },
+        description: "Soup #5",
+        imgID: "cb6f1b13-b9d8-4eab-faa4-ffe6ad525600",
+      },
+      {
+        coordinates: {
+          lat: "14°36'27.60\"N",
+          link: "https://www.google.com/maps/place/14%C2%B036'27.6%22N+120%C2%B058'28.1%22E/@14.607669,120.9738173,346m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d14.607669!4d120.974461?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "120°58'28.10\"E",
+        },
+        description: "Patrick and Andrew outside Seng Guan Temple in Binando",
+        imgID: "26108af2-a641-461c-9713-1dcacbeee000",
+      },
+      {
+        coordinates: {
+          lat: "14°36'27.60\"N",
+          link: "https://www.google.com/maps/place/Seng+Guan+Temple+%E4%BF%A1%E9%A1%98%E5%AF%BA/@14.6076307,120.9745392,92m/data=!3m1!1e3!4m6!3m5!1s0x3397ca0894c577d7:0xdfb8e34d35b1a27c!8m2!3d14.6076382!4d120.9747277!16s%2Fm%2F0115q_05?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "120°58'28.10\"E",
+        },
+        description: "Inside Seng Guan Temple in Binando",
+        imgID: "88d5620a-8849-434c-bb11-b1912cfdfd00",
+      },
+      {
+        coordinates: {
+          lat: "14°36'17.05\"N",
+          link: "https://maps.google.com/?q=14.60473611111111,120.9747388888889",
+          long: "120°58'29.06\"E",
+        },
+        description: "Tricycle with Andrew",
+        imgID: "2b026ac8-e418-4391-26a3-d4f46dc00400",
+      },
+      {
+        coordinates: {
+          lat: "14°35'38.90\"N",
+          link: "https://www.google.com/maps/place/14%C2%B035'38.9%22N+120%C2%B058'13.3%22E/@14.5941216,120.9703846,87m/data=!3m1!1e3!4m4!3m3!8m2!3d14.594147!4d120.970371?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "120°58'13.30\"E",
+        },
+        description: "Fort Santiago",
+        imgID: "e9b49168-61b9-4ac5-5e61-ce7235931100",
+      },
+      {
+        coordinates: {
+          lat: "14°34'29.52\"N",
+          link: "https://maps.google.com/?q=14.574866666666667,121.01958333333333",
+          long: "121°1'10.50\"E",
+        },
+        description: "Rock climbing gym w/ Patrick",
+        imgID: "5c0e71e1-9fa4-4d89-2fb2-9d0428a4d100",
+      },
+      {
+        coordinates: {
+          lat: "14°34'33.05\"N",
+          link: "https://maps.google.com/?q=14.575847222222222,121.01932222222221",
+          long: "121°1'9.56\"E",
+        },
+        description: "Last photo with Patrick for a while",
+        imgID: "65c07058-06b2-4922-98fe-57f4d362ad00",
+      },
+    ],
+  },
+  {
+    pageTitle: "Singapore 🇸🇬",
+    countryNames: ["Singapore"],
+    route: "singapore",
+    flags: ["🇸🇬"],
+    caption: {
+      title: "Singapore 🇸🇬",
+      content:
+        "Singapore was the first place that made me feel like “damn, this is probably what the world will feel like in a few decades”. I had little to no knowledge about the history of Singapore, so it was a great learning experience to understand how the unique mixing pot of Malay, Chinese, and Indian cultures combined to make one highly successful country. The diversity between the three cultures was very intertwined to the point where a lot of signs were written in four different languages (English, Mandarin, Malay, and Tamil). It was so fascinating to me since the only other country I can remember having so many cultures mixed into one is the US, and yet it felt so much different here in Singapore. I loved it so much! \nAll the fantastic things I coincidentally ran into just added to the experience. Like stumbling upon the Pokémon Center right after leaving the airport and getting off at the wrong stop, being directly next to the famous hawker stalls right behind the random hostel I booked, or the fact that nearly all of the sites I wanted to see stemmed from my first stop on my first day of exploring. It all just flowed so well! So immensely happy with my time spent in Singapore and I can’t wait to revisit it far into the future to see how the futuristic city-state can outshine itself once more 💫",
+      publishDate: "June 5, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "01°16'51.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'47.05\"E",
+        },
+        description: "Supertree Grove",
+        imgID: "7f5dbc70-12f5-4aee-2aa7-b730d44dd200",
+      },
+      {
+        coordinates: {
+          lat: "01°16'54.23\"N",
+          link: "https://maps.google.com/?q=1.2817305555555556,103.86427499999999",
+          long: "103°51'51.39\"E",
+        },
+        description: "Walking through Supertree Grove",
+        imgID: "1d4e94aa-153b-485c-013f-8afc2f771400",
+      },
+      {
+        coordinates: {
+          lat: "01°16'51.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'47.05\"E",
+        },
+        description: "Side view of Supertree Grove",
+        imgID: "7b784c27-19d2-4e5e-e5a7-048997ad5500",
+      },
+      {
+        coordinates: {
+          lat: "01°21'38.03\"N",
+          link: "https://www.google.com/maps/place/Pok%C3%A9mon+Center+Singapore/@1.3606388,103.9876832,1431m/data=!3m3!1e3!4b1!5s0x31da3c8963249ae3:0xc478987258a3f6e7!4m6!3m5!1s0x31da3d9e82644471:0xdbba59d3e53a804b!8m2!3d1.3606388!4d103.9902581!16s%2Fg%2F11h6q7qc90?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°59'24.09\"E",
+        },
+        description: "Pokémon Center Singapore",
+        imgID: "4adc2119-12ca-4701-deda-a3f75079ab00",
+      },
+      {
+        coordinates: {
+          lat: "01°21'36.08\"N",
+          link: "https://www.google.com/maps/place/1%C2%B021'36.8%22N+103%C2%B059'22.6%22E/@1.3600658,103.9895668,89m/data=!3m1!1e3!4m4!3m3!8m2!3d1.360219!4d103.989612?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°59'22.06\"E",
+        },
+        description: "Rain Vortex inside Jewel Changi Airport",
+        imgID: "8ca861c6-4499-4263-5619-d59f96c61500",
+      },
+      {
+        coordinates: {
+          lat: "01°16'54.03\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'54.3%22N+103%C2%B050'37.6%22E/@1.2817605,103.8431465,358m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d1.2817605!4d103.8437902?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°50'37.06\"E",
+        },
+        description: "Buddha Tooth Relic Temple",
+        imgID: "a791075e-e177-4973-dd42-23aa3b5b5600",
+      },
+      {
+        coordinates: {
+          lat: "01°16'56.05\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'56.5%22N+103%C2%B050'31.7%22E/@1.2823722,103.8414958,358m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d1.2823722!4d103.8421395?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°50'31.07\"E",
+        },
+        description: "Hawker Stalls",
+        imgID: "ba4856be-f13f-4445-2ce4-4aa524be5200",
+      },
+
+      {
+        coordinates: {
+          lat: "01°17'01.05\"N",
+          link: "https://www.google.com/maps?q=loc:1.283744,103.867492",
+          long: "103°52'03.00\"E",
+        },
+        description: "Multilingual sign in Singapore",
+        imgID: "9ec4ef8e-467f-4be3-9fc8-41ebb91ca000",
+      },
+
+      {
+        coordinates: {
+          lat: "01°18'47.8\"N",
+          link: "https://www.google.com/maps/place/1%C2%B018'47.8%22N+103%C2%B048'54.2%22E/@1.3133337,103.8147287,348m/data=!3m1!1e3!4m4!3m3!8m2!3d1.313266!4d103.81506?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°48'54.02\"E",
+        },
+        description: "Singapore Botanical Gardens",
+        imgID: "3d4beaf2-6415-4d4f-6322-03128387d000",
+      },
+      {
+        coordinates: {
+          lat: "01°16'54.5\"N",
+          link: "https://www.google.com/maps?q=loc:1.2817916,103.8642224",
+          long: "103°51'51.02\"E",
+        },
+        description: "Gardens by the Bay at night",
+        imgID: "458b3213-2f59-4d1a-b00d-2e503375bf00",
+      },
+      {
+        coordinates: {
+          lat: "01°16'57.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'57.6%22N+103%C2%B051'26.2%22E/@1.2833304,103.8563637,585m/data=!3m1!1e3!4m10!1m5!3m4!2zMcKwMTYnNTQuMSJOIDEwM8KwNTEnNTEuOSJF!8m2!3d1.2816944!4d103.8644167!3m3!8m2!3d1.28266!4d103.857288?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'26.02\"E",
+        },
+        description: "Singapore Skyline from Marina Bay Sands",
+        imgID: "d440a151-00da-4ed6-0a1a-4ae474af7900",
+      },
+      {
+        coordinates: {
+          lat: "01°17'19.09\"N",
+          link: "https://www.google.com/maps/place/1%C2%B017'19.9%22N+103%C2%B051'26.1%22E/@1.2885901,103.8568127,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.288864!4d103.857254?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'26.01\"E",
+        },
+        description: "Marina Bay Sands",
+        imgID: "8012f543-bb7f-47c2-4201-406ceb70e000",
+      },
+      {
+        coordinates: {
+          lat: "01°17'17.01\"N ",
+          link: "https://www.google.com/maps/place/Gardens+by+the+Bay+East+(Panoramic+view)/@1.2880001,103.8688871,113m/data=!3m1!1e3!4m6!3m5!1s0x31da19b3ce186ae3:0x30f0c4eb920ff406!8m2!3d1.2881069!4d103.8690209!16s%2Fg%2F11j4yl68yt?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°52'08.05\"E",
+        },
+        description: "Panoramic view of Gardens by the Bay",
+        imgID: "a436f699-c07f-487e-f10e-296238e46800",
+      },
+    ],
+  },
+  // {
+  //   pageTitle: "Thailand 🇹🇭",
+  //   countryNames: ["Thailand"],
+  //   route: "thailand",
+  //   flags: ["🇹🇭"],
+  //   caption: {
+  //     title: "Chiang Mai | Bangkok | Phuket, Thailand 🇹🇭",
+  //     content:
+  //       "Thailand stole my heart! What a marvelous country! Thailand was similar to Italy in my head before this trip because of all the hype and praise I’ve received from other travelers during the last few months. Seemed like a certified must-go destination. Thailand lived up to every single bit of hype that was thrown my way!\nI was super happy I got to experience three different parts of the country. The Northern part with Chiang Mai with the elephant sanctuaries hidden within the hills, the bustling huge legendary mega-city of Bangkok, and the tropical Southern region of Phuket with a day trip out to Phi Phi and surrounding islands! It was just a wonderful rollercoaster of amazing experiences and mind-melting food.\nI also had one of the most stressful experiences on all my travels, my phone getting waterlogged without ever recovering. Thankfully, with the help of @ayatorbey and her husband Anthony, friends I made while on Ko Phi Phi Le, and my Dad relaying my 1Password info and 2FA codes over FaceTime, I was able to get back on my feet with only a half-day of downtime without a phone. I have no idea how people traveled without smartphones and I wasn’t gonna learn lol. Thank you two again so much for all your help! You quite literally saved my trip!",
+  //     publishDate: "May 23, 2023",
   //   },
-  // ],
+  //   previewIdx: 0,
+  //   postImages: [
+  //     {
+  //       coordinates: {
+  //         lat: "13°44'20.39\"N",
+  //         link: "https://maps.google.com/?q=13.73899722222222,100.51201666666667",
+  //         long: "100°30'43.26\"E",
+  //       },
+  //       description: "Bankok's Chinatown",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_elephant_slap.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°43'57.34\"N",
+  //         link: "https://maps.google.com/?q=13.732594444444445,100.53839166666667",
+  //         long: "100°32'18.21\"E",
+  //       },
+  //       description: "./test/th_park.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_phuket_sunset.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "7°40'33.77\"N",
+  //         link: "https://maps.google.com/?q=7.6760472222222225,98.76535",
+  //         long: "98°45'55.26\"E",
+  //       },
+  //       description: "./test/th_island_splash.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_phone.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_working.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°44'48.67\"N",
+  //         link: "https://maps.google.com/?q=13.746852777777777,100.49155555555555",
+  //         long: "100°29'29.60\"E",
+  //       },
+  //       description: "./test/th_big_buddha_close.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_elephant.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_wat_arun_day.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_bangkok_chinatown.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°44'47.21\"N",
+  //         link: "https://maps.google.com/?q=13.746447222222221,100.49148611111112",
+  //         long: "100°29'29.35\"E",
+  //       },
+  //       description: "./test/th_big_buddha.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°45'6.24\"N",
+  //         link: "https://maps.google.com/?q=13.751733333333334,100.49286666666667",
+  //         long: "100°29'34.32\"E",
+  //       },
+  //       description: "./test/th_faces.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_wat_arun_night.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_island.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°44'45.68\"N",
+  //         link: "https://maps.google.com/?q=13.746022222222221,100.49369722222222",
+  //         long: "100°29'37.31\"E",
+  //       },
+  //       description: "./test/th_roofs_close.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "18°47'9.16\"N",
+  //         link: "https://maps.google.com/?q=18.78587777777778,99.00113611111111",
+  //         long: "99°0'4.09\"E",
+  //       },
+  //       description: "./test/th_boxing.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "18°47'17.58\"N",
+  //         link: "https://maps.google.com/?q=18.788216666666667,98.9815",
+  //         long: "98°58'53.40\"E",
+  //       },
+  //       description: "./test/th_golden.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°43'58.52\"N",
+  //         link: "https://maps.google.com/?q=13.732922222222223,100.5408638888889",
+  //         long: "100°32'27.11\"E",
+  //       },
+  //       description: "./test/th_water_monitor.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_snorkel.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_aus.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: { lat: "", link: "", long: "" },
+  //       description: "./test/th_beach.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°45'5.64\"N",
+  //         link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
+  //         long: "100°29'35.01\"E",
+  //       },
+  //       description: "./test/th_roofs.webp",
+  //       imgID: "",
+  //     },
+  //     {
+  //       coordinates: {
+  //         lat: "13°44'48.47\"N",
+  //         link: "https://maps.google.com/?q=13.746797222222222,100.49158611111112",
+  //         long: "100°29'29.71\"E",
+  //       },
+  //       description: "./test/th_big_buddha_face.webp",
+  //       imgID: "",
+  //     },
+  //   ],
+  // },
   // {
   //   pageTitle: "",
   //   countryNames: [""],
@@ -1804,6 +2250,7 @@ export const blogEntriesSimple = [
   //     title: "",
   //     content:
   //       "",
+  //        publishDate: ""
   //   },
   //   previewIdx: 0,
   //   postImages: [
@@ -1817,48 +2264,6 @@ export const blogEntriesSimple = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Philippines 🇵🇭",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "philippines",
-  //   flag: "🇵🇭",
-  // },
-  // {
-  //   title: "Singapore 🇸🇬",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "singapore",
-  //   flag: "🇸🇬",
-  // },
-  // {
-  //   title: "Thailand 🇹🇭",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "thailand",
-  //   flag: "🇹🇭",
   // },
   // {
   //   title: "Cambodia 🇰🇭",

@@ -152,7 +152,6 @@ export const blogEntries = [
     title: "Singapore 🇸🇬",
     folder: "/blog/2023/singapore",
     numImages: 9,
-    text: "Singapore was the first place that made me feel like “damn, this is probably what the world will feel like in a few decades”. I had little to no knowledge about the history of Singapore, so it was a great learning experience to understand how the unique mixing pot of Malay, Chinese, and Indian cultures combined to make one highly successful country. The diversity between the three cultures was very intertwined to the point where a lot of signs were written in four different languages (English, Mandarin, Malay, and Tamil). It was so fascinating to me since the only other country I can remember having so many cultures mixed into one is the US, and yet it felt so much different here in Singapore. I loved it so much! \nAll the fantastic things I coincidentally ran into just added to the experience. Like stumbling upon the Pokémon Center right after leaving the airport and getting off at the wrong stop, being directly next to the famous hawker stalls right behind the random hostel I booked, or the fact that nearly all of the sites I wanted to see stemmed from my first stop on my first day of exploring. It all just flowed so well! So immensely happy with my time spent in Singapore and I can’t wait to revisit it far into the future to see how the futuristic city-state can outshine itself once more 💫",
     location: "Supertree Grove, Gardens by the Bay",
     date: "June 5, 2023",
     preview: 1,

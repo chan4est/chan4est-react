@@ -81,6 +81,15 @@ def process_images(folder_path):
                     })                    
                 except:
                     print("No proper GPS data")
+                    data.append({
+                        "imgID": "",
+                        "description": image_path,
+                        "coordinates": {
+                            "lat": "",
+                            "long": "",
+                            "link": ""
+                        }
+                    })
     # with open("output.json", "w") as f:
         # json.dump(data, f, indent=4)
     pprint(data)
