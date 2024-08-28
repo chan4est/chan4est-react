@@ -1,30 +1,5 @@
 export const blogEntries = [
   {
-    title: "Siem Reap, Cambodia 🇰🇭 ",
-    folder: "/blog/2023/cambodia",
-    numImages: 10,
-    text: "Did a quick stop in Cambodia to see Angkor Wat! Another one of those legendary sites that I’ve seen my entire life and finally had a chance to explore! Such a huge vast and intricate complex!! I was surprised we were able to climb to the top of the center of the temple and by how much freedom they allowed people to explore! The same feeling applies to all the other temples too! It was all so wonderful.\nThe day was made so much better because of some new friends I made, @jandekker_2001 & @stijn.maijer. Together, we spent the whole afternoon exploring multiple temples, cooling down at the hostel pool, and then drinking cheap draft beers. One of the best parts of solo traveling is meeting people you really vibe with and today was no exception! Cheers boys!",
-    location: "Angkor Wat",
-    date: "May 9, 2023",
-    preview: 2,
-    coordinates: [[13.3633, 103.8564]],
-  },
-  {
-    title: "Hanoi | Hoi An | Ho Chi Minh City, Vietnam 🇻🇳",
-    folder: "/blog/2023/vietnam",
-    numImages: 10,
-    text: "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hoi An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
-    location: "Hội An",
-    date: "May 6, 2023",
-    preview: 9,
-    coordinates: [
-      [21.0278, 105.8342],
-      [20.9101, 107.1839],
-      [15.8801, 108.338],
-      [10.8231, 106.6297],
-    ],
-  },
-  {
     title: "Tokyo, Japan 🇯🇵",
     folder: "/blog/2023/tokyo",
     numImages: 10,

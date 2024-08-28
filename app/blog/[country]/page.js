@@ -51,7 +51,8 @@ function BlogBackButton({}) {
 // Shown only in larger window widths (desktops)
 function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
   return (
-    <div className="hidden xl:block">
+    <div className="hidden lg:block">
+      {/* // <div className="block"> */}
       {prevBlogData ? (
         <Link
           href={`/blog/${prevBlogData.route}`}

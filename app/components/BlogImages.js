@@ -122,13 +122,15 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center xl:justify-between h-[20px]">
+    <div className="flex flex-row justify-center lg:justify-between h-[20px]">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
-      <div className="hidden xl:block xl:w-10"></div>
+      {/* <div className="hidden xl:block xl:w-10"></div> */}
+      <div className="hidden lg:block lg:w-10"></div>
       <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
         {scrollSnapsList}
       </div>
-      <div className="hidden xl:flex xl:justify-end">
+      {/* <div className="hidden xl:flex xl:justify-end"> */}
+      <div className="hidden lg:flex lg:justify-end">
         <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
         <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
       </div>

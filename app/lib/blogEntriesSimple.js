@@ -2282,6 +2282,339 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "Cambodia 🇰🇭",
+    countryNames: ["Cambodia"],
+    route: "cambodia",
+    flags: ["🇰🇭"],
+    caption: {
+      title: "Siem Reap, Cambodia 🇰🇭",
+      content:
+        "Did a quick stop in Cambodia to see Angkor Wat! Another one of those legendary sites that I’ve seen my entire life and finally had a chance to explore! Such a huge vast and intricate complex!! I was surprised we were able to climb to the top of the center of the temple and by how much freedom they allowed people to explore! The same feeling applies to all the other temples too! It was all so wonderful.\nThe day was made so much better because of some new friends I made, @jandekker_2001 & @stijn.maijer. Together, we spent the whole afternoon exploring multiple temples, cooling down at the hostel pool, and then drinking cheap draft beers. One of the best parts of solo traveling is meeting people you really vibe with and today was no exception! Cheers boys!",
+
+      date: "",
+      publishDate: "",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "13°24'46.12\"N",
+          link: "https://maps.google.com/?q=13.412811111111111,103.86368611111111",
+          long: "103°51'49.27\"E",
+        },
+        description: "Angkor Wat",
+        imgID: "317860dc-3b5c-4dee-6f29-ad224dd34000",
+      },
+      {
+        coordinates: {
+          lat: "13°24'45.02\"N",
+          link: "https://maps.google.com/?q=13.412505555555557,103.86193888888889",
+          long: "103°51'42.98\"E",
+        },
+        description: "Angkor Wat",
+        imgID: "7b792038-1a93-43c1-fcd8-d0cee4d51100",
+      },
+      {
+        coordinates: {
+          lat: "13°24'44.88\"N",
+          link: "https://maps.google.com/?q=13.412466666666667,103.86525833333333",
+          long: "103°51'54.93\"E",
+        },
+        description: "Peace at Angkor Wat",
+        imgID: "e22723fc-d7e6-4165-1162-74b060b8f500",
+      },
+      {
+        coordinates: {
+          lat: "13°24'44.71\"N",
+          link: "https://maps.google.com/?q=13.412419444444446,103.86685833333333",
+          long: "103°52'00.69\"E",
+        },
+        description: "Top of Angkor Wat",
+        imgID: "0f7c2855-8f32-4ef2-12cb-77d2d1a05f00",
+      },
+      {
+        coordinates: {
+          lat: "13°27'41.86\"N",
+          link: "https://maps.google.com/?q=13.461627777777776,103.87290833333333",
+          long: "103°52'22.47\"E",
+        },
+        description: "Lion Statue at Angkor Wat",
+        imgID: "475d7b6d-dd66-4adc-88f6-e3b4f604ba00",
+      },
+      {
+        coordinates: {
+          lat: "13°24'44.57\"N",
+          link: "https://maps.google.com/?q=13.412380555555556,103.86888055555555",
+          long: "103°52'07.97\"E",
+        },
+        description: "Backside of Angkor Wat",
+        imgID: "1dd6d075-87b8-4bcc-bcb2-d0b95cb3d200",
+      },
+      {
+        coordinates: {
+          lat: "13°27'42.35\"N",
+          link: "https://maps.google.com/?q=13.461763888888887,103.87143611111111",
+          long: "103°52'17.17\"E",
+        },
+        description: "Stijn and Jan 🇳🇱",
+        imgID: "73bed8b9-0e52-4a8a-60ac-2080fc357c00",
+      },
+      {
+        coordinates: {
+          lat: "13°26'05.77\"N",
+          link: "https://maps.google.com/?q=13.434936111111112,103.89036666666668",
+          long: "103°53'25.32\"E",
+        },
+        description: "Famous tree at Ta Prohm Temple",
+        imgID: "abb6d250-4765-4a30-f034-944f9a5f9900",
+      },
+      {
+        coordinates: {
+          lat: "13°26'29.88\"N",
+          link: "https://maps.google.com/?q=13.441633333333334,103.85841388888889",
+          long: "103°51'30.29\"E",
+        },
+        description: "Bayon Temple",
+        imgID: "eb42908d-9a26-4f83-69e0-dd77978c9a00",
+      },
+      {
+        coordinates: {
+          lat: "13°26'28.51\"N",
+          link: "https://maps.google.com/?q=13.441252777777779,103.85828333333333",
+          long: "103°51'29.82\"E",
+        },
+        description: "Wild Monkey at Bayon Temple",
+        imgID: "de0176ce-4514-4b41-fe15-b8c5772cf200",
+      },
+      {
+        coordinates: {
+          lat: "13°26'28.87\"N",
+          link: "https://maps.google.com/?q=13.441352777777778,103.85834444444444",
+          long: "103°51'30.04\"E",
+        },
+        description: "Ancient Wall at Bayon Temple",
+        imgID: "46d99b69-e401-42dd-0604-077908584200",
+      },
+      {
+        coordinates: {
+          lat: "13°25'38.05\"N",
+          link: "https://maps.google.com/?q=13.42723611111111,103.85951944444444",
+          long: "103°51'34.27\"E",
+        },
+        description: "Tonle Om Gate",
+        imgID: "3bf076c5-7a93-42c3-317c-b135f2d67a00",
+      },
+      {
+        coordinates: {
+          lat: "13°24'42.40\"N",
+          link: "https://maps.google.com/?q=13.411777777777779,103.85968888888888",
+          long: "103°51'34.88\"E",
+        },
+        description: "Angkor Wat at night",
+        imgID: "80fd6524-e199-4022-4b35-b0cfcf213800",
+      },
+    ],
+  },
+  {
+    pageTitle: "Vietnam 🇻🇳",
+    countryNames: ["Vietnam"],
+    route: "vietnam",
+    flags: ["🇻🇳"],
+    caption: {
+      title: "Hanoi | Hoi An | Ho Chi Minh City, Vietnam 🇻🇳",
+      content:
+        "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hoi An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
+      publishDate: "May 6, 2023",
+    },
+    previewIdx: 16,
+    postImages: [
+      {
+        coordinates: {
+          lat: "21°02'01.28\"N",
+          link: "https://maps.google.com/?q=21.03368888888889,105.85208055555555",
+          long: "105°51'07.49\"E",
+        },
+        description: "Streets of Hanoi",
+        imgID: "eb4a1cd9-b3f9-439d-77d7-b652ac794a00",
+      },
+      {
+        coordinates: {
+          lat: "21°02'53.45\"N",
+          link: "https://maps.google.com/?q=21.048180555555557,105.83764722222222",
+          long: "105°50'15.53\"E",
+        },
+        description: "Tran Quoc Pagoda",
+        imgID: "df9ea02b-7479-4113-2793-09020b101000",
+      },
+      {
+        coordinates: {
+          lat: "21°01'03.78\"N",
+          link: "https://maps.google.com/?q=21.017716666666665,105.84089999999999",
+          long: "105°50'27.24\"E",
+        },
+        description: "Narrow train tracks in Hanoi",
+        imgID: "35975d6e-5224-4fb6-b66a-1e5f89632a00",
+      },
+
+      {
+        coordinates: {
+          lat: "20°50'38.94\"N",
+          link: "https://maps.google.com/?q=20.84415,107.09148333333333",
+          long: "107°05'29.34\"E",
+        },
+        description: "Halong Bay",
+        imgID: "d4a4a991-3690-4196-e45a-e11163fccd00",
+      },
+      {
+        coordinates: {
+          lat: "20°51'34.19\"N",
+          link: "https://maps.google.com/?q=20.859497222222224,107.0802861111111",
+          long: "107°04'49.03\"E",
+        },
+        description: "Ti Top Island",
+        imgID: "005f3489-1921-4cff-c2a4-a93858e07200",
+      },
+      {
+        coordinates: {
+          lat: "20°51'30.04\"N",
+          link: "https://www.google.com/maps?q=loc:20.8584528,107.0804139",
+          long: "107°04'49.05\"E",
+        },
+        description: "Dip in Halong Bay",
+        imgID: "ab3101fa-2f30-40f8-95aa-738a8b686000",
+      },
+      {
+        coordinates: {
+          lat: "20°51'08.07\"N",
+          link: "https://www.google.com/maps?q=loc:20.8524056,107.0953222",
+          long: "107°05'43.02\"E",
+        },
+        description: "Paradise",
+        imgID: "89960004-8147-416e-c7be-aee54f9f4600",
+      },
+      {
+        coordinates: {
+          lat: "20°51'05.07\"N",
+          link: "https://maps.google.com/?q=20.851408333333335,107.09608333333333",
+          long: "107°05'45.90\"E",
+        },
+        description: "Boat ride in Halong Bay",
+        imgID: "58f1c98c-676d-423c-d2cd-b65bb0fb6400",
+      },
+      {
+        coordinates: {
+          lat: "20°51'12.11\"N",
+          link: "https://maps.google.com/?q=20.85336388888889,107.09485",
+          long: "107°05'41.46\"E",
+        },
+        description: "Sung Sot Cave",
+        imgID: "2ce1277d-56e0-4a7c-fe06-d078c6d91a00",
+      },
+
+      {
+        coordinates: {
+          lat: "15°52'37.13\"N",
+          link: "https://maps.google.com/?q=15.876980555555557,108.32602777777777",
+          long: "108°19'33.70\"E",
+        },
+        description: "Chùa Cầu in Hội An",
+        imgID: "99d2f608-fb80-4717-eb1d-3b4550c5b500",
+      },
+      {
+        coordinates: {
+          lat: "15°52'34.77\"N",
+          link: "https://maps.google.com/?q=15.876325000000001,108.32659166666666",
+          long: "108°19'35.73\"E",
+        },
+        description: "Boat ride in Hội An",
+        imgID: "4288ab85-4257-4c94-fb49-129ea09e8e00",
+      },
+      {
+        coordinates: {
+          lat: "15°52'33.94\"N",
+          link: "https://maps.google.com/?q=15.876094444444444,108.32741388888888",
+          long: "108°19'38.69\"E",
+        },
+        description: "Peace from Hội An",
+        imgID: "b3b01498-8754-4a72-de45-6e6cceda8500",
+      },
+      {
+        coordinates: {
+          lat: "15°52'35.29\"N",
+          link: "https://maps.google.com/?q=15.876469444444444,108.32591944444444",
+          long: "108°19'33.31\"E",
+        },
+        description: "Floating lantern in Hội An",
+        imgID: "d7f9cc8d-f9ee-4866-d846-03758c38c500",
+      },
+      {
+        coordinates: {
+          lat: "15°52'33.62\"N",
+          link: "https://maps.google.com/?q=15.876005555555556,108.32698055555555",
+          long: "108°19'37.13\"E",
+        },
+        description: "Hội An at night",
+        imgID: "ba2eb875-de4f-4c4f-6b45-8963082e1800",
+      },
+
+      {
+        coordinates: {
+          lat: "16°01'32.73\"N",
+          link: "https://maps.google.com/?q=16.025758333333332,108.03149444444445",
+          long: "108°01'53.38\"E",
+        },
+        description: "Cable cars to the Golden Bridge",
+        imgID: "0f4df11e-050a-409c-f468-2259f043ab00",
+      },
+      {
+        coordinates: {
+          lat: "15°59'41.09\"N",
+          link: "https://maps.google.com/?q=15.994747222222221,107.99665",
+          long: "107°59'47.94\"E",
+        },
+        description: "Golden Bridge in Da Nang",
+        imgID: "4dc250ef-5fb5-47ed-e1d4-c04e1e83e200",
+      },
+
+      {
+        coordinates: {
+          lat: "10°46'33.03\"N",
+          link: "https://maps.google.com/?q=10.775841666666668,106.70178888888888",
+          long: "106°42'06.44\"E",
+        },
+        description: "Statue of Ho Chi Minh",
+        imgID: "e07e5afa-60dc-4439-2e98-0c19132b6600",
+      },
+      {
+        coordinates: {
+          lat: "10°46'18.40\"N",
+          link: "https://maps.google.com/?q=10.771777777777778,106.6984638888889",
+          long: "106°41'54.47\"E",
+        },
+        description: "Ben Thanh Market",
+        imgID: "ccb1ef3a-3d7c-4f4e-fa11-8a5a1092ae00",
+      },
+      {
+        coordinates: {
+          lat: "10°46'47.38\"N",
+          link: "https://maps.google.com/?q=10.77982777777778,106.69988888888889",
+          long: "106°41'59.60\"E",
+        },
+        description: "Saigon Central Post Office",
+        imgID: "ef7e93b8-0b7f-4283-5111-0f4193a5ee00",
+      },
+      {
+        coordinates: {
+          lat: "10°46'45.74\"N",
+          link: "https://maps.google.com/?q=10.779372222222223,106.69248888888889",
+          long: "106°41'32.96\"E",
+        },
+        description: "War Remnants Museum",
+        imgID: "c4de5915-e81f-47f4-6962-8aeb7371e800",
+      },
+    ],
+  },
   // {
   //   pageTitle: "",
   //   countryNames: [""],
@@ -2305,20 +2638,6 @@ export const blogEntriesSimple = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Cambodia 🇰🇭",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "cambodia",
-  //   flag: "🇰🇭",
   // },
   // {
   //   title: "Vietnam 🇻🇳",

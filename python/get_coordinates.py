@@ -30,7 +30,7 @@ def decimal_to_dms(latitude, longitude):
         else:
             direction = 'E' if degrees >= 0 else 'W'
         degrees = abs(degrees)
-        return f"{degrees}°{minutes}'{seconds:.2f}\"{direction}"
+        return f"{degrees:02d}°{minutes:02d}'{seconds:05.2f}\"{direction}"
     
     lat_dms = convert_to_dms(latitude)
     lon_dms = convert_to_dms(longitude)
@@ -79,8 +79,9 @@ def process_images(folder_path):
                             "link": gMaps
                         }
                     })                    
-                except:
-                    print("No proper GPS data")
+                except Exception as e:
+                    print(e)
+                    # print("No proper GPS data")
                     data.append({
                         "imgID": "",
                         "description": image_path,
@@ -95,5 +96,5 @@ def process_images(folder_path):
     pprint(data)
 
 if __name__ == "__main__":
-    folder_path = "./test/"
+    folder_path = "./images/"
     process_images(folder_path)
