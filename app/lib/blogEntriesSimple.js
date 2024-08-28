@@ -1791,34 +1791,26 @@ export const blogEntriesSimple = [
     caption: {
       title: "Manila, Philippines",
       content:
-        "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had literally never had Filipino food (not even Jollibee). The first thing I did was go out with @rafren to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from @emmillenium’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both @rafren and @andrew.s.tan show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in the photo is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing @toroymoi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. Felt so cool just seeing them literally…everywhere! Go out and see them while you can! \nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
+        "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had never had Filipino food (not even Jollibee). The first thing I did was go out with Patrick to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from my S/O’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both Patrick and Andrew show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in one of the photos is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing Toro y Moi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. It felt so cool just seeing them literally…everywhere! Go out and see them while you can!\nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
       publishDate: "June 12, 2023",
     },
     previewIdx: 0,
     postImages: [
       {
         coordinates: {
-          lat: "14°34'19.36\"N",
-          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
-          long: "121°1'5.38\"E",
+          lat: "14°35'34.05\"N",
+          link: "https://www.google.com/maps/place/14%C2%B035'34.5%22N+120%C2%B058'17.3%22E/@14.5930153,120.9714378,138m/data=!3m1!1e3!4m13!1m8!3m7!1s0x3397ca3d1375e1fb:0x49ebfa658c0ba08!2sIntramuros,+Manila,+1002+Metro+Manila,+Philippines!3b1!8m2!3d14.5895972!4d120.9747258!16zL20vMDNiNWps!3m3!8m2!3d14.592919!4d120.971478?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+          long: "120°58'17.03\"E",
         },
-        description: "Hanging off a Jeepney",
-        imgID: "ee4de88c-c159-4196-5ffd-7fde75335700",
+        description: "Intramuros",
+        imgID: "7583e112-6af4-451e-d56e-4480bbb41c00",
       },
+
       {
         coordinates: {
-          lat: "14°34'19.36\"N",
-          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
-          long: "121°1'5.38\"E",
-        },
-        description: "Sitting in a Jeepney",
-        imgID: "7b774f99-fa2c-4d49-9d5c-2fb01dc03800",
-      },
-      {
-        coordinates: {
-          lat: "14°33'07.90\"N",
-          link: "https://www.google.com/maps?q=loc:14.5521953,121.0203342",
-          long: "121°01'13.20\"E",
+          lat: "14°33'07.07\"N",
+          link: "https://www.google.com/maps/place/Manam+Greenbelt/@14.5520314,121.0210468,119m/data=!3m1!1e3!4m12!1m5!3m4!2zMTTCsDMzJzA3LjIiTiAxMjHCsDAxJzE1LjciRQ!8m2!3d14.5519914!4d121.0210328!3m5!1s0x3397c9106c8ccce1:0xdb36369fb183ccec!8m2!3d14.5519212!4d121.0212591!16s%2Fg%2F12qgkd_7s?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+          long: "121°01'16.04\"E",
         },
         description: "Trying all the Philippino food",
         imgID: "b775d5ec-6b17-4bad-acea-71ac92641300",
@@ -1903,6 +1895,24 @@ export const blogEntriesSimple = [
         },
         description: "Fort Santiago",
         imgID: "e9b49168-61b9-4ac5-5e61-ce7235931100",
+      },
+      {
+        coordinates: {
+          lat: "14°34'19.36\"N",
+          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
+          long: "121°1'5.38\"E",
+        },
+        description: "Hanging off a Jeepney",
+        imgID: "ee4de88c-c159-4196-5ffd-7fde75335700",
+      },
+      {
+        coordinates: {
+          lat: "14°34'19.36\"N",
+          link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
+          long: "121°1'5.38\"E",
+        },
+        description: "Sitting in a Jeepney",
+        imgID: "7b774f99-fa2c-4d49-9d5c-2fb01dc03800",
       },
       {
         coordinates: {
@@ -2058,189 +2068,220 @@ export const blogEntriesSimple = [
       },
     ],
   },
-  // {
-  //   pageTitle: "Thailand 🇹🇭",
-  //   countryNames: ["Thailand"],
-  //   route: "thailand",
-  //   flags: ["🇹🇭"],
-  //   caption: {
-  //     title: "Chiang Mai | Bangkok | Phuket, Thailand 🇹🇭",
-  //     content:
-  //       "Thailand stole my heart! What a marvelous country! Thailand was similar to Italy in my head before this trip because of all the hype and praise I’ve received from other travelers during the last few months. Seemed like a certified must-go destination. Thailand lived up to every single bit of hype that was thrown my way!\nI was super happy I got to experience three different parts of the country. The Northern part with Chiang Mai with the elephant sanctuaries hidden within the hills, the bustling huge legendary mega-city of Bangkok, and the tropical Southern region of Phuket with a day trip out to Phi Phi and surrounding islands! It was just a wonderful rollercoaster of amazing experiences and mind-melting food.\nI also had one of the most stressful experiences on all my travels, my phone getting waterlogged without ever recovering. Thankfully, with the help of @ayatorbey and her husband Anthony, friends I made while on Ko Phi Phi Le, and my Dad relaying my 1Password info and 2FA codes over FaceTime, I was able to get back on my feet with only a half-day of downtime without a phone. I have no idea how people traveled without smartphones and I wasn’t gonna learn lol. Thank you two again so much for all your help! You quite literally saved my trip!",
-  //     publishDate: "May 23, 2023",
-  //   },
-  //   previewIdx: 0,
-  //   postImages: [
-  //     {
-  //       coordinates: {
-  //         lat: "13°44'20.39\"N",
-  //         link: "https://maps.google.com/?q=13.73899722222222,100.51201666666667",
-  //         long: "100°30'43.26\"E",
-  //       },
-  //       description: "Bankok's Chinatown",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_elephant_slap.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°43'57.34\"N",
-  //         link: "https://maps.google.com/?q=13.732594444444445,100.53839166666667",
-  //         long: "100°32'18.21\"E",
-  //       },
-  //       description: "./test/th_park.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_phuket_sunset.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "7°40'33.77\"N",
-  //         link: "https://maps.google.com/?q=7.6760472222222225,98.76535",
-  //         long: "98°45'55.26\"E",
-  //       },
-  //       description: "./test/th_island_splash.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_phone.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_working.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°44'48.67\"N",
-  //         link: "https://maps.google.com/?q=13.746852777777777,100.49155555555555",
-  //         long: "100°29'29.60\"E",
-  //       },
-  //       description: "./test/th_big_buddha_close.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_elephant.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_wat_arun_day.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_bangkok_chinatown.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°44'47.21\"N",
-  //         link: "https://maps.google.com/?q=13.746447222222221,100.49148611111112",
-  //         long: "100°29'29.35\"E",
-  //       },
-  //       description: "./test/th_big_buddha.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°45'6.24\"N",
-  //         link: "https://maps.google.com/?q=13.751733333333334,100.49286666666667",
-  //         long: "100°29'34.32\"E",
-  //       },
-  //       description: "./test/th_faces.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_wat_arun_night.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_island.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°44'45.68\"N",
-  //         link: "https://maps.google.com/?q=13.746022222222221,100.49369722222222",
-  //         long: "100°29'37.31\"E",
-  //       },
-  //       description: "./test/th_roofs_close.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "18°47'9.16\"N",
-  //         link: "https://maps.google.com/?q=18.78587777777778,99.00113611111111",
-  //         long: "99°0'4.09\"E",
-  //       },
-  //       description: "./test/th_boxing.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "18°47'17.58\"N",
-  //         link: "https://maps.google.com/?q=18.788216666666667,98.9815",
-  //         long: "98°58'53.40\"E",
-  //       },
-  //       description: "./test/th_golden.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°43'58.52\"N",
-  //         link: "https://maps.google.com/?q=13.732922222222223,100.5408638888889",
-  //         long: "100°32'27.11\"E",
-  //       },
-  //       description: "./test/th_water_monitor.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_snorkel.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_aus.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: { lat: "", link: "", long: "" },
-  //       description: "./test/th_beach.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°45'5.64\"N",
-  //         link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
-  //         long: "100°29'35.01\"E",
-  //       },
-  //       description: "./test/th_roofs.webp",
-  //       imgID: "",
-  //     },
-  //     {
-  //       coordinates: {
-  //         lat: "13°44'48.47\"N",
-  //         link: "https://maps.google.com/?q=13.746797222222222,100.49158611111112",
-  //         long: "100°29'29.71\"E",
-  //       },
-  //       description: "./test/th_big_buddha_face.webp",
-  //       imgID: "",
-  //     },
-  //   ],
-  // },
+  {
+    pageTitle: "Thailand 🇹🇭",
+    countryNames: ["Thailand"],
+    route: "thailand",
+    flags: ["🇹🇭"],
+    caption: {
+      title: "Chiang Mai | Bangkok | Phuket, Thailand 🇹🇭",
+      content:
+        "Thailand stole my heart! What a marvelous country! Thailand was similar to Italy in my head before this trip because of all the hype and praise I’ve received from other travelers during the last few months. Seemed like a certified must-go destination. Thailand lived up to every single bit of hype that was thrown my way!\nI was super happy I got to experience three different parts of the country. The Northern part with Chiang Mai with the elephant sanctuaries hidden within the hills, the bustling huge legendary mega-city of Bangkok, and the tropical Southern region of Phuket with a day trip out to Phi Phi and surrounding islands! It was just a wonderful rollercoaster of amazing experiences and mind-melting food.\nI also had one of the most stressful experiences on all my travels, my phone getting waterlogged without ever recovering. Thankfully, with the help of Aya and her husband Anthony, friends I made while on Ko Phi Phi Le, and my Dad relaying my 1Password info and 2FA codes over FaceTime, I was able to get back on my feet with only a half-day of downtime without a phone. I have no idea how people traveled without smartphones and I wasn’t gonna learn lol. I’ll always be thankful for the help they provided. so much for all your help! They quite literally saved my trip! ",
+      publishDate: "May 23, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "13°45'5.64\"N",
+          link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
+          long: "100°29'35.01\"E",
+        },
+        description: "Tiled rooftops at The Grand Palace",
+        imgID: "b95df11f-2944-42e8-cfb5-a04024de4300",
+      },
+      {
+        coordinates: {
+          lat: "18°47'17.58\"N",
+          link: "https://maps.google.com/?q=18.788216666666667,98.9815",
+          long: "98°58'53.40\"E",
+        },
+        description: "Wat Phra Singh",
+        imgID: "7e22e479-94ee-4c85-4dc6-25ec7015e300",
+      },
+      {
+        coordinates: {
+          lat: "18°47'09.16\"N",
+          link: "https://maps.google.com/?q=18.78587777777778,99.00113611111111",
+          long: "99°00'04.09\"E",
+        },
+        description: "Muay Thai match in Chiang Mai",
+        imgID: "2ed1bf48-c003-48d2-50e6-31f09bed8700",
+      },
+      {
+        coordinates: {
+          lat: "19°08'02.07\"N",
+          link: "https://www.google.com/maps?q=loc:19.1340806,98.8790389",
+          long: "98°52'44.95\"E",
+        },
+        description: "Photo with Moji at Elephant Rescue Park",
+        imgID: "bcc8d8de-5267-41b5-ee4e-9b926476b500",
+      },
+      {
+        coordinates: {
+          lat: "19°08'02.01\"N",
+          link: "https://www.google.com/maps/place/19%C2%B008'02.1%22N+98%C2%B052'42.3%22E/@19.1339103,98.8772113,261m/data=!3m2!1e3!4b1!4m10!1m5!3m4!2zMTnCsDA4JzAyLjUiTiA5OMKwNTInNDMuMyJF!8m2!3d19.1340344!4d98.8787032!3m3!8m2!3d19.133909!4d98.878429?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+          long: "98°52'42.03\"E",
+        },
+        description: "Getting slapped by an elephant",
+        imgID: "b7cc89ab-30c7-49ce-c6bf-40a2bac41400",
+      },
+      {
+        coordinates: {
+          lat: "19°08'09.01\"N",
+          link: "https://www.google.com/maps?q=loc:19.1358639,98.8790917",
+          long: "98°52'44.07\"E",
+        },
+        description: "Moving the banana tree",
+        imgID: "e17d7b30-ebfc-4ea6-2748-5e619ddfbd00",
+      },
+      {
+        coordinates: {
+          lat: "13°44'38.02\"N",
+          link: "https://www.google.com/maps?q=loc:13.7439361,100.4886556",
+          long: "100°29'19.02\"E",
+        },
+        description: "Wat Arun during the day",
+        imgID: "4868315d-8dbf-40cb-7f55-2a40276e8200",
+      },
+      {
+        coordinates: {
+          lat: "13°44'39.05\"N",
+          link: "https://www.google.com/maps?q=loc:13.7443167,100.4892806",
+          long: "100°29'21.04\"E",
+        },
+        description: "Wat Arun at night",
+        imgID: "b9f0f3ce-526d-40bf-a064-f3f32c8de300",
+      },
+      {
+        coordinates: {
+          lat: "13°44'26.06\"N",
+          link: "https://www.google.com/maps?q=loc:13.7407167,100.5089333",
+          long: "100°30'32.02\"E",
+        },
+        description: "Bankok's Chinatown",
+        imgID: "154382b3-a9ca-4f83-fb2d-76497f46ef00",
+      },
+      {
+        coordinates: {
+          lat: "13°44'20.39\"N",
+          link: "https://maps.google.com/?q=13.73899722222222,100.51201666666667",
+          long: "100°30'43.26\"E",
+        },
+        description: "Bankok's Chinatown",
+        imgID: "941e01dc-2337-4f7d-ef04-0ab417a44f00",
+      },
+      {
+        coordinates: {
+          lat: "13°45'06.24\"N",
+          link: "https://maps.google.com/?q=13.751733333333334,100.49286666666667",
+          long: "100°29'34.32\"E",
+        },
+        description: "Statues at the Grand Palace",
+        imgID: "71ffb22b-e874-4ef0-b9f5-b22c0aada400",
+      },
+      {
+        coordinates: {
+          lat: "13°44'47.21\"N",
+          link: "https://maps.google.com/?q=13.746447222222221,100.49148611111112",
+          long: "100°29'29.35\"E",
+        },
+        description: "Reclining Buddha at Wat Pho",
+        imgID: "b40b0efe-d25f-4c1f-cb67-fc884a492400",
+      },
+      {
+        coordinates: {
+          lat: "13°45'5.64\"N",
+          link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
+          long: "100°29'35.01\"E",
+        },
+        description: "Tiled rooftops at The Grand Palace",
+        imgID: "30c32620-cbe7-437a-0226-83aac2600700",
+      },
+      {
+        coordinates: {
+          lat: "13°43'57.34\"N",
+          link: "https://maps.google.com/?q=13.732594444444445,100.53839166666667",
+          long: "100°32'18.21\"E",
+        },
+        description: "Lumphini Park",
+        imgID: "0d5eaa90-4df1-46d4-c1a3-404f7d9f2800",
+      },
+      {
+        coordinates: {
+          lat: "13°43'58.52\"N",
+          link: "https://maps.google.com/?q=13.732922222222223,100.5408638888889",
+          long: "100°32'27.11\"E",
+        },
+        description: "Water Monitor walking by a cat",
+        imgID: "d99d3053-81f4-4544-93c7-fd0d08c33800",
+      },
+      {
+        coordinates: {
+          lat: "07°41'26.05\"N",
+          link: "https://www.google.com/maps?q=loc:7.6907,98.7677",
+          long: "98°46'03.07\"E",
+        },
+        description: "Snorkling at Ko Phi Phi Lee",
+        imgID: "b773ead9-1307-4498-672c-142503473100",
+      },
+      {
+        coordinates: {
+          lat: "07°40'33.77\"N",
+          link: "https://maps.google.com/?q=7.6760472222222225,98.76535",
+          long: "98°45'55.26\"E",
+        },
+        description: "Maya Bay",
+        imgID: "b61d023d-0949-43ba-9d76-04fbaf07c900",
+      },
+      {
+        coordinates: {
+          lat: "07°40'33.77\"N",
+          link: "https://maps.google.com/?q=7.6760472222222225,98.76535",
+          long: "98°45'55.26\"E",
+        },
+        description: "Maya Bay",
+        imgID: "d1fc83c0-fea0-4fb7-9208-db8437dea200",
+      },
+      {
+        coordinates: {
+          lat: "07°44'06.08\"N",
+          link: "https://www.google.com/maps/place/7%C2%B044'06.8%22N+98%C2%B047'20.0%22E/@7.7350537,98.7886497,317m/data=!3m1!1e3!4m4!3m3!8m2!3d7.735233!4d98.788895?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+          long: "98°47'20.00\"E",
+        },
+        description: "Loh Moo Dee Beach",
+        imgID: "7744532b-a304-4ff2-cf15-e96f7a6aad00",
+      },
+      {
+        coordinates: {
+          lat: "07°52'37.08\"N",
+          link: "https://www.google.com/maps?q=loc:7.8771528,98.4285806",
+          long: "98°25'42.09\"E",
+        },
+        description: "Waterlogged phone's last connection",
+        imgID: "bb363679-a02c-414b-3014-fd92f4fd1000",
+      },
+      {
+        coordinates: {
+          lat: "07°52'14.04\"N",
+          link: "https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.371369,8764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+          long: "98°23'53.09\"E",
+        },
+        description:
+          "Australian couple who helped me with acquiring a new phone",
+        imgID: "cb889ff2-cf6e-4e08-d505-f4a1a8692e00",
+      },
+      {
+        coordinates: {
+          lat: "07°52'46.05\"N",
+          link: "https://www.google.com/maps?q=loc:7.8795694,98.4292222",
+          long: "98°25'45.02\"E",
+        },
+        description: "Sunset in Phuket",
+        imgID: "cb31632a-abef-495d-21ba-0134ea531e00",
+      },
+    ],
+  },
   // {
   //   pageTitle: "",
   //   countryNames: [""],

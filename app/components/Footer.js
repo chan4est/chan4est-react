@@ -31,7 +31,7 @@ export function Footer({}) {
         </Link>
         {" | "}
         <Link href={Links.BLOG} className="p-1 hover:underline">
-          BLOG
+          BLOG (WIP)
         </Link>
       </div>
       <div className="flex flex-row gap-2 justify-center align-center text-center pt-2">
