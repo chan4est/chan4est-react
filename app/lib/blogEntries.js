@@ -1,15 +1,5 @@
 export const blogEntries = [
   {
-    title: "Tokyo, Japan 🇯🇵",
-    folder: "/blog/2023/tokyo",
-    numImages: 10,
-    text: "The city that made me fall in love with Japan! Due to my chaotic itinerary, I stopped in Tokyo FOUR separate times within a single trip to Japan! It’s the city I spent over half my time in and I still didn’t have enough waking hours to do everything I wanted! It’s crazy how much there is to do within this city. I’ll cherish walking down the densely packed neon-lit streets, making wonderful memories with all my friends, being able to find a konbini at all times, and my Suica card 🐧\nI cannot wait to visit Tokyo many MANY more times in my lifetime!\nありがとうございます東京 🗼",
-    location: "Tokyo, Japan",
-    date: "April 24, 2023",
-    preview: 3,
-    coordinates: [[35.6764, 139.65]],
-  },
-  {
     title: "Osaka, Japan 🇯🇵",
     folder: "/blog/2023/osaka",
     numImages: 10,

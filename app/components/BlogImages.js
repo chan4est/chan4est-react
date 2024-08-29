@@ -142,7 +142,7 @@ export default function BlogImages({ blogData, imgIndex }) {
 
   const imgList = blogData.postImages.map((imgData, i) => (
     <BlogImage
-      imgSrc={imgURL(imgData.imgID, r_1500)}
+      imgSrc={imgURL(imgData.imgID, r_720)}
       imgFullResLink={imgURL(imgData.imgID, r_3000)}
       imgLocationName={imgData.description}
       imgLocationLat={imgData.coordinates.lat}

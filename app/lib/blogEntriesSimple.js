@@ -1789,7 +1789,7 @@ export const blogEntriesSimple = [
     route: "philippines",
     flags: ["🇵🇭"],
     caption: {
-      title: "Manila, Philippines",
+      title: "Manila, Philippines 🇵🇭",
       content:
         "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had never had Filipino food (not even Jollibee). The first thing I did was go out with Patrick to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from my S/O’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both Patrick and Andrew show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in one of the photos is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing Toro y Moi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. It felt so cool just seeing them literally…everywhere! Go out and see them while you can!\nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
       publishDate: "June 12, 2023",
@@ -2267,8 +2267,7 @@ export const blogEntriesSimple = [
           link: "https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.371369,8764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D",
           long: "98°23'53.09\"E",
         },
-        description:
-          "Australian couple who helped me with acquiring a new phone",
+        description: "Aya and Anthony 🇦🇺",
         imgID: "cb889ff2-cf6e-4e08-d505-f4a1a8692e00",
       },
       {
@@ -2291,9 +2290,7 @@ export const blogEntriesSimple = [
       title: "Siem Reap, Cambodia 🇰🇭",
       content:
         "Did a quick stop in Cambodia to see Angkor Wat! Another one of those legendary sites that I’ve seen my entire life and finally had a chance to explore! Such a huge vast and intricate complex!! I was surprised we were able to climb to the top of the center of the temple and by how much freedom they allowed people to explore! The same feeling applies to all the other temples too! It was all so wonderful.\nThe day was made so much better because of some new friends I made, @jandekker_2001 & @stijn.maijer. Together, we spent the whole afternoon exploring multiple temples, cooling down at the hostel pool, and then drinking cheap draft beers. One of the best parts of solo traveling is meeting people you really vibe with and today was no exception! Cheers boys!",
-
-      date: "",
-      publishDate: "",
+      publishDate: "May 15, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -2422,12 +2419,12 @@ export const blogEntriesSimple = [
     route: "vietnam",
     flags: ["🇻🇳"],
     caption: {
-      title: "Hanoi | Hoi An | Ho Chi Minh City, Vietnam 🇻🇳",
+      title: "Hanoi | Hội An | Ho Chi Minh City, Vietnam 🇻🇳",
       content:
         "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hoi An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
-      publishDate: "May 6, 2023",
+      publishDate: "May 9, 2023",
     },
-    previewIdx: 16,
+    previewIdx: 0,
     postImages: [
       {
         coordinates: {
@@ -2615,6 +2612,311 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "Tokyo, Japan 🇯🇵",
+    countryNames: ["Japan"],
+    route: "tokyo",
+    flags: ["🇯🇵"],
+    caption: {
+      title: "Tokyo, Japan 🇯🇵",
+      content:
+        "The city that made me fall in love with Japan! Due to my chaotic itinerary, I stopped in Tokyo FOUR separate times within a single trip to Japan! It’s the city I spent over half my time in and I still didn’t have enough waking hours to do everything I wanted! It’s crazy how much there is to do within this city. I’ll cherish walking down the densely packed neon-lit streets, making wonderful memories with all my friends, being able to find a konbini at all times, and my Suica card 🐧\nI cannot wait to visit Tokyo many MANY more times in my lifetime!\nありがとうございます東京 🗼",
+      publishDate: "April 24, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "35°39'32.90\"N",
+          link: "https://maps.google.com/?q=35.65913888888889,139.70079166666665",
+          long: "139°42'02.85\"E",
+        },
+        description: "Shibuya Scamble Crossing",
+        imgID: "800ac11e-9472-46cb-3ce5-eb5355ad0400",
+      },
+      {
+        coordinates: {
+          lat: "35°39'32.68\"N",
+          link: "https://maps.google.com/?q=35.659077777777775,139.70066944444443",
+          long: "139°42'02.41\"E",
+        },
+        description: "Hachiko Statue in Shibuya",
+        imgID: "a109bfab-5904-4f9a-e7b0-53c9e8d6a200",
+      },
+      {
+        coordinates: {
+          lat: "35°39'39.13\"N",
+          link: "https://maps.google.com/?q=35.660869444444444,139.698625",
+          long: "139°41'55.05\"E",
+        },
+        description: "Ichiran Ramen",
+        imgID: "19ab15ba-f9e7-4ed2-1bd2-974b5cbf8600",
+      },
+      {
+        coordinates: {
+          lat: "35°39'23.15\"N",
+          link: "https://maps.google.com/?q=35.65643055555555,139.69537222222223",
+          long: "139°41'43.34\"E",
+        },
+        description: "Porter Robinson Nurture Live Tickets",
+        imgID: "bce37671-d913-4292-3100-6c238f62b800",
+      },
+      {
+        coordinates: {
+          lat: "35°38'58.20\"N",
+          link: "https://maps.google.com/?q=35.649499999999996,139.7886",
+          long: "139°47'18.96\"E",
+        },
+        description: "Visuals from Nurture Live Tokyo",
+        imgID: "785b2719-e76e-47b0-d2b9-fbf5aeccc700",
+      },
+      {
+        coordinates: {
+          lat: "35°38'57.08\"N",
+          link: "https://www.google.com/maps?q=loc:35.6494,139.7886",
+          long: "139°47'19.00\"E",
+        },
+        description:
+          "Hype after seeing Nurture Live Tokyo w/\nPatrick 🇵🇭, Chase 🇺🇸, and Justin 🇨🇦",
+        imgID: "e1c9ee07-8c68-424c-6304-82b9607c2500",
+      },
+      {
+        coordinates: {
+          lat: "35°39'42.05\"N",
+          link: "https://www.google.com/maps?q=loc:35.6618022,139.7011036",
+          long: "139°42'04.00\"E",
+        },
+        description: "Meeting Porter Robinson at Shibuya Tower Records",
+        imgID: "e5379022-64c1-47b1-13d2-454ce17ab400",
+      },
+      {
+        coordinates: {
+          lat: "35°39'39.10\"N",
+          link: "https://maps.google.com/?q=35.66086111111111,139.69792222222222",
+          long: "139°41'52.52\"E",
+        },
+        description: "Family Mart at 'Content Corner'",
+        imgID: "594218ca-4355-4cd5-910f-44c2a1fac300",
+      },
+      {
+        coordinates: {
+          lat: "35°41'37.11\"N",
+          link: "https://maps.google.com/?q=35.693641666666664,139.70234722222222",
+          long: "139°42'08.45\"E",
+        },
+        description: "Neon lit streets of Shinjuku",
+        imgID: "32cfaedb-401d-4514-4079-806b4f508800",
+      },
+      {
+        coordinates: {
+          lat: "35°41'43.98\"N",
+          link: "https://maps.google.com/?q=35.69555,139.70158333333333",
+          long: "139°42'05.70\"E",
+        },
+        description: "Shinjuku with Patrick 🇵🇭",
+        imgID: "11117c53-f96f-495a-9997-56f6086db500",
+      },
+      {
+        coordinates: {
+          lat: "35°40'50.43\"N",
+          link: "https://maps.google.com/?q=35.680675,139.77435277777778",
+          long: "139°46'27.67\"E",
+        },
+        description: "Pikachu at the Pokémon Cafe",
+        imgID: "30e767a1-3602-4cdf-5257-885a8087e200",
+      },
+      {
+        coordinates: {
+          lat: "35°40'50.41\"N",
+          link: "https://maps.google.com/?q=35.68066944444444,139.7743861111111",
+          long: "139°46'27.79\"E",
+        },
+        description: "Me at the Pokémon Cafe",
+        imgID: "5b42ec29-494d-4aa3-4cac-7253e16e9b00",
+      },
+      {
+        coordinates: {
+          lat: "35°42'36.74\"N",
+          link: "https://maps.google.com/?q=35.71020555555556,139.81261111111112",
+          long: "139°48'45.40\"E",
+        },
+        description: "Pokémon Center Skytree",
+        imgID: "d1b1674c-d525-4081-60df-1b9e18d27c00",
+      },
+      {
+        coordinates: {
+          lat: "35°42'39.94\"N",
+          link: "https://maps.google.com/?q=35.71109444444445,139.79637222222223",
+          long: "139°47'46.94\"E",
+        },
+        description: "Peace from Sensō-ji",
+        imgID: "4f2764e8-1f8c-48ed-82c7-173469bd5b00",
+      },
+      {
+        coordinates: {
+          lat: "35°42'42.37\"N",
+          link: "https://maps.google.com/?q=35.71176944444445,139.79641666666666",
+          long: "139°47'47.10\"E",
+        },
+        description: "Sensō-ji ",
+        imgID: "1dd8207e-a123-4392-6f46-7892f19e5c00",
+      },
+      {
+        coordinates: {
+          lat: "35°42'51.45\"N",
+          link: "https://maps.google.com/?q=35.71429166666667,139.79672222222223",
+          long: "139°47'48.20\"E",
+        },
+        description: "Fortune at Sensō-ji",
+        imgID: "de777c8a-6ee7-4af7-1a3e-51a5bf9bfe00",
+      },
+      {
+        coordinates: {
+          lat: "35°38'56.02\"N",
+          link: "https://maps.google.com/?q=35.648894444444444,139.78973055555556",
+          long: "139°47'23.03\"E",
+        },
+        description: "teamLab Planets Infinite Crystal Universe",
+        imgID: "fdc1d6df-29cf-4a81-82a1-abd7e81b8500",
+      },
+      {
+        coordinates: {
+          lat: "35°38'56.02\"N",
+          link: "https://maps.google.com/?q=35.648894444444444,139.78973055555556",
+          long: "139°47'23.03\"E",
+        },
+        description: "Light room at teamLab Planets Tokyo",
+        imgID: "34eb21c8-7c03-4f89-1b5e-051c30620200",
+      },
+      {
+        coordinates: {
+          lat: "35°38'56.02\"N",
+          link: "https://maps.google.com/?q=35.648894444444444,139.78973055555556",
+          long: "139°47'23.03\"E",
+        },
+        description: "Floating Flower Garden at teamLab Planets",
+        imgID: "e5a665a1-78e0-4fb3-5ef3-fd1419221700",
+      },
+      {
+        coordinates: {
+          lat: "35°41'46.67\"N",
+          link: "https://maps.google.com/?q=35.69629722222222,139.57028333333332",
+          long: "139°34'13.02\"E",
+        },
+        description: "Ghibli Museum Ticket",
+        imgID: "7505c2e2-7eb2-420e-d16a-4accf1aaf200",
+      },
+      {
+        coordinates: {
+          lat: "35°41'46.60\"N",
+          link: "https://maps.google.com/?q=35.69627777777777,139.57029166666666",
+          long: "139°34'13.05\"E",
+        },
+        description:
+          "Laputian Robot from Castle in the Sky at the Ghibli Museum",
+        imgID: "0924df84-bb3c-4d84-6b28-18df74b3b900",
+      },
+      {
+        coordinates: {
+          lat: "35°40'12.47\"N",
+          link: "https://maps.google.com/?q=35.67013055555555,139.70182777777777",
+          long: "139°42'06.58\"E",
+        },
+        description: "Empty sake barrels near Meiji Jingu Shrine",
+        imgID: "558bb551-d19d-4bce-0694-be2d7cdd7700",
+      },
+      {
+        coordinates: {
+          lat: "35°42'46.05\"N",
+          link: "https://www.google.com/maps?q=loc:35.7129139,139.7931361",
+          long: "139°47'35.03\"E",
+        },
+        description: "Kura Sushi in Asakusa",
+        imgID: "fe029ba1-2563-4376-f1b0-c77f04d62e00",
+      },
+      {
+        coordinates: {
+          lat: "35°39'22.01\"N",
+          link: "https://www.google.com/maps?q=loc:35.6561389,139.7472833",
+          long: "139°44'50.02\"E",
+        },
+        description: "Tokyo Tower",
+        imgID: "1d51b01f-1351-4528-a41a-99d675749500",
+      },
+      {
+        coordinates: {
+          lat: "35°38'01.94\"N",
+          link: "https://maps.google.com/?q=35.63387222222222,139.71063333333333",
+          long: "139°42'38.28\"E",
+        },
+        description: "Meguro River Cherry Blossoms Promenade",
+        imgID: "fdf00e56-f5a6-4971-da38-dc5f1bef8800",
+      },
+      {
+        coordinates: {
+          lat: "35°38'07.17\"N",
+          link: "https://maps.google.com/?q=35.635325,139.7093972222222",
+          long: "139°42'33.83\"E",
+        },
+        description: "Cherry Blossoms",
+        imgID: "749cac4b-1736-4597-e9e9-ac9340dbf700",
+      },
+      {
+        coordinates: {
+          lat: "35°40'01.34\"N",
+          link: "https://maps.google.com/?q=35.66703888888889,139.73057500000002",
+          long: "139°43'50.07\"E",
+        },
+        description: "Teppanyaki dinner with Tristan",
+        imgID: "e7dd3791-f4e6-4d61-7480-794338197f00",
+      },
+      {
+        coordinates: {
+          lat: "35°40'02.00\"N",
+          link: "https://maps.google.com/?q=35.66722222222222,139.73062222222222",
+          long: "139°43'50.24\"E",
+        },
+        description: "Japanese Wagyu Teppanyaki",
+        imgID: "1b016a66-9dd8-4edc-e5c4-acdec1d43700",
+      },
+      {
+        coordinates: {
+          lat: "35°26'49.80\"N",
+          link: "https://maps.google.com/?q=35.44716666666666,139.65431111111113",
+          long: "139°39'15.52\"E",
+        },
+        description: "Life sized Gundam in Yokohama",
+        imgID: "258b4bca-1d1b-46cb-1b1e-b63749190800",
+      },
+      {
+        coordinates: {
+          lat: "35°26'50.33\"N",
+          link: "https://maps.google.com/?q=35.447313888888885,139.65476944444444",
+          long: "139°39'17.17\"E",
+        },
+        description: "Life sized Gundam in Yokohama",
+        imgID: "4763f300-c4a6-4a86-7861-2105a74ddf00",
+      },
+      {
+        coordinates: {
+          lat: "35°29'20.12\"N",
+          link: "https://maps.google.com/?q=35.48892222222222,139.65261666666666",
+          long: "139°39'09.42\"E",
+        },
+        description: "Me and Minami 🇯🇵 at his family's KBBQ restaurant",
+        imgID: "236473bb-835c-48cc-8242-0bb076765e00",
+      },
+      {
+        coordinates: {
+          lat: "34°43'56.73\"N",
+          link: "https://maps.google.com/?q=34.732425,135.49807777777775",
+          long: "135°29'53.08\"E",
+        },
+        description: "IC Cards from Tokyo, Nagoya, and Osaka",
+        imgID: "73c303bf-fec1-418c-f22a-0ea10d64f000",
+      },
+    ],
+  },
   // {
   //   pageTitle: "",
   //   countryNames: [""],
@@ -2638,34 +2940,6 @@ export const blogEntriesSimple = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Vietnam 🇻🇳",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "vietnam",
-  //   flag: "🇻🇳",
-  // },
-  // {
-  //   title: "Japan 🇯🇵",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "japan",
-  //   flag: "🇯🇵",
   // },
   // {
   //   title: "Colombia 🇨🇴",
