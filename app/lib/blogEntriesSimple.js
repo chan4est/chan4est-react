@@ -10,6 +10,7 @@ export const blogEntriesSimple = [
         "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
       publishDate: "November 14, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -161,6 +162,7 @@ export const blogEntriesSimple = [
         "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
       publishDate: "November 6, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -278,6 +280,7 @@ export const blogEntriesSimple = [
         "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with my S.O. beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
       publishDate: "October 24, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -401,6 +404,7 @@ export const blogEntriesSimple = [
         "Where East meets West! İstanbul felt like such a fitting city to visit while I transitioned from Asia to Europe! It is literally the meeting point between the two continents after all! Not only is İstanbul the largest city in all of Europe, but it also used to be the capital of the Roman Empire, Constantinople! It felt so wonderful to be back in Europe after traveling to so many other unique places in the world. I had been looking forward to this stop for a while and I'm happy that İstanbul didn't disappoint!\nThe thing I'll cherish most about my time here is the beauty of the city itself. When I first exited the metro line from the airport, my jaw dropped because of said beauty. The entire city is filled to the brim with GIGANTIC symmetrical mosques which (when you come from the USA) are extremely fascinating and unique! Virtually everywhere you go, you’ll see breathtaking views because of them. Each lookout point features hills filled with countless numbers of houses, tall spired minarets, and gigantic red and white Turkish flags waving proudly in the air! I tended to lose track of time whenever I stopped to take it all in.\nI had some ambitious day trips planned while I was here in Turkey. However, once I realized the sheer size of the entire city, I knew that those trips would have to be sidelined for a future visit. I heard road trips around the entirety of the country are fantastic! Something to look forward to during a future visit!",
       publishDate: "October 18, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -542,6 +546,7 @@ export const blogEntriesSimple = [
         "The legendary and iconic Egypt! It was an absolute treat to finally experience the wonders of ancient Egypt and more! Egypt was another one of the countries my dad visited during his youth and always praised so much while my sister and I were growing up. There was a magnet of the pyramids on our fridge which after looking at it almost every day during my childhood, subtly pushed me to go and see them for myself. Now, I’m finally here!\nEgypt was the first country where I hired a private guide! I wanted to treat myself to absorbing as much history as I possibly could and I’m happy I did so with Egyptologist Ahmed. He made site-seeing engaging, intriguing, and effortless. I learned more than I would’ve ever done solo or with a group. It was the deluxe Egypt experience! I did make sure to have an extra day at the pyramids just to roam around by myself though. It was funny having all the hustlers trying to sell me a camel ride only to see them turn around disappointed once I showed them my photo. All part of the fun 😉\nWhile I was a tourist in the morning, I was a local by night. My new friend Abdula and I got acquainted through a mutual friend and I feel extremely lucky that our fates intertwined. He knew the best spots for hanging out, kicking back, and experiencing life like a modern Egyptian. I felt so much love and gratitude wherever we went due to his outgoing personality and extreme passion for making his guests feel at home. I urge everyone to come to Egypt so that they can experience the same.\nشكران Egypt!! You are easily one of the greats, and will continue to be for many centuries to come!",
       publishDate: "October 9, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -693,6 +698,7 @@ export const blogEntriesSimple = [
         "A quick trip to Jordan to see another new wonder of the world, Petra! The entirety of Petra was astounding. When I veered around the corner from Al-Sīq (the canyon that leads you into Petra) and saw Al-Khazneh (The Treasury) for the first time, I was brought to the verge of tears. It’s not just a building carved into the side of a mountain; it's a gigantic, hand-crafted architectural and engineering masterpiece—a true work of art!\nThis was one of the few times I opted for a fully guided tour from start to finish. I was picked up directly from my hostel in Jerusalem, crossed the Palestinian border (visa process included), and enjoyed an air-conditioned bus ride to a fully facilitated desert camp right outside Petra. Usually, I prefer handling everything myself (transit, tickets, lodging), but this tour made more sense financially and logistically. Having a guide to explain the history, point out minute details, and teach us how to haggle for a camel ride was invaluable!\nI learned that Petra is a vast archaeological site where the Nabteans (an ancient Arab people) had their trading hub. It’s filled with large sandstone cliffs that were hand-carved top to bottom in the style of the Greeks and Romans. There was no room for mistakes when they made these colossal structures since any slip-up would’ve resulted in the entire project being ruined. Perfectionism at its finest!\nI feel like I could’ve spent at least another day or two exploring more of Petra. Having some more days for Amman would’ve been nice too but that will all need to be saved for another trip. Despite my short amount of time in Jordan, I am extremely happy I made the effort to go to Petra. It was spectacular and gave me the same feelings of awe, excitement, gratitude, and happiness that every other wonder of the world does. Everyone must go see it in their lifetime!",
       publishDate: "October 3, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -799,6 +805,7 @@ export const blogEntriesSimple = [
         "The first stop in the Middle East! Israel seemed like the perfect place to recoup after traveling for a month straight, and I guess I proved myself right! This stop was part reset, part history lesson. It marked the halfway point of my worldwide trip, so it was nice to be in a place that felt familiar yet unique.\nWhile Tel Aviv is known for its modernity and fun atmosphere, I was more interested in seeing Jerusalem - the meeting point of three major religions and cultures. When you explore the old town of Jerusalem, you see the essence of maintaining the status quo. There’s understanding and mutual respect between the Christians, Jews, and Muslims who are all living, working, and worshiping within a very small area. \nStanding in the places that are revered by so many people throughout the world made me feel empathetic and thankful that these places are open for devout pilgrims, casual believers, and curious onlookers to come and see with their own eyes. I know there’s a lot of contention in this part of the world right now, but in this particular space at this particular time, there is peace and I think that’s worth seeing and celebrating.",
       publishDate: "September 25, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -923,6 +930,7 @@ export const blogEntriesSimple = [
         "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
       publishDate: "September 18, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1074,6 +1082,7 @@ export const blogEntriesSimple = [
         "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
       publishDate: "September 11, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1197,6 +1206,7 @@ export const blogEntriesSimple = [
         "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
       publishDate: "September 3, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1338,6 +1348,7 @@ export const blogEntriesSimple = [
         "I never imagined myself visiting China in my lifetime. It wasn't until I met Yao, my old college roommate, study buddy, teammate, and one of my best friends that I felt a desire to go see it for myself. I feel like I always had this made-up scenario where one day he would be visiting his home in Beijing, I would visit China, and he would be able to give me a personal tour. Realizing how absurd that scenario was after visiting him in London last year, I had a hunch that wasn’t going to happen. I needed to make moves on my own.\nAfter months of preparation, I was finally able to visit China! China was the only country where I had no option to obtain an e-visa or a visa on arrival. I had to meticulously plan out my entire trip, print out all the receipts, ticket stubs, and reservations, go into the consulate in San Fransisco with paperwork in hand for a visa interview, wait several hours for my name to be called, explain my reason for visiting China, give them my passport, and then pick it up weeks later. It was a confusing, stressful, and at times arduous process but it was all worth it in the end!\nThe best way to summarize China is that it’s BIG. The National Park in Zhangjiajie had massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds inside the main dig site for the Terracotta Warriors in Xi’an were busier than Disneyland on a holiday. The Great Wall was so large you could see it far into the horizon without effort. Beijing was a gigantic mega city such that even with a highly optimized public transportation network, it still takes you an hour to get from one tourist site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and simply say ‘hello’ to them in their native language. Finally, I’m going to say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
       publishDate: "August 27, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1635,6 +1646,7 @@ export const blogEntriesSimple = [
         "Taiwan marks my first stop on my trip around the world! After missing out on visiting during my previous trips to Asia, it felt right to start here. I’d heard endless hype about the food, the people, and the scenery—and it all exceeded my expectations.\nI spent my first day exploring the city the way I always do: trying the national dish (beef noodle soup), then hitting the highlights. Along the way, I got boba from one of the originators, Chun Shui Tang. It was divine so I had to get another one to go. After visiting a few more places I took a sunset hike to the top of Elephant Peak to get an amazing view of Taipei 101. The grueling +90°F heat and the summertime humidity made it Type II fun, but it was 100% worth it! Evenings were reserved for the famous night markets, starting with Raohe St. Night Market. My time in Taiwan repeated this pattern. Food, highlights, more food, and possibly meeting a new friend along the way. It was great but on my last day, I still had a laundry list of things I wanted to do. Luckily there were people to help!\nOn my last night in Taiwan, my friends Darren and Venssa (who I met in Austria last year) rolled up to my hostel on their motorbikes with a spare helmet in hand, ready to hit the town! First, we went to a small Taoist temple where you can pray for good relationships. We then explored Dihua Street, where I learned about the unusual items locals buy, like solidified bird saliva for bird’s nest soup, a delicacy in Asia. We proceeded to the Container Market located next to the Tamsui River to finish off some of the Taiwanese street foods I had yet to try like ló͘-bah-pn̄g (minced pork rice) and ji pai (Taiwanese fried chicken). A 10-minute bike ride then got us to Ningxia Night Market where we had oyster omelets, stinky tofu (not for me), and Taiwanese shaved ice. It was a wonderful experience getting to catch up with my friends and check everything off my list. I’ll always be extremely thankful they were able to take me around like a local. I’ll make sure to return the favor whenever they come and visit me :) \nMy time here wasn’t long, so I’m very eager and excited to visit here again in the future. I feel happy that I was finally able to check Taiwan off my checklist! 謝謝台灣!",
       publishDate: "August 21, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1794,6 +1806,7 @@ export const blogEntriesSimple = [
         "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had never had Filipino food (not even Jollibee). The first thing I did was go out with Patrick to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from my S/O’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both Patrick and Andrew show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in one of the photos is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing Toro y Moi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. It felt so cool just seeing them literally…everywhere! Go out and see them while you can!\nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
       publishDate: "June 12, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -1945,6 +1958,7 @@ export const blogEntriesSimple = [
         "Singapore was the first place that made me feel like “damn, this is probably what the world will feel like in a few decades”. I had little to no knowledge about the history of Singapore, so it was a great learning experience to understand how the unique mixing pot of Malay, Chinese, and Indian cultures combined to make one highly successful country. The diversity between the three cultures was very intertwined to the point where a lot of signs were written in four different languages (English, Mandarin, Malay, and Tamil). It was so fascinating to me since the only other country I can remember having so many cultures mixed into one is the US, and yet it felt so much different here in Singapore. I loved it so much! \nAll the fantastic things I coincidentally ran into just added to the experience. Like stumbling upon the Pokémon Center right after leaving the airport and getting off at the wrong stop, being directly next to the famous hawker stalls right behind the random hostel I booked, or the fact that nearly all of the sites I wanted to see stemmed from my first stop on my first day of exploring. It all just flowed so well! So immensely happy with my time spent in Singapore and I can’t wait to revisit it far into the future to see how the futuristic city-state can outshine itself once more 💫",
       publishDate: "June 5, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -2079,6 +2093,7 @@ export const blogEntriesSimple = [
         "Thailand stole my heart! What a marvelous country! Thailand was similar to Italy in my head before this trip because of all the hype and praise I’ve received from other travelers during the last few months. Seemed like a certified must-go destination. Thailand lived up to every single bit of hype that was thrown my way!\nI was super happy I got to experience three different parts of the country. The Northern part with Chiang Mai with the elephant sanctuaries hidden within the hills, the bustling huge legendary mega-city of Bangkok, and the tropical Southern region of Phuket with a day trip out to Phi Phi and surrounding islands! It was just a wonderful rollercoaster of amazing experiences and mind-melting food.\nI also had one of the most stressful experiences on all my travels, my phone getting waterlogged without ever recovering. Thankfully, with the help of Aya and her husband Anthony, friends I made while on Ko Phi Phi Le, and my Dad relaying my 1Password info and 2FA codes over FaceTime, I was able to get back on my feet with only a half-day of downtime without a phone. I have no idea how people traveled without smartphones and I wasn’t gonna learn lol. I’ll always be thankful for the help they provided. so much for all your help! They quite literally saved my trip! ",
       publishDate: "May 23, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -2292,6 +2307,7 @@ export const blogEntriesSimple = [
         "Did a quick stop in Cambodia to see Angkor Wat! Another one of those legendary sites that I’ve seen my entire life and finally had a chance to explore! Such a huge vast and intricate complex!! I was surprised we were able to climb to the top of the center of the temple and by how much freedom they allowed people to explore! The same feeling applies to all the other temples too! It was all so wonderful.\nThe day was made so much better because of some new friends I made, @jandekker_2001 & @stijn.maijer. Together, we spent the whole afternoon exploring multiple temples, cooling down at the hostel pool, and then drinking cheap draft beers. One of the best parts of solo traveling is meeting people you really vibe with and today was no exception! Cheers boys!",
       publishDate: "May 15, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -2424,6 +2440,7 @@ export const blogEntriesSimple = [
         "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hoi An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
       publishDate: "May 9, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -2573,7 +2590,6 @@ export const blogEntriesSimple = [
         description: "Golden Bridge in Da Nang",
         imgID: "4dc250ef-5fb5-47ed-e1d4-c04e1e83e200",
       },
-
       {
         coordinates: {
           lat: "10°46'33.03\"N",
@@ -2623,6 +2639,7 @@ export const blogEntriesSimple = [
         "The city that made me fall in love with Japan! Due to my chaotic itinerary, I stopped in Tokyo FOUR separate times within a single trip to Japan! It’s the city I spent over half my time in and I still didn’t have enough waking hours to do everything I wanted! It’s crazy how much there is to do within this city. I’ll cherish walking down the densely packed neon-lit streets, making wonderful memories with all my friends, being able to find a konbini at all times, and my Suica card 🐧\nI cannot wait to visit Tokyo many MANY more times in my lifetime!\nありがとうございます東京 🗼",
       publishDate: "April 24, 2023",
     },
+    isFlagLink: true,
     previewIdx: 0,
     postImages: [
       {
@@ -2917,6 +2934,193 @@ export const blogEntriesSimple = [
       },
     ],
   },
+  {
+    pageTitle: "Osaka, Japan 🇯🇵",
+    countryNames: ["Japan"],
+    route: "osaka",
+    flags: ["🇯🇵"],
+    caption: {
+      title: "Osaka, Japan 🇯🇵",
+      content:
+        "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
+      publishDate: "April 18, 2023",
+    },
+    isFlagLink: false,
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "34°39'04.14\"N",
+          link: "https://maps.google.com/?q=34.65115,135.50578333333334",
+          long: "135°30'20.82\"E",
+        },
+        description: "Shinsekai during the day",
+        imgID: "171b208c-3f41-4041-e731-ad07e9aeeb00",
+      },
+      {
+        coordinates: {
+          lat: "34°39'04.04\"N",
+          link: "https://maps.google.com/?q=34.65112222222222,135.50576666666666",
+          long: "135°30'20.76\"E",
+        },
+        description: "Peace from Osaka!",
+        imgID: "4d4d8eeb-95e0-46fa-4616-b0f0e55ef900",
+      },
+      {
+        coordinates: {
+          lat: "34°38'58.92\"N",
+          link: "https://maps.google.com/?q=34.6497,135.50613333333334",
+          long: "135°30'22.08\"E",
+        },
+        description: "Cute Shinsekai Character based on Tsūtenkaku",
+        imgID: "a518a24d-6d22-4ad8-bd1d-bd6a10251100",
+      },
+      {
+        coordinates: {
+          lat: "34°40'09.01\"N",
+          link: "https://maps.google.com/?q=34.66916944444444,135.50071666666668",
+          long: "135°30'02.58\"E",
+        },
+        description: "Dōtonbori during the day",
+        imgID: "f9da891d-3f17-4243-ac93-13efbe279400",
+      },
+      {
+        coordinates: {
+          lat: "34°40'08.88\"N",
+          link: "https://maps.google.com/?q=34.66913333333333,135.50125",
+          long: "135°30'04.50\"E",
+        },
+        description: "Dōtonbori's Running Man!",
+        imgID: "e0dd1d9c-1f7b-4288-ddf4-2e8a2af9bf00",
+      },
+      {
+        coordinates: {
+          lat: "34°41'06.27\"N",
+          link: "https://maps.google.com/?q=34.685075,135.84150833333334",
+          long: "135°50'29.43\"E",
+        },
+        description: "Nara Deer",
+        imgID: "3da20e6b-59a6-4f6d-4088-2369d4228600",
+      },
+      {
+        coordinates: {
+          lat: "34°41'07.47\"N",
+          link: "https://maps.google.com/?q=34.68540833333333,135.83985833333335",
+          long: "135°50'23.49\"E",
+        },
+        description: "Nara Deer Crackers (they taste horrible)",
+        imgID: "d82d4d51-3423-4c13-6ed9-f4e109cdb900",
+      },
+      {
+        coordinates: {
+          lat: "34°41'12.06\"N",
+          link: "https://www.google.com/maps?q=loc:34.6868222,135.8415222",
+          long: "135°50'29.05\"E",
+        },
+        description: "Feeding the deer!",
+        imgID: "0522f87e-4ba9-4337-f243-7603ffd9a200",
+      },
+      {
+        coordinates: {
+          lat: "34°41'12.47\"N",
+          link: "https://maps.google.com/?q=34.68679722222222,135.84150555555556",
+          long: "135°50'29.42\"E",
+        },
+        description: "Deer friends!",
+        imgID: "ae4f35a7-a070-4b2b-2813-879a5afde300",
+      },
+      {
+        coordinates: {
+          lat: "34°41'16.91\"N",
+          link: "https://maps.google.com/?q=34.68803055555555,135.8403638888889",
+          long: "135°50'25.31\"E",
+        },
+        description: "Tōdai-ji",
+        imgID: "57f7d8d3-37a2-4e60-2688-b56520a01d00",
+      },
+      {
+        coordinates: {
+          lat: "34°40'25.43\"N",
+          link: "https://maps.google.com/?q=34.67373055555555,135.5002472222222",
+          long: "135°30'00.89\"E",
+        },
+        description: "Sitting with No Face",
+        imgID: "beccdfb6-a3eb-44c8-2bb8-c0d5948bec00",
+      },
+      {
+        coordinates: {
+          lat: "34°42'06.11\"N",
+          link: "https://maps.google.com/?q=34.70169722222222,135.4965222222222",
+          long: "135°29'47.48\"E",
+        },
+        description: "Nintendo Store Osaka",
+        imgID: "4ea59078-87c0-4183-d337-a4cac798c800",
+      },
+      {
+        coordinates: {
+          lat: "34°40'23.49\"N",
+          link: "https://maps.google.com/?q=34.67319166666667,135.50033611111112",
+          long: "135°30'01.21\"E",
+        },
+        description: "Osaka Pokémon Center",
+        imgID: "f774284d-8720-4e02-34cc-0a786d165300",
+      },
+      {
+        coordinates: {
+          lat: "34°39'41.42\"N",
+          link: "https://maps.google.com/?q=34.66150555555556,135.49678055555555",
+          long: "135°29'48.41\"E",
+        },
+        description: "Yasaksa Shrine",
+        imgID: "ad66131b-573f-476c-f7ca-177eae1c6b00",
+      },
+      {
+        coordinates: {
+          lat: "34°39'41.36\"N",
+          link: "https://maps.google.com/?q=34.66148888888889,135.49678055555555",
+          long: "135°29'48.41\"E",
+        },
+        description: "Unique charm from Yasaksa Shrine",
+        imgID: "c74093da-125f-4ea2-155a-5be703116a00",
+      },
+      {
+        coordinates: {
+          lat: "34°38'57.07\"N",
+          link: "https://maps.google.com/?q=34.64918611111111,135.50595",
+          long: "135°30'21.42\"E",
+        },
+        description: "Cursed Rock Hyrax poster that I kept running into",
+        imgID: "74c0abe7-2dbf-4643-316b-fda4019f7700",
+      },
+      {
+        coordinates: {
+          lat: "34°39'15.78\"N",
+          link: "https://maps.google.com/?q=34.654383333333335,135.42887777777776",
+          long: "135°25'43.96\"E",
+        },
+        description: "Osaka Aquarium",
+        imgID: "ba6c77a2-4319-4f56-30e0-5b923f892400",
+      },
+      {
+        coordinates: {
+          lat: "34°39'18.37\"N",
+          link: "https://maps.google.com/?q=34.65510277777778,135.4288472222222",
+          long: "135°25'43.85\"E",
+        },
+        description: "Penguin telling me secrets",
+        imgID: "ee80db59-0790-4f93-455a-54a9a7367500",
+      },
+      {
+        coordinates: {
+          lat: "34°39'21.57\"N",
+          link: "https://maps.google.com/?q=34.655991666666665,135.43220555555556",
+          long: "135°25'55.94\"E",
+        },
+        description: "Ferris Wheel near Osaka Aquarium",
+        imgID: "fdc10415-bb99-40f7-f507-e838a03d9c00",
+      },
+    ],
+  },
   // {
   //   pageTitle: "",
   //   countryNames: [""],
@@ -2924,9 +3128,8 @@ export const blogEntriesSimple = [
   //   flags: [""],
   //   caption: {
   //     title: "",
-  //     content:
-  //       "",
-  //        publishDate: ""
+  //     content: "",
+  //     publishDate: "",
   //   },
   //   previewIdx: 0,
   //   postImages: [

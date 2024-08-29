@@ -1,25 +1,5 @@
 export const blogEntries = [
   {
-    title: "Osaka, Japan 🇯🇵",
-    folder: "/blog/2023/osaka",
-    numImages: 10,
-    text: "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
-    location: "Shinsekai",
-    date: "April 18, 2023",
-    preview: 2,
-    coordinates: [[34.6937, 135.5023]],
-  },
-  {
-    title: "Nagoya, Japan 🇯🇵",
-    folder: "/blog/2023/nagoya",
-    numImages: 10,
-    text: "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
-    location: "Shinsekai",
-    date: "April 18, 2023",
-    preview: 2,
-    coordinates: [[35.1815, 136.9066]],
-  },
-  {
     title: "Kyoto, Japan 🇯🇵",
     folder: "/blog/2023/kyoto",
     numImages: 10,

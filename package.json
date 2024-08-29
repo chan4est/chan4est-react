@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^14.2.3",
+    "@vercel/postgres": "^0.9.0",
     "embla-carousel-react": "^8.1.7",
     "next": "^14.1.0",
     "react": "^18",

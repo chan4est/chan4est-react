@@ -69,17 +69,27 @@ function FlagLink({ flagEmoji, link, title }) {
 }
 
 function BlogHeader({ blogEntries }) {
-  const flagLinks = blogEntries.map((entry, i) =>
-    entry.countryNames.map((cName, j) => (
-      <FlagLink
-        flagEmoji={entry.flags[j]}
-        link={`/blog/${entry.route}`}
-        title={cName}
-        key={cName}
-      />
-    ))
-  );
-  const flagLinksRev = flagLinks.reverse();
+  const flagLinks = blogEntries.flatMap((blogEntry) => {
+    if (!blogEntry.isFlagLink) {
+      return [];
+    }
+
+    return blogEntry.countryNames.map((countryName, index) => {
+      const flagEmoji = blogEntry.flags[index];
+      const blogRoute = `/blog/${blogEntry.route}`;
+
+      return (
+        <FlagLink
+          flagEmoji={flagEmoji}
+          link={blogRoute}
+          title={countryName}
+          key={countryName}
+        />
+      );
+    });
+  });
+
+  const reversedFlagLinks = [...flagLinks].reverse();
 
   const age = calculateAge("06301996");
 
@@ -112,7 +122,7 @@ function BlogHeader({ blogEntries }) {
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">
-              {flagLinksRev}
+              {reversedFlagLinks}
             </div>
           </li>
         </ul>
