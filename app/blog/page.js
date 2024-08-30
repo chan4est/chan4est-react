@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import chanPhotoIndia from "../../public/me-india.webp";
 import { NavBar } from "../components/Navbar";
-import { blogEntriesSimple } from "../lib/blogEntriesSimple";
+import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
 import { imgURL, r_300 } from "../lib/cloudflareImgNames";
 
@@ -132,7 +132,6 @@ function BlogHeader({ blogEntries }) {
 }
 
 export default function Blog() {
-  const blogEntries = blogEntriesSimple;
   return (
     <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
       <NavBar />

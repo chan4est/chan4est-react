@@ -1,16 +1,15 @@
 import Link from "next/link";
-import { blogEntriesSimple } from "@/app/lib/blogEntriesSimple";
+import { blogEntries } from "@/app/lib/blogEntries";
 import { notFound } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
 import BlogImages from "@/app/components/BlogImages";
 import { Links } from "@/app/lib/Links";
+import BlogText from "@/app/components/BlogText";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
 
-  const blogData = blogEntriesSimple.find(
-    (blog) => blog.route === params.country
-  );
+  const blogData = blogEntries.find((blog) => blog.route === params.country);
 
   if (blogData) {
     metadata = {
@@ -22,7 +21,7 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  const blogEntryRoutes = blogEntriesSimple.map((blogEntry) => ({
+  const blogEntryRoutes = blogEntries.map((blogEntry) => ({
     country: blogEntry.route,
   }));
   return blogEntryRoutes;
@@ -98,9 +97,7 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
 }
 
 export default function BlogPage({ params, searchParams }) {
-  const blogData = blogEntriesSimple.find(
-    (blog) => blog.route === params.country
-  );
+  const blogData = blogEntries.find((blog) => blog.route === params.country);
 
   // Bogus route
   if (!blogData) {
@@ -112,14 +109,14 @@ export default function BlogPage({ params, searchParams }) {
     searchParams && searchParams.img_index ? searchParams.img_index - 1 : 0;
 
   // For the previous and next blog post buttons
-  const blogDataIndex = blogEntriesSimple.findIndex(
+  const blogDataIndex = blogEntries.findIndex(
     (blog) => blog.route === params.country
   );
   const prevBlogData =
-    blogDataIndex > 0 ? blogEntriesSimple[blogDataIndex - 1] : null;
+    blogDataIndex > 0 ? blogEntries[blogDataIndex - 1] : null;
   const nextBlogData =
-    blogDataIndex < blogEntriesSimple.length - 1
-      ? blogEntriesSimple[blogDataIndex + 1]
+    blogDataIndex < blogEntries.length - 1
+      ? blogEntries[blogDataIndex + 1]
       : null;
 
   const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
@@ -127,6 +124,10 @@ export default function BlogPage({ params, searchParams }) {
       {text}
     </li>
   ));
+
+  const blogImageDescriptions = blogData.postImages.map(
+    (imageData) => imageData.description
+  );
 
   return (
     <div className="bg-accent flex flex-1 flex-col">
@@ -142,18 +143,13 @@ export default function BlogPage({ params, searchParams }) {
       </div>
       <div className="flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
         <BlogImages blogData={blogData} imgIndex={imgIndex} />
-        <div className="text-left pl-3 pr-3 pb-3 pt-1 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
-          <ul>
-            <li className="pb-3 pt-2">
-              <span>
-                <strong>{blogData.caption.title}</strong>
-                {/* <span className="pl-1 drop-shadow-md">{blogData.flags[0]}</span> */}
-              </span>
-            </li>
-            {blogParagraphs}
-            <li className="text-blog_accent">{blogData.caption.publishDate}</li>
-          </ul>
-        </div>
+        <BlogText
+          title={blogData.caption.title}
+          paragraphs={blogParagraphs}
+          publishDate={blogData.caption.publishDate}
+          imageDescriptions={blogImageDescriptions}
+          route={params.country}
+        />
       </div>
     </div>
   );

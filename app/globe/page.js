@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { blogEntries } from "../lib/blogEntries";
+import { blogEntriesOld } from "../lib/blogEntriesOld";
 
 const Globe = dynamic(
   () => import("../components/_Globe").then((mod) => mod.default),
