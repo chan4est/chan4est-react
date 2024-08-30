@@ -41,7 +41,6 @@ export const PrevButton = (props) => {
 
   return (
     <button
-      title="Previous image"
       className="embla__button embla__button--prev text-button_active disabled:text-button_inactive"
       type="button"
       {...restProps}
@@ -62,7 +61,6 @@ export const NextButton = (props) => {
 
   return (
     <button
-      title="Next image"
       className="embla__button embla__button--next text-button_active disabled:text-button_inactive"
       type="button"
       {...restProps}

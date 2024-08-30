@@ -118,7 +118,8 @@ function BlogHeader({ blogEntries }) {
               he/him
             </span>
           </li>
-          <li>{age} | Developer | Traveler | Music Lover</li>
+          {/* <li>{age} | Developer | Traveler | Music Lover</li> */}
+          <li> This blog is a work in progress. Last update 8/30/24.</li>
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">

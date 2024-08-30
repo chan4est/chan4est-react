@@ -64,7 +64,10 @@ function BlogImage({
   imageNumber,
 }) {
   return (
-    <div className="flex flex-col flex-[0_0_100%] text-center">
+    <div
+      className="flex flex-col flex-[0_0_100%] text-center"
+      title="Coordinates"
+    >
       <NurtureCoordinates
         imgLocationLat={imgLocationLat}
         imgLocationLong={imgLocationLong}
@@ -113,6 +116,7 @@ function PhotoControls({ emblaApi }) {
     <DotButton
       key={index}
       onClick={() => onDotButtonClick(index)}
+      title={`Jump to image #${index + 1}`}
       className={"embla__dot after:bg-button_inactive".concat(
         index === selectedIndex
           ? "embla__dot__selected after:bg-button_active"
@@ -131,8 +135,16 @@ function PhotoControls({ emblaApi }) {
       </div>
       {/* <div className="hidden xl:flex xl:justify-end"> */}
       <div className="hidden lg:flex lg:justify-end">
-        <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-        <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        <PrevButton
+          onClick={onPrevButtonClick}
+          disabled={prevBtnDisabled}
+          title="Next image"
+        />
+        <NextButton
+          onClick={onNextButtonClick}
+          disabled={nextBtnDisabled}
+          title="Previous image"
+        />
       </div>
     </div>
   );

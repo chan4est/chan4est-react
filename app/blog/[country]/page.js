@@ -50,7 +50,7 @@ function BlogBackButton({}) {
 // Shown only in larger window widths (desktops)
 function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
   return (
-    <div className="hidden lg:block">
+    <div className="hidden xl:block">
       {/* // <div className="block"> */}
       {prevBlogData ? (
         <Link
@@ -108,6 +108,10 @@ export default function BlogPage({ params, searchParams }) {
   const imgIndex =
     searchParams && searchParams.img_index ? searchParams.img_index - 1 : 0;
 
+  // -1 to account for 0 based indexing
+  const txtIndex =
+    searchParams && searchParams.txt_index ? searchParams.txt_index - 1 : 0;
+
   // For the previous and next blog post buttons
   const blogDataIndex = blogEntries.findIndex(
     (blog) => blog.route === params.country
@@ -141,7 +145,7 @@ export default function BlogPage({ params, searchParams }) {
           <BlogBackButton />
         </div>
       </div>
-      <div className="flex flex-1 flex-col md:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
+      <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
         <BlogImages blogData={blogData} imgIndex={imgIndex} />
         <BlogText
           title={blogData.caption.title}
@@ -149,6 +153,7 @@ export default function BlogPage({ params, searchParams }) {
           publishDate={blogData.caption.publishDate}
           imageDescriptions={blogImageDescriptions}
           route={params.country}
+          txtIndex={txtIndex}
         />
       </div>
     </div>

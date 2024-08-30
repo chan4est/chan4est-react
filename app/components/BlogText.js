@@ -13,7 +13,7 @@ import {
 } from "@/app/components/EmblaCarouselDotbutton";
 import Link from "next/link";
 
-function PhotoControls({ emblaApi }) {
+function TextControls({ emblaApi }) {
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
 
@@ -27,6 +27,7 @@ function PhotoControls({ emblaApi }) {
   const scrollSnapsList = scrollSnaps.map((_, index) => (
     <DotButton
       key={index}
+      title={index === 0 ? "Blog post" : "Image descriptions"}
       onClick={() => onDotButtonClick(index)}
       className={"embla__dot after:bg-button_inactive".concat(
         index === selectedIndex
@@ -37,17 +38,21 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center lg:justify-between h-[20px]">
-      {/* DO NOT REMOVE! Empty div so that the dots are centered */}
-      {/* <div className="hidden xl:block xl:w-10"></div> */}
-      <div className="hidden lg:block lg:w-10"></div>
-      <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
+    <div className="flex flex-row justify-center h-[20px]">
+      <div className="lg:hidden pt-[0.875rem] flex flex-wrap justify-center items-center">
         {scrollSnapsList}
       </div>
-      {/* <div className="hidden xl:flex xl:justify-end"> */}
-      <div className="hidden lg:flex lg:justify-end">
-        <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-        <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+      <div className="hidden lg:flex">
+        <PrevButton
+          onClick={onPrevButtonClick}
+          disabled={prevBtnDisabled}
+          title="Blog post"
+        />
+        <NextButton
+          onClick={onNextButtonClick}
+          disabled={nextBtnDisabled}
+          title="Image descriptions"
+        />
       </div>
     </div>
   );
@@ -74,19 +79,20 @@ function ImageDescriptions({ imageDescriptions, route }) {
       <Link
         href={`${route}?img_index=${i + 1}`}
         title={`Jump to image #${i + 1}`}
+        key={`${description} + ${i + 1}`}
       >
-        <p key={description}>{`${i + 1}. ` + description}</p>
+        <p>{`${i + 1}. ` + description}</p>
       </Link>
     )
   );
 
-  return <div className="pl-2">{imageDescriptionsList}</div>;
+  return <div className="pt-2 pl-2">{imageDescriptionsList}</div>;
 }
 
 function WrappedTextContent({ content }) {
   return (
-    <div className="flex flex-col flex-[0_0_100%]">
-      <div className="">{content}</div>
+    <div className="flex flex-col flex-[0_0_100%] lg:justify-center">
+      {content}
     </div>
   );
 }
@@ -97,8 +103,9 @@ export default function BlogText({
   publishDate,
   imageDescriptions,
   route,
+  txtIndex,
 }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: txtIndex });
 
   const caption = (
     <BlogCaption
@@ -113,16 +120,23 @@ export default function BlogText({
   );
 
   const textReel = [
-    <WrappedTextContent content={caption} key={0} />,
-    <WrappedTextContent content={descriptions} key={1} />,
+    <WrappedTextContent content={caption} key={"Blog"} />,
+    <WrappedTextContent content={descriptions} key={"Image descriptions"} />,
   ];
 
   return (
-    <div className="overflow-hidden text-left pl-3 pr-3 pb-3 pt-[0.875rem] max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
+    <div className="overflow-hidden text-left pl-3 pr-3 pb-3 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
+      {/* Need PhotoControls inside a div just to hide it */}
+      <div className="block lg:hidden">
+        <TextControls emblaApi={emblaApi} />
+      </div>
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{textReel}</div>
       </div>
-      <PhotoControls emblaApi={emblaApi} />
+      {/* Need PhotoControls inside a div just to hide it */}
+      <div className="hidden lg:block">
+        <TextControls emblaApi={emblaApi} />
+      </div>
     </div>
   );
 }
