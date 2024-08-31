@@ -309,6 +309,15 @@ export const blogEntries = [
         },
       },
       {
+        coordinates: {
+          lat: "37°58'18.13\"N",
+          link: "https://maps.google.com/?q=37.97170277777778,23.726244444444443",
+          long: "23°43'34.48\"E",
+        },
+        description: "The Acropolis",
+        imgID: "c3c178ac-c0ef-4076-06bb-ae6d5d58a700",
+      },
+      {
         imgID: "5dc798d4-f25a-43fc-fa17-2eae74b0d100",
         description: "The Erechtheion",
         coordinates: {
@@ -334,6 +343,15 @@ export const blogEntries = [
           long: "23°43'57.80\"E",
           link: "https://www.google.com/maps?q=loc:37.9755389,23.7240861",
         },
+      },
+      {
+        coordinates: {
+          lat: "37°58'32.01\"N",
+          link: "https://maps.google.com/?q=37.97555833333333,23.721149999999998",
+          long: "23°43'16.14\"E",
+        },
+        description: "Temple of Hephaestus",
+        imgID: "14b1544f-a2b6-4be5-d9a1-b0149721f000",
       },
       {
         imgID: "a24ea1d4-fc35-4b79-1aef-b83f9d6d6800",
@@ -363,6 +381,15 @@ export const blogEntries = [
         },
       },
       {
+        coordinates: {
+          lat: "37°26'40.97\"N",
+          link: "https://maps.google.com/?q=37.444713888888884,25.325366666666667",
+          long: "25°19'31.32\"E",
+        },
+        description: "Sunset in Mykonos",
+        imgID: "88354739-512b-42f0-06f8-cc9e76f68500",
+      },
+      {
         imgID: "b4c72bb5-8c1a-4038-a6e1-7987eac4d900",
         description: "Santorini Bells",
         coordinates: {
@@ -372,13 +399,13 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "a6841f58-e378-431f-d3e8-e9bb17cbab00",
-        description: "Santorini Sunset",
         coordinates: {
-          lat: "36°27'41.00\"N",
-          long: "25°22'33.60\"E",
-          link: "https://www.google.com/maps?q=loc:36.4613778,25.3759944",
+          lat: "36°27'40.96\"N",
+          link: "https://maps.google.com/?q=36.461377777777784,25.375994444444444",
+          long: "25°22'33.58\"E",
         },
+        description: "Santorini Sunset",
+        imgID: "b2e26cd5-6bc4-45be-fe12-1ee0abd4f300",
       },
       {
         imgID: "c0d776d8-3a24-448e-f633-88138b951f00",
@@ -719,7 +746,7 @@ export const blogEntries = [
       },
       {
         imgID: "7fee3a9a-90a9-44a6-cf0a-923d8b6d0000",
-        description: "Al-Khazneh (The Treasury) - landscape",
+        description: "Al-Khazneh (The Treasury) - no crop",
         coordinates: {
           lat: "30°19'19.90\"N",
           long: "35°27'05.80\"E",
@@ -1093,7 +1120,7 @@ export const blogEntries = [
       },
       {
         imgID: "f1b83c41-7352-4936-0937-01c345bf7800",
-        description: "Big Buddah on Lantau Island",
+        description: "Big Buddha on Lantau Island",
         coordinates: {
           lat: "22°15'19.40\"N",
           long: "113°54'23.80\"E",
@@ -1102,7 +1129,7 @@ export const blogEntries = [
       },
       {
         imgID: "e0d0d4d5-69b8-45d8-5fe0-6ce39a91dd00",
-        description: "Big Buddah up close",
+        description: "Big Buddha up close",
         coordinates: {
           lat: "22°15'15.10\"N",
           long: "113°54'18.70\"E",
@@ -1266,7 +1293,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:37.5102472,127.0601806",
           long: "127°03'36.70\"E",
         },
-        description: "Starfield Library",
+        description: "Starfield Coex Library",
         imgID: "30adacf8-8c37-4192-02de-f00944846200",
       },
       {
@@ -1884,7 +1911,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/Seng+Guan+Temple+%E4%BF%A1%E9%A1%98%E5%AF%BA/@14.6076307,120.9745392,92m/data=!3m1!1e3!4m6!3m5!1s0x3397ca0894c577d7:0xdfb8e34d35b1a27c!8m2!3d14.6076382!4d120.9747277!16s%2Fm%2F0115q_05?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
           long: "120°58'28.10\"E",
         },
-        description: "Inside Seng Guan Temple in Binando",
+        description: "Inside Seng Guan Temple",
         imgID: "88d5620a-8849-434c-bb11-b1912cfdfd00",
       },
       {
@@ -1893,7 +1920,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=14.60473611111111,120.9747388888889",
           long: "120°58'29.06\"E",
         },
-        description: "Tricycle w/ Andrew 🇵🇭",
+        description: "Tricycle ride w/ Andrew 🇵🇭",
         imgID: "2b026ac8-e418-4391-26a3-d4f46dc00400",
       },
       {
@@ -2046,7 +2073,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:1.2817916,103.8642224",
           long: "103°51'51.02\"E",
         },
-        description: "Gardens by the Bay at night",
+        description: "Garden Rhapsody light show",
         imgID: "458b3213-2f59-4d1a-b00d-2e503375bf00",
       },
       {
@@ -2098,7 +2125,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
           long: "100°29'35.01\"E",
         },
-        description: "Tiled rooftops at The Grand Palace",
+        description: "Architecture of The Grand Palace",
         imgID: "b95df11f-2944-42e8-cfb5-a04024de4300",
       },
       {
@@ -2348,7 +2375,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.461627777777776,103.87290833333333",
           long: "103°52'22.47\"E",
         },
-        description: "Lion Statue at Angkor Wat",
+        description: "Lion Statue",
         imgID: "475d7b6d-dd66-4adc-88f6-e3b4f604ba00",
       },
       {
@@ -2433,7 +2460,7 @@ export const blogEntries = [
     caption: {
       title: "Hanoi | Hội An | Ho Chi Minh City, Vietnam 🇻🇳",
       content:
-        "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hoi An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
+        "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hội An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
       publishDate: "May 9, 2023",
     },
     isFlagLink: true,
