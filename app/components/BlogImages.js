@@ -32,6 +32,7 @@ function NurtureCoordinates({
     <Link
       href={imgLocationLink}
       className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1"
+      title="Coordinates"
     >
       <p>
         <span>{`Φ `}</span>
@@ -57,17 +58,19 @@ function NurtureCoordinates({
 function BlogImage({
   imgSrc,
   imgFullResLink,
-  imgLocationName,
+  imageDescription,
   imgLocationLat,
   imgLocationLong,
   imgLocationLink,
   imageNumber,
+  country,
 }) {
+  const descHeightHackyStyle =
+    country === "croatia"
+      ? "flex text-center items-center justify-center h-10 text-sm pt-1 pl-1 pr-1"
+      : "text-sm pt-1 pl-3 pr-3";
   return (
-    <div
-      className="flex flex-col flex-[0_0_100%] text-center"
-      title="Coordinates"
-    >
+    <div className="flex flex-col flex-[0_0_100%] text-center">
       <NurtureCoordinates
         imgLocationLat={imgLocationLat}
         imgLocationLong={imgLocationLong}
@@ -77,11 +80,11 @@ function BlogImage({
         <Link href={imgFullResLink}>
           <Image
             src={imgSrc}
-            alt={`Photo of ${imgLocationName}`}
+            alt={`Photo of ${imageDescription}`}
             width={720}
             height={720}
             quality={100}
-            title={imgLocationName}
+            title={imageDescription}
             style={{
               width: "100%",
               height: "auto",
@@ -90,13 +93,14 @@ function BlogImage({
               shimmer(720, 720)
             )}`}
             priority={imageNumber == 0 ? true : false}
-            // loading={"eager"}
-            loading={imageNumber == 0 ? "eager" : "lazy"}
+            loading={"eager"}
+            // loading={imageNumber == 0 ? "eager" : "lazy"}
             // unoptimized={false}
             unoptimized={true}
           />
         </Link>
       </div>
+      <p className={descHeightHackyStyle}>{imageDescription}</p>
     </div>
   );
 }
@@ -130,7 +134,8 @@ function PhotoControls({ emblaApi }) {
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       {/* <div className="hidden xl:block xl:w-10"></div> */}
       <div className="hidden lg:block lg:w-10"></div>
-      <div className="pt-[0.875rem] flex flex-wrap justify-center items-center">
+      {/* <div className="pt-[0.875rem] flex flex-wrap justify-center items-center"> */}
+      <div className="flex flex-wrap justify-center items-center">
         {scrollSnapsList}
       </div>
       {/* <div className="hidden xl:flex xl:justify-end"> */}
@@ -149,24 +154,26 @@ function PhotoControls({ emblaApi }) {
     </div>
   );
 }
-export default function BlogImages({ blogData, imgIndex }) {
+export default function BlogImages({ blogData, imgIndex, country }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: imgIndex });
 
   const imgList = blogData.postImages.map((imgData, i) => (
     <BlogImage
-      imgSrc={imgURL(imgData.imgID, r_720)}
+      imgSrc={imgURL(imgData.imgID, r_1500)}
       imgFullResLink={imgURL(imgData.imgID, r_3000)}
-      imgLocationName={imgData.description}
+      imageDescription={imgData.description}
       imgLocationLat={imgData.coordinates.lat}
       imgLocationLong={imgData.coordinates.long}
       imgLocationLink={imgData.coordinates.link}
       imageNumber={i}
+      country={country}
       key={i}
     />
   ));
 
   return (
     <div className="overflow-hidden max-w-full lg:max-w-[720px]">
+      {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>
       </div>

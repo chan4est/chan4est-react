@@ -238,8 +238,18 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "6218115b-64da-46b4-2c82-29ab1c16a600",
+        description:
+          "The Path of Paradise w/ Valentine 🇩🇪 Franzi 🇩🇪 Elodie 🇲🇺 René 🇺🇸 Adele 🇺🇸 & Karen 🇰🇷",
+        coordinates: {
+          lat: "42°37'42.80\"N",
+          long: "18°07'09.70\"E",
+          link: "https://www.google.com/maps?q=42.62856,18.11936",
+        },
+      },
+      {
         imgID: "d00472e8-58df-4065-8370-3413b69d1d00",
-        description: "Dubrovnik Friends Part 1",
+        description: "Dubrovnik friends collage left",
         coordinates: {
           lat: "42°37'23.50\"N",
           long: "18°07'10.60\"E",
@@ -248,21 +258,11 @@ export const blogEntries = [
       },
       {
         imgID: "e9ec6c6c-bdae-4a42-a206-8501cdfc2900",
-        description: "Dubrovnik Friends Part 2",
+        description: "Dubrovnik friends collage right",
         coordinates: {
           lat: "42°37'23.50\"N",
           long: "18°07'10.60\"E",
           link: "https://www.google.com/maps?q=loc:42.6232,18.1196",
-        },
-      },
-      {
-        imgID: "6218115b-64da-46b4-2c82-29ab1c16a600",
-        description:
-          "The Path of Paradise w/ Valentine 🇩🇪 Franzi 🇩🇪 Elodie 🇲🇺 René 🇺🇸 Adele 🇺🇸 & Karen 🇰🇷",
-        coordinates: {
-          lat: "42°37'42.80\"N",
-          long: "18°07'09.70\"E",
-          link: "https://www.google.com/maps?q=42.62856,18.11936",
         },
       },
     ],

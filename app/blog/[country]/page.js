@@ -146,7 +146,11 @@ export default function BlogPage({ params, searchParams }) {
         </div>
       </div>
       <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
-        <BlogImages blogData={blogData} imgIndex={imgIndex} />
+        <BlogImages
+          blogData={blogData}
+          imgIndex={imgIndex}
+          country={params.country}
+        />
         <BlogText
           title={blogData.caption.title}
           paragraphs={blogParagraphs}

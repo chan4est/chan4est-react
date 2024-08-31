@@ -126,17 +126,16 @@ export default function BlogText({
 
   return (
     <div className="overflow-hidden text-left pl-3 pr-3 pb-3 max-w-[450px] md:max-w-[400px] md:pt-0 md:pb-0 md:pl-7 md:pr-7 text-[0.75rem]">
-      {/* Need PhotoControls inside a div just to hide it */}
+      {/* Need PhotoControls inside a div just to hide it
       <div className="block lg:hidden">
         <TextControls emblaApi={emblaApi} />
       </div>
-      <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">{textReel}</div>
-      </div>
-      {/* Need PhotoControls inside a div just to hide it */}
+      <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}> */}
+      <div className="flex">{caption}</div>
+      {/* </div>
       <div className="hidden lg:block">
         <TextControls emblaApi={emblaApi} />
-      </div>
+      </div> */}
     </div>
   );
 }

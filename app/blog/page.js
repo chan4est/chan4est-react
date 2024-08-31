@@ -1,48 +1,56 @@
 import Image from "next/image";
 import Link from "next/link";
-import chanPhotoIndia from "../../public/me-india.webp";
+import chanPhotoIndia from "../../public/blog/me-india.webp";
+import layers from "../../public/blog/layers.webp";
 import { NavBar } from "../components/Navbar";
 import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
-import { imgURL, r_300 } from "../lib/cloudflareImgNames";
+import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
 
 export const metadata = {
   title: "chan4est | Blog",
   description: "Chandler's Personal Blog",
 };
 
-function BlogGridSquare({ imgSrc, imgLocationName, entryTitle, entryRoute }) {
+function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
   return (
     <Link href={`/blog/${entryRoute}`} title={entryTitle}>
-      <Image
-        src={imgSrc}
-        alt={`Photo of ${imgLocationName}`}
-        width={300}
-        height={300}
-        quality={100}
-        className="max-h-[300px] object-cover"
-        priority={true}
-        loading={"eager"}
-        unoptimized={true}
-      />
+      <div className="relative">
+        <Image
+          src={imgSrc}
+          alt={`Photo of ${entryTitle}`}
+          width={310}
+          height={310}
+          quality={100}
+          className="max-h-[310px] object-cover "
+          priority={true}
+          loading={"eager"}
+          unoptimized={true}
+        />
+        <Image
+          src={layers}
+          alt=""
+          width={25}
+          height={25}
+          className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
+          priority={true}
+          loading={"eager"}
+          unoptimized={true}
+        />
+        {/* <p className="">Test</p> */}
+      </div>
     </Link>
   );
 }
 
 function BlogGrid({ blogEntries }) {
   const blogPreviews = blogEntries.map((entry, index) => {
-    const firstImgSrc = imgURL(entry.postImages[entry.previewIdx].imgID, r_300);
-    console.log(firstImgSrc);
-    const entryTitlePrev = index > 0 ? blogEntries[index - 1].pageTitle : null;
-    const entryTitleNext =
-      index < blogEntries.length - 1 ? blogEntries[index + 1].pageTitle : null;
+    const firstImgSrc = imgURL(entry.postImages[entry.previewIdx].imgID, r_620);
     return (
       <BlogGridSquare
         imgSrc={firstImgSrc}
         entryTitle={entry.pageTitle}
         entryRoute={entry.route}
-        entryTitlePrev={entryTitlePrev}
-        entryTitleNext={entryTitleNext}
         key={entry.pageTitle}
       />
     );
@@ -109,7 +117,7 @@ function BlogHeader({ blogEntries }) {
       </div>
       <div
         id="blurb"
-        className="flex flex-column items-center pt-3 sm:pl-10  text-left max-w-[26rem] text-[0.875rem] md:text-base"
+        className="flex flex-column items-center pt-3 sm:pl-10 text-left max-w-[26rem] lg:max-w-[30rem] text-[0.875rem] md:text-base"
       >
         <ul>
           <li>
