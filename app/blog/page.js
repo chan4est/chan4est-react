@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import chanPhotoIndia from "../../public/blog/me-india.webp";
-import layers from "../../public/blog/layers.webp";
+import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
+import layersIcon from "../../public/blog/layers.webp";
 import { NavBar } from "../components/Navbar";
 import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
 import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
 
 export const metadata = {
-  title: "chan4est | Blog",
-  description: "Chandler's Personal Blog",
+  title: "chan4est | Blog 🌎🌍🌏",
+  description: "Chandler's Travel Blog",
 };
 
 function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
@@ -28,7 +29,7 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           unoptimized={true}
         />
         <Image
-          src={layers}
+          src={layersIcon}
           alt=""
           width={25}
           height={25}
@@ -37,7 +38,6 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           loading={"eager"}
           unoptimized={true}
         />
-        {/* <p className="">Test</p> */}
       </div>
     </Link>
   );
@@ -105,14 +105,15 @@ function BlogHeader({ blogEntries }) {
     <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10">
       <div id="age" className="flex-shrink-0">
         <Image
-          src={chanPhotoIndia}
-          alt={"Chandler at the Taj Mahal"}
+          src={chanPhotoNagoya}
+          alt={"Nagoya Castle"}
           width={200}
           height={200}
-          quality={80}
+          quality={100}
           className="rounded-full"
           priority={true}
           loading={"eager"}
+          unoptimized={true}
         />
       </div>
       <div
@@ -127,7 +128,7 @@ function BlogHeader({ blogEntries }) {
             </span>
           </li>
           {/* <li>{age} | Developer | Traveler | Music Lover</li> */}
-          <li> This blog is a work in progress. Last update 8/30/24.</li>
+          <li> This blog is a work in progress. Last update 9/2/24.</li>
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">

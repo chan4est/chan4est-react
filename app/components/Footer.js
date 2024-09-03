@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Links } from "../lib/Links";
 
+const ICONS_PATH = "/footer-icons";
+
 export function Footer({}) {
   let currentDate = new Date();
   let currentYear = currentDate.getFullYear();
@@ -42,7 +44,7 @@ export function Footer({}) {
         >
           <a href={Links.EMAIL} className="hover:scale-125">
             <Image
-              src={`/tech-icons/gmail.webp`}
+              src={`${ICONS_PATH}/gmail.webp`}
               height={15}
               width={15}
               alt="Gmail Logo"
@@ -51,7 +53,7 @@ export function Footer({}) {
           </a>
           <a href={Links.LINKEDIN} className="hover:scale-125">
             <Image
-              src={`/tech-icons/linkedin.webp`}
+              src={`${ICONS_PATH}/linkedin.webp`}
               height={15}
               width={15}
               alt="LinkedIn Logo"
@@ -61,11 +63,11 @@ export function Footer({}) {
           <a href={Links.GITHUB} className="hover:scale-125">
             <picture>
               <source
-                srcSet={"/tech-icons/github-w.webp"}
+                srcSet={`${ICONS_PATH}/github-w.webp`}
                 media="(prefers-color-scheme: dark)"
               />
               <Image
-                src={"/tech-icons/github.webp"}
+                src={`${ICONS_PATH}/github.webp`}
                 height={15}
                 width={15}
                 alt="GitHub Logo"

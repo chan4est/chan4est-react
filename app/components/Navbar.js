@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Links } from "../lib/Links";
 import { useState, useRef, useEffect } from "react";
 
+const ICONS_PATH = "/header-icons";
+
 function NavBarLink({ href, imgSrc, pText }) {
   return (
     <Link
@@ -21,10 +23,10 @@ function NavBarLink({ href, imgSrc, pText }) {
           height={25}
           width={25}
           alt=""
-          // alt={`${pText} Vector Logo`}
-          quality={50}
+          quality={100}
           priority={true}
           loading={"eager"}
+          unoptimized={true}
         />
       </picture>
       <p>{pText}</p>
@@ -50,10 +52,10 @@ function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
           height={25}
           width={25}
           alt=""
-          // alt={`${pText} Vector Logo`}
-          quality={50}
+          quality={100}
           priority={true}
           loading={"eager"}
+          unoptimized={true}
         />
       </picture>
       <p>{pText}</p>
@@ -98,7 +100,6 @@ export function NavBar({}) {
             />
             <Image
               src={"/header-icons/menu.webp"}
-              // alt="Menu Vector Logo"
               alt=""
               width={50}
               height={50}
@@ -119,37 +120,37 @@ export function NavBar({}) {
           />
           <NavBarLink
             href={Links.TECH_STACK}
-            imgSrc={"/header-icons/tech-stack"}
+            imgSrc={`${ICONS_PATH}/tech-stack`}
             pText={"Tech Stack"}
           />
           <NavBarLink
             href={Links.PROJECTS}
-            imgSrc={"/header-icons/projects"}
+            imgSrc={`${ICONS_PATH}/projects`}
             pText={"Projects"}
           />
           <NavBarLink
             href={Links.RESUME}
-            imgSrc={"/header-icons/resume"}
+            imgSrc={`${ICONS_PATH}/resume`}
             pText={"Resume"}
           />
           <NavBarLink
             href={Links.BLOG}
-            imgSrc={"/header-icons/blog"}
+            imgSrc={`${ICONS_PATH}/blog`}
             pText={"Blog (WIP)"}
           />
           <NavBarAnchor
             href={Links.EMAIL}
-            imgSrc={"/tech-icons/gmail"}
+            imgSrc={`${ICONS_PATH}/gmail`}
             pText={"Email"}
           />
           <NavBarAnchor
             href={Links.LINKEDIN}
-            imgSrc={"/tech-icons/linkedin"}
+            imgSrc={`${ICONS_PATH}/linkedin`}
             pText={"LinkedIn"}
           />
           <NavBarAnchor
             href={Links.GITHUB}
-            imgSrc={"/tech-icons/github"}
+            imgSrc={`${ICONS_PATH}/github`}
             pText={"GitHub"}
             hasDarkMode={true}
           />

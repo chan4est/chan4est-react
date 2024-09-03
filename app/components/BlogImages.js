@@ -68,7 +68,7 @@ function BlogImage({
   const descHeightHackyStyle =
     country === "croatia"
       ? "flex text-center items-center justify-center h-10 text-sm pt-1 pl-1 pr-1"
-      : "text-sm pt-1 pl-3 pr-3";
+      : "text-sm pt-1 pl-1 pr-1";
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center">
       <NurtureCoordinates

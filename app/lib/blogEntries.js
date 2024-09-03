@@ -1809,6 +1809,15 @@ export const blogEntries = [
       },
       {
         coordinates: {
+          lat: "25°03'01.67\"N",
+          link: "https://maps.google.com/?q=25.05046388888889,121.57431666666666",
+          long: "121°34'27.54\"E",
+        },
+        description: "All the iconic Taiwanese food",
+        imgID: "c0453cca-2412-46fe-45cf-48d90b458600",
+      },
+      {
+        coordinates: {
           lat: "25°03'22.43\"N",
           link: "https://maps.google.com/?q=25.056230555555555,121.51528888888889",
           long: "121°30'55.04\"E",
@@ -2055,7 +2064,7 @@ export const blogEntries = [
           long: "103°52'03.00\"E",
         },
         description: "Multilingual sign in Singapore",
-        imgID: "9ec4ef8e-467f-4be3-9fc8-41ebb91ca000",
+        imgID: "084b43fe-2c9f-4ed9-1175-917cd1576c00",
       },
 
       {
@@ -2464,7 +2473,7 @@ export const blogEntries = [
       publishDate: "May 9, 2023",
     },
     isFlagLink: true,
-    previewIdx: 15,
+    previewIdx: 0,
     postImages: [
       {
         coordinates: {
@@ -2933,13 +2942,13 @@ export const blogEntries = [
     countryNames: ["Japan"],
     route: "osaka",
     flags: ["🇯🇵"],
+    isFlagLink: false,
     caption: {
       title: "Osaka, Japan 🇯🇵",
       content:
         "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
       publishDate: "April 18, 2023",
     },
-    isFlagLink: false,
     previewIdx: 0,
     postImages: [
       {
@@ -3115,11 +3124,803 @@ export const blogEntries = [
       },
     ],
   },
+  {
+    pageTitle: "Kyoto, Japan 🇯🇵",
+    countryNames: ["Japan"],
+    route: "kyoto",
+    flags: ["🇯🇵"],
+    isFlagLink: false,
+    caption: {
+      title: "Kyoto, Japan 🇯🇵",
+      content:
+        "Kyoto was the first city I wrapped up on my 𝘴𝘰𝘮𝘦𝘸𝘩𝘢𝘵 chaotic trip through Japan. The cherry blossoms were in full bloom at the time, and I couldn’t have been more excited! \nThere were so many iconic sites that it was almost impossible to see all of them within only a few days. From Arashiyama Bamboo Forest to Kiyomizu-Dera, and Fushimi Inari Shrine…it was all so spectacular to be standing and exploring all the spots I’ve seen and heard so much about! \nWhile the visit was quick, I felt satisfied and kinda happy that I left some boxes unchecked. It gives me a great excuse to come back and do it all again!\nありがとうございます京都 ⛩️",
+
+      publishDate: "April 12, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "34°59'53.27\"N",
+          link: "https://maps.google.com/?q=34.998130555555555,135.78021111111113",
+          long: "135°46'48.76\"E",
+        },
+        description: "Hōkan-ji Temple (Yasaka Pagoda)",
+        imgID: "ac039703-1466-487a-5ca3-de6c16d91e00",
+      },
+      {
+        coordinates: {
+          lat: "35°00'12.39\"N",
+          link: "https://maps.google.com/?q=35.00344166666667,135.778275",
+          long: "135°46'41.79\"E",
+        },
+        description: "Real life locations from the Shelter music video",
+        imgID: "f57ccbde-fbf8-4735-0444-168a7813cb00",
+      },
+      {
+        coordinates: {
+          lat: "34°59'38.93\"N",
+          link: "https://maps.google.com/?q=34.994147222222225,135.7853861111111",
+          long: "135°47'07.39\"E",
+        },
+        description: "Kiyomizu-dera Temple",
+        imgID: "3c0b74e2-399b-41bc-038e-37cea48f7300",
+      },
+      {
+        coordinates: {
+          lat: "34°59'40.47\"N",
+          link: "https://maps.google.com/?q=34.994575,135.7853861111111",
+          long: "135°47'07.39\"E",
+        },
+        description: "Kiyomizu-dera stage",
+        imgID: "8177d5e9-bf7e-4749-92ea-4d4d054a2800",
+      },
+
+      {
+        coordinates: {
+          lat: "35°01'39.10\"N",
+          link: "https://maps.google.com/?q=35.02752777777778,135.79365277777777",
+          long: "135°47'37.15\"E",
+        },
+        description: "Smiling at the sakura",
+        imgID: "b9be2bec-9243-40b6-7cd6-172de918e100",
+      },
+      {
+        coordinates: {
+          lat: "35°01'00.26\"N",
+          link: "https://maps.google.com/?q=35.01673888888889,135.67109722222222",
+          long: "135°40'15.95\"E",
+        },
+        description: "Arashiyama Bamboo Forest",
+        imgID: "9490dafd-83c3-4f14-7756-e0abb1b5c400",
+      },
+      {
+        coordinates: {
+          lat: "35°01'00.53\"N",
+          link: "https://maps.google.com/?q=35.01681388888889,135.67125833333333",
+          long: "135°40'16.53\"E",
+        },
+        description: "The scale of the bamboo",
+        imgID: "b55f78ba-2bd9-45a0-d4d3-f62ba5017a00",
+      },
+
+      {
+        coordinates: {
+          lat: "35°02'20.46\"N",
+          link: "https://maps.google.com/?q=35.03901666666666,135.72881944444444",
+          long: "135°43'43.75\"E",
+        },
+        description: "Kinkaku-ji (Temple of the Golden Pavilion)",
+        imgID: "95717235-0257-4304-9a7d-cbec478ef300",
+      },
+      {
+        coordinates: {
+          lat: "35°01'36.19\"N",
+          link: "https://maps.google.com/?q=35.026719444444446,135.7982027777778",
+          long: "135°47'53.53\"E",
+        },
+        description: "Ginkaku-ji (Temple of the Silver Pavilion)",
+        imgID: "5e4ce493-9f09-49e9-2ea8-a188fa16cd00",
+      },
+      {
+        coordinates: {
+          lat: "34°58'01.77\"N",
+          link: "https://maps.google.com/?q=34.96715833333334,135.77217222222222",
+          long: "135°46'19.82\"E",
+        },
+        description: "Fushimi Inari Shrine entrance",
+        imgID: "05ae586e-8b84-495b-875d-ff540edece00",
+      },
+      {
+        coordinates: {
+          lat: "34°58'02.82\"N",
+          link: "https://maps.google.com/?q=34.96745,135.7865138888889",
+          long: "135°47'11.45\"E",
+        },
+        description: "Torii gates",
+        imgID: "99dc18ac-861c-46ff-7410-3216623abe00",
+      },
+      {
+        coordinates: {
+          lat: "34°58'11.25\"N",
+          link: "https://maps.google.com/?q=34.969791666666666,135.77856111111112",
+          long: "135°46'42.82\"E",
+        },
+        description: "Walking through Fushimi Inari",
+        imgID: "d713d88c-eeb0-4c55-1678-5c49f1f75600",
+      },
+      {
+        coordinates: {
+          lat: "34°58'01.35\"N",
+          link: "https://maps.google.com/?q=34.96704166666667,135.78332500000002",
+          long: "135°46'59.97\"E",
+        },
+        description: "More Torri gates",
+        imgID: "c3a21d96-b32f-4171-094c-bc2be30aa100",
+      },
+      {
+        coordinates: {
+          lat: "34°57'59.49\"N",
+          link: "https://maps.google.com/?q=34.966525000000004,135.77543611111113",
+          long: "135°46'31.57\"E",
+        },
+        description: "Peace from Fushimi Inari",
+        imgID: "ec8182c5-bded-4fab-ef94-fd19f14a1f00",
+      },
+
+      {
+        coordinates: {
+          lat: "34°58'01.25\"N",
+          link: "https://maps.google.com/?q=34.96701388888889,135.78550833333333",
+          long: "135°47'07.83\"E",
+        },
+        description: "Peak of Mt. Inari (day)",
+        imgID: "24aa712c-28a6-4614-6f7f-004ed8dcfb00",
+      },
+      {
+        coordinates: {
+          lat: "34°58'01.17\"N",
+          link: "https://maps.google.com/?q=34.966991666666665,135.78546111111112",
+          long: "135°47'07.66\"E",
+        },
+        description: "Peak of Mt. Inari (night)",
+        imgID: "97c4a9bf-f32d-4464-dd0f-c5f4d9625500",
+      },
+      {
+        coordinates: {
+          lat: "34°58'08.50\"N",
+          link: "https://maps.google.com/?q=34.96902777777778,135.75709444444445",
+          long: "135°45'25.54\"E",
+        },
+        description: "Nintendo Headquarters",
+        imgID: "2a14d7c1-fb0b-449c-6b12-1a3a7ffb4d00",
+      },
+      {
+        coordinates: {
+          lat: "34°58'08.54\"N",
+          link: "https://maps.google.com/?q=34.96903888888889,135.75711944444444",
+          long: "135°45'25.63\"E",
+        },
+        description: "My dream job",
+        imgID: "b1f5f19b-b815-4928-9956-c257e6eeae00",
+      },
+    ],
+  },
+  {
+    pageTitle: "Colombia 🇨🇴",
+    countryNames: ["Colombia"],
+    route: "colombia",
+    flags: ["🇨🇴"],
+    isFlagLink: true,
+    caption: {
+      title: "Bogota, Colombia 🇨🇴",
+      content:
+        "A very colorful city, and my last stop during my first trip to South America. I had originally planned a lot more time here, but due to the Nurture Live tour being announced I had to cut things short. I still feel like there’s a lot more to explore when it comes to Colombia so I’ll definitely be back! \nThankfully, with the amount of time I did have, I was still able to catch up with one of my close friends @juan_____s! We both met in Rome, and then a little later during our Europe travels met again in Paris, and now months later in Bogota! Truly international friends! Maybe we’ll bump up the count to four countries later this year 😉\n¡Gracias Colombia! ¡Nos volveremos a ver muy pronto!\n📸 location credit: @ra1eigh, ty for finding the colorful buildings by scouring Google Maps + Flickr for me on a whim",
+      publishDate: "March 25, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "04°35'36.92\"S",
+          link: "https://maps.google.com/?q=4.593588888888888,-74.07331111111111",
+          long: "74°04'23.92\"W",
+        },
+        description: "La Candelaria",
+        imgID: "56815757-347d-482b-15f8-4df065429a00",
+      },
+      {
+        coordinates: {
+          lat: "04°35'37.88\"S",
+          link: "https://maps.google.com/?q=4.593855555555555,-74.07193055555555",
+          long: "74°04'18.95\"W",
+        },
+        description: "Walking in Bogota",
+        imgID: "30738d92-4008-45e4-cb38-d33faf416200",
+      },
+      {
+        coordinates: {
+          lat: "04°35'52.32\"S",
+          link: "https://maps.google.com/?q=4.5978666666666665,-74.07645277777777",
+          long: "74°04'35.23\"W",
+        },
+        description: "Plaza de Bolívar",
+        imgID: "c265e3d6-6fe6-48a2-f057-10eb85279d00",
+      },
+      {
+        coordinates: {
+          lat: "04°35'50.84\"S",
+          link: "https://maps.google.com/?q=4.597455555555555,-74.07581388888889",
+          long: "74°04'32.93\"W",
+        },
+        description: "Hills of Bogota",
+        imgID: "30361393-03b8-43a3-4c8e-4e7078513100",
+      },
+      {
+        coordinates: {
+          lat: "04°35'38.80\"S",
+          link: "https://maps.google.com/?q=4.594111111111111,-74.07472222222222",
+          long: "74°04'29.00\"W",
+        },
+        description: "Santuario Nuestra Señora del Carmes",
+        imgID: "d6c6b895-4cb9-428b-f857-b6ef9cac6400",
+      },
+      {
+        coordinates: {
+          lat: "04°35'53.90\"S",
+          link: "https://maps.google.com/?q=4.598305555555555,-74.07511944444444",
+          long: "74°04'30.43\"W",
+        },
+        description: "La Puerta Falsa",
+        imgID: "8deec416-9a20-4b5b-1ca9-136f88a68800",
+      },
+      {
+        coordinates: {
+          lat: "04°40'02.05\"N ",
+          link: "https://www.google.com/maps?q=loc:4.6673694,-74.0534444",
+          long: "74°03'12.04\"W",
+        },
+        description: "Third country hangout w/ Juan 🇨🇴",
+        imgID: "9ac80eab-c813-4704-4b05-9f8fff4e3200",
+      },
+      {
+        coordinates: {
+          lat: "04°37'00.78\"S",
+          link: "https://maps.google.com/?q=4.616883333333334,-74.0839",
+          long: "74°05'02.04\"W",
+        },
+        description: "Beloved Colombian treat",
+        imgID: "5307c5a2-16bc-480a-a7e1-652c552fd900",
+      },
+      {
+        coordinates: {
+          lat: "04°41'55.03\"S",
+          link: "https://www.google.com/maps?q=loc:4.6986833,-74.1425333",
+          long: "74°08'33.01\"W",
+        },
+        description: "Peace out South America",
+        imgID: "0f298793-8842-4226-e624-5d65901fa500",
+      },
+    ],
+  },
+  {
+    pageTitle: "Peru 🇵🇪",
+    countryNames: ["Peru"],
+    route: "peru",
+    flags: ["🇵🇪"],
+    isFlagLink: true,
+    caption: {
+      title: "Cusco | Machu Picchu, Peru 🇵🇪",
+      content:
+        "One night of sleeping inside the Lima airport, two nights getting acclimated in Cusco, a colectivo, a train, and a bus ride and there I was! Standing in the Inca ruins of Machu Picchu! \nIt all felt so absolutely unreal to me! Another one of those places I saw all the time growing up but never imagined myself ever seeing it in person. I think everyone there and myself felt incredibly lucky to be there as the weather was immaculate, and the crowds were thin. Truly felt like a once in a lifetime experience. \nA new wonder of the world, lots of delicious foods, and great people met along the way, all add up to make another amazing trip! ¡gracías Peru!",
+      publishDate: "March 23, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "13°09'56.94\"S",
+          link: "https://maps.google.com/?q=-13.165816666666666,-72.54518055555555",
+          long: "72°32'42.65\"W",
+        },
+        description: "Machu Picchu",
+        imgID: "d4d91160-ee3a-419e-1078-8bea7b6b7500",
+      },
+      {
+        coordinates: {
+          lat: "13°30'58.68\"S",
+          link: "https://maps.google.com/?q=-13.5163,-71.97824722222222",
+          long: "71°58'41.69\"W",
+        },
+        description: "Catedral de Cuzco",
+        imgID: "f60b1deb-e223-4245-465c-2f5bcbf43000",
+      },
+      {
+        coordinates: {
+          lat: "13°30'59.92\"S",
+          link: "https://maps.google.com/?q=-13.516644444444445,-71.97876111111111",
+          long: "71°58'43.54\"W",
+        },
+        description: "Statue of Pachacuti in Plaza de Armas, Cusco ",
+        imgID: "c213f7a8-ccbe-4c9b-35a2-51aac5ff7400",
+      },
+      {
+        coordinates: {
+          lat: "13°30'56.86\"S",
+          link: "https://maps.google.com/?q=-13.515794444444445,-71.97905833333334",
+          long: "71°58'44.61\"W",
+        },
+        description: "Peruvian cuisinw",
+        imgID: "e211571e-9aac-41ee-7dec-58354341a900",
+      },
+      {
+        coordinates: {
+          lat: "13°15'47.72\"S",
+          link: "https://maps.google.com/?q=-13.263255555555556,-72.27018611111112",
+          long: "72°16'12.67\"W",
+        },
+        description: "PeruRail train in Ollantaytambo",
+        imgID: "37dfcc1d-0055-4512-d195-42f5decc6800",
+      },
+      {
+        coordinates: {
+          lat: "13°11'31.33\"S",
+          link: "https://maps.google.com/?q=-13.192036111111111,-72.4600138888889",
+          long: "72°27'36.05\"W",
+        },
+        description: "Inca Cola (unique bubblgum flavored soda)",
+        imgID: "bf269510-0a76-4445-69be-c3ac87aafa00",
+      },
+      {
+        coordinates: {
+          lat: "13°09'18.37\"S",
+          link: "https://maps.google.com/?q=-13.155102777777778,-72.525575",
+          long: "72°31'32.07\"W",
+        },
+        description: "Aguas Calientes at night",
+        imgID: "b48bca89-262b-4a46-bf25-ad096b31ce00",
+      },
+      {
+        coordinates: {
+          lat: "13°09'56.52\"S",
+          link: "https://maps.google.com/?q=-13.165700000000001,-72.54501388888889",
+          long: "72°32'42.05\"W",
+        },
+        description: "Peace from Machu Picchu",
+        imgID: "4a4a2f2f-ef7e-4b65-bc8e-9ff220025200",
+      },
+      {
+        coordinates: {
+          lat: "13°09'56.52\"S",
+          link: "https://maps.google.com/?q=-13.165700000000001,-72.545",
+          long: "72°32'42.00\"W",
+        },
+        description: "Photobombing doggy",
+        imgID: "cc51ab9f-e1f2-41f8-36bd-16d1f391ab00",
+      },
+      {
+        coordinates: {
+          lat: "13°09'51.11\"S",
+          link: "https://maps.google.com/?q=-13.164197222222223,-72.54518888888889",
+          long: "72°32'42.68\"W",
+        },
+        description: "Walking inside Machu Picchu",
+        imgID: "97bf6bea-b417-4354-ae9c-1b0314d9b200",
+      },
+
+      {
+        coordinates: {
+          lat: "13°09'48.08\"S",
+          link: "https://www.google.com/maps?q=loc:-13.1635444,-72.5453639",
+          long: "72°32'43.03\"W",
+        },
+        description: "Larvitar enjoying the perfecly cut rocks",
+        imgID: "a747ab71-e607-4e43-6771-f564545d0a00",
+      },
+      {
+        coordinates: {
+          lat: "13°09'45.83\"S",
+          link: "https://maps.google.com/?q=-13.162730555555555,-72.54591388888889",
+          long: "72°32'45.29\"W",
+        },
+        description: "Even deeper into Machu Picchu",
+        imgID: "4484f86e-231d-4a6b-4e98-da7cd7cfb700",
+      },
+      {
+        coordinates: {
+          lat: "13°09'44.21\"S",
+          link: "https://maps.google.com/?q=-13.162280555555556,-72.54493611111111",
+          long: "72°32'41.77\"W",
+        },
+        description: "Huayna Picchu",
+        imgID: "0355f6e3-3575-4f7f-2956-735db52ca400",
+      },
+      {
+        coordinates: {
+          lat: "13°09'45.32\"S",
+          link: "https://maps.google.com/?q=-13.16258888888889,-72.54476111111111",
+          long: "72°32'41.14\"W",
+        },
+        description: "Walkway inside Machu Picchu",
+        imgID: "6f783cd0-8466-438c-83b0-980db3bcce00",
+      },
+      {
+        coordinates: {
+          lat: "13°09'45.15\"S",
+          link: "https://maps.google.com/?q=-13.162541666666668,-72.54465555555555",
+          long: "72°32'40.76\"W",
+        },
+        description: "Elderly couple who gifted me a banana",
+        imgID: "c50a5331-2fb0-498e-368e-78e7ca145700",
+      },
+      {
+        coordinates: {
+          lat: "13°09'44.25\"S",
+          link: "https://maps.google.com/?q=-13.162291666666667,-72.54562222222222",
+          long: "72°32'44.24\"W",
+        },
+        description: "Steps inside Machu Pichu",
+        imgID: "ad4eed94-f2fb-43c6-1ff0-d432b0a0a800",
+      },
+      {
+        coordinates: {
+          lat: "13°09'54.03\"S",
+          link: "https://maps.google.com/?q=-13.165008333333335,-72.54453333333333",
+          long: "72°32'40.32\"W",
+        },
+        description: "Kooky llama",
+        imgID: "4c30d03b-df67-4fdf-862d-6b785af28b00",
+      },
+      {
+        coordinates: {
+          lat: "13°15'31.53\"S",
+          link: "https://maps.google.com/?q=-13.258758333333333,-72.3593361111111",
+          long: "72°21'33.61\"W",
+        },
+        description: "The Andes from the sky",
+        imgID: "f54d43dd-1593-4096-55b3-50ebb95ace00",
+      },
+    ],
+  },
+  {
+    pageTitle: "Brazil 🇧🇷 + Argentina 🇦🇷",
+    countryNames: ["Argentina"],
+    route: "argentina",
+    flags: ["🇦🇷"],
+    isFlagLink: true,
+    caption: {
+      title: "Iguaçu Falls, Brazil 🇧🇷 + Iguazu Falls, Argentina 🇦🇷",
+      content:
+        "Easily one of the most spectacular things I’ve ever seen in my life! It’s no wonder they call this one of the natural wonders of the world! An entire canyon of waterfalls, exotic animals, and new friends all within a span of 24 hours. Couldn’t ask for anything more!",
+      publishDate: "March 22, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "25°41'24.39\"S",
+          link: "https://maps.google.com/?q=-25.690108333333335,-54.43819444444444",
+          long: "54°26'17.50\"W",
+        },
+        description:
+          "Mirante da Garganta do Diabo (Devil's Throat Lookout) - 🇧🇷",
+        imgID: "0ba66b38-b460-441c-b716-19c97c7f2300",
+      },
+      {
+        coordinates: {
+          lat: "25°41'29.84\"S",
+          link: "https://maps.google.com/?q=-25.69162222222222,-54.43795833333333",
+          long: "54°26'16.65\"W",
+        },
+        description: "Peace from Iguaçu Falls - 🇧🇷",
+        imgID: "e9d644e2-15df-4029-ea3d-bc84fe930400",
+      },
+      {
+        coordinates: {
+          lat: "25°41'27.83\"S",
+          link: "https://maps.google.com/?q=-25.691063888888888,-54.437172222222216",
+          long: "54°26'13.82\"W",
+        },
+        description: "Garganta do Diabo (Devil's Throat) - 🇧🇷",
+        imgID: "43d4536f-7b37-40c1-25ae-2f535cd8e900",
+      },
+      {
+        coordinates: {
+          lat: "25°41'27.83\"S",
+          link: "https://maps.google.com/?q=-25.691063888888888,-54.437172222222216",
+          long: "54°26'13.82\"W",
+        },
+        description: "Garganta do Diabo (Devil's Throat) close up - 🇧🇷",
+        imgID: "1548b3da-9d48-4e72-dbae-56f7f3bc5700",
+      },
+      {
+        coordinates: {
+          lat: "25°41'06.43\"S",
+          link: "https://maps.google.com/?q=-25.685119444444446,-54.43979722222222",
+          long: "54°26'23.27\"W",
+        },
+        description: "Iguazu Falls seen from Brazil - 🇧🇷",
+        imgID: "3d06a1e4-0551-4e83-67c5-3dbc3c6e3200",
+      },
+      {
+        coordinates: {
+          lat: "25°40'24.57\"S",
+          link: "https://maps.google.com/?q=-25.673491666666667,-54.44358333333333",
+          long: "54°26'36.90\"W",
+        },
+        description: "Boat ride in the Iguazu River - 🇦🇷",
+        imgID: "8e3b7159-4589-4d33-a5e4-9b5acde85300",
+      },
+      {
+        coordinates: {
+          lat: "25°41'08.50\"S",
+          link: "https://maps.google.com/?q=-25.685694444444444,-54.44356666666666",
+          long: "54°26'36.84\"W",
+        },
+        description: "Iguazu Falls - 🇦🇷",
+        imgID: "2527b971-d2cc-4ea8-bc1e-1cf20db73f00",
+      },
+      {
+        coordinates: {
+          lat: "25°41'16.08\"S",
+          link: "https://maps.google.com/?q=-25.6878,-54.440599999999996",
+          long: "54°26'26.16\"W",
+        },
+        description: "Going under a waterfall - 🇦🇷",
+        imgID: "9bdeb194-87bd-471f-9b6e-62bbed78c200",
+      },
+      {
+        coordinates: {
+          lat: "25°41'08.04\"S",
+          link: "https://maps.google.com/?q=-25.685566666666666,-54.446275",
+          long: "54°26'46.59\"W",
+        },
+        description: "Iguazu Falls - 🇦🇷",
+        imgID: "3b5d8ceb-7b84-4132-e371-9315b059d700",
+      },
+      {
+        coordinates: {
+          lat: "25°41'19.02\"S",
+          link: "https://www.google.com/maps?q=loc:-25.6886556,-54.4442472",
+          long: " 54°26'39.03\"W",
+        },
+        description: "Sahar 🇦🇷 🇮🇱 & Riku 🇯🇵",
+        imgID: "9a0694a9-93d8-4a28-4ddf-1bc9ab4bbe00",
+      },
+      {
+        coordinates: {
+          lat: "25°40'58.55\"S",
+          link: "https://maps.google.com/?q=-25.682930555555558,-54.444830555555555",
+          long: "54°26'41.39\"W",
+        },
+        description: "Giant ant, coati, monkeys, and a toucan! - 🇧🇷 + 🇦🇷",
+        imgID: "092cc3cf-180c-4049-3391-a66acc568900",
+      },
+      {
+        coordinates: {
+          lat: "25°41'19.32\"S",
+          link: "https://maps.google.com/?q=-25.6887,-54.4443",
+          long: "54°26'39.48\"W",
+        },
+        description: "Flag of Argentina - 🇦🇷",
+        imgID: "18c3cff9-33e7-455c-82d0-165d05fd9000",
+      },
+    ],
+  },
+  {
+    pageTitle: "Brazil 🇧🇷",
+    countryNames: ["Brazil"],
+    route: "brazil",
+    flags: ["🇧🇷"],
+    isFlagLink: true,
+    caption: {
+      title: "Rio de Janeiro | São Paulo | Caraguatatuba, Brazil 🇧🇷",
+      content:
+        "I love Brazil, and Brazil loves me too! I've always wanted to visit Brazil but felt like I needed to get a little bit of traveling experience under my belt before taking the plunge. Having some friends from Brazil would’ve made me feel a lot more comfortable as well, and thankfully while in Europe I found Pedro and Samanta.\nI met Pedro in a bar in Budapest while we were both traveling through Europe. We were both very similar. Both worked in tech, both doing our first serious traveling, both liked to party (in moderation) and more! At some point in the conversation, he said very genuinely that I should come to Rio de Janeiro for Carnival in February! All while telling me all about how much fun he, his friends, and the entire country have while celebrating the holiday! Without any hesitation, I agreed to go, and when I got back from Europe, it was the next trip I started planning!\nFast forward a few months, and there I was! In Brazil, at Pedro’s, enjoying life like a Carioca. Looking back, I guess it was a little insane. Staying in the home of a friend that I had met ONCE across the world, in Rio of all places, just off of one single conversation. I honestly had very little doubt about the absurdity of it all, and thankfully the leap of faith paid off, and I had the time of my life! The first few days were chill and felt like a great vacation. Seeing the touristy sites of Rio, trying out all the delicious and unique Brazilian food, and learning how to manage getting around the city without running into issues. Then after a few days, the festivities began! All of Pedro’s lifelong friends (brothers in my eyes) came to Rio to stay with us and then the real fun began. All of us, going from bloco to bloco, day after day for 5 days days straight! Insane!! The closest way to describe it would be like if you went to a music festival, but the festival is scattered throughout a gigantic and beautiful city, and EVERYONE is huge HUGE fan of every artist on the lineup! Everyone is singing along! Everyone is dancing! Everyone is included! Everyone is having the best day of their life! I loved Carnival sooo so much and while a lot of that love comes from Carnival itself, I feel like a lot of that love was thanks to all the friends who made me feel so included and loved during the entirety of it.\nI couldn’t party forever though…so after Rio I did a small trip to Iguaçu Falls to experience one of the natural wonders of Brazil (more on that later), then São Paulo to experience a more metropolitan version of Brazil, and finally ending up in Caraguatatuba at Samanta’s to experience the laid back beachy vibes of Brazil. Samanta and I met in our hostel in Rome, and by then I had already had my sights set on visiting Brazil. She was happy to host me once I told her about my travel plans, so we made it happen! Getting to experience the more relaxing, quiet, and more local vibe was exactly what I needed after the nearly nonstop action of Rio.\nI cannot wait to visit again! Brazil is a HUGE country, with the same square mileage as the continental US! Definitely wouldn’t mind checking out more of the national parks, eating more Brazilian food, and of course spending time with my new friends. Maybe I’ll know a bit more Portuguese by then! Until then, valeu valeu obrigado!",
+      publishDate: "March 21, 2023",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        coordinates: {
+          lat: "22°56'59.08\"S",
+          link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
+          long: "43°09'23.24\"W",
+        },
+        description: "Rio de Janiero at night",
+        imgID: "bf08ebf7-e0b9-4b0e-258c-1aba6dbd2b00",
+      },
+      {
+        coordinates: {
+          lat: "22°57'06.90\"S",
+          link: "https://maps.google.com/?q=-22.951916666666666,-43.210225",
+          long: "43°12'36.81\"W",
+        },
+        description: "Cristo Redentor (Christ the Redeemer)",
+        imgID: "6a97a796-ec13-4682-ddd4-eb2829f95800",
+      },
+      {
+        coordinates: {
+          lat: "22°57'06.56\"S",
+          link: "https://maps.google.com/?q=-22.951822222222223,-43.210025",
+          long: "43°12'36.09\"W",
+        },
+        description: "Christ the Redeemer w/ Long 🇭🇰",
+        imgID: "0e3e42bc-f96d-4035-718a-f311a27bcd00",
+      },
+      {
+        coordinates: {
+          lat: "22°59'14.28\"S",
+          link: "https://maps.google.com/?q=-22.9873,-43.2027",
+          long: "43°12'09.72\"W",
+        },
+        description: "Peace from Ipanema",
+        imgID: "337c0b5b-193c-4acf-5390-7a17e6061900",
+      },
+      {
+        coordinates: {
+          lat: "22°59'03.28\"S",
+          link: "https://maps.google.com/?q=-22.984244444444446,-43.189249999999994",
+          long: "43°11'21.30\"W",
+        },
+        description: "Fresh coconut w/ Long 🇭🇰",
+        imgID: "eee0c3a6-30b5-492a-3bdf-bfe99e80dc00",
+      },
+      {
+        coordinates: {
+          lat: "22°54'56.46\"S",
+          link: "https://maps.google.com/?q=-22.91568333333333,-43.17995",
+          long: "43°10'47.82\"W",
+        },
+        description: "Escadaria Selarón",
+        imgID: "ab0843d9-46be-4776-7365-202458da7000",
+      },
+      {
+        coordinates: {
+          lat: "22°54'47.95\"S",
+          link: "https://maps.google.com/?q=-22.913319444444443,-43.17924166666666",
+          long: "43°10'45.27\"W",
+        },
+        description: "Arcos da Lapa",
+        imgID: "64553e5b-77ec-4023-dbab-19b1b5105d00",
+      },
+      {
+        coordinates: {
+          lat: "22°54'38.44\"S",
+          link: "https://maps.google.com/?q=-22.910677777777778,-43.18074166666666",
+          long: "43°10'50.67\"W",
+        },
+        description:
+          "Catedral Metropolitana de São Sebastião do Rio de Janeiro",
+        imgID: "215fba6f-0333-4133-0978-468eecfa7b00",
+      },
+      {
+        coordinates: {
+          lat: "22°54'18.91\"S",
+          link: "https://maps.google.com/?q=-22.905252777777775,-43.18238888888889",
+          long: "43°10'56.60\"W",
+        },
+        description: "Royal Portuguese Reading Room",
+        imgID: "443684a0-7d3f-4c63-8619-f843e9331f00",
+      },
+      {
+        coordinates: {
+          lat: "22°57'03.85\"S",
+          link: "https://maps.google.com/?q=-22.951069444444443,-43.16363888888889",
+          long: "43°09'49.10\"W",
+        },
+        description: "Pão de Açúcar (Sugarloaf Mountain)",
+        imgID: "a3ee3061-9171-4b14-1e22-e7c933b23e00",
+      },
+      {
+        coordinates: {
+          lat: "22°57'04.00\"S",
+          link: "https://maps.google.com/?q=-22.95111111111111,-43.16365833333333",
+          long: "43°09'49.17\"W",
+        },
+        description: "Sugarloaf Mountain w/ Pedro 🇧🇷",
+        imgID: "7555e729-ec63-4a47-86b8-a53cd33bbb00",
+      },
+      {
+        coordinates: {
+          lat: "22°56'59.08\"S",
+          link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
+          long: "43°09'23.24\"W",
+        },
+        description: "Rio de Janiero at night - panoramic",
+        imgID: "f5b3d1f0-1290-47be-f968-3bd21514b500",
+      },
+      {
+        coordinates: {
+          lat: "22°56'03.02\"S",
+          link: "https://www.google.com/maps?q=loc:-22.9342278,-43.1803806",
+          long: "43°10'49.04\"W",
+        },
+        description:
+          "First day of Carnival w/ Pedro, Jango, Lucas, Caio 🇧🇷 & Long 🇭🇰",
+        imgID: "1d19e2b1-6271-4127-3e52-2211ab13e500",
+      },
+      {
+        coordinates: {
+          lat: "22°59'12.04\"S",
+          link: "https://www.google.com/maps?q=loc:-22.9867839,-43.2033919",
+          long: "43°12'12.02\"W",
+        },
+        description: "Second day of Carnival ft. Moses & buff Batman",
+        imgID: "e99d5c98-af66-47d9-b641-e75a55c92600",
+      },
+      {
+        coordinates: {
+          lat: "22°55'01.38\"S",
+          link: "https://maps.google.com/?q=-22.91705,-43.17525",
+          long: "43°10'30.90\"W",
+        },
+        description: "Third day of Carnival w/ Guido, Daniel & Caio 🇧🇷",
+        imgID: "cd960444-727e-43ab-4a66-7b16a7b5d200",
+      },
+      {
+        coordinates: {
+          lat: "22°56'03.00\"S",
+          link: "https://www.google.com/maps?q=loc:-22.9341778,-43.1803861",
+          long: " 43°10'49.04\"W",
+        },
+        description:
+          "My Brazilian brothers - Lucas, Caio, Guido, Pedro & Jango 🇧🇷",
+        imgID: "a46c9877-57b4-4764-fae7-5849a86c3200",
+      },
+      {
+        coordinates: {
+          lat: "23°33'23.84\"S",
+          link: "https://maps.google.com/?q=-23.556622222222224,-46.661941666666664",
+          long: "46°39'42.99\"W",
+        },
+        description: "Avenida Paulista",
+        imgID: "4b747add-f03c-4dda-a543-bab020a08d00",
+      },
+      {
+        coordinates: {
+          lat: "23°35'14.00\"S",
+          link: "https://www.google.com/maps?q=loc:-23.5872222,-46.655125",
+          long: "46°39'18.05\"W",
+        },
+        description: "Pokémon GO insanity at Parque Ibirapuera",
+        imgID: "a1e7eec4-a3c7-4bd8-ca09-8b54fdca1400",
+      },
+      {
+        coordinates: {
+          lat: "23°32'30.36\"S",
+          link: "https://maps.google.com/?q=-23.541766666666668,-46.62938611111111",
+          long: "46°37'45.79\"W",
+        },
+        description: "Mercado Municipal Paulistano",
+        imgID: "ab757f97-9313-4950-aef8-02734e4c9600",
+      },
+      {
+        coordinates: {
+          lat: "23°46'43.09\"S",
+          link: "https://maps.google.com/?q=-23.77863611111111,-45.35908888888889",
+          long: "45°21'32.72\"W",
+        },
+        description: "Ilhabela",
+        imgID: "4a029b78-9f52-4f85-e117-f53753415f00",
+      },
+      {
+        coordinates: {
+          lat: "23°37'36.84\"S",
+          link: "https://maps.google.com/?q=-23.6269,-45.3856",
+          long: "45°23'08.16\"W",
+        },
+        description: "Caraguatatuba w/ Samanta 🇧🇷 & Rebecca 🇦🇺",
+        imgID: "8e4bc347-e3a7-4bbe-a092-d7b75d0ae500",
+      },
+    ],
+  },
   // {
-  //   pageTitle: "",
+  //   pageTitle: "Country Flag",
   //   countryNames: [""],
   //   route: "",
   //   flags: [""],
+  //   isFlagLink: true,
   //   caption: {
   //     title: "",
   //     content: "",
@@ -3137,62 +3938,6 @@ export const blogEntries = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Colombia 🇨🇴",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "colombia",
-  //   flag: "🇨🇴",
-  // },
-  // {
-  //   title: "Peru 🇵🇪",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "peru",
-  //   flag: "🇵🇪",
-  // },
-  // {
-  //   title: "Argentina 🇦🇷",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "argentina",
-  //   flag: "🇦🇷",
-  // },
-  // {
-  //   title: "Brazil 🇧🇷",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "brazil",
-  //   flag: "🇧🇷",
   // },
   // {
   //   title: "Portugal 🇵🇹",
