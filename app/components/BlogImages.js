@@ -31,7 +31,7 @@ function NurtureCoordinates({
   return (
     <Link
       href={imgLocationLink}
-      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1"
+      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1 pt-1"
       title="Coordinates"
     >
       <p>
@@ -70,7 +70,7 @@ function BlogImage({
       ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
       : "text-sm pt-1 pl-1 pr-1";
   return (
-    <div className="flex flex-col flex-[0_0_100%] text-center">
+    <div className="flex flex-col flex-[0_0_100%] text-center bg-accent">
       <NurtureCoordinates
         imgLocationLat={imgLocationLat}
         imgLocationLong={imgLocationLong}
@@ -135,15 +135,12 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center lg:justify-between h-[20px]">
+    <div className="flex flex-row justify-center lg:justify-between h-[20px] bg-accent">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
-      {/* <div className="hidden xl:block xl:w-10"></div> */}
       <div className="hidden lg:block lg:w-10"></div>
-      {/* <div className="pt-[0.875rem] flex flex-wrap justify-center items-center"> */}
       <div className="flex flex-wrap justify-center items-center">
         {scrollSnapsList}
       </div>
-      {/* <div className="hidden xl:flex xl:justify-end"> */}
       <div className="hidden lg:flex lg:justify-end">
         <PrevButton
           onClick={onPrevButtonClick}
@@ -177,7 +174,7 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full lg:max-w-[720px]">
+    <div className="overflow-hidden max-w-full lg:max-w-[720px] sticky top-0">
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>

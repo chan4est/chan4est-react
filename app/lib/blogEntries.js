@@ -122,7 +122,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "4134161d-c502-4e68-4184-41028868d400",
+        imgID: "17d7d1dd-40d3-4665-8f78-f926a983d400",
         description: "Reynisfjara Basalt Columns",
         coordinates: {
           lat: "63°24'09.90\"N",
@@ -184,7 +184,7 @@ export const blogEntries = [
       },
 
       {
-        imgID: "999b5bec-0dfa-4473-f423-849b77dbcf00",
+        imgID: "8c80edec-2121-44b8-eee6-f0eb32c18a00",
         description: "Streets of Dubrovnik",
         coordinates: {
           lat: "42°38'28.00\"N",
@@ -229,7 +229,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "944e8763-107f-422f-f358-85ba33b04e00",
+        imgID: "06b29963-c677-4131-6e13-9f6aba9fe300",
         description: "Wild Peacock on Lokrum Island",
         coordinates: {
           lat: "42°37'30.00\"N",
@@ -996,7 +996,7 @@ export const blogEntries = [
       },
       {
         imgID: "7257215c-996f-41a1-b42b-e11116963d00",
-        description: "Me and Sanchin 🇮🇳",
+        description: "Me & Sanchin 🇮🇳",
         coordinates: {
           lat: "27°10'23.90\"N",
           long: "78°02'31.60\"E",
@@ -1119,7 +1119,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "f1b83c41-7352-4936-0937-01c345bf7800",
+        imgID: "5c172f13-e2da-4bd6-d177-c54b0df5c600",
         description: "Big Buddha on Lantau Island",
         coordinates: {
           lat: "22°15'19.40\"N",
@@ -1210,7 +1210,7 @@ export const blogEntries = [
       },
       {
         imgID: "e3ea5a69-fe83-45c3-cc5b-e84bfe338500",
-        description: "Final laugh with Long 🇭🇰",
+        description: "Final laugh w/ Long 🇭🇰",
         coordinates: {
           lat: "22°16'44.10\"N",
           long: "114°10'56.80\"E",
@@ -1742,7 +1742,7 @@ export const blogEntries = [
           long: "121°34'40.12\"E",
         },
         description: "Songshan Ciyou Temple",
-        imgID: "61aeb775-17c5-4118-9374-0a3f0401bc00",
+        imgID: "c330e81b-a234-4d41-7630-a61d6783b800",
       },
       {
         coordinates: {
@@ -1760,7 +1760,7 @@ export const blogEntries = [
           long: "121°50'37.20\"E",
         },
         description: "Jiufen Old Street",
-        imgID: "47b06569-d905-4418-baa1-3454d3bfba00",
+        imgID: "247149d0-11e2-40fe-0a63-e38a0b8aef00",
       },
       {
         coordinates: {
@@ -1777,7 +1777,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=25.04244166666667,121.50806388888888",
           long: "121°30'29.03\"E",
         },
-        description: "Me and Tony 🇹🇼 🇨🇦",
+        description: "Me & Tony 🇹🇼 🇨🇦",
         imgID: "5400850d-3427-4320-2355-71f4269a0800",
       },
       {
@@ -1804,7 +1804,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=25.039175,121.49598055555556",
           long: "121°29'45.53\"E",
         },
-        description: "Bike ride with Vanessa & Daren 🇹🇼",
+        description: "Bike ride to Ningxia Night Market",
         imgID: "d5eef4ba-06aa-4c02-eafe-2f5da8a23300",
       },
       {
@@ -1974,7 +1974,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=14.575847222222222,121.01932222222221",
           long: "121°1'9.56\"E",
         },
-        description: "Last photo with Patrick 🇵🇭 for a while",
+        description: "Last photo w/ Patrick 🇵🇭 for a while",
         imgID: "65c07058-06b2-4922-98fe-57f4d362ad00",
       },
     ],
@@ -2017,7 +2017,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
           long: "103°51'47.05\"E",
         },
-        description: "Side view of Supertree Grove",
+        description: "Side view of Supertree Grove's OCBC Skyway",
         imgID: "7b784c27-19d2-4e5e-e5a7-048997ad5500",
       },
       {
@@ -2161,7 +2161,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:19.1340806,98.8790389",
           long: "98°52'44.95\"E",
         },
-        description: "Photo with Moji at Elephant Rescue Park",
+        description: "Photo w/ Moji 🐘 at Elephant Rescue Park",
         imgID: "bcc8d8de-5267-41b5-ee4e-9b926476b500",
       },
       {
@@ -2188,7 +2188,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:13.7439361,100.4886556",
           long: "100°29'19.02\"E",
         },
-        description: "Wat Arun during the day",
+        description: "Wat Arun (day)",
         imgID: "4868315d-8dbf-40cb-7f55-2a40276e8200",
       },
       {
@@ -2197,7 +2197,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:13.7443167,100.4892806",
           long: "100°29'21.04\"E",
         },
-        description: "Wat Arun at night",
+        description: "Wat Arun (night)",
         imgID: "b9f0f3ce-526d-40bf-a064-f3f32c8de300",
       },
       {
@@ -2278,7 +2278,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=7.6760472222222225,98.76535",
           long: "98°45'55.26\"E",
         },
-        description: "Plashing through Maya Bay",
+        description: "Splashing through Maya Bay",
         imgID: "b61d023d-0949-43ba-9d76-04fbaf07c900",
       },
       {
@@ -2314,7 +2314,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.371369,8764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D",
           long: "98°23'53.09\"E",
         },
-        description: "Aya and Anthony 🇦🇺",
+        description: "Aya & Anthony 🇦🇺",
         imgID: "cb889ff2-cf6e-4e08-d505-f4a1a8692e00",
       },
       {
@@ -2402,7 +2402,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.461763888888887,103.87143611111111",
           long: "103°52'17.17\"E",
         },
-        description: "Stijn and Jan 🇳🇱",
+        description: "Exploring w/ Stijn & Jan 🇳🇱",
         imgID: "73bed8b9-0e52-4a8a-60ac-2080fc357c00",
       },
       {
@@ -2591,7 +2591,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=15.876469444444444,108.32591944444444",
           long: "108°19'33.31\"E",
         },
-        description: "Floating lantern in Hội An",
+        description: "The city of lanterns",
         imgID: "d7f9cc8d-f9ee-4866-d846-03758c38c500",
       },
       {
@@ -2779,7 +2779,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.69555,139.70158333333333",
           long: "139°42'05.70\"E",
         },
-        description: "Shinjuku with Patrick 🇵🇭",
+        description: "Shinjuku w/ Patrick 🇵🇭",
         imgID: "11117c53-f96f-495a-9997-56f6086db500",
       },
       {
@@ -2896,7 +2896,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.66703888888889,139.73057500000002",
           long: "139°43'50.07\"E",
         },
-        description: "Teppanyaki dinner with Tristan",
+        description: "Teppanyaki dinner w/ Tristan 🇺🇸",
         imgID: "e7dd3791-f4e6-4d61-7480-794338197f00",
       },
       {
@@ -3067,7 +3067,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.67373055555555,135.5002472222222",
           long: "135°30'00.89\"E",
         },
-        description: "Sitting with No Face",
+        description: "Train ride w/ No Face 🇯🇵",
         imgID: "beccdfb6-a3eb-44c8-2bb8-c0d5948bec00",
       },
       {
@@ -3184,7 +3184,7 @@ export const blogEntries = [
           long: "135°47'07.39\"E",
         },
         description: "Kiyomizu-dera Temple",
-        imgID: "3c0b74e2-399b-41bc-038e-37cea48f7300",
+        imgID: "de819a08-c414-49d3-db95-6896e399f300",
       },
       {
         coordinates: {
@@ -3401,7 +3401,7 @@ export const blogEntries = [
           long: "74°03'12.04\"W",
         },
         description: "Third country hangout w/ Juan 🇨🇴",
-        imgID: "9ac80eab-c813-4704-4b05-9f8fff4e3200",
+        imgID: "9938f2f4-3d04-463e-7b46-db725ebe2800",
       },
       {
         coordinates: {
@@ -3470,7 +3470,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-13.515794444444445,-71.97905833333334",
           long: "71°58'44.61\"W",
         },
-        description: "Peruvian cuisinw",
+        description: "Peruvian cuisine",
         imgID: "e211571e-9aac-41ee-7dec-58354341a900",
       },
       {

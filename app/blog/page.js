@@ -15,11 +15,7 @@ export const metadata = {
 
 function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
   return (
-    <Link
-      href={`/blog/${entryRoute}`}
-      title={entryTitle}
-      className="rounded-xl"
-    >
+    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
       <div className="relative">
         <Image
           src={imgSrc}
