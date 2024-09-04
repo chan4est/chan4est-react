@@ -67,8 +67,8 @@ function BlogImage({
 }) {
   const descHeightHackyStyle =
     country === "croatia"
-      ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
-      : "text-sm pt-1 pl-1 pr-1";
+      ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1 pb-1"
+      : "text-sm pt-1 pl-1 pr-1 pb-1";
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center bg-accent">
       <NurtureCoordinates
@@ -135,23 +135,25 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center lg:justify-between h-[20px] bg-accent">
-      {/* DO NOT REMOVE! Empty div so that the dots are centered */}
-      <div className="hidden lg:block lg:w-10"></div>
-      <div className="flex flex-wrap justify-center items-center">
-        {scrollSnapsList}
-      </div>
-      <div className="hidden lg:flex lg:justify-end">
-        <PrevButton
-          onClick={onPrevButtonClick}
-          disabled={prevBtnDisabled}
-          title="Next image"
-        />
-        <NextButton
-          onClick={onNextButtonClick}
-          disabled={nextBtnDisabled}
-          title="Previous image"
-        />
+    <div className="absolute z-10 bottom-0 left-0 pb-7 pl-14 pointer-events-none">
+      <div className="flex flex-row justify-center lg:justify-between h-[20px]">
+        {/* DO NOT REMOVE! Empty div so that the dots are centered */}
+        <div className="hidden lg:block lg:w-10"></div>
+        <div className="flex flex-wrap justify-center items-center">
+          {scrollSnapsList}
+        </div>
+        <div className="hidden lg:flex lg:justify-end">
+          <PrevButton
+            onClick={onPrevButtonClick}
+            disabled={prevBtnDisabled}
+            title="Next image"
+          />
+          <NextButton
+            onClick={onNextButtonClick}
+            disabled={nextBtnDisabled}
+            title="Previous image"
+          />
+        </div>
       </div>
     </div>
   );
@@ -174,12 +176,14 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full lg:max-w-[720px] sticky top-0">
+    <div className="overflow-hidden max-w-full lg:max-w-[720px] sticky top-0 border-b-2 border-button_inactive z-10">
       {/* TODO: Check what overflow-hidden is actually doing here */}
-      <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">{imgList}</div>
+      <div className="relative">
+        <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
+          <div className="flex">{imgList}</div>
+        </div>
+        <PhotoControls emblaApi={emblaApi} />
       </div>
-      <PhotoControls emblaApi={emblaApi} />
     </div>
   );
 }
