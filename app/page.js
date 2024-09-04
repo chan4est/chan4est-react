@@ -6,6 +6,7 @@ import { techStack } from "./lib/techStack.js";
 import { projectsList } from "./lib/projects.js";
 import { NavBar } from "./components/Navbar";
 import { Links } from "./lib/Links";
+import { Footer } from "./components/Footer";
 
 export const metadata = {
   title: "chan4est | Home",
@@ -24,7 +25,7 @@ function StackIcon({
   let spanClass = "text-xs sm:text-base";
   if (scale == 0.5) {
     imageClass = "w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7";
-    spanClass = "text-xs min-[550px]:text-xs min-h-[41px]";
+    spanClass = "text-xs min-[34.375rem]:text-xs min-h-[2.625rem]";
   }
   return (
     <a
@@ -305,7 +306,7 @@ function Project({ projectInfo }) {
             <p className="text-sm font-bold line-clamp-1">
               {projectInfo.title}
             </p>
-            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[41px] 2xl:min-h-0 2xl:line-clamp-1">
+            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[2.625rem] 2xl:min-h-0 2xl:line-clamp-1">
               {projectInfo.description}
             </p>
           </div>
@@ -325,7 +326,7 @@ function ProjectsSection({}) {
     projects.push(<Project projectInfo={item} key={item.name} />);
   });
   return (
-    <section id="projects" className="max-w-screen-2xl pb-10">
+    <section id="projects" className="max-w-screen-2xl">
       <div
         className="flex flex-row justify-center items-center pt-5"
         id="projects-header"
@@ -350,7 +351,7 @@ function ProjectsSection({}) {
         </div>
       </div>
 
-      <div className="flex justify-center content-center flex-col pb-10">
+      <div className="flex justify-center content-center flex-col">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {projects}
         </div>
@@ -361,11 +362,14 @@ function ProjectsSection({}) {
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 leading-relaxed justify-center">
-      <NavBar />
-      <AboutSection />
-      <TechStackSection />
-      <ProjectsSection />
-    </div>
+    <>
+      <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 leading-relaxed justify-center">
+        <NavBar />
+        <AboutSection />
+        <TechStackSection />
+        <ProjectsSection />
+      </div>
+      <Footer />
+    </>
   );
 }

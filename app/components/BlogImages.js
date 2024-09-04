@@ -31,7 +31,7 @@ function NurtureCoordinates({
   return (
     <Link
       href={imgLocationLink}
-      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1 pt-1"
+      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1 pt-[0.375rem]"
       title="Coordinates"
     >
       <p>
@@ -70,13 +70,13 @@ function BlogImage({
       ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
       : "text-sm pt-1 pl-1 pr-1";
   return (
-    <div className="flex flex-col flex-[0_0_100%] text-center bg-accent">
+    <div className="flex flex-col flex-[0_0_100%] text-center">
       <NurtureCoordinates
         imgLocationLat={imgLocationLat}
         imgLocationLong={imgLocationLong}
         imgLocationLink={imgLocationLink}
       />
-      <div className="max-w-[720px] max-h-[720px]">
+      <div className="max-w-[45rem] max-h-[45rem]">
         <Link href={imgFullResLink}>
           <Image
             src={imgSrc}
@@ -135,7 +135,7 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center lg:justify-between h-[20px] bg-accent">
+    <div className="flex flex-row justify-center lg:justify-between h-[1.25rem]">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       <div className="hidden lg:block lg:w-10"></div>
       <div className="flex flex-wrap justify-center items-center">
@@ -174,7 +174,7 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full lg:max-w-[720px] sticky top-0">
+    <div className="overflow-hidden max-w-full lg:max-w-[45rem] sticky top-0 bg-accent">
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>

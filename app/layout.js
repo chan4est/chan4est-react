@@ -46,7 +46,6 @@ export default function RootLayout({ children }) {
     >
       <body id="root" className={`min-h-screen flex flex-col justify-between`}>
         {children}
-        <Footer />
       </body>
       <GoogleAnalytics gaId="G-JZT3MDL1HN" />
     </html>

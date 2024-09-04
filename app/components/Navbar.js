@@ -74,7 +74,7 @@ export function NavBar({}) {
     >
       <button title="Menu">
         <div
-          className="w-9 h-9 lg:w-11 lg:h-11 absolute top-3 right-3 z-50"
+          className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-3 right-3 z-50"
           title="Menu"
         >
           <picture>
@@ -96,7 +96,7 @@ export function NavBar({}) {
         </div>
       </button>
       {isMenuOpen && (
-        <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50">
+        <div className="absolute top-[3.75rem] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50">
           <NavBarItem
             href={Links.HOME}
             imgSrc={"/header-icons/home"}

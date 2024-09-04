@@ -7,6 +7,7 @@ import { NavBar } from "../components/Navbar";
 import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
 import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
+import { Footer } from "../components/Footer";
 
 export const metadata = {
   title: "chan4est | Travel Blog",
@@ -23,7 +24,7 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           width={310}
           height={310}
           quality={100}
-          className="max-h-[310px]"
+          className="max-h-[19.375rem]"
           priority={true}
           loading={"eager"}
           unoptimized={true}
@@ -57,7 +58,7 @@ function BlogGrid({ blogEntries }) {
   });
 
   return (
-    <div className="flex flex-col justify-center content-center pb-8">
+    <div className="flex flex-col justify-center content-center pb-1 sm:pb-10">
       <div className="grid grid-cols-3 md:grid-cols-5 xl:grid-cols-5 gap-1 pr-1 pl-1 md:pl-9 md:pr-9">
         {blogPreviews}
       </div>
@@ -145,10 +146,13 @@ function BlogHeader({ blogEntries }) {
 
 export default function Blog() {
   return (
-    <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
-      <NavBar />
-      <BlogHeader blogEntries={blogEntries} />
-      <BlogGrid blogEntries={blogEntries} />
-    </div>
+    <>
+      <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
+        <NavBar />
+        <BlogHeader blogEntries={blogEntries} />
+        <BlogGrid blogEntries={blogEntries} />
+      </div>
+      <Footer />
+    </>
   );
 }
