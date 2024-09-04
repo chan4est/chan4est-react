@@ -7,36 +7,19 @@ import { useState, useRef, useEffect } from "react";
 
 const ICONS_PATH = "/header-icons";
 
-function NavBarLink({ href, imgSrc, pText }) {
-  return (
-    <Link
-      href={href}
-      className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
-    >
-      <picture>
-        <source
-          srcSet={`${imgSrc}-w.webp`}
-          media="(prefers-color-scheme: dark)"
-        />
-        <Image
-          src={`${imgSrc}.webp`}
-          height={25}
-          width={25}
-          alt=""
-          quality={100}
-          priority={true}
-          loading={"eager"}
-          unoptimized={true}
-        />
-      </picture>
-      <p>{pText}</p>
-    </Link>
-  );
-}
+function NavBarItem({
+  href,
+  imgSrc,
+  pText,
+  useLink = false,
+  hasDarkMode = false,
+}) {
+  // <Link> for pages local to site
+  // <a>    for pages external to site
+  const Wrapper = useLink ? Link : "a";
 
-function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
   return (
-    <a
+    <Wrapper
       href={href}
       className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
     >
@@ -49,17 +32,18 @@ function NavBarAnchor({ href, imgSrc, pText, hasDarkMode }) {
         )}
         <Image
           src={`${imgSrc}.webp`}
-          height={25}
-          width={25}
+          height={50}
+          width={50}
           alt=""
           quality={100}
           priority={true}
           loading={"eager"}
           unoptimized={true}
+          className="h-6 w-6 lg:h-8 lg:w-8"
         />
       </picture>
-      <p>{pText}</p>
-    </a>
+      <p className="text-base lg:text-xl">{pText}</p>
+    </Wrapper>
   );
 }
 
@@ -71,7 +55,7 @@ export function NavBar({}) {
 
   useEffect(() => {
     let handler = (e) => {
-      if (!menuRef.current.contains(e.target)) {
+      if (menuRef && !menuRef.current.contains(e.target)) {
         setisMenuOpen(false);
       }
     };
@@ -101,9 +85,9 @@ export function NavBar({}) {
             <Image
               src={"/header-icons/menu.webp"}
               alt=""
-              width={50}
-              height={50}
-              quality={50}
+              width={100}
+              height={100}
+              quality={100}
               className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out"
               priority={true}
               loading={"eager"}
@@ -113,45 +97,60 @@ export function NavBar({}) {
       </button>
       {isMenuOpen && (
         <div className="absolute top-[60px] right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50">
-          <NavBarLink
+          <NavBarItem
             href={Links.HOME}
             imgSrc={"/header-icons/home"}
             pText={"Home"}
+            useLink={true}
+            hasDarkMode={true}
           />
-          <NavBarLink
+          <NavBarItem
             href={Links.TECH_STACK}
             imgSrc={`${ICONS_PATH}/tech-stack`}
             pText={"Tech Stack"}
+            useLink={true}
+            hasDarkMode={true}
           />
-          <NavBarLink
+          <NavBarItem
             href={Links.PROJECTS}
             imgSrc={`${ICONS_PATH}/projects`}
             pText={"Projects"}
+            useLink={true}
+            hasDarkMode={true}
           />
-          <NavBarLink
+          <NavBarItem
             href={Links.RESUME}
             imgSrc={`${ICONS_PATH}/resume`}
             pText={"Resume"}
+            useLink={true}
+            hasDarkMode={true}
           />
-          <NavBarLink
+          <NavBarItem
             href={Links.BLOG}
             imgSrc={`${ICONS_PATH}/blog`}
             pText={"Blog (WIP)"}
+            useLink={true}
+            hasDarkMode={true}
           />
-          <NavBarAnchor
+          <NavBarItem
             href={Links.EMAIL}
             imgSrc={`${ICONS_PATH}/gmail`}
             pText={"Email"}
+            useLink={false}
+            hasDarkMode={false}
           />
-          <NavBarAnchor
+          <NavBarItem
             href={Links.LINKEDIN}
             imgSrc={`${ICONS_PATH}/linkedin`}
             pText={"LinkedIn"}
+            useLink={false}
+            hasDarkMode={false}
           />
-          <NavBarAnchor
+          <NavBarItem
             href={Links.GITHUB}
             imgSrc={`${ICONS_PATH}/github`}
             pText={"GitHub"}
+            useLink={false}
             hasDarkMode={true}
           />
         </div>

@@ -286,6 +286,7 @@ export const techIconsData = [
     name: "PhotoShop",
     link: "https://www.adobe.com/products/photoshop.html",
     img: "photoshop",
+    shortName: "PS",
     type: "tool",
     darkMode: false,
   },

@@ -67,7 +67,7 @@ function BlogImage({
 }) {
   const descHeightHackyStyle =
     country === "croatia"
-      ? "flex text-center items-center justify-center h-10 text-sm pt-1 pl-1 pr-1"
+      ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
       : "text-sm pt-1 pl-1 pr-1";
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center">
@@ -81,8 +81,8 @@ function BlogImage({
           <Image
             src={imgSrc}
             alt={`Photo of ${imageDescription}`}
-            width={720}
-            height={720}
+            width={1500}
+            height={1500}
             quality={100}
             title={imageDescription}
             style={{
@@ -92,7 +92,12 @@ function BlogImage({
             placeholder={`data:image/svg+xml;base64,${toBase64(
               shimmer(720, 720)
             )}`}
-            priority={imageNumber == 0 ? true : false}
+            priority={
+              imageNumber == 0 || imageNumber == 1 || imageNumber == 2
+                ? true
+                : false
+            }
+            // priority={true}
             loading={"eager"}
             // loading={imageNumber == 0 ? "eager" : "lazy"}
             // unoptimized={false}

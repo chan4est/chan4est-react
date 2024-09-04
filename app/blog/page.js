@@ -9,13 +9,17 @@ import calculateAge from "../lib/calculateAge";
 import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
 
 export const metadata = {
-  title: "chan4est | Blog 🌎🌍🌏",
-  description: "Chandler's Travel Blog",
+  title: "chan4est | Travel Blog",
+  description: "Blog detailing my travels around the world 🌎🌍🌏",
 };
 
 function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
   return (
-    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
+    <Link
+      href={`/blog/${entryRoute}`}
+      title={entryTitle}
+      className="rounded-xl"
+    >
       <div className="relative">
         <Image
           src={imgSrc}
@@ -23,7 +27,7 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           width={310}
           height={310}
           quality={100}
-          className="max-h-[310px] object-cover "
+          className="max-h-[310px]"
           priority={true}
           loading={"eager"}
           unoptimized={true}
@@ -31,8 +35,8 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
         <Image
           src={layersIcon}
           alt=""
-          width={25}
-          height={25}
+          width={50}
+          height={50}
           className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
           priority={true}
           loading={"eager"}
@@ -58,7 +62,9 @@ function BlogGrid({ blogEntries }) {
 
   return (
     <div className="flex flex-col justify-center content-center pb-8">
-      <div className="grid grid-cols-3 gap-1 pr-1 pl-1">{blogPreviews}</div>
+      <div className="grid grid-cols-3 md:grid-cols-5 xl:grid-cols-5 gap-1 pr-1 pl-1 md:pl-9 md:pr-9">
+        {blogPreviews}
+      </div>
     </div>
   );
 }
@@ -107,10 +113,10 @@ function BlogHeader({ blogEntries }) {
         <Image
           src={chanPhotoNagoya}
           alt={"Nagoya Castle"}
-          width={200}
-          height={200}
+          width={400}
+          height={400}
           quality={100}
-          className="rounded-full"
+          className="rounded-full h-52 w-52 lg:h-64 lg:w-64"
           priority={true}
           loading={"eager"}
           unoptimized={true}
@@ -128,7 +134,7 @@ function BlogHeader({ blogEntries }) {
             </span>
           </li>
           {/* <li>{age} | Developer | Traveler | Music Lover</li> */}
-          <li> This blog is a work in progress. Last update 9/2/24.</li>
+          <li> This blog is a work in progress. Last update 9/4/24.</li>
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">

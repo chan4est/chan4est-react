@@ -45,6 +45,7 @@ function StackIcon({
           width={100}
           height={100}
           quality={50}
+          unoptimized={true}
         />
       </picture>
       <span className={`hidden sm:block ${spanClass}`}>{stackName}</span>
@@ -60,21 +61,22 @@ function AboutSection({}) {
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
       >
-        {/* <Link
-          href={Links.BLOG}
+        <Link
+          href={Links.TOKYO_BLOG}
           className="hover:scale-105 transition duration-200 ease-in-out"
-        > */}
-        <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
-          <Image
-            src={chanPhoto}
-            alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
-            className="rounded-xl"
-            quality={80}
-            priority={true}
-            loading={"eager"}
-          />
-        </div>
-        {/* </Link> */}
+          title="Tokyo, Japan 🇯🇵"
+        >
+          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
+            <Image
+              src={chanPhoto}
+              alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
+              className="rounded-xl"
+              quality={80}
+              priority={true}
+              loading={"eager"}
+            />
+          </div>
+        </Link>
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
           <ul className="">
             <li>
@@ -93,7 +95,7 @@ function AboutSection({}) {
               <b>School:</b> UC Santa Barbara
             </li>
             <li>
-              <b>Favorite Languages:</b> Python & TypeScript
+              <b>Favorite Languages:</b> Python & JavaScript
             </li>
           </ul>
         </div>
@@ -263,7 +265,7 @@ function TechStackSection({}) {
           {databaseList}
         </div>
         <h5 className="">Infrastructure</h5>
-        <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
           {infrastructureList}
         </div>
         <h5 className="">Tools + Programs</h5>
@@ -296,7 +298,7 @@ function Project({ projectInfo }) {
               quality={80}
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 border-t border-button_inactive">
             <p className="text-xs text-text-500">
               {projectInfo.displayLink.toUpperCase()}
             </p>

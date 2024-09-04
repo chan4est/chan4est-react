@@ -240,7 +240,7 @@ export const blogEntries = [
       {
         imgID: "6218115b-64da-46b4-2c82-29ab1c16a600",
         description:
-          "The Path of Paradise w/ Valentine 🇩🇪 Franzi 🇩🇪 Elodie 🇲🇺 René 🇺🇸 Adele 🇺🇸 & Karen 🇰🇷",
+          "The Path of Paradise w/ Valentine & Franzi 🇩🇪 Elodie 🇲🇺 René, Adele 🇺🇸 & Karen 🇰🇷",
         coordinates: {
           lat: "42°37'42.80\"N",
           long: "18°07'09.70\"E",
@@ -2998,6 +2998,26 @@ export const blogEntries = [
       },
       {
         coordinates: {
+          lat: "34°36'42.00\"N",
+          link: "https://maps.google.com/?q=34.611666666666665,135.46920833333334",
+          long: "135°28'09.15\"E",
+        },
+        description: "Porter Robinson's Nurture Live - Osaka",
+        imgID: "f2514a62-4d6c-4252-7612-099c0882e600",
+      },
+      {
+        coordinates: {
+          lat: "34°36'41.77\"N",
+          link: "https://maps.google.com/?q=34.611602777777776,135.46926666666667",
+          long: "135°28'09.36\"E",
+        },
+        description:
+          "Porter friends ft. Edwin & Yvonne 🇭🇰 Dennis 🇸🇮 Mark, Liv & Moses 🇺🇸",
+        imgID: "f2a7b9fb-eb63-4087-f539-e952fae12200",
+      },
+
+      {
+        coordinates: {
           lat: "34°41'06.27\"N",
           link: "https://maps.google.com/?q=34.685075,135.84150833333334",
           long: "135°50'29.43\"E",
@@ -3315,7 +3335,7 @@ export const blogEntries = [
     caption: {
       title: "Bogota, Colombia 🇨🇴",
       content:
-        "A very colorful city, and my last stop during my first trip to South America. I had originally planned a lot more time here, but due to the Nurture Live tour being announced I had to cut things short. I still feel like there’s a lot more to explore when it comes to Colombia so I’ll definitely be back! \nThankfully, with the amount of time I did have, I was still able to catch up with one of my close friends @juan_____s! We both met in Rome, and then a little later during our Europe travels met again in Paris, and now months later in Bogota! Truly international friends! Maybe we’ll bump up the count to four countries later this year 😉\n¡Gracias Colombia! ¡Nos volveremos a ver muy pronto!\n📸 location credit: @ra1eigh, ty for finding the colorful buildings by scouring Google Maps + Flickr for me on a whim",
+        "A very colorful city, and my last stop during my first trip to South America. I had originally planned a lot more time here, but due to the Nurture Live tour being announced I had to cut things short. I still feel like there’s a lot more to explore when it comes to Colombia so I’ll definitely be back! \nThankfully, with the amount of time I did have, I was still able to catch up with one of my close friends Juan! We both met in Rome, and then a little later during our Europe travels met again in Paris, and now months later in Bogota! Truly international friends! Maybe we’ll bump up the count to four countries later this year 😉\n¡Gracias Colombia! ¡Nos volveremos a ver muy pronto!",
       publishDate: "March 25, 2023",
     },
     previewIdx: 0,
@@ -3542,7 +3562,7 @@ export const blogEntries = [
           long: "72°32'41.14\"W",
         },
         description: "Walkway inside Machu Picchu",
-        imgID: "6f783cd0-8466-438c-83b0-980db3bcce00",
+        imgID: "bf4f608c-b83f-4683-e583-af9c8d043d00",
       },
       {
         coordinates: {
@@ -3716,7 +3736,7 @@ export const blogEntries = [
     caption: {
       title: "Rio de Janeiro | São Paulo | Caraguatatuba, Brazil 🇧🇷",
       content:
-        "I love Brazil, and Brazil loves me too! I've always wanted to visit Brazil but felt like I needed to get a little bit of traveling experience under my belt before taking the plunge. Having some friends from Brazil would’ve made me feel a lot more comfortable as well, and thankfully while in Europe I found Pedro and Samanta.\nI met Pedro in a bar in Budapest while we were both traveling through Europe. We were both very similar. Both worked in tech, both doing our first serious traveling, both liked to party (in moderation) and more! At some point in the conversation, he said very genuinely that I should come to Rio de Janeiro for Carnival in February! All while telling me all about how much fun he, his friends, and the entire country have while celebrating the holiday! Without any hesitation, I agreed to go, and when I got back from Europe, it was the next trip I started planning!\nFast forward a few months, and there I was! In Brazil, at Pedro’s, enjoying life like a Carioca. Looking back, I guess it was a little insane. Staying in the home of a friend that I had met ONCE across the world, in Rio of all places, just off of one single conversation. I honestly had very little doubt about the absurdity of it all, and thankfully the leap of faith paid off, and I had the time of my life! The first few days were chill and felt like a great vacation. Seeing the touristy sites of Rio, trying out all the delicious and unique Brazilian food, and learning how to manage getting around the city without running into issues. Then after a few days, the festivities began! All of Pedro’s lifelong friends (brothers in my eyes) came to Rio to stay with us and then the real fun began. All of us, going from bloco to bloco, day after day for 5 days days straight! Insane!! The closest way to describe it would be like if you went to a music festival, but the festival is scattered throughout a gigantic and beautiful city, and EVERYONE is huge HUGE fan of every artist on the lineup! Everyone is singing along! Everyone is dancing! Everyone is included! Everyone is having the best day of their life! I loved Carnival sooo so much and while a lot of that love comes from Carnival itself, I feel like a lot of that love was thanks to all the friends who made me feel so included and loved during the entirety of it.\nI couldn’t party forever though…so after Rio I did a small trip to Iguaçu Falls to experience one of the natural wonders of Brazil (more on that later), then São Paulo to experience a more metropolitan version of Brazil, and finally ending up in Caraguatatuba at Samanta’s to experience the laid back beachy vibes of Brazil. Samanta and I met in our hostel in Rome, and by then I had already had my sights set on visiting Brazil. She was happy to host me once I told her about my travel plans, so we made it happen! Getting to experience the more relaxing, quiet, and more local vibe was exactly what I needed after the nearly nonstop action of Rio.\nI cannot wait to visit again! Brazil is a HUGE country, with the same square mileage as the continental US! Definitely wouldn’t mind checking out more of the national parks, eating more Brazilian food, and of course spending time with my new friends. Maybe I’ll know a bit more Portuguese by then! Until then, valeu valeu obrigado!",
+        "I love Brazil, and Brazil loves me too! I've always wanted to visit Brazil but felt like I needed to get a little bit of traveling experience under my belt before taking the plunge. Having some friends from Brazil would’ve made me feel a lot more comfortable as well, and thankfully while in Europe I found Pedro and Samanta.\nI met Pedro in a bar in Budapest while we were both traveling through Europe. We were both very similar. Both worked in tech, both doing our first serious traveling, both liked to party (in moderation) and more! At some point in the conversation, he said very genuinely that I should come to Rio de Janeiro for Carnival in February! All while telling me all about how much fun he, his friends, and the entire country have while celebrating the holiday! Without any hesitation, I agreed to go, and when I got back from Europe, it was the next trip I started planning!\nFast forward a few months, and there I was! In Brazil, at Pedro’s, enjoying life like a Carioca. Looking back, I guess it was a little insane. Staying in the home of a friend that I had met ONCE across the world, in Rio of all places, just off of one single conversation. I honestly had very little doubt about the absurdity of it all, and thankfully the leap of faith paid off, and I had the time of my life! The first few days were chill and felt like a great vacation. Seeing the touristy sites of Rio, trying out all the delicious and unique Brazilian food, and learning how to manage getting around the city without running into issues. Then after a few days, the festivities began!\nAll of Pedro’s lifelong friends (brothers in my eyes) came to Rio to stay with us and then the real fun began. All of us, going from bloco to bloco, day after day for 5 days days straight! Insane!! The closest way to describe it would be like if you went to a music festival, but the festival is scattered throughout a gigantic and beautiful city, and EVERYONE is huge HUGE fan of every artist on the lineup! Everyone is singing along! Everyone is dancing! Everyone is included! Everyone is having the best day of their life! I loved Carnival sooo so much and while a lot of that love comes from Carnival itself, I feel like a lot of that love was thanks to all the friends who made me feel so included and loved during the entirety of it.\nI couldn’t party forever though…so after Rio I did a small trip to Iguaçu Falls to experience one of the natural wonders of Brazil (more on that later), then São Paulo to experience a more metropolitan version of Brazil, and finally ending up in Caraguatatuba at Samanta’s to experience the laid back beachy vibes of Brazil. Samanta and I met in our hostel in Rome, and by then I had already had my sights set on visiting Brazil. She was happy to host me once I told her about my travel plans, so we made it happen! Getting to experience the more relaxing, quiet, and more local vibe was exactly what I needed after the nearly nonstop action of Rio.\nI cannot wait to visit again! Brazil is a HUGE country, with the same square mileage as the continental US! Definitely wouldn’t mind checking out more of the national parks, eating more Brazilian food, and of course spending time with my new friends. Maybe I’ll know a bit more Portuguese by then! Until then, valeu valeu obrigado!",
       publishDate: "March 21, 2023",
     },
     previewIdx: 0,
@@ -3855,7 +3875,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.91705,-43.17525",
           long: "43°10'30.90\"W",
         },
-        description: "Third day of Carnival w/ Guido, Daniel & Caio 🇧🇷",
+        description: "??? day of Carnival w/ Guido, Daniel & Caio 🇧🇷",
         imgID: "cd960444-727e-43ab-4a66-7b16a7b5d200",
       },
       {

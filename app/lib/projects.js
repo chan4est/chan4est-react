@@ -1,8 +1,25 @@
 // The 'languages' portion is in the order it's displayed. Most relevant -> least relevant / infra.
 export const projectsList = [
+  // {
+  //   languages: [
+  //     "typescript",
+  //     "react",
+  //     "nextjs",
+  //     "html",
+  //     "tailwind",
+  //     "python",
+  //     "vercel",
+  //   ],
+  //   name: "Travel Blog",
+  //   displayLink: "chan4est.com/blog",
+  //   link: "https://chan4est.com/blog",
+  //   img: "blog-twitter-image.webp",
+  //   description: "Blog detailing my travels around the world 🌎🌍🌏",
+  //   title: "Travel Blog | 35 Countries & Counting!",
+  // },
   {
     languages: [
-      "typescript",
+      "javascript",
       "react",
       "nextjs",
       "html",

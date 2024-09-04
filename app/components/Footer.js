@@ -45,19 +45,25 @@ export function Footer({}) {
           <a href={Links.EMAIL} className="hover:scale-125">
             <Image
               src={`${ICONS_PATH}/gmail.webp`}
-              height={15}
-              width={15}
+              height={30}
+              width={30}
               alt="Gmail Logo"
-              quality={50}
+              className="h-4 w-4"
+              quality={100}
+              priority={true}
+              unoptimized={true}
             />
           </a>
           <a href={Links.LINKEDIN} className="hover:scale-125">
             <Image
               src={`${ICONS_PATH}/linkedin.webp`}
-              height={15}
-              width={15}
+              height={30}
+              width={30}
               alt="LinkedIn Logo"
-              quality={50}
+              className="h-4 w-4"
+              quality={100}
+              priority={true}
+              unoptimized={true}
             />
           </a>
           <a href={Links.GITHUB} className="hover:scale-125">
@@ -68,10 +74,13 @@ export function Footer({}) {
               />
               <Image
                 src={`${ICONS_PATH}/github.webp`}
-                height={15}
-                width={15}
+                height={30}
+                width={30}
                 alt="GitHub Logo"
-                quality={50}
+                className="h-4 w-4"
+                quality={100}
+                priority={true}
+                unoptimized={true}
               />
             </picture>
           </a>

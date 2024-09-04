@@ -27,7 +27,6 @@ export const techStack = {
     "puppet",
     "cloudflare",
     "vercel",
-    "heroku",
   ],
   tools: [
     "git",

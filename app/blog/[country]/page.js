@@ -145,7 +145,7 @@ export default function BlogPage({ params, searchParams }) {
           <BlogBackButton />
         </div>
       </div>
-      <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-8 pb-8 md:pl-7">
+      <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-4 pb-4 md:pl-7">
         <BlogImages
           blogData={blogData}
           imgIndex={imgIndex}
