@@ -3747,8 +3747,8 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero at night",
-        imgID: "bf08ebf7-e0b9-4b0e-258c-1aba6dbd2b00",
+        description: "Rio de Janiero from the top of Sugarloaf Mountain",
+        imgID: "b9192f39-35a8-4e90-4def-f98d56dea700",
       },
       {
         coordinates: {
@@ -3757,7 +3757,7 @@ export const blogEntries = [
           long: "43°12'36.81\"W",
         },
         description: "Cristo Redentor (Christ the Redeemer)",
-        imgID: "6a97a796-ec13-4682-ddd4-eb2829f95800",
+        imgID: "93ee0d9e-bf14-4f6a-dbbd-a63f9106dd00",
       },
       {
         coordinates: {
@@ -3766,7 +3766,7 @@ export const blogEntries = [
           long: "43°12'36.09\"W",
         },
         description: "Christ the Redeemer w/ Long 🇭🇰",
-        imgID: "0e3e42bc-f96d-4035-718a-f311a27bcd00",
+        imgID: "794d5cbb-f30c-4b8b-0efb-164c50903c00",
       },
       {
         coordinates: {
@@ -3775,7 +3775,7 @@ export const blogEntries = [
           long: "43°12'09.72\"W",
         },
         description: "Peace from Ipanema",
-        imgID: "337c0b5b-193c-4acf-5390-7a17e6061900",
+        imgID: "429d7783-202e-4f2e-946a-f087ea489a00",
       },
       {
         coordinates: {
@@ -3784,7 +3784,7 @@ export const blogEntries = [
           long: "43°11'21.30\"W",
         },
         description: "Fresh coconut w/ Long 🇭🇰",
-        imgID: "eee0c3a6-30b5-492a-3bdf-bfe99e80dc00",
+        imgID: "e054fa34-5c5e-4d0e-c93b-e4f330f15300",
       },
       {
         coordinates: {
@@ -3793,7 +3793,7 @@ export const blogEntries = [
           long: "43°10'47.82\"W",
         },
         description: "Escadaria Selarón",
-        imgID: "ab0843d9-46be-4776-7365-202458da7000",
+        imgID: "52663fad-756c-4a69-717d-3e931ca19e00",
       },
       {
         coordinates: {
@@ -3802,7 +3802,7 @@ export const blogEntries = [
           long: "43°10'45.27\"W",
         },
         description: "Arcos da Lapa",
-        imgID: "64553e5b-77ec-4023-dbab-19b1b5105d00",
+        imgID: "ad8020e7-1b0e-4604-afd7-962248c15200",
       },
       {
         coordinates: {
@@ -3812,7 +3812,7 @@ export const blogEntries = [
         },
         description:
           "Catedral Metropolitana de São Sebastião do Rio de Janeiro",
-        imgID: "215fba6f-0333-4133-0978-468eecfa7b00",
+        imgID: "a32a586a-3651-42de-1dc5-7b2ed4fdb100",
       },
       {
         coordinates: {
@@ -3821,7 +3821,7 @@ export const blogEntries = [
           long: "43°10'56.60\"W",
         },
         description: "Royal Portuguese Reading Room",
-        imgID: "443684a0-7d3f-4c63-8619-f843e9331f00",
+        imgID: "dd3801c2-90ac-4ea4-8483-db40dd64cd00",
       },
       {
         coordinates: {
@@ -3830,7 +3830,7 @@ export const blogEntries = [
           long: "43°09'49.10\"W",
         },
         description: "Pão de Açúcar (Sugarloaf Mountain)",
-        imgID: "a3ee3061-9171-4b14-1e22-e7c933b23e00",
+        imgID: "b71b314f-62bf-4024-23b8-e0d664681700",
       },
       {
         coordinates: {
@@ -3839,7 +3839,7 @@ export const blogEntries = [
           long: "43°09'49.17\"W",
         },
         description: "Sugarloaf Mountain w/ Pedro 🇧🇷",
-        imgID: "7555e729-ec63-4a47-86b8-a53cd33bbb00",
+        imgID: "2f6ce076-df82-4ef5-1205-e013f0a44600",
       },
       {
         coordinates: {
@@ -3847,7 +3847,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero at night - panoramic",
+        description: "Rio de Janiero from the top of Sugarloaf Mountain",
         imgID: "f5b3d1f0-1290-47be-f968-3bd21514b500",
       },
       {
@@ -3858,7 +3858,7 @@ export const blogEntries = [
         },
         description:
           "First day of Carnival w/ Pedro, Jango, Lucas, Caio 🇧🇷 & Long 🇭🇰",
-        imgID: "1d19e2b1-6271-4127-3e52-2211ab13e500",
+        imgID: "3246944a-d086-4056-d9ac-d01eb98cab00",
       },
       {
         coordinates: {
@@ -3867,7 +3867,7 @@ export const blogEntries = [
           long: "43°12'12.02\"W",
         },
         description: "Second day of Carnival ft. Moses & buff Batman",
-        imgID: "e99d5c98-af66-47d9-b641-e75a55c92600",
+        imgID: "171a28ba-9908-48a7-efd6-06fc82b0db00",
       },
       {
         coordinates: {
@@ -3876,7 +3876,7 @@ export const blogEntries = [
           long: "43°10'30.90\"W",
         },
         description: "??? day of Carnival w/ Guido, Daniel & Caio 🇧🇷",
-        imgID: "cd960444-727e-43ab-4a66-7b16a7b5d200",
+        imgID: "28e06ecb-4eb0-4ed3-94ef-71fc1e310e00",
       },
       {
         coordinates: {
@@ -3886,7 +3886,7 @@ export const blogEntries = [
         },
         description:
           "My Brazilian brothers - Lucas, Caio, Guido, Pedro & Jango 🇧🇷",
-        imgID: "a46c9877-57b4-4764-fae7-5849a86c3200",
+        imgID: "49fd670b-bf94-402e-e833-3c329bd27f00",
       },
       {
         coordinates: {
@@ -3895,7 +3895,7 @@ export const blogEntries = [
           long: "46°39'42.99\"W",
         },
         description: "Avenida Paulista",
-        imgID: "4b747add-f03c-4dda-a543-bab020a08d00",
+        imgID: "2a97ef20-6471-4ce3-6114-abbb6cb78000",
       },
       {
         coordinates: {
@@ -3904,7 +3904,7 @@ export const blogEntries = [
           long: "46°39'18.05\"W",
         },
         description: "Pokémon GO insanity at Parque Ibirapuera",
-        imgID: "a1e7eec4-a3c7-4bd8-ca09-8b54fdca1400",
+        imgID: "4108d0cd-f9ff-49f0-e093-5ea43a112e00",
       },
       {
         coordinates: {
@@ -3913,7 +3913,7 @@ export const blogEntries = [
           long: "46°37'45.79\"W",
         },
         description: "Mercado Municipal Paulistano",
-        imgID: "ab757f97-9313-4950-aef8-02734e4c9600",
+        imgID: "a607eefd-74b4-46d8-8826-5272e18c8e00",
       },
       {
         coordinates: {
@@ -3922,7 +3922,7 @@ export const blogEntries = [
           long: "45°21'32.72\"W",
         },
         description: "Ilhabela",
-        imgID: "4a029b78-9f52-4f85-e117-f53753415f00",
+        imgID: "bd56fcd2-498f-414a-2a37-454cdadb8f00",
       },
       {
         coordinates: {
@@ -3931,7 +3931,7 @@ export const blogEntries = [
           long: "45°23'08.16\"W",
         },
         description: "Caraguatatuba w/ Samanta 🇧🇷 & Rebecca 🇦🇺",
-        imgID: "8e4bc347-e3a7-4bbe-a092-d7b75d0ae500",
+        imgID: "1c545bc5-5e9e-478d-ba28-51c64afffe00",
       },
     ],
   },
