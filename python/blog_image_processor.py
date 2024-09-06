@@ -42,8 +42,8 @@ class ImageLocationDataProcessor:
         lat_dms = convert_to_dms(latitude)
         lon_dms = convert_to_dms(longitude)
         
-        lat_str = format_dms(lat_dms[0], lat_dms[1], lat_dms[2], True)
-        lon_str = format_dms(lon_dms[0], lon_dms[1], lon_dms[2], False)
+        lat_str = format_dms(lat_dms[0], lat_dms[1], lat_dms[2], lat_dms[3])
+        lon_str = format_dms(lon_dms[0], lon_dms[1], lon_dms[2], lon_dms[3])
         
         return lat_str, lon_str
 
@@ -211,7 +211,7 @@ class CloudflareImageHandler:
                 old_img_id = old_image['imgID']
                 old_img_cf_obj = self.find_json_object_by_field(cloudflare_images_json, 'id', old_img_id)
                 old_img_name = old_img_cf_obj['filename']
-                new_img_obj = old_img_cf_obj = self.find_json_object_by_field(new_images_json, 'description', old_img_name)
+                new_img_obj = self.find_json_object_by_field(new_images_json, 'description', old_img_name)
                 if not new_img_obj:
                     continue
                 new_img_id = new_img_obj['imgID']
@@ -255,6 +255,7 @@ if __name__ == "__main__":
             print("Processing: {}".format(filename))
             map_data = img_loc_data_processor.get_map_data(filename, image_path)
             uploaded_img_id = cloudflarer_img_handler.upload_image(image_path)
+            # uploaded_img_id = 'test'
             if uploaded_img_id:
                 map_data["imgID"] = uploaded_img_id
                 data.append(map_data)
