@@ -3310,7 +3310,7 @@ export const blogEntries = [
     postImages: [
       {
         coordinates: {
-          lat: "04°35'36.92\"S",
+          lat: "04°35'36.92\"N",
           link: "https://maps.google.com/?q=4.593588888888888,-74.07331111111111",
           long: "74°04'23.92\"W",
         },
@@ -3319,7 +3319,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°35'37.88\"S",
+          lat: "04°35'37.88\"N",
           link: "https://maps.google.com/?q=4.593855555555555,-74.07193055555555",
           long: "74°04'18.95\"W",
         },
@@ -3328,7 +3328,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°35'52.32\"S",
+          lat: "04°35'52.32\"N",
           link: "https://maps.google.com/?q=4.5978666666666665,-74.07645277777777",
           long: "74°04'35.23\"W",
         },
@@ -3337,7 +3337,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°35'50.84\"S",
+          lat: "04°35'50.84\"N",
           link: "https://maps.google.com/?q=4.597455555555555,-74.07581388888889",
           long: "74°04'32.93\"W",
         },
@@ -3346,7 +3346,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°35'38.80\"S",
+          lat: "04°35'38.80\"N",
           link: "https://maps.google.com/?q=4.594111111111111,-74.07472222222222",
           long: "74°04'29.00\"W",
         },
@@ -3355,7 +3355,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°35'53.90\"S",
+          lat: "04°35'53.90\"N",
           link: "https://maps.google.com/?q=4.598305555555555,-74.07511944444444",
           long: "74°04'30.43\"W",
         },
@@ -3373,7 +3373,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°37'00.78\"S",
+          lat: "04°37'00.78\"N",
           link: "https://maps.google.com/?q=4.616883333333334,-74.0839",
           long: "74°05'02.04\"W",
         },
@@ -3382,7 +3382,7 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "04°41'55.03\"S",
+          lat: "04°41'55.03\"N",
           link: "https://www.google.com/maps?q=loc:4.6986833,-74.1425333",
           long: "74°08'33.01\"W",
         },
@@ -3902,6 +3902,471 @@ export const blogEntries = [
       },
     ],
   },
+  {
+    pageTitle: "Portugal 🇵🇹",
+    countryNames: ["Portugal"],
+    route: "portugal",
+    flags: ["🇵🇹"],
+    isFlagLink: true,
+    caption: {
+      title: "Lisbon, Portugal 🇵🇹",
+      content:
+        "My last stop during my first trip through Europe! As I was searching for flights to go back home from Madrid, one of the cheapest options was to do a 22 hour layover in Lisbon. Seemed like a no brainer since it meant adding one more visited country to my count. \nIf Madrid made me feel reminiscent of California, Lisbon was even more so. It felt like I was already in San Francisco just instead of the Pacific Ocean, it was the Atlantic. The infamous coastal weather included!\nBy the time I was here, I felt content and ready to come back home after 5 weeks abroad. It was a spectacular trip that I will cherish for the rest of my life. Can’t wait to come back to do it all again sometime in the future!",
+      publishDate: "November 21, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "64b454a2-4a98-4c66-c959-8d532d1b5900",
+        description: "Torre de Belém",
+        coordinates: {
+          lat: "38°41'31.03\"N",
+          long: "09°12'54.07\"W",
+          link: "https://www.google.com/maps?q=loc:38.6920306,-9.2151806",
+        },
+      },
+      {
+        imgID: "b76cfba8-27f3-47bd-16a6-caa66979ec00",
+        description: "Peace from Portugal",
+        coordinates: {
+          lat: "38°41'31.04\"N",
+          long: "9°12'54.08\"W",
+          link: "https://www.google.com/maps?q=loc:38.6920611,-9.2152194",
+        },
+      },
+      {
+        imgID: "8750b9cb-876f-43f7-9b37-2e01b2c28b00",
+        description: "Inside Torre de Belém",
+        coordinates: {
+          lat: "38°41'29.09\"N",
+          long: "09°12'57.02\"W",
+          link: "https://www.google.com/maps?q=loc:38.69165,-9.2158944",
+        },
+      },
+      {
+        imgID: "a3f5edc1-f49b-4d4f-2dc8-2380ebc92400",
+        description: "Padrão dos Descobrimentos (Monument to the Discoveries)",
+        coordinates: {
+          lat: "38°41'36.46\"N",
+          long: "09°12'22.69\"W",
+          link: "https://maps.google.com/?q=38.693461111111105,-9.206302777777777",
+        },
+      },
+      {
+        imgID: "481e49b8-f25a-42e1-eed1-ef7061919a00",
+        description: "Monument to the Discoveries detail",
+        coordinates: {
+          lat: "38°41'37.02\"N",
+          long: "09°12'19.00\"W",
+          link: "https://www.google.com/maps?q=loc:38.693675,-9.2052833",
+        },
+      },
+      {
+        imgID: "4ff80fb6-29e8-463b-a470-1672f6e19c00",
+        description: "Ponte 25 de Abril",
+        coordinates: {
+          lat: "38°41'52.19\"N",
+          long: "09°10'55.04\"W",
+          link: "https://maps.google.com/?q=38.697830555555555,-9.181955555555556",
+        },
+      },
+      {
+        imgID: "8f1f21b9-813f-4024-aefc-74b2c5cec700",
+        description: "Mosteiro dos Jerónimos",
+        coordinates: {
+          lat: "38°41'49.44\"N",
+          long: "09°12'21.80\"W",
+          link: "https://maps.google.com/?q=38.697066666666665,-9.206055555555555",
+        },
+      },
+      {
+        imgID: "cfdb4b70-52db-48fa-1c2f-eb1d75767300",
+        description: "Arco da Rua Augusta",
+        coordinates: {
+          lat: "38°42'25.89\"N",
+          long: "09°08'08.39\"W",
+          link: "https://maps.google.com/?q=38.70719166666667,-9.135663888888889",
+        },
+      },
+      {
+        imgID: "a7238bb3-1925-49b6-cc51-27518a033500",
+        description: "Local tram",
+        coordinates: {
+          lat: "38°42'30.82\"N",
+          long: "09°08'09.64\"W",
+          link: "https://maps.google.com/?q=38.708561111111116,-9.136011111111111",
+        },
+      },
+      {
+        imgID: "3a729805-0e9d-431b-954b-3da20d059300",
+        description: "Elevador de Santa Justa",
+        coordinates: {
+          lat: "38°42'43.07\"N",
+          long: "09°08'21.00\"W",
+          link: "https://www.google.com/maps?q=loc:38.7121278,-9.1391556",
+        },
+      },
+      {
+        imgID: "1a1dddee-960f-4da8-48b6-a338aad83900",
+        description: "Nightime view of Lisbon from Miradouro da Graça",
+        coordinates: {
+          lat: "38°42'59.69\"N",
+          long: "09°07'53.77\"W",
+          link: "https://maps.google.com/?q=38.71658055555556,-9.131602777777779",
+        },
+      },
+      {
+        imgID: "994f87a7-0bcd-43b6-404f-15a4f2af0000",
+        description: "Goodbye Europe",
+        coordinates: {
+          lat: "38°39'09.02\"N",
+          long: "09°16'08.8\"W",
+          link: "https://maps.app.goo.gl/dai2DQToo557ev1t8",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Spain 🇪🇸",
+    countryNames: ["Spain"],
+    route: "spain",
+    flags: ["🇪🇸"],
+    isFlagLink: true,
+    caption: {
+      title: "Madrid, Spain 🇪🇸",
+      content:
+        "When I was planning on how to spend the last few days of my trip after France, I was originally going to head back to London to do a few things I missed. When I saw the train seat prices I did some comparisons on flight tickets and quickly decided against it. It gave me the perfect excuse to go visit Spain! With the limited time I could only realistically visit one city so the question was Barcelona or Madrid? Madrid won solely because of Museo del Prado!\nI feel like I made the right decision as Madrid was stellar! It all felt reminiscent of California and ultimately made me feel a little homesick. I also felt a lot of the the Spanish I used to know come back almost naturally as I explored! My stop here was fairly quick, but I know I’ll be back someday as I really want to complete the Camino Frances. Something to look forward to!",
+      publishDate: "November 14, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "48a9ba95-32cd-4494-0e00-c644554f3000",
+        description: "Plaza Mayor",
+        coordinates: {
+          lat: "40°24'55.09\"N",
+          long: "03°42'25.72\"E",
+          link: "https://maps.google.com/?q=40.415302777777775,-3.707144444444445",
+        },
+      },
+      {
+        imgID: "370ee1da-4989-4c38-eb9d-fb6937ce3400",
+        description: "Catedral de Santa María la Real de la Almudena",
+        coordinates: {
+          lat: "40°24'59.83\"N",
+          long: "03°42'46.75\"E",
+          link: "https://maps.google.com/?q=40.41661944444444,-3.7129861111111113",
+        },
+      },
+      {
+        imgID: "50ebd114-ecb5-4b82-543e-9ac2862a5e00",
+        description: "Plaza de Cibeles",
+        coordinates: {
+          lat: "40°25'09.58\"N",
+          long: "03°41'39.27\"E",
+          link: "https://maps.google.com/?q=40.419327777777774,-3.694241666666667",
+        },
+      },
+      {
+        imgID: "6ca44c8c-d99d-41a4-ae4e-c28459be3100",
+        description: "Mercado de San Miguel",
+        coordinates: {
+          lat: "40°24'55.73\"N",
+          long: "03°42'31.75\"E",
+          link: "https://maps.google.com/?q=40.415480555555554,-3.7088194444444444",
+        },
+      },
+      {
+        imgID: "cdc307b3-e656-4d6d-6e92-6f77fd8b3800",
+        description: "Tapas, sangria, & gazpacho",
+        coordinates: {
+          lat: "40°24'55.21\"N",
+          long: "03°42'31.76\"E",
+          link: "https://maps.google.com/?q=40.41533611111111,-3.7088222222222225",
+        },
+      },
+
+      {
+        imgID: "281fa247-2a63-40e3-9a9f-e4fe07d3c200",
+        description: "Estanque Grande de El Retiro",
+        coordinates: {
+          lat: "40°25'00.98\"N",
+          long: "03°41'04.82\"E",
+          link: "https://maps.google.com/?q=40.416938888888886,-3.6846722222222223",
+        },
+      },
+      {
+        imgID: "01481081-13a4-4910-0657-c30001375c00",
+        description: "Spanish architecture seen from Plaza de España",
+        coordinates: {
+          lat: "40°25'24.33\"N",
+          long: "03°42'42.98\"E",
+          link: "https://maps.google.com/?q=40.423424999999995,-3.711938888888889",
+        },
+      },
+      {
+        imgID: "4d539b8b-3b83-4b67-44dc-b60518265600",
+        description: "Paseo del Prado",
+        coordinates: {
+          lat: "40°24'43.92\"N",
+          long: "03°41'34.40\"E",
+          link: "https://maps.google.com/?q=40.4122,-3.692888888888889",
+        },
+      },
+      {
+        imgID: "c64017c6-86c6-4e96-123e-b80dae308d00",
+        description:
+          "Monumento a Velázquez in front of Museo Nacional del Prado",
+        coordinates: {
+          lat: "40°24'49.46\"N",
+          long: "03°41'33.88\"E",
+          link: "https://maps.google.com/?q=40.413738888888886,-3.6927444444444446",
+        },
+      },
+      {
+        imgID: "5619fa45-309e-43f8-aa8b-b02d587e7700",
+        description: "Palacio de Cristal",
+        coordinates: {
+          lat: "40°24'50.09\"N",
+          long: "03°40'51.15\"E",
+          link: "https://maps.google.com/?q=40.413913888888885,-3.680875",
+        },
+      },
+      {
+        imgID: "0a0e13d3-fed8-40f5-4c17-71e4b925e400",
+        description: "Free ticket to Reina Sofía",
+        coordinates: {
+          lat: "40°24'31.32\"N",
+          long: "03°41'38.02\"E",
+          link: "https://maps.google.com/?q=40.408699999999996,-3.6938944444444446",
+        },
+      },
+
+      {
+        imgID: "266ef767-e884-4aa8-f4f3-236007146900",
+        description: "Peace from Spain",
+        coordinates: {
+          lat: "40°24'55.04\"N",
+          long: "3°42'25.06\"W",
+          link: "https://www.google.com/maps?q=loc:40.4154,-3.7071",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "France 🇫🇷",
+    countryNames: ["France"],
+    route: "france",
+    flags: ["🇫🇷"],
+    isFlagLink: true,
+    caption: {
+      title: "Paris, France 🇫🇷",
+      content:
+        "What a magnificent city! Paris fell into the same legendary status for me like Italy did, and luckily it also delivered on all fronts.\nThe city as a whole was wayyy larger than I expected. I’m so glad I reserved extra time in Paris as there was just so much stuff to do! Everything I did while I was in Paris felt so fulfilling. Like I’ve been waiting my entire life just to experience every moment. Having authentic French pastries and fancy French cuisine. Exploring The Louvre and Orsay Museums. Being up close to the Eiffel Tower, Notre Dame, and Arc de Triomphe. All just magnificent!\nI was warned that French are a little rude towards foreigners who don’t speak the language so I did feel a bit intimidated going in. I felt the most out of place during my first day, but the feeling quickly went away once I started noticing the smiles on people’s faces when I used the small amount of French I did know. After that hurdle, I felt confident and welcomed, making the rest of my stay dreamlike! I cannot wait to come back!",
+      publishDate: "November 2, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "750e9fba-3c60-4480-6ba0-5c6cdf4d6500",
+        description: "Eiffel Tower",
+        coordinates: {
+          lat: "48°51'18.01\"N",
+          long: "02°17'58.09\"E",
+          link: "https://www.google.com/maps?q=loc:48.8550333,2.2997028",
+        },
+      },
+      {
+        imgID: "c121a739-af3a-437f-c71a-6e32ff035a00",
+        description: "Wearing Madeon's Imperial Lion jacket in Paris, France",
+        coordinates: {
+          lat: "48°51'18.01\"N",
+          long: "02°17'58.09\"E",
+          link: "https://www.google.com/maps?q=loc:48.8550333,2.2997028",
+        },
+      },
+      {
+        imgID: "17bdc08d-ff16-4086-efba-9969c47f1100",
+        description: "Custom Imperial Lion jacket",
+        coordinates: {
+          lat: "48°51'18.09\"N",
+          long: "02°17'59.14\"N",
+          link: "https://maps.google.com/?q=48.855025000000005,2.299761111111111",
+        },
+      },
+      {
+        imgID: "ea64c9ff-c848-4c1f-44da-f8e5498fb600",
+        description: "Peace from France",
+        coordinates: {
+          lat: "48°51'18.01\"N",
+          long: "02°17'59.00\"E",
+          link: "https://www.google.com/maps?q=loc:48.8550333,2.2997139",
+        },
+      },
+      {
+        imgID: "b1398b30-3149-4915-e11d-f78da0935d00",
+        description: "Eiffel Tower by night",
+        coordinates: {
+          lat: "48°51'26.00\"N",
+          long: "02°17'39.28\"N",
+          link: "https://maps.google.com/?q=48.85722222222223,2.2942444444444443",
+        },
+      },
+      {
+        imgID: "ced5eedd-f808-4474-c780-92c7cb8b1f00",
+        description: "Arc de Triomphe",
+        coordinates: {
+          lat: "48°52'27.29\"N",
+          long: "02°17'37.29\"N",
+          link: "https://maps.google.com/?q=48.87424722222222,2.2936916666666667",
+        },
+      },
+      {
+        imgID: "7ce2c2c7-4cac-471f-88f2-0bb58049ab00",
+        description: "La Marseillaise",
+        coordinates: {
+          lat: "48°52'26.50\"N",
+          long: "02°17'41.85\"N",
+          link: "https://maps.google.com/?q=48.874027777777776,2.294958333333333",
+        },
+      },
+      {
+        imgID: "0ddc6cd6-9828-4813-c638-fb98c6304500",
+        description: "Arc de Triomphe's spiral staircase",
+        coordinates: {
+          lat: "48°52'24.22\"N",
+          long: "02°17'41.52\"N",
+          link: "https://maps.google.com/?q=48.87339444444444,2.2948666666666666",
+        },
+      },
+      {
+        imgID: "47f593ad-44b6-43fc-6efd-e6640b27e400",
+        description: "View from the top of the Arc de Triomphe",
+        coordinates: {
+          lat: "48°52'25.56\"N",
+          long: "02°17'42.72\"N",
+          link: "https://maps.google.com/?q=48.87376666666667,2.2952",
+        },
+      },
+      {
+        imgID: "49a2492b-ea24-45d9-5a00-e14234ebb900",
+        description: "Louvre",
+        coordinates: {
+          lat: "48°51'41.43\"N",
+          long: "02°20'08.66\"N",
+          link: "https://maps.google.com/?q=48.86150833333333,2.3357388888888893",
+        },
+      },
+      {
+        imgID: "a4ea97e6-39df-44b9-8cb1-f2fd59f91400",
+        description: "The Grande Galerie",
+        coordinates: {
+          lat: "48°51'35.44\"N",
+          long: "02°20'08.02\"N",
+          link: "https://maps.google.com/?q=48.85984444444445,2.335561111111111",
+        },
+      },
+      {
+        imgID: "37e8c06a-9c5b-4cdb-ba33-2d4ba07ead00",
+        description: "Mona Lisa - Leonardo da Vinci",
+        coordinates: {
+          lat: "48°51'36.18\"N",
+          long: "02°20'07.69\"N",
+          link: "https://maps.google.com/?q=48.86005,2.3354694444444446",
+        },
+      },
+      {
+        imgID: "1094a13e-ffb5-4186-883a-7ff69461ee00",
+        description: "The Winged Nike",
+        coordinates: {
+          lat: "48°51'36.87\"N",
+          long: "02°20'10.97\"N",
+          link: "https://maps.google.com/?q=48.86024166666667,2.336380555555556",
+        },
+      },
+      {
+        imgID: "7c0418f3-0a6c-4203-0dfe-9d96b1ff2e00",
+        description: "Bal du moulin de la Galette - Renoir",
+        coordinates: {
+          lat: "48°51'35.59\"N",
+          long: "02°19'38.18\"N",
+          link: "https://maps.google.com/?q=48.85988611111111,2.327272222222222",
+        },
+      },
+      {
+        imgID: "856733ff-5676-4922-41ff-70db14762000",
+        description: "The Thinker - Rodin",
+        coordinates: {
+          lat: "48°51'19.99\"N",
+          long: "02°18'55.85\"N",
+          link: "https://maps.google.com/?q=48.85555277777778,2.315513888888889",
+        },
+      },
+      {
+        imgID: "10b2df42-977a-4225-fafc-717daff28200",
+        description: "Sacré-Cœur",
+        coordinates: {
+          lat: "48°53'09.32\"N",
+          long: "02°20'37.81\"N",
+          link: "https://maps.google.com/?q=48.88592222222222,2.3438361111111115",
+        },
+      },
+      {
+        imgID: "3c39a666-f04a-40ae-d6a2-e0b476d13700",
+        description: "Beef bourguignon, onion soup, escargot, duck confit",
+        coordinates: {
+          lat: "48°51'25.92\"N",
+          long: "02°21'26.90\"N",
+          link: "https://maps.google.com/?q=48.8572,2.3574722222222224",
+        },
+      },
+      {
+        imgID: "536d0ce5-4d2f-4d08-c413-7c9094b55b00",
+        description: "French McDonalds",
+        coordinates: {
+          lat: "48°52'33.06\"N",
+          long: "02°20'38.06\"E",
+          link: "https://www.google.com/maps?q=loc:48.8760111,2.3440444",
+        },
+      },
+      {
+        imgID: "341fac6a-a639-4b44-e352-009e6ffa6400",
+        description: "Macaroons from Ladurée",
+        coordinates: {
+          lat: "48°51'04.04\"N",
+          long: "02°21'39.04\"E",
+          link: "https://www.google.com/maps?q=loc:48.8512278,2.3609333",
+        },
+      },
+      {
+        imgID: "702abad6-a4ee-432e-5068-a435a4f35d00",
+        description: "Château de Versailles",
+        coordinates: {
+          lat: "48°48'19.18\"N",
+          long: "02°07'06.30\"N",
+          link: "https://maps.google.com/?q=48.80532777777778,2.1184166666666666",
+        },
+      },
+      {
+        imgID: "4ca00d31-aca1-496d-24fa-4c40b9e8e100",
+        description: "Bassin d'Apollon - Charles Le Brun",
+        coordinates: {
+          lat: "48°48'25.99\"N",
+          long: "02°06'40.48\"N",
+          link: "https://maps.google.com/?q=48.80721944444444,2.1112444444444445",
+        },
+      },
+      {
+        imgID: "f15c6cd7-ef50-402f-6c4a-2a413704f400",
+        description: "Lost in Versailles",
+        coordinates: {
+          lat: "48°49'01.92\"N",
+          long: "02°05'16.80\"N",
+          link: "https://maps.google.com/?q=48.81720000000001,2.088",
+        },
+      },
+    ],
+  },
   // {
   //   pageTitle: "Country Flag",
   //   countryNames: [""],
@@ -3925,48 +4390,6 @@ export const blogEntries = [
   //       },
   //     },
   //   ],
-  // },
-  // {
-  //   title: "Portugal 🇵🇹",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "portugal",
-  //   flag: "🇵🇹",
-  // },
-  // {
-  //   title: "Spain 🇪🇸",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "spain",
-  //   flag: "🇪🇸",
-  // },
-  // {
-  //   title: "France 🇫🇷",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "france",
-  //   flag: "🇫🇷",
   // },
   // {
   //   title: "Vatican City 🇻🇦",
