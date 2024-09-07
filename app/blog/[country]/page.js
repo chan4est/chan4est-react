@@ -5,6 +5,7 @@ import { NavBar } from "@/app/components/Navbar";
 import BlogImages from "@/app/components/BlogImages";
 import { Links } from "@/app/lib/Links";
 import BlogText from "@/app/components/BlogText";
+import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
@@ -32,7 +33,7 @@ function BlogBackButton({}) {
   return (
     <Link
       href={Links.BLOG}
-      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-3 left-1"
+      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-1 left-1 z-20"
       title="Back"
     >
       <button title="Back">
@@ -139,13 +140,48 @@ export default function BlogPage({ params, searchParams }) {
         prevBlogData={prevBlogData}
         nextBlogData={nextBlogData}
       />
-      <div className="flex flex-row justify-center items-center pb-4 xl:pb-0">
-        <div id="topnavbar">
+      <div className="sticky top-0 bg-accent">
+        <div
+          id="topnavbar"
+          className="flex flex-row justify-center items-center"
+        >
+          <div className="fixed z-30">
+            <NurtureCoordinates
+              imgLocationLat={
+                blogData.postImages[blogData.previewIdx].coordinates.lat
+              }
+              imgLocationLong={
+                blogData.postImages[blogData.previewIdx].coordinates.long
+              }
+              imgLocationLink={
+                blogData.postImages[blogData.previewIdx].coordinates.link
+              }
+            />
+          </div>
           <NavBar />
           <BlogBackButton />
         </div>
+        <div className="flex flex-1 flex-col content-center items-center">
+          <BlogImages
+            blogData={blogData}
+            imgIndex={imgIndex}
+            country={params.country}
+          />
+        </div>
       </div>
-      <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-4 pb-4 md:pl-7">
+
+      <div className="flex flex-1 flex-col content-center items-center">
+        <BlogText
+          title={blogData.caption.title}
+          paragraphs={blogParagraphs}
+          publishDate={blogData.caption.publishDate}
+          imageDescriptions={blogImageDescriptions}
+          route={params.country}
+          txtIndex={txtIndex}
+        />
+      </div>
+
+      {/* <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-4 pb-4 md:pl-7">
         <BlogImages
           blogData={blogData}
           imgIndex={imgIndex}
@@ -159,7 +195,7 @@ export default function BlogPage({ params, searchParams }) {
           route={params.country}
           txtIndex={txtIndex}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
