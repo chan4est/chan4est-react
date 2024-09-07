@@ -27,7 +27,9 @@ export default function NurtureCoordinates({
         <sup className="pl-2">
           <i>{`(${latComponents3[1]})`}</i>
         </sup>
-        <span className="pl-4 pr-4">{" | "}</span>
+        <span className="pl-2 pr-2 iphone-13-pro-max:pl-4 iphone-13-pro-max:pr-4">
+          {" | "}
+        </span>
         <span>{`λ `}</span>
         <span className="pl-2">{`${longComponents[0]}°`}</span>
         <span className="pl-2">{`${longComponents2[0]}'`}</span>

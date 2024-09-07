@@ -49,6 +49,9 @@ module.exports = {
         21: "repeat(21, minmax(0, 1fr))",
         22: "repeat(22, minmax(0, 1fr))",
       },
+      screens: {
+        "iphone-13-pro-max": "420px",
+      },
     },
   },
   plugins: [],

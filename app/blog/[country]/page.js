@@ -33,7 +33,7 @@ function BlogBackButton({}) {
   return (
     <Link
       href={Links.BLOG}
-      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-1 left-1 z-20"
+      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-1 left-0 z-20"
       title="Back"
     >
       <button title="Back">
@@ -145,19 +145,17 @@ export default function BlogPage({ params, searchParams }) {
           id="topnavbar"
           className="flex flex-row justify-center items-center"
         >
-          <div className="fixed z-30">
-            <NurtureCoordinates
-              imgLocationLat={
-                blogData.postImages[blogData.previewIdx].coordinates.lat
-              }
-              imgLocationLong={
-                blogData.postImages[blogData.previewIdx].coordinates.long
-              }
-              imgLocationLink={
-                blogData.postImages[blogData.previewIdx].coordinates.link
-              }
-            />
-          </div>
+          <NurtureCoordinates
+            imgLocationLat={
+              blogData.postImages[blogData.previewIdx].coordinates.lat
+            }
+            imgLocationLong={
+              blogData.postImages[blogData.previewIdx].coordinates.long
+            }
+            imgLocationLink={
+              blogData.postImages[blogData.previewIdx].coordinates.link
+            }
+          />
           <NavBar />
           <BlogBackButton />
         </div>
