@@ -16,7 +16,7 @@ export default function NurtureCoordinates({
   return (
     <Link
       href={imgLocationLink}
-      className="text-sm hover:text-button_inactive pl-3 pr-3 pb-1 pt-[0.375rem]"
+      className="text-sm hover:text-button_inactive"
       title="Coordinates"
     >
       <p>

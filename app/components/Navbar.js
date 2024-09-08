@@ -74,7 +74,7 @@ export function NavBar({}) {
     >
       <button title="Menu">
         <div
-          className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 right-1 z-50"
+          className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 right-1 md:top-2 md:right-2 lg:top-3 lg:right-3 z-50"
           title="Menu"
         >
           <picture>

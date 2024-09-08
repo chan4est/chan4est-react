@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { NavBar } from "@/app/components/Navbar";
 import BlogImages from "@/app/components/BlogImages";
 import { Links } from "@/app/lib/Links";
-import BlogText from "@/app/components/BlogText";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 
 export async function generateMetadata({ params }) {
@@ -31,20 +30,25 @@ export async function generateStaticParams() {
 // Shown only in smaller window widths (phones, tablets)
 function BlogBackButton({}) {
   return (
-    <Link
-      href={Links.BLOG}
-      className="flex justify-center content-center w-9 h-9 lg:w-11 lg:h-11 xl:hidden absolute top-1 left-0 z-20"
-      title="Back"
-    >
-      <button title="Back">
-        <svg className="h-5 w-5 lg:h-7 lg:w-7" viewBox="0 0 532 532">
-          <path
-            fill="currentColor"
-            d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
-          />
-        </svg>
-      </button>
-    </Link>
+    <div className="rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out">
+      <Link
+        href={Links.BLOG}
+        className="flex justify-center content-center w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
+        title="Back"
+      >
+        <button title="Back">
+          <svg
+            className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8"
+            viewBox="0 0 532 532"
+          >
+            <path
+              fill="currentColor"
+              d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+            />
+          </svg>
+        </button>
+      </Link>
+    </div>
   );
 }
 
@@ -97,6 +101,19 @@ function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
+function BlogText({ title, paragraphs, publishDate }) {
+  return (
+    <div className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6">
+      <p>
+        <b>{title}</b>
+      </p>
+      <br />
+      {paragraphs}
+      <p className="text-blog_accent">{publishDate}</p>
+    </div>
+  );
+}
+
 export default function BlogPage({ params, searchParams }) {
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
@@ -125,13 +142,25 @@ export default function BlogPage({ params, searchParams }) {
       : null;
 
   const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
-    <li className="pb-2" key={text}>
-      {text}
-    </li>
+    <div key={text}>
+      <p>{text}</p>
+      <br />
+    </div>
   ));
 
   const blogImageDescriptions = blogData.postImages.map(
     (imageData) => imageData.description
+  );
+
+  const blogText = (
+    <BlogText
+      title={blogData.caption.title}
+      paragraphs={blogParagraphs}
+      publishDate={blogData.caption.publishDate}
+      imageDescriptions={blogImageDescriptions}
+      route={params.country}
+      txtIndex={txtIndex}
+    />
   );
 
   return (
@@ -140,43 +169,53 @@ export default function BlogPage({ params, searchParams }) {
         prevBlogData={prevBlogData}
         nextBlogData={nextBlogData}
       />
+
       <div className="sticky top-0 bg-accent">
         <div
           id="topnavbar"
-          className="flex flex-row justify-center items-center"
+          className="flex flex-row justify-center items-center sm:pb-2"
         >
-          <NurtureCoordinates
-            imgLocationLat={
-              blogData.postImages[blogData.previewIdx].coordinates.lat
-            }
-            imgLocationLong={
-              blogData.postImages[blogData.previewIdx].coordinates.long
-            }
-            imgLocationLink={
-              blogData.postImages[blogData.previewIdx].coordinates.link
-            }
-          />
+          <div className="h-[20px] sm:hidden">
+            <NurtureCoordinates
+              imgLocationLat={
+                blogData.postImages[blogData.previewIdx].coordinates.lat
+              }
+              imgLocationLong={
+                blogData.postImages[blogData.previewIdx].coordinates.long
+              }
+              imgLocationLink={
+                blogData.postImages[blogData.previewIdx].coordinates.link
+              }
+            />
+          </div>
           <NavBar />
           <BlogBackButton />
         </div>
-        <div className="flex flex-1 flex-col content-center items-center">
+        <div className="flex flex-1 flex-col landscape:flex-row content-center items-center">
+          <div className="hidden sm:h-[20px] sm:flex">
+            <NurtureCoordinates
+              imgLocationLat={
+                blogData.postImages[blogData.previewIdx].coordinates.lat
+              }
+              imgLocationLong={
+                blogData.postImages[blogData.previewIdx].coordinates.long
+              }
+              imgLocationLink={
+                blogData.postImages[blogData.previewIdx].coordinates.link
+              }
+            />
+          </div>
           <BlogImages
             blogData={blogData}
             imgIndex={imgIndex}
             country={params.country}
           />
+          <div className="hidden landscape:flex">{blogText}</div>
         </div>
       </div>
 
-      <div className="flex flex-1 flex-col content-center items-center">
-        <BlogText
-          title={blogData.caption.title}
-          paragraphs={blogParagraphs}
-          publishDate={blogData.caption.publishDate}
-          imageDescriptions={blogImageDescriptions}
-          route={params.country}
-          txtIndex={txtIndex}
-        />
+      <div className="flex landscape:hidden flex-1 flex-col content-center items-center">
+        {blogText}
       </div>
 
       {/* <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-4 pb-4 md:pl-7">

@@ -102,16 +102,16 @@ function PhotoControls({ emblaApi }) {
       <div className="flex flex-wrap justify-center items-center">
         {scrollSnapsList}
       </div>
-      <div className="hidden lg:flex lg:justify-end">
+      <div className="hidden lg:flex justify-end items-center gap-x-2">
         <PrevButton
           onClick={onPrevButtonClick}
           disabled={prevBtnDisabled}
-          title="Next image"
+          title="Previous image"
         />
         <NextButton
           onClick={onNextButtonClick}
           disabled={nextBtnDisabled}
-          title="Previous image"
+          title="Next image"
         />
       </div>
     </div>
@@ -135,7 +135,7 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full lg:max-w-[45rem] sticky top-0 bg-accent">
+    <div className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 bg-accent landscape:max-w-[50%] landscape:xl:max-w-[720px]">
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>
