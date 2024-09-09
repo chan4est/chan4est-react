@@ -3,8 +3,8 @@ import chanPhoto from "../public/me.webp";
 import Link from "next/link";
 import { techIconsData } from "./lib/techIconsData.js";
 import { techStack } from "./lib/techStack.js";
-import { projectsList } from "./lib/projects.js";
-import { NavBar } from "./components/Navbar";
+import { projectsList } from "./lib/projectsList.js";
+import { NavDropdown } from "./components/NavDropdown";
 import { Links } from "./lib/Links";
 import { Footer } from "./components/Footer";
 
@@ -51,6 +51,91 @@ function StackIcon({
       </picture>
       <span className={`hidden sm:block ${spanClass}`}>{stackName}</span>
       <span className={`block sm:hidden ${spanClass}`}>{stackShortName}</span>
+    </a>
+  );
+}
+
+function generateStackIconList(techIconsArr, scale = 1) {
+  // Add components to hash table to maintain the order descripted in the JSON
+  let techHash = new Object();
+  techIconsData.forEach((item) => {
+    techHash[item.img] = (
+      <StackIcon
+        key={item.img}
+        stackImg={`${item.img}`}
+        stackImgAlt={`${item.name} Logo`}
+        stackName={item.name}
+        stackShortName={item.shortName ? item.shortName : item.name}
+        stackLink={item.link}
+        scale={scale}
+        hasDarkMode={item.darkMode2}
+      />
+    );
+  });
+  // Building the actual list. In order of the JSON.
+  let techRowElements = [];
+  techIconsArr.forEach((item) => {
+    techRowElements.push(techHash[item]);
+  });
+  return techRowElements;
+}
+
+function Project({ projectInfo }) {
+  let languageList = generateStackIconList(projectInfo.languages, 0.5);
+  return (
+    <div>
+      {/* <h5 className="pt-2 pb-2">{projectInfo.name}</h5> */}
+      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105 transition duration-200 ease-in-out">
+        <a href={projectInfo.link}>
+          <div>
+            <Image
+              src={`/projects/${projectInfo.img}`}
+              alt={`${projectInfo.name} Twitter Image`}
+              width={600}
+              height={315}
+              className="rounded-t-xl"
+              quality={80}
+            />
+          </div>
+          <div className="p-2 border-t border-button_inactive">
+            <p className="text-xs text-text-500">
+              {projectInfo.displayLink.toUpperCase()}
+            </p>
+            <p className="text-sm font-bold line-clamp-1">
+              {projectInfo.title}
+            </p>
+            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[2.625rem] 2xl:min-h-0 2xl:line-clamp-1">
+              {projectInfo.description}
+            </p>
+          </div>
+        </a>
+      </div>
+      <h5 className="pt-3">Tech Used</h5>
+      <div className={`grid grid-cols-7 grid-rows-1 gap-x-5 pt-1`}>
+        {languageList}
+      </div>
+    </div>
+  );
+}
+
+function AboutContactIcon({ link, title, src, srcW, alt }) {
+  return (
+    <a
+      href={link}
+      className="hover:scale-125 transition duration-200 ease-in-out"
+      title={title}
+    >
+      <picture>
+        <source srcSet={srcW} media="(prefers-color-scheme: dark)" />
+        <Image
+          src={src}
+          height={35}
+          width={35}
+          alt={alt}
+          quality={100}
+          unoptimized={true}
+        />
+      </picture>
     </a>
   );
 }
@@ -102,7 +187,7 @@ function AboutSection({}) {
         </div>
       </div>
       <p className="pt-5 ">
-        I&apos;m a full-stack software engineer who&apos;s built a variety of
+        I&apos;m a full stack software engineer who&apos;s built a variety of
         software ranging from high throughput/low latency APIs, highly scaleable
         data pipelines, fully automated testing frameworks, to beautiful
         user-driven websites, and easy-to-use mobile applications.
@@ -140,79 +225,30 @@ function AboutSection({}) {
         id="contact"
         className="flex flex-row items-center justify-center gap-5 pt-5"
       >
-        <a
-          href={Links.EMAIL}
-          className="hover:scale-125 transition duration-200 ease-in-out"
+        <AboutContactIcon
+          link={Links.EMAIL}
           title="Email me"
-        >
-          <Image
-            src={`/tech-icons/gmail.webp`}
-            height={35}
-            width={35}
-            alt="Gmail Logo"
-            quality={80}
-          />
-        </a>
-        <a
-          href={Links.LINKEDIN}
-          className="hover:scale-125 transition duration-200 ease-in-out"
+          src={`/tech-icons/gmail.webp`}
+          srcW={`/tech-icons/gmail.webp`}
+          alt="Gmail Logo"
+        />
+        <AboutContactIcon
+          link={Links.LINKEDIN}
           title="Connect with me on LinkedIn"
-        >
-          <Image
-            src={`/tech-icons/linkedin.webp`}
-            height={35}
-            width={35}
-            alt="LinkedIn Logo"
-            quality={80}
-          />
-        </a>
-        <a
-          href={Links.GITHUB}
-          className="hover:scale-125 transition duration-200 ease-in-out"
+          src={`/tech-icons/linkedin.webp`}
+          srcW={`/tech-icons/linkedin.webp`}
+          alt="LinkedIn Logo"
+        />
+        <AboutContactIcon
+          link={Links.GITHUB}
           title="View my GitHub"
-        >
-          <picture>
-            <source
-              srcSet={`/tech-icons/github-w.webp`}
-              media="(prefers-color-scheme: dark)"
-            />
-            <Image
-              src={`/tech-icons/github.webp`}
-              height={35}
-              width={35}
-              alt="GitHub Logo"
-              quality={80}
-            />
-          </picture>
-        </a>
+          src={`/tech-icons/github.webp`}
+          srcW={`/tech-icons/github-w.webp`}
+          alt="GitHub Logo"
+        />
       </div>
     </section>
   );
-}
-
-function generateStackIconList(techIconsArr, scale = 1) {
-  // Add components to hash table to maintain the order descripted in the JSON
-  let techHash = new Object();
-  techIconsData.forEach((item) => {
-    techHash[item.img] = (
-      <StackIcon
-        key={item.img}
-        stackImg={`${item.img}`}
-        stackImgAlt={`${item.name} Logo`}
-        stackName={item.name}
-        stackShortName={item.shortName ? item.shortName : item.name}
-        stackLink={item.link}
-        scale={scale}
-        hasDarkMode={item.darkMode2}
-      />
-    );
-  });
-  // Building the actual list. In order of the JSON.
-  let techRowElements = [];
-  techIconsArr.forEach((item) => {
-    techRowElements.push(techHash[item]);
-  });
-  return techRowElements;
 }
 
 function TechStackSection({}) {
@@ -273,50 +309,8 @@ function TechStackSection({}) {
         <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
           {toolsList}
         </div>
-        {/* <h5 className="">Tools</h5>
-        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3">
-          {toolsList}
-        </div> */}
       </div>
     </section>
-  );
-}
-
-function Project({ projectInfo }) {
-  let languageList = generateStackIconList(projectInfo.languages, 0.5);
-  return (
-    <div>
-      <h5 className="pt-2 pb-2">{projectInfo.name}</h5>
-      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105 transition duration-200 ease-in-out">
-        <a href={projectInfo.link}>
-          <div>
-            <Image
-              src={`/projects/${projectInfo.img}`}
-              alt={`${projectInfo.name} Twitter Image`}
-              width={600}
-              height={315}
-              className="rounded-t-xl"
-              quality={80}
-            />
-          </div>
-          <div className="p-2 border-t border-button_inactive">
-            <p className="text-xs text-text-500">
-              {projectInfo.displayLink.toUpperCase()}
-            </p>
-            <p className="text-sm font-bold line-clamp-1">
-              {projectInfo.title}
-            </p>
-            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[2.625rem] 2xl:min-h-0 2xl:line-clamp-1">
-              {projectInfo.description}
-            </p>
-          </div>
-        </a>
-      </div>
-      <h5 className="pt-3">Tech Used</h5>
-      <div className={`grid grid-cols-7 grid-rows-1 gap-x-5 pt-1`}>
-        {languageList}
-      </div>
-    </div>
   );
 }
 
@@ -326,9 +320,12 @@ function ProjectsSection({}) {
     projects.push(<Project projectInfo={item} key={item.name} />);
   });
   return (
-    <section id="projects" className="max-w-screen-2xl">
+    <section
+      id="projects"
+      className="pt-5 max-w-screen-2xl flex flex-col justify-center items-center "
+    >
       <div
-        className="flex flex-row justify-center items-center pt-5"
+        className="flex flex-row justify-center items-center"
         id="projects-header"
       >
         <Link href={Links.PROJECTS}>
@@ -363,11 +360,11 @@ function ProjectsSection({}) {
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 leading-relaxed justify-center">
-        <NavBar />
+      <NavDropdown />
+      <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 pt-10 leading-relaxed justify-center">
         <AboutSection />
-        <TechStackSection />
         <ProjectsSection />
+        <TechStackSection />
       </div>
       <Footer />
     </>

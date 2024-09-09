@@ -135,7 +135,7 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 bg-accent landscape:max-w-[50%] landscape:xl:max-w-[720px]">
+    <div className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 bg-accent landscape:xl:max-w-[45rem] landscape:max-w-[268px]">
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>

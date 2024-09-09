@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import chanPhotoIndia from "../../public/blog/me-india.webp";
 import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
 import layersIcon from "../../public/blog/layers.webp";
-import { NavBar } from "../components/Navbar";
+import { NavDropdown } from "../components/NavDropdown";
 import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
 import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
@@ -105,7 +104,7 @@ function BlogHeader({ blogEntries }) {
   const age = calculateAge("06301996");
 
   return (
-    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10">
+    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10 pt-10">
       <div id="age" className="flex-shrink-0">
         <Image
           src={chanPhotoNagoya}
@@ -130,14 +129,16 @@ function BlogHeader({ blogEntries }) {
               he/him
             </span>
           </li>
-          {/* <li>{age} | Developer | Traveler | Music Lover</li> */}
-          <li> This blog is a work in progress. Last update 9/4/24.</li>
+          <li>{age} | Developer | Traveler | Music Lover</li>
           <li>
             {/* UPDATE: INCREASE GRID-COLS ONCE YOU'VE VISITED MORE COUNTRIES*/}
             <div className="grid grid-cols-18 grid-row gap-x-2">
               {reversedFlagLinks}
             </div>
           </li>
+          <br></br>
+          <li> WIP but nearing completion.</li>
+          <li>Last update 9/9/24.</li>
         </ul>
       </div>
     </section>
@@ -148,7 +149,7 @@ export default function Blog() {
   return (
     <>
       <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
-        <NavBar />
+        <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
         <BlogGrid blogEntries={blogEntries} />
       </div>

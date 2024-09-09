@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { blogEntries } from "@/app/lib/blogEntries";
 import { notFound } from "next/navigation";
-import { NavBar } from "@/app/components/Navbar";
+import { NavDropdown } from "@/app/components/NavDropdown";
 import BlogImages from "@/app/components/BlogImages";
 import { Links } from "@/app/lib/Links";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
+import Image from "next/image";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
@@ -30,80 +31,102 @@ export async function generateStaticParams() {
 // Shown only in smaller window widths (phones, tablets)
 function BlogBackButton({}) {
   return (
-    <div className="rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out">
+    <div className="rounded-full hover:bg-accent  transition duration-200 ease-in-out">
       <Link
         href={Links.BLOG}
         className="flex justify-center content-center w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
         title="Back"
       >
-        <button title="Back">
-          <svg
-            className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8"
-            viewBox="0 0 532 532"
-          >
-            <path
-              fill="currentColor"
-              d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
-            />
-          </svg>
-        </button>
+        <picture>
+          <source
+            srcSet={"/blog/arrow-w.webp"}
+            media="(prefers-color-scheme: dark)"
+          />
+          <Image
+            src={"/blog/arrow.webp"}
+            alt=""
+            width={50}
+            height={50}
+            quality={100}
+            className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
+            priority={true}
+            loading={"eager"}
+          />
+        </picture>
       </Link>
     </div>
   );
 }
 
-// Shown only in larger window widths (desktops)
-function BlogNextPrevButtons({ prevBlogData, nextBlogData }) {
+function RoundButton({}) {
   return (
-    <div className="hidden xl:block">
-      {/* // <div className="block"> */}
-      {prevBlogData ? (
-        <Link
-          href={`/blog/${prevBlogData.route}`}
-          className="fixed top-1/2 left-0 transform -translate-y-1/2 z-10 pl-5"
-          title={prevBlogData.pageTitle}
-        >
-          <button title={prevBlogData.pageTitle}>
-            <svg className="h-7 w-7" viewBox="0 0 532 532">
-              <path
-                fill="currentColor"
-                d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
-              />
-            </svg>
-          </button>
-        </Link>
-      ) : (
-        ""
-      )}
-      {nextBlogData ? (
-        <Link
-          href={`/blog/${nextBlogData.route}`}
-          className="fixed top-1/2 right-0 transform -translate-y-1/2 z-10 pr-5"
-          title={nextBlogData.pageTitle}
-        >
-          <button title={nextBlogData.pageTitle}>
-            <svg
-              className="h-7 w-7"
-              viewBox="0 0 532 532"
-              transform="scale(-1 1)"
-            >
-              <path
-                fill="currentColor"
-                d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
-              />
-            </svg>
-          </button>
-        </Link>
-      ) : (
-        ""
-      )}
+    <picture>
+      <source
+        srcSet={"/blog/arrow-w.webp"}
+        media="(prefers-color-scheme: dark)"
+      />
+      <Image
+        src={"/blog/arrow.webp"}
+        alt=""
+        width={34}
+        height={34}
+        quality={100}
+        className="rounded-full border-2 p-2 border-text hover:bg-accent hover:scale-110 transition duration-200 ease-in-out md:h-[2.5rem] md:w-[2.5rem]"
+        priority={true}
+        loading={"eager"}
+      />
+    </picture>
+  );
+}
+
+function PostNavButtons({ prevBlogData, nextBlogData }) {
+  const prevPostButton = (
+    <Link
+      href={`/blog/${prevBlogData.route}`}
+      className="fixed top-1/2 left-2 md:left-3 lg:left-5 transform -translate-y-1/2 z-10 rotate-180"
+      title={prevBlogData.pageTitle}
+    >
+      <RoundButton isRotated={true} />
+    </Link>
+  );
+
+  const nextPostButton = (
+    <Link
+      href={`/blog/${nextBlogData.route}`}
+      className="fixed top-1/2 right-2 md:right-3 lg:right-5 transform -translate-y-1/2 z-10"
+      title={nextBlogData.pageTitle}
+    >
+      <RoundButton isRotated={false} />
+    </Link>
+  );
+
+  return (
+    <div className="hidden sm:block landscape:hidden">
+      {prevBlogData ? prevPostButton : ""}
+      {nextBlogData ? nextPostButton : ""}
+    </div>
+  );
+}
+
+function PostNavBar({ nurtureCoords }) {
+  return (
+    <div
+      id="topnavbar"
+      className="flex flex-row justify-center items-center h-[2.75rem] md:h-[4rem] lg:h-[4.625rem]"
+    >
+      <BlogBackButton />
+      <div className="flex sm:hidden landscape:flex">{nurtureCoords}</div>
+      <NavDropdown />
     </div>
   );
 }
 
 function BlogText({ title, paragraphs, publishDate }) {
   return (
-    <div className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6">
+    <div
+      className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden \
+     landscape:max-w-[300px] landscape:max-h-[330px] landscape:pr-10 landscape:overflow-y-auto md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6"
+    >
       <p>
         <b>{title}</b>
       </p>
@@ -163,76 +186,37 @@ export default function BlogPage({ params, searchParams }) {
     />
   );
 
+  const firstImageData = blogData.postImages[blogData.previewIdx];
+  const nurtureCoordinates = (
+    <NurtureCoordinates
+      imgLocationLat={firstImageData.coordinates.lat}
+      imgLocationLong={firstImageData.coordinates.long}
+      imgLocationLink={firstImageData.coordinates.link}
+    />
+  );
+
   return (
     <div className="bg-accent flex flex-1 flex-col">
-      <BlogNextPrevButtons
-        prevBlogData={prevBlogData}
-        nextBlogData={nextBlogData}
-      />
-
       <div className="sticky top-0 bg-accent">
-        <div
-          id="topnavbar"
-          className="flex flex-row justify-center items-center sm:pb-2"
-        >
-          <div className="h-[20px] sm:hidden">
-            <NurtureCoordinates
-              imgLocationLat={
-                blogData.postImages[blogData.previewIdx].coordinates.lat
-              }
-              imgLocationLong={
-                blogData.postImages[blogData.previewIdx].coordinates.long
-              }
-              imgLocationLink={
-                blogData.postImages[blogData.previewIdx].coordinates.link
-              }
+        <PostNavBar nurtureCoords={nurtureCoordinates} />
+        <div className="landscape:flex landscape:flex-row landscape:justify-center landscape:items-center">
+          <div className="flex flex-1 flex-col content-center items-center">
+            <div className="hidden portrait:sm:flex pb-1">
+              {nurtureCoordinates}
+            </div>
+            <BlogImages
+              blogData={blogData}
+              imgIndex={imgIndex}
+              country={params.country}
             />
           </div>
-          <NavBar />
-          <BlogBackButton />
-        </div>
-        <div className="flex flex-1 flex-col landscape:flex-row content-center items-center">
-          <div className="hidden sm:h-[20px] sm:flex">
-            <NurtureCoordinates
-              imgLocationLat={
-                blogData.postImages[blogData.previewIdx].coordinates.lat
-              }
-              imgLocationLong={
-                blogData.postImages[blogData.previewIdx].coordinates.long
-              }
-              imgLocationLink={
-                blogData.postImages[blogData.previewIdx].coordinates.link
-              }
-            />
-          </div>
-          <BlogImages
-            blogData={blogData}
-            imgIndex={imgIndex}
-            country={params.country}
-          />
-          <div className="hidden landscape:flex">{blogText}</div>
+          <div className="hidden landscape:block">{blogText}</div>
         </div>
       </div>
-
+      <PostNavButtons prevBlogData={prevBlogData} nextBlogData={nextBlogData} />
       <div className="flex landscape:hidden flex-1 flex-col content-center items-center">
         {blogText}
       </div>
-
-      {/* <div className="flex flex-1 flex-col lg:flex-row content-center lg:justify-center items-center md:pt-4 pb-4 md:pl-7">
-        <BlogImages
-          blogData={blogData}
-          imgIndex={imgIndex}
-          country={params.country}
-        />
-        <BlogText
-          title={blogData.caption.title}
-          paragraphs={blogParagraphs}
-          publishDate={blogData.caption.publishDate}
-          imageDescriptions={blogImageDescriptions}
-          route={params.country}
-          txtIndex={txtIndex}
-        />
-      </div> */}
     </div>
   );
 }
