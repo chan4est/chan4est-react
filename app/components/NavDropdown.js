@@ -5,24 +5,24 @@ import Link from "next/link";
 import { Links } from "../lib/Links";
 import { useState, useRef, useEffect } from "react";
 
-import navIconMenu from "../../public/header-icons/menu.webp";
-import navIconMenuW from "../../public/header-icons/menu-w.webp";
-import navIconX from "../../public/header-icons/x.webp";
-import navIconXW from "../../public/header-icons/x-w.webp";
-import navIconHome from "../../public/header-icons/home.webp";
-import navIconHomeW from "../../public/header-icons/home-w.webp";
-import navIconStack from "../../public/header-icons/tech-stack.webp";
-import navIconStackW from "../../public/header-icons/tech-stack-w.webp";
-import navIconProjects from "../../public/header-icons/projects.webp";
-import navIconProjectsW from "../../public/header-icons/projects-w.webp";
-import navIconResume from "../../public/header-icons/resume.webp";
-import navIconResumeW from "../../public/header-icons/resume-w.webp";
-import navIconBlog from "../../public/header-icons/blog.webp";
-import navIconBlogW from "../../public/header-icons/blog-w.webp";
-import navIconEmail from "../../public/header-icons/gmail.webp";
-import navIconGithub from "../../public/header-icons/github.webp";
-import navIconGithubW from "../../public/header-icons/github-w.webp";
-import navIconLinkedIn from "../../public/header-icons/linkedin.webp";
+const navIconMenuSrc = "/header-icons/menu.webp";
+const navIconMenuSrcW = "/header-icons/menu-w.webp";
+const navIconXSrc = "/header-icons/x.webp";
+const navIconXSrcW = "/header-icons/x-w.webp";
+const navIconHomeSrc = "/header-icons/home.webp";
+const navIconHomeSrcW = "/header-icons/home-w.webp";
+const navIconStackSrc = "/header-icons/tech-stack.webp";
+const navIconStackSrcW = "/header-icons/tech-stack-w.webp";
+const navIconProjectsSrc = "/header-icons/projects.webp";
+const navIconProjectsSrcW = "/header-icons/projects-w.webp";
+const navIconResumeSrc = "/header-icons/resume.webp";
+const navIconResumeSrcW = "/header-icons/resume-w.webp";
+const navIconBlogSrc = "/header-icons/blog.webp";
+const navIconBlogSrcW = "/header-icons/blog-w.webp";
+const navIconEmailSrc = "/header-icons/gmail.webp";
+const navIconGithubSrc = "/header-icons/github.webp";
+const navIconGithubSrcW = "/header-icons/github-w.webp";
+const navIconLinkedInSrc = "/header-icons/linkedin.webp";
 
 function NavItem({
   link,
@@ -45,11 +45,13 @@ function NavItem({
     >
       <picture>
         {hasDarkMode && (
-          <source srcSet={imgSrcW.src} media="(prefers-color-scheme: dark)" />
+          <source srcSet={imgSrcW} media="(prefers-color-scheme: dark)" />
         )}
         <Image
           src={imgSrc}
           alt=""
+          width={50}
+          height={50}
           className="h-6 w-6 sm:h-8 sm:w-8"
           loading={"eager"}
           unoptimized={true}
@@ -90,12 +92,14 @@ export function NavDropdown({}) {
       >
         <picture>
           <source
-            srcSet={isMenuOpen ? navIconXW.src : navIconMenuW.src}
+            srcSet={isMenuOpen ? navIconXSrcW : navIconMenuSrcW}
             media="(prefers-color-scheme: dark)"
           />
           <Image
-            src={isMenuOpen ? navIconX : navIconMenu}
+            src={isMenuOpen ? navIconXSrc : navIconMenuSrc}
             alt=""
+            width={100}
+            height={100}
             className="p-2 rounded-lg hover:scale-110 transition duration-200 ease-in-out"
             loading={"eager"}
             unoptimized={true}
@@ -107,8 +111,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.HOME}
             title="Home"
-            imgSrc={navIconHome}
-            imgSrcW={navIconHomeW}
+            imgSrc={navIconHomeSrc}
+            imgSrcW={navIconHomeSrcW}
             itemText={"Home"}
             useLink={true}
             hasDarkMode={true}
@@ -116,8 +120,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.PROJECTS}
             title="Projects"
-            imgSrc={navIconProjects}
-            imgSrcW={navIconProjectsW}
+            imgSrc={navIconProjectsSrc}
+            imgSrcW={navIconProjectsSrcW}
             itemText={"Projects"}
             useLink={true}
             hasDarkMode={true}
@@ -125,8 +129,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.TECH_STACK}
             title="Tech Stack"
-            imgSrc={navIconStack}
-            imgSrcW={navIconStackW}
+            imgSrc={navIconStackSrc}
+            imgSrcW={navIconStackSrcW}
             itemText={"Tech Stack"}
             useLink={true}
             hasDarkMode={true}
@@ -134,8 +138,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.RESUME}
             title="View my resume"
-            imgSrc={navIconResume}
-            imgSrcW={navIconResumeW}
+            imgSrc={navIconResumeSrc}
+            imgSrcW={navIconResumeSrcW}
             itemText={"Resume"}
             useLink={true}
             hasDarkMode={true}
@@ -143,8 +147,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.BLOG}
             title="View my blog"
-            imgSrc={navIconBlog}
-            imgSrcW={navIconBlogW}
+            imgSrc={navIconBlogSrc}
+            imgSrcW={navIconBlogSrcW}
             itemText={"Blog (WIP)"}
             useLink={true}
             hasDarkMode={true}
@@ -152,8 +156,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.EMAIL}
             title="Email me"
-            imgSrc={navIconEmail}
-            imgSrcW={navIconEmail}
+            imgSrc={navIconEmailSrc}
+            imgSrcW={navIconEmailSrc}
             itemText={"Email"}
             useLink={false}
             hasDarkMode={false}
@@ -161,8 +165,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.LINKEDIN}
             title="Connect with me on LinkedIn"
-            imgSrc={navIconLinkedIn}
-            imgSrcW={navIconLinkedIn}
+            imgSrc={navIconLinkedInSrc}
+            imgSrcW={navIconLinkedInSrc}
             itemText={"LinkedIn"}
             useLink={false}
             hasDarkMode={false}
@@ -170,8 +174,8 @@ export function NavDropdown({}) {
           <NavItem
             link={Links.GITHUB}
             title={"View my GitHub"}
-            imgSrc={navIconGithub}
-            imgSrcW={navIconGithubW}
+            imgSrc={navIconGithubSrc}
+            imgSrcW={navIconGithubSrcW}
             itemText={"GitHub"}
             useLink={false}
             hasDarkMode={true}

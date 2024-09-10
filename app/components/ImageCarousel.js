@@ -14,11 +14,7 @@ import {
 import { shimmer, toBase64 } from "@/app/lib/shimmer";
 import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
 
-function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
-  const descHeightHackyStyle =
-    country === "croatia"
-      ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
-      : "text-sm pt-1 pl-1 pr-1";
+function BlogImage({ imgSrc, imageDescription, imageNumber }) {
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center">
       <div className="max-w-[45rem] max-h-[45rem]">
@@ -39,7 +35,7 @@ function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
           unoptimized={true}
         />
       </div>
-      <p className={descHeightHackyStyle}>{imageDescription}</p>
+      <p className="text-sm pt-1 pl-1 pr-1">{imageDescription}</p>
     </div>
   );
 }
@@ -90,7 +86,7 @@ function PhotoControls({ emblaApi }) {
     </div>
   );
 }
-export default function BlogImages({ blogData, imgIndex, country }) {
+export function ImageCarousel({ blogData, imgIndex, country }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: imgIndex });
 
   const imgList = blogData.postImages.map((imgData, i) => (
@@ -98,15 +94,14 @@ export default function BlogImages({ blogData, imgIndex, country }) {
       imgSrc={imgURL(imgData.imgID, r_1500)}
       imageDescription={imgData.description}
       imageNumber={i}
-      country={country}
       key={i}
     />
   ));
 
   return (
     <div
-      className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 \
-                    bg-accent  landscape:max-w-[268px] landscape:md:max-w-[300px] landscape:lg:max-w-[45rem]"
+      className="bg-accent overflow-hidden sticky top-0 max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem]  \
+                landscape:max-w-[16.75] landscape:md:max-w-[18.75rem] landscape:lg:max-w-[40.625rem] landscape:xl:max-w-[45rem] landscape:pl-3"
     >
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { blogEntries } from "@/app/lib/blogEntries";
 import { notFound } from "next/navigation";
 import { NavDropdown } from "@/app/components/NavDropdown";
-import BlogImages from "@/app/components/BlogImages";
+import { ImageCarousel } from "@/app/components/ImageCarousel";
 import { Links } from "@/app/lib/Links";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 import Image from "next/image";
@@ -33,7 +33,7 @@ function BlogBackButton({}) {
   return (
     <Link
       href={Links.BLOG}
-      className="rounded-full hover:bg-accent  transition duration-200 ease-in-out flex justify-center content-center \
+      className="hover:bg-accent transition duration-200 ease-in-out flex justify-center content-center \
                     w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
       title="Back"
     >
@@ -47,7 +47,7 @@ function BlogBackButton({}) {
           alt=""
           width={50}
           height={50}
-          className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
+          className="p-2 hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
           priority={true}
           unoptimized={true}
         />
@@ -98,7 +98,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 
   return (
-    <div className="hidden sm:block landscape:hidden">
+    <div className="hidden portrait:sm:block landscape:xl:block">
       {prevBlogData ? prevPostButton : ""}
       {nextBlogData ? nextPostButton : ""}
     </div>
@@ -109,10 +109,12 @@ function PostNavBar({ nurtureCoords }) {
   return (
     <div
       id="topnavbar"
-      className="flex flex-row justify-center items-center h-[2.75rem] lg:h-[4.625rem]"
+      className="bg-accent flex flex-row justify-center items-center h-[2.75rem]"
     >
       <BlogBackButton />
-      <div className="flex sm:hidden landscape:flex">{nurtureCoords}</div>
+      <div className="flex portrait:sm:hidden landscape:lg:hidden">
+        {nurtureCoords}
+      </div>
       <NavDropdown />
     </div>
   );
@@ -121,15 +123,15 @@ function PostNavBar({ nurtureCoords }) {
 function BlogText({ title, paragraphs, publishDate }) {
   return (
     <div
-      className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden \
-     landscape:max-w-[300px] landscape:max-h-[330px] landscape:overflow-y-auto landscape:pl-3 landscape:pr-3 md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6"
+      className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden pl-3 pr-3 sm:pl-0 sm:pr-0 \
+     landscape:max-h-[20.625rem] landscape:max-w-[18.75rem] landscape:overflow-y-auto landscape:pl-3 landscape:pr-3 landscape:xl:mb-8  \
+     landscape:lg:max-h-[45rem] landscape:lg:max-w-[25rem] landscape:lg:pl-3 landscape:xl:pl-7"
     >
       <p>
         <b>{title}</b>
       </p>
-      <br />
       {paragraphs}
-      <p className="text-blog_accent">{publishDate}</p>
+      <p className="text-blog_accent pt-3 pb-8">{publishDate}</p>
     </div>
   );
 }
@@ -162,9 +164,8 @@ export default function BlogPage({ params, searchParams }) {
       : null;
 
   const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
-    <div key={text}>
+    <div key={text} className="pt-2">
       <p>{text}</p>
-      <br />
     </div>
   ));
 
@@ -193,27 +194,32 @@ export default function BlogPage({ params, searchParams }) {
   );
 
   return (
-    <div className="bg-accent flex flex-1 flex-col">
-      <div className="sticky top-0 bg-accent">
-        <PostNavBar nurtureCoords={nurtureCoordinates} />
-        <div className="landscape:flex landscape:flex-row landscape:justify-center landscape:items-center">
-          <div className="flex flex-col content-center items-center">
-            <div className="hidden portrait:sm:flex pb-1">
-              {nurtureCoordinates}
+    <>
+      <PostNavBar nurtureCoords={nurtureCoordinates} />
+      <div className="bg-accent flex flex-1 flex-col landscape:justify-center landscape:items-center">
+        <div className="sticky top-0 bg-accent">
+          <div className="landscape:flex landscape:flex-row landscape:items-center">
+            <div className="flex flex-col content-center items-center">
+              <div className="hidden portrait:sm:flex landscape:lg:flex pb-1">
+                {nurtureCoordinates}
+              </div>
+              <ImageCarousel
+                blogData={blogData}
+                imgIndex={imgIndex}
+                country={params.country}
+              />
             </div>
-            <BlogImages
-              blogData={blogData}
-              imgIndex={imgIndex}
-              country={params.country}
-            />
+            <div className="hidden landscape:flex">{blogText}</div>
           </div>
-          <div className="hidden landscape:block">{blogText}</div>
+        </div>
+        <PostNavButtons
+          prevBlogData={prevBlogData}
+          nextBlogData={nextBlogData}
+        />
+        <div className="flex landscape:hidden flex-1 flex-col content-center items-center">
+          {blogText}
         </div>
       </div>
-      <PostNavButtons prevBlogData={prevBlogData} nextBlogData={nextBlogData} />
-      <div className="flex landscape:hidden flex-1 flex-col content-center items-center">
-        {blogText}
-      </div>
-    </div>
+    </>
   );
 }
