@@ -65,7 +65,7 @@ function PhotoControls({ emblaApi }) {
   ));
 
   return (
-    <div className="flex flex-row justify-center lg:justify-between pt-1 pb-2">
+    <div className="flex flex-row justify-center lg:justify-between pt-2 pb-3">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       <div className="hidden lg:block lg:w-10"></div>
       <div className="flex flex-wrap justify-center items-center">

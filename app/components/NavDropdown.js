@@ -88,7 +88,7 @@ export function NavDropdown({}) {
     >
       <button
         title={isMenuOpen ? "Close" : "Menu"}
-        className="w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 right-1 md:top-2 md:right-2 lg:top-3 lg:right-3 z-50"
+        className="w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 right-1 md:top-2 md:right-2 lg:top-3 lg:right-3 z-10"
       >
         <picture>
           <source
@@ -107,7 +107,7 @@ export function NavDropdown({}) {
         </picture>
       </button>
       {isMenuOpen && (
-        <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50 border-2 border-text rounded-xl">
+        <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-20 border-2 border-text rounded-xl">
           <NavItem
             link={Links.HOME}
             title="Home"

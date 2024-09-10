@@ -34,7 +34,7 @@ function BlogBackButton({}) {
     <Link
       href={Links.BLOG}
       className="hover:bg-accent transition duration-200 ease-in-out flex justify-center content-center \
-                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
+                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-10"
       title="Back"
     >
       <picture>
@@ -123,7 +123,7 @@ function PostNavBar({ nurtureCoords }) {
 function BlogText({ title, paragraphs, publishDate }) {
   return (
     <div
-      className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden pl-3 pr-3 sm:pl-0 sm:pr-0 \
+      className="text-left max-w-[28.125rem] text-sm overflow-x-hidden pl-3 pr-3 sm:pl-0 sm:pr-0 \
      landscape:max-h-[20.625rem] landscape:max-w-[18.75rem] landscape:overflow-y-auto landscape:pl-3 landscape:pr-3 landscape:xl:mb-8  \
      landscape:lg:max-h-[45rem] landscape:lg:max-w-[25rem] landscape:lg:pl-3 landscape:xl:pl-7"
     >
@@ -193,24 +193,27 @@ export default function BlogPage({ params, searchParams }) {
     />
   );
 
+  const postNavBar = <PostNavBar nurtureCoords={nurtureCoordinates} />;
+
   return (
     <>
-      <PostNavBar nurtureCoords={nurtureCoordinates} />
+      <div className="portrait:hidden landscape:block">{postNavBar}</div>
       <div className="bg-accent flex flex-1 flex-col landscape:justify-center landscape:items-center">
-        <div className="sticky top-0 bg-accent">
-          <div className="landscape:flex landscape:flex-row landscape:items-center">
-            <div className="flex flex-col content-center items-center">
-              <div className="hidden portrait:sm:flex landscape:lg:flex pb-1">
-                {nurtureCoordinates}
-              </div>
-              <ImageCarousel
-                blogData={blogData}
-                imgIndex={imgIndex}
-                country={params.country}
-              />
+        <div className="sticky top-0 z-20 bg-accent portrait:block landscape:hidden">
+          {postNavBar}
+        </div>
+        <div className="landscape:flex landscape:flex-row landscape:items-center">
+          <div className="flex flex-col content-center items-center">
+            <div className="hidden portrait:sm:flex landscape:lg:flex pb-1">
+              {nurtureCoordinates}
             </div>
-            <div className="hidden landscape:flex">{blogText}</div>
+            <ImageCarousel
+              blogData={blogData}
+              imgIndex={imgIndex}
+              country={params.country}
+            />
           </div>
+          <div className="hidden landscape:flex">{blogText}</div>
         </div>
         <PostNavButtons
           prevBlogData={prevBlogData}
