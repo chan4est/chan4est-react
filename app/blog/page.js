@@ -22,10 +22,8 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           alt={`Photo of ${entryTitle}`}
           width={310}
           height={310}
-          quality={100}
           className="max-h-[19.375rem]"
           priority={true}
-          loading={"eager"}
           unoptimized={true}
         />
         <Image
@@ -35,7 +33,6 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           height={50}
           className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
           priority={true}
-          loading={"eager"}
           unoptimized={true}
         />
       </div>
@@ -111,10 +108,8 @@ function BlogHeader({ blogEntries }) {
           alt={"Nagoya Castle"}
           width={400}
           height={400}
-          quality={100}
           className="rounded-full h-52 w-52 lg:h-64 lg:w-64"
           priority={true}
-          loading={"eager"}
           unoptimized={true}
         />
       </div>

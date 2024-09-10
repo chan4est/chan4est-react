@@ -45,7 +45,6 @@ function StackIcon({
           alt={stackImgAlt}
           width={100}
           height={100}
-          quality={50}
           unoptimized={true}
         />
       </picture>
@@ -94,7 +93,7 @@ function Project({ projectInfo }) {
               width={600}
               height={315}
               className="rounded-t-xl"
-              quality={80}
+              unoptimized={true}
             />
           </div>
           <div className="p-2 border-t border-button_inactive">
@@ -118,7 +117,7 @@ function Project({ projectInfo }) {
   );
 }
 
-function AboutContactIcon({ link, title, src, srcW, alt }) {
+function AboutContactIcon({ link, title, imgSrc, imgSrcW, imgAlt }) {
   return (
     <a
       href={link}
@@ -126,17 +125,41 @@ function AboutContactIcon({ link, title, src, srcW, alt }) {
       title={title}
     >
       <picture>
-        <source srcSet={srcW} media="(prefers-color-scheme: dark)" />
+        <source srcSet={imgSrcW} media="(prefers-color-scheme: dark)" />
         <Image
-          src={src}
-          height={35}
+          src={imgSrc}
+          alt={imgAlt}
           width={35}
-          alt={alt}
-          quality={100}
+          height={35}
           unoptimized={true}
         />
       </picture>
     </a>
+  );
+}
+
+function SectionHeader({ id, link, title, imgSrc, imgSrcW, imgAlt }) {
+  return (
+    <Link
+      href={link}
+      className="flex flex-row justify-center items-center pb-2 hover:scale-105 transition duration-200 ease-in-out"
+      id={id}
+    >
+      <h3 className="pr-3">{title}</h3>
+
+      <picture className="w-7 h-7">
+        <source srcSet={imgSrcW} media="(prefers-color-scheme: dark)" />
+        <Image
+          src={imgSrc}
+          alt={imgAlt}
+          width={50}
+          height={50}
+          quality={100}
+          priority={true}
+          unoptimized={true}
+        />
+      </picture>
+    </Link>
   );
 }
 
@@ -157,14 +180,13 @@ function AboutSection({}) {
               src={chanPhoto}
               alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
               className="rounded-xl"
-              quality={80}
               priority={true}
-              loading={"eager"}
+              unoptimized={true}
             />
           </div>
         </Link>
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
-          <ul className="">
+          <ul>
             <li>
               <b>Name:</b> Chandler Forrest
             </li>
@@ -228,24 +250,51 @@ function AboutSection({}) {
         <AboutContactIcon
           link={Links.EMAIL}
           title="Email me"
-          src={`/tech-icons/gmail.webp`}
-          srcW={`/tech-icons/gmail.webp`}
+          imgSrc={`/tech-icons/gmail.webp`}
+          imgSrcW={`/tech-icons/gmail.webp`}
           alt="Gmail Logo"
         />
         <AboutContactIcon
           link={Links.LINKEDIN}
           title="Connect with me on LinkedIn"
-          src={`/tech-icons/linkedin.webp`}
+          imgSrc={`/tech-icons/linkedin.webp`}
           srcW={`/tech-icons/linkedin.webp`}
           alt="LinkedIn Logo"
         />
         <AboutContactIcon
           link={Links.GITHUB}
           title="View my GitHub"
-          src={`/tech-icons/github.webp`}
-          srcW={`/tech-icons/github-w.webp`}
+          imgSrc={`/tech-icons/github.webp`}
+          imgSrcW={`/tech-icons/github-w.webp`}
           alt="GitHub Logo"
         />
+      </div>
+    </section>
+  );
+}
+
+function ProjectSection({}) {
+  const projects = projectsList.map((project) => (
+    <Project projectInfo={project} key={project.name} />
+  ));
+
+  return (
+    <section
+      id="projects"
+      className="pt-5 max-w-screen-2xl flex flex-col justify-center items-center"
+    >
+      <SectionHeader
+        id={"projects-header"}
+        link={Links.PROJECTS}
+        title={"Projects"}
+        imgSrc={"/header-icons/projects.webp"}
+        imgSrcW={"/header-icons/projects-w.webp"}
+        imgAlt={"Projects vector logo"}
+      />
+      <div className="flex justify-center content-center flex-col">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10">
+          {projects}
+        </div>
       </div>
     </section>
   );
@@ -259,31 +308,20 @@ function TechStackSection({}) {
   const toolsList = generateStackIconList(techStack.tools);
 
   return (
-    <section id="tech-stack" className="max-w-screen-md">
-      <div
-        className="flex flex-row justify-center items-center pt-5"
-        id="techstack-header"
-      >
-        <Link href={Links.TECH_STACK}>
-          <h3 className="pr-3">Tech Stack</h3>
-        </Link>
-        <div className="w-7 h-7">
-          <picture>
-            <source
-              srcSet={`/header-icons/tech-stack-w.webp`}
-              media="(prefers-color-scheme: dark)"
-            />
-            <Image
-              src={"/header-icons/tech-stack.webp"}
-              alt="Tech Stack Vector Logo"
-              width={50}
-              height={50}
-              quality={50}
-            />
-          </picture>
-        </div>
-      </div>
-      <p className="pb-2 pt-2">
+    <section
+      id="tech-stack"
+      className="pt-5 max-w-screen-md flex flex-col justify-center items-center "
+    >
+      <SectionHeader
+        id={"techstack-header"}
+        link={Links.TECH_STACK}
+        title={"Tech Stack"}
+        imgSrc={"/header-icons/tech-stack.webp"}
+        imgSrcW={"/header-icons/tech-stack-w.webp"}
+        imgAlt={"Tech stack vector logo"}
+      />
+
+      <p className="pb-2">
         {
           "These are the technologies I've used during my professional carreer and in personal projects. I'd feel confident working with any of them daily."
         }
@@ -314,56 +352,13 @@ function TechStackSection({}) {
   );
 }
 
-function ProjectsSection({}) {
-  let projects = [];
-  projectsList.forEach((item) => {
-    projects.push(<Project projectInfo={item} key={item.name} />);
-  });
-  return (
-    <section
-      id="projects"
-      className="pt-5 max-w-screen-2xl flex flex-col justify-center items-center "
-    >
-      <div
-        className="flex flex-row justify-center items-center"
-        id="projects-header"
-      >
-        <Link href={Links.PROJECTS}>
-          <h3 className="pr-3">Projects</h3>
-        </Link>
-        <div className="w-7 h-7">
-          <picture>
-            <source
-              srcSet={"/header-icons/projects-w.webp"}
-              media="(prefers-color-scheme: dark)"
-            />
-            <Image
-              src={"/header-icons/projects.webp"}
-              alt="Tech Stack Vector Logo"
-              width={50}
-              height={50}
-              quality={80}
-            />
-          </picture>
-        </div>
-      </div>
-
-      <div className="flex justify-center content-center flex-col">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10">
-          {projects}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
   return (
     <>
       <NavDropdown />
       <div className="flex min-h-screen flex-col items-center pl-8 pr-8 pb-10 pt-10 leading-relaxed justify-center">
         <AboutSection />
-        <ProjectsSection />
+        <ProjectSection />
         <TechStackSection />
       </div>
       <Footer />

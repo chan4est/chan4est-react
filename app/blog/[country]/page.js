@@ -31,30 +31,28 @@ export async function generateStaticParams() {
 // Shown only in smaller window widths (phones, tablets)
 function BlogBackButton({}) {
   return (
-    <div className="rounded-full hover:bg-accent  transition duration-200 ease-in-out">
-      <Link
-        href={Links.BLOG}
-        className="flex justify-center content-center w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
-        title="Back"
-      >
-        <picture>
-          <source
-            srcSet={"/blog/arrow-w.webp"}
-            media="(prefers-color-scheme: dark)"
-          />
-          <Image
-            src={"/blog/arrow.webp"}
-            alt=""
-            width={50}
-            height={50}
-            quality={100}
-            className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
-            priority={true}
-            loading={"eager"}
-          />
-        </picture>
-      </Link>
-    </div>
+    <Link
+      href={Links.BLOG}
+      className="rounded-full hover:bg-accent  transition duration-200 ease-in-out flex justify-center content-center \
+                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-20"
+      title="Back"
+    >
+      <picture>
+        <source
+          srcSet={"/blog/arrow-w.webp"}
+          media="(prefers-color-scheme: dark)"
+        />
+        <Image
+          src={"/blog/arrow.webp"}
+          alt=""
+          width={50}
+          height={50}
+          className="p-2 rounded-lg hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
+          priority={true}
+          unoptimized={true}
+        />
+      </picture>
+    </Link>
   );
 }
 
@@ -70,17 +68,16 @@ function RoundButton({}) {
         alt=""
         width={34}
         height={34}
-        quality={100}
         className="rounded-full border-2 p-2 border-text hover:bg-accent hover:scale-110 transition duration-200 ease-in-out md:h-[2.5rem] md:w-[2.5rem]"
         priority={true}
-        loading={"eager"}
+        unoptimized={true}
       />
     </picture>
   );
 }
 
 function PostNavButtons({ prevBlogData, nextBlogData }) {
-  const prevPostButton = (
+  const prevPostButton = prevBlogData && (
     <Link
       href={`/blog/${prevBlogData.route}`}
       className="fixed top-1/2 left-2 md:left-3 lg:left-5 transform -translate-y-1/2 z-10 rotate-180"
@@ -90,7 +87,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
     </Link>
   );
 
-  const nextPostButton = (
+  const nextPostButton = nextBlogData && (
     <Link
       href={`/blog/${nextBlogData.route}`}
       className="fixed top-1/2 right-2 md:right-3 lg:right-5 transform -translate-y-1/2 z-10"
@@ -112,7 +109,7 @@ function PostNavBar({ nurtureCoords }) {
   return (
     <div
       id="topnavbar"
-      className="flex flex-row justify-center items-center h-[2.75rem] md:h-[4rem] lg:h-[4.625rem]"
+      className="flex flex-row justify-center items-center h-[2.75rem] lg:h-[4.625rem]"
     >
       <BlogBackButton />
       <div className="flex sm:hidden landscape:flex">{nurtureCoords}</div>
@@ -125,7 +122,7 @@ function BlogText({ title, paragraphs, publishDate }) {
   return (
     <div
       className="text-left max-w-[28.125rem] text-[0.75rem] overflow-x-hidden \
-     landscape:max-w-[300px] landscape:max-h-[330px] landscape:pr-10 landscape:overflow-y-auto md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6"
+     landscape:max-w-[300px] landscape:max-h-[330px] landscape:overflow-y-auto landscape:pl-3 landscape:pr-3 md:mb-4 pl-3 pr-3 sm:pl-0 sm:pr-0 pb-6"
     >
       <p>
         <b>{title}</b>
@@ -200,7 +197,7 @@ export default function BlogPage({ params, searchParams }) {
       <div className="sticky top-0 bg-accent">
         <PostNavBar nurtureCoords={nurtureCoordinates} />
         <div className="landscape:flex landscape:flex-row landscape:justify-center landscape:items-center">
-          <div className="flex flex-1 flex-col content-center items-center">
+          <div className="flex flex-col content-center items-center">
             <div className="hidden portrait:sm:flex pb-1">
               {nurtureCoordinates}
             </div>

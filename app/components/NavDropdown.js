@@ -25,10 +25,11 @@ import navIconGithubW from "../../public/header-icons/github-w.webp";
 import navIconLinkedIn from "../../public/header-icons/linkedin.webp";
 
 function NavItem({
-  href,
+  link,
+  title,
   imgSrc,
   imgSrcW,
-  pText,
+  itemText,
   useLink = false,
   hasDarkMode = false,
 }) {
@@ -38,8 +39,9 @@ function NavItem({
 
   return (
     <Wrapper
-      href={href}
+      href={link}
       className="flex flex-row p-1 pr-2 pl-2 content-center gap-4 hover:underline"
+      title={title}
     >
       <picture>
         {hasDarkMode && (
@@ -48,14 +50,12 @@ function NavItem({
         <Image
           src={imgSrc}
           alt=""
-          quality={100}
-          priority={true}
+          className="h-6 w-6 sm:h-8 sm:w-8"
           loading={"eager"}
           unoptimized={true}
-          className="h-6 w-6 sm:h-8 sm:w-8"
         />
       </picture>
-      <p className="text-base sm:text-xl">{pText}</p>
+      <p className="text-base sm:text-xl">{itemText}</p>
     </Wrapper>
   );
 }
@@ -86,7 +86,7 @@ export function NavDropdown({}) {
     >
       <button
         title={isMenuOpen ? "Close" : "Menu"}
-        className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 absolute top-1 right-1 md:top-2 md:right-2 lg:top-3 lg:right-3 z-50"
+        className="w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 right-1 md:top-2 md:right-2 lg:top-3 lg:right-3 z-50"
       >
         <picture>
           <source
@@ -96,76 +96,83 @@ export function NavDropdown({}) {
           <Image
             src={isMenuOpen ? navIconX : navIconMenu}
             alt=""
-            quality={100}
             className="p-2 rounded-lg hover:scale-110 transition duration-200 ease-in-out"
-            priority={true}
             loading={"eager"}
+            unoptimized={true}
           />
         </picture>
       </button>
       {isMenuOpen && (
         <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-50 border-2 border-text rounded-xl">
           <NavItem
-            href={Links.HOME}
+            link={Links.HOME}
+            title="Home"
             imgSrc={navIconHome}
             imgSrcW={navIconHomeW}
-            pText={"Home"}
+            itemText={"Home"}
             useLink={true}
             hasDarkMode={true}
           />
           <NavItem
-            href={Links.PROJECTS}
+            link={Links.PROJECTS}
+            title="Projects"
             imgSrc={navIconProjects}
             imgSrcW={navIconProjectsW}
-            pText={"Projects"}
+            itemText={"Projects"}
             useLink={true}
             hasDarkMode={true}
           />
           <NavItem
-            href={Links.TECH_STACK}
+            link={Links.TECH_STACK}
+            title="Tech Stack"
             imgSrc={navIconStack}
             imgSrcW={navIconStackW}
-            pText={"Tech Stack"}
+            itemText={"Tech Stack"}
             useLink={true}
             hasDarkMode={true}
           />
           <NavItem
-            href={Links.RESUME}
+            link={Links.RESUME}
+            title="View my resume"
             imgSrc={navIconResume}
             imgSrcW={navIconResumeW}
-            pText={"Resume"}
+            itemText={"Resume"}
             useLink={true}
             hasDarkMode={true}
           />
           <NavItem
-            href={Links.BLOG}
+            link={Links.BLOG}
+            title="View my blog"
             imgSrc={navIconBlog}
             imgSrcW={navIconBlogW}
-            pText={"Blog (WIP)"}
+            itemText={"Blog (WIP)"}
             useLink={true}
             hasDarkMode={true}
           />
           <NavItem
-            href={Links.EMAIL}
+            link={Links.EMAIL}
+            title="Email me"
             imgSrc={navIconEmail}
             imgSrcW={navIconEmail}
-            pText={"Email"}
+            itemText={"Email"}
             useLink={false}
             hasDarkMode={false}
           />
           <NavItem
-            href={Links.LINKEDIN}
+            link={Links.LINKEDIN}
+            title="Connect with me on LinkedIn"
             imgSrc={navIconLinkedIn}
             imgSrcW={navIconLinkedIn}
-            pText={"LinkedIn"}
+            itemText={"LinkedIn"}
             useLink={false}
             hasDarkMode={false}
           />
           <NavItem
-            href={Links.GITHUB}
+            link={Links.GITHUB}
+            title={"View my GitHub"}
             imgSrc={navIconGithub}
             imgSrcW={navIconGithubW}
-            pText={"GitHub"}
+            itemText={"GitHub"}
             useLink={false}
             hasDarkMode={true}
           />

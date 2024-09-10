@@ -11,40 +11,22 @@ import {
   DotButton,
   useDotButton,
 } from "@/app/components/EmblaCarouselDotbutton";
-import Link from "next/link";
 import { shimmer, toBase64 } from "@/app/lib/shimmer";
 import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
-import NurtureCoordinates from "./NurtureCoordinates";
 
-function BlogImage({
-  imgSrc,
-  imgFullResLink,
-  imageDescription,
-  imgLocationLat,
-  imgLocationLong,
-  imgLocationLink,
-  imageNumber,
-  country,
-}) {
+function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
   const descHeightHackyStyle =
     country === "croatia"
       ? "flex text-center items-center justify-center h-10 sm:h-6 text-sm pt-1 pl-1 pr-1"
       : "text-sm pt-1 pl-1 pr-1";
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center">
-      {/* <NurtureCoordinates
-        imgLocationLat={imgLocationLat}
-        imgLocationLong={imgLocationLong}
-        imgLocationLink={imgLocationLink}
-      /> */}
       <div className="max-w-[45rem] max-h-[45rem]">
-        {/* <Link href={imgFullResLink}> */}
         <Image
           src={imgSrc}
           alt={`Photo of ${imageDescription}`}
           width={1500}
           height={1500}
-          quality={100}
           title={imageDescription}
           style={{
             width: "100%",
@@ -53,18 +35,9 @@ function BlogImage({
           placeholder={`data:image/svg+xml;base64,${toBase64(
             shimmer(720, 720)
           )}`}
-          priority={
-            imageNumber == 0 || imageNumber == 1 || imageNumber == 2
-              ? true
-              : false
-          }
-          // priority={true}
-          loading={"eager"}
-          // loading={imageNumber == 0 ? "eager" : "lazy"}
-          // unoptimized={false}
+          priority={imageNumber == 0 ? true : false}
           unoptimized={true}
         />
-        {/* </Link> */}
       </div>
       <p className={descHeightHackyStyle}>{imageDescription}</p>
     </div>
@@ -123,11 +96,7 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   const imgList = blogData.postImages.map((imgData, i) => (
     <BlogImage
       imgSrc={imgURL(imgData.imgID, r_1500)}
-      imgFullResLink={imgURL(imgData.imgID, r_3000)}
       imageDescription={imgData.description}
-      imgLocationLat={imgData.coordinates.lat}
-      imgLocationLong={imgData.coordinates.long}
-      imgLocationLink={imgData.coordinates.link}
       imageNumber={i}
       country={country}
       key={i}
@@ -135,7 +104,10 @@ export default function BlogImages({ blogData, imgIndex, country }) {
   ));
 
   return (
-    <div className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 bg-accent landscape:xl:max-w-[45rem] landscape:max-w-[268px]">
+    <div
+      className="overflow-hidden max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem] sticky top-0 \
+                    bg-accent  landscape:max-w-[268px] landscape:md:max-w-[300px] landscape:lg:max-w-[45rem]"
+    >
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>
