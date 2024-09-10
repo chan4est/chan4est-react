@@ -193,11 +193,14 @@ export default function BlogPage({ params, searchParams }) {
     />
   );
 
+  const postNavBar = <PostNavBar nurtureCoords={nurtureCoordinates} />;
+
   return (
     <>
-      <PostNavBar nurtureCoords={nurtureCoordinates} />
+      <div className="portrait:hidden landscape:block">{postNavBar}</div>
       <div className="bg-accent flex flex-1 flex-col landscape:justify-center landscape:items-center">
         <div className="sticky top-0 bg-accent">
+          <div className="portrait:block landscape:hidden">{postNavBar}</div>
           <div className="landscape:flex landscape:flex-row landscape:items-center">
             <div className="flex flex-col content-center items-center">
               <div className="hidden portrait:sm:flex landscape:lg:flex pb-1">
