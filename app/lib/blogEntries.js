@@ -1124,7 +1124,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "d73fef6b-82f4-4671-186f-ee47386e2400",
+        imgID: "0e4a077d-d357-4be7-2cb8-6dd8a642a100",
         description: "Big Buddha up close",
         coordinates: {
           lat: "22°15'15.10\"N",
@@ -3456,7 +3456,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-13.192036111111111,-72.4600138888889",
           long: "72°27'36.05\"W",
         },
-        description: "Inca Cola (unique bubblgum flavored soda)",
+        description: "Inca Kola (unique bubblgum flavored soda)",
         imgID: "6d95fb7a-581c-4d80-1fcb-3b51fa19c900",
       },
       {

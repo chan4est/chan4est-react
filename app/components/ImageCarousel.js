@@ -13,36 +13,39 @@ import {
 } from "@/app/components/EmblaCarouselDotbutton";
 import { shimmer, toBase64 } from "@/app/lib/shimmer";
 import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
+import Link from "next/link";
+import { useEffect } from "react";
+import { Links } from "../lib/Links";
 
-function BlogImage({ imgSrc, imageDescription, imageNumber }) {
+function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
   return (
     <div className="flex flex-col flex-[0_0_100%] text-center">
-      <div className="max-w-[45rem] max-h-[45rem]">
+      <Link
+        className="max-w-[45rem] max-h-[45rem]"
+        // https://www.youtube.com/watch?v=P4W_LaotmNI
+        href={Links.BLOG_ROUTER_LINK(country, imageNumber)}
+      >
         <Image
           src={imgSrc}
           alt={`Photo of ${imageDescription}`}
           width={1500}
           height={1500}
           title={imageDescription}
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
+          className="w-full h-auto bg-background"
           placeholder={`data:image/svg+xml;base64,${toBase64(
             shimmer(720, 720)
           )}`}
           priority={imageNumber == 0 ? true : false}
           unoptimized={true}
         />
-      </div>
+      </Link>
       <p className="text-sm pt-1 pl-1 pr-1">{imageDescription}</p>
     </div>
   );
 }
 
-function PhotoControls({ emblaApi }) {
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi);
+function PhotoControls({ emblaApi, country, totalImages }) {
+  const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
 
   const {
     prevBtnDisabled,
@@ -51,7 +54,7 @@ function PhotoControls({ emblaApi }) {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi);
 
-  const scrollSnapsList = scrollSnaps.map((_, index) => (
+  const scrollSnapsList = Array.from({ length: totalImages }, (_, index) => (
     <DotButton
       key={index}
       onClick={() => onDotButtonClick(index)}
@@ -64,12 +67,42 @@ function PhotoControls({ emblaApi }) {
     />
   ));
 
+  // https://github.com/vercel/next.js/discussions/49540#discussioncomment-8852218
+  // https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating#shallow-routing
+  useEffect(() => {
+    const currentUrl = Links.BLOG_ROUTER_LINK(country, selectedIndex);
+    window.history.pushState(null, "", currentUrl);
+  }, [country, selectedIndex]);
+
   return (
     <div className="flex flex-row justify-center lg:justify-between pt-2 pb-3">
       {/* DO NOT REMOVE! Empty div so that the dots are centered */}
       <div className="hidden lg:block lg:w-10"></div>
       <div className="flex flex-wrap justify-center items-center">
+        <p className="text-xs w-9 text-right pr-2">
+          {selectedIndex + 1}/{totalImages}
+        </p>
         {scrollSnapsList}
+        <div className="flex items-center justify-center">
+          <Link href={`/blog/${country}/gallery`} title="Gallery">
+            <picture>
+              <source
+                srcSet={`/header-icons/gallery-w.webp`}
+                media="(prefers-color-scheme: dark)"
+              />
+
+              <Image
+                src={`/header-icons/gallery.webp`}
+                alt="Galerry icon"
+                width={50}
+                height={50}
+                className="h-[16px] w-auto pl-2"
+                priority={true}
+                unoptimized={true}
+              />
+            </picture>
+          </Link>
+        </div>
       </div>
       <div className="hidden lg:flex justify-end items-center gap-x-2">
         <PrevButton
@@ -86,7 +119,7 @@ function PhotoControls({ emblaApi }) {
     </div>
   );
 }
-export function ImageCarousel({ blogData, imgIndex, country }) {
+export function ImageCarousel({ blogData, imgIndex, totalImages, country }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ startIndex: imgIndex });
 
   const imgList = blogData.postImages.map((imgData, i) => (
@@ -94,6 +127,7 @@ export function ImageCarousel({ blogData, imgIndex, country }) {
       imgSrc={imgURL(imgData.imgID, r_1500)}
       imageDescription={imgData.description}
       imageNumber={i}
+      country={country}
       key={i}
     />
   ));
@@ -107,7 +141,12 @@ export function ImageCarousel({ blogData, imgIndex, country }) {
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{imgList}</div>
       </div>
-      <PhotoControls emblaApi={emblaApi} />
+      <PhotoControls
+        emblaApi={emblaApi}
+        country={country}
+        // To prevent CLS
+        totalImages={totalImages}
+      />
     </div>
   );
 }

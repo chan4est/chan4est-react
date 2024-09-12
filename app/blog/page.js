@@ -22,7 +22,7 @@ function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
           alt={`Photo of ${entryTitle}`}
           width={310}
           height={310}
-          className="max-h-[19.375rem]"
+          className="max-h-[19.375rem] bg-background"
           priority={true}
           unoptimized={true}
         />
@@ -55,8 +55,8 @@ function BlogGrid({ blogEntries }) {
 
   return (
     <div className="flex flex-col justify-center content-center pb-1 sm:pb-10">
-      <div className="grid grid-cols-3 md:grid-cols-5 xl:grid-cols-5 gap-1 pr-1 pl-1 md:pl-9 md:pr-9">
-        {blogPreviews}
+      <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-1 pr-1 pl-1 md:pl-9 md:pr-9">
+        {blogPreviews.reverse()}
       </div>
     </div>
   );
@@ -133,7 +133,7 @@ function BlogHeader({ blogEntries }) {
           </li>
           <br />
           <li> WIP but nearing completion.</li>
-          <li>Last update 9/10/24.</li>
+          <li>Last update 9/12/24.</li>
         </ul>
       </div>
     </section>

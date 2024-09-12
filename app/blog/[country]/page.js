@@ -148,10 +148,6 @@ export default function BlogPage({ params, searchParams }) {
   const imgIndex =
     searchParams && searchParams.img_index ? searchParams.img_index - 1 : 0;
 
-  // -1 to account for 0 based indexing
-  const txtIndex =
-    searchParams && searchParams.txt_index ? searchParams.txt_index - 1 : 0;
-
   // For the previous and next blog post buttons
   const blogDataIndex = blogEntries.findIndex(
     (blog) => blog.route === params.country
@@ -169,18 +165,11 @@ export default function BlogPage({ params, searchParams }) {
     </div>
   ));
 
-  const blogImageDescriptions = blogData.postImages.map(
-    (imageData) => imageData.description
-  );
-
   const blogText = (
     <BlogText
       title={blogData.caption.title}
       paragraphs={blogParagraphs}
       publishDate={blogData.caption.publishDate}
-      imageDescriptions={blogImageDescriptions}
-      route={params.country}
-      txtIndex={txtIndex}
     />
   );
 
@@ -202,6 +191,10 @@ export default function BlogPage({ params, searchParams }) {
         <div className="sticky top-0 z-20 bg-accent portrait:block landscape:hidden">
           {postNavBar}
         </div>
+        <PostNavButtons
+          prevBlogData={nextBlogData}
+          nextBlogData={prevBlogData}
+        />
         <div className="landscape:flex landscape:flex-row landscape:items-center">
           <div className="flex flex-col content-center items-center">
             <div className="hidden portrait:sm:flex landscape:lg:flex pb-1">
@@ -210,15 +203,12 @@ export default function BlogPage({ params, searchParams }) {
             <ImageCarousel
               blogData={blogData}
               imgIndex={imgIndex}
+              totalImages={blogData.postImages.length}
               country={params.country}
             />
           </div>
           <div className="hidden landscape:flex">{blogText}</div>
         </div>
-        <PostNavButtons
-          prevBlogData={prevBlogData}
-          nextBlogData={nextBlogData}
-        />
         <div className="flex landscape:hidden flex-1 flex-col content-center items-center">
           {blogText}
         </div>
