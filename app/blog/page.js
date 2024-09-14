@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { BlogPhotoGrid } from "../components/BlogPhotoGrid";
 import { NavDropdown } from "../components/NavDropdown";
+import { SortableBlogPhotoGrid } from "../components/SortableBlogPhotoGrid";
 import { Footer } from "../components/Footer";
 
 import { blogEntries } from "../lib/blogEntries";
@@ -118,7 +118,10 @@ export default function Blog() {
       <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
         <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
-        <BlogPhotoGrid imagesData={imagesData.reverse()} hasLayersIco={true} />
+        <SortableBlogPhotoGrid
+          imagesData={imagesData.reverse()}
+          hasLayersIco={true}
+        />
       </div>
       <Footer />
     </>

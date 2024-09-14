@@ -39,7 +39,7 @@ export function GalleryGridSquare({
   );
 }
 
-export function BlogPhotoGrid({ imagesData, hasLayersIco }) {
+export function BlogPhotoGrid({ imagesData, hasLayersIco, buttons }) {
   const images = imagesData.map((imgData, index) => {
     return (
       <GalleryGridSquare
@@ -54,8 +54,9 @@ export function BlogPhotoGrid({ imagesData, hasLayersIco }) {
   });
 
   return (
-    <div className="flex flex-col justify-center content-center">
-      <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-1 p-[0.25rem] sm:gap-1 sm:p-1 md:p-9">
+    <div className="flex flex-col content-center sm:pt-1 md:pt-9">
+      {buttons}
+      <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-1 p-[0.25rem] sm:gap-1 sm:px-1 sm:pb-1 md:px-9 md:pb-9">
         {images}
       </div>
     </div>

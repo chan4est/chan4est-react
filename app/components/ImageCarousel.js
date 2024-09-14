@@ -83,20 +83,20 @@ function PhotoControls({ emblaApi, country, totalImages }) {
           {selectedIndex + 1}/{totalImages}
         </p>
         {scrollSnapsList}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-left pl-2 w-9">
           <Link href={`/blog/${country}/gallery`} title="Gallery">
             <picture>
               <source
-                srcSet={`/header-icons/gallery-w.webp`}
+                srcSet={`/header-icons/grid-w.webp`}
                 media="(prefers-color-scheme: dark)"
               />
 
               <Image
-                src={`/header-icons/gallery.webp`}
-                alt="Galerry icon"
+                src={`/header-icons/grid.webp`}
+                alt="Gallery icon"
                 width={50}
                 height={50}
-                className="h-[16px] w-auto pl-2 hover:scale-110 transition duration-200 ease-in-out"
+                className="h-4 w-auto hover:scale-110 transition duration-200 ease-in-out"
                 priority={true}
                 unoptimized={true}
               />
