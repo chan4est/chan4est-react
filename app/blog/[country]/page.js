@@ -1,20 +1,41 @@
 import Link from "next/link";
 import { blogEntries } from "@/app/lib/blogEntries";
 import { notFound } from "next/navigation";
-import { NavDropdown } from "@/app/components/NavDropdown";
 import { ImageCarousel } from "@/app/components/ImageCarousel";
 import { Links } from "@/app/lib/Links";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 import Image from "next/image";
+import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params, searchParams }) {
   let metadata = { title: "404 Not Found" };
+
+  // -1 to account for 0 based indexing
+  const imgIndex =
+    searchParams && searchParams.img_index ? searchParams.img_index - 1 : 0;
 
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
+  const imgIdxUrl =
+    imgIndex && imgIndex > 0 ? `?img_index=${imgIndex + 1}` : "";
+  const openGraphUrl = `/blog/${blogData.route}${imgIdxUrl}`;
+
   if (blogData) {
     metadata = {
-      title: `chan4est | ${blogData.pageTitle}`,
+      title: `Blog | ${blogData.pageTitle}`,
+      description: `Blog post for ${blogData.pageTitle}`,
+      openGraph: {
+        title: `Blog | ${blogData.pageTitle}`,
+        description: `Chandler's blog post for ${blogData.pageTitle}`,
+        url: openGraphUrl,
+        image: {
+          url: "/",
+          width: 1200,
+          height: 630,
+        },
+        local: "en_US",
+        type: "website",
+      },
     };
   }
 
@@ -26,34 +47,6 @@ export async function generateStaticParams() {
     country: blogEntry.route,
   }));
   return blogEntryRoutes;
-}
-
-// Shown only in smaller window widths (phones, tablets)
-function BlogBackButton({}) {
-  return (
-    <Link
-      href={Links.BLOG}
-      className="hover:bg-accent transition duration-200 ease-in-out flex justify-center content-center \
-                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 absolute top-1 left-0 md:top-2 md:left-1 lg:top-3 lg:left-2 z-10"
-      title="Back"
-    >
-      <picture>
-        <source
-          srcSet={"/blog/arrow-w.webp"}
-          media="(prefers-color-scheme: dark)"
-        />
-        <Image
-          src={"/blog/arrow.webp"}
-          alt=""
-          width={50}
-          height={50}
-          className="p-2 hover:bg-accent hover:scale-110 transition duration-200 ease-in-out rotate-180"
-          priority={true}
-          unoptimized={true}
-        />
-      </picture>
-    </Link>
-  );
 }
 
 function RoundButton({}) {
@@ -105,21 +98,6 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
-function PostNavBar({ nurtureCoords }) {
-  return (
-    <div
-      id="topnavbar"
-      className="bg-accent flex flex-row justify-center items-center h-[2.75rem]"
-    >
-      <BlogBackButton />
-      <div className="flex portrait:sm:hidden landscape:lg:hidden">
-        {nurtureCoords}
-      </div>
-      <NavDropdown />
-    </div>
-  );
-}
-
 function BlogText({ title, paragraphs, publishDate }) {
   return (
     <div
@@ -130,8 +108,9 @@ function BlogText({ title, paragraphs, publishDate }) {
       <p>
         <b>{title}</b>
       </p>
+      <br />
       {paragraphs}
-      <p className="text-blog_accent pt-3 pb-8">{publishDate}</p>
+      <p className="text-blog_accent pb-8">{publishDate}</p>
     </div>
   );
 }
@@ -159,9 +138,23 @@ export default function BlogPage({ params, searchParams }) {
       ? blogEntries[blogDataIndex + 1]
       : null;
 
+  const firstImageData = blogData.postImages[blogData.previewIdx];
+  const nurtureCoordinates = (
+    <NurtureCoordinates
+      imgLocationLat={firstImageData.coordinates.lat}
+      imgLocationLong={firstImageData.coordinates.long}
+      imgLocationLink={firstImageData.coordinates.link}
+    />
+  );
+
+  const postNavBar = (
+    <BlogPostNavBar blogBackLink={Links.BLOG} innerText={nurtureCoordinates} />
+  );
+
   const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
-    <div key={text} className="pt-2">
+    <div key={text}>
       <p>{text}</p>
+      <br />
     </div>
   ));
 
@@ -172,17 +165,6 @@ export default function BlogPage({ params, searchParams }) {
       publishDate={blogData.caption.publishDate}
     />
   );
-
-  const firstImageData = blogData.postImages[blogData.previewIdx];
-  const nurtureCoordinates = (
-    <NurtureCoordinates
-      imgLocationLat={firstImageData.coordinates.lat}
-      imgLocationLong={firstImageData.coordinates.long}
-      imgLocationLink={firstImageData.coordinates.link}
-    />
-  );
-
-  const postNavBar = <PostNavBar nurtureCoords={nurtureCoordinates} />;
 
   return (
     <>

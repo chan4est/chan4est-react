@@ -1,66 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
-import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
-import layersIcon from "../../public/blog/layers.webp";
+
+import { BlogPhotoGrid } from "../components/BlogPhotoGrid";
 import { NavDropdown } from "../components/NavDropdown";
+import { Footer } from "../components/Footer";
+
 import { blogEntries } from "../lib/blogEntries";
 import calculateAge from "../lib/calculateAge";
-import { imgURL, r_300, r_620 } from "../lib/cloudflareImgNames";
-import { Footer } from "../components/Footer";
+import { Links } from "../lib/Links";
+
+import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
 
 export const metadata = {
   title: "chan4est | Travel Blog",
   description: "Blog detailing my travels around the world 🌎🌍🌏",
+  openGraph: {
+    title: "chan4est | Travel Blog",
+    description: "Chandler's world travel blog",
+    url: "/blog",
+    image: {
+      url: "/",
+      width: 1200,
+      height: 630,
+    },
+    local: "en_US",
+    type: "website",
+  },
 };
-
-function BlogGridSquare({ imgSrc, entryTitle, entryRoute }) {
-  return (
-    <Link href={`/blog/${entryRoute}`} title={entryTitle}>
-      <div className="relative">
-        <Image
-          src={imgSrc}
-          alt={`Photo of ${entryTitle}`}
-          width={310}
-          height={310}
-          className="max-h-[19.375rem] bg-background"
-          priority={true}
-          unoptimized={true}
-        />
-        <Image
-          src={layersIcon}
-          alt=""
-          width={50}
-          height={50}
-          className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
-          priority={true}
-          unoptimized={true}
-        />
-      </div>
-    </Link>
-  );
-}
-
-function BlogGrid({ blogEntries }) {
-  const blogPreviews = blogEntries.map((entry, index) => {
-    const firstImgSrc = imgURL(entry.postImages[entry.previewIdx].imgID, r_620);
-    return (
-      <BlogGridSquare
-        imgSrc={firstImgSrc}
-        entryTitle={entry.pageTitle}
-        entryRoute={entry.route}
-        key={entry.pageTitle}
-      />
-    );
-  });
-
-  return (
-    <div className="flex flex-col justify-center content-center pb-1 sm:pb-10">
-      <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-1 pr-1 pl-1 md:pl-9 md:pr-9">
-        {blogPreviews.reverse()}
-      </div>
-    </div>
-  );
-}
 
 function FlagLink({ flagEmoji, link, title }) {
   return (
@@ -101,7 +67,7 @@ function BlogHeader({ blogEntries }) {
   const age = calculateAge("06301996");
 
   return (
-    <section className="flex flex-col sm:flex-row items-center pl-4 pr-4 pb-4 sm:pb-10 pt-10">
+    <section className="flex flex-col sm:flex-row items-center px-4 pb-4 sm:pb-0 pt-10">
       <div id="age" className="flex-shrink-0">
         <Image
           src={chanPhotoNagoya}
@@ -133,7 +99,7 @@ function BlogHeader({ blogEntries }) {
           </li>
           <br />
           <li> WIP but nearing completion.</li>
-          <li>Last update 9/12/24.</li>
+          <li>Last update 9/14/24.</li>
         </ul>
       </div>
     </section>
@@ -141,12 +107,18 @@ function BlogHeader({ blogEntries }) {
 }
 
 export default function Blog() {
+  const imagesData = blogEntries.map((entry) => ({
+    ...entry.postImages[entry.previewIdx],
+    entryTitle: entry.pageTitle,
+    entryRoute: Links.BLOG_BACK_LINK(entry.route),
+  }));
+
   return (
     <>
       <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
         <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
-        <BlogGrid blogEntries={blogEntries} />
+        <BlogPhotoGrid imagesData={imagesData.reverse()} hasLayersIco={true} />
       </div>
       <Footer />
     </>

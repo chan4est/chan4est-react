@@ -96,7 +96,7 @@ function PhotoControls({ emblaApi, country, totalImages }) {
                 alt="Galerry icon"
                 width={50}
                 height={50}
-                className="h-[16px] w-auto pl-2"
+                className="h-[16px] w-auto pl-2 hover:scale-110 transition duration-200 ease-in-out"
                 priority={true}
                 unoptimized={true}
               />

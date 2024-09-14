@@ -13,4 +13,5 @@ export const Links = Object.freeze({
   TOKYO_BLOG: "/blog/tokyo?img_index=14",
   BLOG_ROUTER_LINK: (country, imageIndex) =>
     `/blog/${country}?img_index=${imageIndex + 1}`,
+  BLOG_BACK_LINK: (country) => `/blog/${country}`,
 });

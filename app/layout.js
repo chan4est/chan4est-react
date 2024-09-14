@@ -15,7 +15,7 @@ export const metadata = {
   description: "Chandler Forrest's portfolio and blog.",
   keywords: ["Chandler Forrest", "chan4est", "software engineer", "developer"],
   creator: "Chandler Forrest",
-  metadataBase: new URL("https://www.chan4est.com/"),
+  metadataBase: new URL("https://chan4est.com/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -23,8 +23,8 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "chan4est | Chandler Forrest's Personal Website",
-    description: "Chandler Forrest's portfolio and blog.",
+    title: "chan4est | Portfolio",
+    description: "Chandler Forrest's portfolio",
     url: "https://www.chan4est.com/",
     siteName: "chan4est",
     image: {
