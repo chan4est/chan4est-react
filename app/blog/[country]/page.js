@@ -6,6 +6,7 @@ import { Links } from "@/app/lib/Links";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 import Image from "next/image";
 import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
+import { commentsData } from "@/app/lib/commentsData";
 
 export async function generateMetadata({ params, searchParams }) {
   let metadata = { title: "404 Not Found" };
@@ -61,7 +62,7 @@ function RoundButton({}) {
         alt=""
         width={34}
         height={34}
-        className="rounded-full border-2 p-2 border-text hover:bg-accent hover:scale-110 transition duration-200 ease-in-out md:h-[2.5rem] md:w-[2.5rem]"
+        className="rounded-full border-2 p-2 border-text hover:bg-background hover:scale-110 transition duration-200 ease-in-out md:h-[2.5rem] md:w-[2.5rem]"
         priority={true}
         unoptimized={true}
       />
@@ -98,19 +99,60 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
+function Comment({ userName, text, date }) {
+  const commentParagraphs = text.split("\n");
+  const paragraphsList = commentParagraphs.map((pText, idx) => (
+    <div className="pb-2" key={pText + idx}>
+      {pText}
+    </div>
+  ));
+  return (
+    <div className="pb-2">
+      <span className="font-bold">{userName}</span>
+      <span className="text-accent">{"  " + date}</span>
+      {paragraphsList}
+    </div>
+  );
+}
+
+function CommentSection({ comments }) {
+  const commentsList = comments.map((comment) => (
+    <Comment
+      userName={comment.author}
+      text={comment.text}
+      date={comment.publishDate}
+      key={comment.author + comment.text + comment.publishDate}
+    />
+  ));
+
+  return (
+    <div className="border-t border-solid border-button_inactive pt-2 pb-4">
+      {commentsList}
+      <a href="" className="text-accent hover:hover:text-button_inactive">
+        Add a comment...
+      </a>
+    </div>
+  );
+}
+
 function BlogText({ title, paragraphs, publishDate }) {
+  const blogParagraphs = paragraphs.split("\n").map((text) => (
+    <div key={text}>
+      <p className="pb-4">{text}</p>
+    </div>
+  ));
   return (
     <div
-      className="text-left max-w-[28.125rem] text-sm overflow-x-hidden pl-3 pr-3 sm:pl-0 sm:pr-0 \
+      className="text-left max-w-[28.125rem] text-xs leading-5 overflow-x-hidden pl-3 pr-3 sm:pl-0 sm:pr-0 \
      landscape:max-h-[20.625rem] landscape:max-w-[18.75rem] landscape:overflow-y-auto landscape:pl-3 landscape:pr-3 landscape:xl:mb-8  \
-     landscape:lg:max-h-[45rem] landscape:lg:max-w-[25rem] landscape:lg:pl-3 landscape:xl:pl-7"
+     landscape:lg:max-h-[45rem] landscape:lg:max-w-[25rem] landscape:lg:pl-3 landscape:xl:pl-7 "
     >
-      <p>
-        <b>{title}</b>
+      <p className="pb-2 font-bold border-t border-solid border-button_inactive pt-2 landscape:border-none landscape:pt-0">
+        {title}
       </p>
-      <br />
-      {paragraphs}
-      <p className="text-blog_accent pb-8">{publishDate}</p>
+      {blogParagraphs}
+      <p className="text-accent pb-3">{publishDate}</p>
+      <CommentSection comments={commentsData} />
     </div>
   );
 }
@@ -151,26 +193,21 @@ export default function BlogPage({ params, searchParams }) {
     <BlogPostNavBar blogBackLink={Links.BLOG} innerText={nurtureCoordinates} />
   );
 
-  const blogParagraphs = blogData.caption.content.split("\n").map((text) => (
-    <div key={text}>
-      <p>{text}</p>
-      <br />
-    </div>
-  ));
-
   const blogText = (
     <BlogText
       title={blogData.caption.title}
-      paragraphs={blogParagraphs}
+      paragraphs={blogData.caption.content}
       publishDate={blogData.caption.publishDate}
     />
   );
 
   return (
     <>
-      <div className="portrait:hidden landscape:block">{postNavBar}</div>
-      <div className="bg-accent flex flex-1 flex-col landscape:justify-center landscape:items-center">
-        <div className="sticky top-0 z-20 bg-accent portrait:block landscape:hidden">
+      <div className="portrait:hidden landscape:block leading-relaxed">
+        {postNavBar}
+      </div>
+      <div className="bg-background flex flex-1 flex-col landscape:justify-center landscape:items-center">
+        <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
           {postNavBar}
         </div>
         <PostNavButtons

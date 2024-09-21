@@ -39,7 +39,7 @@ function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
           unoptimized={true}
         />
       </Link>
-      <p className="text-sm pt-1 pl-1 pr-1">{imageDescription}</p>
+      <p className="text-xs pt-1 pl-1 pr-1">{imageDescription}</p>
     </div>
   );
 }
@@ -61,7 +61,7 @@ function PhotoControls({ emblaApi, country, totalImages }) {
       title={`Jump to image #${index + 1}`}
       className={"embla__dot after:bg-button_inactive".concat(
         index === selectedIndex
-          ? "embla__dot__selected after:bg-button_active"
+          ? "embla__dot__selected after:bg-button_active after:transition after:ease-in-out after:duration-200"
           : ""
       )}
     />
@@ -134,8 +134,8 @@ export function ImageCarousel({ blogData, imgIndex, totalImages, country }) {
 
   return (
     <div
-      className="bg-accent overflow-hidden sticky top-0 max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem]  \
-                landscape:max-w-[16.75] landscape:md:max-w-[18.75rem] landscape:lg:max-w-[40.625rem] landscape:xl:max-w-[45rem] landscape:pl-3"
+      className="bg-background overflow-hidden sticky top-0 max-w-full sm:max-w-[28rem] lg:max-w-[35rem] xl:max-w-[45rem]  \
+                landscape:max-w-[16.75rem] landscape:md:max-w-[18.75rem] landscape:lg:max-w-[40.625rem] landscape:xl:max-w-[45rem] landscape:pl-3"
     >
       {/* TODO: Check what overflow-hidden is actually doing here */}
       <div id="embla-carousel" className="overflow-hidden" ref={emblaRef}>

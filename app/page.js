@@ -84,7 +84,7 @@ function Project({ projectInfo }) {
   return (
     <div>
       {/* <h5 className="pt-2 pb-2">{projectInfo.name}</h5> */}
-      <div className=" bg-accent rounded-xl drop-shadow-md hover:scale-105 transition duration-200 ease-in-out">
+      <div className=" bg-background rounded-xl drop-shadow-md hover:scale-105 transition duration-200 ease-in-out">
         <a href={projectInfo.link}>
           <div>
             <Image
@@ -97,13 +97,13 @@ function Project({ projectInfo }) {
             />
           </div>
           <div className="p-2 border-t border-button_inactive">
-            <p className="text-xs text-text-500">
+            <p className="text-xxs text-text-500">
               {projectInfo.displayLink.toUpperCase()}
             </p>
             <p className="text-sm font-bold line-clamp-1">
               {projectInfo.title}
             </p>
-            <p className="text-sm text-text-500 line-clamp-2 sm:min-h-[2.625rem] 2xl:min-h-0 2xl:line-clamp-1">
+            <p className="text-xs text-text-500 line-clamp-2 sm:min-h-[2.625rem] 2xl:min-h-0 2xl:line-clamp-1">
               {projectInfo.description}
             </p>
           </div>

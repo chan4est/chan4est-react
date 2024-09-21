@@ -61,8 +61,8 @@ export default function BlogPage({ params, searchParams }) {
   return (
     <>
       <div className="portrait:hidden landscape:block">{postNavBar}</div>
-      <div className="bg-accent flex flex-1 flex-col landscape:justify-center landscape:items-center">
-        <div className="sticky top-0 z-20 bg-accent portrait:block landscape:hidden">
+      <div className="bg-background flex flex-1 flex-col landscape:justify-center landscape:items-center">
+        <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
           {postNavBar}
         </div>
         <BlogPhotoGrid imagesData={imagesData} />

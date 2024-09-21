@@ -25,40 +25,45 @@
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  h6 {
     font-weight: 700;
   }
 
   h1 {
-    @apply text-5xl;
-  }
-
-  h2 {
     @apply text-4xl;
   }
 
-  h3 {
+  h2 {
     @apply text-3xl;
   }
 
-  h4 {
+  h3 {
     @apply text-2xl;
   }
 
-  h5 {
+  h4 {
     @apply text-xl;
   }
 
-  small {
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
     @apply text-sm;
   }
 
+  small {
+    @apply text-xs;
+  }
+
   :root {
-    --text: #050a08;
+    --text: #0a0a0a;
     --background: #f5faf8;
     --primary: #b4c5d5;
     --secondary: #28d78e;
-    --accent: #e9edeb;
+    --accent: #2b2c2e;
     --blog-accent: #374151;
     --button-active: rgba(5, 10, 8, 1);
     --button-inactive: rgba(55, 65, 81, 0.45);
@@ -66,11 +71,10 @@
   @media (prefers-color-scheme: dark) {
     :root {
       --text: #f5faf8;
-      --background: #050a08;
+      --background: #0a0a0a;
       --primary: #2a3b4b;
       --secondary: #28d78e;
-      --accent: #121615;
-      --blog-accent: #d1d5db;
+      --accent: #d1d5db;
       --button-active: rgba(230, 230, 230, 1);
       --button-inactive: rgba(230, 230, 230, 0.45);
     }

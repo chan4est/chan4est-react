@@ -117,7 +117,6 @@ class CloudflareImageHandler:
         except Exception as e:
             print(f"An error occurred while writing to the file: {e}")
 
-
     def read_json_from_file(self, file_path):
         """
         Reads a JSON object from a file.
@@ -258,7 +257,7 @@ if __name__ == "__main__":
             # uploaded_img_id = 'test'
             if uploaded_img_id:
                 map_data["imgID"] = uploaded_img_id
-                data.append(map_data)
+            data.append(map_data)
         else:
             print("Error: {} isn't a support image type. Please convert it to .jpg, .png, or .webp")
 

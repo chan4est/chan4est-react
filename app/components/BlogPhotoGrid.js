@@ -12,7 +12,7 @@ export function GalleryGridSquare({
   hasLayersIco,
 }) {
   return (
-    <Link href={entryRoute} title={entryTitle}>
+    <Link href={entryRoute} title={imgTitle}>
       <div className="relative">
         {hasLayersIco && (
           <Image
@@ -30,11 +30,12 @@ export function GalleryGridSquare({
           alt={`Photo of ${imgTitle}`}
           width={310}
           height={310}
-          className="max-h-[19.375rem] bg-background"
+          className="max-h-[19.375rem] bg-text"
           priority={true}
           unoptimized={true}
         />
       </div>
+      {/* <p className="text-xxs">{imgTitle}</p> */}
     </Link>
   );
 }

@@ -31,7 +31,7 @@ export function Footer({}) {
   let currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="text-sm justify-center align-center text-center bg-accent min-w-full pt-2 pb-2 border-t border-button_inactive">
+    <footer className="text-xs justify-center align-center text-center bg-background min-w-full pt-2 pb-2 border-t border-button_inactive">
       <div>
         <Link href={Links.HOME} className="p-1 hover:underline">
           HOME

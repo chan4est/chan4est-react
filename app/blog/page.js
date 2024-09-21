@@ -47,19 +47,21 @@ function BlogHeader({ blogEntries }) {
       return [];
     }
 
-    return blogEntry.countryNames.map((countryName, index) => {
-      const flagEmoji = blogEntry.flags[index];
-      const blogRoute = `/blog/${blogEntry.route}`;
+    return blogEntry.countryNames
+      .map((countryName, index) => {
+        const flagEmoji = blogEntry.flags[index];
+        const blogRoute = `/blog/${blogEntry.route}`;
 
-      return (
-        <FlagLink
-          flagEmoji={flagEmoji}
-          link={blogRoute}
-          title={countryName}
-          key={countryName}
-        />
-      );
-    });
+        return (
+          <FlagLink
+            flagEmoji={flagEmoji}
+            link={blogRoute}
+            title={countryName}
+            key={countryName}
+          />
+        );
+      })
+      .reverse();
   });
 
   const reversedFlagLinks = [...flagLinks].reverse();
@@ -86,9 +88,7 @@ function BlogHeader({ blogEntries }) {
         <ul>
           <li>
             <span>Chandler Forrest</span>
-            <span className="text-blog_accent pl-2 text-xs md:text-sm">
-              he/him
-            </span>
+            <span className="text-accent pl-2 text-xxs md:text-xs">he/him</span>
           </li>
           <li>{age} | Developer | Traveler | Music Lover</li>
           <li>
@@ -99,7 +99,7 @@ function BlogHeader({ blogEntries }) {
           </li>
           <br />
           <li> WIP but nearing completion.</li>
-          <li>Last update 9/14/24.</li>
+          <li>Last update 9/21/24.</li>
         </ul>
       </div>
     </section>
@@ -115,7 +115,7 @@ export default function Blog() {
 
   return (
     <>
-      <div className="bg-accent flex flex-1 flex-col text-center content-center items-center">
+      <div className="bg-background flex flex-1 flex-col text-center content-center items-center">
         <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
         <SortableBlogPhotoGrid

@@ -107,7 +107,7 @@ export function NavDropdown({}) {
         </picture>
       </button>
       {isMenuOpen && (
-        <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-accent text-center drop-shadow-md z-20 border-2 border-text rounded-xl">
+        <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-background text-center drop-shadow-md z-20 border-2 border-text rounded-xl">
           <NavItem
             link={Links.HOME}
             title="Home"

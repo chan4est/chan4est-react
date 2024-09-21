@@ -13,7 +13,7 @@ export default function Error({ errorText }) {
           <p>
             If you believe there is supposed to be something here,&nbsp;
             <a
-              className="underline hover:text-blog_accent"
+              className="underline hover:text-accent"
               href="mailto:chan4est@gmail.com?subject=GO Copy! Issue&body=Please include screenshots of your screen and browser console if possible. Thank you!"
             >
               please email me
@@ -26,10 +26,7 @@ export default function Error({ errorText }) {
           </p>
           <p>
             Go back to the{" "}
-            <Link
-              className="underline hover:text-blog_accent"
-              href={Links.HOME}
-            >
+            <Link className="underline hover:text-accent" href={Links.HOME}>
               Main Page
             </Link>
           </p>

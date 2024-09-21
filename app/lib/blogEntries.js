@@ -656,7 +656,7 @@ export const blogEntries = [
       },
       {
         imgID: "2520ba31-bcc3-47f8-c8d0-235601532900",
-        description: "Coffee shop with Abdula 🇪🇬",
+        description: "Coffee shop w/ Abdula 🇪🇬",
         coordinates: {
           lat: "30°02'59.60\"N",
           long: "31°15'40.70\"E",
@@ -744,7 +744,7 @@ export const blogEntries = [
       },
       {
         imgID: "6c087bcc-7a33-43bb-5cda-9b4b2112f800",
-        description: "Al-Khazneh (The Treasury) - no crop",
+        description: "Al-Khazneh (The Treasury) - uncropped",
         coordinates: {
           lat: "30°19'19.90\"N",
           long: "35°27'05.80\"E",
@@ -859,7 +859,7 @@ export const blogEntries = [
       },
       {
         imgID: "e5234165-1a6c-40d0-35f9-6c0f06f1e500",
-        description: "Trilingual street sign",
+        description: "Trilingual street sign in Tel Aviv",
         coordinates: {
           lat: "32°04'32.20\"N",
           long: "34°47'04.20\"E",
@@ -1152,7 +1152,7 @@ export const blogEntries = [
       },
       {
         imgID: "b605e868-fca4-4b85-c5cb-e15f464df900",
-        description: "M+ with Edwin & Yvonne 🇭🇰",
+        description: "M+ w/ Edwin & Yvonne 🇭🇰",
         coordinates: {
           lat: "22°18'04.00\"N",
           long: "114°09'33.10\"E",
@@ -1179,7 +1179,7 @@ export const blogEntries = [
       },
       {
         imgID: "2bdb692d-7743-4e51-f1e6-8415c0740b00",
-        description: "Cinoz Studio Tour with Edwin, Yvonne & Garth 🇭🇰",
+        description: "Cinoz Studio Tour w/ Edwin, Yvonne & Garth 🇭🇰",
         coordinates: {
           lat: "22°22'27.40\"N",
           long: "114°06'39.60\"E",
@@ -3814,7 +3814,8 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero from the top of Sugarloaf Mountain",
+        description:
+          "Rio de Janiero from the top of Sugarloaf Mountain (uncropped)",
         imgID: "f5b3d1f0-1290-47be-f968-3bd21514b500",
       },
       {
@@ -4017,7 +4018,7 @@ export const blogEntries = [
       },
       {
         imgID: "994f87a7-0bcd-43b6-404f-15a4f2af0000",
-        description: "Goodbye Europe",
+        description: "Goodbye Europe!",
         coordinates: {
           lat: "38°39'09.02\"N",
           long: "09°16'08.8\"W",
@@ -4312,6 +4313,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "5eca001a-a9e5-49bf-513c-7d4dc60ccf00",
+        description: "Juan 🇨🇴 looking very Parisian",
+        coordinates: {
+          lat: "48°51'25.78\"N",
+          long: "02°21'26.66\"N",
+          link: "https://maps.google.com/?q=48.85716111111111,2.3574055555555558",
+        },
+      },
+      {
         imgID: "3c39a666-f04a-40ae-d6a2-e0b476d13700",
         description: "Beef bourguignon, onion soup, escargot, duck confit",
         coordinates: {
@@ -4367,6 +4377,277 @@ export const blogEntries = [
       },
     ],
   },
+  {
+    pageTitle: "Italy 🇮🇹 + Vatican 🇻🇦",
+    countryNames: ["Italy", "Vatican City"],
+    route: "italy",
+    flags: ["🇮🇹", "🇻🇦"],
+    isFlagLink: true,
+    caption: {
+      title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
+      content:
+        "I still can’t believe I was in Italy! I’ve been wanting to visit ever since I was very young when my Dad taught me and my sister about the wonders of Ancient Rome, the impact of the Renaissance, and the importance of travel. Italy was always THE country I imagined going to when visiting Europe so it was surreal to finally be there. Hearing all the hype from other travelers I met this month made me even more excited to go and experience it all for myself!\nTo say that Italy lived up to my expectations is an understatement. The ancient architecture was so epic that I was filled with excitement whenever it was in eyesight. The art was so beautiful it brought me to tears multiple times. The food was…the food was the best I’ve ever had in my life! I am stunned by how much everything lived up to the hype, and was sad that I eventually had to leave.\nI eagerly want to head back already. I feel like I only scratched the surface and could easily spend several more weeks exploring. I want to experience everything Italy has to offer! Until that time comes, I will cherish the time I had here immensely. Grazie Italia!",
+      publishDate: "October 27, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "64f42987-2cab-4798-6c27-2b478b260f00",
+        description: "Colosseum by night",
+        coordinates: {
+          lat: "41°53'26.35\"N",
+          long: "12°29'27.12\"N",
+          link: "https://maps.google.com/?q=41.890652777777774,12.490866666666665",
+        },
+      },
+      {
+        imgID: "c0cc1f3a-a79e-44ef-9054-4e3f898a3700",
+        description: "Euphoria in Rome",
+        coordinates: {
+          lat: "41°53'29.05\"N",
+          long: "12°29'30.45\"N",
+          link: "https://maps.google.com/?q=41.89140277777778,12.491791666666666",
+        },
+      },
+      {
+        imgID: "0a17c320-4be0-4b1b-a2cb-19201c578300",
+        description: "Colosseum w/ Tony 🇺🇸 & Juan 🇨🇴",
+        coordinates: {
+          lat: "41°53'26.50\"N",
+          long: "12°29'27.15\"N",
+          link: "https://maps.google.com/?q=41.89069444444444,12.490874999999999",
+        },
+      },
+      {
+        imgID: "1eb74b9b-c4cb-4b87-1130-fe032a094900",
+        description: "Colosseum by day",
+        coordinates: {
+          lat: "41°53'25.60\"N",
+          long: "12°29'36.27\"N",
+          link: "https://maps.google.com/?q=41.89044444444444,12.493408333333333",
+        },
+      },
+      {
+        imgID: "017d74fe-be13-4e5a-37f2-58ce6f378e00",
+        description: "Colosseum interior",
+        coordinates: {
+          lat: "41°53'22.98\"N",
+          long: "12°29'33.64\"N",
+          link: "https://maps.google.com/?q=41.889716666666665,12.492677777777777",
+        },
+      },
+      {
+        imgID: "1e836571-eaae-44bb-b162-bde177677900",
+        description: "Roman Forum",
+        coordinates: {
+          lat: "41°53'34.87\"N",
+          long: "12°29'13.22\"N",
+          link: "https://maps.google.com/?q=41.89301944444444,12.487005555555555",
+        },
+      },
+      {
+        imgID: "a34a0385-d3ba-496a-1607-00a1ae792f00",
+        description: "Monument to Victor Emmanuel II",
+        coordinates: {
+          lat: "41°53'41.14\"N",
+          long: "12°28'57.12\"N",
+          link: "https://maps.google.com/?q=41.89476111111111,12.482533333333333",
+        },
+      },
+      {
+        imgID: "2393f14b-ee30-4893-d2d4-902038e99b00",
+        description: "Trevi Fountain",
+        coordinates: {
+          lat: "41°54'03.16\"N",
+          long: "12°29'00.54\"N",
+          link: "https://maps.google.com/?q=41.90087777777778,12.483483333333332",
+        },
+      },
+
+      {
+        imgID: "fb515d53-06df-4237-7fc0-28b1ccc22d00",
+        description: "The Pantheon",
+        coordinates: {
+          lat: "41°53'57.73\"N",
+          long: "12°28'37.87\"N",
+          link: "https://maps.google.com/?q=41.899369444444446,12.477186111111111",
+        },
+      },
+      {
+        imgID: "adf094a7-3794-4575-79fa-03b833db2b00",
+        description: "Piazza Navona",
+        coordinates: {
+          lat: "41°53'56.05\"N",
+          long: "12°28'22.80\"N",
+          link: "https://maps.google.com/?q=41.89890277777778,12.473",
+        },
+      },
+      {
+        imgID: "9fbda192-56c0-4ced-4037-a0f7dccaf800",
+        description: "Spanish Steps",
+        coordinates: {
+          lat: "41°54'21.10\"N",
+          long: "12°28'55.75\"N",
+          link: "https://maps.google.com/?q=41.90586111111111,12.482152777777777",
+        },
+      },
+      {
+        imgID: "76354ab1-4d2c-4a84-36f0-f58df669f100",
+        description: "Capitoline  Wolf",
+        coordinates: {
+          lat: "41°53'33.86\"N",
+          long: "12°28'56.23\"N",
+          link: "https://maps.google.com/?q=41.892738888888886,12.482286111111112",
+        },
+      },
+      {
+        imgID: "7a4bed52-b0a2-428b-d7ca-e59b6c34ec00",
+        description: "Cute Italian car",
+        coordinates: {
+          lat: "41°53'59.21\"N",
+          long: "12°29'04.22\"N",
+          link: "https://maps.google.com/?q=41.89978055555555,12.484505555555554",
+        },
+      },
+      {
+        imgID: "01fb21ae-9fec-4871-657e-884d70de4c00",
+        description: "Castel Sant'Angelo",
+        coordinates: {
+          lat: "41°54'05.90\"N",
+          long: "12°28'07.63\"N",
+          link: "https://maps.google.com/?q=41.90163888888889,12.468786111111111",
+        },
+      },
+
+      {
+        imgID: "5ef033a6-d7fc-4335-eb25-fb88cef58800",
+        description: "St. Peter's Basilica",
+        coordinates: {
+          lat: "41°54'08.40\"N",
+          long: "12°27'41.40\"N",
+          link: "https://maps.google.com/?q=41.90233333333333,12.4615",
+        },
+      },
+      {
+        imgID: "e2298742-9a26-4e28-a063-de6964bd2000",
+        description: "The Creation of Adam - Michelangelo",
+        coordinates: {
+          lat: "41°54'11.01\"N",
+          long: "12°27'15.18\"N",
+          link: "https://maps.google.com/?q=41.903058333333334,12.454216666666666",
+        },
+      },
+      {
+        imgID: "cab0e823-3329-4fcb-52f1-ac23d13cc900",
+        description: "Laocoön and His Sons",
+        coordinates: {
+          lat: "41°54'23.04\"N",
+          long: "12°27'17.75\"N",
+          link: "https://maps.google.com/?q=41.9064,12.454930555555555",
+        },
+      },
+      {
+        imgID: "e376d60b-38d3-4244-8f77-6f671dd88b00",
+        description: "Sunset on Janiculum Hill",
+        coordinates: {
+          lat: "41°53'29.35\"N",
+          long: "12°27'41.13\"N",
+          link: "https://maps.google.com/?q=41.891486111111114,12.461424999999998",
+        },
+      },
+      {
+        imgID: "e685117f-38e9-4455-e88d-f63e31a83800",
+        description: "The best food in the world!",
+        coordinates: {
+          lat: "41°53'44.08\"N",
+          long: "12°28'23.06\"N",
+          link: "https://maps.google.com/?q=41.895577777777774,12.473072222222223",
+        },
+      },
+
+      {
+        imgID: "41e6d76d-5ff9-4113-13ed-397ab9bc9d00",
+        description: "Florence",
+        coordinates: {
+          lat: "43°46'04.86\"N",
+          long: "11°15'17.99\"N",
+          link: "https://maps.google.com/?q=43.76801666666667,11.254997222222222",
+        },
+      },
+      {
+        imgID: "e9c3b912-f0b2-4db1-1eec-400a4026a300",
+        description: "The Birth of Venus - Botticelli",
+        coordinates: {
+          lat: "43°46'06.41\"N",
+          long: "11°15'21.13\"N",
+          link: "https://maps.google.com/?q=43.76844722222222,11.255869444444444",
+        },
+      },
+      {
+        imgID: "fb66c3b0-7d40-4018-2cf4-742432d5ab00",
+        description: "David - Michelangelo",
+        coordinates: {
+          lat: "43°46'32.66\"N",
+          long: "11°15'29.75\"N",
+          link: "https://maps.google.com/?q=43.77573888888889,11.258263888888889",
+        },
+      },
+      {
+        imgID: "9c6abf07-3cde-4090-e984-25b6b3660400",
+        description: "Garage door adorned w/ a painting of David",
+        coordinates: {
+          lat: "43°46'23.06\"N",
+          long: "11°15'01.27\"N",
+          link: "https://maps.google.com/?q=43.77307222222222,11.250352777777778",
+        },
+      },
+      {
+        imgID: "24f662ff-650a-4e0c-c175-8c38b91bd900",
+        description: "Duomo di Milano (day)",
+        coordinates: {
+          lat: "45°27'49.06\"N",
+          long: "09°11'23.76\"N",
+          link: "https://maps.google.com/?q=45.46362777777778,9.189933333333334",
+        },
+      },
+      {
+        imgID: "29415ba6-5b64-4451-a091-1bb18e748e00",
+        description: "Buttresses of Duomo di Milano",
+        coordinates: {
+          lat: "45°27'51.75\"N",
+          long: "09°11'29.57\"N",
+          link: "https://maps.google.com/?q=45.464375000000004,9.191547222222223",
+        },
+      },
+      {
+        imgID: "d503f4b2-ad0d-4121-8136-dd1b02c33d00",
+        description: "Peace from Milan",
+        coordinates: {
+          lat: "45°27'51.49\"N",
+          long: "09°11'30.05\"N",
+          link: "https://maps.google.com/?q=45.46430277777778,9.191680555555555",
+        },
+      },
+      {
+        imgID: "e2014640-0501-47f0-4fc1-d3696d837a00",
+        description: "Spires of Duomo di Milano",
+        coordinates: {
+          lat: "45°27'50.38\"N",
+          long: "09°11'28.78\"N",
+          link: "https://maps.google.com/?q=45.463994444444445,9.191327777777778",
+        },
+      },
+      {
+        imgID: "9f8a1f9f-371d-4688-988d-625552cd5900",
+        description: "Duomo di Milano (night)",
+        coordinates: {
+          lat: "45°27'49.17\"N",
+          long: "09°11'21.89\"N",
+          link: "https://maps.google.com/?q=45.463658333333335,9.18941388888889",
+        },
+      },
+    ],
+  },
   // {
   //   pageTitle: "Country Flag",
   //   countryNames: [""],
@@ -4387,44 +4668,6 @@ export const blogEntries = [
   //         lat: '0"N',
   //         long: '0"E',
   //         link: "",
-  //       },
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Vatican City 🇻🇦",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "vatican-city",
-  //   flag: "🇻🇦",
-  // },
-  // {
-  //   pageTitle: "Italy 🇮🇹 + Vatican 🇻🇦",
-  //   countryNames: ["Italy", "Vatican City"],
-  //   route: "italy",
-  //   flags: ["🇮🇹", "🇻🇦"],
-  //   caption: {
-  //     title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
-  //     content:
-  //       "I still can’t believe I was in Italy! I’ve been wanting to visit ever since I was very young when my Dad taught me and my sister about the wonders of Ancient Rome, the impact of the Renaissance, and the importance of travel. Italy was always THE country I imagined going to when visiting Europe so it was surreal to finally be there. Hearing all the hype from other travelers I met this month made me even more excited to go and experience it all for myself!\nTo say that Italy lived up to my expectations is an understatement. The ancient architecture was so epic that I was filled with excitement whenever it was in eyesight. The art was so beautiful it brought me to tears multiple times. The food was…the food was the best I’ve ever had in my life! I am stunned by how much everything lived up to the hype, and was sad that I eventually had to leave.\nI eagerly want to head back already. I feel like I only scratched the surface and could easily spend several more weeks exploring. I want to experience everything Italy has to offer! Until that time comes, I will cherish the time I had here immensely. Grazie Italia!",
-  //     publishDate: "October 27, 2022",
-  //   },
-  //   previewIdx: 0,
-  //   postImages: [
-  //     {
-  //       imgID: "",
-  //       description: "Pyramids of Giza",
-  //       coordinates: {
-  //         lat: "29°58'04.80\"N",
-  //         long: "31°07'29.60\"E",
-  //         link: "https://www.google.com/maps?q=loc:29.968,31.1249",
   //       },
   //     },
   //   ],

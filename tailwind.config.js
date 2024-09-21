@@ -7,8 +7,9 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      xs: "0.685rem",
-      sm: "0.750rem",
+      xxs: "0.685rem",
+      xs: "0.750rem",
+      sm: "0.875rem",
       base: "1rem",
       xl: "1.333rem",
       "2xl": "1.777rem",
@@ -35,7 +36,6 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",
-        blog_accent: "var(--blog-accent)",
         button_active: "var(--button-active)",
         button_inactive: "var(--button-inactive)",
       },
