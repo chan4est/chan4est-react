@@ -17,11 +17,11 @@ export async function generateMetadata({ params, searchParams }) {
 
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
-  const imgIdxUrl =
-    imgIndex && imgIndex > 0 ? `?img_index=${imgIndex + 1}` : "";
-  const openGraphUrl = `/blog/${blogData.route}${imgIdxUrl}`;
-
   if (blogData) {
+    const imgIdxUrl =
+      imgIndex && imgIndex > 0 ? `?img_index=${imgIndex + 1}` : "";
+    const openGraphUrl = `/blog/${blogData.route}${imgIdxUrl}`;
+
     metadata = {
       title: `Blog | ${blogData.pageTitle}`,
       description: `Blog post for ${blogData.pageTitle}`,

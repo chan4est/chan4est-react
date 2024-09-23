@@ -242,6 +242,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Upload a folder of files to Cloudflare")
     parser.add_argument("file_path", type=str, help="The path to the file you want to upload.")
+    parser.add_argument("-d", "--dry_run", action="store_true")
     args = parser.parse_args()
 
     img_loc_data_processor = ImageLocationDataProcessor()
@@ -249,17 +250,21 @@ if __name__ == "__main__":
 
     data = []
     for filename in os.listdir(args.file_path):
+        file_path = os.path.join(args.file_path, filename)
+        if os.path.isdir(file_path):
+            # print(f"Skipping directory: {filename}")
+            continue
         if filename.lower().endswith(('jpg', 'jpeg', 'png', 'webp')):
-            image_path = os.path.join(args.file_path, filename)
-            print("Processing: {}".format(filename))
-            map_data = img_loc_data_processor.get_map_data(filename, image_path)
-            uploaded_img_id = cloudflarer_img_handler.upload_image(image_path)
-            # uploaded_img_id = 'test'
+            print(f"Processing: {filename}")
+            map_data = img_loc_data_processor.get_map_data(filename, file_path)
+            uploaded_img_id = ''
+            if not args.dry_run:
+                uploaded_img_id = cloudflarer_img_handler.upload_image(file_path)
             if uploaded_img_id:
                 map_data["imgID"] = uploaded_img_id
             data.append(map_data)
         else:
-            print("Error: {} isn't a support image type. Please convert it to .jpg, .png, or .webp")
+            print(f"Error: {filename} isn't a supported image type. Please convert it to .jpg, .png, or .webp")
 
     cloudflarer_img_handler.write_json_to_file(data, new_file)
     # cloudflarer_img_handler.replace_images(new_file, old_file)

@@ -99,7 +99,7 @@ function BlogHeader({ blogEntries }) {
           </li>
           <br />
           <li> WIP but nearing completion.</li>
-          <li>Last update 9/21/24.</li>
+          <li>Last update 9/23/24.</li>
         </ul>
       </div>
     </section>
@@ -118,10 +118,7 @@ export default function Blog() {
       <div className="bg-background flex flex-1 flex-col text-center content-center items-center">
         <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
-        <SortableBlogPhotoGrid
-          imagesData={imagesData.reverse()}
-          hasLayersIco={true}
-        />
+        <SortableBlogPhotoGrid imagesData={imagesData} hasLayersIco={true} />
       </div>
       <Footer />
     </>

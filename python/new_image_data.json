@@ -1,16 +1,16 @@
 [
     {
-        "imgID": "64f42987-2cab-4798-6c27-2b478b260f00",
-        "description": "it_colo_night.png",
+        "imgID": "ba2d09a7-3b78-431a-cc16-d6beb3e4cf00",
+        "description": "be_grand_place.png",
         "coordinates": {
-            "lat": "",
-            "long": "",
-            "link": ""
+            "lat": "50°50'47.65\"N",
+            "long": "04°21'11.34\"N",
+            "link": "https://maps.google.com/?q=50.84656944444445,4.353149999999999"
         }
     },
     {
-        "imgID": "e9c3b912-f0b2-4db1-1eec-400a4026a300",
-        "description": "it_venus.png",
+        "imgID": "853b86c9-079a-496f-daa1-e352ea5e0700",
+        "description": "be_grand_place_day.png",
         "coordinates": {
             "lat": "",
             "long": "",

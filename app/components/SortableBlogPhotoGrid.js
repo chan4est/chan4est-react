@@ -5,10 +5,10 @@ import { BlogPhotoGrid } from "./BlogPhotoGrid";
 import Image from "next/image";
 
 function SortButton({ sortedData, setSortedData }) {
-  const [isAscending, setIsAscending] = useState(false);
+  const [isSortedByFirst, setIsSortedByFirst] = useState(false);
 
   function handleClick() {
-    setIsAscending(!isAscending);
+    setIsSortedByFirst(!isSortedByFirst);
     setSortedData(sortedData.slice().reverse());
   }
 
@@ -16,9 +16,9 @@ function SortButton({ sortedData, setSortedData }) {
     <button
       onClick={handleClick}
       className="flex items-center justify-center hover:scale-110 transition duration-200 ease-in-out"
-      title={isAscending ? "Sort by first visited" : "Sort by last visited"}
+      title={isSortedByFirst ? "Sort by last visited" : "Sort by first visited"}
     >
-      {isAscending ? "↑" : "↓"}
+      {isSortedByFirst ? "↑" : "↓"}
       <picture>
         <source
           srcSet={`/header-icons/grid-w.webp`}

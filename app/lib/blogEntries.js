@@ -1372,7 +1372,7 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "98ef9751-8ab8-4edd-c3ee-2c9819af9100",
+        imgID: "b12474da-b4de-4d9a-14ef-58cf4b906600",
         description: "Great Wall of China - Jinshanling section",
         coordinates: {
           lat: "40°40'36.00\"N",
@@ -1381,7 +1381,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "5ddf576c-ddab-4fa0-ec6d-b57a6b01f100",
+        imgID: "60bd3e43-3f19-466a-e9dd-440a9c3e0600",
         description: "Higher lookout on the Great Wall",
         coordinates: {
           lat: "40°40'45.10\"N",
@@ -1390,7 +1390,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "e7f05c8b-be6b-4afa-41db-c32f7a245400",
+        imgID: "f3413d97-0e71-4235-af27-7e7990551700",
         description: "Peace from the Great Wall",
         coordinates: {
           lat: "29°20'30.30\"N",
@@ -1399,7 +1399,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "fb362069-c7b0-4d40-d59d-3afbe46e8000",
+        imgID: "6826d721-ae31-4cbd-0293-67952bc75400",
         description: "Great Wall w/ Eliel 🇺🇸",
         coordinates: {
           lat: "40°40'36.20\"N",
@@ -1826,7 +1826,7 @@ export const blogEntries = [
           long: "120°58'17.03\"E",
         },
         description: "Intramuros",
-        imgID: "ab26d063-905d-4bc2-7956-9ce94fd4f400",
+        imgID: "f55bb598-ebce-45dd-30fd-c0c21e2bf200",
       },
       {
         coordinates: {
@@ -2110,7 +2110,7 @@ export const blogEntries = [
           long: "100°29'35.01\"E",
         },
         description: "Architecture of The Grand Palace",
-        imgID: "5381e2f5-6c1b-445c-6904-b8d76f96f400",
+        imgID: "c23888f9-d44d-4907-364c-8f9bacf2ef00",
       },
       {
         coordinates: {
@@ -2938,7 +2938,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.65112222222222,135.50576666666666",
           long: "135°30'20.76\"E",
         },
-        description: "Peace from Osaka!",
+        description: "Peace from Osaka",
         imgID: "bb753c0e-de05-47b6-0bda-e4fb725bdc00",
       },
       {
@@ -3386,7 +3386,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:4.6986833,-74.1425333",
           long: "74°08'33.01\"W",
         },
-        description: "Peace out South America",
+        description: "Peace out South America!",
         imgID: "eea12075-3229-4d49-0381-655edc966a00",
       },
     ],
@@ -3910,7 +3910,7 @@ export const blogEntries = [
     flags: ["🇵🇹"],
     isFlagLink: true,
     caption: {
-      title: "Lisbon, Portugal 🇵🇹",
+      title: "Lisbon, Portugal 🇵🇹",
       content:
         "My last stop during my first trip through Europe! As I was searching for flights to go back home from Madrid, one of the cheapest options was to do a 22 hour layover in Lisbon. Seemed like a no brainer since it meant adding one more visited country to my count. \nIf Madrid made me feel reminiscent of California, Lisbon was even more so. It felt like I was already in San Francisco just instead of the Pacific Ocean, it was the Atlantic. The infamous coastal weather included!\nBy the time I was here, I felt content and ready to come back home after 5 weeks abroad. It was a spectacular trip that I will cherish for the rest of my life. Can’t wait to come back to do it all again sometime in the future!",
       publishDate: "November 21, 2022",
@@ -3918,7 +3918,7 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "64b454a2-4a98-4c66-c959-8d532d1b5900",
+        imgID: "f008303f-6259-4084-0cb6-4f351874e800",
         description: "Torre de Belém",
         coordinates: {
           lat: "38°41'31.03\"N",
@@ -3928,7 +3928,7 @@ export const blogEntries = [
       },
       {
         imgID: "b76cfba8-27f3-47bd-16a6-caa66979ec00",
-        description: "Peace from Portugal",
+        description: "Peace from Lisbon",
         coordinates: {
           lat: "38°41'31.04\"N",
           long: "9°12'54.08\"W",
@@ -4034,7 +4034,7 @@ export const blogEntries = [
     flags: ["🇪🇸"],
     isFlagLink: true,
     caption: {
-      title: "Madrid, Spain 🇪🇸",
+      title: "Madrid, Spain 🇪🇸",
       content:
         "When I was planning on how to spend the last few days of my trip after France, I was originally going to head back to London to do a few things I missed. When I saw the train seat prices I did some comparisons on flight tickets and quickly decided against it. It gave me the perfect excuse to go visit Spain! With the limited time I could only realistically visit one city so the question was Barcelona or Madrid? Madrid won solely because of Museo del Prado!\nI feel like I made the right decision as Madrid was stellar! It all felt reminiscent of California and ultimately made me feel a little homesick. I also felt a lot of the the Spanish I used to know come back almost naturally as I explored! My stop here was fairly quick, but I know I’ll be back someday as I really want to complete the Camino Frances. Something to look forward to!",
       publishDate: "November 14, 2022",
@@ -4042,7 +4042,7 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "48a9ba95-32cd-4494-0e00-c644554f3000",
+        imgID: "0b350f3c-b2c7-4b49-8813-a0e37a96b700",
         description: "Plaza Mayor",
         coordinates: {
           lat: "40°24'55.09\"N",
@@ -4145,7 +4145,7 @@ export const blogEntries = [
 
       {
         imgID: "266ef767-e884-4aa8-f4f3-236007146900",
-        description: "Peace from Spain",
+        description: "Peace from Madrid",
         coordinates: {
           lat: "40°24'55.04\"N",
           long: "3°42'25.06\"W",
@@ -4161,7 +4161,7 @@ export const blogEntries = [
     flags: ["🇫🇷"],
     isFlagLink: true,
     caption: {
-      title: "Paris, France 🇫🇷",
+      title: "Paris, France 🇫🇷",
       content:
         "What a magnificent city! Paris fell into the same legendary status for me like Italy did, and luckily it also delivered on all fronts.\nThe city as a whole was wayyy larger than I expected. I’m so glad I reserved extra time in Paris as there was just so much stuff to do! Everything I did while I was in Paris felt so fulfilling. Like I’ve been waiting my entire life just to experience every moment. Having authentic French pastries and fancy French cuisine. Exploring The Louvre and Orsay Museums. Being up close to the Eiffel Tower, Notre Dame, and Arc de Triomphe. All just magnificent!\nI was warned that French are a little rude towards foreigners who don’t speak the language so I did feel a bit intimidated going in. I felt the most out of place during my first day, but the feeling quickly went away once I started noticing the smiles on people’s faces when I used the small amount of French I did know. After that hurdle, I felt confident and welcomed, making the rest of my stay dreamlike! I cannot wait to come back!",
       publishDate: "November 2, 2022",
@@ -4191,13 +4191,13 @@ export const blogEntries = [
         description: "Custom Imperial Lion jacket",
         coordinates: {
           lat: "48°51'18.09\"N",
-          long: "02°17'59.14\"N",
+          long: "02°17'59.14\"E",
           link: "https://maps.google.com/?q=48.855025000000005,2.299761111111111",
         },
       },
       {
         imgID: "ea64c9ff-c848-4c1f-44da-f8e5498fb600",
-        description: "Peace from France",
+        description: "Peace from Paris",
         coordinates: {
           lat: "48°51'18.01\"N",
           long: "02°17'59.00\"E",
@@ -4209,7 +4209,7 @@ export const blogEntries = [
         description: "Eiffel Tower by night",
         coordinates: {
           lat: "48°51'26.00\"N",
-          long: "02°17'39.28\"N",
+          long: "02°17'39.28\"E",
           link: "https://maps.google.com/?q=48.85722222222223,2.2942444444444443",
         },
       },
@@ -4218,7 +4218,7 @@ export const blogEntries = [
         description: "Arc de Triomphe",
         coordinates: {
           lat: "48°52'27.29\"N",
-          long: "02°17'37.29\"N",
+          long: "02°17'37.29\"E",
           link: "https://maps.google.com/?q=48.87424722222222,2.2936916666666667",
         },
       },
@@ -4227,7 +4227,7 @@ export const blogEntries = [
         description: "La Marseillaise",
         coordinates: {
           lat: "48°52'26.50\"N",
-          long: "02°17'41.85\"N",
+          long: "02°17'41.85\"E",
           link: "https://maps.google.com/?q=48.874027777777776,2.294958333333333",
         },
       },
@@ -4236,7 +4236,7 @@ export const blogEntries = [
         description: "Arc de Triomphe's spiral staircase",
         coordinates: {
           lat: "48°52'24.22\"N",
-          long: "02°17'41.52\"N",
+          long: "02°17'41.52\"E",
           link: "https://maps.google.com/?q=48.87339444444444,2.2948666666666666",
         },
       },
@@ -4245,7 +4245,7 @@ export const blogEntries = [
         description: "View from the top of the Arc de Triomphe",
         coordinates: {
           lat: "48°52'25.56\"N",
-          long: "02°17'42.72\"N",
+          long: "02°17'42.72\"E",
           link: "https://maps.google.com/?q=48.87376666666667,2.2952",
         },
       },
@@ -4254,7 +4254,7 @@ export const blogEntries = [
         description: "Louvre",
         coordinates: {
           lat: "48°51'41.43\"N",
-          long: "02°20'08.66\"N",
+          long: "02°20'08.66\"E",
           link: "https://maps.google.com/?q=48.86150833333333,2.3357388888888893",
         },
       },
@@ -4263,7 +4263,7 @@ export const blogEntries = [
         description: "The Grande Galerie",
         coordinates: {
           lat: "48°51'35.44\"N",
-          long: "02°20'08.02\"N",
+          long: "02°20'08.02\"E",
           link: "https://maps.google.com/?q=48.85984444444445,2.335561111111111",
         },
       },
@@ -4272,7 +4272,7 @@ export const blogEntries = [
         description: "Mona Lisa - Leonardo da Vinci",
         coordinates: {
           lat: "48°51'36.18\"N",
-          long: "02°20'07.69\"N",
+          long: "02°20'07.69\"E",
           link: "https://maps.google.com/?q=48.86005,2.3354694444444446",
         },
       },
@@ -4281,7 +4281,7 @@ export const blogEntries = [
         description: "The Winged Nike",
         coordinates: {
           lat: "48°51'36.87\"N",
-          long: "02°20'10.97\"N",
+          long: "02°20'10.97\"E",
           link: "https://maps.google.com/?q=48.86024166666667,2.336380555555556",
         },
       },
@@ -4290,7 +4290,7 @@ export const blogEntries = [
         description: "Bal du moulin de la Galette - Renoir",
         coordinates: {
           lat: "48°51'35.59\"N",
-          long: "02°19'38.18\"N",
+          long: "02°19'38.18\"E",
           link: "https://maps.google.com/?q=48.85988611111111,2.327272222222222",
         },
       },
@@ -4299,7 +4299,7 @@ export const blogEntries = [
         description: "The Thinker - Rodin",
         coordinates: {
           lat: "48°51'19.99\"N",
-          long: "02°18'55.85\"N",
+          long: "02°18'55.85\"E",
           link: "https://maps.google.com/?q=48.85555277777778,2.315513888888889",
         },
       },
@@ -4308,7 +4308,7 @@ export const blogEntries = [
         description: "Sacré-Cœur",
         coordinates: {
           lat: "48°53'09.32\"N",
-          long: "02°20'37.81\"N",
+          long: "02°20'37.81\"E",
           link: "https://maps.google.com/?q=48.88592222222222,2.3438361111111115",
         },
       },
@@ -4317,7 +4317,7 @@ export const blogEntries = [
         description: "Juan 🇨🇴 looking very Parisian",
         coordinates: {
           lat: "48°51'25.78\"N",
-          long: "02°21'26.66\"N",
+          long: "02°21'26.66\"E",
           link: "https://maps.google.com/?q=48.85716111111111,2.3574055555555558",
         },
       },
@@ -4326,7 +4326,7 @@ export const blogEntries = [
         description: "Beef bourguignon, onion soup, escargot, duck confit",
         coordinates: {
           lat: "48°51'25.92\"N",
-          long: "02°21'26.90\"N",
+          long: "02°21'26.90\"E",
           link: "https://maps.google.com/?q=48.8572,2.3574722222222224",
         },
       },
@@ -4353,7 +4353,7 @@ export const blogEntries = [
         description: "Château de Versailles",
         coordinates: {
           lat: "48°48'19.18\"N",
-          long: "02°07'06.30\"N",
+          long: "02°07'06.30\"E",
           link: "https://maps.google.com/?q=48.80532777777778,2.1184166666666666",
         },
       },
@@ -4362,7 +4362,7 @@ export const blogEntries = [
         description: "Bassin d'Apollon - Charles Le Brun",
         coordinates: {
           lat: "48°48'25.99\"N",
-          long: "02°06'40.48\"N",
+          long: "02°06'40.48\"E",
           link: "https://maps.google.com/?q=48.80721944444444,2.1112444444444445",
         },
       },
@@ -4371,7 +4371,7 @@ export const blogEntries = [
         description: "Lost in Versailles",
         coordinates: {
           lat: "48°49'01.92\"N",
-          long: "02°05'16.80\"N",
+          long: "02°05'16.80\"E",
           link: "https://maps.google.com/?q=48.81720000000001,2.088",
         },
       },
@@ -4384,7 +4384,7 @@ export const blogEntries = [
     flags: ["🇮🇹", "🇻🇦"],
     isFlagLink: true,
     caption: {
-      title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
+      title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
       content:
         "I still can’t believe I was in Italy! I’ve been wanting to visit ever since I was very young when my Dad taught me and my sister about the wonders of Ancient Rome, the impact of the Renaissance, and the importance of travel. Italy was always THE country I imagined going to when visiting Europe so it was surreal to finally be there. Hearing all the hype from other travelers I met this month made me even more excited to go and experience it all for myself!\nTo say that Italy lived up to my expectations is an understatement. The ancient architecture was so epic that I was filled with excitement whenever it was in eyesight. The art was so beautiful it brought me to tears multiple times. The food was…the food was the best I’ve ever had in my life! I am stunned by how much everything lived up to the hype, and was sad that I eventually had to leave.\nI eagerly want to head back already. I feel like I only scratched the surface and could easily spend several more weeks exploring. I want to experience everything Italy has to offer! Until that time comes, I will cherish the time I had here immensely. Grazie Italia!",
       publishDate: "October 27, 2022",
@@ -4396,7 +4396,7 @@ export const blogEntries = [
         description: "Colosseum by night",
         coordinates: {
           lat: "41°53'26.35\"N",
-          long: "12°29'27.12\"N",
+          long: "12°29'27.12\"E",
           link: "https://maps.google.com/?q=41.890652777777774,12.490866666666665",
         },
       },
@@ -4405,7 +4405,7 @@ export const blogEntries = [
         description: "Euphoria in Rome",
         coordinates: {
           lat: "41°53'29.05\"N",
-          long: "12°29'30.45\"N",
+          long: "12°29'30.45\"E",
           link: "https://maps.google.com/?q=41.89140277777778,12.491791666666666",
         },
       },
@@ -4414,7 +4414,7 @@ export const blogEntries = [
         description: "Colosseum w/ Tony 🇺🇸 & Juan 🇨🇴",
         coordinates: {
           lat: "41°53'26.50\"N",
-          long: "12°29'27.15\"N",
+          long: "12°29'27.15\"E",
           link: "https://maps.google.com/?q=41.89069444444444,12.490874999999999",
         },
       },
@@ -4423,7 +4423,7 @@ export const blogEntries = [
         description: "Colosseum by day",
         coordinates: {
           lat: "41°53'25.60\"N",
-          long: "12°29'36.27\"N",
+          long: "12°29'36.27\"E",
           link: "https://maps.google.com/?q=41.89044444444444,12.493408333333333",
         },
       },
@@ -4432,7 +4432,7 @@ export const blogEntries = [
         description: "Colosseum interior",
         coordinates: {
           lat: "41°53'22.98\"N",
-          long: "12°29'33.64\"N",
+          long: "12°29'33.64\"E",
           link: "https://maps.google.com/?q=41.889716666666665,12.492677777777777",
         },
       },
@@ -4441,7 +4441,7 @@ export const blogEntries = [
         description: "Roman Forum",
         coordinates: {
           lat: "41°53'34.87\"N",
-          long: "12°29'13.22\"N",
+          long: "12°29'13.22\"E",
           link: "https://maps.google.com/?q=41.89301944444444,12.487005555555555",
         },
       },
@@ -4450,7 +4450,7 @@ export const blogEntries = [
         description: "Monument to Victor Emmanuel II",
         coordinates: {
           lat: "41°53'41.14\"N",
-          long: "12°28'57.12\"N",
+          long: "12°28'57.12\"E",
           link: "https://maps.google.com/?q=41.89476111111111,12.482533333333333",
         },
       },
@@ -4459,7 +4459,7 @@ export const blogEntries = [
         description: "Trevi Fountain",
         coordinates: {
           lat: "41°54'03.16\"N",
-          long: "12°29'00.54\"N",
+          long: "12°29'00.54\"E",
           link: "https://maps.google.com/?q=41.90087777777778,12.483483333333332",
         },
       },
@@ -4469,7 +4469,7 @@ export const blogEntries = [
         description: "The Pantheon",
         coordinates: {
           lat: "41°53'57.73\"N",
-          long: "12°28'37.87\"N",
+          long: "12°28'37.87\"E",
           link: "https://maps.google.com/?q=41.899369444444446,12.477186111111111",
         },
       },
@@ -4478,7 +4478,7 @@ export const blogEntries = [
         description: "Piazza Navona",
         coordinates: {
           lat: "41°53'56.05\"N",
-          long: "12°28'22.80\"N",
+          long: "12°28'22.80\"E",
           link: "https://maps.google.com/?q=41.89890277777778,12.473",
         },
       },
@@ -4487,7 +4487,7 @@ export const blogEntries = [
         description: "Spanish Steps",
         coordinates: {
           lat: "41°54'21.10\"N",
-          long: "12°28'55.75\"N",
+          long: "12°28'55.75\"E",
           link: "https://maps.google.com/?q=41.90586111111111,12.482152777777777",
         },
       },
@@ -4496,7 +4496,7 @@ export const blogEntries = [
         description: "Capitoline  Wolf",
         coordinates: {
           lat: "41°53'33.86\"N",
-          long: "12°28'56.23\"N",
+          long: "12°28'56.23\"E",
           link: "https://maps.google.com/?q=41.892738888888886,12.482286111111112",
         },
       },
@@ -4505,7 +4505,7 @@ export const blogEntries = [
         description: "Cute Italian car",
         coordinates: {
           lat: "41°53'59.21\"N",
-          long: "12°29'04.22\"N",
+          long: "12°29'04.22\"E",
           link: "https://maps.google.com/?q=41.89978055555555,12.484505555555554",
         },
       },
@@ -4514,7 +4514,7 @@ export const blogEntries = [
         description: "Castel Sant'Angelo",
         coordinates: {
           lat: "41°54'05.90\"N",
-          long: "12°28'07.63\"N",
+          long: "12°28'07.63\"E",
           link: "https://maps.google.com/?q=41.90163888888889,12.468786111111111",
         },
       },
@@ -4524,7 +4524,7 @@ export const blogEntries = [
         description: "St. Peter's Basilica",
         coordinates: {
           lat: "41°54'08.40\"N",
-          long: "12°27'41.40\"N",
+          long: "12°27'41.40\"E",
           link: "https://maps.google.com/?q=41.90233333333333,12.4615",
         },
       },
@@ -4533,7 +4533,7 @@ export const blogEntries = [
         description: "The Creation of Adam - Michelangelo",
         coordinates: {
           lat: "41°54'11.01\"N",
-          long: "12°27'15.18\"N",
+          long: "12°27'15.18\"E",
           link: "https://maps.google.com/?q=41.903058333333334,12.454216666666666",
         },
       },
@@ -4542,7 +4542,7 @@ export const blogEntries = [
         description: "Laocoön and His Sons",
         coordinates: {
           lat: "41°54'23.04\"N",
-          long: "12°27'17.75\"N",
+          long: "12°27'17.75\"E",
           link: "https://maps.google.com/?q=41.9064,12.454930555555555",
         },
       },
@@ -4551,7 +4551,7 @@ export const blogEntries = [
         description: "Sunset on Janiculum Hill",
         coordinates: {
           lat: "41°53'29.35\"N",
-          long: "12°27'41.13\"N",
+          long: "12°27'41.13\"E",
           link: "https://maps.google.com/?q=41.891486111111114,12.461424999999998",
         },
       },
@@ -4560,7 +4560,7 @@ export const blogEntries = [
         description: "The best food in the world!",
         coordinates: {
           lat: "41°53'44.08\"N",
-          long: "12°28'23.06\"N",
+          long: "12°28'23.06\"E",
           link: "https://maps.google.com/?q=41.895577777777774,12.473072222222223",
         },
       },
@@ -4570,7 +4570,7 @@ export const blogEntries = [
         description: "Florence",
         coordinates: {
           lat: "43°46'04.86\"N",
-          long: "11°15'17.99\"N",
+          long: "11°15'17.99\"E",
           link: "https://maps.google.com/?q=43.76801666666667,11.254997222222222",
         },
       },
@@ -4579,7 +4579,7 @@ export const blogEntries = [
         description: "The Birth of Venus - Botticelli",
         coordinates: {
           lat: "43°46'06.41\"N",
-          long: "11°15'21.13\"N",
+          long: "11°15'21.13\"E",
           link: "https://maps.google.com/?q=43.76844722222222,11.255869444444444",
         },
       },
@@ -4588,7 +4588,7 @@ export const blogEntries = [
         description: "David - Michelangelo",
         coordinates: {
           lat: "43°46'32.66\"N",
-          long: "11°15'29.75\"N",
+          long: "11°15'29.75\"E",
           link: "https://maps.google.com/?q=43.77573888888889,11.258263888888889",
         },
       },
@@ -4597,7 +4597,7 @@ export const blogEntries = [
         description: "Garage door adorned w/ a painting of David",
         coordinates: {
           lat: "43°46'23.06\"N",
-          long: "11°15'01.27\"N",
+          long: "11°15'01.27\"E",
           link: "https://maps.google.com/?q=43.77307222222222,11.250352777777778",
         },
       },
@@ -4606,7 +4606,7 @@ export const blogEntries = [
         description: "Duomo di Milano (day)",
         coordinates: {
           lat: "45°27'49.06\"N",
-          long: "09°11'23.76\"N",
+          long: "09°11'23.76\"E",
           link: "https://maps.google.com/?q=45.46362777777778,9.189933333333334",
         },
       },
@@ -4615,7 +4615,7 @@ export const blogEntries = [
         description: "Buttresses of Duomo di Milano",
         coordinates: {
           lat: "45°27'51.75\"N",
-          long: "09°11'29.57\"N",
+          long: "09°11'29.57\"E",
           link: "https://maps.google.com/?q=45.464375000000004,9.191547222222223",
         },
       },
@@ -4624,7 +4624,7 @@ export const blogEntries = [
         description: "Peace from Milan",
         coordinates: {
           lat: "45°27'51.49\"N",
-          long: "09°11'30.05\"N",
+          long: "09°11'30.05\"E",
           link: "https://maps.google.com/?q=45.46430277777778,9.191680555555555",
         },
       },
@@ -4633,7 +4633,7 @@ export const blogEntries = [
         description: "Spires of Duomo di Milano",
         coordinates: {
           lat: "45°27'50.38\"N",
-          long: "09°11'28.78\"N",
+          long: "09°11'28.78\"E",
           link: "https://maps.google.com/?q=45.463994444444445,9.191327777777778",
         },
       },
@@ -4642,146 +4642,709 @@ export const blogEntries = [
         description: "Duomo di Milano (night)",
         coordinates: {
           lat: "45°27'49.17\"N",
-          long: "09°11'21.89\"N",
+          long: "09°11'21.89\"E",
           link: "https://maps.google.com/?q=45.463658333333335,9.18941388888889",
         },
       },
     ],
   },
-  // {
-  //   pageTitle: "Country Flag",
-  //   countryNames: [""],
-  //   route: "",
-  //   flags: [""],
-  //   isFlagLink: true,
-  //   caption: {
-  //     title: "",
-  //     content: "",
-  //     publishDate: "",
-  //   },
-  //   previewIdx: 0,
-  //   postImages: [
-  //     {
-  //       imgID: "",
-  //       description: "",
-  //       coordinates: {
-  //         lat: '0"N',
-  //         long: '0"E',
-  //         link: "",
-  //       },
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Hungary 🇭🇺",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "hungary",
-  //   flag: "🇭🇺",
-  // },
-  // {
-  //   title: "Austria 🇦🇹",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "austria",
-  //   flag: "🇦🇹",
-  // },
-  // {
-  //   title: "Czechia 🇨🇿",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "czechia",
-  //   flag: "🇨🇿",
-  // },
-  // {
-  //   title: "Germany 🇩🇪",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "germany",
-  //   flag: "🇩🇪",
-  // },
-  // {
-  //   title: "Netherlands 🇳🇱",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "netherlands",
-  //   flag: "🇳🇱",
-  // },
-  // {
-  //   title: "Belgium 🇧🇪",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "belgium",
-  //   flag: "🇧🇪",
-  // },
-  // {
-  //   title: "England 🇬🇧",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "england",
-  //   flag: "🇬🇧",
-  // },
-  // {
-  //   title: "United States 🇺🇸",
-  //   content: "The first stop on my trip around the world! I felt a lot of sadness being in Asia two times already and not being able to continue my trips into Taiwan. It of course had to be the first stop on my last big solo trip for the foreseeable future, and I’m so happy it finally happened!!\nI heard an endless amount of hype about Taiwan! The spectacular food, welcoming people, wonderful transit, and beautiful countryside. It’s all true and even better than I anticipated!! My time here wasn’t long, so I’m very eager and excited to visit here again in the future.\n謝謝台灣!",
-  //   location: "九份",
-  //   publishDate: "August 21, 2023",
-  //   imgurLink: "https://i.imgur.com/IWAlZsi.jpeg",
-  //   galleryLinks: [
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //     "https://i.imgur.com/IWAlZsi.jpeg",
-  //   ],
-  //   route: "united-states",
-  //   flag: "🇺🇸",
-  // },
+  {
+    pageTitle: "Hungary 🇭🇺",
+    countryNames: ["Hungary"],
+    route: "hungary",
+    flags: ["🇭🇺"],
+    isFlagLink: true,
+    caption: {
+      title: "Budapest, Hungary 🇭🇺",
+      content:
+        "Seventh stop in Europe! Budapest was breathtaking! I felt a sense of freedom multiple times whenever I was able to see lots of interesting landmarks from where I was standing, and knowing that I’d be able to visit and fully explore every location with little to no hassle. It was amazing!\nThis is also the first stop where I really felt like I wanted to stay longer. Not only due to how beautiful the city itself was, but also because of how the friends I made in Vienna and the new friends I made here in Budapest were staying in the city juuuuust a little longer. I’m re-learning that one the harder parts of traveling solo isn’t making new friends, but having to say goodbye to them.",
+      publishDate: "October 23, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "3a201c1a-b5c4-4106-093c-81468a715b00",
+        description: "Fisherman's Bastion",
+        coordinates: {
+          lat: "47°30'08.71\"N",
+          long: "19°02'04.56\"E",
+          link: "https://maps.google.com/?q=47.50241944444444,19.0346",
+        },
+      },
+      {
+        imgID: "66027d78-598d-4b67-b0ba-1bb641725800",
+        description: "Back of Fisherman's Bastion",
+        coordinates: {
+          lat: "47°30'09.19\"N",
+          long: "19°02'03.78\"E",
+          link: "https://maps.google.com/?q=47.50255277777778,19.034383333333334",
+        },
+      },
+      {
+        imgID: "a494c17a-fcea-42bd-e69f-947065fef900",
+        description: "Central Market Hall",
+        coordinates: {
+          lat: "47°29'10.95\"N",
+          long: "19°03'33.07\"E",
+          link: "https://maps.google.com/?q=47.486375,19.05918611111111",
+        },
+      },
+      {
+        imgID: "93a91fb6-a684-44b7-2603-27eeb7654e00",
+        description: "Buda",
+        coordinates: {
+          lat: "47°29'07.62\"N",
+          long: "19°03'14.86\"E",
+          link: "https://maps.google.com/?q=47.48545,19.05412777777778",
+        },
+      },
+      {
+        imgID: "8948b176-68d9-4f5e-62cb-c20bac3c9a00",
+        description: "Pest",
+        coordinates: {
+          lat: "47°29'45.11\"N",
+          long: "19°02'26.91\"E",
+          link: "https://maps.google.com/?q=47.49586388888889,19.040808333333334",
+        },
+      },
+      {
+        imgID: "f339932d-178b-4374-64f5-f11e39569600",
+        description: "Hungarian Parliament  Building (day)",
+        coordinates: {
+          lat: "47°30'27.19\"N",
+          long: "19°02'22.77\"E",
+          link: "https://maps.google.com/?q=47.507552777777775,19.039658333333335",
+        },
+      },
+
+      {
+        imgID: "a8cb5180-d099-4dd4-fdce-0b89538f3b00",
+        description: "Matthias Church",
+        coordinates: {
+          lat: "47°30'05.47\"N",
+          long: "19°02'01.49\"E",
+          link: "https://maps.google.com/?q=47.50151944444445,19.033747222222225",
+        },
+      },
+
+      {
+        imgID: "b307e412-6ec2-4545-f0a8-d1997c622400",
+        description: "Streets of Budapest",
+        coordinates: {
+          lat: "47°30'15.46\"N",
+          long: "19°01'55.85\"E",
+          link: "https://maps.google.com/?q=47.50429444444445,19.032180555555556",
+        },
+      },
+      {
+        imgID: "495a045f-0eee-4e95-8af3-b7408bb63600",
+        description: "Margaret Island",
+        coordinates: {
+          lat: "47°31'03.47\"N",
+          long: "19°02'39.60\"E",
+          link: "https://maps.google.com/?q=47.517630555555556,19.044333333333334",
+        },
+      },
+      {
+        imgID: "d5eddc4b-5443-4578-ef2b-45e4765d3a00",
+        description: "Margaret Island Water Tower",
+        coordinates: {
+          lat: "47°31'50.76\"N",
+          long: "19°02'59.33\"E",
+          link: "https://maps.google.com/?q=47.530766666666665,19.04981388888889",
+        },
+      },
+
+      {
+        imgID: "112de2d6-2d58-4c92-438f-78e3be9b6600",
+        description: "Széchenyi Thermal Bath",
+        coordinates: {
+          lat: "47°31'07.02\"N",
+          long: "19°04'53.62\"E",
+          link: "https://maps.google.com/?q=47.51861666666667,19.08156111111111",
+        },
+      },
+      {
+        imgID: "55876f7b-8a47-4639-e101-c9e504017500",
+        description: "Heroes' Square",
+        coordinates: {
+          lat: "47°30'53.65\"N",
+          long: "19°04'40.14\"E",
+          link: "https://maps.google.com/?q=47.51490277777778,19.077816666666667",
+        },
+      },
+      {
+        imgID: "9032207f-18f9-4a0d-2171-91fd0942fd00",
+        description: "Hungarian Parliament Building (night)",
+        coordinates: {
+          lat: "47°30'26.89\"N",
+          long: "19°02'22.49\"E",
+          link: "https://maps.google.com/?q=47.507469444444446,19.039580555555556",
+        },
+      },
+      {
+        imgID: "fb1ef800-2687-4a7f-3d01-fc7abc629c00",
+        description: "Peace from Budapest",
+        coordinates: {
+          lat: "47°30'27.10\"N",
+          long: "19°02'22.04\"E",
+          link: "https://maps.google.com/?q=47.507527777777774,19.039455555555556",
+        },
+      },
+      {
+        imgID: "1dfe42ac-f7dc-42c8-76f5-c9e4937d9900",
+        description: "EWNIAH in Szimpla Kert",
+        coordinates: {
+          lat: "47°29'48.84\"N",
+          long: "19°03'46.76\"E",
+          link: "https://maps.google.com/?q=47.496900000000004,19.06298888888889",
+        },
+      },
+      {
+        imgID: "859c8825-b978-4f76-b8f1-36b01e506500",
+        description: "Night out w/ friends",
+        coordinates: {
+          lat: "47°29'48.90\"N",
+          long: "19°03'46.91\"E",
+          link: "https://maps.google.com/?q=47.49691666666667,19.063030555555557",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Austria 🇦🇹",
+    countryNames: ["Austria"],
+    route: "austria",
+    flags: ["🇦🇹"],
+    isFlagLink: true,
+    caption: {
+      title: "Vienna, Austria 🇦🇹",
+      content:
+        "Sixth city in Europe! My time here just flew by. Maybe it’s a sign I’m going through some stops too fast? So far, my strategy has been to leave a country in the morning/afternoon in order to get to the next one in the evening but Vienna was the exception. I dedicated another day to exploring everything I wanted. It was totally worth it! \nWhat I’m going to remember most is how quickly I was able to make new friends and how expansive and beautiful the palaces were. My only wish is that I was able to see the palaces at night with friends! I found out the hard way that the only way to do that is to be in Vienna around Christmas time. Might be a fun thing to do in the future!",
+      publishDate: "October 20, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "f69da6bf-ad91-4895-1195-86cb34e1a200",
+        description: "Karlskirche (St. Charles's Church)",
+        coordinates: {
+          lat: "48°11'56.76\"N",
+          long: "16°22'16.52\"E",
+          link: "https://maps.google.com/?q=48.199099999999994,16.371255555555557",
+        },
+      },
+      {
+        imgID: "7d7b26d1-9d10-44d0-24a3-fb9d4e841000",
+        description: "St. Stephen's Cathedral",
+        coordinates: {
+          lat: "48°12'29.90\"N",
+          long: "16°22'18.58\"E",
+          link: "https://maps.google.com/?q=48.20830555555556,16.371827777777778",
+        },
+      },
+      {
+        imgID: "0916ee61-3eb6-4fe0-edce-5ba5a37a9b00",
+        description: "Inner City Vienna",
+        coordinates: {
+          lat: "48°12'31.95\"N",
+          long: "16°22'09.48\"E",
+          link: "https://maps.google.com/?q=48.208875000000006,16.3693",
+        },
+      },
+      {
+        imgID: "cb423416-a9be-4b83-45bc-ed2bfabf6a00",
+        description: "Oppulent dome inside Hofburg Palace",
+        coordinates: {
+          lat: "48°12'27.52\"N",
+          long: "16°21'58.37\"E",
+          link: "https://maps.google.com/?q=48.20764444444445,16.36621388888889",
+        },
+      },
+
+      {
+        imgID: "ac758cc9-1d5e-4516-c864-cbf6e708d400",
+        description: "Hofburg Palace",
+        coordinates: {
+          lat: "48°12'19.72\"N",
+          long: "16°21'49.57\"E",
+          link: "https://maps.google.com/?q=48.20547777777778,16.363769444444447",
+        },
+      },
+      {
+        imgID: "8d6b27e4-5577-4959-2bf9-89ba79266f00",
+        description: "Archduke Karl monument",
+        coordinates: {
+          lat: "48°12'21.51\"N",
+          long: "16°21'51.39\"E",
+          link: "https://maps.google.com/?q=48.205975,16.364275000000003",
+        },
+      },
+
+      {
+        imgID: "53d7599f-cadc-4262-708e-b8f39ca76100",
+        description: "Vienna City Hall",
+        coordinates: {
+          lat: "48°12'35.45\"N",
+          long: "16°21'31.94\"E",
+          link: "https://maps.google.com/?q=48.20984722222222,16.358872222222224",
+        },
+      },
+      {
+        imgID: "0e6b757d-8259-4a9b-eb0a-2374e065c300",
+        description: "The Hunters in the Snow - Pieter Bruegel the Elder",
+        coordinates: {
+          lat: "48°12'13.86\"N",
+          long: "16°22'04.41\"E",
+          link: "https://maps.google.com/?q=48.20385,16.36789166666667",
+        },
+      },
+
+      {
+        imgID: "ff1661fc-ea46-4578-244c-8d6865032700",
+        description: "Belvedere Palace",
+        coordinates: {
+          lat: "48°11'34.46\"N",
+          long: "16°22'50.31\"E",
+          link: "https://maps.google.com/?q=48.192905555555555,16.380641666666666",
+        },
+      },
+      {
+        imgID: "f2859134-7f32-40c3-7f51-caf738351600",
+        description: "Belvedere Palace w/ Daren 🇹🇼",
+        coordinates: {
+          lat: "48°11'30.85\"N",
+          long: "16°22'51.18\"E",
+          link: "https://maps.google.com/?q=48.19190277777778,16.380883333333333",
+        },
+      },
+
+      {
+        imgID: "5700ea63-b079-44c2-a3fc-7eaaa2685900",
+        description: "Schönbrunn Palace",
+        coordinates: {
+          lat: "48°10'59.36\"N",
+          long: "16°18'40.85\"E",
+          link: "https://maps.google.com/?q=48.18315555555555,16.311347222222224",
+        },
+      },
+      {
+        imgID: "ee95054d-d69d-46cd-99b5-893793f2b400",
+        description: "Peace from Vienna",
+        coordinates: {
+          lat: "48°11'03.04\"N",
+          long: "16°18'42.87\"E",
+          link: "https://maps.google.com/?q=48.184177777777776,16.311908333333335",
+        },
+      },
+      {
+        imgID: "33ffc544-3d0c-4189-4f0d-b4eb6863a400",
+        description: "Scale of Schönbrunn Palace's grounds",
+        coordinates: {
+          lat: "48°11'05.04\"N",
+          long: "16°18'43.83\"E",
+          link: "https://maps.google.com/?q=48.18473333333333,16.312175",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Czech Republic 🇨🇿",
+    countryNames: ["Czech Republic"],
+    route: "czech-republic",
+    flags: ["🇨🇿"],
+    isFlagLink: true,
+    caption: {
+      title: "Prague, Czech Republic 🇨🇿",
+      content:
+        "Europe stop number five! This city felt like walking in a fantasy world. The beautiful train ride in, untouched gothic architecture, maze-like cobblestone streets, and awe-inspiring views were all like nothing I have ever seen before. Just amazing! \nI was and still am a bit sad that I wasn’t able to tour the famous Prague Castle that was looming in the distance, but it just gives me all the more reason to come back and visit again!",
+      publishDate: "October 15, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "4868f36c-b3ed-4ee3-2db7-a95feb39e200",
+        description: "Charles Bridge",
+        coordinates: {
+          lat: "50°05'13.01\"N",
+          long: "14°24'29.81\"E",
+          link: "https://maps.google.com/?q=50.08694722222222,14.408280555555557",
+        },
+      },
+      {
+        imgID: "f742913d-6628-416d-fb13-9f8e983b1900",
+        description: "Peace from Prague",
+        coordinates: {
+          lat: "50°05'13.04\"N",
+          long: "14°24'29.00\"E",
+          link: "https://maps.google.com/?q=50.086955555555555,14.408055555555556",
+        },
+      },
+      {
+        imgID: "d9a60c8f-e2f8-437a-d6c0-c69b880b6400",
+        description: "Church of Our Lady before Týn (day)",
+        coordinates: {
+          lat: "50°05'14.84\"N",
+          long: "14°25'16.66\"E",
+          link: "https://maps.google.com/?q=50.08745555555556,14.421294444444444",
+        },
+      },
+      {
+        imgID: "e7a46e0f-d48a-4183-bec9-8b4647bc4600",
+        description: "Prague Astronomical Clock",
+        coordinates: {
+          lat: "50°05'12.78\"N",
+          long: "14°25'14.88\"E",
+          link: "https://maps.google.com/?q=50.08688333333333,14.4208",
+        },
+      },
+      {
+        imgID: "364aef85-cb39-43f6-3bb8-b5fbd8ec3400",
+        description: "Dancing House",
+        coordinates: {
+          lat: "50°04'32.80\"N",
+          long: "14°24'51.79\"E",
+          link: "https://maps.google.com/?q=50.07577777777778,14.414386111111112",
+        },
+      },
+
+      {
+        imgID: "9ae06a98-bc08-4e06-7bfd-9a9f1cffd400",
+        description: "Lennon Wall",
+        coordinates: {
+          lat: "50°05'10.32\"N",
+          long: "14°24'24.18\"E",
+          link: "https://maps.google.com/?q=50.086200000000005,14.406716666666666",
+        },
+      },
+      {
+        imgID: "ac724613-e522-4f13-4346-ba630982b900",
+        description: "Street leading to Prague Castle",
+        coordinates: {
+          lat: "50°05'25.80\"N",
+          long: "14°24'25.68\"E",
+          link: "https://maps.google.com/?q=50.090500000000006,14.407133333333334",
+        },
+      },
+
+      {
+        imgID: "cc1b2fb5-ff6b-4adc-1c35-09eedd5e4c00",
+        description: "Prague Castle panoramic (left)",
+        coordinates: {
+          lat: "50°05'22.52\"N",
+          long: "14°23'52.67\"E",
+          link: "https://maps.google.com/?q=50.08958888888889,14.397963888888889",
+        },
+      },
+      {
+        imgID: "9293b481-bce5-4f4a-6541-ccd1c6ea9400",
+        description: "Prague Castle panoramic (center)",
+        coordinates: {
+          lat: "50°05'22.52\"N",
+          long: "14°23'52.67\"E",
+          link: "https://maps.google.com/?q=50.08958888888889,14.397963888888889",
+        },
+      },
+      {
+        imgID: "c6f320fc-1a4a-49e9-340b-cbf93aa73200",
+        description: "Prague Castle panoramic (right)",
+        coordinates: {
+          lat: "50°05'22.52\"N",
+          long: "14°23'52.67\"E",
+          link: "https://maps.google.com/?q=50.08958888888889,14.397963888888889",
+        },
+      },
+      {
+        imgID: "96a72383-6c6e-49ee-19a7-364d2418a800",
+        description: "Overlooking Prague",
+        coordinates: {
+          lat: "50°05'20.53\"N",
+          long: "14°23'53.53\"E",
+          link: "https://maps.google.com/?q=50.08903611111111,14.398202777777778",
+        },
+      },
+      {
+        imgID: "d3fb3128-f3fd-4f6a-c3de-8965dccd6d00",
+        description: "Street leading back down to the old town",
+        coordinates: {
+          lat: "50°05'19.48\"N",
+          long: "14°23'49.42\"E",
+          link: "https://maps.google.com/?q=50.088744444444444,14.39706111111111",
+        },
+      },
+      {
+        imgID: "4cbeda8c-8a7b-4a32-72f9-154c4ee3f000",
+        description: "Vltava River",
+        coordinates: {
+          lat: "50°05'11.74\"N",
+          long: "14°24'38.92\"E",
+          link: "https://maps.google.com/?q=50.086594444444444,14.410811111111112",
+        },
+      },
+      {
+        imgID: "3947c777-b130-428d-8c39-e91a6af78400",
+        description: "Sunset view of Prague Castle",
+        coordinates: {
+          lat: "50°05'21.08\"N",
+          long: "14°24'50.22\"E",
+          link: "https://maps.google.com/?q=50.08918888888889,14.41395",
+        },
+      },
+      {
+        imgID: "4efcf1a6-11aa-46f4-5507-f454782c1d00",
+        description: "Custom jacket preview",
+        coordinates: {
+          lat: "50°05'20.97\"N",
+          long: "14°24'54.51\"E",
+          link: "https://maps.google.com/?q=50.08915833333334,14.415141666666667",
+        },
+      },
+
+      {
+        imgID: "270e72a2-ec89-4613-e287-338b57d04800",
+        description: "Church of Our Lady before Týn (night)",
+        coordinates: {
+          lat: "50°05'14.57\"N",
+          long: "14°25'15.76\"E",
+          link: "https://maps.google.com/?q=50.087380555555555,14.421044444444444",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Germany 🇩🇪",
+    countryNames: ["Germany"],
+    route: "germany",
+    flags: ["🇩🇪"],
+    isFlagLink: true,
+    caption: {
+      title: "Berlin, Germany 🇩🇪",
+      content:
+        "Stop number four in Europe! I was told by a friend that you can feel the sense of freedom here, and that really ran true. Being there on Unity Day also helped a bit. There is so much recent history that’s proudly on display and the entire city just feels so modern. It was amazing!\nThank you Long for giving me a glimpse of what life is like for an expat, sharing your travel tips, and leading us to exactly where we needed to be.",
+      publishDate: "October 10, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "21ae4ace-49fe-498a-5eee-b683dc19cb00",
+        description: "Brandenburg Gate",
+        coordinates: {
+          lat: "52°30'58.93\"N",
+          long: "13°22'42.76\"E",
+          link: "https://maps.google.com/?q=52.51636944444444,13.378544444444445",
+        },
+      },
+      {
+        imgID: "f9eebd5b-bb8d-4535-f395-8fc6eab74600",
+        description: "Memorial to the Murdered Jews of Europe",
+        coordinates: {
+          lat: "52°30'51.39\"N",
+          long: "13°22'45.62\"E",
+          link: "https://maps.google.com/?q=52.514275,13.37933888888889",
+        },
+      },
+      {
+        imgID: "58712a9c-6204-4089-f1d8-036e28aa7100",
+        description: "Berlin",
+        coordinates: {
+          lat: "52°32'13.66\"N",
+          long: "13°23'36.67\"E",
+          link: "https://maps.google.com/?q=52.537127777777776,13.393519444444443",
+        },
+      },
+      {
+        imgID: "f57731e5-ad5f-48b9-1073-7244683afa00",
+        description: "Red star near Checkpoint Charlier",
+        coordinates: {
+          lat: "52°30'28.55\"N",
+          long: "13°23'27.15\"E",
+          link: "https://maps.google.com/?q=52.507930555555554,13.390875",
+        },
+      },
+      {
+        imgID: "0e73edfb-c191-4534-451d-6803cb24cb00",
+        description: "Outskirts of Berlin",
+        coordinates: {
+          lat: "52°30'22.36\"N",
+          long: "13°26'59.38\"E",
+          link: "https://maps.google.com/?q=52.506211111111114,13.449827777777777",
+        },
+      },
+      {
+        imgID: "a940aa39-bc20-43af-4dd8-9efc557a7300",
+        description: "Die Berliner Mauer",
+        coordinates: {
+          lat: "52°30'14.04\"N",
+          long: "13°26'34.20\"E",
+          link: "https://maps.google.com/?q=52.5039,13.442833333333333",
+        },
+      },
+      {
+        imgID: "53ea9a27-1ce8-4d85-3bf5-5865b9147900",
+        description: "Berlin Wall",
+        coordinates: {
+          lat: "52°30'23.37\"N",
+          long: "13°26'13.32\"E",
+          link: "https://maps.google.com/?q=52.50649166666667,13.437033333333334",
+        },
+      },
+      {
+        imgID: "f479a3fb-f0ab-486f-b892-d3b142756700",
+        description: "Altes Museum (top) | Reichstag (bottom)",
+        coordinates: {
+          lat: "52°31'07.52\"N",
+          long: "13°23'58.24\"E",
+          link: "https://maps.google.com/?q=52.51875555555556,13.39951111111111",
+        },
+      },
+      {
+        imgID: "53bfb072-2511-4336-faeb-49191ececb00",
+        description: "Berlin Cathedral",
+        coordinates: {
+          lat: "52°31'07.13\"N",
+          long: "13°23'59.47\"E",
+          link: "https://maps.google.com/?q=52.51864722222222,13.399852777777777",
+        },
+      },
+      {
+        imgID: "7c99a66d-5af7-4d59-2ce3-45e715ca9500",
+        description: "Ishtar Gate in the Pergamon Museum (left)",
+        coordinates: {
+          lat: "52°31'13.53\"N",
+          long: "13°23'50.85\"E",
+          link: "https://maps.google.com/?q=52.520424999999996,13.397458333333333",
+        },
+      },
+      {
+        imgID: "926b501a-f663-434c-ce49-c5b030ff3900",
+        description: "Ishtar Gate in the Pergamon Museum (right)",
+        coordinates: {
+          lat: "52°31'13.53\"N",
+          long: "13°23'50.85\"E",
+          link: "https://maps.google.com/?q=52.520424999999996,13.397458333333333",
+        },
+      },
+      {
+        imgID: "878f9579-8c66-445d-53de-a564a6e8da00",
+        description: "Alexanderplatz",
+        coordinates: {
+          lat: "52°31'15.97\"N",
+          long: "13°24'45.29\"N",
+          link: "https://maps.google.com/?q=52.52110277777778,13.412580555555556",
+        },
+      },
+      {
+        imgID: "aed23e1d-2573-4975-72db-68752b95a700",
+        description: "Techno club w/ Long 🇭🇰",
+        coordinates: {
+          lat: "52°29'51.36\"N",
+          long: "13°26'58.85\"E",
+          link: "https://maps.google.com/?q=52.4976,13.449680555555556",
+        },
+      },
+
+      {
+        imgID: "a602a1bb-9ed6-4851-a50f-8af5bc150d00",
+        description: "Peace from Berlin",
+        coordinates: {
+          lat: "52°30'58.93\"N",
+          long: "13°22'43.65\"E",
+          link: "https://maps.google.com/?q=52.51636944444444,13.378791666666666",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Netherlands 🇳🇱",
+    countryNames: ["Netherlands"],
+    route: "netherlands",
+    flags: ["🇳🇱"],
+    isFlagLink: true,
+    caption: {
+      title: "Amsterdam, Netherlands 🇳🇱",
+      content:
+        "If I were to move anywhere else temporarily, I think it would be here. Just for the chill atmosphere it provides. Something to consider during my next job hunt, whenever that is.",
+      publishDate: "October 6, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "879e3233-d969-476d-e205-40365b90d100",
+        description: "Amsterdam",
+        coordinates: {
+          lat: "52°22'26.57\"N",
+          long: "04°53'54.22\"N",
+          link: "https://maps.google.com/?q=52.374047222222224,4.898394444444444",
+        },
+      },
+      {
+        imgID: "d36381eb-0f62-463c-2df2-c203fa4af900",
+        description: "Rijksmuseum",
+        coordinates: {
+          lat: "52°21'30.33\"N",
+          long: "04°52'59.23\"E",
+          link: "https://maps.google.com/?q=52.358425000000004,4.883119444444445",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "Belgium 🇧🇪",
+    countryNames: [""],
+    route: "belgium",
+    flags: ["🇧🇪"],
+    isFlagLink: true,
+    caption: {
+      title: "Brussels, Belgium 🇧🇪",
+      content:
+        "Second stop in Europe! Such an amazing city! Really had that “European” vibe that I was searching for. Amazing food, architecture, and just a wonderful experience. Really loved how the city lit up at night!\nThank you @alxthiry for showing me around, treating me to dinner, explaining a bit of the history and politics of Belgium, and being an excellent friend.",
+      publishDate: "October 3, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "1261d51f-e959-4ac9-43e4-975e6d51f700",
+        description: "Grand Place (night)",
+        coordinates: {
+          lat: "50°50'47.65\"N",
+          long: "04°21'11.34\"E",
+          link: "https://maps.google.com/?q=50.84656944444445,4.353149999999999",
+        },
+      },
+      {
+        imgID: "853b86c9-079a-496f-daa1-e352ea5e0700",
+        description: "Grand Place (day)",
+        coordinates: {
+          lat: "50°50'47.65\"N",
+          long: "04°21'11.34\"E",
+          link: "https://maps.google.com/?q=50.84656944444445,4.353149999999999",
+        },
+      },
+    ],
+  },
+  {
+    pageTitle: "England 🇬🇧",
+    countryNames: ["England"],
+    route: "england",
+    flags: ["🇬🇧"],
+    isFlagLink: true,
+    caption: {
+      title: "England 🇬🇧",
+      content:
+        "The first stop on my trip across Europe! I have never traveled outside of the US before so it was the perfect place to get my bearings.\nThank you @whywhyyao for housing me, being a good travel buddy, and making me feel welcome across the pond.",
+      publishDate: "September 30, 2022",
+    },
+    previewIdx: 0,
+    postImages: [
+      {
+        imgID: "8a8bda17-4d21-477d-53a3-5a0ff5ef7100",
+        description: "Big Ben",
+        coordinates: {
+          lat: "51°29'57.02\"N",
+          long: "00°07'13.05\"W",
+          link: "https://maps.google.com/?q=51.49917222222222,-0.12029166666666667",
+        },
+      },
+    ],
+  },
 ];
