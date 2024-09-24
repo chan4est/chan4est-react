@@ -42,8 +42,8 @@ class ImageLocationDataProcessor:
         lat_dms = convert_to_dms(latitude)
         lon_dms = convert_to_dms(longitude)
         
-        lat_str = format_dms(lat_dms[0], lat_dms[1], lat_dms[2], lat_dms[3])
-        lon_str = format_dms(lon_dms[0], lon_dms[1], lon_dms[2], lon_dms[3])
+        lat_str = format_dms(lat_dms[0], lat_dms[1], lat_dms[2], True)
+        lon_str = format_dms(lon_dms[0], lon_dms[1], lon_dms[2], False)
         
         return lat_str, lon_str
 

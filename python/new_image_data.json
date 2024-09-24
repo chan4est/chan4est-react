@@ -1,16 +1,7 @@
 [
     {
-        "imgID": "ba2d09a7-3b78-431a-cc16-d6beb3e4cf00",
-        "description": "be_grand_place.png",
-        "coordinates": {
-            "lat": "50°50'47.65\"N",
-            "long": "04°21'11.34\"N",
-            "link": "https://maps.google.com/?q=50.84656944444445,4.353149999999999"
-        }
-    },
-    {
-        "imgID": "853b86c9-079a-496f-daa1-e352ea5e0700",
-        "description": "be_grand_place_day.png",
+        "imgID": "add447b1-ca02-47d7-a860-e20f24848700",
+        "description": "at_reflection.png",
         "coordinates": {
             "lat": "",
             "long": "",

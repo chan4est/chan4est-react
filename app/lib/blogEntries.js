@@ -4826,12 +4826,21 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "f69da6bf-ad91-4895-1195-86cb34e1a200",
+        imgID: "add447b1-ca02-47d7-a860-e20f24848700",
         description: "Karlskirche (St. Charles's Church)",
         coordinates: {
           lat: "48°11'56.76\"N",
           long: "16°22'16.52\"E",
           link: "https://maps.google.com/?q=48.199099999999994,16.371255555555557",
+        },
+      },
+      {
+        imgID: "66b9abfa-6864-4ee8-af98-d299b9704500",
+        description: "St. Charles's Church (alt)",
+        coordinates: {
+          lat: "48°11'56.27\"N",
+          long: "16°22'15.23\"E",
+          link: "https://maps.google.com/?q=48.19896388888888,16.370897222222222",
         },
       },
       {
@@ -4873,14 +4882,22 @@ export const blogEntries = [
       },
       {
         imgID: "8d6b27e4-5577-4959-2bf9-89ba79266f00",
-        description: "Archduke Karl monument",
+        description: "The beauty of Vienna",
         coordinates: {
           lat: "48°12'21.51\"N",
           long: "16°21'51.39\"E",
           link: "https://maps.google.com/?q=48.205975,16.364275000000003",
         },
       },
-
+      {
+        imgID: "2993e3fe-9075-4728-5829-5dcfa03ecd00",
+        description: "Archduke Karl monument",
+        coordinates: {
+          lat: "48°12'23.97\"N",
+          long: "16°21'49.15\"E",
+          link: "https://maps.google.com/?q=48.20665833333334,16.36365277777778",
+        },
+      },
       {
         imgID: "53d7599f-cadc-4262-708e-b8f39ca76100",
         description: "Vienna City Hall",
@@ -4944,6 +4961,15 @@ export const blogEntries = [
           lat: "48°11'05.04\"N",
           long: "16°18'43.83\"E",
           link: "https://maps.google.com/?q=48.18473333333333,16.312175",
+        },
+      },
+      {
+        imgID: "b2e47dbc-a91e-4b6e-1850-3fd620777f00",
+        description: "Neptune Fountain in the Schönbrunn Garden",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
         },
       },
     ],
@@ -5153,8 +5179,17 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "90317f06-53d1-46c9-97c3-67f89705af00",
+        description: "Checkpoint Charlie",
+        coordinates: {
+          lat: "52°30'26.28\"N",
+          long: "13°23'26.37\"E",
+          link: "https://maps.google.com/?q=52.5073,13.390658333333333",
+        },
+      },
+      {
         imgID: "f57731e5-ad5f-48b9-1073-7244683afa00",
-        description: "Red star near Checkpoint Charlier",
+        description: "Red star near Checkpoint Charlie",
         coordinates: {
           lat: "52°30'28.55\"N",
           long: "13°23'27.15\"E",
@@ -5229,7 +5264,7 @@ export const blogEntries = [
         description: "Alexanderplatz",
         coordinates: {
           lat: "52°31'15.97\"N",
-          long: "13°24'45.29\"N",
+          long: "13°24'45.29\"E",
           link: "https://maps.google.com/?q=52.52110277777778,13.412580555555556",
         },
       },
@@ -5262,28 +5297,140 @@ export const blogEntries = [
     isFlagLink: true,
     caption: {
       title: "Amsterdam, Netherlands 🇳🇱",
-      content:
-        "If I were to move anywhere else temporarily, I think it would be here. Just for the chill atmosphere it provides. Something to consider during my next job hunt, whenever that is.",
+      content: "",
       publishDate: "October 6, 2022",
     },
+
     previewIdx: 0,
     postImages: [
       {
-        imgID: "879e3233-d969-476d-e205-40365b90d100",
+        imgID: "478fa22a-f9ff-4493-2af4-6f078dbf5d00",
         description: "Amsterdam",
         coordinates: {
           lat: "52°22'26.57\"N",
-          long: "04°53'54.22\"N",
+          long: "04°53'54.22\"E",
           link: "https://maps.google.com/?q=52.374047222222224,4.898394444444444",
         },
       },
       {
-        imgID: "d36381eb-0f62-463c-2df2-c203fa4af900",
+        imgID: "f3d10f33-30bf-4883-ef2c-c8fc21e2a000",
+        description: "Peace from Amsterdam",
+        coordinates: {
+          lat: "52°22'26.20\"N",
+          long: "04°53'54.57\"E",
+          link: "https://maps.google.com/?q=52.37394444444445,4.898491666666666",
+        },
+      },
+      {
+        imgID: "77bd88df-28d1-4f85-e076-c5851c254700",
         description: "Rijksmuseum",
         coordinates: {
-          lat: "52°21'30.33\"N",
-          long: "04°52'59.23\"E",
-          link: "https://maps.google.com/?q=52.358425000000004,4.883119444444445",
+          lat: "52°21'39.55\"N",
+          long: "04°53'11.62\"E",
+          link: "https://maps.google.com/?q=52.36098611111111,4.886561111111111",
+        },
+      },
+      {
+        imgID: "54ed1f32-a3af-447d-a7f0-25d0cda8a800",
+        description: "The Milkmaid - Johannes Vermeer",
+        coordinates: {
+          lat: "52°21'36.61\"N",
+          long: "04°53'07.95\"E",
+          link: "https://maps.google.com/?q=52.360169444444445,4.885541666666666",
+        },
+      },
+      {
+        imgID: "2e407cc6-1414-45b4-3d38-68b65c523d00",
+        description: "Cuypers Library",
+        coordinates: {
+          lat: "52°21'36.55\"N",
+          long: "04°53'04.30\"E",
+          link: "https://maps.google.com/?q=52.36015277777778,4.884527777777778",
+        },
+      },
+      {
+        imgID: "3d4ca861-7af4-417b-fed6-2c112e369800",
+        description: "Van Gogh Museum",
+        coordinates: {
+          lat: "52°21'28.82\"N",
+          long: "04°52'55.23\"E",
+          link: "https://maps.google.com/?q=52.35800555555556,4.882008333333334",
+        },
+      },
+      {
+        imgID: "7c24492c-8910-4d30-9037-baf309c83400",
+        description: "Bedroom in Arles - Vincent van Gogh",
+        coordinates: {
+          lat: "52°21'30.18\"N",
+          long: "04°52'50.59\"E",
+          link: "https://maps.google.com/?q=52.358383333333336,4.880719444444445",
+        },
+      },
+
+      {
+        imgID: "f717c6a4-a732-4ae1-9015-dad9534a9000",
+        description: "Building in Vondelpark",
+        coordinates: {
+          lat: "52°21'38.06\"N",
+          long: "04°52'28.56\"E",
+          link: "https://maps.google.com/?q=52.360572222222224,4.8746",
+        },
+      },
+      {
+        imgID: "7a36f0cd-0dad-4976-1934-6389d66bb900",
+        description: "Fountain in Vondelpark (left)",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
+        imgID: "cbd43dc3-ae47-4558-5b8f-8b609ff03d00",
+        description: "Fountain in Vondelpark (right)",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
+        imgID: "1574ff73-c0ac-4f0c-85fb-c43a9135d000",
+        description:
+          '"You know what they put on french fries in Holland instead of ketchup?" "What?" "Mayonnaise."',
+        coordinates: {
+          lat: "52°21'25.36\"N",
+          long: "04°53'57.55\"E",
+          link: "https://maps.google.com/?q=52.35704444444445,4.899319444444444",
+        },
+      },
+
+      {
+        imgID: "51d7dd68-9101-4035-8af3-c5cf01c70a00",
+        description: "Red-light district",
+        coordinates: {
+          lat: "52°22'28.21\"N",
+          long: "04°54'00.52\"E",
+          link: "https://maps.google.com/?q=52.37450277777778,4.900144444444445",
+        },
+      },
+
+      {
+        imgID: "b224fa56-d46e-4b3f-f88c-bd417894b200",
+        description: "Moulin Rougue",
+        coordinates: {
+          lat: "52°22'27.89\"N",
+          long: "04°54'00.39\"E",
+          link: "https://maps.google.com/?q=52.37441388888889,4.900108333333334",
+        },
+      },
+      {
+        imgID: "f8b8d7ed-b58e-4e00-1e29-0834adb48800",
+        description: "Drug warning projection",
+        coordinates: {
+          lat: "52°22'23.34\"N",
+          long: "04°53'58.57\"E",
+          link: "https://maps.google.com/?q=52.37315,4.899602777777777",
         },
       },
     ],

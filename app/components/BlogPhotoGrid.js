@@ -12,7 +12,7 @@ export function GalleryGridSquare({
   hasLayersIco,
 }) {
   return (
-    <Link href={entryRoute} title={imgTitle}>
+    <Link href={entryRoute} title={entryTitle}>
       <div className="relative">
         {hasLayersIco && (
           <Image
