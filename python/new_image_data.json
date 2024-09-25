@@ -1,7 +1,16 @@
 [
     {
-        "imgID": "561165f9-7b71-4c9d-6dc4-291e4d054a00",
-        "description": "hu_bastion_alt.png",
+        "imgID": "2b443395-2ad3-4b16-97a5-2a4f8242fa00",
+        "description": "gb_parliment.png",
+        "coordinates": {
+            "lat": "51°29'57.05\"N",
+            "long": "00°07'12.87\"E",
+            "link": "https://maps.google.com/?q=51.499180555555554,-0.12024166666666666"
+        }
+    },
+    {
+        "imgID": "29d02178-f639-4cf2-124f-e9e5d9feb500",
+        "description": "gb_parliment_left.png",
         "coordinates": {
             "lat": "",
             "long": "",
@@ -9,8 +18,8 @@
         }
     },
     {
-        "imgID": "d100c924-4712-4fed-ce16-53bffdd6e900",
-        "description": "hu_bastion_front.png",
+        "imgID": "4bea732d-c0b7-4c4e-c386-fb61b5ac4a00",
+        "description": "gb_parliment_right.png",
         "coordinates": {
             "lat": "",
             "long": "",
