@@ -248,7 +248,7 @@ export const blogEntries = [
       },
       {
         imgID: "3bb1d109-5a16-4516-4ebe-3f86e3fe2900",
-        description: "Dubrovnik friends collage left",
+        description: "Dubrovnik friends collage (left)",
         coordinates: {
           lat: "42°37'23.50\"N",
           long: "18°07'10.60\"E",
@@ -257,7 +257,7 @@ export const blogEntries = [
       },
       {
         imgID: "aa6780cb-bdbf-4d50-564d-c12cdf133200",
-        description: "Dubrovnik friends collage right",
+        description: "Dubrovnik friends collage (right)",
         coordinates: {
           lat: "42°37'23.50\"N",
           long: "18°07'10.60\"E",
@@ -514,7 +514,7 @@ export const blogEntries = [
       },
       {
         imgID: "f70d267f-9d04-450a-b704-599af93e0900",
-        description: "Old Town İstanbul panoramic left",
+        description: "Old Town İstanbul (left)",
         coordinates: {
           lat: "41°00'50.20\"N",
           long: "28°59'09.30\"E",
@@ -523,7 +523,7 @@ export const blogEntries = [
       },
       {
         imgID: "06deb72d-aa25-4c9a-210c-8280f8cb8400",
-        description: "Old Town İstanbul panoramic right",
+        description: "Old Town İstanbul (right)",
         coordinates: {
           lat: "41°00'50.20\"N",
           long: "28°59'09.30\"E",
@@ -4368,7 +4368,7 @@ export const blogEntries = [
       },
       {
         imgID: "f15c6cd7-ef50-402f-6c4a-2a413704f400",
-        description: "Lost in Versailles",
+        description: "Lost in the gardens of Versailles",
         coordinates: {
           lat: "48°49'01.92\"N",
           long: "02°05'16.80\"E",
@@ -4663,12 +4663,22 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "3a201c1a-b5c4-4106-093c-81468a715b00",
-        description: "Fisherman's Bastion",
+        imgID: "561165f9-7b71-4c9d-6dc4-291e4d054a00",
+        // imgID: "3a201c1a-b5c4-4106-093c-81468a715b00",
+        description: "Fisherman's Bastion archway",
         coordinates: {
           lat: "47°30'08.71\"N",
           long: "19°02'04.56\"E",
           link: "https://maps.google.com/?q=47.50241944444444,19.0346",
+        },
+      },
+      {
+        imgID: "d100c924-4712-4fed-ce16-53bffdd6e900",
+        description: "Fisherman's Bastion",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
         },
       },
       {
@@ -4709,7 +4719,7 @@ export const blogEntries = [
       },
       {
         imgID: "f339932d-178b-4374-64f5-f11e39569600",
-        description: "Hungarian Parliament  Building (day)",
+        description: "Hungarian Parliament Building (day)",
         coordinates: {
           lat: "47°30'27.19\"N",
           long: "19°02'22.77\"E",
@@ -5055,7 +5065,7 @@ export const blogEntries = [
 
       {
         imgID: "cc1b2fb5-ff6b-4adc-1c35-09eedd5e4c00",
-        description: "Prague Castle panoramic (left)",
+        description: "Prague Castle (left)",
         coordinates: {
           lat: "50°05'22.52\"N",
           long: "14°23'52.67\"E",
@@ -5064,7 +5074,7 @@ export const blogEntries = [
       },
       {
         imgID: "9293b481-bce5-4f4a-6541-ccd1c6ea9400",
-        description: "Prague Castle panoramic (center)",
+        description: "Prague Castle (center)",
         coordinates: {
           lat: "50°05'22.52\"N",
           long: "14°23'52.67\"E",
@@ -5073,7 +5083,7 @@ export const blogEntries = [
       },
       {
         imgID: "c6f320fc-1a4a-49e9-340b-cbf93aa73200",
-        description: "Prague Castle panoramic (right)",
+        description: "Prague Castle (right)",
         coordinates: {
           lat: "50°05'22.52\"N",
           long: "14°23'52.67\"E",
@@ -5444,27 +5454,153 @@ export const blogEntries = [
     caption: {
       title: "Brussels, Belgium 🇧🇪",
       content:
-        "Second stop in Europe! Such an amazing city! Really had that “European” vibe that I was searching for. Amazing food, architecture, and just a wonderful experience. Really loved how the city lit up at night!\nThank you @alxthiry for showing me around, treating me to dinner, explaining a bit of the history and politics of Belgium, and being an excellent friend.",
+        "Second stop in Europe! Such an amazing city! Really had that “European” vibe that I was searching for. Amazing food, architecture, and just a wonderful experience. Really loved how the city lit up at night!\nThank you Alex for showing me around, treating me to dinner, explaining a bit of the history and politics of Belgium, and being an excellent friend.",
       publishDate: "October 3, 2022",
     },
     previewIdx: 0,
     postImages: [
       {
-        imgID: "1261d51f-e959-4ac9-43e4-975e6d51f700",
-        description: "Grand Place (night)",
+        imgID: "dab96555-643a-49f7-445c-6200057ef400",
+        description: "Grand Place at night",
         coordinates: {
-          lat: "50°50'47.65\"N",
-          long: "04°21'11.34\"E",
-          link: "https://maps.google.com/?q=50.84656944444445,4.353149999999999",
+          lat: "50°50'47.72\"N",
+          long: "04°21'11.23\"E",
+          link: "https://maps.google.com/?q=50.84658888888889,4.353119444444444",
         },
       },
       {
-        imgID: "853b86c9-079a-496f-daa1-e352ea5e0700",
-        description: "Grand Place (day)",
+        imgID: "21b3b122-82fe-4a9c-c2b9-61914d133400",
+        description: "Grand Place (left)",
         coordinates: {
-          lat: "50°50'47.65\"N",
-          long: "04°21'11.34\"E",
-          link: "https://maps.google.com/?q=50.84656944444445,4.353149999999999",
+          lat: "50°50'47.39\"N",
+          long: "04°21'11.24\"E",
+          link: "https://maps.google.com/?q=50.846497222222226,4.353122222222222",
+        },
+      },
+      {
+        imgID: "20dddcf5-5afc-47f3-0011-44fef9c9d100",
+        description: "Grand Place (right)",
+        coordinates: {
+          lat: "50°50'47.39\"N",
+          long: "04°21'11.24\"E",
+          link: "https://maps.google.com/?q=50.846497222222226,4.353122222222222",
+        },
+      },
+      {
+        imgID: "7fe1221a-a1e9-400f-14ce-b0effdb53200",
+        description: "Brussels City Museum",
+        coordinates: {
+          lat: "50°50'48.43\"N",
+          long: "04°21'08.54\"E",
+          link: "https://maps.google.com/?q=50.846786111111115,4.352372222222222",
+        },
+      },
+      {
+        imgID: "7a3b1bef-453e-4592-ab1c-1f96bb6d7c00",
+        description: "Belgian waffle",
+        coordinates: {
+          lat: "50°50'47.11\"N",
+          long: "04°21'11.45\"E",
+          link: "https://maps.google.com/?q=50.84641944444445,4.353180555555555",
+        },
+      },
+      {
+        imgID: "4663a3f3-d830-4b02-6f34-8a8a46202800",
+        description: "Belgian chocolate",
+        coordinates: {
+          lat: "50°50'48.62\"N",
+          long: "04°21'10.33\"E",
+          link: "https://maps.google.com/?q=50.84683888888889,4.352869444444444",
+        },
+      },
+      {
+        imgID: "ed7f46d8-4983-43aa-1f1c-895de1a38f00",
+        description: "My first self-caught regional Pokémon, Klefki",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
+        imgID: "a2db03e5-93d2-403d-3249-c3428b33e200",
+        description: "Royal Palace of Brussels (left)",
+        coordinates: {
+          lat: "50°50'33.02\"N",
+          long: "04°21'45.18\"E",
+          link: "https://maps.google.com/?q=50.842505555555555,4.36255",
+        },
+      },
+      {
+        imgID: "a205edf0-13ae-436c-b560-8812bd72d700",
+        description: "Royal Palace of Brussels (right)",
+        coordinates: {
+          lat: "50°50'33.02\"N",
+          long: "04°21'45.18\"E",
+          link: "https://maps.google.com/?q=50.842505555555555,4.36255",
+        },
+      },
+      {
+        imgID: "844a5bbd-15e3-47ed-2d0c-6f746d613b00",
+        description: "Mont des Arts",
+        coordinates: {
+          lat: "50°50'36.58\"N",
+          long: "04°21'26.67\"E",
+          link: "https://maps.google.com/?q=50.843494444444445,4.357408333333333",
+        },
+      },
+      {
+        imgID: "a46c05ee-7fc9-4fe7-0807-b37fc5a13d00",
+        description: "Triumphal Arch",
+        coordinates: {
+          lat: "50°50'29.52\"N",
+          long: "04°23'16.87\"E",
+          link: "https://maps.google.com/?q=50.84153333333334,4.388019444444445",
+        },
+      },
+      {
+        imgID: "4b51cbfd-148d-4808-69b1-3fc410086f00",
+        description: "Brussels Town Hall from a nearby alley",
+        coordinates: {
+          lat: "50°50'49.76\"N",
+          long: "04°21'09.73\"E",
+          link: "https://maps.google.com/?q=50.84715555555556,4.352702777777777",
+        },
+      },
+      {
+        imgID: "81761a25-e9b4-4cba-e308-7615c29e7700",
+        description: "Royal Gallery of Saint Hubert",
+        coordinates: {
+          lat: "50°50'54.24\"N",
+          long: "04°21'20.45\"E",
+          link: "https://maps.google.com/?q=50.848400000000005,4.355680555555555",
+        },
+      },
+      {
+        imgID: "259477bb-2776-40c9-9c52-12017ac58200",
+        description: "Grand Place at night (uncropped)",
+        coordinates: {
+          lat: "50°50'47.72\"N",
+          long: "04°21'11.23\"E",
+          link: "https://maps.google.com/?q=50.84658888888889,4.353119444444444",
+        },
+      },
+      {
+        imgID: "f586b4a2-37e1-4d5d-aa77-286909982000",
+        description: "Night of Alex 🇧🇪 showing me around",
+        coordinates: {
+          lat: "50°50'47.25\"N",
+          long: "04°21'10.99\"E",
+          link: "https://maps.google.com/?q=50.84645833333334,4.353052777777777",
+        },
+      },
+      {
+        imgID: "c16882e2-c102-4824-ef33-30a7ca8ff700",
+        description: "Peace from Brussels",
+        coordinates: {
+          lat: "50°50'47.39\"N",
+          long: "04°21'11.03\"E",
+          link: "https://maps.google.com/?q=50.846497222222226,4.353063888888888",
         },
       },
     ],
@@ -5478,7 +5614,7 @@ export const blogEntries = [
     caption: {
       title: "England 🇬🇧",
       content:
-        "The first stop on my trip across Europe! I have never traveled outside of the US before so it was the perfect place to get my bearings.\nThank you @whywhyyao for housing me, being a good travel buddy, and making me feel welcome across the pond.",
+        "The first stop on my trip across Europe! I have never traveled outside of the US before so it was the perfect place to get my bearings.\nThank you Yao for housing me, being a good travel buddy, and making me feel welcome across the pond.",
       publishDate: "September 30, 2022",
     },
     previewIdx: 0,
