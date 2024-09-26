@@ -362,6 +362,24 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "b2bd8563-1a8b-4645-89d6-cbea2d162500",
+        description: "Ακρόπολη station",
+        coordinates: {
+          lat: "37°58'04.25\"N",
+          long: "23°43'41.80\"E",
+          link: "https://maps.google.com/?q=37.967847222222225,23.728277777777777",
+        },
+      },
+      {
+        imgID: "05f0627a-6a6f-438a-c94b-060016c57300",
+        description: "Gigantic ferry",
+        coordinates: {
+          lat: "37°56'51.86\"N",
+          long: "23°38'30.30\"E",
+          link: "https://maps.google.com/?q=37.947738888888885,23.64175",
+        },
+      },
+      {
         imgID: "da07d084-bfcf-42a7-d970-545df5ff3000",
         description: "Alefkandra (Little Venice)",
         coordinates: {
@@ -389,6 +407,24 @@ export const blogEntries = [
         imgID: "65abefca-420c-4f1b-4f9c-3a13e4b71700",
       },
       {
+        imgID: "6e357a28-0e50-498a-0516-568bec1e1e00",
+        description: "80% of my diet was gyros",
+        coordinates: {
+          lat: "37°58'02.79\"N",
+          long: "23°43'43.54\"E",
+          link: "https://maps.google.com/?q=37.967441666666666,23.72876111111111",
+        },
+      },
+      {
+        imgID: "e9d02701-ec80-46fe-ccec-7cf7cb50ce00",
+        description: "Agean sea",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
         imgID: "b54b53a2-a6bd-4b82-4c79-db364bfe6500",
         description: "Santorini Bells",
         coordinates: {
@@ -405,6 +441,15 @@ export const blogEntries = [
         },
         description: "Santorini Sunset",
         imgID: "2a2edaae-03ca-4ecf-ce05-4ecd809cf000",
+      },
+      {
+        imgID: "b7b85f0a-676b-4253-57f1-1579c01d5a00",
+        description: "Seafood in Santorini",
+        coordinates: {
+          lat: "36°27'37.03\"N",
+          long: "25°22'16.23\"E",
+          link: "https://maps.google.com/?q=36.46028611111112,25.371175",
+        },
       },
       {
         imgID: "09adb545-52f5-4736-4619-f6f8faebdf00",
@@ -1436,7 +1481,7 @@ export const blogEntries = [
       },
       {
         imgID: "31a0f2be-5aeb-47a4-904c-5082d82a4e00",
-        description: "Waving a 🇨🇳 flag in front of the Meridian Gate",
+        description: "Waving a 🇨🇳 flag in front of the Forbidden Palace",
         coordinates: {
           lat: "39°54'45.90\"N",
           long: "116°23'50.40\"E",
@@ -1627,7 +1672,7 @@ export const blogEntries = [
       },
       {
         imgID: "e6c254e3-65af-42ce-e3d7-8e637249ec00",
-        description: "CCP Display at Beijing airport",
+        description: "CCP Display at Beijing Daxing International Airport",
         coordinates: {
           lat: "39°30'44.30\"N",
           long: "116°24'38.90\"E",
@@ -1897,7 +1942,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/14%C2%B036'27.6%22N+120%C2%B058'28.1%22E/@14.607669,120.9738173,346m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d14.607669!4d120.974461?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
           long: "120°58'28.10\"E",
         },
-        description: "Patrick & Andrew 🇵🇭 outside Seng Guan Temple in Binando",
+        description: "Patrick & Andrew 🇵🇭",
         imgID: "bca9efb6-3202-46ee-c541-2aca704c4e00",
       },
       {
@@ -2096,6 +2141,24 @@ export const blogEntries = [
         description: "Panoramic view of Gardens by the Bay",
         imgID: "9724de23-06b3-4337-beb1-897ac7231500",
       },
+      // {
+      //   coordinates: {
+      //     lat: "01°17'17.01\"N ",
+      //     link: "https://www.google.com/maps/place/Gardens+by+the+Bay+East+(Panoramic+view)/@1.2880001,103.8688871,113m/data=!3m1!1e3!4m6!3m5!1s0x31da19b3ce186ae3:0x30f0c4eb920ff406!8m2!3d1.2881069!4d103.8690209!16s%2Fg%2F11j4yl68yt?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+      //     long: "103°52'08.05\"E",
+      //   },
+      //   description: "Panoramic view of Gardens by the Bay (left)",
+      //   imgID: "59f87a5f-b260-4833-6c6a-fde06ec08a00",
+      // },
+      // {
+      //   coordinates: {
+      //     lat: "01°17'17.01\"N ",
+      //     link: "https://www.google.com/maps/place/Gardens+by+the+Bay+East+(Panoramic+view)/@1.2880001,103.8688871,113m/data=!3m1!1e3!4m6!3m5!1s0x31da19b3ce186ae3:0x30f0c4eb920ff406!8m2!3d1.2881069!4d103.8690209!16s%2Fg%2F11j4yl68yt?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+      //     long: "103°52'08.05\"E",
+      //   },
+      //   description: "Panoramic view of Gardens by the Bay (right)",
+      //   imgID: "0a9d50bf-2d46-4e56-aff5-656955654b00",
+      // },
     ],
   },
   {
@@ -2478,12 +2541,21 @@ export const blogEntries = [
         imgID: "ebbd747d-87e0-4eb0-8129-c22506113e00",
       },
       {
+        imgID: "c2796aab-71db-47b3-beea-178b4803ec00",
+        description: "Hanoi Train Street",
         coordinates: {
           lat: "21°01'03.78\"N",
           link: "https://maps.google.com/?q=21.017716666666665,105.84089999999999",
           long: "105°50'27.24\"E",
         },
-        description: "Narrow train tracks in Hanoi",
+      },
+      {
+        coordinates: {
+          lat: "21°01'03.78\"N",
+          link: "https://maps.google.com/?q=21.017716666666665,105.84089999999999",
+          long: "105°50'27.24\"E",
+        },
+        description: "Balancing on the narrow train tracks",
         imgID: "594d38a1-c948-43c9-4580-ffcdafe87000",
       },
       {
@@ -2674,6 +2746,15 @@ export const blogEntries = [
         imgID: "0f8b6aab-ac7d-4786-f767-88ae724dcd00",
       },
       {
+        imgID: "3f9d6adc-3602-462d-8119-9fcec6355400",
+        description: "Paper laterns in Asakusa",
+        coordinates: {
+          lat: "35°42'47.57\"N",
+          long: "139°47'47.76\"E",
+          link: "https://maps.google.com/?q=35.713213888888895,139.7966",
+        },
+      },
+      {
         coordinates: {
           lat: "35°39'32.90\"N",
           link: "https://maps.google.com/?q=35.65913888888889,139.70079166666665",
@@ -2697,7 +2778,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.660869444444444,139.698625",
           long: "139°41'55.05\"E",
         },
-        description: "Ichiran Ramen",
+        description: "Ichiran ramen",
         imgID: "ac0d759d-96bd-4344-c330-99afad590e00",
       },
       {
@@ -2706,7 +2787,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.65643055555555,139.69537222222223",
           long: "139°41'43.34\"E",
         },
-        description: "Porter Robinson Nurture Live Tickets",
+        description: "Porter Robinson 'Nurture Live' tickets",
         imgID: "4d373423-cfde-416a-242b-c1d55e136100",
       },
       {
@@ -2814,7 +2895,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.69629722222222,139.57028333333332",
           long: "139°34'13.02\"E",
         },
-        description: "Ghibli Museum Ticket",
+        description: "Ghibli Museum ticket",
         imgID: "4444036e-eceb-4759-c396-03340f8ada00",
       },
       {
@@ -2841,7 +2922,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:35.7129139,139.7931361",
           long: "139°47'35.03\"E",
         },
-        description: "Kura Sushi in Asakusa",
+        description: "Kura sushi",
         imgID: "d5d8bad0-d4de-4ff1-b5ae-8edefd864f00",
       },
       {
@@ -2868,7 +2949,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.635325,139.7093972222222",
           long: "139°42'33.83\"E",
         },
-        description: "Cherry Blossoms",
+        description: "Cherry blossoms",
         imgID: "4c7c56f3-b6ce-4bc4-2193-c624f2468c00",
       },
       {
@@ -2886,7 +2967,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.66722222222222,139.73062222222222",
           long: "139°43'50.24\"E",
         },
-        description: "Japanese Wagyu Teppanyaki",
+        description: "Japanese Wagyu yeppanyaki",
         imgID: "448f75c4-e042-4823-0f37-f765bd190900",
       },
       {
@@ -2965,7 +3046,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.66916944444444,135.50071666666668",
           long: "135°30'02.58\"E",
         },
-        description: "Dōtonbori during the day",
+        description: "Dōtonbori (day)",
         imgID: "90c5d32f-fdaf-4de9-507b-aca7ca248c00",
       },
       {
@@ -2974,7 +3055,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.66913333333333,135.50125",
           long: "135°30'04.50\"E",
         },
-        description: "Glico Running Man!",
+        description: "Dōtonbori (night)",
         imgID: "528bebb2-e092-4e3c-782c-d66ac19c2600",
       },
       {
@@ -3163,8 +3244,17 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.994147222222225,135.7853861111111",
           long: "135°47'07.39\"E",
         },
-        description: "Kiyomizu-dera Temple",
-        imgID: "e8b91555-afce-4d8d-3191-1d073a0b2c00",
+        description: "Kiyomizu-dera Temple (left)",
+        imgID: "132ef76d-8d51-4ee2-af6d-407edc109800",
+      },
+      {
+        coordinates: {
+          lat: "34°59'38.93\"N",
+          link: "https://maps.google.com/?q=34.994147222222225,135.7853861111111",
+          long: "135°47'07.39\"E",
+        },
+        description: "Kiyomizu-dera Temple (right)",
+        imgID: "822ced79-d9b2-41a3-190d-36b802a46500",
       },
       {
         coordinates: {
@@ -3298,7 +3388,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.96903888888889,135.75711944444444",
           long: "135°45'25.63\"E",
         },
-        description: "My dream job",
+        description: "My dream company",
         imgID: "ede4fdae-8a44-4dfb-ba3f-5efbb7fa9e00",
       },
     ],
@@ -3819,12 +3909,20 @@ export const blogEntries = [
       {
         coordinates: {
           lat: "22°56'59.08\"S",
+          imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
+          long: "43°09'23.24\"W",
+        },
+        description: "Rio de Janiero atop Sugarloaf Mountain (left)",
+        imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
+      },
+      {
+        coordinates: {
+          lat: "22°56'59.08\"S",
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description:
-          "Rio de Janiero from the top of Sugarloaf Mountain (uncropped)",
-        imgID: "f5b3d1f0-1290-47be-f968-3bd21514b500",
+        description: "Rio de Janiero atop Sugarloaf Mountain (right)",
+        imgID: "ea4fdb65-ab17-4638-9e43-3081c90a7400",
       },
       {
         coordinates: {
@@ -4546,7 +4644,7 @@ export const blogEntries = [
       },
       {
         imgID: "b2e9fe38-e98d-4d0b-d671-57cb6ac18b00",
-        description: "St Michael the Archangel - Peter Anton von Verschaffelt",
+        description: "St. Michael the Archangel - Peter Anton von Verschaffelt",
         coordinates: {
           lat: "41°54'10.20\"N",
           long: "12°27'59.67\"E",
@@ -4799,7 +4897,7 @@ export const blogEntries = [
       },
 
       {
-        imgID: "b307e412-6ec2-4545-f0a8-d1997c622400",
+        imgID: "4ae4b9d5-4c88-4371-e2e5-53a58bcc0600",
         description: "Streets of Budapest",
         coordinates: {
           lat: "47°30'15.46\"N",
@@ -5770,7 +5868,7 @@ export const blogEntries = [
       },
       {
         imgID: "dcb97013-350e-4037-089c-e9f874f3ef00",
-        description: "St James's Park",
+        description: "St. James's Park",
         coordinates: {
           lat: "51°30'08.09\"N",
           long: "00°08'06.61\"E",

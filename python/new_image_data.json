@@ -1,7 +1,16 @@
 [
     {
-        "imgID": "1f1c5970-8620-432e-a467-f551efe5d200",
-        "description": "at_palace_yellow_center.png",
+        "imgID": "b2bd8563-1a8b-4645-89d6-cbea2d162500",
+        "description": "gr_acropoli.png",
+        "coordinates": {
+            "lat": "37°58'04.25\"N",
+            "long": "23°43'41.80\"E",
+            "link": "https://maps.google.com/?q=37.967847222222225,23.728277777777777"
+        }
+    },
+    {
+        "imgID": "05f0627a-6a6f-438a-c94b-060016c57300",
+        "description": "gr_ferry.png",
         "coordinates": {
             "lat": "",
             "long": "",
@@ -9,8 +18,8 @@
         }
     },
     {
-        "imgID": "0903b357-50bb-4c2a-c9c2-116470e88600",
-        "description": "at_palace_yellow_left.png",
+        "imgID": "6e357a28-0e50-498a-0516-568bec1e1e00",
+        "description": "gr_food.png",
         "coordinates": {
             "lat": "",
             "long": "",
@@ -18,12 +27,21 @@
         }
     },
     {
-        "imgID": "6a0a1c0f-f4d9-4388-2d4b-d20b4cd3b000",
-        "description": "at_palace_yellow_right.png",
+        "imgID": "e9d02701-ec80-46fe-ccec-7cf7cb50ce00",
+        "description": "gr_ocean.png",
         "coordinates": {
             "lat": "",
             "long": "",
             "link": ""
+        }
+    },
+    {
+        "imgID": "b7b85f0a-676b-4253-57f1-1579c01d5a00",
+        "description": "gr_seafood.png",
+        "coordinates": {
+            "lat": "36°27'37.03\"N",
+            "long": "25°22'16.23\"E",
+            "link": "https://maps.google.com/?q=36.46028611111112,25.371175"
         }
     }
 ]

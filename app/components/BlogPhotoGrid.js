@@ -21,7 +21,7 @@ export function GalleryGridSquare({
             width={50}
             height={50}
             className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
-            priority={true}
+            priority={false}
             unoptimized={true}
           />
         )}
@@ -31,7 +31,7 @@ export function GalleryGridSquare({
           width={310}
           height={310}
           className="max-h-[19.375rem] bg-text"
-          priority={true}
+          priority={false}
           unoptimized={true}
         />
       </div>
