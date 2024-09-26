@@ -1,16 +1,7 @@
 [
     {
-        "imgID": "2b443395-2ad3-4b16-97a5-2a4f8242fa00",
-        "description": "gb_parliment.png",
-        "coordinates": {
-            "lat": "51°29'57.05\"N",
-            "long": "00°07'12.87\"E",
-            "link": "https://maps.google.com/?q=51.499180555555554,-0.12024166666666666"
-        }
-    },
-    {
-        "imgID": "29d02178-f639-4cf2-124f-e9e5d9feb500",
-        "description": "gb_parliment_left.png",
+        "imgID": "1f1c5970-8620-432e-a467-f551efe5d200",
+        "description": "at_palace_yellow_center.png",
         "coordinates": {
             "lat": "",
             "long": "",
@@ -18,8 +9,17 @@
         }
     },
     {
-        "imgID": "4bea732d-c0b7-4c4e-c386-fb61b5ac4a00",
-        "description": "gb_parliment_right.png",
+        "imgID": "0903b357-50bb-4c2a-c9c2-116470e88600",
+        "description": "at_palace_yellow_left.png",
+        "coordinates": {
+            "lat": "",
+            "long": "",
+            "link": ""
+        }
+    },
+    {
+        "imgID": "6a0a1c0f-f4d9-4388-2d4b-d20b4cd3b000",
+        "description": "at_palace_yellow_right.png",
         "coordinates": {
             "lat": "",
             "long": "",

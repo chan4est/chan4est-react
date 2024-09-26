@@ -12,7 +12,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default function BlogGallery({}) {
-  const imagesData = blogEntries.reverse().flatMap((entry) =>
+  const reversedBlogEntries = blogEntries.slice().reverse();
+
+  const imagesData = reversedBlogEntries.flatMap((entry) =>
     entry.postImages.map((img, imgIdx) => ({
       ...img,
       entryTitle: img.description,

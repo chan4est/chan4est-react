@@ -35,7 +35,7 @@ export function GalleryGridSquare({
           unoptimized={true}
         />
       </div>
-      {/* <p className="text-xxs">{imgTitle}</p> */}
+      <p className="text-xxs text-center">{imgTitle}</p>
     </Link>
   );
 }

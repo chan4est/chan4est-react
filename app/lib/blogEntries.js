@@ -1674,8 +1674,17 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=25.03695,121.51727222222222",
           long: "121°31'2.18\"E",
         },
-        description: "Liberty Square Arch",
-        imgID: "7d61b1d6-9a07-4a1c-97e7-028af97d6b00",
+        description: "Liberty Square Arch (left)",
+        imgID: "d544847f-b71f-4442-fe35-ff0faa577e00",
+      },
+      {
+        coordinates: {
+          lat: "25°02'13.02\"N",
+          link: "https://maps.google.com/?q=25.03695,121.51727222222222",
+          long: "121°31'2.18\"E",
+        },
+        description: "Liberty Square Arch (right)",
+        imgID: "2ca7fd29-dca5-4133-1d03-226dd9f02100",
       },
       {
         coordinates: {
@@ -3589,8 +3598,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.690108333333335,-54.43819444444444",
           long: "54°26'17.50\"W",
         },
-        description:
-          "Mirante da Garganta do Diabo (Devil's Throat Lookout) - 🇧🇷",
+        description: "Mirante da Garganta do Diabo (Devil's Throat Lookout) 🇧🇷",
         imgID: "3eb218ca-bb56-4cea-9046-e8e74ce71a00",
       },
       {
@@ -3599,7 +3607,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.69162222222222,-54.43795833333333",
           long: "54°26'16.65\"W",
         },
-        description: "Peace from Iguaçu Falls - 🇧🇷",
+        description: "Peace from Iguaçu Falls 🇧🇷",
         imgID: "01fe499d-1ca8-4b5f-3b6d-e33200edea00",
       },
       {
@@ -3608,7 +3616,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.691063888888888,-54.437172222222216",
           long: "54°26'13.82\"W",
         },
-        description: "Garganta do Diabo (Devil's Throat) - 🇧🇷",
+        description: "Garganta do Diabo (Devil's Throat) 🇧🇷",
         imgID: "e780a1e3-fb24-4ef7-d631-e90fd6ac0000",
       },
       {
@@ -3617,7 +3625,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.691063888888888,-54.437172222222216",
           long: "54°26'13.82\"W",
         },
-        description: "Garganta do Diabo (Devil's Throat) close up - 🇧🇷",
+        description: "Garganta do Diabo (Devil's Throat) close up 🇧🇷",
         imgID: "61fa9ac0-fa54-4ae2-7a4b-4c1f7f988600",
       },
       {
@@ -3626,7 +3634,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.685119444444446,-54.43979722222222",
           long: "54°26'23.27\"W",
         },
-        description: "Iguazu Falls seen from Brazil - 🇧🇷",
+        description: "Iguazu Falls seen from Brazil 🇧🇷",
         imgID: "abf11e3c-58fe-4718-cced-39eae2aa0f00",
       },
       {
@@ -3635,7 +3643,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.673491666666667,-54.44358333333333",
           long: "54°26'36.90\"W",
         },
-        description: "Boat ride in the Iguazu River - 🇦🇷",
+        description: "Boat ride in the Iguazu River 🇦🇷",
         imgID: "1a313900-17be-41bd-2d03-c32281bbd100",
       },
       {
@@ -3644,7 +3652,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.685694444444444,-54.44356666666666",
           long: "54°26'36.84\"W",
         },
-        description: "Iguazu Falls - 🇦🇷",
+        description: "Iguazu Falls 🇦🇷",
         imgID: "5fa3fe5a-9fb8-4f49-4fd2-b400b0908400",
       },
       {
@@ -3653,7 +3661,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.6878,-54.440599999999996",
           long: "54°26'26.16\"W",
         },
-        description: "Going under a waterfall - 🇦🇷",
+        description: "Going under a waterfall 🇦🇷",
         imgID: "3ab04908-909a-4114-4ef8-4c669b9d0200",
       },
       {
@@ -3662,7 +3670,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.685566666666666,-54.446275",
           long: "54°26'46.59\"W",
         },
-        description: "Iguazu Falls - 🇦🇷",
+        description: "Iguazu Falls 🇦🇷",
         imgID: "cb896eaa-eb72-4a0e-51a3-46bc1f490c00",
       },
       {
@@ -3680,7 +3688,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.682930555555558,-54.444830555555555",
           long: "54°26'41.39\"W",
         },
-        description: "Giant ant, coati, monkeys, and a toucan! - 🇧🇷 + 🇦🇷",
+        description: "Giant ant, coati, monkeys, and a toucan! 🇧🇷 + 🇦🇷",
         imgID: "a1d1f783-432b-4b38-2773-08075ca52700",
       },
       {
@@ -3689,7 +3697,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-25.6887,-54.4443",
           long: "54°26'39.48\"W",
         },
-        description: "Flag of Argentina - 🇦🇷",
+        description: "Flag of Argentina 🇦🇷",
         imgID: "8bbf58d0-c5cb-4599-110d-435cb0db0900",
       },
     ],
@@ -4051,7 +4059,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "370ee1da-4989-4c38-eb9d-fb6937ce3400",
+        imgID: "65b2f694-c6b7-484b-758e-351bf0630a00",
         description: "Catedral de Santa María la Real de la Almudena",
         coordinates: {
           lat: "40°24'59.83\"N",
@@ -4358,8 +4366,8 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "4ca00d31-aca1-496d-24fa-4c40b9e8e100",
-        description: "Bassin d'Apollon - Charles Le Brun",
+        imgID: "d520f0ed-9a91-4b18-9d92-a3cf9543af00",
+        description: "Bassin d'Apollon - Charles Le Brun (left)",
         coordinates: {
           lat: "48°48'25.99\"N",
           long: "02°06'40.48\"E",
@@ -4367,8 +4375,26 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "e7af47f9-89f8-4b2c-b39e-3b3f8dd64000",
+        description: "Bassin d'Apollon - Charles Le Brun (right)",
+        coordinates: {
+          lat: "48°48'25.99\"N",
+          long: "02°06'40.48\"E",
+          link: "https://maps.google.com/?q=48.80721944444444,2.1112444444444445",
+        },
+      },
+      {
+        imgID: "f2840b22-cb2d-41a8-1522-850bc8b19c00",
+        description: "Gardens of Versailles",
+        coordinates: {
+          lat: "48°48'32.48\"N",
+          long: "02°06'23.75\"E",
+          link: "https://maps.google.com/?q=48.80902222222222,2.1065972222222222",
+        },
+      },
+      {
         imgID: "f15c6cd7-ef50-402f-6c4a-2a413704f400",
-        description: "Lost in the gardens of Versailles",
+        description: "Lost in Versailles",
         coordinates: {
           lat: "48°49'01.92\"N",
           long: "02°05'16.80\"E",
@@ -4493,7 +4519,7 @@ export const blogEntries = [
       },
       {
         imgID: "76354ab1-4d2c-4a84-36f0-f58df669f100",
-        description: "Capitoline  Wolf",
+        description: "Capitoline Wolf",
         coordinates: {
           lat: "41°53'33.86\"N",
           long: "12°28'56.23\"E",
@@ -4518,14 +4544,50 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=41.90163888888889,12.468786111111111",
         },
       },
-
+      {
+        imgID: "b2e9fe38-e98d-4d0b-d671-57cb6ac18b00",
+        description: "St Michael the Archangel - Peter Anton von Verschaffelt",
+        coordinates: {
+          lat: "41°54'10.20\"N",
+          long: "12°27'59.67\"E",
+          link: "https://maps.google.com/?q=41.902833333333334,12.466574999999999",
+        },
+      },
       {
         imgID: "5ef033a6-d7fc-4335-eb25-fb88cef58800",
-        description: "St. Peter's Basilica",
+        description: "Vatican City 🇻🇦",
         coordinates: {
           lat: "41°54'08.40\"N",
           long: "12°27'41.40\"E",
           link: "https://maps.google.com/?q=41.90233333333333,12.4615",
+        },
+      },
+
+      {
+        imgID: "93e99645-d486-42c1-cf68-b90bb0ba4a00",
+        description: "St. Peter's Basilica",
+        coordinates: {
+          lat: "41°54'09.56\"N",
+          long: "12°27'21.92\"E",
+          link: "https://maps.google.com/?q=41.902655555555555,12.456088888888889",
+        },
+      },
+      {
+        imgID: "617d9cbc-2af8-4991-ed27-acffa71d6300",
+        description: "Inside of St. Peter's Basilica",
+        coordinates: {
+          lat: "41°54'07.81\"N",
+          long: "12°27'21.32\"E",
+          link: "https://maps.google.com/?q=41.902169444444446,12.455922222222222",
+        },
+      },
+      {
+        imgID: "9668ae84-6689-4e19-4e2f-316905a05b00",
+        description: "Chair of Saint Peter",
+        coordinates: {
+          lat: "41°54'03.36\"N",
+          long: "12°27'10.30\"E",
+          link: "https://maps.google.com/?q=41.900933333333334,12.45286111111111",
         },
       },
       {
@@ -4879,7 +4941,6 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=48.20764444444445,16.36621388888889",
         },
       },
-
       {
         imgID: "ac758cc9-1d5e-4516-c864-cbf6e708d400",
         description: "Hofburg Palace",
@@ -4925,7 +4986,6 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=48.20385,16.36789166666667",
         },
       },
-
       {
         imgID: "ff1661fc-ea46-4578-244c-8d6865032700",
         description: "Belvedere Palace",
@@ -5162,7 +5222,7 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "21ae4ace-49fe-498a-5eee-b683dc19cb00",
-        description: "Brandenburg Gate",
+        description: "Brandenburger Tor",
         coordinates: {
           lat: "52°30'58.93\"N",
           long: "13°22'42.76\"E",
@@ -5180,7 +5240,7 @@ export const blogEntries = [
       },
       {
         imgID: "58712a9c-6204-4089-f1d8-036e28aa7100",
-        description: "Berlin",
+        description: "Inner Berlin",
         coordinates: {
           lat: "52°32'13.66\"N",
           long: "13°23'36.67\"E",
@@ -5216,7 +5276,8 @@ export const blogEntries = [
       },
       {
         imgID: "a940aa39-bc20-43af-4dd8-9efc557a7300",
-        description: "Die Berliner Mauer",
+        description:
+          "My God, Help Me to Survive This Deadly Love - Dmitri Vrubel",
         coordinates: {
           lat: "52°30'14.04\"N",
           long: "13°26'34.20\"E",
@@ -5225,7 +5286,7 @@ export const blogEntries = [
       },
       {
         imgID: "53ea9a27-1ce8-4d85-3bf5-5865b9147900",
-        description: "Berlin Wall",
+        description: "East Side Gallery",
         coordinates: {
           lat: "52°30'23.37\"N",
           long: "13°26'13.32\"E",
@@ -5279,7 +5340,7 @@ export const blogEntries = [
       },
       {
         imgID: "aed23e1d-2573-4975-72db-68752b95a700",
-        description: "Techno club w/ Long 🇭🇰",
+        description: "Popup techno club w/ Long 🇭🇰",
         coordinates: {
           lat: "52°29'51.36\"N",
           long: "13°26'58.85\"E",
@@ -5375,10 +5436,18 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=52.358383333333336,4.880719444444445",
         },
       },
-
+      {
+        imgID: "f2325488-f31c-4720-f722-6bc8f0155f00",
+        description: "Vondelpark",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
       {
         imgID: "f717c6a4-a732-4ae1-9015-dad9534a9000",
-        description: "Building in Vondelpark",
+        description: "Dutch architecture",
         coordinates: {
           lat: "52°21'38.06\"N",
           long: "04°52'28.56\"E",
@@ -5386,27 +5455,8 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "7a36f0cd-0dad-4976-1934-6389d66bb900",
-        description: "Fountain in Vondelpark (left)",
-        coordinates: {
-          lat: "",
-          long: "",
-          link: "",
-        },
-      },
-      {
-        imgID: "cbd43dc3-ae47-4558-5b8f-8b609ff03d00",
-        description: "Fountain in Vondelpark (right)",
-        coordinates: {
-          lat: "",
-          long: "",
-          link: "",
-        },
-      },
-      {
         imgID: "1574ff73-c0ac-4f0c-85fb-c43a9135d000",
-        description:
-          '"You know what they put on french fries in Holland instead of ketchup?" "What?" "Mayonnaise."',
+        description: "Mayonnaise on fries",
         coordinates: {
           lat: "52°21'25.36\"N",
           long: "04°53'57.55\"E",
@@ -5460,15 +5510,6 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "ffc8997b-fb25-4892-2254-6ffed8fde500",
-        description: "Grand Place at night",
-        coordinates: {
-          lat: "50°50'47.72\"N",
-          long: "04°21'11.23\"E",
-          link: "https://maps.google.com/?q=50.84658888888889,4.353119444444444",
-        },
-      },
-      {
-        imgID: "dab96555-643a-49f7-445c-6200057ef400",
         description: "Grand Place at night",
         coordinates: {
           lat: "50°50'47.72\"N",
@@ -5719,17 +5760,8 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "64b23d7c-8937-425e-7d39-1a67c152f900",
-        description: "Victoria Memorial (left)",
-        coordinates: {
-          lat: "51°30'06.37\"N",
-          long: "00°08'27.69\"E",
-          link: "https://maps.google.com/?q=51.50176944444444,-0.141025",
-        },
-      },
-      {
         imgID: "de4c3322-9ffc-451f-a227-23984f46b800",
-        description: "Victoria Memorial (right)",
+        description: "Victoria Memorial",
         coordinates: {
           lat: "51°30'05.71\"N",
           long: "00°08'27.13\"E",
