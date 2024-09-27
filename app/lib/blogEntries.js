@@ -41,6 +41,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "be4dc606-6587-4941-c467-0bd814c6e400",
+        description: "Organ inside Hallgrimskirkja",
+        coordinates: {
+          lat: "64°08'30.34\"N",
+          long: "21°55'36.24\"E",
+          link: "https://maps.google.com/?q=64.14176111111112,-21.926733333333335",
+        },
+      },
+      {
         imgID: "970c6c3d-a0d1-4386-e587-f8503d6ceb00",
         description: "Homes in downtown Reykjavík",
         coordinates: {
@@ -65,6 +74,16 @@ export const blogEntries = [
           lat: "63°52'46.60\"N",
           long: "22°26'53.90\"W",
           link: "https://www.google.com/maps?q=loc:63.8796,-22.4483",
+        },
+      },
+      {
+        imgID: "6d54b47f-edb3-4f9a-831d-f47dd84ecb00",
+        description:
+          "Terrible Icelandic food (jelied sheeps head w/ cold sides, beer, bread ice cream)",
+        coordinates: {
+          lat: "64°08'32.87\"N",
+          long: "21°55'42.19\"E",
+          link: "https://maps.google.com/?q=64.1424638888889,-21.928386111111113",
         },
       },
       {
@@ -113,6 +132,42 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "3db499af-f564-4c8d-bc0a-f910f84bf200",
+        description: "Geysir",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
+        imgID: "33f42785-2978-4859-cf60-31958ee27900",
+        description: "Windy stairs to the top of Skógafoss",
+        coordinates: {
+          lat: "63°31'50.44\"N",
+          long: "19°30'38.53\"E",
+          link: "https://maps.google.com/?q=63.530677777777775,-19.510702777777777",
+        },
+      },
+      {
+        imgID: "aad7f1a5-4190-41df-5cd8-11d8e1222400",
+        description: "Struggling in Iceland",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
+      },
+      {
+        imgID: "2489c721-7350-4b64-c17a-1c8961c2f700",
+        description: "Icelandic sheep",
+        coordinates: {
+          lat: "63°31'49.04\"N",
+          long: "19°30'42.90\"E",
+          link: "https://maps.google.com/?q=63.53028888888889,-19.511916666666668",
+        },
+      },
+      {
         imgID: "69307224-3f93-40f0-290f-f66204d2d100",
         description: "Seljalandsfoss",
         coordinates: {
@@ -146,6 +201,15 @@ export const blogEntries = [
           lat: "63°24'09.90\"N",
           long: "19°02'31.00\"W",
           link: "https://www.google.com/maps?q=loc:63.4027472,-19.0419472",
+        },
+      },
+      {
+        imgID: "5ec937d2-6439-4094-b648-b0878c239b00",
+        description: "Black sand at the black sand beach",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
         },
       },
       {
@@ -201,6 +265,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "01b0841c-3dc7-4f70-abc3-491d7da67100",
+        description: "Locked up on the city walls",
+        coordinates: {
+          lat: "42°38'31.30\"N",
+          long: "18°06'38.77\"E",
+          link: "https://maps.google.com/?q=42.64202777777778,18.110769444444447",
+        },
+      },
+      {
         imgID: "8da5a379-7304-4a24-1c4a-c1b8a1abff00",
         description: "Streets of Dubrovnik",
         coordinates: {
@@ -243,6 +316,15 @@ export const blogEntries = [
           lat: "42°37'19.90\"N",
           long: "18°07'08.80\"E",
           link: "https://www.google.com/maps?q=loc:42.6222,18.1191",
+        },
+      },
+      {
+        imgID: "7fae55e4-8044-47ff-2ae7-d6f5bcc2ea00",
+        description: "Not my first time on the Iron Throne",
+        coordinates: {
+          lat: "42°37'26.42\"N",
+          long: "18°07'14.88\"E",
+          link: "https://maps.google.com/?q=42.624005555555556,18.1208",
         },
       },
       {
@@ -6606,6 +6688,15 @@ export const blogEntries = [
           lat: "51°30'35.18\"N",
           long: "00°08'04.51\"E",
           link: "https://maps.google.com/?q=51.509772222222225,-0.1345861111111111",
+        },
+      },
+      {
+        imgID: "be24a04a-24d7-4383-ce1d-c0cae6cd6000",
+        description: "English breakfast",
+        coordinates: {
+          lat: "51°30'40.03\"N",
+          long: "00°04'30.59\"E",
+          link: "https://maps.google.com/?q=51.51111944444445,-0.07516388888888889",
         },
       },
       {

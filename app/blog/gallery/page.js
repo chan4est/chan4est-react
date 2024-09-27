@@ -3,13 +3,24 @@ import { Links } from "@/app/lib/Links";
 import { Footer } from "@/app/components/Footer";
 
 import { blogEntries } from "@/app/lib/blogEntries";
+import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
 
-export async function generateMetadata({ params }) {
-  const metadata = {
-    title: `Blog | Gallery `,
-  };
-  return metadata;
-}
+export const metadata = {
+  title: "chan4est | Travel Blog Gallery",
+  description: "Gallery of all my travels around the world 🌎🌍🌏",
+  openGraph: {
+    title: "chan4est | Travel Blog Gallery",
+    description: "Gallery for Chandler's world travel blog",
+    url: "/blog/gallery",
+    image: {
+      url: "/",
+      width: 1200,
+      height: 630,
+    },
+    local: "en_US",
+    type: "website",
+  },
+};
 
 export default function BlogGallery({}) {
   const reversedBlogEntries = blogEntries.slice().reverse();
@@ -22,9 +33,20 @@ export default function BlogGallery({}) {
     }))
   );
 
+  const postNavBar = (
+    <BlogPostNavBar
+      blogBackLink={Links.BLOG}
+      innerText={<p className="pt-1">Gallery</p>}
+    />
+  );
+
   return (
     <>
-      <div className="bg-background flex flex-1 flex-col text-center content-center items-center">
+      <div className="portrait:hidden landscape:block">{postNavBar}</div>
+      <div className="bg-background flex flex-1 flex-col text-center landscape:justify-center landscape:items-center">
+        <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
+          {postNavBar}
+        </div>
         <BlogPhotoGrid imagesData={imagesData} hasDesc={true} />
       </div>
       <Footer />
