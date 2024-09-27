@@ -11,6 +11,7 @@ export const Links = Object.freeze({
   LINKEDIN: "https://www.linkedin.com/in/chan4est/",
   GITHUB: "https://github.com/chan4est/",
   TOKYO_BLOG: "/blog/tokyo?img_index=14",
+  NAGOYA_BLOG: "/blog/nagoya?img_index=5",
   BLOG_ROUTER_LINK: (country, imageIndex) =>
     `/blog/${country}?img_index=${imageIndex + 1}`,
   BLOG_BACK_LINK: (country) => `/blog/${country}`,

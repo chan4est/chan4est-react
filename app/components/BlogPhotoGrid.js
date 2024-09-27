@@ -13,7 +13,7 @@ export function GalleryGridSquare({
   hasDesc,
 }) {
   return (
-    <Link href={entryRoute} title={entryTitle}>
+    <Link href={entryRoute} title={entryTitle} className="max-w-[19.375rem]">
       <div className="relative">
         {hasLayersIco && (
           <Image

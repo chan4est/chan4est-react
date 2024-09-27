@@ -70,7 +70,10 @@ function BlogHeader({ blogEntries }) {
 
   return (
     <section className="flex flex-col sm:flex-row items-center px-4 pb-4 sm:pb-0 pt-10">
-      <div id="age" className="flex-shrink-0">
+      <Link
+        href={Links.NAGOYA_BLOG}
+        className="flex-shrink-0 hover:scale-105 transition duration-200 ease-in-out"
+      >
         <Image
           src={chanPhotoNagoya}
           alt={"Nagoya Castle"}
@@ -80,7 +83,7 @@ function BlogHeader({ blogEntries }) {
           priority={true}
           unoptimized={true}
         />
-      </div>
+      </Link>
       <div
         id="blurb"
         className="flex flex-column items-center pt-3 sm:pl-10 text-left max-w-[26rem] lg:max-w-[30rem] text-[0.875rem] md:text-base"
@@ -99,7 +102,7 @@ function BlogHeader({ blogEntries }) {
           </li>
           <br />
           <li>WIP but nearing completion.</li>
-          <li>Last update 9/24/24.</li>
+          <li>Last update 9/27/24.</li>
         </ul>
       </div>
     </section>
