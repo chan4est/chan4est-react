@@ -36,6 +36,7 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",
+        img_bg: "var(--img-bg)",
         button_active: "var(--button-active)",
         button_inactive: "var(--button-inactive)",
       },

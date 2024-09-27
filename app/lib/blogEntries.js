@@ -327,7 +327,7 @@ export const blogEntries = [
       },
       {
         imgID: "f0895547-6168-437a-272f-9635207f1800",
-        description: "Stoa of Attalos Exterior",
+        description: "Stoa of Attalos exterior",
         coordinates: {
           lat: "37°58'29.10\"N",
           long: "23°43'26.60\"E",
@@ -336,7 +336,7 @@ export const blogEntries = [
       },
       {
         imgID: "a77beec6-b193-4151-eba2-054b8f132c00",
-        description: "Stoa of Attalos Interior",
+        description: "Stoa of Attalos interior",
         coordinates: {
           lat: "37°59'22.00\"N",
           long: "23°43'57.80\"E",
@@ -408,7 +408,7 @@ export const blogEntries = [
       },
       {
         imgID: "6e357a28-0e50-498a-0516-568bec1e1e00",
-        description: "80% of my diet was gyros",
+        description: "80% of my diet was gyros 😋",
         coordinates: {
           lat: "37°58'02.79\"N",
           long: "23°43'43.54\"E",
@@ -439,7 +439,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=36.461377777777784,25.375994444444444",
           long: "25°22'33.58\"E",
         },
-        description: "Santorini Sunset",
+        description: "Sunset in Santorini",
         imgID: "2a2edaae-03ca-4ecf-ce05-4ecd809cf000",
       },
       {
@@ -478,7 +478,7 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "bf9eba99-b78c-411c-774b-7a970185c900",
-        description: "Büyük Mecidiye Mosuqe and the Bosphorus Bridge",
+        description: "Büyük Mecidiye Mosuqe w/ the Bosphorus Bridge",
         coordinates: {
           lat: "41°02'50.60\"N",
           long: "29°01'32.50\"E",
@@ -692,7 +692,7 @@ export const blogEntries = [
       },
       {
         imgID: "8f2e6259-701e-4d4c-e630-4dfc852be100",
-        description: "Khan el-Khalili at night",
+        description: "Alley in Khan el-Khalili",
         coordinates: {
           lat: "30°02'50.30\"N",
           long: "31°15'43.60\"E",
@@ -719,7 +719,7 @@ export const blogEntries = [
       },
       {
         imgID: "96adace9-f39d-4811-2765-5d7491883700",
-        description: "Valley of the Kings Hieroglyphs",
+        description: "Hieroglyphs found in Valley of the Kings",
         coordinates: {
           lat: "25°44'33.70\"N",
           long: "32°36'11.20\"E",
@@ -789,7 +789,7 @@ export const blogEntries = [
       },
       {
         imgID: "6c087bcc-7a33-43bb-5cda-9b4b2112f800",
-        description: "Al-Khazneh (The Treasury) - uncropped",
+        description: "The Treasury (uncropped)",
         coordinates: {
           lat: "30°19'19.90\"N",
           long: "35°27'05.80\"E",
@@ -798,7 +798,7 @@ export const blogEntries = [
       },
       {
         imgID: "b17a33eb-67ca-4088-fbd4-596923003200",
-        description: "Strolling through Petra - Treasury",
+        description: "Strolling through Petra (Treasury)",
         coordinates: {
           lat: "30°19'20.80\"N",
           long: "35°27'06.60\"E",
@@ -816,7 +816,7 @@ export const blogEntries = [
       },
       {
         imgID: "684f85d3-4634-4f9f-9dfc-70c831a0f600",
-        description: "Strolling through Petra - Monastery",
+        description: "Strolling through Petra (Monastery)",
         coordinates: {
           lat: "30°20'16.60\"N",
           long: "35°25'49.50\"E",
@@ -1001,7 +1001,7 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "dca9d6bd-3978-478e-dccc-f538d709eb00",
-        description: "ताज महल (Taj Mahal)",
+        description: "Taj Mahal",
         coordinates: {
           lat: "27°10'18.80\"N",
           long: "78°02'31.90\"E",
@@ -1091,7 +1091,7 @@ export const blogEntries = [
       },
       {
         imgID: "f13adfdd-b5f4-4943-aa9a-9872f3241500",
-        description: "Jama Masjid",
+        description: "Central dome of Jama Masjid",
         coordinates: {
           lat: "28°39'04.00\"N",
           long: "77°14'00.60\"E",
@@ -1196,12 +1196,39 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "03024ad2-3fe8-4247-c5af-8573112dd100",
+        description: "Lunch w/ Edwin & Yvonne 🇭🇰",
+        coordinates: {
+          lat: "22°19'03.15\"N",
+          long: "114°10'10.78\"E",
+          link: "https://maps.google.com/?q=22.317541666666667,114.16966111111111",
+        },
+      },
+      {
+        imgID: "1254d574-aeed-44d8-a7ba-526f6e373600",
+        description: "Dim sum!",
+        coordinates: {
+          lat: "22°19'02.63\"N",
+          long: "114°10'10.78\"E",
+          link: "https://maps.google.com/?q=22.317397222222223,114.16966111111111",
+        },
+      },
+      {
         imgID: "b605e868-fca4-4b85-c5cb-e15f464df900",
         description: "M+ w/ Edwin & Yvonne 🇭🇰",
         coordinates: {
           lat: "22°18'04.00\"N",
           long: "114°09'33.10\"E",
           link: "https://www.google.com/maps?q=loc:22.3011,114.1592",
+        },
+      },
+      {
+        imgID: "bd33014c-13d6-4226-8b4c-4064ce310700",
+        description: "East Meets West - Tseng Kwong Chi",
+        coordinates: {
+          lat: "22°18'01.12\"N",
+          long: "114°09'31.37\"E",
+          link: "https://maps.google.com/?q=22.30031111111111,114.1587138888889",
         },
       },
       {
@@ -1214,14 +1241,42 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "8b8a66c7-8051-430a-5017-16ffec662f00",
+        description: "Shelter hats + Imperial R pins for Edwin & Yvonne 🇭🇰",
+        coordinates: {
+          lat: "22°19'05.47\"N",
+          long: "114°10'09.99\"E",
+          link: "https://maps.google.com/?q=22.31818611111111,114.16944166666667",
+        },
+      },
+      {
         imgID: "e6e69fd4-099f-4683-5a0a-af1fb3371d00",
-        description: "Second Sky Painting by Yvonne 🇭🇰",
+        description: "Second Sky Painting from Edwin & Yvonne 🇭🇰",
         coordinates: {
           lat: "22°17'08.50\"N",
           long: "114°09'36.00\"E",
           link: "https://www.google.com/maps?q=loc:22.2857,114.16",
         },
       },
+      {
+        imgID: "bb885c7e-fd0e-4bd1-0ff7-53d24b525900",
+        description: "Walking to dinner",
+        coordinates: {
+          lat: "22°22'23.37\"N",
+          long: "114°06'42.73\"E",
+          link: "https://maps.google.com/?q=22.373158333333333,114.11186944444444",
+        },
+      },
+      {
+        imgID: "7ca6732d-690b-4f9c-fa67-a2e41a035200",
+        description: "Dinner w/ friends",
+        coordinates: {
+          lat: "22°22'23.68\"N",
+          long: "114°06'42.02\"E",
+          link: "https://maps.google.com/?q=22.373244444444445,114.11167222222221",
+        },
+      },
+
       {
         imgID: "2bdb692d-7743-4e51-f1e6-8415c0740b00",
         description: "Cinoz Studio Tour w/ Edwin, Yvonne & Garth 🇭🇰",
@@ -1247,6 +1302,15 @@ export const blogEntries = [
           lat: "22°16'48.00\"N",
           long: "114°11'04.90\"E",
           link: "https://www.google.com/maps?q=loc:22.28,114.1847",
+        },
+      },
+      {
+        imgID: "62366d6e-07fa-43ab-6568-23dc6f85ac00",
+        description: "Times Square Hong Kong",
+        coordinates: {
+          lat: "22°16'48.72\"N",
+          long: "114°11'04.65\"E",
+          link: "https://maps.google.com/?q=22.2802,114.184625",
         },
       },
       {
@@ -1289,7 +1353,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=37.55200277777777,126.987375",
           long: "126°59'14.55\"E",
         },
-        description: "Hearts from Seoul!",
+        description: "Love from Seoul!",
         imgID: "b3ec2980-90a4-4731-c563-55bb5939cb00",
       },
       {
@@ -1307,7 +1371,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=37.552099999999996,126.98851666666667",
           long: "126°59'18.66\"E",
         },
-        description: "Seoul from Namsan Mountain Park",
+        description: "Nightlit Seoul from Namsan Mountain Park",
         imgID: "44a45498-6e1f-44f1-9018-c7ba32967f00",
       },
       {
@@ -1325,7 +1389,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:37.5187222,127.1167222",
           long: "127°07'00.20\"E",
         },
-        description: "Olympic Park World Peace Gate",
+        description: "Olympic Park's World Peace Gate",
         imgID: "e47f20f2-50fa-4a26-c1f7-5417573cc300",
       },
       {
@@ -2084,7 +2148,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/1%C2%B016'56.5%22N+103%C2%B050'31.7%22E/@1.2823722,103.8414958,358m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d1.2823722!4d103.8421395?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
           long: "103°50'31.07\"E",
         },
-        description: "Hawker stalls",
+        description: "Food found in hawker stalls",
         imgID: "2465742b-e317-4965-8296-483fa5916700",
       },
       {
@@ -2265,15 +2329,7 @@ export const blogEntries = [
         description: "Bankok's Chinatown looking north",
         imgID: "a994488d-e1ab-49ec-114a-51dc48182c00",
       },
-      {
-        coordinates: {
-          lat: "13°45'06.24\"N",
-          link: "https://maps.google.com/?q=13.751733333333334,100.49286666666667",
-          long: "100°29'34.32\"E",
-        },
-        description: "Statues at the Grand Palace",
-        imgID: "6daa9837-28d3-4ab4-8366-b808be639e00",
-      },
+
       {
         coordinates: {
           lat: "13°44'47.21\"N",
@@ -2285,12 +2341,12 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "13°45'5.64\"N",
-          link: "https://maps.google.com/?q=13.751566666666667,100.49305833333334",
-          long: "100°29'35.01\"E",
+          lat: "13°45'06.24\"N",
+          link: "https://maps.google.com/?q=13.751733333333334,100.49286666666667",
+          long: "100°29'34.32\"E",
         },
-        description: "Tiled rooftops at The Grand Palace",
-        imgID: "b7f7525a-2d44-40d3-cd02-5deade0c0800",
+        description: "Statues at the Grand Palace",
+        imgID: "6daa9837-28d3-4ab4-8366-b808be639e00",
       },
       {
         coordinates: {
@@ -2307,7 +2363,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.732922222222223,100.5408638888889",
           long: "100°32'27.11\"E",
         },
-        description: "Water Monitor walking by a cat",
+        description: "Asian water monitor walking by a cat",
         imgID: "33d0d8d7-85df-4a14-1a33-eeb746b61300",
       },
       {
@@ -2352,7 +2408,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:7.8771528,98.4285806",
           long: "98°25'42.09\"E",
         },
-        description: "Waterlogged phone's last connection",
+        description: "Water damaged phone's last connection",
         imgID: "ba5f2671-901c-43c0-a9b2-f86e6fc46100",
       },
       {
@@ -2787,7 +2843,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.65643055555555,139.69537222222223",
           long: "139°41'43.34\"E",
         },
-        description: "Porter Robinson 'Nurture Live' tickets",
+        description: "Tickets to Porter Robinson's 'Nurture Live'",
         imgID: "4d373423-cfde-416a-242b-c1d55e136100",
       },
       {
@@ -2814,7 +2870,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:35.6618022,139.7011036",
           long: "139°42'04.00\"E",
         },
-        description: "Meeting Porter Robinson at Shibuya Tower Records",
+        description: "Thanking Porter Robinson at Shibuya Tower Records",
         imgID: "2d0bda01-ae35-456f-ea0e-cda4692f7a00",
       },
       {
@@ -3182,7 +3238,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.654383333333335,135.42887777777776",
           long: "135°25'43.96\"E",
         },
-        description: "Osaka Aquarium",
+        description: "Pengiun at Osaka Aquarium",
         imgID: "c90e5c9d-a2f8-4667-7f91-bd62f5274f00",
       },
       {
@@ -3812,7 +3868,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero from the top of Sugarloaf Mountain",
+        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain",
         imgID: "b9192f39-35a8-4e90-4def-f98d56dea700",
       },
       {
@@ -3912,7 +3968,7 @@ export const blogEntries = [
           imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero atop Sugarloaf Mountain (left)",
+        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain (left)",
         imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
       },
       {
@@ -3921,7 +3977,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Rio de Janiero atop Sugarloaf Mountain (right)",
+        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain (right)",
         imgID: "ea4fdb65-ab17-4638-9e43-3081c90a7400",
       },
       {
@@ -3968,7 +4024,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-23.556622222222224,-46.661941666666664",
           long: "46°39'42.99\"W",
         },
-        description: "Avenida Paulista",
+        description: "São Paulo's Avenida Paulista",
         imgID: "2a97ef20-6471-4ce3-6114-abbb6cb78000",
       },
       {
@@ -4357,7 +4413,7 @@ export const blogEntries = [
       },
       {
         imgID: "49a2492b-ea24-45d9-5a00-e14234ebb900",
-        description: "Louvre",
+        description: "The Louvre",
         coordinates: {
           lat: "48°51'41.43\"N",
           long: "02°20'08.66\"E",
@@ -4366,7 +4422,7 @@ export const blogEntries = [
       },
       {
         imgID: "a4ea97e6-39df-44b9-8cb1-f2fd59f91400",
-        description: "The Grande Galerie",
+        description: "The Louvre's Grande Galerie",
         coordinates: {
           lat: "48°51'35.44\"N",
           long: "02°20'08.02\"E",
@@ -4389,6 +4445,24 @@ export const blogEntries = [
           lat: "48°51'36.87\"N",
           long: "02°20'10.97\"E",
           link: "https://maps.google.com/?q=48.86024166666667,2.336380555555556",
+        },
+      },
+      {
+        imgID: "7d60d1c1-1c61-4009-ec88-6268b65be100",
+        description: "Liberty Leading the People - Eugène Delacroix",
+        coordinates: {
+          lat: "48°51'37.65\"N",
+          long: "02°20'06.31\"E",
+          link: "https://maps.google.com/?q=48.860458333333334,2.3350861111111114",
+        },
+      },
+      {
+        imgID: "5176e18e-79ef-40d0-3b93-bcaa3d7c6f00",
+        description: "Musée d'Orsay interior",
+        coordinates: {
+          lat: "48°51'34.73\"N",
+          long: "02°19'38.19\"E",
+          link: "https://maps.google.com/?q=48.85964722222222,2.3272749999999998",
         },
       },
       {
@@ -4833,7 +4907,7 @@ export const blogEntries = [
       },
       {
         imgID: "d100c924-4712-4fed-ce16-53bffdd6e900",
-        description: "Fisherman's Bastion",
+        description: "Courtyard at Fisherman's Bastion",
         coordinates: {
           lat: "",
           long: "",
@@ -4842,7 +4916,7 @@ export const blogEntries = [
       },
       {
         imgID: "66027d78-598d-4b67-b0ba-1bb641725800",
-        description: "Back of Fisherman's Bastion",
+        description: "Largest turrent at Fisherman's Bastion",
         coordinates: {
           lat: "47°30'09.19\"N",
           long: "19°02'03.78\"E",
@@ -4860,7 +4934,7 @@ export const blogEntries = [
       },
       {
         imgID: "93a91fb6-a684-44b7-2603-27eeb7654e00",
-        description: "Buda",
+        description: "City of Buda",
         coordinates: {
           lat: "47°29'07.62\"N",
           long: "19°03'14.86\"E",
@@ -4869,7 +4943,7 @@ export const blogEntries = [
       },
       {
         imgID: "8948b176-68d9-4f5e-62cb-c20bac3c9a00",
-        description: "Pest",
+        description: "City of Pest",
         coordinates: {
           lat: "47°29'45.11\"N",
           long: "19°02'26.91\"E",
@@ -5031,15 +5105,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "cb423416-a9be-4b83-45bc-ed2bfabf6a00",
-        description: "Oppulent dome inside Hofburg Palace",
-        coordinates: {
-          lat: "48°12'27.52\"N",
-          long: "16°21'58.37\"E",
-          link: "https://maps.google.com/?q=48.20764444444445,16.36621388888889",
-        },
-      },
-      {
         imgID: "ac758cc9-1d5e-4516-c864-cbf6e708d400",
         description: "Hofburg Palace",
         coordinates: {
@@ -5049,8 +5114,17 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "cb423416-a9be-4b83-45bc-ed2bfabf6a00",
+        description: "Oppulent dome inside Hofburg Palace",
+        coordinates: {
+          lat: "48°12'27.52\"N",
+          long: "16°21'58.37\"E",
+          link: "https://maps.google.com/?q=48.20764444444445,16.36621388888889",
+        },
+      },
+      {
         imgID: "8d6b27e4-5577-4959-2bf9-89ba79266f00",
-        description: "The beauty of Vienna",
+        description: "Looking towards city hall",
         coordinates: {
           lat: "48°12'21.51\"N",
           long: "16°21'51.39\"E",
@@ -5123,7 +5197,7 @@ export const blogEntries = [
       },
       {
         imgID: "33ffc544-3d0c-4189-4f0d-b4eb6863a400",
-        description: "Scale of Schönbrunn Palace's grounds",
+        description: "Scale of the Schönbrunn Palace grounds",
         coordinates: {
           lat: "48°11'05.04\"N",
           long: "16°18'43.83\"E",
@@ -5156,7 +5230,7 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "28e2e9b5-5602-43ac-a918-7c12b7dca500",
+        imgID: "2328ac9f-7c73-466e-5e2a-e93ac3bdfb00",
         description: "Charles Bridge",
         coordinates: {
           lat: "50°05'13.01\"N",
@@ -5284,16 +5358,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "4efcf1a6-11aa-46f4-5507-f454782c1d00",
-        description: "Custom jacket preview",
-        coordinates: {
-          lat: "50°05'20.97\"N",
-          long: "14°24'54.51\"E",
-          link: "https://maps.google.com/?q=50.08915833333334,14.415141666666667",
-        },
-      },
-
-      {
         imgID: "270e72a2-ec89-4613-e287-338b57d04800",
         description: "Church of Our Lady before Týn (night)",
         coordinates: {
@@ -5373,6 +5437,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "53ea9a27-1ce8-4d85-3bf5-5865b9147900",
+        description: "East Side Gallery",
+        coordinates: {
+          lat: "52°30'23.37\"N",
+          long: "13°26'13.32\"E",
+          link: "https://maps.google.com/?q=52.50649166666667,13.437033333333334",
+        },
+      },
+      {
         imgID: "a940aa39-bc20-43af-4dd8-9efc557a7300",
         description:
           "My God, Help Me to Survive This Deadly Love - Dmitri Vrubel",
@@ -5380,15 +5453,6 @@ export const blogEntries = [
           lat: "52°30'14.04\"N",
           long: "13°26'34.20\"E",
           link: "https://maps.google.com/?q=52.5039,13.442833333333333",
-        },
-      },
-      {
-        imgID: "53ea9a27-1ce8-4d85-3bf5-5865b9147900",
-        description: "East Side Gallery",
-        coordinates: {
-          lat: "52°30'23.37\"N",
-          long: "13°26'13.32\"E",
-          link: "https://maps.google.com/?q=52.50649166666667,13.437033333333334",
         },
       },
       {
@@ -5526,12 +5590,30 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "17d6565b-3ea8-42b7-cdc4-30a0e38ef000",
+        description: "Self-Portrait with Grey Felt Hat - Vincent van Gogh",
+        coordinates: {
+          lat: "52°21'29.84\"N",
+          long: "04°52'49.91\"E",
+          link: "https://maps.google.com/?q=52.35828888888889,4.880530555555556",
+        },
+      },
+      {
         imgID: "7c24492c-8910-4d30-9037-baf309c83400",
         description: "Bedroom in Arles - Vincent van Gogh",
         coordinates: {
           lat: "52°21'30.18\"N",
           long: "04°52'50.59\"E",
           link: "https://maps.google.com/?q=52.358383333333336,4.880719444444445",
+        },
+      },
+      {
+        imgID: "067de986-4464-4c56-d213-0a748622df00",
+        description: "Wheatfield with Crows - Vincent van Gogh",
+        coordinates: {
+          lat: "52°21'30.76\"N",
+          long: "04°52'53.98\"E",
+          link: "https://maps.google.com/?q=52.35854444444445,4.881661111111112",
         },
       },
       {
@@ -5715,7 +5797,7 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "81761a25-e9b4-4cba-e308-7615c29e7700",
+        imgID: "67da2d4e-3fde-4ad1-9257-025749c21000",
         description: "Royal Gallery of Saint Hubert",
         coordinates: {
           lat: "50°50'54.24\"N",

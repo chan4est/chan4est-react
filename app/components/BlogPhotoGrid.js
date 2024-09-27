@@ -10,6 +10,7 @@ export function GalleryGridSquare({
   entryTitle,
   entryRoute,
   hasLayersIco,
+  hasDesc,
 }) {
   return (
     <Link href={entryRoute} title={entryTitle}>
@@ -30,17 +31,17 @@ export function GalleryGridSquare({
           alt={`Photo of ${imgTitle}`}
           width={310}
           height={310}
-          className="max-h-[19.375rem] bg-text"
+          className="max-h-[19.375rem] bg-img_bg"
           priority={false}
           unoptimized={true}
         />
       </div>
-      <p className="text-xxs text-center">{imgTitle}</p>
+      {hasDesc && <p className="text-xxs text-center">{imgTitle}</p>}
     </Link>
   );
 }
 
-export function BlogPhotoGrid({ imagesData, hasLayersIco, buttons }) {
+export function BlogPhotoGrid({ imagesData, hasLayersIco, hasDesc, buttons }) {
   const images = imagesData.map((imgData, index) => {
     return (
       <GalleryGridSquare
@@ -49,6 +50,7 @@ export function BlogPhotoGrid({ imagesData, hasLayersIco, buttons }) {
         entryTitle={imgData.entryTitle}
         entryRoute={imgData.entryRoute}
         hasLayersIco={hasLayersIco}
+        hasDesc={hasDesc}
         key={imgData.imgID}
       />
     );

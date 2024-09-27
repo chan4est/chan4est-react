@@ -31,7 +31,7 @@ function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
           width={1500}
           height={1500}
           title={imageDescription}
-          className="w-full h-auto bg-background"
+          className="w-full h-auto bg-img_bg"
           placeholder={`data:image/svg+xml;base64,${toBase64(
             shimmer(720, 720)
           )}`}

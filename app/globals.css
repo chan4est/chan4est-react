@@ -64,6 +64,7 @@
     --primary: #b4c5d5;
     --secondary: #28d78e;
     --accent: #2b2c2e;
+    --img-bg: #000000;
     --blog-accent: #374151;
     --button-active: rgba(5, 10, 8, 1);
     --button-inactive: rgba(55, 65, 81, 0.45);
@@ -75,6 +76,7 @@
       --primary: #2a3b4b;
       --secondary: #28d78e;
       --accent: #d1d5db;
+      --img-bg: #ffffff;
       --button-active: rgba(230, 230, 230, 1);
       --button-inactive: rgba(230, 230, 230, 0.45);
     }

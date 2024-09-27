@@ -49,6 +49,7 @@ export function SortableBlogPhotoGrid({ imagesData, hasLayersIco }) {
     <BlogPhotoGrid
       imagesData={sortedData}
       hasLayersIco={hasLayersIco}
+      hasDesc={false}
       buttons={sortButton}
     />
   );

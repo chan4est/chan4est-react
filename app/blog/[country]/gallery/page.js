@@ -65,7 +65,7 @@ export default function BlogPage({ params, searchParams }) {
         <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
           {postNavBar}
         </div>
-        <BlogPhotoGrid imagesData={imagesData} />
+        <BlogPhotoGrid imagesData={imagesData} hasDesc={true} />
       </div>
     </>
   );

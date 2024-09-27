@@ -25,7 +25,7 @@ export default function BlogGallery({}) {
   return (
     <>
       <div className="bg-background flex flex-1 flex-col text-center content-center items-center">
-        <BlogPhotoGrid imagesData={imagesData} />
+        <BlogPhotoGrid imagesData={imagesData} hasDesc={true} />
       </div>
       <Footer />
     </>
