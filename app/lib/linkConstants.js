@@ -10,8 +10,8 @@ export const linkConstants = Object.freeze({
     "https://docs.google.com/spreadsheets/d/1JjRG0ecEKX-PcujPT5zeRwYcGetAocj5kE3DGuULYkQ/edit?usp=sharing",
   LINKEDIN: "https://www.linkedin.com/in/chan4est/",
   GITHUB: "https://github.com/chan4est/",
-  TOKYO_BLOG: "/blog/tokyo?img_index=14",
-  NAGOYA_BLOG: "/blog/nagoya?img_index=5",
+  TOKYO_BLOG: "/blog/tokyo?img_index=19",
+  NAGOYA_BLOG: "/blog/nagoya?img_index=4",
   BLOG_GALLERY: "/blog/gallery",
   BLOG_ROUTER_LINK: (country, imageIndex) =>
     `/blog/${country}?img_index=${imageIndex + 1}`,

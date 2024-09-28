@@ -650,7 +650,7 @@ export const blogEntries = [
       },
       {
         imgID: "a2e41efa-ef1b-4202-80ae-87ee99306e00",
-        description: "Interior of Hagia Sophia",
+        description: "Hagia Sophia interior",
         coordinates: {
           lat: "41°00'30.30\"N",
           long: "28°58'48.00\"E",
@@ -1454,7 +1454,7 @@ export const blogEntries = [
       },
       {
         imgID: "e9ae5dec-0338-4ac7-f444-791a55007d00",
-        description: "Interior of Diwan-I-Am",
+        description: "Diwan-I-Am interior",
         coordinates: {
           lat: "27°10'45.64\"N",
           long: "78°01'20.80\"E",
@@ -1715,7 +1715,7 @@ export const blogEntries = [
       },
       {
         imgID: "8b8a66c7-8051-430a-5017-16ffec662f00",
-        description: "Gifting Shelter hats & Imperial R pins",
+        description: "Porter & Madeon gifts",
         coordinates: {
           lat: "22°19'05.47\"N",
           long: "114°10'09.99\"E",
@@ -1752,7 +1752,7 @@ export const blogEntries = [
 
       {
         imgID: "2bdb692d-7743-4e51-f1e6-8415c0740b00",
-        description: "Cinoz Studio Tour",
+        description: "Cinoz Studio tour",
         coordinates: {
           lat: "22°22'27.40\"N",
           long: "114°06'39.60\"E",
@@ -5072,7 +5072,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-23.541766666666668,-46.62938611111111",
           long: "46°37'45.79\"W",
         },
-        description: "Municipal Market of São Paulo",
+        description: "Mercado Municipal Paulistano",
         imgID: "a607eefd-74b4-46d8-8826-5272e18c8e00",
       },
       {
