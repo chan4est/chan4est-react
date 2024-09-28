@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import layersIcon from "../../public/blog/layers.webp";
-import { Links } from "@/app/lib/Links";
+import { linkConstants } from "@/app/lib/linkConstants";
 import { imgURL, r_620 } from "../lib/cloudflareImgNames";
 
 export function GalleryGridSquare({

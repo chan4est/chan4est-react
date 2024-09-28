@@ -1,4 +1,4 @@
-export const blogEntriesOld = [
+export const globePinsData = [
   {
     title: "Iceland 🇮🇸",
     coordinates: [[64.774631, -18.753533]],

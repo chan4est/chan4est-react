@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { blogEntries } from "@/app/lib/blogEntries";
+import { blogEntries } from "@/app/data/blogEntries";
 import { notFound } from "next/navigation";
 import { ImageCarousel } from "@/app/components/ImageCarousel";
-import { Links } from "@/app/lib/Links";
+import { linkConstants } from "@/app/lib/linkConstants";
 import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 import Image from "next/image";
 import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
-import { commentsData } from "@/app/lib/commentsData";
+import { commentsData } from "@/app/data/commentsData";
 
 export async function generateMetadata({ params, searchParams }) {
   let metadata = { title: "404 Not Found" };
@@ -190,7 +190,10 @@ export default function BlogPage({ params, searchParams }) {
   );
 
   const postNavBar = (
-    <BlogPostNavBar blogBackLink={Links.BLOG} innerText={nurtureCoordinates} />
+    <BlogPostNavBar
+      blogBackLink={linkConstants.BLOG}
+      innerText={nurtureCoordinates}
+    />
   );
 
   const blogText = (

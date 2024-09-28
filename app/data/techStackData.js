@@ -1,4 +1,4 @@
-export const techStack = {
+export const techStackData = {
   languages: ["python", "javascript", "typescript", "java", "cpp", "c"],
   web: [
     "nextjs",

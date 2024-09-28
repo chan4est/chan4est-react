@@ -15,7 +15,7 @@ import { shimmer, toBase64 } from "@/app/lib/shimmer";
 import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
 import Link from "next/link";
 import { useEffect } from "react";
-import { Links } from "../lib/Links";
+import { linkConstants } from "../lib/linkConstants";
 
 function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
   return (
@@ -23,7 +23,7 @@ function BlogImage({ imgSrc, imageDescription, imageNumber, country }) {
       <Link
         className="max-w-[45rem] max-h-[45rem]"
         // https://www.youtube.com/watch?v=P4W_LaotmNI
-        href={Links.BLOG_ROUTER_LINK(country, imageNumber)}
+        href={linkConstants.BLOG_ROUTER_LINK(country, imageNumber)}
       >
         <Image
           src={imgSrc}
@@ -70,7 +70,7 @@ function PhotoControls({ emblaApi, country, totalImages }) {
   // https://github.com/vercel/next.js/discussions/49540#discussioncomment-8852218
   // https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating#shallow-routing
   useEffect(() => {
-    const currentUrl = Links.BLOG_ROUTER_LINK(country, selectedIndex);
+    const currentUrl = linkConstants.BLOG_ROUTER_LINK(country, selectedIndex);
     window.history.pushState(null, "", currentUrl);
   }, [country, selectedIndex]);
 

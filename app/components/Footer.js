@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Links } from "../lib/Links";
+import { linkConstants } from "../lib/linkConstants";
 
 const ICONS_PATH = "/footer-icons";
 
@@ -33,20 +33,20 @@ export function Footer({}) {
   return (
     <footer className="text-xs justify-center align-center text-center bg-background min-w-full pt-2 pb-2 border-t border-button_inactive">
       <div>
-        <Link href={Links.HOME} className="p-1 hover:underline">
+        <Link href={linkConstants.HOME} className="p-1 hover:underline">
           HOME
         </Link>
         {" | "}
-        <Link href={Links.TECH_STACK} className="p-1 hover:underline">
+        <Link href={linkConstants.TECH_STACK} className="p-1 hover:underline">
           TECH STACK
         </Link>
         {" | "}
-        <Link href={Links.PROJECTS} className="p-1 hover:underline">
+        <Link href={linkConstants.PROJECTS} className="p-1 hover:underline">
           PROJECTS
         </Link>
         {" | "}
         <Link
-          href={Links.RESUME}
+          href={linkConstants.RESUME}
           locale={false}
           target="_blank"
           className="p-1 hover:underline"
@@ -54,7 +54,7 @@ export function Footer({}) {
           RESUME
         </Link>
         {" | "}
-        <Link href={Links.BLOG} className="p-1 hover:underline">
+        <Link href={linkConstants.BLOG} className="p-1 hover:underline">
           BLOG (WIP)
         </Link>
       </div>
@@ -65,21 +65,21 @@ export function Footer({}) {
           className="flex flex-row items-center justify-center gap-2 max-w-fit"
         >
           <FooterContactIcon
-            link={Links.LINKEDIN}
+            link={linkConstants.LINKEDIN}
             title="Email me"
             imgSrc={`${ICONS_PATH}/gmail.webp`}
             imgWSrc={`${ICONS_PATH}/gmail.webp`}
             imgAlt={"Gmail Logo"}
           />
           <FooterContactIcon
-            link={Links.LINKEDIN}
+            link={linkConstants.LINKEDIN}
             title="Connect with me on LinkedIn"
             imgSrc={`${ICONS_PATH}/linkedin.webp`}
             imgWSrc={`${ICONS_PATH}/linkedin.webp`}
             imgAlt={"LinkedIn Logo"}
           />
           <FooterContactIcon
-            link={Links.GITHUB}
+            link={linkConstants.GITHUB}
             title="View my GitHub"
             imgSrc={`${ICONS_PATH}/github.webp`}
             imgWSrc={`${ICONS_PATH}/github-w.webp`}

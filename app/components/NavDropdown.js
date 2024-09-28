@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Links } from "../lib/Links";
+import { linkConstants } from "../lib/linkConstants";
 import { useState, useRef, useEffect } from "react";
 
 const navIconMenuSrc = "/header-icons/menu.webp";
@@ -109,7 +109,7 @@ export function NavDropdown({}) {
       {isMenuOpen && (
         <div className="absolute top-10 sm:top-12 md:top-14 lg:top-16 right-2 lg:right-3 p-2 flex flex-col justify-center content-center bg-background text-center drop-shadow-md z-20 border-2 border-text rounded-xl">
           <NavItem
-            link={Links.HOME}
+            link={linkConstants.HOME}
             title="Home"
             imgSrc={navIconHomeSrc}
             imgSrcW={navIconHomeSrcW}
@@ -118,7 +118,7 @@ export function NavDropdown({}) {
             hasDarkMode={true}
           />
           <NavItem
-            link={Links.PROJECTS}
+            link={linkConstants.PROJECTS}
             title="Projects"
             imgSrc={navIconProjectsSrc}
             imgSrcW={navIconProjectsSrcW}
@@ -127,7 +127,7 @@ export function NavDropdown({}) {
             hasDarkMode={true}
           />
           <NavItem
-            link={Links.TECH_STACK}
+            link={linkConstants.TECH_STACK}
             title="Tech Stack"
             imgSrc={navIconStackSrc}
             imgSrcW={navIconStackSrcW}
@@ -136,7 +136,7 @@ export function NavDropdown({}) {
             hasDarkMode={true}
           />
           <NavItem
-            link={Links.RESUME}
+            link={linkConstants.RESUME}
             title="View my resume"
             imgSrc={navIconResumeSrc}
             imgSrcW={navIconResumeSrcW}
@@ -145,7 +145,7 @@ export function NavDropdown({}) {
             hasDarkMode={true}
           />
           <NavItem
-            link={Links.BLOG}
+            link={linkConstants.BLOG}
             title="View my blog"
             imgSrc={navIconBlogSrc}
             imgSrcW={navIconBlogSrcW}
@@ -154,7 +154,7 @@ export function NavDropdown({}) {
             hasDarkMode={true}
           />
           <NavItem
-            link={Links.EMAIL}
+            link={linkConstants.EMAIL}
             title="Email me"
             imgSrc={navIconEmailSrc}
             imgSrcW={navIconEmailSrc}
@@ -163,7 +163,7 @@ export function NavDropdown({}) {
             hasDarkMode={false}
           />
           <NavItem
-            link={Links.LINKEDIN}
+            link={linkConstants.LINKEDIN}
             title="Connect with me on LinkedIn"
             imgSrc={navIconLinkedInSrc}
             imgSrcW={navIconLinkedInSrc}
@@ -172,7 +172,7 @@ export function NavDropdown({}) {
             hasDarkMode={false}
           />
           <NavItem
-            link={Links.GITHUB}
+            link={linkConstants.GITHUB}
             title={"View my GitHub"}
             imgSrc={navIconGithubSrc}
             imgSrcW={navIconGithubSrcW}

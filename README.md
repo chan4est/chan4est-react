@@ -28,4 +28,4 @@ Update the following files whenever you need to:
 
 - `/lib/techIconsData.js` and `/public/tech-icons` - add a new tech stack icon
 
-- `techStack.js` - add a new item to the tech stack section
+- `techStackData.js` - add a new item to the tech stack section

@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Globe from "react-globe.gl";
-import { blogEntriesOld } from "../lib/blogEntriesOld";
-import { globeArcsData } from "../lib/globeArcsData";
+import { globePinsData } from "../data/globePinsData";
+import { globeArcsData } from "../data/globeArcsData";
 
 export default function _Globe() {
   const [globeCenter, setGlobeCenter] = useState({
@@ -23,7 +23,7 @@ export default function _Globe() {
   }, [globeCenter]);
 
   let htmlPins = [];
-  blogEntriesOld.forEach((entry) => {
+  globePinsData.forEach((entry) => {
     if (entry.coordinates) {
       entry.coordinates.forEach((coordinate_pair) => {
         htmlPins.push({

@@ -1,8 +1,8 @@
 import { BlogPhotoGrid } from "@/app/components/BlogPhotoGrid";
-import { Links } from "@/app/lib/Links";
+import { linkConstants } from "@/app/lib/linkConstants";
 import { Footer } from "@/app/components/Footer";
 
-import { blogEntries } from "@/app/lib/blogEntries";
+import { blogEntries } from "@/app/data/blogEntries";
 import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
 
 export const metadata = {
@@ -29,13 +29,13 @@ export default function BlogGallery({}) {
     entry.postImages.map((img, imgIdx) => ({
       ...img,
       entryTitle: img.description,
-      entryRoute: Links.BLOG_ROUTER_LINK(entry.route, imgIdx),
+      entryRoute: linkConstants.BLOG_ROUTER_LINK(entry.route, imgIdx),
     }))
   );
 
   const postNavBar = (
     <BlogPostNavBar
-      blogBackLink={Links.BLOG}
+      blogBackLink={linkConstants.BLOG}
       innerText={<p className="pt-1">Gallery</p>}
     />
   );

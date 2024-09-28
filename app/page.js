@@ -1,11 +1,11 @@
 import Image from "next/image";
 import chanPhoto from "../public/me.webp";
 import Link from "next/link";
-import { techIconsData } from "./lib/techIconsData.js";
-import { techStack } from "./lib/techStack.js";
-import { projectsList } from "./lib/projectsList.js";
+import { techIconsData } from "./data/techIconsData.js";
+import { techStackData } from "./data/techStackData.js";
+import { projectsList } from "./data/projectsList.js";
 import { NavDropdown } from "./components/NavDropdown";
-import { Links } from "./lib/Links";
+import { linkConstants } from "./lib/linkConstants";
 import { Footer } from "./components/Footer";
 
 export const metadata = {
@@ -171,7 +171,7 @@ function AboutSection({}) {
         className="flex flex-col md:flex-row items-center justify-center"
       >
         <Link
-          href={Links.TOKYO_BLOG}
+          href={linkConstants.TOKYO_BLOG}
           className="hover:scale-105 transition duration-200 ease-in-out"
           title="Tokyo, Japan 🇯🇵"
         >
@@ -221,18 +221,21 @@ function AboutSection({}) {
       <p className="pt-5">
         When I&apos;m not working, I&apos;m usually attending a{" "}
         <a
-          href={Links.CONCERT_SHEET}
+          href={linkConstants.CONCERT_SHEET}
           className="underline hover:text-button_inactive"
         >
           concert/music festival
         </a>
         ,{" "}
-        <a href={Links.GAMES} className="underline hover:text-button_inactive">
+        <a
+          href={linkConstants.GAMES}
+          className="underline hover:text-button_inactive"
+        >
           playing video games
         </a>
         , or{" "}
         <Link
-          href={Links.BLOG}
+          href={linkConstants.BLOG}
           className="underline hover:text-button_inactive"
         >
           traveling abroad
@@ -248,21 +251,21 @@ function AboutSection({}) {
         className="flex flex-row items-center justify-center gap-5 pt-5"
       >
         <AboutContactIcon
-          link={Links.EMAIL}
+          link={linkConstants.EMAIL}
           title="Email me"
           imgSrc={`/tech-icons/gmail.webp`}
           imgSrcW={`/tech-icons/gmail.webp`}
           alt="Gmail Logo"
         />
         <AboutContactIcon
-          link={Links.LINKEDIN}
+          link={linkConstants.LINKEDIN}
           title="Connect with me on LinkedIn"
           imgSrc={`/tech-icons/linkedin.webp`}
           srcW={`/tech-icons/linkedin.webp`}
           alt="LinkedIn Logo"
         />
         <AboutContactIcon
-          link={Links.GITHUB}
+          link={linkConstants.GITHUB}
           title="View my GitHub"
           imgSrc={`/tech-icons/github.webp`}
           imgSrcW={`/tech-icons/github-w.webp`}
@@ -285,7 +288,7 @@ function ProjectSection({}) {
     >
       <SectionHeader
         id={"projects-header"}
-        link={Links.PROJECTS}
+        link={linkConstants.PROJECTS}
         title={"Projects"}
         imgSrc={"/header-icons/projects.webp"}
         imgSrcW={"/header-icons/projects-w.webp"}
@@ -301,11 +304,13 @@ function ProjectSection({}) {
 }
 
 function TechStackSection({}) {
-  const languageList = generateStackIconList(techStack.languages);
-  const webList = generateStackIconList(techStack.web);
-  const databaseList = generateStackIconList(techStack.databases);
-  const infrastructureList = generateStackIconList(techStack.infrastructure);
-  const toolsList = generateStackIconList(techStack.tools);
+  const languageList = generateStackIconList(techStackData.languages);
+  const webList = generateStackIconList(techStackData.web);
+  const databaseList = generateStackIconList(techStackData.databases);
+  const infrastructureList = generateStackIconList(
+    techStackData.infrastructure
+  );
+  const toolsList = generateStackIconList(techStackData.tools);
 
   return (
     <section
@@ -313,8 +318,8 @@ function TechStackSection({}) {
       className="pt-5 max-w-screen-md flex flex-col justify-center items-center "
     >
       <SectionHeader
-        id={"techstack-header"}
-        link={Links.TECH_STACK}
+        id={"techStackData-header"}
+        link={linkConstants.TECH_STACK}
         title={"Tech Stack"}
         imgSrc={"/header-icons/tech-stack.webp"}
         imgSrcW={"/header-icons/tech-stack-w.webp"}

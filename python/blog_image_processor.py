@@ -220,13 +220,44 @@ class CloudflareImageHandler:
         except Exception as e:
                 print("Error: Exception while replacing images {}".format(e))
 
+    def read_image_ids_from_file(self, file_path):
+        data_json = self.read_json_from_file(file_path)
+        ids_list = []
+        for entry in data_json:
+            images = entry['postImages']
+            for img_entry in images:
+                ids_list.append(img_entry['imgID'])
+        return ids_list
+    
+    def read_image_ids_from_cloudflare(self):
+        headers = {"Authorization": f"Bearer {self.cloudflare_token}"}
+        response = requests.get(self.cloudflare_url, headers=headers)
+        if not response.status_code == 200:
+            print("Error: Bad response from Cloudflare while replacing images")
+        cloudflare_images_json = response.json()['result']['images']
+        img_ids = []
+        for image in cloudflare_images_json:
+            img_ids.append(image['id'])
+        return img_ids
+    
+    def delete_image_from_cloudflare(self, id):
+        headers = {"Authorization": f"Bearer {self.cloudflare_token}"}
+        response = requests.delete(self.cloudflare_url + "/{}".format(id), headers=headers)
+        if not response.status_code == 200:
+            print("Error: Bad response from Cloudflare while deleting images")
         
     def delete_unused_images(self, file_path):
-        return None
+        used_img_ids = set(self.read_image_ids_from_file(file_path))
+        cloudflare_img_ids = self.read_image_ids_from_cloudflare();
+        for img_id in cloudflare_img_ids:
+            if img_id not in used_img_ids:
+                print(img_id)
+                self.delete_image_from_cloudflare(img_id)
 
 if __name__ == "__main__":
     new_file = "new_image_data.json"
     old_file = "image_data.json"
+    # blog_file = "blog_entries.json"
 
     cloudflare_token = os.getenv("CLOUDFLARE_API_TOKEN")
     if not cloudflare_token:
@@ -247,6 +278,8 @@ if __name__ == "__main__":
 
     img_loc_data_processor = ImageLocationDataProcessor()
     cloudflarer_img_handler = CloudflareImageHandler(cloudflare_token, cloudflare_url)
+
+    # cloudflarer_img_handler.delete_unused_images(blog_file)
 
     data = []
     for filename in os.listdir(args.file_path):

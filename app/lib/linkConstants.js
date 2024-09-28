@@ -1,4 +1,4 @@
-export const Links = Object.freeze({
+export const linkConstants = Object.freeze({
   HOME: "/",
   TECH_STACK: "/#tech-stack",
   PROJECTS: "/#projects",
@@ -12,6 +12,7 @@ export const Links = Object.freeze({
   GITHUB: "https://github.com/chan4est/",
   TOKYO_BLOG: "/blog/tokyo?img_index=14",
   NAGOYA_BLOG: "/blog/nagoya?img_index=5",
+  BLOG_GALLERY: "/blog/gallery",
   BLOG_ROUTER_LINK: (country, imageIndex) =>
     `/blog/${country}?img_index=${imageIndex + 1}`,
   BLOG_BACK_LINK: (country) => `/blog/${country}`,

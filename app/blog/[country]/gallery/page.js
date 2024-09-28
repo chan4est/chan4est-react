@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import { Links } from "@/app/lib/Links";
+import { linkConstants } from "@/app/lib/linkConstants";
 import { BlogPhotoGrid } from "@/app/components/BlogPhotoGrid";
 import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
 
-import { blogEntries } from "@/app/lib/blogEntries";
+import { blogEntries } from "@/app/data/blogEntries";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
@@ -48,12 +48,12 @@ export default function BlogPage({ params, searchParams }) {
   const imagesData = blogData.postImages.map((img, imgIdx) => ({
     ...img,
     entryTitle: blogData.pageTitle,
-    entryRoute: Links.BLOG_ROUTER_LINK(blogData.route, imgIdx),
+    entryRoute: linkConstants.BLOG_ROUTER_LINK(blogData.route, imgIdx),
   }));
 
   const postNavBar = (
     <BlogPostNavBar
-      blogBackLink={Links.BLOG_BACK_LINK(params.country)}
+      blogBackLink={linkConstants.BLOG_BACK_LINK(params.country)}
       innerText={<p className="pt-1">Gallery</p>}
     />
   );

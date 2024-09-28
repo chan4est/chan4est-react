@@ -5,9 +5,9 @@ import { NavDropdown } from "../components/NavDropdown";
 import { SortableBlogPhotoGrid } from "../components/SortableBlogPhotoGrid";
 import { Footer } from "../components/Footer";
 
-import { blogEntries } from "../lib/blogEntries";
+import { blogEntries } from "../data/blogEntries";
 import calculateAge from "../lib/calculateAge";
-import { Links } from "../lib/Links";
+import { linkConstants } from "../lib/linkConstants";
 
 import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
 
@@ -71,7 +71,7 @@ function BlogHeader({ blogEntries }) {
   return (
     <section className="flex flex-col sm:flex-row items-center px-4 pb-4 sm:pb-0 pt-10">
       <Link
-        href={Links.NAGOYA_BLOG}
+        href={linkConstants.NAGOYA_BLOG}
         className="flex-shrink-0 hover:scale-105 transition duration-200 ease-in-out"
       >
         <Image
@@ -113,7 +113,7 @@ export default function Blog() {
   const imagesData = blogEntries.map((entry) => ({
     ...entry.postImages[entry.previewIdx],
     entryTitle: entry.pageTitle,
-    entryRoute: Links.BLOG_BACK_LINK(entry.route),
+    entryRoute: linkConstants.BLOG_BACK_LINK(entry.route),
   }));
 
   return (

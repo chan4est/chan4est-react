@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Links } from "../lib/Links";
+import { linkConstants } from "../lib/linkConstants";
 import { Footer } from "./Footer";
 
 export default function Error({ errorText }) {
@@ -26,7 +26,10 @@ export default function Error({ errorText }) {
           </p>
           <p>
             Go back to the{" "}
-            <Link className="underline hover:text-accent" href={Links.HOME}>
+            <Link
+              className="underline hover:text-accent"
+              href={linkConstants.HOME}
+            >
               Main Page
             </Link>
           </p>
