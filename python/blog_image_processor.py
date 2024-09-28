@@ -127,7 +127,6 @@ class CloudflareImageHandler:
         try:
             with open(file_path, 'r') as file:
                 data = json.load(file)
-            print(f"JSON data successfully read from {file_path}.")
             return data
         except Exception as e:
             print(f"An error occurred while reading the file: {e}")
@@ -229,6 +228,15 @@ class CloudflareImageHandler:
                 ids_list.append(img_entry['imgID'])
         return ids_list
     
+    def read_img_descriptions_from_file(self, file_path):
+        data_json = self.read_json_from_file(file_path)
+        desc_list = []
+        for entry in data_json:
+            images = entry['postImages']
+            for img_entry in images:
+                desc_list.append(img_entry['description'])
+        return desc_list
+    
     def read_image_ids_from_cloudflare(self):
         headers = {"Authorization": f"Bearer {self.cloudflare_token}"}
         response = requests.get(self.cloudflare_url, headers=headers)
@@ -247,17 +255,26 @@ class CloudflareImageHandler:
             print("Error: Bad response from Cloudflare while deleting images")
         
     def delete_unused_images(self, file_path):
+        print("Cleaning up unused files")
         used_img_ids = set(self.read_image_ids_from_file(file_path))
         cloudflare_img_ids = self.read_image_ids_from_cloudflare();
+        counter = 0
         for img_id in cloudflare_img_ids:
             if img_id not in used_img_ids:
-                print(img_id)
                 self.delete_image_from_cloudflare(img_id)
+                counter += 1
+        print(f"Sucessfully deleted {counter} images")
+
+    def write_image_desciptions_to_file(self, intput_file_path, output_file_path):
+        img_desc_list = self.read_img_descriptions_from_file(intput_file_path)
+        self.write_json_to_file(img_desc_list, output_file_path)
+
 
 if __name__ == "__main__":
     new_file = "new_image_data.json"
     old_file = "image_data.json"
-    # blog_file = "blog_entries.json"
+    blog_file = "blog_entries.json"
+    blog_desc = "blog_desc.json"
 
     cloudflare_token = os.getenv("CLOUDFLARE_API_TOKEN")
     if not cloudflare_token:
@@ -278,8 +295,9 @@ if __name__ == "__main__":
 
     img_loc_data_processor = ImageLocationDataProcessor()
     cloudflarer_img_handler = CloudflareImageHandler(cloudflare_token, cloudflare_url)
-
+    
     # cloudflarer_img_handler.delete_unused_images(blog_file)
+    # cloudflarer_img_handler.write_image_desciptions_to_file(blog_file, blog_desc)
 
     data = []
     for filename in os.listdir(args.file_path):

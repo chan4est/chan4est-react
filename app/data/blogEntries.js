@@ -79,7 +79,7 @@ export const blogEntries = [
       {
         imgID: "6d54b47f-edb3-4f9a-831d-f47dd84ecb00",
         description:
-          "Terrible Icelandic food (jelied sheeps head w/ cold sides, beer, bread ice cream)",
+          "Terrible Icelandic food (jellied sheep's head w/ cold sides, beer, bread ice cream)",
         coordinates: {
           lat: "64°08'32.87\"N",
           long: "21°55'42.19\"E",
@@ -97,7 +97,7 @@ export const blogEntries = [
       },
       {
         imgID: "60328630-975f-4459-42ab-58b800c8de00",
-        description: "Northern American and Eurarsia tectonic plates boundary",
+        description: "North American and Eurasia tectonic plates boundary",
         coordinates: {
           lat: "64°15'20.90\"N",
           long: "21°07'41.90\"W",
@@ -223,7 +223,7 @@ export const blogEntries = [
       },
       {
         imgID: "2aa28d2f-1baa-4382-363b-0d01e1e1a200",
-        description: "Glipse of the Northern Lights",
+        description: "Glimpse of the Northern Lights",
         coordinates: {
           lat: "64°09'45.30\"N",
           long: "22°00'49.60\"W",
@@ -562,7 +562,7 @@ export const blogEntries = [
       },
       {
         imgID: "e9d02701-ec80-46fe-ccec-7cf7cb50ce00",
-        description: "Agean sea",
+        description: "Aegean sea",
         coordinates: {
           lat: "",
           long: "",
@@ -623,7 +623,7 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "bf9eba99-b78c-411c-774b-7a970185c900",
-        description: "Büyük Mecidiye Mosuqe w/ the Bosphorus Bridge",
+        description: "Büyük Mecidiye Mosque w/ the Bosphorus Bridge",
         coordinates: {
           lat: "41°02'50.60\"N",
           long: "29°01'32.50\"E",
@@ -632,7 +632,7 @@ export const blogEntries = [
       },
       {
         imgID: "730d5c8d-1b29-44a3-e4eb-33882b9ae600",
-        description: "Hagia Sofia",
+        description: "Hagia Sophia",
         coordinates: {
           lat: "41°00'24.70\"N",
           long: "28°58'40.70\"E",
@@ -650,7 +650,7 @@ export const blogEntries = [
       },
       {
         imgID: "a2e41efa-ef1b-4202-80ae-87ee99306e00",
-        description: "Interior of Hagia Sofia",
+        description: "Interior of Hagia Sophia",
         coordinates: {
           lat: "41°00'30.30\"N",
           long: "28°58'48.00\"E",
@@ -693,15 +693,6 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:41.0108806,28.9829611",
         },
       },
-      // {
-      //   imgID: "62897725-98c8-451b-0086-5abfaad58900",
-      //   description: "Bosphorus from Topkapi Palace",
-      //   coordinates: {
-      //     lat: "41°00'50.20\"N",
-      //     long: "28°59'09.30\"E",
-      //     link: "https://www.google.com/maps?q=loc:41.0139389,28.985925",
-      //   },
-      // },
       {
         imgID: "05884dc8-5d1b-47ca-9e27-986897287500",
         description: "Bosphorus from Topkapi Palace (left)",
@@ -758,7 +749,7 @@ export const blogEntries = [
       },
       {
         imgID: "995c7483-fecf-4883-5e6d-68e637265400",
-        description: "Near sunset in İstanbul",
+        description: "İstanbul near sunset",
         coordinates: {
           lat: "41°01'19.60\"N",
           long: "28°57'58.07\"E",
@@ -1096,16 +1087,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "0528f4c8-82be-472e-4c8f-d38939e51500",
-        description: "Peace from Petra",
-        coordinates: {
-          lat: "30°20'16.54\"N",
-          long: "35°25'49.40\"E",
-          link: "https://maps.google.com/?q=30.337927777777775,35.430388888888885",
-        },
-      },
-
-      {
         imgID: "684f85d3-4634-4f9f-9dfc-70c831a0f600",
         description: "Strolling through Petra (Monastery)",
         coordinates: {
@@ -1170,6 +1151,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "c6bdd8fc-edaa-4474-3649-95987bab1800",
+        description: "Indiana Mart",
+        coordinates: {
+          lat: "30°19'27.66\"N",
+          long: "35°28'03.70\"E",
+          link: "https://maps.google.com/?q=30.32435,35.46769444444445",
+        },
+      },
+      {
         imgID: "d66c2ce2-65db-4408-b6b7-122e09e47d00",
         description: "Jordanian buffet food",
         coordinates: {
@@ -1187,17 +1177,6 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=30.324058333333333,35.48771666666667",
         },
       },
-
-      {
-        imgID: "c6bdd8fc-edaa-4474-3649-95987bab1800",
-        description: "Indiana Mart",
-        coordinates: {
-          lat: "30°19'27.66\"N",
-          long: "35°28'03.70\"E",
-          link: "https://maps.google.com/?q=30.32435,35.46769444444445",
-        },
-      },
-
       {
         imgID: "66077201-26de-4c4d-653d-f425adcdfc00",
         description: "Stranded in the Middle East",
@@ -1279,7 +1258,7 @@ export const blogEntries = [
       },
       {
         imgID: "390f3f12-bc83-4f32-c10a-1cef87bd1700",
-        description: "Heavely kosher eats",
+        description: "Heavenly kosher eats",
         coordinates: {
           lat: "31°47'07.81\"N",
           long: "35°12'44.14\"E",
@@ -1699,6 +1678,15 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "3e34c0f8-7d88-4835-2b5f-94ad53d0ad00",
+        description: "M+",
+        coordinates: {
+          lat: "22°18'02.39\"N",
+          long: "114°09'33.07\"E",
+          link: "https://maps.google.com/?q=22.300663888888888,114.15918611111111",
+        },
+      },
+      {
         imgID: "b605e868-fca4-4b85-c5cb-e15f464df900",
         description: "Dots Obsession—Aspiring to Heaven’s Love - Yayoi Kusama",
         coordinates: {
@@ -1782,7 +1770,7 @@ export const blogEntries = [
       },
       {
         imgID: "1dbb2f61-0058-4101-a023-b64778502a00",
-        description: "Hong Kong Street in Causeway Bay",
+        description: "Street in Causeway Bay",
         coordinates: {
           lat: "22°16'48.00\"N",
           long: "114°11'04.90\"E",
@@ -1874,7 +1862,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=37.52211388888889,127.11861388888889",
           long: "127°07'07.01\"E",
         },
-        description: "Olypmic Park",
+        description: "Olympic Park",
         imgID: "33246368-ec6f-4905-abbd-3aaffe924600",
       },
       {
@@ -2048,7 +2036,7 @@ export const blogEntries = [
       },
       {
         imgID: "31a0f2be-5aeb-47a4-904c-5082d82a4e00",
-        description: "Waving a 🇨🇳 flag in front of the Forbidden Palace",
+        description: "Waving a 🇨🇳 flag in front of the Forbidden City",
         coordinates: {
           lat: "39°54'45.90\"N",
           long: "116°23'50.40\"E",
@@ -2075,7 +2063,7 @@ export const blogEntries = [
       },
       {
         imgID: "62bdc522-f182-4142-d9a3-b101e6e00000",
-        description: "Dragon decoration in the Forbidden Palace",
+        description: "Dragon decoration in the Forbidden City",
         coordinates: {
           lat: "39°55'12.30\"N",
           long: "116°23'42.90\"E",
@@ -2084,7 +2072,7 @@ export const blogEntries = [
       },
       {
         imgID: "fd212a8c-97b7-4b9f-6957-bd194677eb00",
-        description: "Forbidden Palace from above",
+        description: "Forbidden City from above",
         coordinates: {
           lat: "39°55'28.40\"N",
           long: "116°23'48.30\"E",
@@ -2093,7 +2081,7 @@ export const blogEntries = [
       },
       {
         imgID: "97a681ef-8c36-4c58-abdf-63e611157400",
-        description: "Tian Tan Gong Yuan park",
+        description: "Tian Tan Gong Yuan Park",
         coordinates: {
           lat: "39°52'54.95\"N",
           long: "116°24'02.23\"E",
@@ -2121,7 +2109,7 @@ export const blogEntries = [
       {
         imgID: "6bdadf99-5d66-4a75-a415-0b5fa4e68b00",
         description:
-          "Yao's Mom treating me to peking duck while I was sick in Beijing",
+          "Yao's Mom treating me to Peking duck while I was sick in Beijing",
         coordinates: {
           lat: "39°55'26.40\"N",
           long: "116°21'47.30\"E",
@@ -2157,7 +2145,7 @@ export const blogEntries = [
       },
       {
         imgID: "721637a1-823d-471a-5051-0dbfaf89b300",
-        description: "Close of up the Terracotta Warriors",
+        description: "Close-up of the Terracotta Warriors",
         coordinates: {
           lat: "34°23'04.40\"N",
           long: "109°16'49.90\"E",
@@ -2184,7 +2172,7 @@ export const blogEntries = [
       },
       {
         imgID: "8834b500-4ae4-44c6-f627-9155af943e00",
-        description: "Hazy dragon in Xi'an",
+        description: "Hazy dragon status",
         coordinates: {
           lat: "34°15'49.40\"N",
           long: "108°56'20.50\"E",
@@ -2193,7 +2181,7 @@ export const blogEntries = [
       },
       {
         imgID: "b72d169d-a9cf-477a-f119-f15f866d0900",
-        description: "Communist shop in Xi'an",
+        description: "Local communist shop",
         coordinates: {
           lat: "34°15'41.00\"N",
           long: "108°56'40.20\"E",
@@ -2202,8 +2190,7 @@ export const blogEntries = [
       },
       {
         imgID: "8830c27b-abf0-4a8d-69e4-962b62dce500",
-        description:
-          "Riding bikes on top of Xi'an's City Wall w/ Eric 🇺🇸 & Hector 🇪🇸",
+        description: "City Wall bike ride w/ Eric 🇺🇸 & Hector 🇪🇸",
         coordinates: {
           lat: "34°16'31.90\"N",
           long: "108°55'34.90\"E",
@@ -2212,7 +2199,7 @@ export const blogEntries = [
       },
       {
         imgID: "ad6ca4a7-52f2-44b4-8930-043d4bf6e300",
-        description: "Xi'an Muslim Quarter",
+        description: "Muslim Quarter at night",
         coordinates: {
           lat: "34°15'45.20\"N",
           long: "108°56'20.50\"E",
@@ -2603,6 +2590,15 @@ export const blogEntries = [
         imgID: "59917546-32db-4353-caff-062a7dde2000",
       },
       {
+        imgID: "05554b28-4e7a-4cdb-a8c2-4b2b5fb9d600",
+        description: "BBQ Skewers",
+        coordinates: {
+          lat: "14°34'32.23\"N",
+          long: "121°01'08.75\"E",
+          link: "https://maps.google.com/?q=14.575619444444444,121.01909722222221",
+        },
+      },
+      {
         coordinates: {
           lat: "14°34'33.05\"N",
           link: "https://maps.google.com/?q=14.575847222222222,121.01932222222221",
@@ -2732,7 +2728,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps/place/1%C2%B016'57.6%22N+103%C2%B051'26.2%22E/@1.2833304,103.8563637,585m/data=!3m1!1e3!4m10!1m5!3m4!2zMcKwMTYnNTQuMSJOIDEwM8KwNTEnNTEuOSJF!8m2!3d1.2816944!4d103.8644167!3m3!8m2!3d1.28266!4d103.857288?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
           long: "103°51'26.02\"E",
         },
-        description: "Singapore Skyline from Marina Bay Sands",
+        description: "Singapore Skyline",
         imgID: "0f188623-2ecb-43c6-a237-d85901754700",
       },
       {
@@ -2753,24 +2749,6 @@ export const blogEntries = [
         description: "Panoramic view of Gardens by the Bay",
         imgID: "9724de23-06b3-4337-beb1-897ac7231500",
       },
-      // {
-      //   coordinates: {
-      //     lat: "01°17'17.01\"N ",
-      //     link: "https://www.google.com/maps/place/Gardens+by+the+Bay+East+(Panoramic+view)/@1.2880001,103.8688871,113m/data=!3m1!1e3!4m6!3m5!1s0x31da19b3ce186ae3:0x30f0c4eb920ff406!8m2!3d1.2881069!4d103.8690209!16s%2Fg%2F11j4yl68yt?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
-      //     long: "103°52'08.05\"E",
-      //   },
-      //   description: "Panoramic view of Gardens by the Bay (left)",
-      //   imgID: "59f87a5f-b260-4833-6c6a-fde06ec08a00",
-      // },
-      // {
-      //   coordinates: {
-      //     lat: "01°17'17.01\"N ",
-      //     link: "https://www.google.com/maps/place/Gardens+by+the+Bay+East+(Panoramic+view)/@1.2880001,103.8688871,113m/data=!3m1!1e3!4m6!3m5!1s0x31da19b3ce186ae3:0x30f0c4eb920ff406!8m2!3d1.2881069!4d103.8690209!16s%2Fg%2F11j4yl68yt?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
-      //     long: "103°52'08.05\"E",
-      //   },
-      //   description: "Panoramic view of Gardens by the Bay (right)",
-      //   imgID: "0a9d50bf-2d46-4e56-aff5-656955654b00",
-      // },
     ],
   },
   {
@@ -2892,7 +2870,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:13.7407167,100.5089333",
           long: "100°30'32.02\"E",
         },
-        description: "Bankok's Chinatown looking south",
+        description: "Bangkok's Chinatown looking south",
         imgID: "37d0bda6-bace-4df6-625a-4fd184ef3800",
       },
       {
@@ -2901,7 +2879,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.73899722222222,100.51201666666667",
           long: "100°30'43.26\"E",
         },
-        description: "Bankok's Chinatown looking north",
+        description: "Bangkok's Chinatown looking north",
         imgID: "a994488d-e1ab-49ec-114a-51dc48182c00",
       },
       {
@@ -2956,7 +2934,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:7.6907,98.7677",
           long: "98°46'03.07\"E",
         },
-        description: "Snorkling at Ko Phi Phi Lee",
+        description: "Snorkeling at Ko Phi Phi Lee",
         imgID: "7d3d32a9-5848-4898-3362-3605579fa500",
       },
       {
@@ -3049,7 +3027,7 @@ export const blogEntries = [
       },
       {
         imgID: "68da6362-bfbe-42f5-6d78-51a4de05d300",
-        description: "Bridge to Ankor Wat",
+        description: "Crossing the moat",
         coordinates: {
           lat: "13°24'41.70\"N",
           long: "103°51'34.85\"E",
@@ -3062,7 +3040,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.412505555555557,103.86193888888889",
           long: "103°51'42.98\"E",
         },
-        description: "Frontside of Angkor Wat",
+        description: "Angkor Wat (frontside)",
         imgID: "3b2218af-61aa-4c95-4728-45c1a3f84800",
       },
       {
@@ -3071,7 +3049,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.412466666666667,103.86525833333333",
           long: "103°51'54.93\"E",
         },
-        description: "Peace from Angkor Wat",
+        description: "Peace from Cambodia",
         imgID: "031a3b33-ba23-44a5-3104-c33cb925d600",
       },
       {
@@ -3080,7 +3058,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.412419444444446,103.86685833333333",
           long: "103°52'00.69\"E",
         },
-        description: "Top of Angkor Wat",
+        description: "Top of the temple",
         imgID: "87d6f948-c37c-4ab6-842f-9576b49a3300",
       },
       {
@@ -3089,7 +3067,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.461627777777776,103.87290833333333",
           long: "103°52'22.47\"E",
         },
-        description: "Lion Statue",
+        description: "Lion statue",
         imgID: "a44eb501-402b-4768-6564-ac35f0a7a800",
       },
       {
@@ -3098,12 +3076,12 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.412380555555556,103.86888055555555",
           long: "103°52'07.97\"E",
         },
-        description: "Backside of Angkor Wat",
+        description: "Angkor Wat (backside)",
         imgID: "79bc5c0f-db88-45f0-6d00-a60d26663800",
       },
       {
         imgID: "f396d37d-26b1-46f3-1913-a79ccd6dc100",
-        description: "Negotated for a tuk tuk",
+        description: "Negotiated for a tuk tuk",
         coordinates: {
           lat: "13°26'45.55\"N",
           long: "103°52'09.43\"E",
@@ -3143,7 +3121,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.441252777777779,103.85828333333333",
           long: "103°51'29.82\"E",
         },
-        description: "Wild monkey at Bayon Temple",
+        description: "Wild monkey",
         imgID: "f6b17c5a-e2b0-4502-a026-8e5482ed2400",
       },
       {
@@ -3170,7 +3148,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=13.411777777777779,103.85968888888888",
           long: "103°51'34.88\"E",
         },
-        description: "Angkor Wat at night",
+        description: "Angkor Wat at dusk",
         imgID: "0c694a2c-e7a1-4a7b-de3a-e06dd84d7b00",
       },
       {
@@ -3321,7 +3299,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=15.876325000000001,108.32659166666666",
           long: "108°19'35.73\"E",
         },
-        description: "Boat ride in Hội An",
+        description: "Nighttime boat ride",
         imgID: "50c5bbe2-75d2-4716-d556-a4478fb93800",
       },
       {
@@ -3348,7 +3326,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=15.876005555555556,108.32698055555555",
           long: "108°19'37.13\"E",
         },
-        description: "Hội An at night",
+        description: "Latern-lit Thu Bồn River",
         imgID: "e6e7bd9c-ad6d-40c4-2ada-34cbcf7a4d00",
       },
       {
@@ -3357,7 +3335,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=16.025758333333332,108.03149444444445",
           long: "108°01'53.38\"E",
         },
-        description: "Cable cars to the Golden Bridge",
+        description: " Ba Na Hills cable cars ",
         imgID: "9fc3755a-3c75-4104-6b65-b6a556531900",
       },
       {
@@ -3375,7 +3353,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=10.775841666666668,106.70178888888888",
           long: "106°42'06.44\"E",
         },
-        description: "Statue of Ho Chi Minh",
+        description: "Ho Chi Minh City",
         imgID: "4d7279d9-d856-4190-326c-842f92528300",
       },
       {
@@ -3450,7 +3428,7 @@ export const blogEntries = [
       },
       {
         imgID: "3f9d6adc-3602-462d-8119-9fcec6355400",
-        description: "Paper laterns in Asakusa",
+        description: "Paper lanterns in Asakusa",
         coordinates: {
           lat: "35°42'47.57\"N",
           long: "139°47'47.76\"E",
@@ -3463,7 +3441,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.65913888888889,139.70079166666665",
           long: "139°42'02.85\"E",
         },
-        description: "Shibuya Scamble Crossing",
+        description: "Shibuya Scramble Crossing",
         imgID: "ea622c3d-4474-42e8-3df4-88bae0b24c00",
       },
       {
@@ -3554,7 +3532,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.693641666666664,139.70234722222222",
           long: "139°42'08.45\"E",
         },
-        description: "Neon lit streets of Shinjuku",
+        description: "Neon-lit streets of Shinjuku",
         imgID: "192167e0-f64e-4789-24e1-421cdd820f00",
       },
       {
@@ -3752,7 +3730,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.66722222222222,139.73062222222222",
           long: "139°43'50.24\"E",
         },
-        description: "Japanese Wagyu yeppanyaki",
+        description: "Japanese Wagyu teppanyaki",
         imgID: "448f75c4-e042-4823-0f37-f765bd190900",
       },
       {
@@ -3770,7 +3748,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.44716666666666,139.65431111111113",
           long: "139°39'15.52\"E",
         },
-        description: "Life-size Gundam in Yokohama",
+        description: "Life-sized Gundam in Yokohama",
         imgID: "031811df-2968-4ac9-4042-91a4e236d600",
       },
       {
@@ -3985,7 +3963,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.66150555555556,135.49678055555555",
           long: "135°29'48.41\"E",
         },
-        description: "Yasaksa Shrine",
+        description: "Yasaka Shrine",
         imgID: "c832982c-7bc5-49ec-58c8-2d79bd113200",
       },
       {
@@ -3994,7 +3972,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.66148888888889,135.49678055555555",
           long: "135°29'48.41\"E",
         },
-        description: "Unique charm from Yasaksa Shrine",
+        description: "Unique charm from Yasaka Shrine",
         imgID: "5c40d3eb-21a6-4cf4-ad5b-484847244400",
       },
       {
@@ -4012,7 +3990,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.654383333333335,135.42887777777776",
           long: "135°25'43.96\"E",
         },
-        description: "Pengiun at Osaka Aquarium",
+        description: "Penguin at Osaka Aquarium",
         imgID: "c90e5c9d-a2f8-4667-7f91-bd62f5274f00",
       },
       {
@@ -4200,7 +4178,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.96704166666667,135.78332500000002",
           long: "135°46'59.97\"E",
         },
-        description: "More Torri gates",
+        description: "More Torii gates",
         imgID: "80aef79a-3787-4900-295b-4696a69f9400",
       },
       {
@@ -4288,15 +4266,6 @@ export const blogEntries = [
           lat: "35°40'50.40\"N",
           long: "139°46'04.16\"E",
           link: "https://maps.google.com/?q=35.68066666666667,139.76782222222224",
-        },
-      },
-      {
-        imgID: "70448347-5633-4fb6-a0bf-f92f59e91f00",
-        description: "Nagoya Castle (uncropped)",
-        coordinates: {
-          lat: "35°11'05.88\"N",
-          long: "136°54'01.46\"E",
-          link: "https://maps.google.com/?q=35.18496666666666,136.90040555555555",
         },
       },
       {
@@ -4521,7 +4490,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=4.594111111111111,-74.07472222222222",
           long: "74°04'29.00\"W",
         },
-        description: "Santuario Nuestra Señora del Carmes",
+        description: "Santuario Nuestra Señora del Carmen",
         imgID: "8959d1b7-daee-4fe8-7eb8-565394d4bf00",
       },
       {
@@ -4645,7 +4614,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-13.192036111111111,-72.4600138888889",
           long: "72°27'36.05\"W",
         },
-        description: "Inca Kola (unique bubblgum flavored soda)",
+        description: "Inca Kola (unique bubblegum flavored soda)",
         imgID: "6d95fb7a-581c-4d80-1fcb-3b51fa19c900",
       },
       {
@@ -4699,7 +4668,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:-13.1635444,-72.5453639",
           long: "72°32'43.03\"W",
         },
-        description: "Larvitar enjoying the perfecly cut rocks",
+        description: "Larvitar enjoying the perfectly cut rocks",
         imgID: "88111797-ee0e-4d15-d317-c79379d5dc00",
       },
       {
@@ -4708,7 +4677,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-13.162730555555555,-72.54591388888889",
           long: "72°32'45.29\"W",
         },
-        description: "Even deeper into Machu Picchu",
+        description: "Deeper into Machu Picchu",
         imgID: "54f61c4d-d990-4af8-e0ad-9d96b2068800",
       },
       {
@@ -4744,7 +4713,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-13.162291666666667,-72.54562222222222",
           long: "72°32'44.24\"W",
         },
-        description: "Steps inside Machu Pichu",
+        description: "Steps inside Machu Picchu",
         imgID: "71b42dfd-fb71-4e79-8c34-7a25b6083c00",
       },
       {
@@ -4929,7 +4898,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain",
+        description: "Night-lit Rio de Janeiro from Sugarloaf Mountain",
         imgID: "b9192f39-35a8-4e90-4def-f98d56dea700",
       },
       {
@@ -5029,7 +4998,7 @@ export const blogEntries = [
           imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
           long: "43°09'23.24\"W",
         },
-        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain (left)",
+        description: "Night-lit Rio de Janeiro from Sugarloaf Mountain (left)",
         imgID: "e787a08c-f3b9-45be-c8f6-e89bd15ceb00",
       },
       {
@@ -5038,7 +5007,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-22.949744444444445,-43.15645555555555",
           long: "43°09'23.24\"W",
         },
-        description: "Nightlit Rio de Janeiro from Sugarloaf Mountain (right)",
+        description: "Night-lit Rio de Janeiro from Sugarloaf Mountain (right)",
         imgID: "ea4fdb65-ab17-4638-9e43-3081c90a7400",
       },
       {
@@ -5094,7 +5063,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:-23.5872222,-46.655125",
           long: "46°39'18.05\"W",
         },
-        description: "Pokémon GO insanity at Parque Ibirapuera",
+        description: "GO Tour Hoenn insanity at Parque Ibirapuera",
         imgID: "4108d0cd-f9ff-49f0-e093-5ea43a112e00",
       },
       {
@@ -5103,7 +5072,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=-23.541766666666668,-46.62938611111111",
           long: "46°37'45.79\"W",
         },
-        description: "Mercado Municipal Paulistano",
+        description: "Municipal Market of São Paulo",
         imgID: "a607eefd-74b4-46d8-8826-5272e18c8e00",
       },
       {
@@ -5251,7 +5220,7 @@ export const blogEntries = [
       },
       {
         imgID: "1a1dddee-960f-4da8-48b6-a338aad83900",
-        description: "Nightime view of Lisbon from Miradouro da Graça",
+        description: "Nighttime view of Lisbon from Miradouro da Graça",
         coordinates: {
           lat: "38°42'59.69\"N",
           long: "09°07'53.77\"W",
@@ -5466,7 +5435,7 @@ export const blogEntries = [
       },
       {
         imgID: "7ce2c2c7-4cac-471f-88f2-0bb58049ab00",
-        description: "La Marseillaise",
+        description: "La Marseillaise - François Rude",
         coordinates: {
           lat: "48°52'26.50\"N",
           long: "02°17'41.85\"E",
@@ -5601,7 +5570,7 @@ export const blogEntries = [
       },
       {
         imgID: "341fac6a-a639-4b44-e352-009e6ffa6400",
-        description: "Macaroons from Ladurée",
+        description: "Macarons from Ladurée",
         coordinates: {
           lat: "48°51'04.04\"N",
           long: "02°21'39.04\"E",
@@ -6032,7 +6001,7 @@ export const blogEntries = [
       },
       {
         imgID: "66027d78-598d-4b67-b0ba-1bb641725800",
-        description: "Largest turrent at Fisherman's Bastion",
+        description: "Largest turret at Fisherman's Bastion",
         coordinates: {
           lat: "47°30'09.19\"N",
           long: "19°02'03.78\"E",
@@ -6239,7 +6208,7 @@ export const blogEntries = [
       },
       {
         imgID: "cb423416-a9be-4b83-45bc-ed2bfabf6a00",
-        description: "Oppulent dome inside Hofburg Palace",
+        description: "Opulent dome inside Hofburg Palace",
         coordinates: {
           lat: "48°12'27.52\"N",
           long: "16°21'58.37\"E",
@@ -6833,7 +6802,7 @@ export const blogEntries = [
 
       {
         imgID: "b224fa56-d46e-4b3f-f88c-bd417894b200",
-        description: "Moulin Rougue",
+        description: "Moulin Rouge",
         coordinates: {
           lat: "52°22'27.89\"N",
           long: "04°54'00.39\"E",
@@ -6921,7 +6890,7 @@ export const blogEntries = [
       },
       {
         imgID: "ed7f46d8-4983-43aa-1f1c-895de1a38f00",
-        description: "My first self-caught regional Pokémon, Klefki",
+        description: "My first self-caught regional Pokémon; Klefki",
         coordinates: {
           lat: "",
           long: "",

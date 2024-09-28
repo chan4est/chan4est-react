@@ -13,31 +13,33 @@ export function GalleryGridSquare({
   hasDesc,
 }) {
   return (
-    <Link href={entryRoute} title={entryTitle} className="max-w-[19.375rem]">
-      <div className="relative">
-        {hasLayersIco && (
+    <div className="max-w-[19.375rem]">
+      <Link href={entryRoute} title={entryTitle}>
+        <div className="relative">
+          {hasLayersIco && (
+            <Image
+              src={layersIcon}
+              alt=""
+              width={50}
+              height={50}
+              className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none select-none"
+              priority={false}
+              unoptimized={true}
+            />
+          )}
           <Image
-            src={layersIcon}
-            alt=""
-            width={50}
-            height={50}
-            className="absolute z-10 top-0 right-0 pt-2 pr-2 w-6 h-6 lg:w-7 lg:h-7 pointer-events-none"
+            src={imgSrc}
+            alt={`Photo of ${imgTitle}`}
+            width={310}
+            height={310}
+            className="max-h-[19.375rem] bg-img_bg"
             priority={false}
             unoptimized={true}
           />
-        )}
-        <Image
-          src={imgSrc}
-          alt={`Photo of ${imgTitle}`}
-          width={310}
-          height={310}
-          className="max-h-[19.375rem] bg-img_bg"
-          priority={false}
-          unoptimized={true}
-        />
-      </div>
+        </div>
+      </Link>
       {hasDesc && <p className="text-xxs text-center">{imgTitle}</p>}
-    </Link>
+    </div>
   );
 }
 
