@@ -58,7 +58,7 @@ function GalleryLink({}) {
           alt="Gallery icon"
           width={50}
           height={50}
-          className="pr-1 h-4 sm:h-5 lg:h-6 w-auto "
+          className="pr-1 h-6 w-auto "
           priority={true}
           unoptimized={true}
         />
