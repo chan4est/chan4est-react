@@ -78,8 +78,7 @@ export const blogEntries = [
       },
       {
         imgID: "6d54b47f-edb3-4f9a-831d-f47dd84ecb00",
-        description:
-          "Terrible Icelandic food (jellied sheep's head w/ cold sides, beer, bread ice cream)",
+        description: "jellied sheep's head, beer, bread ice cream",
         coordinates: {
           lat: "64°08'32.87\"N",
           long: "21°55'42.19\"E",
@@ -311,7 +310,7 @@ export const blogEntries = [
       },
       {
         imgID: "d360729e-e50c-4e93-fa8c-b86caa3f2f00",
-        description: "Nightlit Dubrovnik",
+        description: "Dubrovnik from Mount Srd",
         coordinates: {
           lat: "42°38'39.57\"N",
           long: "18°07'17.41\"E",
@@ -1061,7 +1060,7 @@ export const blogEntries = [
       },
       {
         imgID: "ba9bc4ba-6b64-4a23-0277-f17d7f308700",
-        description: "Denny's mugs in Jordan?",
+        description: "Denny's in Jordan?",
         coordinates: {
           lat: "30°22'06.48\"N",
           long: "35°27'44.28\"E",
@@ -1070,7 +1069,7 @@ export const blogEntries = [
       },
       {
         imgID: "249691c3-6cee-427b-313c-d3ecd1435c00",
-        description: "The Treasury, as seen from al-Sīq",
+        description: "The Treasury from al-Sīq",
         coordinates: {
           lat: "30°19'38.30\"N",
           long: "35°27'15.80\"E",
@@ -1293,6 +1292,34 @@ export const blogEntries = [
         },
       },
       {
+        imgID: "dc499c4f-585b-4cf4-4118-be326795c300",
+        description: "Cobblestone streets of Old City Jerusalem",
+        coordinates: {
+          lat: "31°46'41.25\"N",
+          long: "35°13'52.53\"E",
+          link: "https://maps.google.com/?q=31.778125,35.23125833333334",
+        },
+      },
+      {
+        imgID: "fdaf9c18-faf1-413e-1b5c-4b17da674700",
+        description: "Trilingual street sign in Jerusalem",
+        coordinates: {
+          lat: "31°46'39.97\"N",
+          long: "35°13'57.82\"E",
+          link: "https://maps.google.com/?q=31.777769444444445,35.23272777777778",
+        },
+      },
+      {
+        imgID: "f2b37124-dd76-4384-05cb-ebf3ad9dc100",
+        description: "Old city bazaar",
+        coordinates: {
+          lat: "31°46'40.10\"N",
+          long: "35°13'45.53\"E",
+          link: "https://maps.google.com/?q=31.777805555555556,35.22931388888889",
+        },
+      },
+
+      {
         imgID: "0602c85c-c070-48ef-29c9-2f708925f000",
         description: "Church of the Holy Sepulchre",
         coordinates: {
@@ -1311,15 +1338,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "d333e4b0-6ad2-4108-9754-855afd604600",
-        description: "Temple Mount",
-        coordinates: {
-          lat: "31°46'43.90\"N",
-          long: "35°14'04.00\"E",
-          link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
-        },
-      },
-      {
         imgID: "4cfe3471-f3ad-4ba8-df36-83f693375700",
         description: "قبّة الصخرة (Dome of the Rock)",
         coordinates: {
@@ -1329,17 +1347,17 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "fdaf9c18-faf1-413e-1b5c-4b17da674700",
-        description: "Trilingual street sign in Jerusalem",
+        imgID: "d333e4b0-6ad2-4108-9754-855afd604600",
+        description: "Walking through Temple Mount",
         coordinates: {
-          lat: "31°46'39.97\"N",
-          long: "35°13'57.82\"E",
-          link: "https://maps.google.com/?q=31.777769444444445,35.23272777777778",
+          lat: "31°46'43.90\"N",
+          long: "35°14'04.00\"E",
+          link: "https://www.google.com/maps?q=loc:31.7788667,35.2344333",
         },
       },
       {
         imgID: "fa337dae-8421-4de2-d1c1-435461ae9900",
-        description: "Old City of Jerusalem",
+        description: "Old City of Jerusalem from Mount of Olives",
         coordinates: {
           lat: "31°46'32.90\"N",
           long: "35°14'33.70\"E",
@@ -1880,7 +1898,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=37.552099999999996,126.98851666666667",
           long: "126°59'18.66\"E",
         },
-        description: "Nightlit Seoul from Namsan Mountain Park",
+        description: "Seoul from Namsan Mountain Park",
         imgID: "44a45498-6e1f-44f1-9018-c7ba32967f00",
       },
       {
@@ -1934,7 +1952,7 @@ export const blogEntries = [
           link: "https://www.google.com/maps?q=loc:37.5635,126.9846",
           long: "126°59'04.63\"E",
         },
-        description: "Street food from Myeongdong Night Market",
+        description: "My Korean food fix",
         imgID: "0afa3add-2022-4f91-0500-f1e14e4ea500",
       },
       {
@@ -2072,7 +2090,7 @@ export const blogEntries = [
       },
       {
         imgID: "89ed3a1a-6181-402a-157e-dfbe408f5100",
-        description: "Hall of Supreme Harmony and the Meridian Gate",
+        description: "Hall of Supreme Harmony (top) | Meridian Gate (bottom)",
         coordinates: {
           lat: "39°54'57.50\"N",
           long: "116°23'49.70\"E",
@@ -2358,6 +2376,24 @@ export const blogEntries = [
         imgID: "4d14c2ef-7f95-480d-92b9-9462bb92e100",
       },
       {
+        description: "Chiang Kai-shek statue",
+        imgID: "23c30e67-d00a-4b2d-f7bd-39877e93ba00",
+        coordinates: {
+          lat: "25°02'06.01\"N",
+          long: "121°31'18.36\"E",
+          link: "https://maps.google.com/?q=25.03500277777778,121.52176666666666",
+        },
+      },
+      {
+        description: "Dome w/ the National Emblem of the ROC",
+        imgID: "b56c044d-e8f1-442f-f0f7-77cdc0a60600",
+        coordinates: {
+          lat: "25°02'06.00\"N",
+          long: "121°31'17.15\"E",
+          link: "https://maps.google.com/?q=25.035,121.52143055555555",
+        },
+      },
+      {
         coordinates: {
           lat: "25°02'12.56\"N",
           link: "https://maps.google.com/?q=25.036822222222224,121.51886111111111",
@@ -2466,6 +2502,24 @@ export const blogEntries = [
         imgID: "c7ce853f-00a5-4300-a34c-b34a3ac84100",
       },
       {
+        imgID: "1662c442-2f4b-43e1-919f-b4e1ae398900",
+        description: "Realistic looking gun used for carnival games",
+        coordinates: {
+          lat: "25°03'18.78\"N",
+          long: "121°30'54.35\"E",
+          link: "https://maps.google.com/?q=25.055216666666666,121.51509722222222",
+        },
+      },
+      {
+        imgID: "a4f06f79-e2d7-4f76-8b31-af63580a1700",
+        description: "Man w/ his pet pig 🐷",
+        coordinates: {
+          lat: "25°03'22.77\"N",
+          long: "121°30'55.12\"E",
+          link: "https://maps.google.com/?q=25.056325,121.51531111111112",
+        },
+      },
+      {
         coordinates: {
           lat: "25°03'22.43\"N",
           link: "https://maps.google.com/?q=25.056230555555555,121.51528888888889",
@@ -2525,6 +2579,15 @@ export const blogEntries = [
         },
         description: "Jollibee",
         imgID: "21cf4534-c8be-4130-116a-18de358c8200",
+      },
+      {
+        imgID: "eb79cf6f-afd1-4e25-e5fe-3d9c3f731700",
+        description: "Binando (Manila's Chinatown)",
+        coordinates: {
+          lat: "",
+          long: "",
+          link: "",
+        },
       },
       {
         coordinates: {
@@ -2595,7 +2658,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
           long: "121°1'5.38\"E",
         },
-        description: "Hanging off a Jeepney",
+        description: "Peace from Manila",
         imgID: "bd32f7c3-afe0-4fff-2793-3dd2ad10bd00",
       },
       {
@@ -2604,7 +2667,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
           long: "121°1'5.38\"E",
         },
-        description: "Sitting in a Jeepney",
+        description: "I fit inside a Jeepney",
         imgID: "2eceea53-0f33-40e0-a42f-43dff941cc00",
       },
       {
@@ -2618,7 +2681,7 @@ export const blogEntries = [
       },
       {
         imgID: "05554b28-4e7a-4cdb-a8c2-4b2b5fb9d600",
-        description: "BBQ Skewers",
+        description: "BBQ skewers",
         coordinates: {
           lat: "14°34'32.23\"N",
           long: "121°01'08.75\"E",
@@ -2679,12 +2742,30 @@ export const blogEntries = [
       },
       {
         coordinates: {
-          lat: "01°21'38.03\"N",
-          link: "https://www.google.com/maps/place/Pok%C3%A9mon+Center+Singapore/@1.3606388,103.9876832,1431m/data=!3m3!1e3!4b1!5s0x31da3c8963249ae3:0xc478987258a3f6e7!4m6!3m5!1s0x31da3d9e82644471:0xdbba59d3e53a804b!8m2!3d1.3606388!4d103.9902581!16s%2Fg%2F11h6q7qc90?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
-          long: "103°59'24.09\"E",
+          lat: "01°16'51.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'47.05\"E",
         },
-        description: "Pokémon Center Singapore",
-        imgID: "2b23b6eb-677f-4f64-1aa4-dbfa20161700",
+        description: "View from OCBC Skyway",
+        imgID: "65ba1a83-f882-42eb-c5d4-ed8715565900",
+      },
+      {
+        coordinates: {
+          lat: "01°16'51.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'47.05\"E",
+        },
+        description: "Close up of a Supertree's foilage",
+        imgID: "dec4367c-1694-4ccc-f987-bc2169b5f800",
+      },
+      {
+        coordinates: {
+          lat: "01°16'51.06\"N",
+          link: "https://www.google.com/maps/place/1%C2%B016'51.6%22N+103%C2%B051'47.5%22E/@1.2814833,103.8634039,195m/data=!3m1!1e3!4m4!3m3!8m2!3d1.280985!4d103.863192?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°51'47.05\"E",
+        },
+        description: "Pond in Gardens by the Bay",
+        imgID: "f8aa0618-55f2-487d-0490-f89932c46300",
       },
       {
         coordinates: {
@@ -2694,6 +2775,15 @@ export const blogEntries = [
         },
         description: "Rain Vortex inside Jewel Changi Airport",
         imgID: "1896f3ef-aa70-417c-49e9-7cbc7e6d2e00",
+      },
+      {
+        coordinates: {
+          lat: "01°21'38.03\"N",
+          link: "https://www.google.com/maps/place/Pok%C3%A9mon+Center+Singapore/@1.3606388,103.9876832,1431m/data=!3m3!1e3!4b1!5s0x31da3c8963249ae3:0xc478987258a3f6e7!4m6!3m5!1s0x31da3d9e82644471:0xdbba59d3e53a804b!8m2!3d1.3606388!4d103.9902581!16s%2Fg%2F11h6q7qc90?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+          long: "103°59'24.09\"E",
+        },
+        description: "Pokémon Center Singapore",
+        imgID: "2b23b6eb-677f-4f64-1aa4-dbfa20161700",
       },
       {
         coordinates: {
@@ -3069,6 +3159,34 @@ export const blogEntries = [
         },
         description: "Peace from Cambodia",
         imgID: "031a3b33-ba23-44a5-3104-c33cb925d600",
+      },
+      {
+        imgID: "1dfb1110-cc4c-4124-ab8c-d621caccdd00",
+        description: "Inside Angkor Watt",
+        coordinates: {
+          lat: "13°24'43.88\"N",
+          long: "103°51'59.18\"E",
+          link: "https://maps.google.com/?q=13.41218888888889,103.86643888888888",
+        },
+      },
+      {
+        imgID: "31928c61-b6e1-47e5-3669-d62b30779600",
+        description: "Swimming pool ruins",
+        coordinates: {
+          lat: "13°24'44.98\"N",
+          long: "103°51'57.51\"E",
+          link: "https://maps.google.com/?q=13.412494444444444,103.86597499999999",
+        },
+      },
+
+      {
+        imgID: "786678eb-621d-4bad-279b-400e9e05f600",
+        description: "Angkor Wat spire",
+        coordinates: {
+          lat: "13°24'45.32\"N",
+          long: "103°52'01.60\"E",
+          link: "https://maps.google.com/?q=13.41258888888889,103.8671111111111",
+        },
       },
       {
         coordinates: {
@@ -3963,7 +4081,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.67319166666667,135.50033611111112",
           long: "135°30'01.21\"E",
         },
-        description: "Osaka Pokémon Center",
+        description: "Pokémon Center Osaka",
         imgID: "64772a58-119b-4790-85ec-f3ab5db13c00",
       },
       {
@@ -4070,7 +4188,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.998130555555555,135.78021111111113",
           long: "135°46'48.76\"E",
         },
-        description: "Hōkan-ji Temple (Yasaka Pagoda)",
+        description: "Yasaka Pagoda",
         imgID: "fe104c08-7d87-434d-48b8-07189560b200",
       },
       {
