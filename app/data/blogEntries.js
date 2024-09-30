@@ -149,15 +149,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "aad7f1a5-4190-41df-5cd8-11d8e1222400",
-        description: "Struggling in Iceland",
-        coordinates: {
-          lat: "",
-          long: "",
-          link: "",
-        },
-      },
-      {
         imgID: "2489c721-7350-4b64-c17a-1c8961c2f700",
         description: "Icelandic sheep",
         coordinates: {
@@ -747,15 +738,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "995c7483-fecf-4883-5e6d-68e637265400",
-        description: "İstanbul near sunset",
-        coordinates: {
-          lat: "41°01'19.60\"N",
-          long: "28°57'58.07\"E",
-          link: "https://maps.google.com/?q=41.02211111111111,28.966130555555555",
-        },
-      },
-      {
         imgID: "3c5bbeba-e7e9-4b55-d21c-bd3cbe34ea00",
         description: "Halıç Subway Station",
         coordinates: {
@@ -859,6 +841,15 @@ export const blogEntries = [
           lat: "29°58'48.90\"N",
           long: "31°08'07.20\"E",
           link: "https://www.google.com/maps?q=29.98025,31.13533",
+        },
+      },
+      {
+        imgID: "2fca5c25-95b5-4f9b-8351-fe962f30a100",
+        description: "Scale of the pyramids",
+        coordinates: {
+          lat: "29°58'48.78\"N",
+          long: "31°08'00.27\"E",
+          link: "https://maps.google.com/?q=29.980216666666664,31.133408333333332",
         },
       },
       {
@@ -1059,15 +1050,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "ba9bc4ba-6b64-4a23-0277-f17d7f308700",
-        description: "Denny's in Jordan?",
-        coordinates: {
-          lat: "30°22'06.48\"N",
-          long: "35°27'44.28\"E",
-          link: "https://maps.google.com/?q=30.368466666666666,35.462300000000006",
-        },
-      },
-      {
         imgID: "249691c3-6cee-427b-313c-d3ecd1435c00",
         description: "The Treasury from al-Sīq",
         coordinates: {
@@ -1203,24 +1185,6 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=30.324058333333333,35.48771666666667",
         },
       },
-      {
-        imgID: "66077201-26de-4c4d-653d-f425adcdfc00",
-        description: "Stranded in the Middle East",
-        coordinates: {
-          lat: "31°42'47.32\"N",
-          long: "35°57'00.70\"E",
-          link: "https://maps.google.com/?q=31.713144444444445,35.95019444444445",
-        },
-      },
-      {
-        imgID: "c7c7dc40-a6d9-4599-794c-f5cb34121700",
-        description: "What have I done?",
-        coordinates: {
-          lat: "31°42'47.32\"N",
-          long: "35°57'00.70\"E",
-          link: "https://maps.google.com/?q=31.713144444444445,35.95019444444445",
-        },
-      },
     ],
   },
   {
@@ -1298,15 +1262,6 @@ export const blogEntries = [
           lat: "31°46'41.25\"N",
           long: "35°13'52.53\"E",
           link: "https://maps.google.com/?q=31.778125,35.23125833333334",
-        },
-      },
-      {
-        imgID: "fdaf9c18-faf1-413e-1b5c-4b17da674700",
-        description: "Trilingual street sign in Jerusalem",
-        coordinates: {
-          lat: "31°46'39.97\"N",
-          long: "35°13'57.82\"E",
-          link: "https://maps.google.com/?q=31.777769444444445,35.23272777777778",
         },
       },
       {
@@ -1477,15 +1432,6 @@ export const blogEntries = [
           lat: "27°10'09.44\"N",
           long: "78°02'32.68\"E",
           link: "https://maps.google.com/?q=27.16928888888889,78.04241111111111",
-        },
-      },
-      {
-        imgID: "1edfe451-6598-4def-7c98-ef15bfbacb00",
-        description: "Man who helped me negotiate for an auto rickshaw",
-        coordinates: {
-          lat: "27°10'03.14\"N",
-          long: "78°02'12.08\"E",
-          link: "https://maps.google.com/?q=27.167538888888892,78.03668888888889",
         },
       },
       {
@@ -2307,7 +2253,7 @@ export const blogEntries = [
       },
       {
         imgID: "e6c254e3-65af-42ce-e3d7-8e637249ec00",
-        description: "CCP Display at Beijing Daxing International Airport",
+        description: "CCP display at Beijing Daxing International Airport",
         coordinates: {
           lat: "39°30'44.30\"N",
           long: "116°24'38.90\"E",
@@ -2667,7 +2613,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=14.572044444444444,121.01816111111111",
           long: "121°1'5.38\"E",
         },
-        description: "I fit inside a Jeepney",
+        description: "I fit inside a Jeepney!",
         imgID: "2eceea53-0f33-40e0-a42f-43dff941cc00",
       },
       {
@@ -3170,16 +3116,6 @@ export const blogEntries = [
         },
       },
       {
-        imgID: "31928c61-b6e1-47e5-3669-d62b30779600",
-        description: "Swimming pool ruins",
-        coordinates: {
-          lat: "13°24'44.98\"N",
-          long: "103°51'57.51\"E",
-          link: "https://maps.google.com/?q=13.412494444444444,103.86597499999999",
-        },
-      },
-
-      {
         imgID: "786678eb-621d-4bad-279b-400e9e05f600",
         description: "Angkor Wat spire",
         coordinates: {
@@ -3431,6 +3367,15 @@ export const blogEntries = [
       },
       {
         coordinates: {
+          lat: "15°52'33.62\"N",
+          link: "https://maps.google.com/?q=15.876005555555556,108.32698055555555",
+          long: "108°19'37.13\"E",
+        },
+        description: "Latern-lit Thu Bồn River",
+        imgID: "e6e7bd9c-ad6d-40c4-2ada-34cbcf7a4d00",
+      },
+      {
+        coordinates: {
           lat: "15°52'34.77\"N",
           link: "https://maps.google.com/?q=15.876325000000001,108.32659166666666",
           long: "108°19'35.73\"E",
@@ -3455,15 +3400,6 @@ export const blogEntries = [
         },
         description: "The city of lanterns",
         imgID: "f7d1c11d-3223-4668-4397-65f4a1dd8600",
-      },
-      {
-        coordinates: {
-          lat: "15°52'33.62\"N",
-          link: "https://maps.google.com/?q=15.876005555555556,108.32698055555555",
-          long: "108°19'37.13\"E",
-        },
-        description: "Latern-lit Thu Bồn River",
-        imgID: "e6e7bd9c-ad6d-40c4-2ada-34cbcf7a4d00",
       },
       {
         coordinates: {
@@ -3777,7 +3713,7 @@ export const blogEntries = [
           long: "139°47'23.03\"E",
         },
         description: "Floating Flower Garden at teamLab Planets",
-        imgID: "e5a665a1-78e0-4fb3-5ef3-fd1419221700",
+        imgID: "585c2556-2fac-4b36-488e-3c4377669a00",
       },
       {
         coordinates: {
@@ -3967,15 +3903,6 @@ export const blogEntries = [
         imgID: "528bebb2-e092-4e3c-782c-d66ac19c2600",
       },
       {
-        imgID: "cac395d8-f8a0-4e08-f4cf-778d9d07cb00",
-        description: "Cute octopus sign",
-        coordinates: {
-          lat: "",
-          long: "",
-          link: "",
-        },
-      },
-      {
         imgID: "69d74437-8b81-40c6-f942-ee8b90cd1700",
         description: "Takoyaki (octopus balls)",
         coordinates: {
@@ -4126,7 +4053,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=34.64918611111111,135.50595",
           long: "135°30'21.42\"E",
         },
-        description: "Cursed rock hyrax poster that I kept running into",
+        description: "Lumpy rock hyrax poster that I kept running into",
         imgID: "a26571b2-c47c-4da1-b47c-f156f38b7200",
       },
       {
@@ -4387,7 +4314,7 @@ export const blogEntries = [
     previewIdx: 0,
     postImages: [
       {
-        imgID: "1cc9efaa-f534-4639-0a55-9dbf28338d00",
+        imgID: "784365e9-eef1-4d5a-856f-f73d330a7200",
         description: "Nagoya Castle",
         coordinates: {
           lat: "35°11'05.88\"N",
@@ -4863,7 +4790,7 @@ export const blogEntries = [
       },
       {
         imgID: "ee221459-6c38-41b5-b7a9-7fce1deeba00",
-        description: "Agricultural terraces up close",
+        description: "Terraces up close",
         coordinates: {
           lat: "13°09'50.21\"N",
           long: "72°32'40.37\"E",
@@ -7167,7 +7094,7 @@ export const blogEntries = [
     flags: ["🇬🇧"],
     isFlagLink: true,
     caption: {
-      title: "England 🇬🇧",
+      title: "England 🇬🇧",
       content:
         "The first stop on my trip across Europe! I have never traveled outside of the US before so it was the perfect place to get my bearings.\nThank you Yao for housing me, being a good travel buddy, and making me feel welcome across the pond.",
       publishDate: "September 30, 2022",
