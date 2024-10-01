@@ -60,7 +60,7 @@ export const blogEntries = [
       },
       {
         imgID: "e2645f34-6b52-4ef2-4660-b93b1de9ea00",
-        description: "Sun Voyager - Jón Gunnar Árnason",
+        description: "Sun Voyager — Jón Gunnar Árnason",
         coordinates: {
           lat: "64°08'51.38\"N",
           long: "21°55'20.98\"E",
@@ -346,7 +346,7 @@ export const blogEntries = [
       },
       {
         imgID: "5696313a-ac59-4d55-b633-d2310ce72600",
-        description: "Jon Snow - René 🇺🇸",
+        description: "Jon Snow — René 🇺🇸",
         coordinates: {
           lat: "42°37'27.24\"N",
           long: "18°07'15.21\"E",
@@ -1679,7 +1679,7 @@ export const blogEntries = [
       },
       {
         imgID: "b605e868-fca4-4b85-c5cb-e15f464df900",
-        description: "Dots Obsession—Aspiring to Heaven’s Love - Yayoi Kusama",
+        description: "Dots Obsession—Aspiring to Heaven’s Love — Yayoi Kusama",
         coordinates: {
           lat: "22°18'04.00\"N",
           long: "114°09'33.10\"E",
@@ -1688,7 +1688,7 @@ export const blogEntries = [
       },
       {
         imgID: "bd33014c-13d6-4226-8b4c-4064ce310700",
-        description: "East Meets West - Tseng Kwong Chi",
+        description: "East Meets West — Tseng Kwong Chi",
         coordinates: {
           lat: "22°18'01.12\"N",
           long: "114°09'31.37\"E",
@@ -1831,7 +1831,7 @@ export const blogEntries = [
       },
       {
         imgID: "924121d7-d169-4dc3-8c58-4891cbaaab00",
-        description: "Spring - Claes Oldenburg & Coosje van Bruggen",
+        description: "Spring — Claes Oldenburg & Coosje van Bruggen",
         coordinates: {
           lat: "37°34'09.17\"N",
           long: "126°58'42.74\"E",
@@ -2163,7 +2163,7 @@ export const blogEntries = [
       },
       {
         imgID: "8834b500-4ae4-44c6-f627-9155af943e00",
-        description: "Hazy dragon status",
+        description: "Hazy dragon statue",
         coordinates: {
           lat: "34°15'49.40\"N",
           long: "108°56'20.50\"E",
@@ -2857,7 +2857,7 @@ export const blogEntries = [
       },
       {
         imgID: "1df64bbb-e55d-43b3-414a-7517870da600",
-        description: "Chiang Mai sunset",
+        description: "Sunset in Chiang Mai",
         coordinates: {
           lat: "18°47'18.53\"N",
           long: "98°58'59.33\"E",
@@ -3457,7 +3457,7 @@ export const blogEntries = [
       },
       {
         imgID: "0b9badaf-ef5f-4fd5-5274-6b4d95aa1f00",
-        description: "Mother - Nguyen Hoang Huy",
+        description: "Mother — Nguyen Hoang Huy",
         coordinates: {
           lat: "10°46'45.39\"N",
           long: "106°41'32.39\"E",
@@ -4124,7 +4124,7 @@ export const blogEntries = [
           link: "https://maps.google.com/?q=35.00344166666667,135.778275",
           long: "135°46'41.79\"E",
         },
-        description: "Real life locations from the Shelter music video",
+        description: 'Real-life locations from the "Shelter" music video',
         imgID: "199631d3-1812-44dd-c7c1-73c598c86200",
       },
       {
@@ -4360,7 +4360,7 @@ export const blogEntries = [
       },
       {
         imgID: "687f8dd4-4215-46e5-4c02-75f0a1883f00",
-        description: "Nagoya castle interior",
+        description: "Nagoya Castle interior",
         coordinates: {
           lat: "35°11'06.05\"N",
           long: "136°53'59.26\"E",
@@ -4628,7 +4628,7 @@ export const blogEntries = [
     postImages: [
       {
         imgID: "d0a411fd-884c-4887-a734-71798b0ee900",
-        description: "Macchu Pichu",
+        description: "Machu Picchu",
         coordinates: {
           lat: "13°09'54.09\"N",
           long: "72°32'40.59\"E",
@@ -5515,7 +5515,7 @@ export const blogEntries = [
       },
       {
         imgID: "7ce2c2c7-4cac-471f-88f2-0bb58049ab00",
-        description: "La Marseillaise - François Rude",
+        description: "La Marseillaise — François Rude",
         coordinates: {
           lat: "48°52'26.50\"N",
           long: "02°17'41.85\"E",
@@ -5560,7 +5560,7 @@ export const blogEntries = [
       },
       {
         imgID: "37e8c06a-9c5b-4cdb-ba33-2d4ba07ead00",
-        description: "Mona Lisa - Leonardo da Vinci",
+        description: "Mona Lisa — Leonardo da Vinci",
         coordinates: {
           lat: "48°51'36.18\"N",
           long: "02°20'07.69\"E",
@@ -5569,7 +5569,7 @@ export const blogEntries = [
       },
       {
         imgID: "1094a13e-ffb5-4186-883a-7ff69461ee00",
-        description: "The Winged Nike",
+        description: "The Winged Victory of Samothrace",
         coordinates: {
           lat: "48°51'36.87\"N",
           long: "02°20'10.97\"E",
@@ -5578,7 +5578,7 @@ export const blogEntries = [
       },
       {
         imgID: "7d60d1c1-1c61-4009-ec88-6268b65be100",
-        description: "Liberty Leading the People - Eugène Delacroix",
+        description: "Liberty Leading the People — Eugène Delacroix",
         coordinates: {
           lat: "48°51'37.65\"N",
           long: "02°20'06.31\"E",
@@ -5596,7 +5596,7 @@ export const blogEntries = [
       },
       {
         imgID: "7c0418f3-0a6c-4203-0dfe-9d96b1ff2e00",
-        description: "Bal du moulin de la Galette - Renoir",
+        description: "Bal du moulin de la Galette — Renoir",
         coordinates: {
           lat: "48°51'35.59\"N",
           long: "02°19'38.18\"E",
@@ -5605,7 +5605,7 @@ export const blogEntries = [
       },
       {
         imgID: "856733ff-5676-4922-41ff-70db14762000",
-        description: "The Thinker - Rodin",
+        description: "The Thinker — Rodin",
         coordinates: {
           lat: "48°51'19.99\"N",
           long: "02°18'55.85\"E",
@@ -5668,7 +5668,7 @@ export const blogEntries = [
       },
       {
         imgID: "d520f0ed-9a91-4b18-9d92-a3cf9543af00",
-        description: "Bassin d'Apollon - Charles Le Brun (left)",
+        description: "Bassin d'Apollon — Charles Le Brun (left)",
         coordinates: {
           lat: "48°48'25.99\"N",
           long: "02°06'40.48\"E",
@@ -5677,7 +5677,7 @@ export const blogEntries = [
       },
       {
         imgID: "e7af47f9-89f8-4b2c-b39e-3b3f8dd64000",
-        description: "Bassin d'Apollon - Charles Le Brun (right)",
+        description: "Bassin d'Apollon — Charles Le Brun (right)",
         coordinates: {
           lat: "48°48'25.99\"N",
           long: "02°06'40.48\"E",
@@ -5856,7 +5856,7 @@ export const blogEntries = [
       },
       {
         imgID: "b2e9fe38-e98d-4d0b-d671-57cb6ac18b00",
-        description: "St. Michael the Archangel - Peter Anton von Verschaffelt",
+        description: "St. Michael the Archangel — Peter Anton von Verschaffelt",
         coordinates: {
           lat: "41°54'10.20\"N",
           long: "12°27'59.67\"E",
@@ -5884,7 +5884,7 @@ export const blogEntries = [
       },
       {
         imgID: "617d9cbc-2af8-4991-ed27-acffa71d6300",
-        description: "Inside of St. Peter's Basilica",
+        description: "Interior of St. Peter's Basilica",
         coordinates: {
           lat: "41°54'07.81\"N",
           long: "12°27'21.32\"E",
@@ -5902,7 +5902,7 @@ export const blogEntries = [
       },
       {
         imgID: "e2298742-9a26-4e28-a063-de6964bd2000",
-        description: "Sistine Chapel ceiling - Michelangelo",
+        description: "Sistine Chapel ceiling — Michelangelo",
         coordinates: {
           lat: "41°54'11.01\"N",
           long: "12°27'15.18\"E",
@@ -5948,7 +5948,7 @@ export const blogEntries = [
       },
       {
         imgID: "e9c3b912-f0b2-4db1-1eec-400a4026a300",
-        description: "The Birth of Venus - Botticelli",
+        description: "The Birth of Venus — Botticelli",
         coordinates: {
           lat: "43°46'06.41\"N",
           long: "11°15'21.13\"E",
@@ -5957,7 +5957,7 @@ export const blogEntries = [
       },
       {
         imgID: "fb66c3b0-7d40-4018-2cf4-742432d5ab00",
-        description: "David - Michelangelo",
+        description: "David — Michelangelo",
         coordinates: {
           lat: "43°46'32.66\"N",
           long: "11°15'29.75\"E",
@@ -6351,7 +6351,7 @@ export const blogEntries = [
       },
       {
         imgID: "0e6b757d-8259-4a9b-eb0a-2374e065c300",
-        description: "The Hunters in the Snow - Pieter Bruegel the Elder",
+        description: "The Hunters in the Snow — Pieter Bruegel the Elder",
         coordinates: {
           lat: "48°12'13.86\"N",
           long: "16°22'04.41\"E",
@@ -6360,7 +6360,7 @@ export const blogEntries = [
       },
       {
         imgID: "35d41bfe-1a59-42ef-cccc-41b28f324b00",
-        description: "Tower of Babel - Pieter Bruegel the Elder",
+        description: "Tower of Babel — Pieter Bruegel the Elder",
         coordinates: {
           lat: "48°12'13.86\"N",
           long: "16°21'45.77\"E",
@@ -6665,7 +6665,7 @@ export const blogEntries = [
       {
         imgID: "a940aa39-bc20-43af-4dd8-9efc557a7300",
         description:
-          "My God, Help Me to Survive This Deadly Love - Dmitri Vrubel",
+          "My God, Help Me to Survive This Deadly Love — Dmitri Vrubel",
         coordinates: {
           lat: "52°30'14.04\"N",
           long: "13°26'34.20\"E",
@@ -6817,7 +6817,7 @@ export const blogEntries = [
       },
       {
         imgID: "54ed1f32-a3af-447d-a7f0-25d0cda8a800",
-        description: "The Milkmaid - Johannes Vermeer",
+        description: "The Milkmaid — Johannes Vermeer",
         coordinates: {
           lat: "52°21'36.61\"N",
           long: "04°53'07.95\"E",
@@ -6844,7 +6844,7 @@ export const blogEntries = [
       },
       {
         imgID: "17d6565b-3ea8-42b7-cdc4-30a0e38ef000",
-        description: "Self-Portrait with Grey Felt Hat - Vincent van Gogh",
+        description: "Self-Portrait with Grey Felt Hat — Vincent van Gogh",
         coordinates: {
           lat: "52°21'29.84\"N",
           long: "04°52'49.91\"E",
@@ -6853,7 +6853,7 @@ export const blogEntries = [
       },
       {
         imgID: "7c24492c-8910-4d30-9037-baf309c83400",
-        description: "Bedroom in Arles - Vincent van Gogh",
+        description: "Bedroom in Arles — Vincent van Gogh",
         coordinates: {
           lat: "52°21'30.18\"N",
           long: "04°52'50.59\"E",
@@ -6862,7 +6862,7 @@ export const blogEntries = [
       },
       {
         imgID: "067de986-4464-4c56-d213-0a748622df00",
-        description: "Wheatfield with Crows - Vincent van Gogh",
+        description: "Wheatfield with Crows — Vincent van Gogh",
         coordinates: {
           lat: "52°21'30.76\"N",
           long: "04°52'53.98\"E",

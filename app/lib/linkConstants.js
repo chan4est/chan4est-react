@@ -3,6 +3,8 @@ export const linkConstants = Object.freeze({
   TECH_STACK: "/#tech-stack",
   PROJECTS: "/#projects",
   BLOG: "/blog/",
+  TERMS: "/terms-and-conditions",
+  PRIVACY: "privacy-policy",
   RESUME: "/Chandler-Forrest-Resume.pdf",
   EMAIL: "mailto:chan4est@gmail.com?subject=I Found Your Website!",
   GAMES: "https://howlongtobeat.com/user/chan4est",

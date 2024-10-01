@@ -58,6 +58,15 @@ export function Footer({}) {
           BLOG (WIP)
         </Link>
       </div>
+      <div className="pt-2">
+        <Link href={linkConstants.PRIVACY} className="p-1 hover:underline">
+          PRIVACY POLICY
+        </Link>
+        {" — "}
+        <Link href={linkConstants.TERMS} className="p-1 hover:underline">
+          TERMS & CONDITIONS
+        </Link>
+      </div>
       <div className="flex flex-row gap-2 justify-center align-center text-center pt-2">
         <span>{currentYear} © Chandler Forrest</span>
         <span
