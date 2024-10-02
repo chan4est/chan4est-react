@@ -52,7 +52,12 @@ function GalleryLink({}) {
   );
 }
 
-export function SortableBlogPhotoGrid({ imagesData, hasLayersIco }) {
+export function SortableBlogPhotoGrid({
+  imagesData,
+  hasLayersIco,
+  descIsEntryTitle,
+  descIsPartOfLink,
+}) {
   const [sortedData, setSortedData] = useState(imagesData);
 
   const buttons = (
@@ -67,7 +72,8 @@ export function SortableBlogPhotoGrid({ imagesData, hasLayersIco }) {
     <BlogPhotoGrid
       imagesData={sortedData}
       hasLayersIco={hasLayersIco}
-      hasDesc={false}
+      descIsEntryTitle={descIsEntryTitle}
+      descIsPartOfLink={descIsPartOfLink}
       buttons={buttons}
     />
   );

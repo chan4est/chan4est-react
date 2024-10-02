@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
-import { linkConstants } from "@/app/lib/linkConstants";
-import { BlogPhotoGrid } from "@/app/components/BlogPhotoGrid";
-import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
-
-import { blogEntries } from "@/app/data/blogEntries";
+import { blogEntries } from "../../../data/blogEntries";
+import { linkConstants } from "../../../lib/linkConstants";
+import { BlogPhotoGrid } from "../../..//components/BlogPhotoGrid";
+import { BlogPostNavBar } from "../../..//components/BlogPostNavBar";
 
 export async function generateMetadata({ params }) {
   let metadata = { title: "404 Not Found" };
@@ -65,7 +64,7 @@ export default function BlogPage({ params, searchParams }) {
         <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
           {postNavBar}
         </div>
-        <BlogPhotoGrid imagesData={imagesData} hasDesc={true} />
+        <BlogPhotoGrid imagesData={imagesData} />
       </div>
     </>
   );

@@ -1,9 +1,8 @@
-import { BlogPhotoGrid } from "@/app/components/BlogPhotoGrid";
-import { linkConstants } from "@/app/lib/linkConstants";
-import { Footer } from "@/app/components/Footer";
-
-import { blogEntries } from "@/app/data/blogEntries";
-import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
+import { blogEntries } from "../../data/blogEntries";
+import { linkConstants } from "../../lib/linkConstants";
+import { BlogPhotoGrid } from "../../components/BlogPhotoGrid";
+import { BlogPostNavBar } from "../../components/BlogPostNavBar";
+import { Footer } from "../../components/Footer";
 
 export const metadata = {
   title: "chan4est | Travel Blog Gallery",
@@ -47,7 +46,7 @@ export default function BlogGallery({}) {
         <div className="sticky top-0 z-20 bg-background portrait:block landscape:hidden">
           {postNavBar}
         </div>
-        <BlogPhotoGrid imagesData={imagesData} hasDesc={true} />
+        <BlogPhotoGrid imagesData={imagesData} />
       </div>
       <Footer />
     </>

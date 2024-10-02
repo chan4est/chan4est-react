@@ -1,13 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-
-import { NavDropdown } from "../components/NavDropdown";
-import { SortableBlogPhotoGrid } from "../components/SortableBlogPhotoGrid";
-import { Footer } from "../components/Footer";
-
 import { blogEntries } from "../data/blogEntries";
 import calculateAge from "../lib/calculateAge";
 import { linkConstants } from "../lib/linkConstants";
+import { NavDropdown } from "../components/NavDropdown";
+import { Footer } from "../components/Footer";
+import { SortableBlogPhotoGrid } from "../components/SortableBlogPhotoGrid";
 
 import chanPhotoNagoya from "../../public/blog/nagoya_castle.webp";
 
@@ -120,7 +118,12 @@ export default function Blog() {
       <div className="bg-background flex flex-1 flex-col text-center content-center items-center">
         <NavDropdown />
         <BlogHeader blogEntries={blogEntries} />
-        <SortableBlogPhotoGrid imagesData={imagesData} hasLayersIco={true} />
+        <SortableBlogPhotoGrid
+          imagesData={imagesData}
+          hasLayersIco={true}
+          descIsEntryTitle={true}
+          descIsPartOfLink={true}
+        />
       </div>
       <Footer />
     </>

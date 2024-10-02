@@ -6,12 +6,9 @@ import {
   NextButton,
   PrevButton,
   usePrevNextButtons,
-} from "@/app/components/EmblaCarouselArrowButtons";
-import {
-  DotButton,
-  useDotButton,
-} from "@/app/components/EmblaCarouselDotbutton";
-import { shimmer, toBase64 } from "@/app/lib/shimmer";
+} from "../components/EmblaCarouselArrowButtons";
+import { DotButton, useDotButton } from "../components/EmblaCarouselDotbutton";
+import { shimmer, toBase64 } from "../lib/shimmer";
 import { imgURL, r_720, r_1500, r_3000 } from "../lib/cloudflareImgNames";
 import Link from "next/link";
 import { useEffect } from "react";

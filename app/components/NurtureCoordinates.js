@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function NurtureCoordinates({
+export function NurtureCoordinates({
   imgLocationLat,
   imgLocationLong,
   imgLocationLink,

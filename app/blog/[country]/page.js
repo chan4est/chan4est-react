@@ -1,12 +1,13 @@
-import Link from "next/link";
-import { blogEntries } from "@/app/data/blogEntries";
-import { notFound } from "next/navigation";
-import { ImageCarousel } from "@/app/components/ImageCarousel";
-import { linkConstants } from "@/app/lib/linkConstants";
-import NurtureCoordinates from "@/app/components/NurtureCoordinates";
 import Image from "next/image";
-import { BlogPostNavBar } from "@/app/components/BlogPostNavBar";
-import { commentsData } from "@/app/data/commentsData";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { blogEntries } from "../../data/blogEntries";
+import { commentsData } from "../../data/commentsData";
+import { linkConstants } from "../../lib/linkConstants";
+import { BlogPostNavBar } from "../../components/BlogPostNavBar";
+import { CommentSection } from "../../components/CommentSection";
+import { ImageCarousel } from "../../components/ImageCarousel";
+import { NurtureCoordinates } from "../../components/NurtureCoordinates";
 
 export async function generateMetadata({ params, searchParams }) {
   let metadata = { title: "404 Not Found" };
@@ -99,43 +100,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
-function Comment({ userName, text, date }) {
-  const commentParagraphs = text.split("\n");
-  const paragraphsList = commentParagraphs.map((pText, idx) => (
-    <div className="pb-2" key={pText + idx}>
-      {pText}
-    </div>
-  ));
-  return (
-    <div className="pb-2">
-      <span className="font-bold">{userName}</span>
-      <span className="text-accent">{"  " + date}</span>
-      {paragraphsList}
-    </div>
-  );
-}
-
-function CommentSection({ comments }) {
-  const commentsList = comments.map((comment) => (
-    <Comment
-      userName={comment.author}
-      text={comment.text}
-      date={comment.publishDate}
-      key={comment.author + comment.text + comment.publishDate}
-    />
-  ));
-
-  return (
-    <div className="border-t border-solid border-button_inactive pt-2 pb-4">
-      {commentsList}
-      <a href="" className="text-accent hover:hover:text-button_inactive">
-        Add a comment...
-      </a>
-    </div>
-  );
-}
-
-function BlogText({ title, paragraphs, publishDate }) {
+function BlogText({ title, paragraphs, publishDate, callbackUrl }) {
   const blogParagraphs = paragraphs.split("\n").map((text) => (
     <div key={text}>
       <p className="pb-4">{text}</p>
@@ -152,7 +117,7 @@ function BlogText({ title, paragraphs, publishDate }) {
       </p>
       {blogParagraphs}
       <p className="text-accent pb-3">{publishDate}</p>
-      <CommentSection comments={commentsData} />
+      <CommentSection comments={commentsData} callbackUrl={callbackUrl} />
     </div>
   );
 }
@@ -201,6 +166,7 @@ export default function BlogPage({ params, searchParams }) {
       title={blogData.caption.title}
       paragraphs={blogData.caption.content}
       publishDate={blogData.caption.publishDate}
+      callbackUrl={`/blog/${params.country}`}
     />
   );
 

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import layersIcon from "../../public/blog/layers.webp";
-import { linkConstants } from "@/app/lib/linkConstants";
 import { imgURL, r_620 } from "../lib/cloudflareImgNames";
 
 export function GalleryGridSquare({
@@ -10,8 +9,14 @@ export function GalleryGridSquare({
   entryTitle,
   entryRoute,
   hasLayersIco,
-  hasDesc,
+  descIsEntryTitle,
+  descIsPartOfLink,
 }) {
+  const description = (
+    <p className="text-xxs text-center">
+      {descIsEntryTitle ? entryTitle : imgTitle}
+    </p>
+  );
   return (
     <div className="max-w-[19.375rem]">
       <Link href={entryRoute} title={entryTitle}>
@@ -37,13 +42,20 @@ export function GalleryGridSquare({
             unoptimized={true}
           />
         </div>
+        {descIsPartOfLink ? description : ""}
       </Link>
-      {hasDesc && <p className="text-xxs text-center">{imgTitle}</p>}
+      {descIsPartOfLink ? "" : description}
     </div>
   );
 }
 
-export function BlogPhotoGrid({ imagesData, hasLayersIco, hasDesc, buttons }) {
+export function BlogPhotoGrid({
+  imagesData,
+  hasLayersIco,
+  descIsEntryTitle,
+  descIsPartOfLink,
+  buttons,
+}) {
   const images = imagesData.map((imgData, index) => {
     return (
       <GalleryGridSquare
@@ -52,7 +64,8 @@ export function BlogPhotoGrid({ imagesData, hasLayersIco, hasDesc, buttons }) {
         entryTitle={imgData.entryTitle}
         entryRoute={imgData.entryRoute}
         hasLayersIco={hasLayersIco}
-        hasDesc={hasDesc}
+        descIsEntryTitle={descIsEntryTitle}
+        descIsPartOfLink={descIsPartOfLink}
         key={imgData.imgID}
       />
     );
