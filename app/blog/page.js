@@ -109,8 +109,8 @@ function BlogHeader({ blogEntries }) {
 export default function Blog() {
   const imagesData = blogEntries.map((entry) => ({
     ...entry.postImages[entry.previewIdx],
-    entryTitle: entry.pageTitle,
-    entryRoute: linkConstants.BLOG_BACK_LINK(entry.route),
+    entryTitle: `${entry.pageTitle}`,
+    entryRoute: `${linkConstants.BLOG_BACK_LINK(entry.route)}?img_index=1`,
   }));
 
   return (

@@ -74,7 +74,7 @@ function RoundButton({}) {
 function PostNavButtons({ prevBlogData, nextBlogData }) {
   const prevPostButton = prevBlogData && (
     <Link
-      href={`/blog/${prevBlogData.route}`}
+      href={`/blog/${prevBlogData.route}?img_index=1`}
       className="fixed top-1/2 left-2 md:left-3 lg:left-5 transform -translate-y-1/2 z-10 rotate-180"
       title={prevBlogData.pageTitle}
     >
@@ -84,7 +84,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
 
   const nextPostButton = nextBlogData && (
     <Link
-      href={`/blog/${nextBlogData.route}`}
+      href={`/blog/${nextBlogData.route}?img_index=1`}
       className="fixed top-1/2 right-2 md:right-3 lg:right-5 transform -translate-y-1/2 z-10"
       title={nextBlogData.pageTitle}
     >
@@ -100,7 +100,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
-function BlogText({ title, paragraphs, publishDate, callbackUrl }) {
+function BlogText({ title, paragraphs, publishDate }) {
   const blogParagraphs = paragraphs.split("\n").map((text) => (
     <div key={text}>
       <p className="pb-4">{text}</p>
@@ -117,7 +117,7 @@ function BlogText({ title, paragraphs, publishDate, callbackUrl }) {
       </p>
       {blogParagraphs}
       <p className="text-accent pb-3">{publishDate}</p>
-      <CommentSection comments={commentsData} callbackUrl={callbackUrl} />
+      <CommentSection comments={commentsData} />
     </div>
   );
 }
@@ -166,7 +166,6 @@ export default function BlogPage({ params, searchParams }) {
       title={blogData.caption.title}
       paragraphs={blogData.caption.content}
       publishDate={blogData.caption.publishDate}
-      callbackUrl={`/blog/${params.country}`}
     />
   );
 

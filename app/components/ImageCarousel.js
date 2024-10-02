@@ -68,7 +68,7 @@ function PhotoControls({ emblaApi, country, totalImages }) {
   // https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating#shallow-routing
   useEffect(() => {
     const currentUrl = linkConstants.BLOG_ROUTER_LINK(country, selectedIndex);
-    window.history.pushState(null, "", currentUrl);
+    window.history.replaceState(null, "", currentUrl);
   }, [country, selectedIndex]);
 
   return (

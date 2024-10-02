@@ -1,6 +1,3 @@
-"use client";
-
-import AuthProvider from "../context/AuthProviders";
 import { LeaveComment } from "../components/LeaveComment";
 
 function Comment({ userName, text, date }) {
@@ -19,7 +16,7 @@ function Comment({ userName, text, date }) {
   );
 }
 
-export function CommentSection({ comments, callbackUrl }) {
+export function CommentSection({ comments }) {
   const commentsList = comments.map((comment) => (
     <Comment
       userName={comment.author}
@@ -30,13 +27,9 @@ export function CommentSection({ comments, callbackUrl }) {
   ));
 
   return (
-    <AuthProvider>
-      <div className="border-t border-solid border-button_inactive pt-2 pb-4">
-        {commentsList}
-        <AuthProvider>
-          <LeaveComment callbackUrl={callbackUrl} />
-        </AuthProvider>
-      </div>
-    </AuthProvider>
+    <div className="border-t border-solid border-button_inactive pt-2 pb-4">
+      {commentsList}
+      <LeaveComment />
+    </div>
   );
 }
