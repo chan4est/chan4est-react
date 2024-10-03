@@ -3108,7 +3108,7 @@ export const blogEntries = [
       },
       {
         imgID: "1dfb1110-cc4c-4124-ab8c-d621caccdd00",
-        description: "Inside Angkor Watt",
+        description: "Inside Angkor Wat",
         coordinates: {
           lat: "13°24'43.88\"N",
           long: "103°51'59.18\"E",

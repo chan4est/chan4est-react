@@ -99,7 +99,7 @@ function BlogHeader({ blogEntries }) {
             </div>
           </li>
           <br />
-          <li>WIP. Last update 9/30/24.</li>
+          <li>WIP. Last update 10/03/24.</li>
         </ul>
       </div>
     </section>

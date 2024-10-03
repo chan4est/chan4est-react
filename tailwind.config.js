@@ -33,6 +33,7 @@ module.exports = {
       colors: {
         text: "var(--text)",
         background: "var(--background)",
+        background_accent: "var(--background-accent)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",

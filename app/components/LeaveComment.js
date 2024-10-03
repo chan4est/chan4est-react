@@ -1,10 +1,27 @@
 import { getServerSession } from "next-auth";
-import { SignInButton, SignOutButton } from "../components/SignInButton";
+import { SignInButton, CommentInput } from "../components/SignInButton";
+import { counters } from "sharp";
 
-export async function LeaveComment({}) {
+export async function LeaveComment({ country }) {
   const session = await getServerSession();
+  // console.log(session);
+  const signInButton = (
+    <div className="flex justify-center items-center">
+      <SignInButton />
+    </div>
+  );
 
-  const signInButton = <SignInButton />;
-  const signOutButton = <SignOutButton />;
-  return <>{!session ? signInButton : signOutButton}</>;
+  return (
+    <>
+      {!session ? (
+        signInButton
+      ) : (
+        <CommentInput
+          userImage={session.image}
+          userName={session.name}
+          country={country}
+        />
+      )}
+    </>
+  );
 }

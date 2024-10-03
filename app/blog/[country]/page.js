@@ -100,7 +100,7 @@ function PostNavButtons({ prevBlogData, nextBlogData }) {
   );
 }
 
-function BlogText({ title, paragraphs, publishDate }) {
+function BlogText({ title, paragraphs, publishDate, country }) {
   const blogParagraphs = paragraphs.split("\n").map((text) => (
     <div key={text}>
       <p className="pb-4">{text}</p>
@@ -117,7 +117,7 @@ function BlogText({ title, paragraphs, publishDate }) {
       </p>
       {blogParagraphs}
       <p className="text-accent pb-3">{publishDate}</p>
-      <CommentSection comments={commentsData} />
+      <CommentSection country={country} />
     </div>
   );
 }
@@ -166,6 +166,7 @@ export default function BlogPage({ params, searchParams }) {
       title={blogData.caption.title}
       paragraphs={blogData.caption.content}
       publishDate={blogData.caption.publishDate}
+      country={params.country}
     />
   );
 
