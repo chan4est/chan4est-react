@@ -37,7 +37,7 @@ export async function CommentSection({ country }) {
   let commentsList = (
     <Comment
       userName={"Chandler Forrest"}
-      text="No comments yet. Add one below!"
+      text="No comments yet. Sign in and add one below!"
       date={""}
       userImage={
         "https://lh3.googleusercontent.com/a/ACg8ocL3DlyM0umuMlb837UCq21tKhRP5LpRYpCtOGuNIIf1siWpZ1QCzw=s96-c"

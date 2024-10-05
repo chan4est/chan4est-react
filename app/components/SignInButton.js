@@ -54,7 +54,7 @@ export function CommentInput({ userName, userImage, country }) {
 
   return (
     <>
-      <form onSubmit={handleOnSubmit} className="pb-2 px-1">
+      <form onSubmit={handleOnSubmit} className="pb-2 px-1 text-base">
         <div className="col-span-full">
           <div className="">
             <textarea
