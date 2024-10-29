@@ -8,7 +8,7 @@ export const projectsList = [
       "html",
       "tailwind",
       "python",
-      "vercel",
+      "postgresql",
     ],
     name: "Travel Blog",
     displayLink: "chan4est.com/blog",

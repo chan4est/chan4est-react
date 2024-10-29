@@ -48,8 +48,8 @@ function StackIcon({
           unoptimized={true}
         />
       </picture>
-      <span className={`hidden sm:block ${spanClass}`}>{stackName}</span>
-      <span className={`block sm:hidden ${spanClass}`}>{stackShortName}</span>
+      <span className={`hidden xl:block ${spanClass}`}>{stackName}</span>
+      <span className={`block xl:hidden ${spanClass}`}>{stackShortName}</span>
     </a>
   );
 }

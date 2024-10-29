@@ -80,6 +80,7 @@ export const techIconsData = [
   },
   {
     name: "Tailwind",
+    shortName: "TW",
     link: "https://tailwindcss.com/",
     img: "tailwind",
     type: "web",
@@ -270,6 +271,7 @@ export const techIconsData = [
   },
   {
     name: "Android Studio",
+    shortName: "AS",
     link: "https://developer.android.com/studio",
     img: "androidstudio",
     type: "tool",

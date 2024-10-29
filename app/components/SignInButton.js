@@ -62,7 +62,7 @@ export function CommentInput({ userName, userImage, country }) {
               name="comment"
               rows={3}
               className="block bg-background_accent w-full rounded-md border border-accent py-1.5 px-3 text-text \
-                         placeholder:text-text leading-6"
+                         placeholder:text-text leading-6 text-xs"
               placeholder={"Leave a comment"}
               value={commentText}
               onChange={(e) => setCommentText(e.target.value)}
