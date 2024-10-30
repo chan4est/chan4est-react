@@ -1,6 +1,6 @@
 import { getServerSession } from "next-auth";
-import { SignInButton, CommentInput } from "../components/SignInButton";
-import { counters } from "sharp";
+import { SignInButton } from "../components/SignInButton";
+import { CommentInput } from "../components/CommentInput";
 
 export async function LeaveComment({ country }) {
   const session = await getServerSession();
@@ -17,8 +17,8 @@ export async function LeaveComment({ country }) {
         signInButton
       ) : (
         <CommentInput
-          userImage={session.image}
-          userName={session.name}
+          userImage={session.user.image}
+          userName={session.user.name}
           country={country}
         />
       )}
