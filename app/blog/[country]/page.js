@@ -117,7 +117,7 @@ function BlogText({ title, paragraphs, publishDate, country }) {
       </p>
       {blogParagraphs}
       <p className="text-accent pb-3">{publishDate}</p>
-      <CommentSection country={country} />
+      {/* <CommentSection country={country} /> */}
     </div>
   );
 }

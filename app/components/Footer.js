@@ -55,7 +55,7 @@ export function Footer({}) {
         </Link>
         {" | "}
         <Link href={linkConstants.BLOG} className="p-1 hover:underline">
-          BLOG (WIP)
+          BLOG
         </Link>
       </div>
       <div className="pt-2">

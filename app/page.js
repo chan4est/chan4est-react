@@ -145,9 +145,9 @@ function SectionHeader({ id, link, title, imgSrc, imgSrcW, imgAlt }) {
       className="flex flex-row justify-center items-center pb-2 hover:scale-105 transition duration-200 ease-in-out"
       id={id}
     >
-      <h3 className="pr-3">{title}</h3>
+      <h1 className="pr-3">{title}</h1>
 
-      <picture className="w-7 h-7">
+      <picture className="w-12 h-12">
         <source srcSet={imgSrcW} media="(prefers-color-scheme: dark)" />
         <Image
           src={imgSrc}
@@ -194,16 +194,22 @@ function AboutSection({}) {
               <b>Location:</b> Seattle (GMT -07:00)
             </li>
             <li>
-              <b>Years of Experience:</b> 5 Years
+              <b>Alma Mater:</b> UC Santa Barbara
             </li>
             <li>
-              <b>Credentials:</b> B.S. Computer Science
+              <b>Degree:</b> B.S. Computer Science
             </li>
             <li>
-              <b>School:</b> UC Santa Barbara
+              <b>Fav Languages:</b> Python & JavaScript
             </li>
             <li>
-              <b>Favorite Languages:</b> Python & JavaScript
+              <b>Working at:</b>{" "}
+              <a
+                href={linkConstants.RADAR}
+                className="underline hover:text-button_inactive"
+              >
+                RADAR
+              </a>
             </li>
           </ul>
         </div>
@@ -217,6 +223,16 @@ function AboutSection({}) {
       <p className="pt-5">
         What makes me most fulfilled as an engineer is seeing an idea go from a
         proof of concept to a fully featured production-ready application!
+      </p>
+      <p className="pt-5">
+        Right now I&apos;m working on some amazing projects at{" "}
+        <a
+          href={linkConstants.RADAR}
+          className="underline hover:text-button_inactive"
+        >
+          RADAR
+        </a>
+        !
       </p>
       <p className="pt-5">
         When I&apos;m not working, I&apos;m usually attending a{" "}
@@ -242,10 +258,11 @@ function AboutSection({}) {
         </Link>
         !
       </p>
-      <p className="pt-5">
-        Please drop me a line if you&apos;re interested in working together!
-      </p>
 
+      <p className="pt-5">
+        I&apos;m not currently looking for any new opportunities, but if you
+        want to contact me for any other reason please drop me a line!
+      </p>
       <div
         id="contact"
         className="flex flex-row items-center justify-center gap-5 pt-5"

@@ -149,7 +149,7 @@ export function NavDropdown({}) {
             title="View my blog"
             imgSrc={navIconBlogSrc}
             imgSrcW={navIconBlogSrcW}
-            itemText={"Blog (WIP)"}
+            itemText={"Blog"}
             useLink={true}
             hasDarkMode={true}
           />

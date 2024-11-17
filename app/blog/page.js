@@ -98,8 +98,6 @@ function BlogHeader({ blogEntries }) {
               {reversedFlagLinks}
             </div>
           </li>
-          <br />
-          <li>WIP. Last update 10/28/24.</li>
         </ul>
       </div>
     </section>

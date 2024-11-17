@@ -18,4 +18,5 @@ export const linkConstants = Object.freeze({
   BLOG_ROUTER_LINK: (country, imageIndex) =>
     `/blog/${country}?img_index=${imageIndex + 1}`,
   BLOG_BACK_LINK: (country) => `/blog/${country}`,
+  RADAR: "https://goradar.com/",
 });
