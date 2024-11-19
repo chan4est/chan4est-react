@@ -8,7 +8,7 @@ export const blogEntries = [
       title: "Iceland 🇮🇸",
       content:
         "This country is such a trip! Like exploring an icy, calm, and nearly untouched alien planet! The entire time I kept thinking to myself “I cannot believe people actually live here”. I later learned that the icy planet in Interstellar was filmed here so..go figure. The out-of-this-world landscapes along with the possibility of seeing the Northern Lights made Iceland the perfect place to end my westward circle around the globe.\nMy time here verrry relaxing. It’s quiet in Iceland. No metro lines. No trains. No sprawling city centers. The only real noises are the strong gusts of wind, the boisterous waterfalls, and the occasional snowfall. Just a total flip from every other place I’ve been to really. It was wonderful to unwind, sleep in, and take some day trips out of Reykjavík to see what Iceland had in store.\nI told myself that I would be content with putting a stop to my trips abroad and going back to my regular routine if I was able to visit allll these countries during my last solo trip AND experience the Northern Lights. I knew the chances were slim…you have much better luck seeing the lights in countries like Norway as some cities there are well above the Arctic Circle but I still wanted to try my luck.\nThe first few days had me losing hope due to the dense cloud coverage and low viewing probability. One night I didn’t even bother going out because the radar showed that the entire country was covered by a cloud the whole night. Despite the circumstances, on the very last night, only a few hours before my early flight back to the US, with dense cloud coverage AND only a 10% chance of seeing the aurora, a few of us ambitious folks luckily got a glimpse of the Northern Lights. Despite it being faint and only lasting a few minutes, it felt like closure. A fitting end to my 9-week trip around the world 🌏🌍🌎",
-      publishDate: "November 14, 2023",
+      publishDate: "October 13, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -231,7 +231,7 @@ export const blogEntries = [
       title: "Dubrovnik, Croatia 🇭🇷",
       content:
         "There is so much to gush about my time in Dubrovnik! The city itself is absolutely stunning due to it feeling like it’s stuck in medieval times!! It’s where a lot of Game of Thrones scenes were shot so as a HUGE fan of the show and the ASOIAF books…it was a must-see. Lokrum Island (only a 10-minute ferry ride away) was also out of this world! A nice natural getaway with an entire day's worth of outdoor activities! Oh, and it also had wild peacocks 🦚\nWhat I’m going to remember most though, is the close-knit group of friends I met while in this charming city. It’s wonderful experiencing a new country by yourself while traveling solo, but it’s an entirely different experience when you get to do so surrounded by new friends who are also solo travelers like yourself. Time seems to accelerate from all the fun you’re having. Your throat becomes sore from the interesting conversations and seemingly nonstop laughter. You need to remind yourself to capture the moment so you won’t forget the little things. In the end, you walk away mesmerized about what just happened and if you’re lucky, a new set of lifelong friends. For Dubrvonik, I was lucky.\nIt was bittersweet with each of us knowing we’d be parting our own separate ways, but I’m happy to have the memories we all made together. The world seems relatively small once you’ve been around the world. I know this won’t be the last I see any of them ☺️",
-      publishDate: "November 6, 2023",
+      publishDate: "October 6, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -410,7 +410,7 @@ export const blogEntries = [
       title: "Athens | Mykonos | Santorini, Greece 🇬🇷",
       content:
         "Another must stop on a trip around the world! Greece is the country my dad cherished visiting the most during his youth. Hopping from island to island. Eating amazing Mediterranean cuisine. Visiting the ancient ruins of what is now our modern democracy. It felt fitting to follow in his footsteps for the final time.\nI think my favorite types of stops are ones where I can see some world renowned ruins in the morning (Acropolis), have a quick, cheap, and traditional lunch in the afternoon (some gyros), and knock out a museum or two in the evening (Acropolis Museum + National Archaeological Museum) all while taking public transit and/or walking. Athens was perfect for that! I distinctly remember loving how spoiled I felt having everything within arms reach from where I was staying. An easy stop for tourists! Extremely welcomed after being non stop traveling for 7 weeks at this point.\nThere’s tons to explore in Greece! Just hop onto a ferry and go to any of the islands within a couple hours reach! The two more popular islands are Mykonos and Santironi so I figured those would be the best to see during my first visit. What I quickly noticed upon arrival was how many couples there were. Lots of honeymooners and retirees. While the islands were okay to experience as a solo traveler, I think they would’ve been more enjoyable with my S.O. beside me. I look forward to finding our ideal Greek island getaway together when her and I inevitably return ☺️",
-      publishDate: "October 24, 2023",
+      publishDate: "October 2, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -606,7 +606,7 @@ export const blogEntries = [
       title: "İstanbul, Turkey 🇹🇷",
       content:
         "Where East meets West! İstanbul felt like such a fitting city to visit while I transitioned from Asia to Europe! It is literally the meeting point between the two continents after all! Not only is İstanbul the largest city in all of Europe, but it also used to be the capital of the Roman Empire, Constantinople! It felt so wonderful to be back in Europe after traveling to so many other unique places in the world. I had been looking forward to this stop for a while and I'm happy that İstanbul didn't disappoint!\nThe thing I'll cherish most about my time here is the beauty of the city itself. When I first exited the metro line from the airport, my jaw dropped because of said beauty. The entire city is filled to the brim with GIGANTIC symmetrical mosques which (when you come from the USA) are extremely fascinating and unique! Virtually everywhere you go, you’ll see breathtaking views because of them. Each lookout point features hills filled with countless numbers of houses, tall spired minarets, and gigantic red and white Turkish flags waving proudly in the air! I tended to lose track of time whenever I stopped to take it all in.\nI had some ambitious day trips planned while I was here in Turkey. However, once I realized the sheer size of the entire city, I knew that those trips would have to be sidelined for a future visit. I heard road trips around the entirety of the country are fantastic! Something to look forward to during a future visit!",
-      publishDate: "October 18, 2023",
+      publishDate: "September 24, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -802,7 +802,7 @@ export const blogEntries = [
       title: "Cairo | Luxor, Egypt 🇪🇬",
       content:
         "The legendary and iconic Egypt! It was an absolute treat to finally experience the wonders of ancient Egypt and more! Egypt was another one of the countries my dad visited during his youth and always praised so much while my sister and I were growing up. There was a magnet of the pyramids on our fridge which after looking at it almost every day during my childhood, subtly pushed me to go and see them for myself. Now, I’m finally here!\nEgypt was the first country where I hired a private guide! I wanted to treat myself to absorbing as much history as I possibly could and I’m happy I did so with Egyptologist Ahmed. He made site-seeing engaging, intriguing, and effortless. I learned more than I would’ve ever done solo or with a group. It was the deluxe Egypt experience! I did make sure to have an extra day at the pyramids just to roam around by myself though. It was funny having all the hustlers trying to sell me a camel ride only to see them turn around disappointed once I showed them my photo. All part of the fun 😉\nWhile I was a tourist in the morning, I was a local by night. My new friend Abdula and I got acquainted through a mutual friend and I feel extremely lucky that our fates intertwined. He knew the best spots for hanging out, kicking back, and experiencing life like a modern Egyptian. I felt so much love and gratitude wherever we went due to his outgoing personality and extreme passion for making his guests feel at home. I urge everyone to come to Egypt so that they can experience the same.\nشكران Egypt!! You are easily one of the greats, and will continue to be for many centuries to come!",
-      publishDate: "October 9, 2023",
+      publishDate: "September 20, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -999,7 +999,7 @@ export const blogEntries = [
       title: "Jordan 🇯🇴",
       content:
         "A quick trip to Jordan to see another new wonder of the world, Petra! The entirety of Petra was astounding. When I veered around the corner from Al-Sīq (the canyon that leads you into Petra) and saw Al-Khazneh (The Treasury) for the first time, I was brought to the verge of tears. It’s not just a building carved into the side of a mountain; it's a gigantic, hand-crafted architectural and engineering masterpiece—a true work of art!\nThis was one of the few times I opted for a fully guided tour from start to finish. I was picked up directly from my hostel in Jerusalem, crossed the Palestinian border (visa process included), and enjoyed an air-conditioned bus ride to a fully facilitated desert camp right outside Petra. Usually, I prefer handling everything myself (transit, tickets, lodging), but this tour made more sense financially and logistically. Having a guide to explain the history, point out minute details, and teach us how to haggle for a camel ride was invaluable!\nI learned that Petra is a vast archaeological site where the Nabteans (an ancient Arab people) had their trading hub. It’s filled with large sandstone cliffs that were hand-carved top to bottom in the style of the Greeks and Romans. There was no room for mistakes when they made these colossal structures since any slip-up would’ve resulted in the entire project being ruined. Perfectionism at its finest!\nI feel like I could’ve spent at least another day or two exploring more of Petra. Having some more days for Amman would’ve been nice too but that will all need to be saved for another trip. Despite my short amount of time in Jordan, I am extremely happy I made the effort to go to Petra. It was spectacular and gave me the same feelings of awe, excitement, gratitude, and happiness that every other wonder of the world does. Everyone must go see it in their lifetime!",
-      publishDate: "October 3, 2023",
+      publishDate: "September 14, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -1196,7 +1196,7 @@ export const blogEntries = [
       title: "Tel Aviv, Israel 🇮🇱  + Jerusalem, Israel 🇮🇱 / Palestine 🇵🇸",
       content:
         "The first stop in the Middle East! Israel seemed like the perfect place to recoup after traveling for a month straight, and I guess I proved myself right! This stop was part reset, part history lesson. It marked the halfway point of my worldwide trip, so it was nice to be in a place that felt familiar yet unique.\nWhile Tel Aviv is known for its modernity and fun atmosphere, I was more interested in seeing Jerusalem - the meeting point of three major religions and cultures. When you explore the old town of Jerusalem, you see the essence of maintaining the status quo. There’s understanding and mutual respect between the Christians, Jews, and Muslims who are all living, working, and worshiping within a very small area. \nStanding in the places that are revered by so many people throughout the world made me feel empathetic and thankful that these places are open for devout pilgrims, casual believers, and curious onlookers to come and see with their own eyes. I know there’s a lot of contention in this part of the world right now, but in this particular space at this particular time, there is peace and I think that’s worth seeing and celebrating.",
-      publishDate: "September 25, 2023",
+      publishDate: "September 13, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -1357,7 +1357,7 @@ export const blogEntries = [
       title: "Delhi | Agra, India 🇮🇳",
       content:
         "When I was theorizing about this entire trip months ago, India was one of the key countries that glued it all together. If you had asked me last year if I felt confident traveling to India solo, it would have been an easy “absolutely not”. It wasn’t until I was being ripped down the highway in Bangkok on the back of a GrabBike with a broken speedometer with no helmet on that I thought “Yeah you know what…maybe I should just go for a huge ass world trip to India after this” and I now here I am!\nI came for the chaos of everything (along with the sites + food of course) and got exactly what I wanted. So much so that it made me want even more! I met a few friends over the last year who gushed about how much they loved India and now after experiencing just a snippet for myself, I can already understand what they mean. \nMy biggest takeaway from India is how nice everyone is! Restaurant owners won’t be afraid to have a full-on conversation with you. Strangers won’t hesitate to help you get to your next location safely. Local tourists won’t be scared to ask where you’re from and grab a selfie. Even the eager tuk-tuk drivers, shopkeepers, and guides trying to sell themselves are very kind! Always a smile on their face even after you nicely tell them “no thank you” for the 20th time 😅 It’s a special experience that I think everyone should go to see for themselves 😉\nMy time here unfortunately was cut short due to a typhoon in Hong Kong but despite the setback, I made the most of the time I had. I eagerly await the day when I have the opportunity to visit India again. Hopefully for much longer.\nधन्यवाद India!!",
-      publishDate: "September 18, 2023",
+      publishDate: "September 7, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -1600,7 +1600,7 @@ export const blogEntries = [
       title: "Hong Kong 🇭🇰",
       content:
         "There is a lot to gush about Hong Kong! So much charm and convenience packed into such a small area. It can best be described as unapologetically lived in, highly functional, ultra-convenient, and a pleasant mix of Asian and Western culture.\nSome examples:\n\t• The escalators going into and out of the metro move faster than anywhere I’ve been.\n\t• Doing line transfers in the metro is as simple as walking in a straight line on the same platform; from one track to the next.\n\t• Convenience stores are plentiful to the point where you can sometimes see two or even three within the same line of sight. \n\t• Food options are a great variety of Cantonese and every East + Southeast Asian country.\nOh! and as a nice little bonus, a lot of people speak English! \nI had a wonderful time exploring Hong Kong. It was my last stop in my ~5 month (breaks included) span across East + Southeast Asia and it’s easy to say that it ended on a high note. I got to reunite with friends I’ve made over the past year in the place they call home while also meeting new ones. I got to experience a level 10 typhoon and get stuck in a country for the first time. On top of that, I got to do all the sightseeing I wanted and more because of my extra time here!\nMy only hope is that all the things I love about this city stay exactly the same for future visits. Something tells me that this sadly won’t be the case but only time will tell! Until then, I want to give a big BIG shoutout and say thank you again to my friends Edwin, Yvonne, Garth, and Long for showing me around and helping me grow my love for Hong Kong. I’ll forever cherish the time I had here thanks to you all.",
-      publishDate: "September 11, 2023",
+      publishDate: "September 4, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -1797,7 +1797,7 @@ export const blogEntries = [
       title: "Seoul, South Korea 🇰🇷",
       content:
         "I knew I was gonna love Korea. but I just didn’t realize it was gonna win me over so easily. I felt the same sadness about Korea as I did with Taiwan. Always fell short of being able to visit, despite being so extremely close in the past. I was extremely happy to be here finally, and Korea delivered on all fronts.\nPart of me feels like Seoul is just hitting its stride. There’s quite a lot to do and see, and yet it still all felt so calm, orderly, and laid back. Maybe I just got lucky? Maybe it was just the change I needed after China? In any case, the less chaotic nature was noticeable, spectacular, and very welcomed. \nThe only part missing from my itinerary was going to a KPOP concert, or maybe just any concert in general (Porter/Madeon someday?). I was on the verge of attending one but decided against it. I’m sure I’ll regret this in the coming years. As a substitute, I was just able to hear Dynamite play over loudspeakers nearly everywhere I went. Not the same, but I still sang along and felt like I was in the cool music video every time it came on.\n고마워요 한국! 🫰 미국에서",
-      publishDate: "September 3, 2023",
+      publishDate: "August 29, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -1957,7 +1957,7 @@ export const blogEntries = [
       title: "Beijing | Xi'an | Zhangjiajie, China 🇨🇳",
       content:
         "I never imagined myself visiting China in my lifetime. It wasn't until I met Yao, my old college roommate, study buddy, teammate, and one of my best friends that I felt a desire to go see it for myself. I feel like I always had this made-up scenario where one day he would be visiting his home in Beijing, I would visit China, and he would be able to give me a personal tour. Realizing how absurd that scenario was after visiting him in London last year, I had a hunch that wasn’t going to happen. I needed to make moves on my own.\nAfter months of preparation, I was finally able to visit China! China was the only country where I had no option to obtain an e-visa or a visa on arrival. I had to meticulously plan out my entire trip, print out all the receipts, ticket stubs, and reservations, go into the consulate in San Fransisco with paperwork in hand for a visa interview, wait several hours for my name to be called, explain my reason for visiting China, give them my passport, and then pick it up weeks later. It was a confusing, stressful, and at times arduous process but it was all worth it in the end!\nThe best way to summarize China is that it’s BIG. The National Park in Zhangjiajie had massive and out-of-this-world scenery with an incredible infrastructure to boot! The crowds inside the main dig site for the Terracotta Warriors in Xi’an were busier than Disneyland on a holiday. The Great Wall was so large you could see it far into the horizon without effort. Beijing was a gigantic mega city such that even with a highly optimized public transportation network, it still takes you an hour to get from one tourist site to the next. It was wonderful to experience the absurdity of scale here. It was really like nowhere I had been before.\nI made a lot of wonderful memories during my stay here. I’m going to cherish the fun experiences I had with my new friends. I'm going to miss the spectacular and cheap Chinese food. I'm going to wonder what I did to deserve the above-and-beyond hospitality I was provided during my stay here. I’m going to continually think back on how happy strangers were to see a foreigner smile back and simply say ‘hello’ to them in their native language. Finally, I’m going to say a big 谢谢 to China for allowing foreigners to come and experience the marvels of this country once again ☺️",
-      publishDate: "August 27, 2023",
+      publishDate: "August 24, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -2271,7 +2271,7 @@ export const blogEntries = [
       title: "Taipei, Taiwan 🇹🇼",
       content:
         "Taiwan marks my first stop on my trip around the world! After missing out on visiting during my previous trips to Asia, it felt right to start here. I’d heard endless hype about the food, the people, and the scenery—and it all exceeded my expectations.\nI spent my first day exploring the city the way I always do: trying the national dish (beef noodle soup), then hitting the highlights. Along the way, I got boba from one of the originators, Chun Shui Tang. It was divine so I had to get another one to go. After visiting a few more places I took a sunset hike to the top of Elephant Peak to get an amazing view of Taipei 101. The grueling +90°F heat and the summertime humidity made it Type II fun, but it was 100% worth it! Evenings were reserved for the famous night markets, starting with Raohe St. Night Market. My time in Taiwan repeated this pattern. Food, highlights, more food, and possibly meeting a new friend along the way. It was great but on my last day, I still had a laundry list of things I wanted to do. Luckily there were people to help!\nOn my last night in Taiwan, my friends Darren and Venssa (who I met in Austria last year) rolled up to my hostel on their motorbikes with a spare helmet in hand, ready to hit the town! First, we went to a small Taoist temple where you can pray for good relationships. We then explored Dihua Street, where I learned about the unusual items locals buy, like solidified bird saliva for bird’s nest soup, a delicacy in Asia. We proceeded to the Container Market located next to the Tamsui River to finish off some of the Taiwanese street foods I had yet to try like ló͘-bah-pn̄g (minced pork rice) and ji pai (Taiwanese fried chicken). A 10-minute bike ride then got us to Ningxia Night Market where we had oyster omelets, stinky tofu (not for me), and Taiwanese shaved ice. It was a wonderful experience getting to catch up with my friends and check everything off my list. I’ll always be extremely thankful they were able to take me around like a local. I’ll make sure to return the favor whenever they come and visit me :) \nMy time here wasn’t long, so I’m very eager and excited to visit here again in the future. I feel happy that I was finally able to check Taiwan off my checklist! 謝謝台灣!",
-      publishDate: "August 21, 2023",
+      publishDate: "August 16, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -2485,7 +2485,7 @@ export const blogEntries = [
       title: "Manila, Philippines 🇵🇭",
       content:
         "Finally in the Philippines! My entire stay here felt like a wonderful ending to my Southeast Asia trip. The biggest things that stood out to me in Manila were the food, Binondo, and the Jeepneys!\nI’m a little ashamed to admit this but…before this, I had never had Filipino food (not even Jollibee). The first thing I did was go out with Patrick to try EVERYTHING! It was spectacular! Let’s just say that I’m gonna be taking some notes from my S/O’s mom whenever I get the chance to be in the kitchen with her 🤤\nManila also hosts the oldest Chinatown in the world in the form of Binondo. I felt super lucky to have both Patrick and Andrew show me around where they both essentially grew up. What they had taken as everyday familiarity, I saw as unique and interesting. Good eats, good vibes, and good memories! Thank you both for being awesome friends and awesome tour guides!\nAnd finally, what you see me hanging onto in one of the photos is quite possibly the most unique mode of transportation I’ve seen in all my traveling. The Jeepney! You won’t find them as an option on Google Maps, the routes are painted on the sides of the colorfully painted exterior and are only found in the Philippines. I learned about them from seeing Toro y Moi’s extremely eye-catching cover of his latest album Mahal. I became fascinated by the aesthetics and history of them from the moment I saw it. It felt so cool just seeing them literally…everywhere! Go out and see them while you can!\nSalamat Manila! Will be back to hopefully catch some waves next time 🏄‍♂️",
-      publishDate: "June 12, 2023",
+      publishDate: "May 18, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -2654,7 +2654,7 @@ export const blogEntries = [
       title: "Singapore 🇸🇬",
       content:
         "Singapore was the first place that made me feel like “damn, this is probably what the world will feel like in a few decades”. I had little to no knowledge about the history of Singapore, so it was a great learning experience to understand how the unique mixing pot of Malay, Chinese, and Indian cultures combined to make one highly successful country. The diversity between the three cultures was very intertwined to the point where a lot of signs were written in four different languages (English, Mandarin, Malay, and Tamil). It was so fascinating to me since the only other country I can remember having so many cultures mixed into one is the US, and yet it felt so much different here in Singapore. I loved it so much! \nAll the fantastic things I coincidentally ran into just added to the experience. Like stumbling upon the Pokémon Center right after leaving the airport and getting off at the wrong stop, being directly next to the famous hawker stalls right behind the random hostel I booked, or the fact that nearly all of the sites I wanted to see stemmed from my first stop on my first day of exploring. It all just flowed so well! So immensely happy with my time spent in Singapore and I can’t wait to revisit it far into the future to see how the futuristic city-state can outshine itself once more 💫",
-      publishDate: "June 5, 2023",
+      publishDate: "May 14, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -2823,7 +2823,7 @@ export const blogEntries = [
       title: "Chiang Mai | Bangkok | Phuket, Thailand 🇹🇭",
       content:
         "Thailand stole my heart! What a marvelous country! Thailand was similar to Italy in my head before this trip because of all the hype and praise I’ve received from other travelers during the last few months. Seemed like a certified must-go destination. Thailand lived up to every single bit of hype that was thrown my way!\nI was super happy I got to experience three different parts of the country. The Northern part with Chiang Mai with the elephant sanctuaries hidden within the hills, the bustling huge legendary mega-city of Bangkok, and the tropical Southern region of Phuket with a day trip out to Phi Phi and surrounding islands! It was just a wonderful rollercoaster of amazing experiences and mind-melting food.\nI also had one of the most stressful experiences on all my travels, my phone getting waterlogged without ever recovering. Thankfully, with the help of Aya and her husband Anthony, friends I made while on Ko Phi Phi Le, and my Dad relaying my 1Password info and 2FA codes over FaceTime, I was able to get back on my feet with only a half-day of downtime without a phone. I have no idea how people traveled without smartphones and I wasn’t gonna learn lol. I’ll always be thankful for the help they provided. so much for all your help! They quite literally saved my trip! ",
-      publishDate: "May 23, 2023",
+      publishDate: "May 11, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -3056,7 +3056,7 @@ export const blogEntries = [
       title: "Siem Reap, Cambodia 🇰🇭",
       content:
         "Did a quick stop in Cambodia to see Angkor Wat! Another one of those legendary sites that I’ve seen my entire life and finally had a chance to explore! Such a huge vast and intricate complex!! I was surprised we were able to climb to the top of the center of the temple and by how much freedom they allowed people to explore! The same feeling applies to all the other temples too! It was all so wonderful.\nThe day was made so much better because of some new friends I made, Stijn and Jan 🇳🇱. Together, we spent the whole afternoon exploring multiple temples, cooling down at the hostel pool, and then drinking cheap draft beers. One of the best parts of solo traveling is meeting people you really vibe with and today was no exception! Cheers boys!",
-      publishDate: "May 15, 2023",
+      publishDate: "May 4, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -3252,7 +3252,7 @@ export const blogEntries = [
       title: "Hanoi | Hội An | Ho Chi Minh City, Vietnam 🇻🇳",
       content:
         "After several months of waiting (and a few other trips), I finally made it to Southeast Asia! The first stop of course had to be Vietnam as it’s been on my bucket list for soo long! Mainly due to the food that I grew to love years ago. Safe to say all my cravings for excellent Vietnamese foods were satisfied!\nI had received so many wonderful recommendations from friends who had visited Vietnam recently and was lucky to be able to cross almost everything I wanted to do off my list! From exploring the old quarter in Hanoi, to sailing in the extremely vast and beautiful Ha Long Bay, then getting lost in the misty and utterly unique Ba Na Hills, riding a boat in the lantern-lit city of Hội An, and ending it all in the largest city of Ho Chi Minh…it was all so spectacular! The perfect starting point for my first time in Southeast Asia!\nCảm ơn Việt Nam!",
-      publishDate: "May 9, 2023",
+      publishDate: "May 2, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -3475,7 +3475,7 @@ export const blogEntries = [
       title: "Tokyo, Japan 🇯🇵",
       content:
         "The city that made me fall in love with Japan! Due to my chaotic itinerary, I stopped in Tokyo FOUR separate times within a single trip to Japan! It’s the city I spent over half my time in and I still didn’t have enough waking hours to do everything I wanted! It’s crazy how much there is to do within this city. I’ll cherish walking down the densely packed neon-lit streets, making wonderful memories with all my friends, being able to find a konbini at all times, and my Suica card 🐧\nI cannot wait to visit Tokyo many MANY more times in my lifetime!\nありがとうございます東京 🗼",
-      publishDate: "April 24, 2023",
+      publishDate: "April 6, 2023",
     },
     isFlagLink: true,
     previewIdx: 0,
@@ -3853,7 +3853,7 @@ export const blogEntries = [
       title: "Osaka, Japan 🇯🇵",
       content:
         "I love Osaka! Such a different vibe compared to Tokyo! Everything felt slower and more relaxing. I chalk it up to finally being able to take my time to explore as opposed to the constant stop-and-go nature during the first half of my trip. It was really relieving.\nWhat stood out to me was the plethora of cheap and amazing retro video game stores, the day trip to Nara to feed the deer (they’re so cute!), the over-the-top decorated storefronts, and all the delicious food that the Osaka prefecture is known for. Oh…and that poorly made Rock Hyrax poster I kept running into. I still love/hate that critter.\nありがとうございます大阪市 🏯",
-      publishDate: "April 18, 2023",
+      publishDate: "March 30, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -4105,7 +4105,7 @@ export const blogEntries = [
       content:
         "Kyoto was the first city I wrapped up on my 𝘴𝘰𝘮𝘦𝘸𝘩𝘢𝘵 chaotic trip through Japan. The cherry blossoms were in full bloom at the time, and I couldn’t have been more excited! \nThere were so many iconic sites that it was almost impossible to see all of them within only a few days. From Arashiyama Bamboo Forest to Kiyomizu-Dera, and Fushimi Inari Shrine…it was all so spectacular to be standing and exploring all the spots I’ve seen and heard so much about! \nWhile the visit was quick, I felt satisfied and kinda happy that I left some boxes unchecked. It gives me a great excuse to come back and do it all again!\nありがとうございます京都 ⛩️",
 
-      publishDate: "April 12, 2023",
+      publishDate: "March 25, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -4309,7 +4309,7 @@ export const blogEntries = [
     caption: {
       title: "Nagoya, Japan 🇯🇵",
       content: "",
-      publishDate: "September 26th, 2024",
+      publishDate: "March 17, 2024",
     },
     previewIdx: 0,
     postImages: [
@@ -4507,7 +4507,7 @@ export const blogEntries = [
       title: "Bogota, Colombia 🇨🇴",
       content:
         "A very colorful city, and my last stop during my first trip to South America. I had originally planned a lot more time here, but due to the Nurture Live tour being announced I had to cut things short. I still feel like there’s a lot more to explore when it comes to Colombia so I’ll definitely be back! \nThankfully, with the amount of time I did have, I was still able to catch up with one of my close friends Juan! We both met in Rome, and then a little later during our Europe travels met again in Paris, and now months later in Bogota! Truly international friends! Maybe we’ll bump up the count to four countries later this year 😉\n¡Gracias Colombia! ¡Nos volveremos a ver muy pronto!",
-      publishDate: "March 25, 2023",
+      publishDate: "March 10, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -4622,7 +4622,7 @@ export const blogEntries = [
       title: "Cusco | Machu Picchu, Peru 🇵🇪",
       content:
         "One night of sleeping inside the Lima airport, two nights getting acclimated in Cusco, a colectivo, a train, and a bus ride and there I was! Standing in the Inca ruins of Machu Picchu! \nIt all felt so absolutely unreal to me! Another one of those places I saw all the time growing up but never imagined myself ever seeing it in person. I think everyone there and myself felt incredibly lucky to be there as the weather was immaculate, and the crowds were thin. Truly felt like a once in a lifetime experience. \nA new wonder of the world, lots of delicious foods, and great people met along the way, all add up to make another amazing trip! ¡gracías Peru!",
-      publishDate: "March 23, 2023",
+      publishDate: "March 7, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -4836,7 +4836,7 @@ export const blogEntries = [
       title: "Iguaçu Falls, Brazil 🇧🇷 + Iguazu Falls, Argentina 🇦🇷",
       content:
         "Easily one of the most spectacular things I’ve ever seen in my life! It’s no wonder they call this one of the natural wonders of the world! An entire canyon of waterfalls, exotic animals, and new friends all within a span of 24 hours. Couldn’t ask for anything more!",
-      publishDate: "March 22, 2023",
+      publishDate: "April 24, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -4969,7 +4969,7 @@ export const blogEntries = [
       title: "Rio de Janeiro | São Paulo | Caraguatatuba, Brazil 🇧🇷",
       content:
         "I love Brazil, and Brazil loves me too! I've always wanted to visit Brazil but felt like I needed to get a little bit of traveling experience under my belt before taking the plunge. Having some friends from Brazil would’ve made me feel a lot more comfortable as well, and thankfully while in Europe I found Pedro and Samanta.\nI met Pedro in a bar in Budapest while we were both traveling through Europe. We were both very similar. Both worked in tech, both doing our first serious traveling, both liked to party (in moderation) and more! At some point in the conversation, he said very genuinely that I should come to Rio de Janeiro for Carnival in February! All while telling me all about how much fun he, his friends, and the entire country have while celebrating the holiday! Without any hesitation, I agreed to go, and when I got back from Europe, it was the next trip I started planning!\nFast forward a few months, and there I was! In Brazil, at Pedro’s, enjoying life like a Carioca. Looking back, I guess it was a little insane. Staying in the home of a friend that I had met ONCE across the world, in Rio of all places, just off of one single conversation. I honestly had very little doubt about the absurdity of it all, and thankfully the leap of faith paid off, and I had the time of my life! The first few days were chill and felt like a great vacation. Seeing the touristy sites of Rio, trying out all the delicious and unique Brazilian food, and learning how to manage getting around the city without running into issues. Then after a few days, the festivities began!\nAll of Pedro’s lifelong friends (brothers in my eyes) came to Rio to stay with us and then the real fun began. All of us, going from bloco to bloco, day after day for 5 days days straight! Insane!! The closest way to describe it would be like if you went to a music festival, but the festival is scattered throughout a gigantic and beautiful city, and EVERYONE is huge HUGE fan of every artist on the lineup! Everyone is singing along! Everyone is dancing! Everyone is included! Everyone is having the best day of their life! I loved Carnival sooo so much and while a lot of that love comes from Carnival itself, I feel like a lot of that love was thanks to all the friends who made me feel so included and loved during the entirety of it.\nI couldn’t party forever though…so after Rio I did a small trip to Iguaçu Falls to experience one of the natural wonders of Brazil (more on that later), then São Paulo to experience a more metropolitan version of Brazil, and finally ending up in Caraguatatuba at Samanta’s to experience the laid back beachy vibes of Brazil. Samanta and I met in our hostel in Rome, and by then I had already had my sights set on visiting Brazil. She was happy to host me once I told her about my travel plans, so we made it happen! Getting to experience the more relaxing, quiet, and more local vibe was exactly what I needed after the nearly nonstop action of Rio.\nI cannot wait to visit again! Brazil is a HUGE country, with the same square mileage as the continental US! Definitely wouldn’t mind checking out more of the national parks, eating more Brazilian food, and of course spending time with my new friends. Maybe I’ll know a bit more Portuguese by then! Until then, valeu valeu obrigado!",
-      publishDate: "March 21, 2023",
+      publishDate: "March 2, 2023",
     },
     previewIdx: 0,
     postImages: [
@@ -5195,7 +5195,7 @@ export const blogEntries = [
       title: "Lisbon, Portugal 🇵🇹",
       content:
         "My last stop during my first trip through Europe! As I was searching for flights to go back home from Madrid, one of the cheapest options was to do a 22 hour layover in Lisbon. Seemed like a no brainer since it meant adding one more visited country to my count. \nIf Madrid made me feel reminiscent of California, Lisbon was even more so. It felt like I was already in San Francisco just instead of the Pacific Ocean, it was the Atlantic. The infamous coastal weather included!\nBy the time I was here, I felt content and ready to come back home after 5 weeks abroad. It was a spectacular trip that I will cherish for the rest of my life. Can’t wait to come back to do it all again sometime in the future!",
-      publishDate: "November 21, 2022",
+      publishDate: "October 28, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -5328,7 +5328,7 @@ export const blogEntries = [
       title: "Madrid, Spain 🇪🇸",
       content:
         "When I was planning on how to spend the last few days of my trip after France, I was originally going to head back to London to do a few things I missed. When I saw the train seat prices I did some comparisons on flight tickets and quickly decided against it. It gave me the perfect excuse to go visit Spain! With the limited time I could only realistically visit one city so the question was Barcelona or Madrid? Madrid won solely because of Museo del Prado!\nI feel like I made the right decision as Madrid was stellar! It all felt reminiscent of California and ultimately made me feel a little homesick. I also felt a lot of the the Spanish I used to know come back almost naturally as I explored! My stop here was fairly quick, but I know I’ll be back someday as I really want to complete the Camino Frances. Something to look forward to!",
-      publishDate: "November 14, 2022",
+      publishDate: "October 27, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -5455,7 +5455,7 @@ export const blogEntries = [
       title: "Paris, France 🇫🇷",
       content:
         "What a magnificent city! Paris fell into the same legendary status for me like Italy did, and luckily it also delivered on all fronts.\nThe city as a whole was wayyy larger than I expected. I’m so glad I reserved extra time in Paris as there was just so much stuff to do! Everything I did while I was in Paris felt so fulfilling. Like I’ve been waiting my entire life just to experience every moment. Having authentic French pastries and fancy French cuisine. Exploring The Louvre and Orsay Museums. Being up close to the Eiffel Tower, Notre Dame, and Arc de Triomphe. All just magnificent!\nI was warned that French are a little rude towards foreigners who don’t speak the language so I did feel a bit intimidated going in. I felt the most out of place during my first day, but the feeling quickly went away once I started noticing the smiles on people’s faces when I used the small amount of French I did know. After that hurdle, I felt confident and welcomed, making the rest of my stay dreamlike! I cannot wait to come back!",
-      publishDate: "November 2, 2022",
+      publishDate: "October 25, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -5714,7 +5714,7 @@ export const blogEntries = [
       title: "Rome | Florence | Milan, Italy 🇮🇹 + Vatican City 🇻🇦",
       content:
         "I still can’t believe I was in Italy! I’ve been wanting to visit ever since I was very young when my Dad taught me and my sister about the wonders of Ancient Rome, the impact of the Renaissance, and the importance of travel. Italy was always THE country I imagined going to when visiting Europe so it was surreal to finally be there. Hearing all the hype from other travelers I met this month made me even more excited to go and experience it all for myself!\nTo say that Italy lived up to my expectations is an understatement. The ancient architecture was so epic that I was filled with excitement whenever it was in eyesight. The art was so beautiful it brought me to tears multiple times. The food was…the food was the best I’ve ever had in my life! I am stunned by how much everything lived up to the hype, and was sad that I eventually had to leave.\nI eagerly want to head back already. I feel like I only scratched the surface and could easily spend several more weeks exploring. I want to experience everything Italy has to offer! Until that time comes, I will cherish the time I had here immensely. Grazie Italia!",
-      publishDate: "October 27, 2022",
+      publishDate: "October 20, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -6057,7 +6057,7 @@ export const blogEntries = [
       title: "Budapest, Hungary 🇭🇺",
       content:
         "Seventh stop in Europe! Budapest was breathtaking! I felt a sense of freedom multiple times whenever I was able to see lots of interesting landmarks from where I was standing, and knowing that I’d be able to visit and fully explore every location with little to no hassle. It was amazing!\nThis is also the first stop where I really felt like I wanted to stay longer. Not only due to how beautiful the city itself was, but also because of how the friends I made in Vienna and the new friends I made here in Budapest were staying in the city juuuuust a little longer. I’m re-learning that one the harder parts of traveling solo isn’t making new friends, but having to say goodbye to them.",
-      publishDate: "October 23, 2022",
+      publishDate: "October 12, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -6246,7 +6246,7 @@ export const blogEntries = [
       title: "Vienna, Austria 🇦🇹",
       content:
         "Sixth city in Europe! My time here just flew by. Maybe it’s a sign I’m going through some stops too fast? So far, my strategy has been to leave a country in the morning/afternoon in order to get to the next one in the evening but Vienna was the exception. I dedicated another day to exploring everything I wanted. It was totally worth it! \nWhat I’m going to remember most is how quickly I was able to make new friends and how expansive and beautiful the palaces were. My only wish is that I was able to see the palaces at night with friends! I found out the hard way that the only way to do that is to be in Vienna around Christmas time. Might be a fun thing to do in the future!",
-      publishDate: "October 20, 2022",
+      publishDate: "October 10, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -6434,7 +6434,7 @@ export const blogEntries = [
       title: "Prague, Czech Republic 🇨🇿",
       content:
         "Europe stop number five! This city felt like walking in a fantasy world. The beautiful train ride in, untouched gothic architecture, maze-like cobblestone streets, and awe-inspiring views were all like nothing I have ever seen before. Just amazing! \nI was and still am a bit sad that I wasn’t able to tour the famous Prague Castle that was looming in the distance, but it just gives me all the more reason to come back and visit again!",
-      publishDate: "October 15, 2022",
+      publishDate: "October 8, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -6595,7 +6595,7 @@ export const blogEntries = [
       title: "Berlin, Germany 🇩🇪",
       content:
         "Berlin is so cool! I was told by a friend that you can feel the sense of freedom here, and that really rang true. I coincidentally was here during Germany’s “Freedom Day” - where East and West Germany united into one democratic state back in 1991 - so that also helped a bit. There is so much recent history that’s proudly on display and the entire city just feels so serious and modern. It was amazing!\nDefinitely one of my favorite stops thus far! I was able to make two new friends. One was my friend Kim - a Korean-American man who worked in Germany and eventually immigrated to Finland after meeting his wife. We met at a German food hall after coincidentally sitting next to each other. When you eat cafeteria style, you make friends! After a night of drinking local beers and talking endlessly about life, he asked if I played Pokemon GO and had any Tauros to trade him - a special Pokemon you can only catch in the USA. I did, we did the trade, celebrated, and said our goodbyes. Absolutely legendary!\nThe second friend was Long. An expat from Hong Kong who went to UC Berkeley to study math (not too far off from computer science at UC Santa Barbara). He was the most traveled person my age I had met up to now so being able to learn what life was like as an expat, while also teaching me new travel tips was incredibly interesting and invaluable. He also led us to a popup techno chess club hosted by a famous Twitch streamer. Being able to check “go to a techno club in Berlin” off my bucket list in the most nerdy way possible felt extremely fitting for the both of us. Wouldn’t have wanted it any other way.\nDanke schön Berlin! I cannot wait to visit this wonderful country once more.",
-      publishDate: "October 10, 2022",
+      publishDate: "October 6, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -6784,7 +6784,7 @@ export const blogEntries = [
       title: "Amsterdam, Netherlands 🇳🇱",
       content:
         "When in Europe, you have to visit Amsterdam! This place was such a trip! Shops openly advertising and selling drugs, the booming streets filled with nightclubs, and the entirety of the red light district. Just bizarre! While everything that Amsterdam is infamous for isn’t entirely my vibe, it was still wonderful to observe that type of liberal culture out front and center.\nBesides the famous art museums, canals, and food, what I was most interested in seeing in Amsterdam was what life might be like if I were to move here. I have two close friends Tiffy & Chris who are in the process of immigrating to the Netherlands so before I arrived was of course asking myself “What am I missing here?”\nThe biggest upsides I see are how much the Dutch seem to prioritize everyday life. Something as simple as making cars in one of their biggest cities a second-class mode of transportation is foreign to the US (sans NYC). Just from sitting and talking to some locals in Voldenpark, the people here seemed genuinely happy and laid back. I’ve also been told the Dutch are extremely level-headed too so that is always a plus. Kids are also able to walk to school on their own without fear and have a lot of independence. A bit different to how children are raised in the States. Maybe I should consider moving to the Netherlands as well 🤔 Something to consider during my next job hunt, whenever that is..",
-      publishDate: "October 6, 2022",
+      publishDate: "October 3, 2022",
     },
 
     previewIdx: 0,
@@ -6938,7 +6938,7 @@ export const blogEntries = [
       title: "Brussels, Belgium 🇧🇪",
       content:
         "My second stop in Europe! When picking my next country to visit my only thought was “I want to go to Belgium just to get Belgian waffle.” All I did was book a hostel, punch in where I wanted to go in the “Eurail” app, and within a few hours I was in Brussels!\nSuch an amazing city! Brussels really had that “European” vibe that I was searching for. Gothic architecture, cobblestone streets, and everything within walking distance. I also really loved how the city lit up at night! The Belgian waffles and chocolates definitely lived up to their fame. I think my sweet tooth led me in the right direction.\nA big thank you to my new Belgian friend Alex, whom I met while playing Pokemon GO of all things. He was kind enough to show me around the city, treat me to dinner, and teach me a bit of the history and politics of Belgium, all while being extremely hospitable and helpful. I hope to see you again someday my friend!",
-      publishDate: "October 3, 2022",
+      publishDate: "September 30, 2022",
     },
     previewIdx: 0,
     postImages: [
@@ -7098,7 +7098,7 @@ export const blogEntries = [
       title: "England 🇬🇧",
       content:
         "With my hopes of thru-hiking shattered after my PCT attempt, I figured I would just go back to my life as a software engineer in Silicon Valley. My dad - who had the wisdom to travel as much as he could before settling down - said something like “Well..you still have savings. Why not just do a trip to Europe before you start working again? You have nothing to lose!” I never envisioned myself being able to travel abroad solo. I guess once you’re stranded on the border of Mexico with everything you need to survive on your back (read more about my PCT hike here) it makes traveling to another country a breeze. After hearing his advice I figured why the hell not?!\nBefore this, I had never traveled internationally. Not even to Mexico or Canada. One of my best friends from college, Yao, had just finished moving to London to start his master's degree so I’d be able to visit him. That, along with being in a country that has “English” written into the country’s name, made it seem like the perfect place to get my bearings! With no plans, I bought a one-way plane ticket to London, a Eurail pass, and set off on a 5-week journey across Europe!\nLondon really was the perfect place to start my trip. So many famous landmarks, sites, and museums to visit all within walking distance or a short tube ride. It was truly a treat! The only thing I remember throwing me off a bit was some of the English phrases I encountered. Like when I got off my 12-hour flight absolutely exhausted and the first person I interacted with said “You alright?”. It’s just their way of saying “How’s it going?”. I cannot wait to visit again someday to experience more of what England has to offer!\nI want to give a big shoutout to my friend Yao for not only housing me, but also being a good travel buddy, and making me feel welcomed across the pond. ",
-      publishDate: "September 30, 2022",
+      publishDate: "September 28, 2022",
     },
     previewIdx: 0,
     postImages: [
