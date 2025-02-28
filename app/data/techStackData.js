@@ -1,14 +1,18 @@
+// Order matters here
+
 export const techStackData = {
-  languages: ["python", "javascript", "typescript", "java", "cpp", "c"],
+  languages: ["python", "typescript", "javascript", "java", "cpp", "c"],
   web: [
     "nextjs",
     "react",
     "html",
     "css",
-    "tailwind",
     "nodejs",
-    "express",
     "flask",
+    "tailwind",
+    "mui",
+    "express",
+    "auth0",
   ],
   databases: [
     "mysql",
@@ -21,10 +25,13 @@ export const techStackData = {
   ],
   infrastructure: [
     "aws",
+    "gcp",
     "docker",
     "nginx",
     "jenkins",
-    "puppet",
+    "kafka",
+    "k8s",
+    "terraform",
     "cloudflare",
     "vercel",
   ],

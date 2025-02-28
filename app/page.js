@@ -55,28 +55,26 @@ function StackIcon({
 }
 
 function generateStackIconList(techIconsArr, scale = 1) {
-  // Add components to hash table to maintain the order descripted in the JSON
-  let techHash = new Object();
-  techIconsData.forEach((item) => {
-    techHash[item.img] = (
-      <StackIcon
-        key={item.img}
-        stackImg={`${item.img}`}
-        stackImgAlt={`${item.name} Logo`}
-        stackName={item.name}
-        stackShortName={item.shortName ? item.shortName : item.name}
-        stackLink={item.link}
-        scale={scale}
-        hasDarkMode={item.darkMode2}
-      />
-    );
-  });
-  // Building the actual list. In order of the JSON.
-  let techRowElements = [];
-  techIconsArr.forEach((item) => {
-    techRowElements.push(techHash[item]);
-  });
-  return techRowElements;
+  const techHash = {};
+
+  Object.values(techIconsData)
+    .flat()
+    .forEach((item) => {
+      techHash[item.img] = (
+        <StackIcon
+          key={item.img}
+          hasDarkMode={item.darkMode || item.darkMode2}
+          scale={scale}
+          stackImg={`${item.img}`}
+          stackImgAlt={`${item.name} Logo`}
+          stackLink={item.link}
+          stackName={item.name}
+          stackShortName={item.shortName ? item.shortName : item.name}
+        />
+      );
+    });
+
+  return techIconsArr.map((item) => techHash[item]).filter(Boolean);
 }
 
 function Project({ projectInfo }) {
@@ -200,7 +198,7 @@ function AboutSection({}) {
               <b>Degree:</b> B.S. Computer Science
             </li>
             <li>
-              <b>Fav Languages:</b> Python & JavaScript
+              <b>Fav Languages:</b> Python & TypeScript
             </li>
             <li>
               <b>Working at:</b>{" "}
@@ -349,23 +347,29 @@ function TechStackSection({}) {
         }
       </p>
       <div className="flex justify-center content-center flex-col pb-10">
-        <h5 className="">Programming Languages</h5>
+        <h4 className="">Programming Languages</h4>
         <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3 pb-3">
           {languageList}
         </div>
-        <h5 className="">Web Development</h5>
-        <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <h4 className="">Web Development</h4>
+        <div className="hidden sm:grid grid-cols-10 grid-rows-1 gap-x-5 pt-3 pb-3">
           {webList}
         </div>
-        <h5 className="">Databases</h5>
+        <div className="sm:hidden grid grid-cols-5 grid-rows-1 gap-x-5 gap-y-5 pt-3 pb-3">
+          {webList}
+        </div>
+        <h4 className="">Databases</h4>
         <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
           {databaseList}
         </div>
-        <h5 className="">Infrastructure</h5>
-        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <h4 className="">Infrastructure</h4>
+        <div className="hidden sm:grid grid-cols-9 grid-rows-1 gap-x-5 pt-3 pb-3">
           {infrastructureList}
         </div>
-        <h5 className="">Tools + Programs</h5>
+        <div className="sm:hidden grid grid-cols-5 grid-rows-1 gap-x-5 gap-y-5 pt-3 pb-3">
+          {infrastructureList}
+        </div>
+        <h4 className="">Tools + Programs</h4>
         <div className="grid grid-cols-8 grid-rows-1 gap-x-5 pt-3 pb-3">
           {toolsList}
         </div>
