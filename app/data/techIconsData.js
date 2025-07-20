@@ -124,7 +124,7 @@ export const techIconsData = {
     {
       name: "Kubernetes",
       link: "https://kubernetes.io/",
-      img: "kubernetes",
+      img: "k8s",
       shortName: "K8s",
     },
   ],

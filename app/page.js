@@ -5,6 +5,7 @@ import { techIconsData } from "./data/techIconsData.js";
 import { techStackData } from "./data/techStackData.js";
 import { projectsList } from "./data/projectsList.js";
 import { NavDropdown } from "./components/NavDropdown";
+import getGmtOffset from "./lib/getGmtOffset";
 import { linkConstants } from "./lib/linkConstants";
 import { Footer } from "./components/Footer";
 
@@ -162,34 +163,36 @@ function SectionHeader({ id, link, title, imgSrc, imgSrcW, imgAlt }) {
 }
 
 function AboutSection({}) {
+  const gmtOffset = getGmtOffset('America/Denver');
+  // const gmtOffset = getGmtOffset('America/Los_Angeles'); 
   return (
     <section id="intro" className="flex flex-col max-w-screen-md pb-10">
       <div
         id="picAndInfo"
         className="flex flex-col md:flex-row items-center justify-center"
       >
-        <Link
+        {/* <Link
           href={linkConstants.TOKYO_BLOG}
           className="hover:scale-105 transition duration-200 ease-in-out"
           title="Tokyo, Japan 🇯🇵"
-        >
+        > */}
           <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
             <Image
               src={chanPhoto}
-              alt="Chandler at the Pokemon Cafe in Tokyo, Japan"
+              alt="Chandler at the University of Washington Quad during the cherry blossom blooming."
               className="rounded-xl"
               priority={true}
               unoptimized={true}
             />
           </div>
-        </Link>
+        {/* </Link> */}
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
           <ul>
             <li>
               <b>Name:</b> Chandler Forrest
             </li>
             <li>
-              <b>Location:</b> Seattle (GMT -07:00)
+              <b>Location:</b> Denver ({gmtOffset})         
             </li>
             <li>
               <b>Alma Mater:</b> UC Santa Barbara
@@ -348,7 +351,7 @@ function TechStackSection({}) {
       </p>
       <div className="flex justify-center content-center flex-col pb-10">
         <h4 className="">Programming Languages</h4>
-        <div className="grid grid-cols-6 grid-rows-1 gap-x-5 pt-3 pb-3">
+        <div className="grid grid-cols-7 grid-rows-1 gap-x-5 pt-3 pb-3">
           {languageList}
         </div>
         <h4 className="">Web Development</h4>

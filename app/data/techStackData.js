@@ -1,7 +1,7 @@
 // Order matters here
 
 export const techStackData = {
-  languages: ["python", "typescript", "javascript", "java", "cpp", "c"],
+  languages: ["python", "typescript", "javascript", "go", "java", "cpp", "c"],
   web: [
     "nextjs",
     "react",
@@ -27,13 +27,12 @@ export const techStackData = {
     "aws",
     "gcp",
     "docker",
+    "k8s",
+    "kafka",
     "nginx",
     "jenkins",
-    "kafka",
-    "k8s",
     "terraform",
     "cloudflare",
-    "vercel",
   ],
   tools: [
     "git",
