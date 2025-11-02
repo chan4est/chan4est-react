@@ -163,8 +163,7 @@ function SectionHeader({ id, link, title, imgSrc, imgSrcW, imgAlt }) {
 }
 
 function AboutSection({}) {
-  const gmtOffset = getGmtOffset('America/Denver');
-  // const gmtOffset = getGmtOffset('America/Los_Angeles'); 
+  const gmtOffset = getGmtOffset('America/Los_Angeles'); 
   return (
     <section id="intro" className="flex flex-col max-w-screen-md pb-10">
       <div
@@ -192,7 +191,7 @@ function AboutSection({}) {
               <b>Name:</b> Chandler Forrest
             </li>
             <li>
-              <b>Location:</b> Denver ({gmtOffset})         
+              <b>Location:</b> SoCal ({gmtOffset})         
             </li>
             <li>
               <b>Alma Mater:</b> UC Santa Barbara
