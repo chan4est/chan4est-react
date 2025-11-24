@@ -6,6 +6,7 @@ import { techStackData } from "./data/techStackData.js";
 import { projectsList } from "./data/projectsList.js";
 import { NavDropdown } from "./components/NavDropdown";
 import getGmtOffset from "./lib/getGmtOffset";
+import getMilitaryTime from "./lib/getMilitaryTime"
 import { linkConstants } from "./lib/linkConstants";
 import { Footer } from "./components/Footer";
 
@@ -163,7 +164,8 @@ function SectionHeader({ id, link, title, imgSrc, imgSrcW, imgAlt }) {
 }
 
 function AboutSection({}) {
-  const gmtOffset = getGmtOffset('America/Los_Angeles'); 
+  const gmtOffset = getGmtOffset('America/Los_Angeles');
+  const militaryTime = getMilitaryTime('America/Los_Angeles');
   return (
     <section id="intro" className="flex flex-col max-w-screen-md pb-10">
       <div
@@ -191,7 +193,10 @@ function AboutSection({}) {
               <b>Name:</b> Chandler Forrest
             </li>
             <li>
-              <b>Location:</b> SoCal ({gmtOffset})         
+              <b>Location:</b> SoCal (Temporarily)
+            </li>
+            <li>
+              <b>Time:</b> {militaryTime} ({gmtOffset})
             </li>
             <li>
               <b>Alma Mater:</b> UC Santa Barbara

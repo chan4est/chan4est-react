@@ -2,7 +2,7 @@
 export const projectsList = [
   {
     languages: [
-      "typescript",
+      "javascript",
       "react",
       "nextjs",
       "html",
