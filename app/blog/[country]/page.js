@@ -9,7 +9,9 @@ import { CommentSection } from "../../components/CommentSection";
 import { ImageCarousel } from "../../components/ImageCarousel";
 import { NurtureCoordinates } from "../../components/NurtureCoordinates";
 
-export async function generateMetadata({ params, searchParams }) {
+export async function generateMetadata(props) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   let metadata = { title: "404 Not Found" };
 
   // -1 to account for 0 based indexing
@@ -122,7 +124,9 @@ function BlogText({ title, paragraphs, publishDate, country }) {
   );
 }
 
-export default function BlogPage({ params, searchParams }) {
+export default async function BlogPage(props) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
   // Bogus route

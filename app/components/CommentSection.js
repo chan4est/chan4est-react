@@ -31,7 +31,7 @@ function Comment({ userName, text, date, userImage }) {
 }
 
 export async function CommentSection({ country }) {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const supabase = createClient(cookieStore);
 
   let commentsList = (

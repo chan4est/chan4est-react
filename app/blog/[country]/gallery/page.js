@@ -4,7 +4,8 @@ import { linkConstants } from "../../../lib/linkConstants";
 import { BlogPhotoGrid } from "../../..//components/BlogPhotoGrid";
 import { BlogPostNavBar } from "../../..//components/BlogPostNavBar";
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata(props) {
+  const params = await props.params;
   let metadata = { title: "404 Not Found" };
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
@@ -36,7 +37,8 @@ export async function generateStaticParams() {
   return blogEntryRoutes;
 }
 
-export default function BlogPage({ params, searchParams }) {
+export default async function BlogPage(props) {
+  const params = await props.params;
   const blogData = blogEntries.find((blog) => blog.route === params.country);
 
   // Bogus route
