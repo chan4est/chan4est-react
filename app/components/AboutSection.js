@@ -6,7 +6,7 @@ import Link from "next/link";
 import chanPhoto from "../../public/me.webp";
 import { linkConstants } from "../lib/linkConstants";
 import getUtcOffset from "../lib/getUtcOffset";
-import getMilitaryTime from "../lib/getMilitaryTime"
+import getMilitaryTime from "../lib/getMilitaryTime";
 
 function AboutContactIcon({ link, title, imgSrc, imgSrcW, imgAlt }) {
   return (
@@ -60,15 +60,15 @@ export function AboutSection() {
           className="hover:scale-105 transition duration-200 ease-in-out"
           title="Tokyo, Japan 🇯🇵"
         > */}
-          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
-            <Image
-              src={chanPhoto}
-              alt="Chandler at the University of Washington Quad during the cherry blossom blooming."
-              className="rounded-xl"
-              priority={true}
-              unoptimized={true}
-            />
-          </div>
+        <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 flex-shrink-0">
+          <Image
+            src={chanPhoto}
+            alt=""
+            className="rounded-xl"
+            priority={true}
+            unoptimized={true}
+          />
+        </div>
         {/* </Link> */}
         <div className="flex flex-col items-center justify-center pt-5 md:pl-7">
           <ul>
@@ -76,7 +76,7 @@ export function AboutSection() {
               <b>Name:</b> Chandler Forrest
             </li>
             <li>
-              <b>Location:</b> SoCal (Temporarily)
+              <b>Location:</b> Seattle
             </li>
             <li>
               <b>Time:</b> {militaryTime} ({utcOffset})
