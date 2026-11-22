@@ -36,15 +36,13 @@ export function AboutSection() {
   useEffect(() => {
     const timeZone = "America/Los_Angeles";
 
-    // Set initial values
     setMilitaryTime(getMilitaryTime(timeZone));
     setUtcOffset(getUtcOffset(timeZone));
 
-    // Update the time every minute
     const interval = setInterval(() => {
       setMilitaryTime(getMilitaryTime(timeZone));
       setUtcOffset(getUtcOffset(timeZone));
-    }, 1000 * 30); // update every 30 seconds
+    }, 1000); // update every second
 
     return () => clearInterval(interval);
   }, []);
@@ -145,11 +143,6 @@ export function AboutSection() {
           traveling abroad
         </Link>
         !
-      </p>
-
-      <p className="pt-5">
-        I&apos;m not currently looking for any new opportunities, but if you
-        want to contact me for any other reason please drop me a line!
       </p>
       <div
         id="contact"

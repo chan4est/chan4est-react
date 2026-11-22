@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/resume',
-        destination: '/Chandler-Forrest-Resume.pdf',
+        destination: '/Chandler-Forrest-Software-Engineer-Resume.pdf',
         permanent: false,
       },
       {
